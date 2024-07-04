@@ -1,3 +1,5 @@
+# Detection of Spoofed Emails
+
 EmailEvents
 | join kind=inner (IdentityInfo) on $left.SenderDisplayName == $right.AccountDisplayName
 // Filter by emails detected as Threat, delivered into Inbox-Folder and non-sent by owned Email Domains
