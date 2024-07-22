@@ -1,22 +1,667 @@
-ISP
-wide netcom india
-chinanet guangdong province network
-emirates integrated telecommunications company pjsc
-smartone mobile communications ltd
-sk broadband co ltd
-transitnetwork infrastructure
-chunghwa telecom co. ltd.
-lgtelecom
-chinanet anhui province network
-china unicom innermongolia province network
 china unicom sichuan province network
-emirates integrated telecommunications company pjsc (eitc-du)
-china unicom neimeng province network
-dynamic private network
-turkcell internet
-lg dacom corporation
-wireless data service provider corporation
-chinanet hubei province network
-vipturbo com rcio & servi os de inform tica ltda
+smartone mobile communications ltd
 hanaro telecom inc.
+turkcell internet
+china mobile communications corporation
+lg dacom corporation
+comcast
+korea telecom
+prometey broadband corportate customers
+racknerd llc
+sk broadband co ltd
+emirates integrated telecommunications company pjsc (eitc-du)
+emirates integrated telecommunications company pjsc
+wide netcom india
+lgtelecom
+chinanet jiangxi province network
+china unicom innermongolia province network
+ncnet broadband customers
+dynamic private network
+together communication ltd
+charter communications inc
+dsl-ull
+chinanet anhui province network
+orlandonet ltd.
+xtra telecom s.a.
+hostpapa
+charter communications
+bredband2 ab
+vipturbo com rcio & servi os de inform tica ltda
+chunghwa telecom co. ltd.
+network for comcor-b2b-clients
+telef nica brasil s.a
+pool for broadband dsl customers
+chinanet guangdong province network
+vianettv inc
+douglas fastnet
+bredband2 customer
+wireless data service provider corporation
+carconnex
+shuozhou shanyin8825 ippool
+china unicom neimeng province network
+dynamic distribution ip s for broadband services
+ balticom  jsc
+industrial media network llc
+net1 ltd.
+biterika group llc
+vocus retail
+maxnet llc  kharkiv
+dai ip dong ket noi xdsl
+ip addresses assigned to vf dsl customers
+ex-netname
+kopings kabel-tv ab
+pjsc rostelecom  penza branch
+multisoft llc
 m1 ltd
+pjsc vimpelcom
+verizon
+chinanet jiangsu province network
+chinanet hubei province network
+dynamic private network
+csl next g
+chinanet liaoning province network
+abts tamilnadu 
+vocus pty ltd
+china unicom innermongolia province network
+dai ip dong ket noi xdsl
+china unicom henan province network
+emirates integrated telecommunications company pjsc
+chinanet jiangsu province network
+optimum
+chinanet guangdong province network
+chinanet jiangxi province network
+china unicom gansu province network
+far eastone telecommunication co.  ltd.
+tpg internet pty ltd.
+telus communications inc.
+chunghwa telecom co. ltd.
+cox communications inc.
+telef nica brasil s.a
+isp kievnet
+pccw limited
+china unicom yunnan province network
+turkcell internet
+sk broadband co ltd
+china mobile communications corporation
+china aguatic zhoushan marine fisheries co. ltd.
+new fdm s.p.a.
+charter communications
+assined to sv chrome hotels
+dai ip cho dich vu adsl dgn+nan
+china united network communications corporation limited
+chinanet anhui province network
+vipturbo com rcio & servi os de inform tica ltda
+lg dacom corporation
+racknerd llc
+china unicom neimeng province network
+innermongoliaalashanzxab80mh01adslpool
+oxio
+gesti n de direccionamiento uninet
+onlycable comunicaciones s.l.
+chinanet hubei province network
+digi telecommunications sdn bhd
+tencent cloud computing (beijing) co.  ltd.
+abts-mumbai
+smartone mobile communications ltd
+pjsc rostelecom
+open infra isp production international ab
+hong kong telecommunications (hkt) limited mass internet
+monte alto net ltda
+china unicom shandong province network
+douglas fastnet
+leased by corporate customers
+tencent cloud computing (beijing) co.  ltd
+chinanet neimenggu province network
+truvista communications
+sudokwonkangbukbonbujang
+china unicom jilin province network
+lgtelecom
+shuozhou shanyin8825 ippool
+emirates integrated telecommunications company pjsc (eitc-du)
+sunline.net.ua ltd
+china unicom shanxi province network
+vianettv inc
+chinanet hebei province network
+peuroniseu
+bredband2 ab
+iinet limited
+innermongoliaalashanerx1400ippool
+carrytel
+bulsatcom ead
+starhub internet pte ltd
+kimhaejisa
+kopings kabel-tv ab
+wireless data service provider corporation
+airdesign broadcast media pvt ltd
+agence tunisienne internet - ati
+earthlink telecommunications equipment trading & services dmcc
+morton-telekom ltd
+china unicom shan1xi province network
+cox communications
+lg hellovision corp.
+chinanet shanxi(sn) province network
+beijing teletron telecom engineering co.  ltd.
+pjsc vimpelcom
+bredband2 customer
+magyar telekom customers using static ip
+cogent communications
+bharti televentures limited a/c abts mp
+imperial communication entrepreneurs pvt ltd
+chinanet shandong province network
+abts delhi 
+m1 ltd
+cellucar subscribers for ggsn rh & yv
+viettel (cambodia) pte.  ltd.
+chinanet chongqing province network
+chinanet shanghai province network
+chinanet fujian province network
+chinanet yunnan province network
+bharti telenet ltd. new delhi
+bg-karnobatnet
+wirenet llc
+china unicom hebei province network
+Google Cloud
+chinanet neimeng province network
+wide netcom india
+innermongoliawuhaiyiwangqingshenwb
+chinanet sichuan province network
+pelephone communications ltd.
+maxnet llc  kharkiv
+biterika group llc
+beijing capitalonline data service co. ltd
+v tal
+godaddy.com  llc
+pronet telecom ltd.
+fox rehabilitatio
+hong kong telecommunications (hkt) limited business internet
+chinanet beijing province network
+m1 limited
+orlandonet ltd.
+u.p. communication services pvt ltd
+proxxima telecomunicacoes sa
+claro nxt telecomunicacoes ltda
+proton66 llc
+jsc er-telecom holding krasnoyarsk branch
+prometey broadband corportate customers
+telecom argentina s.a.
+futurenet telecom private limited
+primus telecommunications canada inc.
+together communication ltd
+hanaro telecom inc.
+broadband users of vectra s.a.
+pjsc rostelecom  penza branch
+china unicom sichuan province network
+chinanet-zj huzhou node network
+new century infocomm tech. co.  ltd.
+nks broadband customers
+google
+china unicom liaoning province network
+ch informatica ltda
+starhub cable vision ltd
+telia network services
+chinanet-zj jiaxing node network
+limited company russkiy medved  kemerovo  russia
+dsl-ull
+fpt telecom
+bharti airtel services limited  6th floor   interface building n
+railtel corporation is an internet service provider.
+frantech solutions
+metropolitan branch of pjsc megafon
+multisoft llc
+charter communications  inc
+frontier communications
+sudokwonseobubonbu
+hong kong telecommunications (hkt) limited
+dacom-pubnetplus
+chinanet network in wuhan city hubei province
+lg powercomm
+skytel communications limited
+innermengoliawulanhaotezhongqixiangzhenzffiberlan
+rs communications
+assigned for jhpiego radio backup link
+chinanet hunan province network
+single digits  inc.
+industrial media network llc
+hurricane electric llc
+china unicom guizhou province network
+china unicom beijing province network
+telia company ab
+chinanet guizhou province network
+t-mobile
+jenny internet (pty) ltd
+innermongoliawuhaigongwusu109jiayouzhan
+ibw communications
+net1 ltd.
+mountain breeze motel   2926 parkway
+chinanet henan province network
+action_againist_hunger_yabelo
+south cm broadband dhcp
+hkt limited
+pppoe_dynamic
+in case of improper use  please mail <abuse@tele2.com>
+mgt comunica  o
+uninet
+telia norge as
+chinanet shanxi province network
+innermongoliatongliaozxab80mh02pppoe3
+hostpapa
+carconnex
+nettlinx limited
+sudokwonkangnambonbujang
+silinet network
+beijing enjoy internet co.  ltd
+dynamic distribution ip s for broadband services
+te data
+suraj network
+saudi telecom company jsc
+network for comcor-b2b-clients
+ntt communications corporation
+ais corporate
+singnet pte ltd
+ex-netname
+innermongoliawuhaigansuerjian
+reactive networks
+chinanet gansu province network
+inspur software group co.  ltd.
+thrunet corp.
+abts (karnataka) 
+shenzhenshiluohuquhepingluyifengguangchangczuo32h
+silverip communications inc.
+hathway cable and datacom limited
+content delivery network ltd
+ethio telecom
+china unicom guangdong province network
+infobr telecomunica  es
+the reel shot
+jsc er-telecom holding nizhny novgorod
+china unicom hubei province network
+biterika grupp llc
+ttk
+viettel group
+china unicom neimeng province network
+smartone mobile communications ltd
+transitnetwork infrastructure
+chinanet hubei province network
+china unicom jilin province network
+jsc er-telecom holding krasnoyarsk branch
+network for comcor-b2b-clients
+interface networks - msk.
+bg-karnobatnet
+chinanet shandong province network
+dai ip dong ket noi xdsl
+emirates integrated telecommunications company pjsc (eitc-du)
+uninet
+dynamic customer ip s
+abts-mumbai
+xiancity-ipaddresspool-284
+m1 limited
+chinanet guangdong province network
+cellucar subscribers for ggsn rh & yv
+dynamic private network
+racknerd llc
+earthlink telecommunications equipment trading & services dmcc
+vocus pty ltd
+mediacom communications corp
+tpg internet pty ltd.
+net1 ltd.
+sk broadband co ltd
+chinanet network in wuhan city hubei province
+chinanet anhui province network
+china unicom jiangsu province network
+far eastone telecommunication co.  ltd.
+chinanet hebei province network
+mer-2004 ltd.
+end-user numericable
+rdk it solutiuons b.v.
+cetin bulgaria ead
+chinanet fujian province network
+china unicom hebei province network
+silinet network
+morton-telekom ltd
+chunghwa telecom co. ltd.
+v tal
+chinanet sichuan province network
+godaddy.com  llc
+chinanet beijing province network
+proton66 llc
+san jose state university research foundation (biocenter)
+china unicom sichuan province network
+kangda automobile co.  ltd.zhejiang
+rcn
+china unicom ip network
+china unicom shan1xi province network
+china unicom beijing province network
+television internacional  s.a. de c.v.
+assigned for jhpiego radio backup link
+china unicom innermongolia province network
+bharti airtel services limited  6th floor   interface building n
+hostpapa
+china unicom henan province network
+siheungsicheong
+lg powercomm
+lgtelecom
+chinanet jiangxi province network
+ovh sas
+for xdsl and ftth residential customers
+wireless data service provider corporation
+hathway cable and datacom limited
+bharti televentures limited a/c abts mp
+vipturbo com rcio & servi os de inform tica ltda
+access media holdings  llc
+chinanet shanxi(sn) province network
+lg dacom corporation
+pccw limited
+cogent communications
+pronet telecom ltd.
+futurenet telecom private limited
+charter communications  inc
+innermongoliawuhaigongwusu109jiayouzhan
+rs communications
+emirates integrated telecommunications company pjsc
+innermongoliaalashanzxab80mh01adslpool
+china unicom gansu province network
+vocus retail
+innermongoliawuhaiyiwangqingshenwb
+tot public company limited
+hanaro telecom inc.
+haidian node fttx+lan access user segment for 8505
+chinanet qinghai province network
+fiber to the home
+lg hellovision corp.
+chinanet yunnan province network
+kimhaejisa
+china united network communications corporation limited
+m1 ltd
+china unicom shanxi province network
+chinanet liaoning province network
+kopings kabel-tv ab
+maxnet llc  kharkiv
+dovecom llc
+mgt comunica  o
+chinanet gansu province network
+jsc  ufanet 
+douglas fastnet
+ojsc rostelecom macroregional branch south
+turkcell internet
+lnput658 puteaux
+content delivery network ltd
+deutsche glasfaser business gmbh
+wirenet llc
+innermengoliachifengdslamhulian
+walder wyss ag
+agence tunisienne internet - ati
+open infra isp production international ab
+together communication ltd
+csl next g
+aire networks del mediterraneo sl unipersonal
+unifique telecomunicacoes s a
+rushabh investment pvt lt
+chinanet neimeng province network
+electronica martinez de cartagena s.l.
+metro ethernet network
+oriental structural engineers pvt. ltd.
+ptk-centertel
+blagoderova private establishment
+chinanet shanxi province network
+beijing sinnet technology co.  ltd.
+primus telecommunications canada inc.
+digitalocean  llc
+innermongoliawuhaigansuerjian
+cliente antel uruguay
+china unicom jiangxi province network
+pt telekomunikasi indonesia
+jsc  zap-sib transtelecom 
+chinanet-zj jiaxing node network
+chinanet neimenggu province network
+shenzhenshiluohuquhepingluyifengguangchangczuo32h
+hgc global communications limited
+hormuud telecom somalia inc
+china unicom heilongjiang province network
+iinet limited
+railtel corporation is an internet service provider.
+cmb kwangju broadcasting
+tencent cloud computing (beijing) co.  ltd.
+limited company russkiy medved  kemerovo  russia
+dsl-ull
+claro nxt telecomunicacoes ltda
+jsc er-telecom holding nizhny novgorod
+tiscali italia spa
+fpt telecom
+bharti telenet ltd. new delhi
+5kom ood
+tencent cloud computing (beijing) co.  ltd
+saudi telecom company jsc
+hotnet
+urumqi unicom ip
+innermongoliaalashanzxhb52mh01zhuanxian
+wide netcom india
+the communication authority of thailand
+reactive networks
+tbc
+ucloud information technology (hk) limited
+proxxima telecomunicacoes sa
+ch informatica ltda
+sudokwonseobubonbu
+pelephone communications ltd.
+el roble
+peuroniseu
+china unicom liaoning province network
+ncnet broadband customers
+industrial media network llc
+alltele broadband brf metern
+pakistan telecommuication company limited
+hoshin multimedia center inc
+real estate department of changxing
+prometey broadband corportate customers
+langate ltd
+hkt limited
+beijing teletron telecom engineering co.  ltd.
+ex-netname
+itelsa
+multisoft llc
+bredband2 ab
+oxio
+chinaunicom lasa city 3g pool
+shanxi telecom taiyuan branch ip node links to customer ip addre
+liyang shengli high school
+monte alto net ltda
+chinanet shaanxi province network
+china unicom shandong province network
+hotwire fision
+new century infocomm tech. co.  ltd.
+uzbektelekom joint stock company
+compa  a dominicana de tel fonos s. a.
+vianettv inc
+dongilbangjik
+shuozhou shanyin8825 ippool
+america movil peru s.a.c.
+ibw communications
+velia.net internetdienste gmbh
+kimeuncheol
+beijing enjoy internet co.  ltd
+viettel (cambodia) pte.  ltd.
+google
+492 changmai-lumpang road muang changmai
+pppoe_dynamic
+vodafone-panafon hellenic telecommunications company sa
+refugee_council
+cox communications inc.
+telecom argentina s.a.
+singnet pte ltd
+onlycable comunicaciones s.l.
+new fdm s.p.a.
+changzhou linlong paint corp
+chinanet-hn changsha node network
+public enterprise bh telecom dd
+mountain breeze motel   2926 parkway
+china great wall assets manages ltd
+hong kong telecommunications (hkt) limited mass internet
+university of zululand
+chinanet-zj huzhou node network
+innermengoliawulanhaotezhongqixiangzhenzffiberlan
+soderhamn teknikpark ab
+ttk
+frontier communications
+dynamic distribution ip s for broadband services
+sony network communications inc.
+software technology parks of india
+asia pacific online service inc
+cox communications
+hankuktongsindaekubonbujang
+silverip communications inc.
+level 3 parent  llc
+assined to sv chrome hotels
+metropolitan branch of pjsc megafon
+chinanet henan province network
+cvmultimedia
+orlandonet ltd.
+hong kong telecommunications (hkt) limited business internet
+telus communications inc.
+action_againist_hunger_yabelo
+abts delhi 
+lytus broadband private limited
+china unicom yunnan province network
+neo-telekom ltd
+innermongoliaalashanzxhb52mh01huawei20
+china aguatic zhoushan marine fisheries co. ltd.
+distributel communications limited
+innermongoliaalashanshuilidui
+afghan cyber isp
+jeonnambonbujang
+unitymedia
+beijing gehua catv network co.  ltd.
+level 6  9-13 young street
+static ip
+uganda telecom
+leased by corporate customers
+red intercable digital s.a.
+sudokwonkangbukbonbujang
+chinanet heilongjiang province network
+bharti airtel ltd. 224  okhla industrial area phase iii new delh
+aussie broadband
+dacom corp.
+gesti n de direccionamiento uninet
+6 collyer quay
+jsc er-telecom holding irkutsk branch
+nib (national internet backbone)
+virgin media limited
+biterika group llc
+fox rehabilitatio
+ctm
+starhub cable vision ltd
+sena e santos ltda-me
+innermongoliatongliaozxab80mh02pppoe3
+oracle corporation
+dinas komunikasi dan informatika kota makassar
+bahnhof ab
+fortin mulitas canal circuito cerrado 3 tv s.a.
+chinatelecom group beijing ltd co
+u.p. communication services pvt ltd
+aapt limited
+ethio telecom
+haarlev antenneforening
+kbro co. ltd.
+chinanet hunan province network
+level-7-internet
+trx net servicos de comunicacao multimidia eireli
+pjsc rostelecom  penza branch
+sudokwonkangnambonbujang
+z-telecom network
+shanxi jinzhong zhengwu
+abts (karnataka) 
+innermongoliaalashanerx1400ippool
+bharti airtel limited
+xiancity-ipaddresspool-334
+china unicom neimenggu province network
+qinghai province xi ning telecom xiaoqiao optical fiber access l
+ye qianyu high school
+shaoxing district labour&society security bureau
+o/o dgm bb  noc bsnl bangalore
+innermongoliachifengcr12mb01tocf82hs80hulian
+china unicom guangdong province network
+nettlinx limited
+pjsc vimpelcom
+shanghai hongli co. ltd
+netcloud ag
+carconnex
+please send abuse/spam complaints to abuse@012.net.il.
+salzburg ag fur energie  verkehr und telekommunikation
+innermongoliaalashaneqkouanwangba
+dai ip cho dich vu adsl dgn+nan
+scopesky communication and internet ltd
+kar-tel llc
+pt. datacomm diangraha
+ip volume inc
+fusionnet
+kalinga media & entertainment pvt. ltd.
+cambridge telecomunica  es ltda.
+abts tamilnadu 
+broadband multiplay project  o/o dgm bb  noc bsnl bangalore
+ekdant communication pvt ltd
+jenny internet (pty) ltd
+valin company for general trading and communication ltd
+optimum
+tarin general trading and setting up internet device ltd
+catv btv miksnet cable customers 1
+china unicom guizhou province network
+shass information and quality engineering services
+zhenjiang yiquan hotel
+vodafone espana  s.a.u
+zito media
+hong kong telecommunications (hkt) limited
+chinanet tianjin province network
+seoulbonbu
+china unicom hubei province network
+cmb
+dunsanjeonhwakukjang
+devbhumi broadcast pvt ltd
+Google Cloud
+akesu unicom ip
+beijing capitalonline data service co. ltd
+biterika grupp llc
+pjsc rostelecom
+broadband users of vectra s.a.
+shanxi telecom jinzhong branch ip node links to customer ip addr
+nks broadband customers
+reliablesite.net llc
+zhangjiagang urban administrative bureau
+tata teleservices limited -gsm division
+thrunet corp.
+scloud pte ltd t/a scloud pte ltd
+xdsl network-adsl
+actfibernet
+south cm broadband dhcp
+spiderlink networks pvt ltd
+the reel shot
+orange cote d ivoire
+company dmz network of municipality-duebendorf
+vasai cable pvt. ltd.
+chinanet guizhou province network
+vodacom business (ens)
+cps
+ting fiber inc.
+tellcom iletisim hizmetleri a.s.
+te data
+innermongoliawuhaiyixinfangdichan
+globalsat dooel
+dhh.si d.o.o.
+guangxi-bro-television-center
+wavedivision holdings  llc
+innermongoliawuhai22ju8016user2
+infobr telecomunica  es
+bharti infotel ltd.
+ntt communications corporation
+triple t broadband public company limited
+imperial communication entrepreneurs pvt ltd
+namincheon brodcasting co.  ltd.
+liberia dhcp
+dacom-pubnetplus
+china unicom tianjin province network
+republic telecom
+adarsh infosolutions
+suraj network
+innermongoliatongliaozxab80mh02pppoe2
+true wifi by true online
+skytel communications limited
+innermongoliawuhaigansuyijian
+adamo telecom iberia s.a.u
