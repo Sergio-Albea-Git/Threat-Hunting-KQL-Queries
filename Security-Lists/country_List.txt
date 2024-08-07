@@ -1,4 +1,4 @@
-Country;Alpha-2 code
+Country;Code
 Afghanistan;AF
 Albania;AL
 Algeria;DZ
