@@ -2,7 +2,7 @@ Statuscode, type, description, Possible Threat
 100, Continue,The server has received the request headers and the client should proceed to send the request body,May be used to probe server behavior or perform reconnaissance on how a server handles requests
 101, Switching Protocols,The requester has asked the server to switch protocols, Upgrading the connectionsu ch as to WebSockets could be exploited to bypass certain security checks or firewall rules
 103, Early Hints,Used with the Link header to allow the browser to start preloading resources while the server prepares a response,
-200, OK,The request is OK (this is the standard response for successful HTTP requests), Although a success code if seen in unexpected contexts (e.g., following unusual access patterns) it may indicate successful exploitation or access to sensitive information.
+200, OK,The request is OK (this is the standard response for successful HTTP requests), Although a success code if seen in unexpected contexts (e.g. following unusual access patterns) it may indicate successful exploitation or access to sensitive information.
 201, Created,The request has been fulfilled and a new resource is created ,
 202, Accepted,The request has been accepted for processing but the processing has not been completed,
 203, Non-Authoritative Information,The request has been successfully processed but is returning information that may be from another source,
