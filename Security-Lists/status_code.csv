@@ -1,3 +1,4 @@
+Statuscode; Type; Description
 100; Continue;The server has received the request headers, and the client should proceed to send the request body;
 101; Switching Protocols;The requester has asked the server to switch protocols;
 103; Early Hints;Used with the Link header to allow the browser to start preloading resources while the server prepares a response;
