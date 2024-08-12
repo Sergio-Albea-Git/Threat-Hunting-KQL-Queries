@@ -11,8 +11,8 @@ Statuscode, type, description, Possible_Threat
 206, Partial Content,The server is delivering only part of the resource due to a range header sent by the client,
 300, Multiple Choices,A link list. The user can select a link and go to that location. Maximum five addresses,
 301, Moved Permanently,The requested page has moved to a new URL, could be used for phishing by redirecting users to malicious sites. Persistent redirections might indicate an attempt to manipulate traffic flows.
-302, Found,The requested page has moved temporarily to a new URL, 
-303, See Other,The requested page can be found under a different URL,
+302, Found,The requested page has moved temporarily to a new URL, An attacker could use a 302 redirect to temporarily redirect users from a legitimate site to a malicious one where phishing pages are hosted. This can be used to steal credentials / personal information or payment details.
+303, See Other,The requested page can be found under a different URL, An attacker may exploit open redirect vulnerabilities where a 303 status code redirects users to a malicious site.
 304, Not Modified,Indicates the requested page has not been modified since last requested,
 307, Temporary Redirect,The requested page has moved temporarily to a new URL, similar to 301/302 but with method preservation. These could be used to redirect legitimate traffic to malicious destinations.
 308, Permanent Redirect,The requested page has moved permanently to a new URL, Attackers could use 308 redirects to direct users from a legitimate-looking URL to a malicious one. This tactic can be used in phishing campaigns to deceive users into believing they are accessing a legitimate site.
