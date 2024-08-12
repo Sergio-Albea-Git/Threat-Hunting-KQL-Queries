@@ -25,7 +25,7 @@ Statuscode, type, description, Possible Threat
 406, Not Acceptable,The server can only generate a response that is not accepted by the client,
 407, Proxy Authentication Required,The client must first authenticate itself with the proxy, Attackers might attempt to steal credentials by setting up a malicious proxy that requires authentication (triggering a 407 response) and then logging the credentials that users input.
 408, Request Timeout,The server timed out waiting for the request, Attackers might deliberately send incomplete requests or flood the server with connections that never complete causing the server to timeout these requests. This could overwhelm the server making it unavailable to legitimate users.
-409, Conflict,The request could not be completed because of a conflict in the request,Attackers may attempt to exploit vulnerabilities in web applications that cause conflicts. For example exploiting race conditions, improper data handling or concurrency issues might result in a 409 Conflict error.
+409, Conflict,The request could not be completed because of a conflict in the request, Attackers may attempt to exploit vulnerabilities in web applications that cause conflicts. For example exploiting race conditions improper data handling or concurrency issues might result in a 409 Conflict error.
 410, Gone,The requested page is no longer available,
 411, Length Required,The Content-Length is not defined. The server will not accept the request without it,
 412, Precondition Failed,The precondition given in the request evaluated to false by the server,
