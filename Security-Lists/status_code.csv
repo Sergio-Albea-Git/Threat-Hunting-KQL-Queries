@@ -15,17 +15,17 @@ Statuscode, type, description, Possible Threat
 303, See Other,The requested page can be found under a different URL,
 304, Not Modified,Indicates the requested page has not been modified since last requested,
 307, Temporary Redirect,The requested page has moved temporarily to a new URL, similar to 301/302 but with method preservation. These could be used to redirect legitimate traffic to malicious destinations.
-308, Permanent Redirect,The requested page has moved permanently to a new URL,
+308, Permanent Redirect,The requested page has moved permanently to a new URL, Attackers could use 308 redirects to direct users from a legitimate-looking URL to a malicious one. This tactic can be used in phishing campaigns to deceive users into believing they are accessing a legitimate site.
 400, Bad Request,The request cannot be fulfilled due to bad syntax, May indicate malformed requests possibly from automated tools or scanners probing for weaknesses.
 401, Unauthorized,The request was a legal request but the server is refusing to respond to it. For use when authentication is possible but has failed or not yet been provided, Repeated 401 errors might indicate brute force attempts or credential stuffing attacks.
-402, Payment Required,Reserved for future use,
+402, Payment Required,Reserved for future use, An attacker could use the 402 Payment Required status in phishing scams by creating a fake payment page that uses this status code to make the request seem legitimate.
 403, Forbidden,The request was a legal request but the server is refusing to respond to it, Continuous 403 responses could suggest an attacker is probing restricted areas of a site or application.
 404, Not Found,The requested page could not be found but may be available again in the future, High volume of 404 errors could indicate a reconnaissance attempt to discover unprotected files or outdated vulnerable scripts.
 405, Method Not Allowed,A request was made of a page using a request method not supported by that page,
 406, Not Acceptable,The server can only generate a response that is not accepted by the client,
-407, Proxy Authentication Required,The client must first authenticate itself with the proxy,
-408, Request Timeout,The server timed out waiting for the request,
-409, Conflict,The request could not be completed because of a conflict in the request,
+407, Proxy Authentication Required,The client must first authenticate itself with the proxy, Attackers might attempt to steal credentials by setting up a malicious proxy that requires authentication (triggering a 407 response) and then logging the credentials that users input.
+408, Request Timeout,The server timed out waiting for the request, Attackers might deliberately send incomplete requests or flood the server with connections that never complete causing the server to timeout these requests. This could overwhelm the server, making it unavailable to legitimate users.
+409, Conflict,The request could not be completed because of a conflict in the request,Attackers may attempt to exploit vulnerabilities in web applications that cause conflicts. For example exploiting race conditions, improper data handling or concurrency issues might result in a 409 Conflict error.
 410, Gone,The requested page is no longer available,
 411, Length Required,The Content-Length is not defined. The server will not accept the request without it,
 412, Precondition Failed,The precondition given in the request evaluated to false by the server,
