@@ -27,7 +27,7 @@ Statuscode, type, description
 408, Request Timeout,The server timed out waiting for the request
 409, Conflict,The request could not be completed because of a conflict in the request
 410, Gone,The requested page is no longer available
-411, Length Required,"The Content-Length is not defined. The server will not accept the request without it
+411, Length Required,The Content-Length is not defined. The server will not accept the request without it
 412, Precondition Failed,The precondition given in the request evaluated to false by the server
 413, Request Too Large,The server will not accept the request because the request entity is too large
 414, Request-URI Too Long,The server will not accept the request because the URI is too long. Occurs when you convert a POST request to a GET request with a long query information
