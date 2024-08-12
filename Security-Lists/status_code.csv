@@ -20,7 +20,7 @@ Statuscode, type, description, Possible Threat
 401, Unauthorized,The request was a legal request but the server is refusing to respond to it. For use when authentication is possible but has failed or not yet been provided, Repeated 401 errors might indicate brute force attempts or credential stuffing attacks.
 402, Payment Required,Reserved for future use,
 403, Forbidden,The request was a legal request but the server is refusing to respond to it, Continuous 403 responses could suggest an attacker is probing restricted areas of a site or application.
-404, Not Found,The requested page could not be found but may be available again in the future, High volume of 404 errors could indicate a reconnaissance attempt to discover unprotected files or outdated, vulnerable scripts.
+404, Not Found,The requested page could not be found but may be available again in the future, High volume of 404 errors could indicate a reconnaissance attempt to discover unprotected files or outdated vulnerable scripts.
 405, Method Not Allowed,A request was made of a page using a request method not supported by that page,
 406, Not Acceptable,The server can only generate a response that is not accepted by the client,
 407, Proxy Authentication Required,The client must first authenticate itself with the proxy,
