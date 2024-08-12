@@ -27,7 +27,7 @@ Statuscode, type, description, Possible Threat
 408, Request Timeout,The server timed out waiting for the request,
 409, Conflict,The request could not be completed because of a conflict in the request,
 410, Gone,The requested page is no longer available,
-411, Length Required,"The Content-Length is not defined. The server will not accept the request without it
+411, Length Required,The Content-Length is not defined. The server will not accept the request without it
 412, Precondition Failed,The precondition given in the request evaluated to false by the server,
 413, Request Too Large,The server will not accept the request because the request entity is too large,
 414, Request-URI Too Long,The server will not accept the request because the URI is too long. Occurs when you convert a POST request to a GET request with a long query information
@@ -40,4 +40,4 @@ Statuscode, type, description, Possible Threat
 503, Service Unavailable,The server is currently unavailable (overloaded or down), Often linked to server overloads. Repeated instances might point to a DoS or DDoS attack. It could also indicate an attacker attempting to take a service offline.
 504, Gateway Timeout,The server was acting as a gateway or proxy and did not receive a timely response from the upstream server, This can signal network latency issues or that an attacker is deliberately trying to cause slowdowns in the communication between systems.
 505, HTTP Version Not Supported,The server does not support the HTTP protocol version used in the request, May be used by attackers to test server configurations and behavior with unsupported or deprecated HTTP versions.
-511, Network Authentication Required,The client needs to authenticate to gain network access
+511, Network Authentication Required,The client needs to authenticate to gain network access,
