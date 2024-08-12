@@ -7,7 +7,7 @@ Statuscode, type, description, Possible Threat
 202, Accepted,The request has been accepted for processing but the processing has not been completed,
 203, Non-Authoritative Information,The request has been successfully processed but is returning information that may be from another source,
 204, No Content,The request has been successfully processed but is not returning any content, Could be used in a covert channel as no content is returned which might be an attempt to communicate with a compromised system without leaving a large footprint
-205, Reset Content,The request has been successfully processed but is not returning any content and requires that the requester reset the document view
+205, Reset Content,The request has been successfully processed but is not returning any content and requires that the requester reset the document view,
 206, Partial Content,The server is delivering only part of the resource due to a range header sent by the client,
 300, Multiple Choices,A link list. The user can select a link and go to that location. Maximum five addresses,
 301, Moved Permanently,The requested page has moved to a new URL, could be used for phishing by redirecting users to malicious sites. Persistent redirections might indicate an attempt to manipulate traffic flows.
