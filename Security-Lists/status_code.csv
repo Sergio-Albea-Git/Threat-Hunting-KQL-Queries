@@ -1,15 +1,15 @@
 Statuscode, type, description, Possible_Threat
 100, Continue,The server has received the request headers and the client should proceed to send the request body,May be used to probe server behavior or perform reconnaissance on how a server handles requests
 101, Switching Protocols,The requester has asked the server to switch protocols, Upgrading the connectionsu ch as to WebSockets could be exploited to bypass certain security checks or firewall rules
-103, Early Hints,Used with the Link header to allow the browser to start preloading resources while the server prepares a response,
+103, Early Hints,Used with the Link header to allow the browser to start preloading resources while the server prepares a response, Attackers could use the 103 status code to pre-load malicious resources (e.g. JavaScript, CSS) on a phishing page. This technique could make the phishing page appear more legitimate by pre-loading content that matches the look and feel of a legitimate site.
 200, OK,The request is OK (this is the standard response for successful HTTP requests), Although a success code if seen in unexpected contexts (e.g. following unusual access patterns) it may indicate successful exploitation or access to sensitive information.
-201, Created,The request has been fulfilled and a new resource is created ,
-202, Accepted,The request has been accepted for processing but the processing has not been completed,
-203, Non-Authoritative Information,The request has been successfully processed but is returning information that may be from another source,
+201, Created,The request has been fulfilled and a new resource is created , 
+202, Accepted,The request has been accepted for processing but the processing has not been completed, If an application accepts a request and returns a 202 status code but defers the actual processing; there is a risk that the request could be tampered with or manipulated before the processing completes.
+203, Non-Authoritative Information,The request has been successfully processed but is returning information that may be from another source, A malicious proxy could modify the content of the response before it reaches the client, potentially injecting malicious code / altering content / or stripping out important information such as security headers.
 204, No Content,The request has been successfully processed but is not returning any content, Could be used in a covert channel as no content is returned which might be an attempt to communicate with a compromised system without leaving a large footprint
-205, Reset Content,The request has been successfully processed but is not returning any content and requires that the requester reset the document view,
-206, Partial Content,The server is delivering only part of the resource due to a range header sent by the client,
-300, Multiple Choices,A link list. The user can select a link and go to that location. Maximum five addresses,
+205, Reset Content,The request has been successfully processed but is not returning any content and requires that the requester reset the document view, A phishing attack could potentially abuse the 205 Reset Content status to reset a form after a user submits sensitive information; prompting them to re-enter the data. The attacker could then capture this information without the user realizing it was already submitted.
+206, Partial Content,The server is delivering only part of the resource due to a range header sent by the client, Range requests can be abused in DDoS attacks; where attackers flood a server with multiple partial content requests, overwhelming the server’s resources.
+300, Multiple Choices,A link list. The user can select a link and go to that location. Maximum five addresses, Attackers could use 301 redirects to hijack legitimate traffic and send it to malicious sites, potentially affecting search engine rankings.
 301, Moved Permanently,The requested page has moved to a new URL, could be used for phishing by redirecting users to malicious sites. Persistent redirections might indicate an attempt to manipulate traffic flows.
 302, Found,The requested page has moved temporarily to a new URL, An attacker could use a 302 redirect to temporarily redirect users from a legitimate site to a malicious one where phishing pages are hosted. This can be used to steal credentials / personal information or payment details.
 303, See Other,The requested page can be found under a different URL, An attacker may exploit open redirect vulnerabilities where a 303 status code redirects users to a malicious site.
