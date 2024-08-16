@@ -5,7 +5,7 @@ This allows me to quickly work with other KQL queries to identify potential thre
 Consider this KQL query as a "Pivot Table" for multiple queries that can be triggered based on your criteria.
 
 ```
-let status_codes = externaldata(statuscode: string, Type_code: string, Description:string, Possible_Threat:string)[@"https:// raw.githubusercontent.com /Sergio-Albea-Git/-Defender-XDR-/main/Security-Lists/status_code.csv"] with (format="csv", ignoreFirstRecord=True);
+let status_codes = externaldata(statuscode: string, Type_code: string, Description:string, Possible_Threat:string)[@"https://raw.githubusercontent.com/Sergio-Albea-Git/-Defender-XDR-/main/Security-Lists/status_code.csv"] with (format="csv", ignoreFirstRecord=True);
 DeviceNetworkEvents
 | extend status_code = parse_json(AdditionalFields).status_code
 | extend SiteIPCountry = geo_info_from_ip_address(RemoteIP).country
