@@ -5,7 +5,7 @@ Based on that list, I decided to look for the cases where the SHA256 of the DLLâ
 ```
 let dll_hijacking_source = externaldata
 (Name:string,Author:string,Created:string,Vendor:string,CVE:string,ExpectedLocations:string,VulnerableExecutablePath:string,VulnerableExecutableType:string,VulnerableExecutableAutoElevated:string,VulnerableExecutablePrivilegeEscalation:string,VulnerableExecutableCondition:string,VulnerableExecutableSHA256:string,VulnerableExecutableEnvironmentVariable:string,Resources:string,Acknowledgements:string,URL:string)
-[@"https:// hijacklibs.net/api/hijacklibs.csv"] with (format="csv", ignoreFirstRecord=True);
+[@"https://hijacklibs.net/api/hijacklibs.csv"] with (format="csv", ignoreFirstRecord=True);
 DeviceImageLoadEvents
 | join kind=inner ( dll_hijacking_source) on $left.SHA256 == $right.VulnerableExecutableSHA256
 | where isnotempty( VulnerableExecutableSHA256)
