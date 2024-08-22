@@ -6,7 +6,7 @@
 let CIDRASN = (externaldata (CIDR:string, CIDRASN:int, CIDRASNName:string)
 ['https://firewalliplists.gypthecat.com/lists/kusto/kusto-cidr-asn.csv.zip']
 with (ignoreFirstRecord=true));
-let Malicious_ASN= (externaldata (asn:string)['https:// www.spamhaus.org /drop/asndrop.json']with(format="multijson"));
+let Malicious_ASN= (externaldata (asn:string)['https://www.spamhaus.org/drop/asndrop.json']with(format="multijson"));
 EmailEvents
 | evaluate ipv4_lookup(CIDRASN, SenderIPv4, CIDR, return_unmatched=true)
 | extend GeoIPData = geo_info_from_ip_address(SenderIPv4)
