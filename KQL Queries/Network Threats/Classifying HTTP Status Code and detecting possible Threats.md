@@ -1,4 +1,4 @@
-**Classifying HTTP Status Code and detecting possible Threatss**
+**Classifying HTTP Status Code and detecting possible Threats**
 
 **Description**: I decided to create a table with extended information about the potential threats associated with HTTP status code.
 This allows me to quickly work with other KQL queries to identify potential threats.
