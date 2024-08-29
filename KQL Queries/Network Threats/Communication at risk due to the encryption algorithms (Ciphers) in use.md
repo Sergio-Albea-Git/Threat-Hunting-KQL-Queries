@@ -1,8 +1,8 @@
 **Communication at risk due to the encryption algorithms (Ciphers) in use**
 
-**Description**: "This query is using the DeviceNetworkEvents table to filter  by connections where there are encryption algorithms used.
+**Description**: This query is using the DeviceNetworkEvents table to filter  by connections where there are encryption algorithms used.
 Then, I take a list of the encryption algorithms database from the well-known site iana.org which is an entity that monitors the global allocation of IP addresses, autonomous systems, DNS domain name root servers and other Internet Protocol resources.
-Finally, It list cases where there are multiple connections established using non-recommended or non-valid datagram transport layer security (DTLS), which could mean that our users are not protected against eavesdropping, tampering or message forgery. "![image](https://github.com/user-attachments/assets/7fceaba6-cb34-4b1a-b97d-fe94ed1ca8ef)
+Finally, It list cases where there are multiple connections established using non-recommended or non-valid datagram transport layer security (DTLS), which could mean that our users are not protected against eavesdropping, tampering or message forgery. 
 
 ```
 let CVE = externaldata(Value:string,Description:string,DTLSOK:string,Recommended:string,Reference:string)
