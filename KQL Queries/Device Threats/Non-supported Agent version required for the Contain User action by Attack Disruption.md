@@ -1,6 +1,6 @@
 **Non-supported Agent version required for the Contain User action by Attack Disruption**
 
-**Description:** The following query checks if the devices have the minimum sense agent version(v10.8470) required for the Contain User action trigger by Microsoft DefenderXDR Attack disruption.
+**Description:** The following query checks if the devices have the minimum sense agent version(v10.8470) required for the Contain User action triggered by Microsoft DefenderXDR Attack disruption.
 ```
 DeviceRegistryEvents
 | where Timestamp > ago(30d)
