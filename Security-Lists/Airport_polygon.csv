@@ -1,4 +1,4 @@
-AirportName, maxLatitude, minLatitude, maxLongitude, minLongitude,iata, maxlatindicator
-Flughafen Zürich,47.4874036,47.4388807,8.5762417,8.5274613,ZRH,47
+AirportName, maxLatitude, minLatitude, maxLongitude, minLongitude,iata,country, maxlatindicator
+Flughafen Zürich,47.4874036,47.4388807,8.5762417,8.5274613,ZRH,Zurich,47
 
 
