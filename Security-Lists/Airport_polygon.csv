@@ -4,7 +4,7 @@ Aéroport international de Genève,46.2523395,46.2232524,6.1301983,6.0870471,GVA
 Aéroport de Paris-Orly,48.7462217,48.7138931,2.4073124,2.3102788,ORY, France,48
 Aeropuerto Adolfo Suárez Madrid-Barajas,40.5422178,40.4478158,-3.5264541,-3.5974108,MAD,Spain,40
 Aeroport Barcelona - el Prat Josep Tarradellas,41.3135601,41.2801518 ,2.1097210,2.0556573,BCN,Spain,41
-John F. Kennedy International Airport,40.6647615,40.6210509,-73.7483913,-73.8232337,JFK,United States,40
+John F. Kennedy International Airport,40.6647615,40.6210509,-73.7483913,-73.8232337,JFK,USA,40
 Flughafen München,48.3705121,48.3369355,11.8356841,11.7363660,MUC, Germany,48
 Aeroporto di Lisboa,38.7742,38.7634,-9.1342,-9.1461,LIS,Portugal,38
 Aeroporto di Roma Fiumicino,41.8008,41.7980,12.2472,12.2411,FCO,Italy,41
@@ -19,3 +19,12 @@ Indira Gandhi International Airport	,   	28.5763,	28.4042,	77.1500,	77.0354,	DEL
 Hamad International Airport,25.2735,	25.2120,	51.6073,	51.4704,	DOH	,Qatar,25
 Dubai International Airport	,25.2762,	25.2020,	55.3642,	55.2581,	DXB,	United Arab Emirates,25
 Beijing Capital International Airport,40.0801,39.9042	,116.5831,116.4080,	PEK,China,40
+Hartsfield-Jackson Atlanta International Airport	,	33.6367,	33.6233,	-84.4444,	-84.4678,ATL,	USA,33
+Los Angeles International Airport	,	33.9425,	33.9300,	-118.4072,	-118.4253,LAX,	USA,33
+Chicago O'Hare International Airport	,	41.9786	,41.9617,	-87.9048,	-87.9192,ORD,	USA,41
+Dallas/Fort Worth International Airport	,	32.8998	,32.8968,	-97.0372,	-97.0514,DFW,	USA,32
+Denver International Airport	,	39.8617,	39.8562,	-104.6730	,-104.6878,DEN,	USA,39
+San Francisco International Airport,		37.6188,	37.6099,	-122.3750,	-122.3919,SFO,	USA,37
+Seattle-Tacoma International Airport	,	47.4489	,47.4372,	-122.3094,	-122.3281,SEA,	USA,47
+Miami International Airport,	25.7933,	25.7816,	-80.2906,	-80.3089,MIA,	USA,25
+Orlando International Airport,		28.4312,	28.4100,	-81.3081,	-81.3296,MCO	USA,28
