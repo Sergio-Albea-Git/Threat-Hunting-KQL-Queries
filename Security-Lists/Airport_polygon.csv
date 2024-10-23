@@ -1,4 +1,4 @@
-AirportName,AirportName(En), maxLatitude, minLatitude, maxLongitude, minLongitude,iata,country, maxlatindicator
+AirportName,AirportNameEn, maxLatitude, minLatitude, maxLongitude, minLongitude,iata,country, maxlatindicator
 Flughafen Zürich,Zurich Airport,47.4874036,47.4388807,8.5762417,8.5274613,ZRH,Switzerland,47
 Aéroport international de Genève,Geneva International Airport,46.2523395,46.2232524,6.1301983,6.0870471,GVA, Switzerland,46
 
