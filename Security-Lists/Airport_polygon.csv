@@ -1,5 +1,7 @@
-AirportName,AirportNameEn, maxLatitude, minLatitude, maxLongitude, minLongitude,iata,country, maxlatindicator
-Flughafen Zürich,Zurich Airport,47.4874036,47.4388807,8.5762417,8.5274613,ZRH,Switzerland,47
-Aéroport international de Genève,Geneva International Airport,46.2523395,46.2232524,6.1301983,6.0870471,GVA, Switzerland,46
-Aéroport de Paris-Orly,Paris–Orly Airport,48.7462217,48.7138931,2.4073124,2.3102788,ORY, France,48
-Aeropuerto Adolfo Suárez Madrid-Barajas,Adolfo Suárez Madrid-Barajas Airport,40.5422178,40.4478158,-3.5264541,-3.5974108,MAD,Spain,40
+AirportName, maxLatitude, minLatitude, maxLongitude, minLongitude,iata,country, maxlatindicator
+Flughafen Zürich,47.4874036,47.4388807,8.5762417,8.5274613,ZRH,Switzerland,47
+Aéroport international de Genève,46.2523395,46.2232524,6.1301983,6.0870471,GVA, Switzerland,46
+Aéroport de Paris-Orly,48.7462217,48.7138931,2.4073124,2.3102788,ORY, France,48
+Aeropuerto Adolfo Suárez Madrid-Barajas,40.5422178,40.4478158,-3.5264541,-3.5974108,MAD,Spain,40
+Aeroport Barcelona - el Prat Josep Tarradellas,41.3135601,41.2801518 ,2.1097210,2.0556573,BCN,Spain,41
+
