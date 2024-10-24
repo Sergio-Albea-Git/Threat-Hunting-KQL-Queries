@@ -305,4 +305,4 @@ AADSTS100007;Microsoft Entra Regional ONLY supports auth either for MSIs OR for 
 AADSTS1000031;Application {appDisplayName} can't be accessed at this time. Contact your administrator.
 AADSTS7000112;UnauthorizedClientApplicationDisabled - The application is disabled.
 AADSTS7000114;Application 'appIdentifier' isn't allowed to make application on-behalf-of calls.
-AADSTS7500529;The value ‘SAMLId-Guid’ isn't a valid SAML ID - Microsoft Entra ID uses this attribute to populate the InResponseTo attribute of the returned response. ID must not begin with a number, so a common strategy is to prepend a string like ""ID"" to the string representation of a GUID. For example, id6c1c178c166d486687be4aaf5e482730 is a valid ID.
+AADSTS7500529;The value ‘SAMLId-Guid’ isn't a valid SAML ID - Microsoft Entra ID uses this attribute to populate the InResponseTo attribute of the returned response. ID must not begin with a number, so a common strategy is to prepend a string like ID to the string representation of a GUID. For example, id6c1c178c166d486687be4aaf5e482730 is a valid ID.
