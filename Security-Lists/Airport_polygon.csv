@@ -52,3 +52,25 @@ Bratislava Airport	,48.1770,	48.160,0	17.2160,	17.1952,	BTS,	Slovakia,48
 Zagreb Franjo Tuđman Airport,	45.7429,	45.7199,	16.0764,	16.0509,ZAG,	Croatia,45
 Ljubljana Jože Pučnik Airport,46.2333,46.2170,	14.4670,	14.4550,	LJU,Slovenia,46
 Riga International Airport,	56.9313,	56.9098,	23.9933,23.9610,	RIX,	Latvia,56
+O. R. Tambo International Airport, -25.000, -26.160, 28.242, 27.809, JNB, South Africa, -25
+Cairo International Airport, 30.122, 29.889, 31.404, 31.193, CAI, Egypt, 30
+Cape Town International Airport, -33.971, -34.048, 18.601, 18.407, CPT, South Africa, -33
+Murtala Muhammed International Airport, 6.577, 6.539, 3.366, 3.301, LOS, Nigeria, 6
+Addis Ababa Bole International Airport, 9.027, 8.973, 38.800, 38.755, ADD, Ethiopia, 9
+Nairobi Jomo Kenyatta International Airport, -1.319, -1.337, 36.927, 36.802, NBO, Kenya, -1
+King Shaka International Airport, -29.614, -29.708, 31.115, 31.019, DUR, South Africa, -29
+Hammamet International Airport, 36.562, 36.444, 10.677, 10.548, NBE, Tunisia, 36
+Mohammed V International Airport, 33.366, 33.227, -7.636, -7.702, CMN, Morocco, 33
+Abidjan Félix Houphouët-Boigny International Airport, 5.256, 5.160, -3.900, -4.020, ABJ, Ivory Coast, 5
+Airport Name,Max Latitude,Min Latitude,Max Longitude,Min Longitude,IATA,Country,First Two Digits of Max Latitude
+Libreville Leon M'ba International Airport, 0.466, 0.426, 9.707, 9.671, LBV, Gabon, 0
+Entebbe International Airport, -0.042, -0.078, 32.458, 32.395, EBB, Uganda, -0
+Kinshasa N'djili International Airport, -4.363, -4.450, 15.570, 15.450, FIH, Democratic Republic of the Congo, -4
+Lagos Nnamdi Azikiwe International Airport, 9.006, 8.836, 7.490, 7.440, ABV, Nigeria, 9
+Dar es Salaam Julius Nyerere International Airport, -6.873, -6.942, 39.217, 39.127, DAR, Tanzania, -6
+Accra Kotoka International Airport, 5.607, 5.552, -0.179, -0.220, ACC, Ghana, 5
+Banjul Banjul International Airport, 13.445, 13.382, -16.647, -16.735, BJL, The Gambia, 13
+Maputo International Airport, -25.909, -26.041, 32.571, 32.457, MPM, Mozambique, -25
+Windhoek Hosea Kutako International Airport, -22.476, -22.643, 17.469, 17.348, WDH, Namibia, -22
+Luanda Quatro de Fevereiro Airport, -8.838, -8.900, 13.234, 13.178, LAD, Angola, -8
+
