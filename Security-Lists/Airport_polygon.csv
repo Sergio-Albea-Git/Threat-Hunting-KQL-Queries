@@ -73,4 +73,88 @@ Banjul Banjul International Airport, 13.445, 13.382, -16.647, -16.735, BJL, The 
 Maputo International Airport, -25.909, -26.041, 32.571, 32.457, MPM, Mozambique, -25
 Windhoek Hosea Kutako International Airport, -22.476, -22.643, 17.469, 17.348, WDH, Namibia, -22
 Luanda Quatro de Fevereiro Airport, -8.838, -8.900, 13.234, 13.178, LAD, Angola, -8
+Airport Name, Max Latitude, Min Latitude, Max Longitude, Min Longitude, IATA Code, Country, Max Latitude (First Two Digits)
+Helsinki-Vantaa Airport, 60.3172, 60.2506, 24.9632, 24.7583, HEL, Finland, 60
+Stockholm Arlanda Airport, 60.1941, 59.6511, 17.9074, 17.7135, ARN, Sweden, 60
+Copenhagen Airport, 55.6175, 55.6114, 12.6502, 12.5805, CPH, Denmark, 55
+Oslo Gardermoen Airport, 60.2019, 60.1753, 11.1550, 11.0701, OSL, Norway, 60
+Tallinn Airport, 59.4131, 59.3948, 24.8180, 24.7497, TLL, Estonia, 59
+Riga International Airport, 56.9261, 56.8433, 23.9753, 23.7542, RIX, Latvia, 56
+Gdańsk Lech Wałęsa Airport, 54.3776, 54.3479, 18.4703, 18.4543, GDN, Poland, 54
+Bergen Airport, Flesland, 60.2931, 60.2505, 5.2262, 5.0790, BGO, Norway, 60
+Tampere-Pirkkala Airport, 61.4833, 61.4336, 23.7594, 23.7197, TMP, Finland, 61
+Aalborg Airport, 57.0927, 57.0480, 9.9174, 9.8472, AAL, Denmark, 57
+Lappeenranta Airport, 61.0583, 61.0425, 28.3000, 28.2392, LPP, Finland, 61
+Vaasa Airport, 63.0544, 63.0235, 21.8972, 21.8592, VAA, Finland, 63
+Sydney Kingsford Smith Airport,-33.6606,-34.0064,151.3069,150.7948,SYD,Australia,-33
+Auckland Airport,-37.0081,-37.1004,174.7866,174.6487,AKL,New Zealand,-37
+Brisbane Airport,-27.3845,-27.4733,153.1563,153.0512,BNE,Australia,-27
+Melbourne Airport,-37.6733,-37.8389,144.8432,144.8333,MEL,Australia,-37
+Wellington Airport,-41.3275,-41.4397,174.8037,174.7957,WLG,New Zealand,-41
+Perth Airport,-31.9445,-32.0522,115.9731,115.9000,PER,Australia,-31
+Christchurch Airport,-43.4894,-43.5575,172.5417,172.4453,CHC,New Zealand,-43
+Hobart International Airport,-42.7953,-42.9235,147.4960,147.3614,HBA,Australia,-42
+Cairns Airport,-16.8771,-17.0514,145.7634,145.6400,CNS,Australia,-16
+Darwin International Airport,-12.4533,-12.5901,130.8957,130.8000,DRW,Australia,-12
+Kirkenes Airport, Høybuktmoen, 69.7192, 69.6539, 29.7636, 29.7485, KKN, Norway, 69
+Oulu Airport, 64.9256, 64.8563, 25.3552, 25.2384, OUL, Finland, 64
+Svalbard Airport, 78.2473, 78.2108, 15.3732, 15.3135, LYR, Norway, 78
+Beijing Capital International Airport,40.080111,39.904381,116.584556,116.365222,PEK,China,40
+Malaga-Costa del Sol Airport,36.7755,36.6630,-4.4980,-4.6104,AGP,Spain,36
+Alicante-Elche Airport,38.2925,38.1827,-0.5563,-0.6755,ALC,Spain,38
+Gran Canaria Airport,27.9282,27.8228,-15.3842,-15.4922,LPA,Spain,27
+Valencia Airport,39.4890,39.4400,-0.4815,-0.5531, VLC,Spain,39
+Ibiza Airport,38.8724,38.8191,1.3896,1.3310,IBZ,Spain,38
+Sevilla Airport,37.4219,37.3730,-5.8952,-5.9353,SVQ,Spain,37
+Bilbao Airport,43.3014,43.2630,-2.9440,-2.9772,BIO,Spain,43
+San Pablo Airport,37.4669,37.4148,-5.8983,-5.9423,SVQ,Spain,37
+Santiago de Compostela Airport,42.8960,42.7772,-8.4228,-8.4902,SCQ,Spain,42
+La Palma Airport,28.7050,28.6328,-17.8731,-17.9170,SPC,Spain,28
+Fuerteventura Airport,28.4527,28.3385,-13.8630,-14.0055,FUE,Spain,28
+Asturias Airport,43.5647,43.4644,-6.0484,-6.0976,OVD,Spain,43
+Reus Airport,41.1497,41.0927,1.1678,1.1354,REU,Spain,41
+Menorca Airport,39.8373,39.7951,4.1984,4.1370,MAH,Spain,39
+Jerez Airport,36.7442,36.6611,-6.0465,-6.1435,XRY,Spain,36
+Girona-Costa Brava Airport,41.9020,41.7264,2.8125,2.7306,GRO,Spain,41
+Vigo Airport,42.2286,42.0977,-8.6301,-8.7557,VGO,Spain,42
+Lleida-Alguaire Airport,41.6160,41.5383,0.5816,0.5170,ILD,Spain,41
+Tenerife North Airport,28.4824,28.3828,-16.3314,-16.4500,TFN,Spain,28
+Tenerife South Airport,28.0442,27.8734,-16.5785,-16.7446,TFS,Spain,28
+Burgos Airport,42.3274,42.2176,-3.6325,-3.7034,RGI,Spain,42
+A Coruña Airport,43.3024,43.2110,-8.4113,-8.4874,LCG,Spain,43
+Melilla Airport,35.2828,35.2269,-2.9455,-2.9886,MLN,Spain,35
+Palma de Mallorca Airport,39.5701,39.4626,2.7238,2.6189,PMI,Spain,39
+Córdoba Airport,37.8569,37.7816,-4.7764,-4.8304,ODB,Spain,37
+Huesca-Pirineos Airport,42.1345,42.0378,-0.2111,-0.3097,HUE,Spain,42
+Almería Airport,36.8431,36.7233,-2.4196,-2.5403,LEI,Spain,36
+Soria Airport,41.7744,41.6175,-2.4939,-2.5772,SOR,Spain,41
+Valencia-Edetania Airport,39.4663,39.3956,-0.4658,-0.4967,VDT,Spain,39
+Santander Airport,43.4277,43.3964,-3.8617,-3.9251,SDR,Spain,43
+Astorga Airport,42.4390,42.4211,-6.0790,-6.1090,AST,Spain,42
+San Sebastián Airport,43.3258,43.2833,-1.7697,-1.8039,EAS,Spain,Spain,43
+Zaragoza Airport,41.6407,41.4662,-1.0485,-1.1889,ZAZ,Spain,41
+Albacete Airport,38.9960,38.9497,-1.8794,-1.9350,ABC,Spain,38
+Ávila Airport,40.6100,40.5999,-4.8000,-4.8200,AVR,Spain,40
+Melilla Airport,35.2827,35.2260,-2.9448,-2.9864,MLN,Spain,35
+Salamanca Airport,40.9938,40.9357,-5.4803,-5.5375,SLM,Spain,Spain,40
+Cuenca Airport,40.0331,39.9250,-2.4697,-2.5059,CUA,Spain,Spain,40
+La Gomera Airport,28.8310,28.8091,-17.2369,-17.2604,GMZ,Spain,28
+Sheremetyevo International Airport,55.972,55.920,37.415,37.275,SVO,Russia,55
+Domodedovo International Airport,55.408,55.314,37.747,37.600,DME,Russia,55
+Pulkovo Airport,59.800,59.712,30.374,30.156,LED,Russia,59
+Vnukovo International Airport,55.616,55.581,37.280,37.225,VKO,Russia,55
+Kazan International Airport,55.606,55.554,49.403,49.300,KZN,Russia,55
+Ekaterinburg Koltsovo Airport,56.742,56.619,60.832,60.645,SVX,Russia,56
+Novosibirsk Tolmachevo Airport,55.006,54.883,82.718,82.513,OVB,Russia,55
+Krasnoyarsk Yemelyanovo Airport,56.144,56.055,92.533,92.447,KJA,Russia,56
+Sochi International Airport,43.448,43.388,39.955,39.885,AER,Russia,43
+Nizhny Novgorod Strigino Airport,56.066,55.977,43.699,43.629,NIZ,Russia,56
+Samara Kurumoch International Airport,53.093,53.028,50.156,50.074,KUF,Russia,53
+Vladivostok International Airport,43.391,43.362,132.185,132.129,VVO,Russia,43
+Tyumen Roshchino International Airport,57.347,57.269,65.295,65.205,TJM,Russia,57
+Irkutsk International Airport,52.769,52.634,104.249,104.109,IKT,Russia,52
+Yekaterinburg Koltsovo Airport,56.743,56.617,60.828,60.630,SVX,Russia,56
+Chkalovsky Airport,56.016,55.985,38.989,38.950,ZIA,Russia,56
+Rostov-on-Don Airport,47.232,47.137,39.518,39.435,ROV,Russia,47
+Ufa International Airport,54.582,54.453,55.895,55.749,UFA,Russia,54
 
