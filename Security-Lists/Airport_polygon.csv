@@ -177,4 +177,47 @@ Ningbo Lishe International Airport,29.8667,29.6533,121.5600,121.3925,NGB,China,2
 Jinan Yaoqiang International Airport,36.8996,36.6888,117.1764,116.9059,TNA,China,36
 Lanzhou Zhongchuan International Airport,35.5851,35.4460,103.6237,103.4046,LHW,China,35
 Dalian Zhoushuizi International Airport,38.9652,38.7872,121.5264,121.3050,DLC,China,38
+Airport Name, Max Latitude, Min Latitude, Max Longitude, Min Longitude, IATA Code, Country, First 2 Digits of Max Latitude
+Imam Khomeini International Airport, 35.4160, 35.2965, 51.0050, 50.8650, IKA, Iran, 35
+Mashhad International Airport, 36.2360, 36.1490, 59.6060, 59.5110, MHD, Iran, 36
+Shiraz International Airport, 29.5955, 29.5030, 52.5856, 52.4875, SYZ, Iran, 29
+Isfahan International Airport, 32.6873, 32.5856, 51.9143, 51.7920, IFN, Iran, 32
+Tabriz International Airport, 38.0743, 37.8960, 46.2812, 46.1432, TBZ, Iran, 38
+Kish International Airport, 26.5500, 26.5140, 53.9790, 53.9200, KIY, Iran, 26
+Ahvaz International Airport, 31.3190, 31.2780, 48.6890, 48.6350, AWZ, Iran, 31
+Zagros Airport, 29.7483, 29.6593, 51.0750, 51.0120, ZAR, Iran, 29
+Kerman Airport, 30.2830, 30.1630, 57.0005, 56.8500, KER, Iran, 30
+Qeshm Island International Airport, 26.9667, 26.8000, 55.7194, 55.6250, QES, Iran, 26
+Baghdad International Airport, 33.2620, 33.2270, 44.4260, 44.4000, BGW, Iraq, 33
+Erbil International Airport, 36.2320, 36.1910, 44.0020, 43.9300, EBL, Iraq, 36
+Basra International Airport, 30.5500, 30.5100, 47.8070, 47.7700, BSR, Iraq, 30
+Sulaymaniyah International Airport, 35.5633, 35.5083, 45.4270, 45.4000, YSU, Iraq, 35
+Najaf International Airport, 32.0100, 31.9800, 44.2900, 44.2600, NJF, Iraq, 32
+Karachi Jinnah International Airport, 24.8952, 24.8266, 67.1620, 67.0900, KHI, Pakistan, 24
+Allama Iqbal International Airport, 31.5216, 31.4946, 74.4313, 74.3980, LHE, Pakistan, 31
+Islamabad International Airport, 33.6105, 33.5465, 72.7696, 72.7300, ISB, Pakistan, 33
+Peshawar International Airport, 33.9752, 33.9570, 71.5260, 71.4940, PEW, Pakistan, 33
+Quetta International Airport, 30.1625, 30.1094, 66.9500, 66.8900, UET, Pakistan, 30
+Balochistan Airport, 30.0940, 30.0590, 67.1050, 67.0800, BHE, Pakistan, 30
+Sabiha Gökçen International Airport, 40.8980, 40.8370, 29.2950, 29.2670, SAW, Turkey, 40
+Istanbul Airport, 41.2750, 41.1900, 28.7580, 28.6820, IST, Turkey, 41
+Ankara Esenboğa Airport, 40.1283, 40.0606, 32.9950, 32.9000, ESB, Turkey, 40
+Antalya Airport, 36.8980, 36.8050, 30.7570, 30.6000, AYT, Turkey, 36
+Adnan Menderes Airport, 38.2920, 38.2130, 27.1390, 27.0800, ADB, Turkey, 38
+Izmir Adnan Menderes Airport, 38.2908, 38.2043, 27.1481, 27.0730, ADB, Turkey, 38
+Ben Gurion Airport, 32.0048, 31.9735, 34.8760, 34.8370, TLV, Israel, 32
+Haifa Airport, 32.8103, 32.7990, 35.0365, 35.0210, HFA, Israel, 32
+Eilat Ramon Airport, 29.9250, 29.9000, 34.9520, 34.9000, ETM, Israel, 29
+Damascus International Airport, 33.4189, 33.4056, 36.5163, 36.5000, DAM, Syria, 33
+Aleppo International Airport, 37.2136, 37.2000, 37.1583, 37.1400, ALP, Syria, 37
+Kiev Boryspil International Airport, 50.3450, 50.2630, 30.8840, 30.7870, KBP, Ukraine, 50
+Odessa International Airport, 46.4260, 46.3830, 30.6760, 30.6000, ODS, Ukraine, 46
+Lviv Danylo Halytskyi International Airport, 49.8170, 49.7910, 24.0330, 24.0020, LWO, Ukraine, 49
+Kharkiv International Airport, 49.9270, 49.9030, 36.2720, 36.2400, HRK, Ukraine, 49
+Dnipropetrovsk International Airport, 48.4640, 48.4390, 35.1000, 35.0500, DNK, Ukraine, 48
+Bamyan Airport, 34.8044, 34.7780, 67.6822, 67.6650, BMZ, Afghanistan, 34
+Kabul International Airport, 34.5650, 34.5200, 69.2270, 69.1900, KBL, Afghanistan, 34
+Herat International Airport, 34.3467, 34.3100, 62.1890, 62.1500, HEA, Afghanistan, 34
+Kandahar International Airport, 31.4850, 31.4600, 65.8480, 65.8100, KDH, Afghanistan, 31
+Mazar-i-Sharif International Airport, 36.7574, 36.7050, 67.0990, 67.0650, MZR, Afghanistan, 36
 
