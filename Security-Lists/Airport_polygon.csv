@@ -22,7 +22,6 @@ Kuala Lumpur International Airport,2.7430,2.7040,101.7180,101.6405,KUL,Malaysia,
 Indira Gandhi International Airport	,   	28.5763,	28.4042,	77.1500,	77.0354,	DEL,	India,28
 Hamad International Airport,25.2735,	25.2120,	51.6073,	51.4704,	DOH	,Qatar,25
 Dubai International Airport	,25.2762,	25.2020,	55.3642,	55.2581,	DXB,	United Arab Emirates,25
-Beijing Capital International Airport,40.0801,39.9042	,116.5831,116.4080,	PEK,China,40
 Hartsfield-Jackson Atlanta International Airport	,	33.6367,	33.6233,	-84.4444,	-84.4678,ATL,	USA,33
 Los Angeles International Airport	,	33.9425,	33.9300,	-118.4072,	-118.4253,LAX,	USA,33
 Chicago O'Hare International Airport	,	41.9786	,41.9617,	-87.9048,	-87.9192,ORD,	USA,41
@@ -99,7 +98,6 @@ Darwin International Airport,-12.4533,-12.5901,130.8957,130.8000,DRW,Australia,-
 Kirkenes Airport Høybuktmoen, 69.7192, 69.6539, 29.7636, 29.7485, KKN, Norway, 69
 Oulu Airport, 64.9256, 64.8563, 25.3552, 25.2384, OUL, Finland, 64
 Svalbard Airport, 78.2473, 78.2108, 15.3732, 15.3135, LYR, Norway, 78
-Beijing Capital International Airport,40.080111,39.904381,116.584556,116.365222,PEK,China,40
 Malaga-Costa del Sol Airport,36.7755,36.6630,-4.4980,-4.6104,AGP,Spain,36
 Alicante-Elche Airport,38.2925,38.1827,-0.5563,-0.6755,ALC,Spain,38
 Gran Canaria Airport,27.9282,27.8228,-15.3842,-15.4922,LPA,Spain,27
@@ -157,4 +155,26 @@ Yekaterinburg Koltsovo Airport,56.743,56.617,60.828,60.630,SVX,Russia,56
 Chkalovsky Airport,56.016,55.985,38.989,38.950,ZIA,Russia,56
 Rostov-on-Don Airport,47.232,47.137,39.518,39.435,ROV,Russia,47
 Ufa International Airport,54.582,54.453,55.895,55.749,UFA,Russia,54
+Name,MaxLatitude,MinLatitude,MaxLongitude,MinLongitude,IATA,Country,MaxLat_FirstTwoDigits
+Beijing Capital International Airport,40.0801,39.3035,116.5846,115.9801,PEK,China,40
+Shanghai Pudong International Airport,31.1445,30.8056,121.8069,121.2263,PVG,China,31
+Guangzhou Baiyun International Airport,23.3923,23.1547,113.3892,113.2114,CAN,China,23
+Shenzhen Bao'an International Airport,22.6396,22.3832,113.9072,113.6167,SZX,China,22
+Chengdu Shuangliu International Airport,30.5786,30.4736,104.1992,103.8869,CTU,China,30
+Hangzhou Xiaoshan International Airport,30.2292,29.9633,120.4958,120.0836,HGH,China,30
+Xi'an Xianyang International Airport,34.4472,34.1894,108.7451,108.5473,XIY,China,34
+Kunming Changshui International Airport,25.0842,24.7688,102.8353,102.7464,KMG,China,25
+Nanjing Lukou International Airport,32.1201,31.8847,118.9485,118.7672,NKG,China,32
+Wuhan Tianhe International Airport,30.7838,30.5518,114.2085,114.0971,WUH,China,30
+Tianjin Binhai International Airport,39.1362,38.9575,117.4013,117.1875,TJK,China,39
+Shijiazhuang Zhengding International Airport,38.3074,37.8467,114.6576,114.3433,SJW,China,38
+Qingdao Liuting International Airport,36.3062,35.9542,120.6124,120.3676,TAO,China,36
+Xiamen Gaoqi International Airport,24.5494,24.4147,118.1283,118.0641,XMN,China,24
+Chongqing Jiangbei International Airport,29.7205,29.5412,106.6411,106.3911,CKG,China,29
+Hefei Xinqiao International Airport,31.7502,31.6180,117.1192,116.9325,HFE,China,31
+Harbin Taiping International Airport,45.5954,45.4072,126.1792,126.0831,HRB,China,45
+Ningbo Lishe International Airport,29.8667,29.6533,121.5600,121.3925,NGB,China,29
+Jinan Yaoqiang International Airport,36.8996,36.6888,117.1764,116.9059,TNA,China,36
+Lanzhou Zhongchuan International Airport,35.5851,35.4460,103.6237,103.4046,LHW,China,35
+Dalian Zhoushuizi International Airport,38.9652,38.7872,121.5264,121.3050,DLC,China,38
 
