@@ -9,6 +9,6 @@ AADSignInEventsBeta
 | extend Latitude0 = todecimal(Latitude), Longitude0 = todecimal(Longitude)
 | extend IntegerPart = toint(Latitude0)
 | join kind=inner   (Airport_Data) on $left.IntegerPart == $right.maxlatindicator
-| where Latitude0 < minLatitude and Latitude0 < maxLatitude and Longitude0 > minLongitude and Longitude0  < maxLongitude
+| where Latitude0 > minLatitude and Latitude0 < maxLatitude and Longitude0 > minLongitude and Longitude0  < maxLongitude
 | summarize make_set(AirportName),  make_set(country),dcount(AirportName) by AccountDisplayName, ErrorCode
 ```
