@@ -6,7 +6,7 @@ DeviceEvents table has a column called 'LocalIP' which can be confusing but it a
 ```
 DeviceEvents
 | where ActionType contains "RemoteDesktopConnection"
-| extend location = geo_info_from_ip_address(LocalIP)
-| where location contains "Country"
-| project Timestamp, DeviceName, ActionType, LocalIP, LocalPort, location,ReportId, DeviceId
+| extend Country_IP = tostring(geo_info_from_ip_address(LocalIP).country)
+| where isnotempty(Country_IP)
+| project Timestamp, DeviceName, ActionType, LocalIP, LocalPort, Country_IP,ReportId, DeviceId
 ```
