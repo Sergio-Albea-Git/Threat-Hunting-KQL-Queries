@@ -1,6 +1,6 @@
 **Detect PnP devices connected to my endpoint machines.md**
 
-This query look for PnP devices connected or allowed into Endpoint machines. Basically, you can use the action types "PnpDeviceConnected" / "PnpDeviceConnected" to have a list of PnP devices connected to your endpoints and it helps with some concerns such as:
+This query look for PnP devices connected or allowed into Endpoint machines. Basically, you can use the action types "PnpDeviceConnected" / "PnpDeviceAllowed" to have a list of PnP devices connected to your endpoints and it helps with some concerns such as:
 
 1. Keeping an eye out for PnP devices like USB drives or external disks being connected to critical servers (like DC's, Exchange servers, or any machine with sensitive info).
 
