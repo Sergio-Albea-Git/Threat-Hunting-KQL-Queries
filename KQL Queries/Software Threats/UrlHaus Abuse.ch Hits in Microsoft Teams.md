@@ -4,7 +4,7 @@ This Query is oriented to identify Malicious URL sent via Microsoft Teams and de
 
 ```
 //UrlHaus Abuse.ch Hits in Microsoft Teams
-let URLHausOnlineRAW = externaldata (UHFeed:string) ["https:// urlhaus.abuse.ch /downloads/csv_online/"] with(format="txt")
+let URLHausOnlineRAW = externaldata (UHFeed:string) ["https://urlhaus.abuse.ch/downloads/csv_online/"] with(format="txt")
 | where UHFeed !startswith "#"
 | extend UHRAW=replace_string(UHFeed, '"', '')
 | project splitted=split(UHRAW, ',')
