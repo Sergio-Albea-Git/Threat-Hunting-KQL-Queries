@@ -1,4 +1,4 @@
-**𝗗𝗲𝘁𝗲𝗰𝘁𝗶𝗻𝗴 𝗕𝗮𝘀𝗲𝟲𝟰 𝗖𝗼𝗱𝗲 𝗶𝗻 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀**
+**Detecting Base64 Code in Commands**
 
 This KQL Query is oriented to detect strings added into executed command lines which are base64coded. After it, it decoded the corresponding string and show the results decoded.
 ```
