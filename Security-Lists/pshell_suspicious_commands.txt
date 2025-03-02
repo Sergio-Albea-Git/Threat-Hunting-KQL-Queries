@@ -1,4 +1,5 @@
 Command
+get-FileHash
 Add-Type
 AddSecurityPackage
 AdjustTokenPrivileges
