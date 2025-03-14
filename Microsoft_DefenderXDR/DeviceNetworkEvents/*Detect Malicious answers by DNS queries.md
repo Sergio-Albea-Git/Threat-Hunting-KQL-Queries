@@ -1,4 +1,4 @@
-**Detect Malicious answers by DNS queries**
+**Detect Malicious IP answers by DNS queries**
 
 **Description:** The aim of this query is detect suspicious answers from DNS Queries, validating them with an external TI Feed and be alerted when there are some matches.
 
