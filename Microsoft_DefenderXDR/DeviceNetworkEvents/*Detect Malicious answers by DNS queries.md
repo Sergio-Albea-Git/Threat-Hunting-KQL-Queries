@@ -1,6 +1,6 @@
 **Detect Malicious IP answers by DNS queries**
 
-**Description:** The aim of this query is detect suspicious answers from DNS Queries, validating them with an external TI Feed and be alerted when there are some matches.
+**Description:** The aim of this query is detect suspicious IP answers from DNS Queries, validating them with an external TI Feed and be alerted when there are some matches.
 
 ```
 let IPList = externaldata (IP:string) ["https://raw.githubusercontent.com/stamparm/ipsum/refs/heads/master/ipsum.txt"] with(format="txt")
