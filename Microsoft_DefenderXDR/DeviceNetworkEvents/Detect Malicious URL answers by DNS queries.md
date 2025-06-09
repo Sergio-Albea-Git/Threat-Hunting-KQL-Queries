@@ -2,7 +2,8 @@
 
 **Description:** The aim of this query is detect suspicious URL answers from DNS Queries, validating them with an external TI Feed and be alerted when there are some matches.
 
-```let URLHausOnlineRAW = externaldata (UHFeed:string) ["https://urlhaus.abuse.ch/downloads/csv_online/"] with(format="txt")
+```
+let URLHausOnlineRAW = externaldata (UHFeed:string) ["https://urlhaus.abuse.ch/downloads/csv_online/"] with(format="txt")
 | where UHFeed !startswith "#"
 | extend UHRAW=replace_string(UHFeed, '"', '')
 | project splitted=split(UHRAW, ',')
