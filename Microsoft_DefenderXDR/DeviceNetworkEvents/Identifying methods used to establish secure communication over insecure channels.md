@@ -12,12 +12,10 @@ Therefore, this KQL Query is oriented to identify if the current encryption to s
 let Courve_Source = externaldata(Value:int,Description:string,DTLSOK:string,Recommended:string,Reference:string)
 [@"https://www.iana.org/assignments/tls-parameters/tls-parameters-8.csv"] with (format="csv");
 DeviceNetworkEvents
-| extend curve = parse_json(AdditionalFields).curve
-| extend curve = tostring(curve)
-| extend server_name = parse_json(AdditionalFields).server_name
-| extend server_name = tostring(server_name)
-| extend RemoteIPCountry = geo_info_from_ip_address(RemoteIP).country
-| extend RemoteIPCountry = tostring(RemoteIPCountry)
+| extend AdditionalFieldsJson = parse_json(AdditionalFields)
+| extend curve = tostring(AdditionalFieldsJson.curve),
+        server_name = tostring(AdditionalFieldsJson.server_name)
+| extend RemoteIPCountry = tostring(geo_info_from_ip_address(RemoteIP).country)
 | join kind=inner (Courve_Source) on $left.curve == $right.Description
 // listing non-recommended curve versions or communications where the Datagram Transport Layer Security (DTLS) is not OK
 | where DTLSOK has "N" or Recommended has "N"
