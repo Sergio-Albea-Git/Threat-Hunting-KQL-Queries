@@ -49,14 +49,18 @@ Search for one of the permissions mentioned in the previous table and click on A
 | <img width="266" height="262" alt="image" src="https://github.com/user-attachments/assets/d3948a9a-4c0b-4d7c-87ff-e3e0e4d9fe19" />
 |---|
 
+Finally, you need to Grand admin consent to the added permissions clicking on ‘Grant admin consent’. Ensure you have the different permissions listed in the previous table into the APP Registration API Permissions and all of them are Granted (Green icon):
 
-Finally, you need to Grand admin consent to the added permissions clicking on ‘Grant admin consent’:
+| <img width="788" height="236" alt="image" src="https://github.com/user-attachments/assets/c9252896-61cf-4e9c-a3d7-a883fbbbbf75" />
+|---|
 
-Ensure you have the different permissions listed in the previous table into the APP Registration API Permissions and all of them are Granted (Green icon):
+Once the App registration is configured with the required permissions, is required to create a Secret value into the App Registration. The steps to create a new secret are the following one:
+
+1. Navigate to Certificate & secrets under the created App Registration and click on Client secrets --> New client secret:
 
 
-
-
+| <img width="728" height="794" alt="image" src="https://github.com/user-attachments/assets/54aa0e13-844b-4e1c-a5ee-d6b274405afb" /> 
+|---|
 
 
 -Logic Apps
