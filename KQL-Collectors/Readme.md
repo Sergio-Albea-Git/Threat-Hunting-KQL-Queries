@@ -62,6 +62,10 @@ Once the App registration is configured with the required permissions, is requir
 | <img width="728" height="794" alt="image" src="https://github.com/user-attachments/assets/54aa0e13-844b-4e1c-a5ee-d6b274405afb" /> 
 |---|
 
+Once is created, save the Value Secret which will be copied into KeyVault in the next step.
+
+<h2>Key Vault</h2>
+
 
 -Logic Apps
 For the Logic Apps implementation you have 2 options:
