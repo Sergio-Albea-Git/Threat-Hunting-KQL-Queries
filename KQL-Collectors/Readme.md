@@ -1,13 +1,16 @@
 <h1>IOC Collection into MISP</h1>
---This Project is  focus on collect IoC that has been already observed into DefenderXDR. Once they are collected using different KQL Queries, they will be added into MISP, and other possibilities such as Microsoft Defender TI Indicators.
 
+This Project is  focus on collect IoC that has been already observed into DefenderXDR. Once they are collected using different KQL Queries, they will be added into MISP, and other possibilities such as Microsoft Defender TI Indicators.
 
+<h3>Requirements</h3>
 1. Azure App Registration with the role ThreatHunting.ReadAll
+
 2. Key Vault repository with 3 secrets:
 
   - TenantID
   - AppRegistrationID
   - AppRegistrationSecret
+  
 3. Logic Apps
 
 <h2>App Registration</h2>
