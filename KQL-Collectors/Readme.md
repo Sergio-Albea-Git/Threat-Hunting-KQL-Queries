@@ -96,6 +96,14 @@ Once is created, the next step is to give the permission to this Logic App to re
 |  <img width="411" height="167" alt="image" src="https://github.com/user-attachments/assets/aaf93208-ec79-4c99-8cb4-56da4c7a6432" />
 |---|
 
+In the Role page, search and select the Key Vault Secret User Role :
+|  <img width="723" height="204" alt="image" src="https://github.com/user-attachments/assets/bd937d12-e07b-4949-a3e0-1965570d97c2" /> 
+|---|
+The next option is select the created Logic App selecting Manage Identities and clicking on Select members:
+
+|  <img width="314" height="216" alt="image" src="https://github.com/user-attachments/assets/0692dec2-55d0-4fdb-a532-bb72ec26fa70" />
+|---|
+
 
 For the Logic Apps implementation you have 2 options:
 1. Use the LogicApp_MISP_.json template
