@@ -10,8 +10,9 @@ Key Vault repository with 3 secrets:
   - TenantID
   - AppRegistrationID
   - AppRegistrationSecret
-  
-3. Logic Apps
+
+Logic Apps
+
 
 <h2>App Registration</h2>
 
@@ -80,7 +81,22 @@ Once there, click on Generate and create the 3 secrets for the following values:
 - AppID
 - Secret Generated on the App Registration
 
+| <img width="444" height="203" alt="image" src="https://github.com/user-attachments/assets/e46d5cf4-17a5-4a1d-8f3b-d0e22105cdad" />
+|---|
+
+
 <h2>Logic Apps</h2>
+Once the App Registration is created and the Key Vault is completed with the 3 mentioned secrets, Navigate to Logic Apps inside of Azure and create it using the option Consumption - Multi Tenant and the default values : 
+
+|  <img width="603" height="442" alt="image" src="https://github.com/user-attachments/assets/4b3c0298-7d0a-41c1-9da4-c968d5298013" />
+|---|
+
+Once is created, the next step is to give the permission to this Logic App to read secrets inside of the created Key Vault. For it, navigate into the KeyVault repository and select Access Control (IAM) --> Add role assignment:
+
+|  <img width="411" height="167" alt="image" src="https://github.com/user-attachments/assets/aaf93208-ec79-4c99-8cb4-56da4c7a6432" />
+|---|
+
+
 For the Logic Apps implementation you have 2 options:
 1. Use the LogicApp_MISP_.json template
    Oriented to collect different IOCS from DefenderXDR and add them into MISP
