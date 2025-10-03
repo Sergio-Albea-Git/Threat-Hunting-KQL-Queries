@@ -3,9 +3,9 @@
 This Project is  focus on collect IoC that has been already observed into DefenderXDR. Once they are collected using different KQL Queries, they will be added into MISP, and other possibilities such as Microsoft Defender TI Indicators.
 
 <h3>Requirements</h3>
-1. Azure App Registration with the role ThreatHunting.ReadAll
+Azure App Registration with the role ThreatHunting.Read.All.
 
-2. Key Vault repository with 3 secrets:
+Key Vault repository with 3 secrets:
 
   - TenantID
   - AppRegistrationID
@@ -63,15 +63,24 @@ Once the App registration is configured with the required permissions, is requir
 1. Navigate to Certificate & secrets under the created App Registration and click on Client secrets --> New client secret:
 
 
-| <img width="728" height="794" alt="image" src="https://github.com/user-attachments/assets/54aa0e13-844b-4e1c-a5ee-d6b274405afb" /> 
+| <img width="529" height="309" alt="image" src="https://github.com/user-attachments/assets/47b6b754-ee28-4aec-a9d7-3df3ce6ce693" />
 |---|
 
 Once is created, save the Value Secret which will be copied into KeyVault in the next step.
 
 <h2>Key Vault</h2>
+Create a Key Vault repository into Azure. Navigate to KeyVault services into Azure and create with the default settings. Once is created, navigate inside of it and click on Secrets :
 
+|  <img width="264" height="143" alt="image" src="https://github.com/user-attachments/assets/5e3e38bd-1565-48b3-b635-bf03cf0b9efd" />
+|---|
 
--Logic Apps
+Once there, click on Generate and create the 3 secrets for the following values:
+
+- TenantID
+- AppID
+- Secret Generated on the App Registration
+
+<h2>Logic Apps</h2>
 For the Logic Apps implementation you have 2 options:
 1. Use the LogicApp_MISP_.json template
    Oriented to collect different IOCS from DefenderXDR and add them into MISP
