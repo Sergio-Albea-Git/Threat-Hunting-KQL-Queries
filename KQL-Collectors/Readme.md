@@ -99,14 +99,61 @@ Once is created, the next step is to give the permission to this Logic App to re
 In the Role page, search and select the Key Vault Secret User Role :
 |  <img width="723" height="204" alt="image" src="https://github.com/user-attachments/assets/bd937d12-e07b-4949-a3e0-1965570d97c2" /> 
 |---|
-The next option is select the created Logic App selecting Manage Identities and clicking on Select members:
+
+After it, search the created Logic App selecting Manage Identities and clicking with the option 'Select members' selected:
 
 |  <img width="314" height="216" alt="image" src="https://github.com/user-attachments/assets/0692dec2-55d0-4fdb-a532-bb72ec26fa70" />
 |---|
 
-in the new windows, select the created Logic Apps Next and Assign.
+In the new windows, select the created Logic Apps Next and Assign.
 
 The last step is to create the Logic Apps flow and for this implementation you have import the json in this repo:
 
 <b> 1. Use the LogicApp_MISP_.json template</b> : Oriented to collect different IOCS from DefenderXDR and add them into MISP
+
+Click on save on top, and then click on edit:
+
+
+Display the Scope action called Token Generation, click on the + icon and select Add an action:
+
+| <img width="271" height="107" alt="image" src="https://github.com/user-attachments/assets/cb138b14-cfbd-4a21-bbce-552a6e87e172" /> 
+|---|
+
+
+The next step is adding 3 Key Vault action which will select the 3 values saved in key vault (repeat the following steps for every secret). 
+Search and click for <b>Key Vault Get Secret</b>:
+
+| <img width="298" height="164" alt="image" src="https://github.com/user-attachments/assets/ff299535-780e-4c8d-99e4-f5e436e2568b" /> 
+|---|
+
+Once selected, we need to establish the new connection to KeyVault selecting the Autentication Type Managed Identity and writting the name of the created KeyVault Repository, and click on Create New:
+
+| <img width="439" height="322" alt="image" src="https://github.com/user-attachments/assets/ddd9b6bc-88ea-4d69-a0ba-58cc4c374af7" /> 
+|---|
+
+
+and selecting the correspoding value. Rename every action with it:
+
+
+It should ends like this : 
+
+| <img width="220" height="343" alt="image" src="https://github.com/user-attachments/assets/998efb7a-8fa5-46b1-b75b-c253129de016" /> 
+|---|
+
+After it, we need to update the created step under Token Generatin called "HTTP Token" with these values replacing the (AppSecretID),(appRegistrationID),(tenantIDValue) for the ones collected by the KeyVault actions. For it, remove the mentioned values, click on the Lighting icon:
+<img width="356" height="47" alt="image" src="https://github.com/user-attachments/assets/1236b06e-09f2-4088-bc26-dd24fc3a711e" />
+and select the corresponding KeyVault value selecting "Value of the secret" for each case:
+
+| <img width="382" height="138" alt="image" src="https://github.com/user-attachments/assets/873f9841-e9f7-4c4f-93fa-eb4842fea7a9" /> 
+|---|
+
+it should end like this:
+
+|<img width="553" height="547" alt="image" src="https://github.com/user-attachments/assets/f4111467-257d-403a-b32e-6e28fd4f2d62" /> 
+|---|
+
+Finally click on Save and run it.
+
+
+
 
