@@ -1,6 +1,6 @@
 <h1>IOC Collection into MISP</h1>
 
-This Project is  focus on collect IoC that has been already observed into DefenderXDR. Once they are collected using different KQL Queries, they will be added into MISP, and other possibilities such as Microsoft Defender TI Indicators.
+This Project is  focus on collect IoC that has been already observed into DefenderXDR. Once they are collected using different KQL Queries, they will be added into MISP.
 
 <h3>Requirements</h3>
 Azure App Registration with the role ThreatHunting.Read.All.
@@ -59,10 +59,9 @@ Finally, you need to Grand admin consent to the added permissions clicking on â€
 | <img width="788" height="236" alt="image" src="https://github.com/user-attachments/assets/c9252896-61cf-4e9c-a3d7-a883fbbbbf75" />
 |---|
 
-Once the App registration is configured with the required permissions, is required to create a Secret value into the App Registration. The steps to create a new secret are the following one:
+Once the App registration is configured with the required permissions, create a Secret value into the App Registration:
 
-1. Navigate to Certificate & secrets under the created App Registration and click on Client secrets --> New client secret:
-
+1. Navigate to Certificate & secrets and click on Client secrets --> New client secret:
 
 | <img width="529" height="309" alt="image" src="https://github.com/user-attachments/assets/47b6b754-ee28-4aec-a9d7-3df3ce6ce693" />
 |---|
@@ -75,15 +74,14 @@ Create a Key Vault repository into Azure. Navigate to KeyVault services into Azu
 |  <img width="264" height="143" alt="image" src="https://github.com/user-attachments/assets/5e3e38bd-1565-48b3-b635-bf03cf0b9efd" />
 |---|
 
-Once there, click on Generate and create the 3 secrets for the following values:
+Once there, click on Generate and create the 3 secrets with the saved Secret value and adding the following values which you can find on the Overview page of the created AppRegistration:
 
 - TenantID
-- AppID
+- AppID of the App Registration
 - Secret Generated on the App Registration
 
 | <img width="444" height="203" alt="image" src="https://github.com/user-attachments/assets/e46d5cf4-17a5-4a1d-8f3b-d0e22105cdad" />
 |---|
-
 
 <h2>Logic Apps</h2>
 Once the App Registration is created and the Key Vault is completed with the 3 mentioned secrets, Navigate to Logic Apps inside of Azure and create it using the option Consumption - Multi Tenant and the default values : 
@@ -91,7 +89,7 @@ Once the App Registration is created and the Key Vault is completed with the 3 m
 |  <img width="503" height="442" alt="image" src="https://github.com/user-attachments/assets/4b3c0298-7d0a-41c1-9da4-c968d5298013" />
 |---|
 
-Once is created, the next step is to give the permission to this Logic App to read secrets inside of the created Key Vault. For it, navigate into the KeyVault repository and select Access Control (IAM) --> Add role assignment:
+The next step is give permission to this Logic App for read secrets inside of the created Key Vault. For it, navigate into the KeyVault repository, select Access Control (IAM) --> Add role assignment:
 
 |  <img width="411" height="167" alt="image" src="https://github.com/user-attachments/assets/aaf93208-ec79-4c99-8cb4-56da4c7a6432" />
 |---|
@@ -109,18 +107,14 @@ In the new windows, select the created Logic Apps Next and Assign.
 
 The last step is to create the Logic Apps flow and for this implementation you have import the json in this repo:
 
-<b> 1. Use the LogicApp_MISP_.json template</b> : Oriented to collect different IOCS from DefenderXDR and add them into MISP
+<b> 1. Use the LogicApp_MISP_.json template</b> : Oriented to collect different IOCS from DefenderXDR and add them into MISP, click on save icon on top, and then click on edit.
 
-Click on save on top, and then click on edit:
-
-
-Display the Scope action called Token Generation, click on the + icon and select Add an action:
+After it, display the Scope action called Token Generation, click on the + icon and select Add an action:
 
 | <img width="271" height="107" alt="image" src="https://github.com/user-attachments/assets/cb138b14-cfbd-4a21-bbce-552a6e87e172" /> 
 |---|
 
-
-The next step is adding 3 Key Vault action which will select the 3 values saved in key vault (repeat the following steps for every secret). 
+The next requirement is adding 3 Key Vault actions which will select the 3 values saved in key vault (repeat the following steps for every secret). 
 Search and click for <b>Key Vault Get Secret</b>:
 
 | <img width="298" height="164" alt="image" src="https://github.com/user-attachments/assets/ff299535-780e-4c8d-99e4-f5e436e2568b" /> 
@@ -131,7 +125,10 @@ Once selected, we need to establish the new connection to KeyVault selecting the
 | <img width="339" height="322" alt="image" src="https://github.com/user-attachments/assets/ddd9b6bc-88ea-4d69-a0ba-58cc4c374af7" /> 
 |---|
 
-and selecting the correspoding value. Rename every action with it:
+and selecting the correspoding value. Rename every action with Get Secret, Get APPID and GET TID. In addition is recommended to secure the inputs and outputs for these secrets values. Select every one of the created Key Vault Actions, click on Setting and navigate under security to enable both options:
+
+|< img width="418" height="431" alt="image" src="https://github.com/user-attachments/assets/ea32d0f9-6cb7-4fc7-8ec3-d41dfe114a7d" /> 
+|---|
 
 
 It should ends like this : 
@@ -139,7 +136,7 @@ It should ends like this :
 | <img width="220" height="343" alt="image" src="https://github.com/user-attachments/assets/998efb7a-8fa5-46b1-b75b-c253129de016" /> 
 |---|
 
-After it, we need to update the created step under Token Generation scope called "HTTP Token" replacing the (AppSecretID),(appRegistrationID),(tenantIDValue) for the ones collected by the KeyVault actions. For it, remove the mentioned values, click on the Lighting icon:
+After it, we need to update the step "HTTP Token" under Token Generation scope replacing the (AppSecretID),(appRegistrationID),(tenantIDValue) for the ones collected by the KeyVault actions. For it, remove the mentioned values, click on the Lighting icon:
 
 | <img width="256" height="47" alt="image" src="https://github.com/user-attachments/assets/1236b06e-09f2-4088-bc26-dd24fc3a711e" />
 |---|
@@ -154,15 +151,12 @@ it should end like this:
 |<img width="336" height="563" alt="image" src="https://github.com/user-attachments/assets/811c782c-a6fe-4660-a716-2991f23841fe" />
 |---|
 
-Finally, click on Initialize variables Group and update the MISP address and the MISP APIKey with the corresponding values:
+Finally, click on Initialize variables Group and update the MISP URL address and the MISP APIKey with the corresponding values:
 
 | <img width="708" height="563" alt="image" src="https://github.com/user-attachments/assets/688a4b18-9805-4c86-bb44-77f4d8131195" /> 
 |---|
 
-
 Save it, run it and it should start to add the collected IOCs into MISP.
-
-
 
 
 
