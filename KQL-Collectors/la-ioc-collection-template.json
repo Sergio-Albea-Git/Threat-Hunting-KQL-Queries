@@ -262,7 +262,7 @@
                         },
                         "type": "Scope"
                     },
-                    "KQL_Collector_-_FH01_-_Email_Malware-": {
+                    "KQL_Collector_-_FH01_-_Email_Malware": {
                         "actions": {
                             "_FH01_-_KQL_Query_Emails_with_Malware": {
                                 "type": "Http",
@@ -517,7 +517,7 @@
                             }
                         },
                         "runAfter": {
-                            "KQL_Collector_-_IP01-_Password_Spray_Attack": [
+                            "KQL_Collector_-IP02_-_RDP_connection_Attempts_(top_5_Risk_countries)": [
                                 "Succeeded"
                             ]
                         },
@@ -535,7 +535,7 @@
                                         "Content-type": "application/json"
                                     },
                                     "body": {
-                                        "Query": " DeviceEvents | where Timestamp > ago(30d) | where ActionType == 'AntivirusDetection' | extend parsed = parse_json(AdditionalFields) | extend ThreatName = tostring(parsed.ThreatName) , ResourceSchema = tostring(parsed.ResourceSchema) | extend Time_ = format_datetime(Timestamp, 'dd-MM-yyyy') | where ThreatName in ('Trojan:Win32/InfoStealer!MSR','PUADlManager:Win32/DownloadSponsor','Backdoor:PHP/Chopper.B!dha','EUS:Win32/CustomEnterpriseBlock','Worm:Win32/Netsky.P@mm','PUABundler:Win32/FileZilla_BundleInstaller') | distinct Time_,ActionType, FileName, SHA1,SHA256, FileOriginIP, FileOriginUrl,ThreatName,MD5 | extend rawHash = substring(tostring(hash_sha256(strcat(1, tostring(rand())))), 0, 32) | extend GeneratedUUID= strcat( substring(rawHash, 0, 8), '-', substring(rawHash, 8, 4), '-', substring(rawHash, 12, 4), '-', substring(rawHash, 16, 4), '-', substring(rawHash, 20, 12) ) | distinct Time_,ActionType, FileName, SHA1,SHA256, FileOriginIP, FileOriginUrl,ThreatName, GeneratedUUID,MD5 "
+                                        "Query": " DeviceEvents | where Timestamp > ago(1d) | where ActionType == 'AntivirusDetection' | extend parsed = parse_json(AdditionalFields) | extend ThreatName = tostring(parsed.ThreatName) , ResourceSchema = tostring(parsed.ResourceSchema) | extend Time_ = format_datetime(Timestamp, 'dd-MM-yyyy') | where ThreatName in ('Trojan:Win32/InfoStealer!MSR','PUADlManager:Win32/DownloadSponsor','Backdoor:PHP/Chopper.B!dha','EUS:Win32/CustomEnterpriseBlock','Worm:Win32/Netsky.P@mm','PUABundler:Win32/FileZilla_BundleInstaller') | distinct Time_,ActionType, FileName, SHA1,SHA256, FileOriginIP, FileOriginUrl,ThreatName,MD5 | extend rawHash = substring(tostring(hash_sha256(strcat(1, tostring(rand())))), 0, 32) | extend GeneratedUUID= strcat( substring(rawHash, 0, 8), '-', substring(rawHash, 8, 4), '-', substring(rawHash, 12, 4), '-', substring(rawHash, 16, 4), '-', substring(rawHash, 20, 12) ) | distinct Time_,ActionType, FileName, SHA1,SHA256, FileOriginIP, FileOriginUrl,ThreatName, GeneratedUUID,MD5 "
                                     }
                                 },
                                 "runtimeConfiguration": {
@@ -687,7 +687,165 @@
                             }
                         },
                         "runAfter": {
-                            "KQL_Collector_-_FH01_-_Email_Malware-": [
+                            "KQL_Collector_-_FH01_-_Email_Malware": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "Scope"
+                    },
+                    "KQL_Collector_-IP02_-_RDP_connection_Attempts_(top_5_Risk_countries)": {
+                        "actions": {
+                            "IP02_-_KQL_RDP_connection_Attempts_(top_5_Risk_Countries)": {
+                                "type": "Http",
+                                "inputs": {
+                                    "uri": "https://graph.microsoft.com/v1.0/security/runHuntingQuery",
+                                    "method": "POST",
+                                    "headers": {
+                                        "Authorization": "Bearer @{variables('Token')}",
+                                        "Content-type": "application/json"
+                                    },
+                                    "body": {
+                                        "Query": " DeviceNetworkEvents |  where Timestamp > ago(1d) | where LocalPort == '3389' | extend geo_ip = tostring(geo_info_from_ip_address(RemoteIP).country) | where isnotempty(geo_ip) and geo_ip in ('Russia','China','Nigeria','Iran','North Korea')|  extend Time_ = format_datetime( Timestamp, 'dd-MM-yyyy') | project geo_ip, RemoteIP, RemotePort,ActionType, InitiatingProcessCommandLine,Time_ | extend rawHash = substring(tostring(hash_sha256(strcat(1, tostring(rand())))), 0, 32) | extend GeneratedUUID = strcat( substring(rawHash, 0, 8), '-', substring(rawHash, 8, 4), '-', substring(rawHash, 12, 4), '-', substring(rawHash, 16, 4), '-', substring(rawHash, 20, 12)) "
+                                    }
+                                },
+                                "runtimeConfiguration": {
+                                    "contentTransfer": {
+                                        "transferMode": "Chunked"
+                                    }
+                                }
+                            },
+                            "IP02_-_Parse_JSON__RDP_connection_Attempts_(top_5_Risk_Countries)": {
+                                "runAfter": {
+                                    "IP02_-_KQL_RDP_connection_Attempts_(top_5_Risk_Countries)": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "ParseJson",
+                                "inputs": {
+                                    "content": "@body('IP02_-_KQL_RDP_connection_Attempts_(top_5_Risk_Countries)')",
+                                    "schema": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@@odata.context": {
+                                                "type": "string"
+                                            },
+                                            "schema": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "name": {
+                                                            "type": "string"
+                                                        },
+                                                        "type": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "name",
+                                                        "type"
+                                                    ]
+                                                }
+                                            },
+                                            "results": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "geo_ip": {
+                                                            "type": "string"
+                                                        },
+                                                        "RemoteIP": {
+                                                            "type": "string"
+                                                        },
+                                                        "Time_": {
+                                                            "type": "string"
+                                                        },
+                                                        "RemotePort": {
+                                                            "type": "integer"
+                                                        },
+                                                        "ActionType": {
+                                                            "type": "string"
+                                                        },
+                                                        "InitiatingProcessCommandLine": {
+                                                            "type": "string"
+                                                        },
+                                                        "rawHash": {
+                                                            "type": "string"
+                                                        },
+                                                        "GeneratedUUID": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "geo_ip",
+                                                        "RemoteIP",
+                                                        "RemotePort",
+                                                        "ActionType",
+                                                        "InitiatingProcessCommandLine",
+                                                        "rawHash",
+                                                        "GeneratedUUID"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "IP02_-_For_Each_-_RDP_Attempts_(top_5_Risk_countries)": {
+                                "foreach": "@body('IP02_-_Parse_JSON__RDP_connection_Attempts_(top_5_Risk_Countries)')?['results']",
+                                "actions": {
+                                    "IP02_-_MISP_-__IP_RDP_attempt_": {
+                                        "type": "Http",
+                                        "inputs": {
+                                            "uri": "@variables('MISP address')",
+                                            "method": "POST",
+                                            "headers": {
+                                                "Authorization": "@{variables('MISP APIKey')}",
+                                                "Content-Type": "application/json",
+                                                "Accept": "application/json"
+                                            },
+                                            "body": {
+                                                "meta_id": "__ms___",
+                                                "meta_schema": "msiocs",
+                                                "meta_schema_version": 0.1,
+                                                "meta_source": "ms",
+                                                "tags": [
+                                                    "source:DefenderXDR",
+                                                    "Port:3389",
+                                                    "Incident:RDP Attempts",
+                                                    "IOC: IP",
+                                                    "PAP:Amber"
+                                                ],
+                                                "comments": " :@{item()?['Time_']} -@{item()?['RemoteIP']} :@{item()?['geo_ip']} - @{item()?['ActionType']}  ",
+                                                "ip": [
+                                                    {
+                                                        "ioc": "@{item()?['RemoteIP']}"
+                                                    }
+                                                ],
+                                                "meta_systems": [
+                                                    "dev"
+                                                ],
+                                                "meta_uuid": "@{item()?['GeneratedUUID']}"
+                                            }
+                                        },
+                                        "runtimeConfiguration": {
+                                            "contentTransfer": {
+                                                "transferMode": "Chunked"
+                                            }
+                                        }
+                                    }
+                                },
+                                "runAfter": {
+                                    "IP02_-_Parse_JSON__RDP_connection_Attempts_(top_5_Risk_Countries)": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "Foreach"
+                            }
+                        },
+                        "runAfter": {
+                            "KQL_Collector_-_IP01-_Password_Spray_Attack": [
                                 "Succeeded"
                             ]
                         },
