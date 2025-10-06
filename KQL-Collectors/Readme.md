@@ -89,7 +89,7 @@ Once the App Registration is created and the Key Vault is completed with the 3 m
 |  <img width="503" height="442" alt="image" src="https://github.com/user-attachments/assets/4b3c0298-7d0a-41c1-9da4-c968d5298013" />
 |---|
 
-The next step is give permission to this Logic App for read secrets inside of the created Key Vault. For it, navigate into the KeyVault repository, select Access Control (IAM) --> Add role assignment:
+The next step is give permission to this Logic App for read secrets inside of the created Key Vault. For it, back to the KeyVault repository, select Access Control (IAM) --> Add role assignment:
 
 |  <img width="411" height="167" alt="image" src="https://github.com/user-attachments/assets/aaf93208-ec79-4c99-8cb4-56da4c7a6432" />
 |---|
@@ -105,16 +105,19 @@ After it, search the created Logic App selecting Manage Identities and clicking 
 
 In the new windows, select the created Logic Apps Next and Assign.
 
-The last step is to create the Logic Apps flow and for this implementation you have import the json in this repo:
+Back to the Logic Apps to continue with the last step to create the Logic Apps flow and for this implementation you have import the json available in this repo called  <b> la-ioc-collection-template</b> oriented to collect different IOCS from DefenderXDR and add them into MISP. Navigate into Logic Apps Code View, paste the json content, click on save icon on top.
 
-<b> 1. Use the LogicApp_MISP_.json template</b> : Oriented to collect different IOCS from DefenderXDR and add them into MISP, click on save icon on top, and then click on edit.
+| <img width="722" height="365" alt="image" src="https://github.com/user-attachments/assets/ebedf535-2e77-418b-b96d-be7a56e24ece" /> 
+|---|
 
-After it, display the Scope action called Token Generation, click on the + icon and select Add an action:
+After it,navigate to Logic App Designer and a flow should be created on your Logic App. 
+
+The next step is display the Scope action called Token Generation, click on the + icon and select Add an action:
 
 | <img width="271" height="107" alt="image" src="https://github.com/user-attachments/assets/cb138b14-cfbd-4a21-bbce-552a6e87e172" /> 
 |---|
 
-The next requirement is adding 3 Key Vault actions which will select the 3 values saved in key vault (repeat the following steps for every secret). 
+In this point, is required to add 3 Key Vault actions which will select the 3 values saved in key vault (repeat the following steps for every secret). 
 Search and click for <b>Key Vault Get Secret</b>:
 
 | <img width="298" height="164" alt="image" src="https://github.com/user-attachments/assets/ff299535-780e-4c8d-99e4-f5e436e2568b" /> 
@@ -129,7 +132,6 @@ and selecting the correspoding value. Rename every action with Get Secret, Get A
 
 |< img width="418" height="431" alt="image" src="https://github.com/user-attachments/assets/ea32d0f9-6cb7-4fc7-8ec3-d41dfe114a7d" /> 
 |---|
-
 
 It should ends like this : 
 
@@ -153,15 +155,17 @@ it should end like this:
 
 Finally, click on Initialize variables Group and update the MISP URL address and the MISP APIKey with the corresponding values:
 
-| <img width="708" height="563" alt="image" src="https://github.com/user-attachments/assets/688a4b18-9805-4c86-bb44-77f4d8131195" /> 
+| <img width="508" height="563" alt="image" src="https://github.com/user-attachments/assets/688a4b18-9805-4c86-bb44-77f4d8131195" /> 
 |---|
 
 Save it, run it and it should start to add the collected IOCs into MISP.
 
 
-Others
+<h2>Others</h2>
 
-under , you can modify the step to obfuscte the email subject if contains specific text such as organization name or other sensitive information.
-<img width="556" height="287" alt="image" src="https://github.com/user-attachments/assets/09d7b388-00cb-4c4b-8ee2-a1409f9f69d3" />
+Under the FH01 - Email Malware collector, you can modify the step to hide the email subject if contains specific text such as organization name or other sensitive information.
+|<img width="556" height="287" alt="image" src="https://github.com/user-attachments/assets/09d7b388-00cb-4c4b-8ee2-a1409f9f69d3" /> 
+|---|
+
 
 
