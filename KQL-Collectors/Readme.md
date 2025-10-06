@@ -130,7 +130,7 @@ Once selected, we need to establish the new connection to KeyVault selecting the
 
 and selecting the correspoding value. Rename every action with Get Secret, Get APPID and GET TID. In addition is recommended to secure the inputs and outputs for these secrets values. Select every one of the created Key Vault Actions, click on Setting and navigate under security to enable both options:
 
-|< img width="418" height="431" alt="image" src="https://github.com/user-attachments/assets/ea32d0f9-6cb7-4fc7-8ec3-d41dfe114a7d" /> 
+| <img width="418" height="431" alt="image" src="https://github.com/user-attachments/assets/ea32d0f9-6cb7-4fc7-8ec3-d41dfe114a7d" /> 
 |---|
 
 It should ends like this : 
