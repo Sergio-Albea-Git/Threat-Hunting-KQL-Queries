@@ -1,0 +1,719 @@
+{
+    "definition": {
+        "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+        "contentVersion": "1.0.0.0",
+        "triggers": {
+            "Recurrence": {
+                "recurrence": {
+                    "interval": 1,
+                    "frequency": "Day"
+                },
+                "evaluatedRecurrence": {
+                    "interval": 1,
+                    "frequency": "Day"
+                },
+                "type": "Recurrence"
+            }
+        },
+        "actions": {
+            "Initialize_variables_Group": {
+                "runAfter": {},
+                "type": "InitializeVariable",
+                "inputs": {
+                    "variables": [
+                        {
+                            "name": "Token",
+                            "type": "string",
+                            "value": " "
+                        },
+                        {
+                            "name": "MISP address",
+                            "type": "string"
+                        },
+                        {
+                            "name": "MISP APIKey",
+                            "type": "string"
+                        },
+                        {
+                            "name": "Email_Subject",
+                            "type": "string"
+                        }
+                    ]
+                }
+            },
+            "Token_Generation": {
+                "actions": {
+                    "HTTP_Token": {
+                        "type": "Http",
+                        "inputs": {
+                            "uri": "https://login.microsoftonline.com/(TenantIDValue)/oauth2/v2.0/token",
+                            "method": "POST",
+                            "headers": {
+                                "Host": "login.microsoftonline.com",
+                                "Content-type": "application/x-www-form-urlencoded"
+                            },
+                            "body": "client_id=(AppIDValue)\n&scope=https://graph.microsoft.com/.default\n&client_secret=(APPScecretID)\n&grant_type=client_credentials"
+                        },
+                        "runtimeConfiguration": {
+                            "contentTransfer": {
+                                "transferMode": "Chunked"
+                            }
+                        }
+                    },
+                    "Parse_JSON_(Token)": {
+                        "runAfter": {
+                            "HTTP_Token": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "ParseJson",
+                        "inputs": {
+                            "content": "@body('HTTP_Token')",
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "token_type": {
+                                        "type": "string"
+                                    },
+                                    "expires_in": {
+                                        "type": "integer"
+                                    },
+                                    "ext_expires_in": {
+                                        "type": "integer"
+                                    },
+                                    "access_token": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        },
+                        "runtimeConfiguration": {
+                            "secureData": {
+                                "properties": [
+                                    "inputs"
+                                ]
+                            }
+                        }
+                    },
+                    "Set_variable_Token": {
+                        "runAfter": {
+                            "Parse_JSON_(Token)": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "SetVariable",
+                        "inputs": {
+                            "name": "Token",
+                            "value": "@body('Parse_JSON_(Token)')?['access_token']"
+                        }
+                    }
+                },
+                "runAfter": {
+                    "Initialize_variables_Group": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Scope"
+            },
+            "KQL_Collectors_+_MISP_Integration": {
+                "actions": {
+                    "KQL_Collector_-_IP01-_Password_Spray_Attack": {
+                        "actions": {
+                            "KQL_Query_MaliciousIP_related_to_Password_Spray": {
+                                "type": "Http",
+                                "inputs": {
+                                    "uri": "https://graph.microsoft.com/v1.0/security/runHuntingQuery",
+                                    "method": "POST",
+                                    "headers": {
+                                        "Authorization": "Bearer @{variables('Token')}",
+                                        "Content-type": "application/json"
+                                    },
+                                    "body": {
+                                        "Query": " let Malicious_IP_iOC = AlertEvidence |where Timestamp > ago(1d) | where Title contains 'Malicious IP Address' | extend parsed = parse_json(AdditionalFields) | extend Address = tostring(parsed.Address), Type = tostring(parsed.Type), Role = tostring(parsed.Role), MergeByKey = tostring(parsed.MergeByKey), MergeByKeyHex= tostring(parsed.MergeByKeyHex), CountryCode = tostring(parsed.Location.CountryCode), State = tostring(parsed.Location.State), City = tostring(parsed.Location.City), Longitude = todouble(parsed.Location.Longitude), Latitude = todouble(parsed.Location.Latitude), ASN = tostring(parsed.Location.Asn) | extend Time_ = format_datetime( Timestamp, 'dd-MM-yyyy'); AlertEvidence | extend parsed = parse_json(AdditionalFields) | extend Address = tostring(parsed.Address), Type = tostring(parsed.Type), Role = tostring(parsed.Role), MergeByKey = tostring(parsed.MergeByKey), MergeByKeyHex= tostring(parsed.MergeByKeyHex), CountryCode = tostring(parsed.Location.CountryCode),State = tostring(parsed.Location.State), City = tostring(parsed.Location.City), Longitude = todouble(parsed.Location.Longitude), Latitude = todouble(parsed.Location.Latitude), ASN = tostring(parsed.Location.Asn) | extend Time_ = format_datetime( Timestamp, 'dd-MM-yyyy') | join kind=inner (Malicious_IP_iOC) on $left.MergeByKey == $right.MergeByKey | where isnotempty(Address1) and Title contains 'Password Spray' | distinct Time_,Title, Address1, CountryCode | extend rawHash = substring(tostring(hash_sha256(strcat(1, tostring(rand())))), 0, 32) | extend GeneratedUUID = strcat( substring(rawHash, 0, 8), '-', substring(rawHash, 8, 4), '-', substring(rawHash, 12, 4), '-', substring(rawHash, 16, 4), '-', substring(rawHash, 20, 12) ) "
+                                    }
+                                },
+                                "runtimeConfiguration": {
+                                    "contentTransfer": {
+                                        "transferMode": "Chunked"
+                                    }
+                                }
+                            },
+                            "IP01_-_Parse_JSON_-_Password_Spray": {
+                                "runAfter": {
+                                    "KQL_Query_MaliciousIP_related_to_Password_Spray": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "ParseJson",
+                                "inputs": {
+                                    "content": "@body('KQL_Query_MaliciousIP_related_to_Password_Spray')",
+                                    "schema": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@@odata.context": {
+                                                "type": "string"
+                                            },
+                                            "schema": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "name": {
+                                                            "type": "string"
+                                                        },
+                                                        "type": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "name",
+                                                        "type"
+                                                    ]
+                                                }
+                                            },
+                                            "results": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "Time_": {
+                                                            "type": "string"
+                                                        },
+                                                        "Title": {
+                                                            "type": "string"
+                                                        },
+                                                        "Address1": {
+                                                            "type": "string"
+                                                        },
+                                                        "CountryCode": {
+                                                            "type": "string"
+                                                        },
+                                                        "rawHash": {
+                                                            "type": "string"
+                                                        },
+                                                        "GeneratedUUID": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "Time_",
+                                                        "Title",
+                                                        "Address1",
+                                                        "CountryCode",
+                                                        "rawHash",
+                                                        "GeneratedUUID"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "For_each_IP_related_to_Password_Spray_add_into_MISP": {
+                                "foreach": "@body('IP01_-_Parse_JSON_-_Password_Spray')?['results']",
+                                "actions": {
+                                    "IP01_-_MISP_-_Password_Spray": {
+                                        "type": "Http",
+                                        "inputs": {
+                                            "uri": "@variables('MISP address')",
+                                            "method": "POST",
+                                            "headers": {
+                                                "Authorization": "@{variables('MISP APIKey')}",
+                                                "Content-Type": "application/json",
+                                                "Accept": "application/json"
+                                            },
+                                            "body": {
+                                                "meta_id": "__ms___",
+                                                "meta_schema": "msiocs",
+                                                "meta_schema_version": 0.1,
+                                                "meta_source": "ms",
+                                                "tags": [
+                                                    "source:DefenderXDR",
+                                                    "Incident:PasswordSpray",
+                                                    "IOC: IP",
+                                                    "PAP:Amber"
+                                                ],
+                                                "comments": "@{item()?['Time_']} :@{item()?['Title']} : @{item()?['Address1']} ",
+                                                "ip": [
+                                                    {
+                                                        "ioc": "@{item()?['Address1']}"
+                                                    }
+                                                ],
+                                                "meta_systems": [
+                                                    "dev"
+                                                ],
+                                                "meta_uuid": "@{item()?['GeneratedUUID']}"
+                                            }
+                                        },
+                                        "runtimeConfiguration": {
+                                            "contentTransfer": {
+                                                "transferMode": "Chunked"
+                                            }
+                                        }
+                                    }
+                                },
+                                "runAfter": {
+                                    "IP01_-_Parse_JSON_-_Password_Spray": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "Foreach"
+                            }
+                        },
+                        "type": "Scope"
+                    },
+                    "KQL_Collector_-_FH01_-_Email_Malware-": {
+                        "actions": {
+                            "_FH01_-_KQL_Query_Emails_with_Malware": {
+                                "type": "Http",
+                                "inputs": {
+                                    "uri": "https://graph.microsoft.com/v1.0/security/runHuntingQuery",
+                                    "method": "POST",
+                                    "headers": {
+                                        "Authorization": "Bearer @{variables('Token')}",
+                                        "Content-type": "application/json"
+                                    },
+                                    "body": {
+                                        "Query": "  EmailEvents  | where Timestamp > ago(1d) | where ThreatTypes has 'Malware' and (ThreatNames contains 'Payload' or ThreatNames contains 'Taskun' or  ThreatNames contains 'Win32/Sonbokli.A!cl')  | join kind=inner ( EmailAttachmentInfo) on $left.NetworkMessageId == $right.NetworkMessageId | where SenderFromAddress  == SenderFromAddress1  |  where FileType !in ('jpg','png') |  extend geo_ip = tostring(geo_info_from_ip_address(SenderIPv4).country) | where  isnotempty(geo_ip)  |  extend  Time_ =  format_datetime( Timestamp, 'dd-MM-yyyy') |  distinct  Time_,SenderFromAddress, SenderDisplayName, SenderMailFromDomain, SenderIPv4, geo_ip, FileName, FileType,ThreatNames,SHA256,Subject,MD5=hash_md5(SHA256) | extend rawHash = substring(tostring(hash_sha256(strcat(1, tostring(rand())))), 0, 32) | extend GeneratedUUID = strcat( substring(rawHash, 0, 8), '-', substring(rawHash, 8, 4), '-', substring(rawHash, 12, 4), '-', substring(rawHash, 16, 4), '-', substring(rawHash, 20, 12) ) "
+                                    }
+                                },
+                                "runtimeConfiguration": {
+                                    "contentTransfer": {
+                                        "transferMode": "Chunked"
+                                    }
+                                }
+                            },
+                            "_FH01_-_Parse_JSON_KQL_Query_Emails_with_Malware_": {
+                                "runAfter": {
+                                    "_FH01_-_KQL_Query_Emails_with_Malware": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "ParseJson",
+                                "inputs": {
+                                    "content": "@body('_FH01_-_KQL_Query_Emails_with_Malware')",
+                                    "schema": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@@odata.context": {
+                                                "type": "string"
+                                            },
+                                            "schema": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "name": {
+                                                            "type": "string"
+                                                        },
+                                                        "type": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "name",
+                                                        "type"
+                                                    ]
+                                                }
+                                            },
+                                            "results": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "Time_": {
+                                                            "type": "string"
+                                                        },
+                                                        "SenderFromAddress": {
+                                                            "type": "string"
+                                                        },
+                                                        "SenderDisplayName": {
+                                                            "type": "string"
+                                                        },
+                                                        "SenderMailFromDomain": {
+                                                            "type": "string"
+                                                        },
+                                                        "SenderIPv4": {
+                                                            "type": "string"
+                                                        },
+                                                        "geo_ip": {
+                                                            "type": "string"
+                                                        },
+                                                        "FileName": {
+                                                            "type": "string"
+                                                        },
+                                                        "FileType": {
+                                                            "type": "string"
+                                                        },
+                                                        "ThreatNames": {
+                                                            "type": "string"
+                                                        },
+                                                        "SHA256": {
+                                                            "type": "string"
+                                                        },
+                                                        "Subject": {
+                                                            "type": "string"
+                                                        },
+                                                        "MD5": {
+                                                            "type": "string"
+                                                        },
+                                                        "rawHash": {
+                                                            "type": "string"
+                                                        },
+                                                        "GeneratedUUID": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "Time_",
+                                                        "SenderFromAddress",
+                                                        "SenderDisplayName",
+                                                        "SenderMailFromDomain",
+                                                        "SenderIPv4",
+                                                        "geo_ip",
+                                                        "FileName",
+                                                        "FileType",
+                                                        "ThreatNames",
+                                                        "SHA256",
+                                                        "Subject",
+                                                        "MD5",
+                                                        "rawHash",
+                                                        "GeneratedUUID"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "_FH01_-_For_each_Result_of_KQL_Email_with_Malwares__": {
+                                "foreach": "@body('_FH01_-_Parse_JSON_KQL_Query_Emails_with_Malware_')?['results']",
+                                "actions": {
+                                    "Foreach_FH01,_add_them_into_MISP_": {
+                                        "actions": {
+                                            "_FH01_-_Subject_Content_Validation": {
+                                                "actions": {
+                                                    "Set_variable": {
+                                                        "type": "SetVariable",
+                                                        "inputs": {
+                                                            "name": "Email_Subject",
+                                                            "value": "@item()?['Subject']"
+                                                        }
+                                                    }
+                                                },
+                                                "else": {
+                                                    "actions": {
+                                                        "Set_variable_Ofbuscate_Subject": {
+                                                            "type": "SetVariable",
+                                                            "inputs": {
+                                                                "name": "Email_Subject",
+                                                                "value": "Obfuscated"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "expression": {
+                                                    "or": [
+                                                        {
+                                                            "not": {
+                                                                "contains": [
+                                                                    "@item()?['Subject']",
+                                                                    "organizationname"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "type": "If"
+                                            },
+                                            "FH01_-_MISP_-_Malware_Email": {
+                                                "runAfter": {
+                                                    "_FH01_-_Subject_Content_Validation": [
+                                                        "Succeeded"
+                                                    ]
+                                                },
+                                                "type": "Http",
+                                                "inputs": {
+                                                    "uri": "@variables('MISP address')",
+                                                    "method": "POST",
+                                                    "headers": {
+                                                        "Authorization": "@{variables('MISP APIKey')}",
+                                                        "Content-Type": "application/json",
+                                                        "Accept": "application/json"
+                                                    },
+                                                    "body": {
+                                                        "comments": "@{item()?['ThreatNames']}",
+                                                        "object_email": {
+                                                            "from": "@{item()?['SenderFromAddress']}",
+                                                            "from-display-name": "@{item()?['SenderDisplayName']}",
+                                                            "ip-src": "@{item()?['SenderIPv4']}",
+                                                            "reply-to": "NA",
+                                                            "return-path": "NA",
+                                                            "send-date": "@{item()?['Time']}",
+                                                            "subject": "@{variables('Email_Subject')}"
+                                                        },
+                                                        "object_file": {
+                                                            "authentihash": "",
+                                                            "filename": "@{item()?['FileName']}",
+                                                            "md5": "@{item()?['MD5']}",
+                                                            "mimetype": "NA",
+                                                            "sha256": "@{item()?['SHA256']}"
+                                                        },
+                                                        "meta_id": "__ms_12345678__",
+                                                        "meta_schema": "msiocs",
+                                                        "meta_schema_version": 0.1,
+                                                        "meta_source": "ms",
+                                                        "tags": [
+                                                            "source:DefenderXDR",
+                                                            "Incident:Malware_by_Email",
+                                                            "Malware : @{item()?['ThreatNames']}",
+                                                            "PAP:Amber"
+                                                        ],
+                                                        "meta_systems": [
+                                                            "dev"
+                                                        ],
+                                                        "meta_uuid": "@{item()?['GeneratedUUID']}"
+                                                    }
+                                                },
+                                                "runtimeConfiguration": {
+                                                    "contentTransfer": {
+                                                        "transferMode": "Chunked"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "else": {
+                                            "actions": {}
+                                        },
+                                        "expression": {
+                                            "and": [
+                                                {
+                                                    "not": {
+                                                        "endsWith": [
+                                                            "@item()?['FileName']",
+                                                            ".jpg"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "not": {
+                                                        "endsWith": [
+                                                            "@item()?['FileName']",
+                                                            ".png"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "type": "If"
+                                    }
+                                },
+                                "runAfter": {
+                                    "_FH01_-_Parse_JSON_KQL_Query_Emails_with_Malware_": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "Foreach"
+                            }
+                        },
+                        "runAfter": {
+                            "KQL_Collector_-_IP01-_Password_Spray_Attack": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "Scope"
+                    },
+                    "KQL_Collector_-_FH02_-_File_with_Malware": {
+                        "actions": {
+                            "_FH02_-_KQL_Query_File_with_Malware": {
+                                "type": "Http",
+                                "inputs": {
+                                    "uri": "https://graph.microsoft.com/v1.0/security/runHuntingQuery",
+                                    "method": "POST",
+                                    "headers": {
+                                        "Authorization": "Bearer @{variables('Token')}",
+                                        "Content-type": "application/json"
+                                    },
+                                    "body": {
+                                        "Query": " DeviceEvents | where Timestamp > ago(30d) | where ActionType == 'AntivirusDetection' | extend parsed = parse_json(AdditionalFields) | extend ThreatName = tostring(parsed.ThreatName) , ResourceSchema = tostring(parsed.ResourceSchema) | extend Time_ = format_datetime(Timestamp, 'dd-MM-yyyy') | where ThreatName in ('Trojan:Win32/InfoStealer!MSR','PUADlManager:Win32/DownloadSponsor','Backdoor:PHP/Chopper.B!dha','EUS:Win32/CustomEnterpriseBlock','Worm:Win32/Netsky.P@mm','PUABundler:Win32/FileZilla_BundleInstaller') | distinct Time_,ActionType, FileName, SHA1,SHA256, FileOriginIP, FileOriginUrl,ThreatName,MD5 | extend rawHash = substring(tostring(hash_sha256(strcat(1, tostring(rand())))), 0, 32) | extend GeneratedUUID= strcat( substring(rawHash, 0, 8), '-', substring(rawHash, 8, 4), '-', substring(rawHash, 12, 4), '-', substring(rawHash, 16, 4), '-', substring(rawHash, 20, 12) ) | distinct Time_,ActionType, FileName, SHA1,SHA256, FileOriginIP, FileOriginUrl,ThreatName, GeneratedUUID,MD5 "
+                                    }
+                                },
+                                "runtimeConfiguration": {
+                                    "contentTransfer": {
+                                        "transferMode": "Chunked"
+                                    }
+                                }
+                            },
+                            "FH02_-_Parse_JSON": {
+                                "runAfter": {
+                                    "_FH02_-_KQL_Query_File_with_Malware": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "ParseJson",
+                                "inputs": {
+                                    "content": "@body('_FH02_-_KQL_Query_File_with_Malware')",
+                                    "schema": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@@odata.context": {
+                                                "type": "string"
+                                            },
+                                            "schema": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "name": {
+                                                            "type": "string"
+                                                        },
+                                                        "type": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "name",
+                                                        "type"
+                                                    ]
+                                                }
+                                            },
+                                            "results": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "Time_": {
+                                                            "type": "string"
+                                                        },
+                                                        "ActionType": {
+                                                            "type": "string"
+                                                        },
+                                                        "FileName": {
+                                                            "type": "string"
+                                                        },
+                                                        "SHA1": {
+                                                            "type": "string"
+                                                        },
+                                                        "SHA256": {
+                                                            "type": "string"
+                                                        },
+                                                        "MD5": {
+                                                            "type": "string"
+                                                        },
+                                                        "FileOriginIP": {
+                                                            "type": "string"
+                                                        },
+                                                        "FileOriginUrl": {
+                                                            "type": "string"
+                                                        },
+                                                        "ThreatName": {
+                                                            "type": "string"
+                                                        },
+                                                        "GeneratedUUID": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "Time_",
+                                                        "ActionType",
+                                                        "FileName",
+                                                        "SHA1",
+                                                        "SHA256",
+                                                        "FileOriginIP",
+                                                        "FileOriginUrl",
+                                                        "ThreatName",
+                                                        "GeneratedUUID",
+                                                        "MD5"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "FH02_-_For_each_File_with_Malware_IOC": {
+                                "foreach": "@body('FH02_-_Parse_JSON')?['results']",
+                                "actions": {
+                                    "FH02_-_HTTP_Post_File_Malware_IOCs_into_MISP": {
+                                        "type": "Http",
+                                        "inputs": {
+                                            "uri": "@variables('MISP address')",
+                                            "method": "POST",
+                                            "headers": {
+                                                "Authorization": "@{variables('MISP APIKey')}",
+                                                "Content-Type": "application/json",
+                                                "Accept": "application/json"
+                                            },
+                                            "body": {
+                                                "comments": "@{item()?['FileName']} ",
+                                                "object_file": {
+                                                    "authentihash": "",
+                                                    "filename": "@{item()?['FileName']}",
+                                                    "md5": "@{item()?['MD5']}",
+                                                    "sha1": "@{item()?['SHA1']}",
+                                                    "mimetype": "NA",
+                                                    "sha256": "@{item()?['SHA256']}"
+                                                },
+                                                "meta_id": "__ms_12345678__",
+                                                "meta_schema": "msiocs",
+                                                "meta_schema_version": 0.1,
+                                                "meta_source": "ms",
+                                                "tags": [
+                                                    "source:DefenderXDR",
+                                                    "Incident:Malware_by_File",
+                                                    "IOC:FH",
+                                                    "Malware : @{item()?['ThreatName']}",
+                                                    "PAP:Amber"
+                                                ],
+                                                "meta_systems": [
+                                                    "dev"
+                                                ],
+                                                "meta_uuid": "@{item()?['GeneratedUUID']}"
+                                            }
+                                        },
+                                        "runtimeConfiguration": {
+                                            "contentTransfer": {
+                                                "transferMode": "Chunked"
+                                            }
+                                        }
+                                    }
+                                },
+                                "runAfter": {
+                                    "FH02_-_Parse_JSON": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "Foreach"
+                            }
+                        },
+                        "runAfter": {
+                            "KQL_Collector_-_FH01_-_Email_Malware-": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "Scope"
+                    }
+                },
+                "runAfter": {
+                    "Token_Generation": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Scope"
+            }
+        },
+        "outputs": {},
+        "parameters": {
+            "$connections": {
+                "type": "Object",
+                "defaultValue": {}
+            }
+        }
+    },
+    "parameters": {
+        "$connections": {
+            "type": "Object",
+            "value": {}
+        }
+    }
+}
