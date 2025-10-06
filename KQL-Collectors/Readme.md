@@ -159,4 +159,9 @@ Finally, click on Initialize variables Group and update the MISP URL address and
 Save it, run it and it should start to add the collected IOCs into MISP.
 
 
+Others
+
+under , you can modify the step to obfuscte the email subject if contains specific text such as organization name or other sensitive information.
+<img width="556" height="287" alt="image" src="https://github.com/user-attachments/assets/09d7b388-00cb-4c4b-8ee2-a1409f9f69d3" />
+
 
