@@ -128,9 +128,8 @@ Search and click for <b>Key Vault Get Secret</b>:
 
 Once selected, we need to establish the new connection to KeyVault selecting the Autentication Type Managed Identity and writting the name of the created KeyVault Repository, and click on Create New:
 
-| <img width="439" height="322" alt="image" src="https://github.com/user-attachments/assets/ddd9b6bc-88ea-4d69-a0ba-58cc4c374af7" /> 
+| <img width="339" height="322" alt="image" src="https://github.com/user-attachments/assets/ddd9b6bc-88ea-4d69-a0ba-58cc4c374af7" /> 
 |---|
-
 
 and selecting the correspoding value. Rename every action with it:
 
@@ -140,8 +139,11 @@ It should ends like this :
 | <img width="220" height="343" alt="image" src="https://github.com/user-attachments/assets/998efb7a-8fa5-46b1-b75b-c253129de016" /> 
 |---|
 
-After it, we need to update the created step under Token Generatin called "HTTP Token" with these values replacing the (AppSecretID),(appRegistrationID),(tenantIDValue) for the ones collected by the KeyVault actions. For it, remove the mentioned values, click on the Lighting icon:
-<img width="356" height="47" alt="image" src="https://github.com/user-attachments/assets/1236b06e-09f2-4088-bc26-dd24fc3a711e" />
+After it, we need to update the created step under Token Generation scope called "HTTP Token" replacing the (AppSecretID),(appRegistrationID),(tenantIDValue) for the ones collected by the KeyVault actions. For it, remove the mentioned values, click on the Lighting icon:
+
+| <img width="256" height="47" alt="image" src="https://github.com/user-attachments/assets/1236b06e-09f2-4088-bc26-dd24fc3a711e" />
+|---|
+
 and select the corresponding KeyVault value selecting "Value of the secret" for each case:
 
 | <img width="382" height="138" alt="image" src="https://github.com/user-attachments/assets/873f9841-e9f7-4c4f-93fa-eb4842fea7a9" /> 
@@ -149,10 +151,17 @@ and select the corresponding KeyVault value selecting "Value of the secret" for 
 
 it should end like this:
 
-|<img width="553" height="547" alt="image" src="https://github.com/user-attachments/assets/f4111467-257d-403a-b32e-6e28fd4f2d62" /> 
+|<img width="336" height="563" alt="image" src="https://github.com/user-attachments/assets/811c782c-a6fe-4660-a716-2991f23841fe" />
 |---|
 
-Finally click on Save and run it.
+Finally, click on Initialize variables Group and update the MISP address and the MISP APIKey with the corresponding values:
+
+| <img width="708" height="563" alt="image" src="https://github.com/user-attachments/assets/688a4b18-9805-4c86-bb44-77f4d8131195" /> 
+|---|
+
+
+Save it, run it and it should start to add the collected IOCs into MISP.
+
 
 
 
