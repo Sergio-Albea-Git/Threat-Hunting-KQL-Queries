@@ -1,38 +1,26 @@
 type,value,source_url,source_title,article_published_at,first_seen
-btc,14hVKm7Ft2rxDBFTNkkRC3kGstMGp2A4hk,https://www.ransomware.live/group/ryuk,Ransomware.live - ryuk,,2026-05-12T15:18:11.043Z
-btc,1LUDkWuaxQnsRyj4VUvAkbYTDodvGo7RjS,https://www.ransomware.live/group/luckbit,Ransomware.live - luckbit,,2026-05-12T15:18:11.043Z
-btc,1NJNG57hFPPcmSmFYbxKmL33uc5nLwYLCK,https://www.ransomware.live/group/xorist,Ransomware.live - xorist,,2026-05-12T15:18:11.043Z
-btc,1PAFdD9fwqRWG4VcCGuY27VTW8xPZmuF1D,https://www.ransomware.live/group/esxiargs,Ransomware.live - esxiargs,,2026-05-12T15:18:11.043Z
-btc,bc1q0cuvj9eglxk43v9mqmyjzzh6m8qsvsanedwrru,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-05-12T15:18:11.043Z
-btc,bc1q2ztpcvqdaptej6uu2ywt9mrlatx6envu34rf0v,https://www.ransomware.live/group/prinzeugen,Ransomware.live - prinzeugen,,2026-05-12T15:18:11.043Z
-btc,bc1q6dqe4esmqejmxhpj95qadv0j4clsqcxxp4cd94,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-btc,bc1qandfxc4knaf943njca77edl9mmegzs83tv8lpx,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-btc,bc1qcnw5v94y40ast06eatgalnjpluu2p067qewh46,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-btc,bc1qcvgj0hxslrxpf6e969ay577t9g72dd663fus92,https://www.ransomware.live/group/satancd,Ransomware.live - satancd,,2026-05-12T15:18:11.043Z
-btc,bc1qghj85gz0dkr9jeucana3z4xu50ujtllj50rvj0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-btc,bc1qpwwtck0zhzrj56fxeayz6wz5546nlp607qzpvh,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-btc,bc1qr0pqfghr9cksfc5arr2rak3lt2y50v03pc76nh,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-btc,bc1qr0txunr259we37wer7w6et33qyq0n6hv83pw24,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-btc,bc1qu7f2m5r7al0fmank5mkq0xju3z3rkdvj778v45,https://www.ransomware.live/group/blacksnake,Ransomware.live - blacksnake,,2026-05-12T15:18:11.043Z
-btc,bc1qw92kdpnedjd037lxej9q9336y05v7gql0u4qcv,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-05-12T15:18:11.043Z
-domain,cdn.artdataharvest.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.artisticpatterndata.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.artistictrendsmap.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.brushstrokemetrics.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.colorpalettemetrics.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.colorschemeobserver.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.drawinginfopro.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.gallerytrendstracker.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.paintedworldstats.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.picturedataminer.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.picturetrendsmonitor.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.sketchanalyticsvault.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.sketchinsightswatch.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,cdn.visualartexplorer.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:18:27.824Z
-domain,gz.technicalprorj.xyz,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:18:27.824Z
-domain,legitserver.theworkpc.com,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:18:27.824Z
-domain,precommit.vercel.app,https://cybersecuritynews.com/north-korean-hackers-weaponize-git-hooks,North Korean Hackers Weaponize Git Hooks to Deploy Cross-Platform Malware,2026-05-12T13:24:33.000Z,2026-05-12T15:18:27.824Z
-domain,tronfind-api.tronfindexplorer.com,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:18:27.824Z
+domain,ableinfo.co.kr,https://cybersecuritynews.com/new-stealthy-vidar-stealer-campaign,New Stealthy Vidar Stealer Campaign Bypass EDR and Steal Credentials,2026-05-12T15:37:59.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.artdataharvest.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.artisticpatterndata.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.artistictrendsmap.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.brushstrokemetrics.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.colorpalettemetrics.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.colorschemeobserver.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.drawinginfopro.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.gallerytrendstracker.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.paintedworldstats.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.picturedataminer.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.picturetrendsmonitor.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.sketchanalyticsvault.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.sketchinsightswatch.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,cdn.visualartexplorer.com,https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager,Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers,2026-05-12T08:30:09.000Z,2026-05-12T15:54:39.914Z
+domain,gz.technicalprorj.xyz,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:54:39.914Z
+domain,kmot.co.kr,https://cybersecuritynews.com/new-stealthy-vidar-stealer-campaign,New Stealthy Vidar Stealer Campaign Bypass EDR and Steal Credentials,2026-05-12T15:37:59.000Z,2026-05-12T15:54:39.914Z
+domain,legitserver.theworkpc.com,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:54:39.914Z
+domain,mlgpf.ir114.net,https://cybersecuritynews.com/new-stealthy-vidar-stealer-campaign,New Stealthy Vidar Stealer Campaign Bypass EDR and Steal Credentials,2026-05-12T15:37:59.000Z,2026-05-12T15:54:39.914Z
+domain,nls5950.cafe24.com,https://cybersecuritynews.com/new-stealthy-vidar-stealer-campaign,New Stealthy Vidar Stealer Campaign Bypass EDR and Steal Credentials,2026-05-12T15:37:59.000Z,2026-05-12T15:54:39.914Z
+domain,precommit.vercel.app,https://cybersecuritynews.com/north-korean-hackers-weaponize-git-hooks,North Korean Hackers Weaponize Git Hooks to Deploy Cross-Platform Malware,2026-05-12T13:24:33.000Z,2026-05-12T15:54:39.914Z
+domain,tronfind-api.tronfindexplorer.com,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:54:39.914Z
 email,15010050@tutamail.com,https://www.ransomware.live/group/bitpaymer,Ransomware.live - bitpaymer,,2026-05-12T15:18:11.043Z
 email,2020host2021@tutanota.com,https://www.ransomware.live/group/snatch,Ransomware.live - snatch,,2026-05-12T15:18:11.043Z
 email,47266@airmail.cc,https://www.ransomware.live/group/wastedlocker,Ransomware.live - wastedlocker,,2026-05-12T15:18:11.043Z
@@ -233,6 +221,7 @@ ip,108.61.216.142:1433,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,108.61.216.142:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,108.61.216.142:5060,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,109.122.217.21,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-12T15:18:11.043Z
+ip,114.207.246.156,https://cybersecuritynews.com/new-stealthy-vidar-stealer-campaign,New Stealthy Vidar Stealer Campaign Bypass EDR and Steal Credentials,2026-05-12T15:37:59.000Z,2026-05-12T15:54:39.914Z
 ip,128.254.230.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,13.37.127.130:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,13.38.235.203:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
@@ -248,7 +237,7 @@ ip,146.19.24.84:8443,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,146.70.143.147:18095,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,147.45.141.206:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,147.45.154.131:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
-ip,149.154.167.99,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:18:27.824Z
+ip,149.154.167.99,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:54:39.914Z
 ip,150.171.30.10,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-05-12T15:18:11.043Z
 ip,151.236.16.144:64250,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,151.236.16.242:12818,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
@@ -267,7 +256,7 @@ ip,159.89.112.223:443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,160.191.89.7,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-12T15:18:11.043Z
 ip,161.35.200.18,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-12T15:18:11.043Z
 ip,162.252.173.100:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
-ip,162.33.179.149,https://cybersecuritynews.com/hackers-hijack-microsoft-teams,Hackers Hijack Microsoft Teams Accounts to Deliver ModeloRAT,2026-05-12T14:52:30.000Z,2026-05-12T15:18:27.824Z
+ip,162.33.179.149,https://cybersecuritynews.com/hackers-hijack-microsoft-teams,Hackers Hijack Microsoft Teams Accounts to Deliver ModeloRAT,2026-05-12T14:52:30.000Z,2026-05-12T15:54:39.914Z
 ip,162.33.179.99:1433,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,164.92.223.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,165.227.69.170:1433,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
@@ -361,7 +350,7 @@ ip,44.201.115.56:443,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,45.129.199.234:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,45.130.147.118:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,45.135.232.195,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-05-12T15:18:11.043Z
-ip,45.138.16.64,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:18:27.824Z
+ip,45.138.16.64,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:54:39.914Z
 ip,45.153.34.71,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-12T15:18:11.043Z
 ip,45.156.87.204,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-12T15:18:11.043Z
 ip,45.156.87.253,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-12T15:18:11.043Z
@@ -372,7 +361,7 @@ ip,45.61.134.36,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,
 ip,45.61.136.118:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,45.61.136.147:3917,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,45.61.136.147:3929,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
-ip,45.61.136.94,https://cybersecuritynews.com/hackers-hijack-microsoft-teams,Hackers Hijack Microsoft Teams Accounts to Deliver ModeloRAT,2026-05-12T14:52:30.000Z,2026-05-12T15:18:27.824Z
+ip,45.61.136.94,https://cybersecuritynews.com/hackers-hijack-microsoft-teams,Hackers Hijack Microsoft Teams Accounts to Deliver ModeloRAT,2026-05-12T14:52:30.000Z,2026-05-12T15:54:39.914Z
 ip,45.63.9.192:5050,https://www.ransomware.live/group/crypto24,Ransomware.live - crypto24,,2026-05-12T15:18:11.043Z
 ip,45.76.144.235:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,45.95.175.213:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
@@ -397,13 +386,13 @@ ip,62.60.211.206:8080,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,64.233.181.94,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-05-12T15:18:11.043Z
 ip,64.52.80.103:3544,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,64.52.80.103:6798,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
-ip,64.95.10.14,https://cybersecuritynews.com/hackers-hijack-microsoft-teams,Hackers Hijack Microsoft Teams Accounts to Deliver ModeloRAT,2026-05-12T14:52:30.000Z,2026-05-12T15:18:27.824Z
+ip,64.95.10.14,https://cybersecuritynews.com/hackers-hijack-microsoft-teams,Hackers Hijack Microsoft Teams Accounts to Deliver ModeloRAT,2026-05-12T14:52:30.000Z,2026-05-12T15:54:39.914Z
 ip,64.95.11.206:10443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,64.95.11.206:1433,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,64.95.11.206:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,64.95.11.206:5060,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
-ip,64.95.12.238,https://cybersecuritynews.com/hackers-hijack-microsoft-teams,Hackers Hijack Microsoft Teams Accounts to Deliver ModeloRAT,2026-05-12T14:52:30.000Z,2026-05-12T15:18:27.824Z
-ip,64.95.13.76,https://cybersecuritynews.com/hackers-hijack-microsoft-teams,Hackers Hijack Microsoft Teams Accounts to Deliver ModeloRAT,2026-05-12T14:52:30.000Z,2026-05-12T15:18:27.824Z
+ip,64.95.12.238,https://cybersecuritynews.com/hackers-hijack-microsoft-teams,Hackers Hijack Microsoft Teams Accounts to Deliver ModeloRAT,2026-05-12T14:52:30.000Z,2026-05-12T15:54:39.914Z
+ip,64.95.13.76,https://cybersecuritynews.com/hackers-hijack-microsoft-teams,Hackers Hijack Microsoft Teams Accounts to Deliver ModeloRAT,2026-05-12T14:52:30.000Z,2026-05-12T15:54:39.914Z
 ip,65.21.153.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,66.78.40.205,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-12T15:18:11.043Z
 ip,69.197.176.26:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
@@ -415,7 +404,7 @@ ip,79.141.162.184:80,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,8.140.226.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,81.17.31.98:1124,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,82.147.84.232,https://www.ransomware.live/group/teamxxx,Ransomware.live - teamxxx,,2026-05-12T15:18:11.043Z
-ip,83.142.209.194,https://cybersecuritynews.com/mistralai-pypi-package-compromised,mistralai PyPI package Compromised to Inject Malicious Code - Microsoft Warns,2026-05-12T11:04:50.000Z,2026-05-12T15:18:27.824Z
+ip,83.142.209.194,https://cybersecuritynews.com/mistralai-pypi-package-compromised,mistralai PyPI package Compromised to Inject Malicious Code - Microsoft Warns,2026-05-12T11:04:50.000Z,2026-05-12T15:54:39.914Z
 ip,83.217.209.210,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-05-12T15:18:11.043Z
 ip,84.201.211.40,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-05-12T15:18:11.043Z
 ip,85.209.11.49,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-12T15:18:11.043Z
@@ -447,16 +436,13 @@ ip,89.23.113.220:8083,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,89.248.163.120,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-05-12T15:18:11.043Z
 ip,89.38.225.185:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,89.46.235.60:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
-ip,91.195.240.123,https://cybersecuritynews.com/teampcp-compromised-checkmarx-jenkins-ast-plugin,TeamPCP Compromised Checkmarx Jenkins AST Plugin Following KICS Supply Chain Attack - Cyber Security News,2026-05-12T07:49:27.000Z,2026-05-12T15:18:27.824Z
-ip,91.215.85.103,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-05-12T15:18:27.824Z
+ip,91.215.85.103,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-05-12T15:54:39.914Z
 ip,91.236.230.33:6399,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,91.236.230.33:6400,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,91.245.255.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,92.243.64.200:7258,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,92.243.66.51:8024,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,94.103.91.246,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-05-12T15:18:11.043Z
-ip,94.154.172.183,https://cybersecuritynews.com/teampcp-compromised-checkmarx-jenkins-ast-plugin,TeamPCP Compromised Checkmarx Jenkins AST Plugin Following KICS Supply Chain Attack - Cyber Security News,2026-05-12T07:49:27.000Z,2026-05-12T15:18:27.824Z
-ip,94.154.172.43,https://cybersecuritynews.com/teampcp-compromised-checkmarx-jenkins-ast-plugin,TeamPCP Compromised Checkmarx Jenkins AST Plugin Following KICS Supply Chain Attack - Cyber Security News,2026-05-12T07:49:27.000Z,2026-05-12T15:18:27.824Z
 ip,94.198.40.6:20001,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,94.198.40.6:20002,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,94.198.40.6:20022,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
@@ -1003,7 +989,7 @@ md5,7d3ec2ce0e96f2d78f757d1fe72d8342,https://www.ransomware.live/group/raworld,R
 md5,7d5b84b38766dacb04066d56908097b9,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-05-12T15:18:11.043Z
 md5,7d6e15948fb671909f269aad8a816cf8,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-12T15:18:11.043Z
 md5,7d827558e7841cc2887fc99537c1c97e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-md5,7dd05336097e5a833f03a63d3221494f,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:18:27.824Z
+md5,7dd05336097e5a833f03a63d3221494f,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:54:39.914Z
 md5,7dd26568049fac1b87f676ecfaac9ba0,https://www.ransomware.live/group/gunra,Ransomware.live - gunra,,2026-05-12T15:18:11.043Z
 md5,7dd4de113a97c638518f01760ff4f03c,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-05-12T15:18:11.043Z
 md5,7de7717e90bb9aa2ad0e76e29994cf3f,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-12T15:18:11.043Z
@@ -1321,7 +1307,7 @@ md5,ccb993b425257228bd48c0aac20d5027,https://www.ransomware.live/group/cactus,Ra
 md5,cd25c288c1027864c24e1ae91a84da10,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 md5,cd54780ee2213a05468fa0d24eedd576,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-05-12T15:18:11.043Z
 md5,cdb36dc4612f1ccc231fe54d8a3543d3,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-12T15:18:11.043Z
-md5,ce612d027e631d6633582227eb29002f,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:18:27.824Z
+md5,ce612d027e631d6633582227eb29002f,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:54:39.914Z
 md5,cf1951f7084a180094c7092c7bb54998,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 md5,cfabf91cef8cb93ca8f2da8492015e25,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-05-12T15:18:11.043Z
 md5,cff6c948bfede2c14590bd5daacd96ef,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-05-12T15:18:11.043Z
@@ -1557,8 +1543,8 @@ session,05e4f38090e06156b94ebf76e93ab4ccb761d761b886bbabf2df41c2bc341e8b30,https
 sha1,161CDCDB46FB8A348AEC609A86FF5823752065D2,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-12T15:18:11.043Z
 sha1,24BF7B72F54AA5B93C6681B4F69E579A47D7C102,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-12T15:18:11.043Z
 sha1,639DBC9B365096D6347142FCAE64725BD9F73270,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-12T15:18:11.043Z
-sha1,79ac49eedf774dd4b0cfa308722bc463cfe5885c,https://cybersecuritynews.com/tanstack-npm-packages-hacked,84 TanStack npm Packages Hacked in Ongoing Supply-Chain Attack Targeting CI Credentials,2026-05-12T02:44:11.000Z,2026-05-12T15:18:27.824Z
-sha1,94d651b42355f2b0765a7435e5a5927623807225,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:18:27.824Z
+sha1,79ac49eedf774dd4b0cfa308722bc463cfe5885c,https://cybersecuritynews.com/tanstack-npm-packages-hacked,84 TanStack npm Packages Hacked in Ongoing Supply-Chain Attack Targeting CI Credentials,2026-05-12T02:44:11.000Z,2026-05-12T15:54:39.914Z
+sha1,94d651b42355f2b0765a7435e5a5927623807225,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:54:39.914Z
 sha1,a515b7d89676b1401eeb9eb776190a1179c386cf,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-05-12T15:18:11.043Z
 sha1,AD223FE2BB4563446AEE5227357BBFDC8ADA3797,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-12T15:18:11.043Z
 sha1,BB8FB75285BCD151132A3287F2786D4D91DA58B8,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-12T15:18:11.043Z
@@ -1569,16 +1555,12 @@ sha1,df249727c12741ca176d5f1ccba3ce188a546d28,https://www.ransomware.live/group/
 sha1,e00293ce0eb534874efd615ae590cf6aa3858ba4,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-05-12T15:18:11.043Z
 sha1,F3F4C40C344695388E10CBF29DDB18EF3B61F7EF,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-12T15:18:11.043Z
 sha256,012657c4548d9c98223caa4cc7aa52fc083d6983d42fde16ca3271412e7fe3fe,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-12T15:18:11.043Z
-sha256,01889a9ec2abecb73e5e8792be68a4e3bc7dcbe1c3f19ac06763682d63aa8c21,https://cybersecuritynews.com/trickmo-android-banking-malware,"TrickMo Android Banking Malware Targets Banking, Wallet, and Authenticator Apps",2026-05-12T07:14:02.000Z,2026-05-12T15:18:27.824Z
-sha256,01ff1e56fd59a8fa525d97e670f7f297a1a204331b89b2cd4e36a9abc6419203,https://cybersecuritynews.com/teampcp-compromised-checkmarx-jenkins-ast-plugin,TeamPCP Compromised Checkmarx Jenkins AST Plugin Following KICS Supply Chain Attack - Cyber Security News,2026-05-12T07:49:27.000Z,2026-05-12T15:18:27.824Z
 sha256,09f7432834ce15e701aa7fcc84a9c2441c1c7e0a9cb66a6211845be73d2597cc,https://www.ransomware.live/group/benzona,Ransomware.live - benzona,,2026-05-12T15:18:11.043Z
 sha256,0c0e0f9b09b80d87ebc88e2870907b6cacb4cd7703584baf8f2be1fd9438696d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-sha256,0cbf4f21cf157227d2c3fba80b64e1f4c3f9d2cc0bf926e024252c35e93edd5a,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:18:27.824Z
+sha256,0cbf4f21cf157227d2c3fba80b64e1f4c3f9d2cc0bf926e024252c35e93edd5a,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:54:39.914Z
 sha256,0ee1d284ed663073872012c7bde7fac5ca1121403f1a5d2d5411317df282796c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,11cfea4100ba3731d859148d2011c7225d337db22797f7e111c0f2876e986490,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-05-12T15:18:11.043Z
 sha256,131da83b521f610819141d5c740313ce46578374abb22ef504a7593955a65f07,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-sha256,143c0e12d2aa1bdecde59f273139dd5605d00f61cda7f626224e07390119c026,https://cybersecuritynews.com/trickmo-android-banking-malware,"TrickMo Android Banking Malware Targets Banking, Wallet, and Authenticator Apps",2026-05-12T07:14:02.000Z,2026-05-12T15:18:27.824Z
-sha256,177ef86c57c31b29850227dbc8288b735bea977587f2f0a49cfc4089a644a2c4,https://cybersecuritynews.com/trickmo-android-banking-malware,"TrickMo Android Banking Malware Targets Banking, Wallet, and Authenticator Apps",2026-05-12T07:14:02.000Z,2026-05-12T15:18:27.824Z
 sha256,1b6af2fbbc636180dd7bae825486ccc45e42aefbb304d5f83fafca4d637c13cc,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,1ca67af90400ee6cbbd42175293274a0f5dc05315096cb2e214e4bfe12ffb71f,https://www.ransomware.live/group/payload,Ransomware.live - payload,,2026-05-12T15:18:11.043Z
 sha256,1d846592ffcc19ed03a34316520aa31369218a88afa4e17ac547686d0348aa5b,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-05-12T15:18:11.043Z
@@ -1604,13 +1586,11 @@ sha256,3bf53cddf7eb98d9cb94f9aa9f36c211a464e2c1b278f091d6026003050281de,https://
 sha256,3c7c91cd4dc336db8082e07ab7549556f05d80acbc778afc2dade67c02002f69,https://www.ransomware.live/group/ailock,Ransomware.live - ailock,,2026-05-12T15:18:11.043Z
 sha256,3c92bfc71004340ebc00146ced294bc94f49f6a5e212016ac05e7d10fcb3312c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,3d09e930305cb3aa4ca54a39b0e3749f083d432f202606c8adac8455014b47fc,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
-sha256,3ddb8967919a801b3c383e58cddceab21138134c6a26560d99e2672e86f36f2a,https://cybersecuritynews.com/teampcp-compromised-checkmarx-jenkins-ast-plugin,TeamPCP Compromised Checkmarx Jenkins AST Plugin Following KICS Supply Chain Attack - Cyber Security News,2026-05-12T07:49:27.000Z,2026-05-12T15:18:27.824Z
 sha256,43c5a487329f5d6b4a6d02e2f8ef62744b850312c5cb87c0a414f3830767be72,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,43f145fccec00f1e100ec3377eaf0ab60df3b9c5291b8011e05141cc04704be1,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,48046fb0e566f5a2d184f84b76d6cadc458762556daed0ae4a3a1200afbefb54,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-12T15:18:11.043Z
 sha256,49fcbd606ff10d4661e222b8910ab7829d1668e3c97f1bab7eb51e8ec7d799a5,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
-sha256,4cd8635062ff6b0885216a0b1658ebcb2938b670f7ac08ecb0b5fb85d8973ea0,https://cybersecuritynews.com/trickmo-android-banking-malware,"TrickMo Android Banking Malware Targets Banking, Wallet, and Authenticator Apps",2026-05-12T07:14:02.000Z,2026-05-12T15:18:27.824Z
-sha256,4d8ac85c5b98c69ba44146df61183e9bf613edd796aa516c3ae73611b7d77c06,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:18:27.824Z
+sha256,4d8ac85c5b98c69ba44146df61183e9bf613edd796aa516c3ae73611b7d77c06,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:54:39.914Z
 sha256,501821a19ccf59830789849beff94238736adb4b213870a511890c5c8efab2a6,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,515bd71a8b3c2bce7b40b89ddfe2e94d332b0779d569c58117f8dcdcb8a91ed9,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-05-12T15:18:11.043Z
 sha256,566ef5484da0a93c87dd0cb0a950a7cff4ab013175289cd5fccf9dd7ea430739,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
@@ -1625,20 +1605,19 @@ sha256,670a269d935f1586d4f0e5bed685d15a38e6fa790f763e6ed5c9fdd72dce3cf2,https://
 sha256,678ec8734367c7547794a604cc65e74a0f42320d85a6dce20c214e3b4536bb33,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,68d5944d0419bd123add4e628c985f9cbe5362ee19597773baea565bff1a6f1a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,6ae3a58a78be9c606009c657de4e390538b21ad951e62b6f4d31138e1a75732c,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-12T15:18:11.043Z
-sha256,6b4a4b64e6f969017cb3a9a71dd3038ddf32b989e5342dbbe36650d5802f2ee4,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:18:27.824Z
+sha256,6b4a4b64e6f969017cb3a9a71dd3038ddf32b989e5342dbbe36650d5802f2ee4,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:54:39.914Z
 sha256,6cadab96185dbe6f3a7b95cf2f97d6ac395785607baa6ed7bf363deeb59cc360,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,6eeb20cc709a18bf8845f7b678967b7f0ff96475cf51a261da87244886bbfd2e,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-05-12T15:18:11.043Z
 sha256,713392f009bc133f24b3271379a4ac147e1a7782b6a1ac957c1fda69d676b550,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
-sha256,749bbcbc3e5d2d524344d52b6471dfa7b8d3ecdeb0b11ab82c843d497a056c8f,https://cybersecuritynews.com/trickmo-android-banking-malware,"TrickMo Android Banking Malware Targets Banking, Wallet, and Authenticator Apps",2026-05-12T07:14:02.000Z,2026-05-12T15:18:27.824Z
 sha256,759b96f44806578cc0836a3a2bf11c8bc553effac72f8d28b94aec78b66be906,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-12T15:18:11.043Z
 sha256,78d75669390e4177597faf9271ce3ad3a16a3652e145913dbfa9a5951972fcb0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-sha256,7adffc1c0b3fdcba46e8d0a81203c955976d4ef39893c98d0b2dbfbb8d6a8ec3,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:18:27.824Z
+sha256,7adffc1c0b3fdcba46e8d0a81203c955976d4ef39893c98d0b2dbfbb8d6a8ec3,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:54:39.914Z
 sha256,7c4b465159e1c7dbbe67f0eeb3f58de1caba293999a49843a0818480f05be14e,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-05-12T15:18:11.043Z
 sha256,7f731cc11f8e4d249142e99a44b9da7a48505ce32c4ee4881041beeddb3760be,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,840b1c580bfd15ca3eb1cc94cf479f63b93285d2599bc2e3cd361e3f5a340f19,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,86b4d075d5bd0c49cbb21fd43935789b6612a2165273cc158dd0607b68941d04,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-12T15:18:11.043Z
 sha256,87b4020bcd3fad1f5711e6801ca269ef5852256eeaf350f4dde2dc46c576262d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-sha256,881619a47b62b52305d92640cc4d4845a279c23a5a749413785fc8fcb0fdf7fb,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:18:27.824Z
+sha256,881619a47b62b52305d92640cc4d4845a279c23a5a749413785fc8fcb0fdf7fb,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:54:39.914Z
 sha256,8816caf03438cd45d7559961bf36a26f26464bab7a6339ce655b7fbad68bb439,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,88da2b1cee373d5f11949c1ade22af0badf16591a871978a9e02f70480e547b2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,8a2d6d27ffcc66400a640d3c9c9e6becb90c04c5bab452cac56f999c48a04d63,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
@@ -1652,8 +1631,8 @@ sha256,94f2e4d8d4436874785cd14e6e6d403507b8750852f7f2040352069a75da4c00,https://
 sha256,95477703e789e6182096a09bc98853e0a70b680a4f19fa2bf86cbb9280e8ec5a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,9585af44c3ff8fd921c713680b0c2b3bbc9d56add848ed62164f7c9b9f23d065,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,95e744ddcc2e8f89f6c6e25503eff2eb5e70e98f6989bb4a4e93f17b09448e78,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
-sha256,968ecf51c442ec0ff91f91689ac524e7e8e9eab0c1a2a65cf13e54cf95194efe,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:18:27.824Z
-sha256,978ad86c90d85b74947bb627ec24f8bcd26812b500e82f5af202160506ac29c6,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:18:27.824Z
+sha256,968ecf51c442ec0ff91f91689ac524e7e8e9eab0c1a2a65cf13e54cf95194efe,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:54:39.914Z
+sha256,978ad86c90d85b74947bb627ec24f8bcd26812b500e82f5af202160506ac29c6,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:54:39.914Z
 sha256,988776358d0e45a4907dc1f4906a916f1b3595a31fa44d8e04e563a32557eb42,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,9d9c146910f294b3e2a755f76e8066cd2edfac057ff54f00f405e2f9e8b9e51a,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,9f066975f1e02b29c7c635280f405c59704ce4f4e06b04e9ac8a7eac22acd3c7,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-12T15:18:11.043Z
@@ -1663,14 +1642,14 @@ sha256,a1b468e9550f9960c5e60f7c52ca3c058de19d42eafa760b9d5282eb24b7c55f,https://
 sha256,a26f0a2da63a838161a7d335aaa5e4b314a232acc15dcabdb6f6dbec63cda642,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-12T15:18:11.043Z
 sha256,a331504acf589be5d11202232a7a93eeb4fe6b053beea231d9a0a661bcaf3fd6,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,a546ef13e8a71a8b5f0803075382eb0311d0d8dbae3f08bac0b2f4250af8add0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-sha256,a635f0c94c98b658ae799978994f0d0a292567cd97b8a19068a8423d1297652a,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:18:27.824Z
+sha256,a635f0c94c98b658ae799978994f0d0a292567cd97b8a19068a8423d1297652a,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:54:39.914Z
 sha256,a6b0847cf31ccc3f76538333498f8fef79d444a9d4ecfca0592861cf731ae6cb,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,abba655df92e99a15ddcde1d196ff4393a13dbff293e45f5375a2f61c84a2c7b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,b0dfaf509de38749c49afcb3cd34d27126044bb77cc16896b02ebced6f95db02,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,b1cf41363401fe5671e24fd55ee89b0c177140c482a8dab1b9891db509df52f6,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-05-12T15:18:11.043Z
 sha256,b2353fce403b079735a606294c4ffc20a71f1c6b16ec15e94f554beafcddd1ea,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,b55fbe9358dd4b5825ce459e84cd0823ecdf7b64550fe1af968306047b7de5c9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-sha256,b84b89f0a1b7f00431274ac676104acaaa73d440e5731161d1077e733014cc29,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:18:27.824Z
+sha256,b84b89f0a1b7f00431274ac676104acaaa73d440e5731161d1077e733014cc29,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:54:39.914Z
 sha256,b8c994e3ed7dcc9080916119ddc315533c129479f508676d7544b82b2e24745f,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-12T15:18:11.043Z
 sha256,bad3c2f72ef2be522a554a9615dc93027416a3d4048f77519fca5104fabba1f9,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,bb62196338dab7b26993f27e3a8ad917d848508ad8cd4646c9fe836b1140c3e4,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-05-12T15:18:11.043Z
@@ -1688,27 +1667,25 @@ sha256,c9c94ac5e1991a7db42c7973e328fceeb6f163d9f644031bdfd4123c7b3898b0,https://
 sha256,ccda8247360a85b6c076527e438a995757b6cdf5530f38e125915d31291c00d5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,d00f7cf6af68ba832b9d364f28411346cfe66fd3b1f5bcac318766add29ff7f0,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-12T15:18:11.043Z
 sha256,d3cc6cc4538d57f2d1f8a9d46a3e8be73ed849f7fe37d1d969c0377cf1d0fadc,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-05-12T15:18:11.043Z
-sha256,d4fe9f48178cdf375a3be30d17f1dc016b5861dff8683f0bb35a0ba8d44f892f,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:18:27.824Z
+sha256,d4fe9f48178cdf375a3be30d17f1dc016b5861dff8683f0bb35a0ba8d44f892f,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:54:39.914Z
 sha256,d953bce4d87f5837ce318481e3a1b6617cf64af976043d3b4b4866475bb31972,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,da8de7257c6897d2220cdf9d4755b15aeb38715807e3665716d2ee761c266fdb,https://www.ransomware.live/group/warlock,Ransomware.live - warlock,,2026-05-12T15:18:11.043Z
 sha256,dc4840a0992b218cbedd5a7ac5c711cb98f1f9e78a8ffdea37c694061dfd34c6,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-12T15:18:11.043Z
 sha256,def75a41435dc28430097a7e116b2d17526ce2b0172995618f2749b0d732f7ea,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,dfe6fddc67bdc93b9947430b966da2877fda094edf3e21e6f0ba98a84bc53198,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-sha256,e2e218ddf698b4c0099fd2a9619d6912a71f75beb51669a4e3ae4fc71f745d03,https://cybersecuritynews.com/trickmo-android-banking-malware,"TrickMo Android Banking Malware Targets Banking, Wallet, and Authenticator Apps",2026-05-12T07:14:02.000Z,2026-05-12T15:18:27.824Z
 sha256,e3fa93dad8fb8c3a6d9b35d02ce97c22035b409e0efc9f04372f4c1d6280a481,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,e5aaa213818fe835f2716914238119fee746753aa4808e24aed817e929e6dcb8,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-05-12T15:18:11.043Z
 sha256,e6bd4ed287d1336206f5b4b65011e570267418799eb60c2d0d7496d5d9e95a33,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-05-12T15:18:11.043Z
 sha256,e7706a633f24679c7550a31b96088dda8f772c98f64daee7cfbf0dc17a4a8338,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,e86bb8361c436be94b0901e5b39db9b6666134f23cce1e5581421c2981405cb1,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-12T15:18:11.043Z
 sha256,eb8cbc4a0eae33bfdc4ecb99d033c81224b005e55588ceb86346f2b2d3fd790f,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
-sha256,ecd5ed16975d556d1d17bc980f248f8a5262bed11df9d9cf999efd9c273c11df,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:18:27.824Z
-sha256,ee3d776cdaf82335e4293e19ee313cc35eee49cde9963b96766a8f9c89d44a79,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:18:27.824Z
+sha256,ecd5ed16975d556d1d17bc980f248f8a5262bed11df9d9cf999efd9c273c11df,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:54:39.914Z
+sha256,ee3d776cdaf82335e4293e19ee313cc35eee49cde9963b96766a8f9c89d44a79,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-12T15:54:39.914Z
 sha256,f0ec54b9dc2e64c214e92b521933cee172283ff5c942cf84fae4ec5b03abab55,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-05-12T15:18:11.043Z
 sha256,f25f76a85ded0d4d285d9ae5482d8fe07dade3e241853d00b17642d7873733e8,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,f3a6d4ccdd0f663269c3909e74d6847608b8632fb2814b0436a4532b8281e617,https://www.ransomware.live/group/kawa4096,Ransomware.live - kawa4096,,2026-05-12T15:18:11.043Z
-sha256,f50a96d26a5b0beb29de4127e82b2bf350c21511e5a43d286e43f798dc6cd53f,https://cybersecuritynews.com/teampcp-compromised-checkmarx-jenkins-ast-plugin,TeamPCP Compromised Checkmarx Jenkins AST Plugin Following KICS Supply Chain Attack - Cyber Security News,2026-05-12T07:49:27.000Z,2026-05-12T15:18:27.824Z
 sha256,f749efde8f9de6a643a57a5b605bd4e7,https://www.ransomware.live/group/nightspire,Ransomware.live - nightspire,,2026-05-12T15:18:11.043Z
-sha256,fc27479ff929d846e7c5c5d147479c81e483a2ec911bd1501a53aa646a29620d,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:18:27.824Z
+sha256,fc27479ff929d846e7c5c5d147479c81e483a2ec911bd1501a53aa646a29620d,https://cybersecuritynews.com/vidar-malware-targets-browser-credentials-cookies,"Vidar Malware Targets Browser Credentials, Cookies, Crypto Wallets, and System Data",2026-05-11T08:49:45.000Z,2026-05-12T15:54:39.914Z
 telegram,@nightspireteam2025,https://www.ransomware.live/group/nightspire,Ransomware.live - nightspire,,2026-05-12T15:18:11.043Z
 telegram,https://t.me/+yXOcSjVjI9tjM2E0,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-05-12T15:18:11.043Z
 telegram,https://t.me/BQTlock,https://www.ransomware.live/group/bqtlock,Ransomware.live - bqtlock,,2026-05-12T15:18:11.043Z
@@ -1808,18 +1785,18 @@ twitter,@Anubis__media,https://www.ransomware.live/group/anubis,Ransomware.live 
 twitter,@Inifintyink,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-05-12T15:18:11.043Z
 twitter,@SGaming66355,https://www.ransomware.live/group/gdlockrsec,Ransomware.live - gdlockrsec,,2026-05-12T15:18:11.043Z
 twitter,https://x.com/zerodayx1,https://www.ransomware.live/group/bqtlock,Ransomware.live - bqtlock,,2026-05-12T15:18:11.043Z
-url,http://91.215.85.103/pay_or_leak/instructure_affected_schools_list.txt,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-05-12T15:18:27.824Z
-url,https://83.142.209.194/transformers.pyz,https://cybersecuritynews.com/mistralai-pypi-package-compromised,mistralai PyPI package Compromised to Inject Malicious Code - Microsoft Warns,2026-05-12T11:04:50.000Z,2026-05-12T15:18:27.824Z
-url,https://precommit.vercel.app/minimal.macflag,https://cybersecuritynews.com/north-korean-hackers-weaponize-git-hooks,North Korean Hackers Weaponize Git Hooks to Deploy Cross-Platform Malware,2026-05-12T13:24:33.000Z,2026-05-12T15:18:27.824Z
-url,https://precommit.vercel.app/percival.macflag,https://cybersecuritynews.com/north-korean-hackers-weaponize-git-hooks,North Korean Hackers Weaponize Git Hooks to Deploy Cross-Platform Malware,2026-05-12T13:24:33.000Z,2026-05-12T15:18:27.824Z
-url,https://precommit.vercel.app/winds.cmd,https://cybersecuritynews.com/north-korean-hackers-weaponize-git-hooks,North Korean Hackers Weaponize Git Hooks to Deploy Cross-Platform Malware,2026-05-12T13:24:33.000Z,2026-05-12T15:18:27.824Z
-url,https://shinyp0g4jjniry5qi824btzn0p6mxhrdtxe2k6pdy4g3vdzqvr.onion/,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-05-12T15:18:27.824Z
-url,https://tronfind-api.tronfindexplorer.com/,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:18:27.824Z
-url,https://tronfind-api.tronfindexplorer.com/api/data/words,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:18:27.824Z
-url,https://tronfind-api.tronfindexplorer.com/api/visitor/create,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:18:27.824Z
-url,https://tronfind-api.tronfindexplorer.com/api/visitor/enrich,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:18:27.824Z
-url,https://tronfind-api.tronfindexplorer.com/api/visitor/sync,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:18:27.824Z
-url,https://tronfind-api.tronfindexplorer.com/api/visitor/track,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:18:27.824Z
+url,http://91.215.85.103/pay_or_leak/instructure_affected_schools_list.txt,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-05-12T15:54:39.914Z
+url,https://83.142.209.194/transformers.pyz,https://cybersecuritynews.com/mistralai-pypi-package-compromised,mistralai PyPI package Compromised to Inject Malicious Code - Microsoft Warns,2026-05-12T11:04:50.000Z,2026-05-12T15:54:39.914Z
+url,https://precommit.vercel.app/minimal.macflag,https://cybersecuritynews.com/north-korean-hackers-weaponize-git-hooks,North Korean Hackers Weaponize Git Hooks to Deploy Cross-Platform Malware,2026-05-12T13:24:33.000Z,2026-05-12T15:54:39.914Z
+url,https://precommit.vercel.app/percival.macflag,https://cybersecuritynews.com/north-korean-hackers-weaponize-git-hooks,North Korean Hackers Weaponize Git Hooks to Deploy Cross-Platform Malware,2026-05-12T13:24:33.000Z,2026-05-12T15:54:39.914Z
+url,https://precommit.vercel.app/winds.cmd,https://cybersecuritynews.com/north-korean-hackers-weaponize-git-hooks,North Korean Hackers Weaponize Git Hooks to Deploy Cross-Platform Malware,2026-05-12T13:24:33.000Z,2026-05-12T15:54:39.914Z
+url,https://shinyp0g4jjniry5qi824btzn0p6mxhrdtxe2k6pdy4g3vdzqvr.onion/,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-05-12T15:54:39.914Z
+url,https://tronfind-api.tronfindexplorer.com/,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:54:39.914Z
+url,https://tronfind-api.tronfindexplorer.com/api/data/words,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:54:39.914Z
+url,https://tronfind-api.tronfindexplorer.com/api/visitor/create,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:54:39.914Z
+url,https://tronfind-api.tronfindexplorer.com/api/visitor/enrich,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:54:39.914Z
+url,https://tronfind-api.tronfindexplorer.com/api/visitor/sync,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:54:39.914Z
+url,https://tronfind-api.tronfindexplorer.com/api/visitor/track,https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink,Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials,2026-05-12T11:42:22.000Z,2026-05-12T15:54:39.914Z
 url,hxxp://23.95.182.59/31279geuwtoisgdehbiuowaehsgdb/cht,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-12T15:18:11.043Z
 url,hxxp://23.95.182.59/31279geuwtoisgdehbiuowaehsgdb/klg,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-12T15:18:11.043Z
 url,hxxp://94.103.91.246/addInfection,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-05-12T15:18:11.043Z
