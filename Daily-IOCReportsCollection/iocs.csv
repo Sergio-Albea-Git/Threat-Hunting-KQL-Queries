@@ -1,5 +1,5 @@
 type,value,source_url,source_title,article_published_at,first_seen
-domain,legitserver.theworkpc.com,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T12:11:59.129Z
+domain,legitserver.theworkpc.com,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T13:12:18.093Z
 email,15010050@tutamail.com,https://www.ransomware.live/group/bitpaymer,Ransomware.live - bitpaymer,,2026-05-12T15:18:11.043Z
 email,2020host2021@tutanota.com,https://www.ransomware.live/group/snatch,Ransomware.live - snatch,,2026-05-12T15:18:11.043Z
 email,47266@airmail.cc,https://www.ransomware.live/group/wastedlocker,Ransomware.live - wastedlocker,,2026-05-12T15:18:11.043Z
@@ -239,7 +239,7 @@ ip,165.227.69.170:1433,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,165.227.69.170:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,167.71.69.135:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,167.88.160.15:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
-ip,167.99.158.97,https://cybersecuritynews.com/clickfix-evolves-with-python-socks5-proxy,ClickFix Evolves with 10-Year-Old Open-Source Python SOCKS5 Proxy,2026-05-13T11:06:52.000Z,2026-05-13T12:11:59.129Z
+ip,167.99.158.97,https://cybersecuritynews.com/clickfix-evolves-with-python-socks5-proxy,ClickFix Evolves with 10-Year-Old Open-Source Python SOCKS5 Proxy,2026-05-13T11:06:52.000Z,2026-05-13T13:12:18.093Z
 ip,169.239.130.36:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,169.254.169.254,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-05-12T15:18:11.043Z
 ip,170.130.55.197:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
@@ -264,7 +264,7 @@ ip,185.106.94.255,https://www.ransomware.live/group/weyhro,Ransomware.live - wey
 ip,185.163.193.251:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,185.193.48.92:445,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,185.193.48.92:4675,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
-ip,185.205.211.217,https://cybersecuritynews.com/clickfix-evolves-with-python-socks5-proxy,ClickFix Evolves with 10-Year-Old Open-Source Python SOCKS5 Proxy,2026-05-13T11:06:52.000Z,2026-05-13T12:11:59.129Z
+ip,185.205.211.217,https://cybersecuritynews.com/clickfix-evolves-with-python-socks5-proxy,ClickFix Evolves with 10-Year-Old Open-Source Python SOCKS5 Proxy,2026-05-13T11:06:52.000Z,2026-05-13T13:12:18.093Z
 ip,185.229.9.27:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,185.239.48.114:27700,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,185.241.5.217:8081,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
@@ -296,8 +296,8 @@ ip,20.101.57.9,https://www.ransomware.live/group/lockbit3,Ransomware.live - lock
 ip,20.12.23.50,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-05-12T15:18:11.043Z
 ip,203.161.43.187:53,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,203.161.43.195:444,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
-ip,206.206.103.106,https://cybersecuritynews.com/clickfix-evolves-with-python-socks5-proxy,ClickFix Evolves with 10-Year-Old Open-Source Python SOCKS5 Proxy,2026-05-13T11:06:52.000Z,2026-05-13T12:11:59.129Z
-ip,206.206.103.120,https://cybersecuritynews.com/clickfix-evolves-with-python-socks5-proxy,ClickFix Evolves with 10-Year-Old Open-Source Python SOCKS5 Proxy,2026-05-13T11:06:52.000Z,2026-05-13T12:11:59.129Z
+ip,206.206.103.106,https://cybersecuritynews.com/clickfix-evolves-with-python-socks5-proxy,ClickFix Evolves with 10-Year-Old Open-Source Python SOCKS5 Proxy,2026-05-13T11:06:52.000Z,2026-05-13T13:12:18.093Z
+ip,206.206.103.120,https://cybersecuritynews.com/clickfix-evolves-with-python-socks5-proxy,ClickFix Evolves with 10-Year-Old Open-Source Python SOCKS5 Proxy,2026-05-13T11:06:52.000Z,2026-05-13T13:12:18.093Z
 ip,206.237.4.54:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,208.123.119.103:7453,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,208.73.200.28:9999,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
@@ -330,7 +330,7 @@ ip,44.201.115.56:443,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,45.129.199.234:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,45.130.147.118:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,45.135.232.195,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-05-12T15:18:11.043Z
-ip,45.138.16.64,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T12:11:59.129Z
+ip,45.138.16.64,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T13:12:18.093Z
 ip,45.153.34.71,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-12T15:18:11.043Z
 ip,45.156.87.204,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-12T15:18:11.043Z
 ip,45.156.87.253,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-12T15:18:11.043Z
@@ -411,7 +411,7 @@ ip,89.23.113.220:8083,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,89.248.163.120,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-05-12T15:18:11.043Z
 ip,89.38.225.185:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,89.46.235.60:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
-ip,91.215.85.103,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-05-13T12:11:59.129Z
+ip,91.215.85.103,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-05-13T13:12:18.093Z
 ip,91.236.230.33:6399,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,91.236.230.33:6400,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
 ip,91.245.255.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-12T15:18:11.043Z
@@ -964,7 +964,7 @@ md5,7d3ec2ce0e96f2d78f757d1fe72d8342,https://www.ransomware.live/group/raworld,R
 md5,7d5b84b38766dacb04066d56908097b9,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-05-12T15:18:11.043Z
 md5,7d6e15948fb671909f269aad8a816cf8,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-12T15:18:11.043Z
 md5,7d827558e7841cc2887fc99537c1c97e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-md5,7dd05336097e5a833f03a63d3221494f,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T12:11:59.129Z
+md5,7dd05336097e5a833f03a63d3221494f,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T13:12:18.093Z
 md5,7dd26568049fac1b87f676ecfaac9ba0,https://www.ransomware.live/group/gunra,Ransomware.live - gunra,,2026-05-12T15:18:11.043Z
 md5,7dd4de113a97c638518f01760ff4f03c,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-05-12T15:18:11.043Z
 md5,7de7717e90bb9aa2ad0e76e29994cf3f,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-12T15:18:11.043Z
@@ -1517,7 +1517,7 @@ session,05e4f38090e06156b94ebf76e93ab4ccb761d761b886bbabf2df41c2bc341e8b30,https
 sha1,161CDCDB46FB8A348AEC609A86FF5823752065D2,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-12T15:18:11.043Z
 sha1,24BF7B72F54AA5B93C6681B4F69E579A47D7C102,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-12T15:18:11.043Z
 sha1,639DBC9B365096D6347142FCAE64725BD9F73270,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-12T15:18:11.043Z
-sha1,79ac49eedf774dd4b0cfa308722bc463cfe5885c,https://cybersecuritynews.com/tanstack-npm-packages-hacked,84 TanStack npm Packages Hacked in Ongoing Supply-Chain Attack Targeting CI Credentials,2026-05-12T02:44:11.000Z,2026-05-13T12:11:59.129Z
+sha1,79ac49eedf774dd4b0cfa308722bc463cfe5885c,https://cybersecuritynews.com/tanstack-npm-packages-hacked,84 TanStack npm Packages Hacked in Ongoing Supply-Chain Attack Targeting CI Credentials,2026-05-12T02:44:11.000Z,2026-05-13T13:12:18.093Z
 sha1,a515b7d89676b1401eeb9eb776190a1179c386cf,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-05-12T15:18:11.043Z
 sha1,AD223FE2BB4563446AEE5227357BBFDC8ADA3797,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-12T15:18:11.043Z
 sha1,BB8FB75285BCD151132A3287F2786D4D91DA58B8,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-12T15:18:11.043Z
@@ -1562,7 +1562,7 @@ sha256,43c5a487329f5d6b4a6d02e2f8ef62744b850312c5cb87c0a414f3830767be72,https://
 sha256,43f145fccec00f1e100ec3377eaf0ab60df3b9c5291b8011e05141cc04704be1,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,48046fb0e566f5a2d184f84b76d6cadc458762556daed0ae4a3a1200afbefb54,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-12T15:18:11.043Z
 sha256,49fcbd606ff10d4661e222b8910ab7829d1668e3c97f1bab7eb51e8ec7d799a5,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
-sha256,4d8ac85c5b98c69ba44146df61183e9bf613edd796aa516c3ae73611b7d77c06,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T12:11:59.129Z
+sha256,4d8ac85c5b98c69ba44146df61183e9bf613edd796aa516c3ae73611b7d77c06,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T13:12:18.093Z
 sha256,501821a19ccf59830789849beff94238736adb4b213870a511890c5c8efab2a6,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,515bd71a8b3c2bce7b40b89ddfe2e94d332b0779d569c58117f8dcdcb8a91ed9,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-05-12T15:18:11.043Z
 sha256,566ef5484da0a93c87dd0cb0a950a7cff4ab013175289cd5fccf9dd7ea430739,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
@@ -1582,7 +1582,7 @@ sha256,6eeb20cc709a18bf8845f7b678967b7f0ff96475cf51a261da87244886bbfd2e,https://
 sha256,713392f009bc133f24b3271379a4ac147e1a7782b6a1ac957c1fda69d676b550,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,759b96f44806578cc0836a3a2bf11c8bc553effac72f8d28b94aec78b66be906,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-12T15:18:11.043Z
 sha256,78d75669390e4177597faf9271ce3ad3a16a3652e145913dbfa9a5951972fcb0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-sha256,7adffc1c0b3fdcba46e8d0a81203c955976d4ef39893c98d0b2dbfbb8d6a8ec3,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T12:11:59.129Z
+sha256,7adffc1c0b3fdcba46e8d0a81203c955976d4ef39893c98d0b2dbfbb8d6a8ec3,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T13:12:18.093Z
 sha256,7c4b465159e1c7dbbe67f0eeb3f58de1caba293999a49843a0818480f05be14e,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-05-12T15:18:11.043Z
 sha256,7f731cc11f8e4d249142e99a44b9da7a48505ce32c4ee4881041beeddb3760be,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,840b1c580bfd15ca3eb1cc94cf479f63b93285d2599bc2e3cd361e3f5a340f19,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
@@ -1610,7 +1610,7 @@ sha256,a1b468e9550f9960c5e60f7c52ca3c058de19d42eafa760b9d5282eb24b7c55f,https://
 sha256,a26f0a2da63a838161a7d335aaa5e4b314a232acc15dcabdb6f6dbec63cda642,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-12T15:18:11.043Z
 sha256,a331504acf589be5d11202232a7a93eeb4fe6b053beea231d9a0a661bcaf3fd6,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,a546ef13e8a71a8b5f0803075382eb0311d0d8dbae3f08bac0b2f4250af8add0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
-sha256,a635f0c94c98b658ae799978994f0d0a292567cd97b8a19068a8423d1297652a,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T12:11:59.129Z
+sha256,a635f0c94c98b658ae799978994f0d0a292567cd97b8a19068a8423d1297652a,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T13:12:18.093Z
 sha256,a6b0847cf31ccc3f76538333498f8fef79d444a9d4ecfca0592861cf731ae6cb,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,abba655df92e99a15ddcde1d196ff4393a13dbff293e45f5375a2f61c84a2c7b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-12T15:18:11.043Z
 sha256,b0dfaf509de38749c49afcb3cd34d27126044bb77cc16896b02ebced6f95db02,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
@@ -1645,8 +1645,8 @@ sha256,e6bd4ed287d1336206f5b4b65011e570267418799eb60c2d0d7496d5d9e95a33,https://
 sha256,e7706a633f24679c7550a31b96088dda8f772c98f64daee7cfbf0dc17a4a8338,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,e86bb8361c436be94b0901e5b39db9b6666134f23cce1e5581421c2981405cb1,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-12T15:18:11.043Z
 sha256,eb8cbc4a0eae33bfdc4ecb99d033c81224b005e55588ceb86346f2b2d3fd790f,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
-sha256,ecd5ed16975d556d1d17bc980f248f8a5262bed11df9d9cf999efd9c273c11df,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T12:11:59.129Z
-sha256,ee3d776cdaf82335e4293e19ee313cc35eee49cde9963b96766a8f9c89d44a79,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T12:11:59.129Z
+sha256,ecd5ed16975d556d1d17bc980f248f8a5262bed11df9d9cf999efd9c273c11df,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T13:12:18.093Z
+sha256,ee3d776cdaf82335e4293e19ee313cc35eee49cde9963b96766a8f9c89d44a79,https://cybersecuritynews.com/hackers-use-weaponized-jpeg-file,Hackers Use Weaponized JPEG File to Deploy Trojanized ScreenConnect Malware,2026-05-11T11:33:41.000Z,2026-05-13T13:12:18.093Z
 sha256,f0ec54b9dc2e64c214e92b521933cee172283ff5c942cf84fae4ec5b03abab55,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-05-12T15:18:11.043Z
 sha256,f25f76a85ded0d4d285d9ae5482d8fe07dade3e241853d00b17642d7873733e8,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-12T15:18:11.043Z
 sha256,f3a6d4ccdd0f663269c3909e74d6847608b8632fb2814b0436a4532b8281e617,https://www.ransomware.live/group/kawa4096,Ransomware.live - kawa4096,,2026-05-12T15:18:11.043Z
@@ -1750,8 +1750,8 @@ twitter,@Anubis__media,https://www.ransomware.live/group/anubis,Ransomware.live 
 twitter,@Inifintyink,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-05-12T15:18:11.043Z
 twitter,@SGaming66355,https://www.ransomware.live/group/gdlockrsec,Ransomware.live - gdlockrsec,,2026-05-12T15:18:11.043Z
 twitter,https://x.com/zerodayx1,https://www.ransomware.live/group/bqtlock,Ransomware.live - bqtlock,,2026-05-12T15:18:11.043Z
-url,http://91.215.85.103/pay_or_leak/instructure_affected_schools_list.txt,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-05-13T12:11:59.129Z
-url,https://shinyp0g4jjniry5qi824btzn0p6mxhrdtxe2k6pdy4g3vdzqvr.onion/,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-05-13T12:11:59.129Z
+url,http://91.215.85.103/pay_or_leak/instructure_affected_schools_list.txt,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-05-13T13:12:18.093Z
+url,https://shinyp0g4jjniry5qi824btzn0p6mxhrdtxe2k6pdy4g3vdzqvr.onion/,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-05-13T13:12:18.093Z
 url,hxxp://23.95.182.59/31279geuwtoisgdehbiuowaehsgdb/cht,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-12T15:18:11.043Z
 url,hxxp://23.95.182.59/31279geuwtoisgdehbiuowaehsgdb/klg,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-12T15:18:11.043Z
 url,hxxp://94.103.91.246/addInfection,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-05-12T15:18:11.043Z
