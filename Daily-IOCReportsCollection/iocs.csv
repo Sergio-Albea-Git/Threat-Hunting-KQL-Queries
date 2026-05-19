@@ -1,9 +1,7 @@
 type,value,source_url,source_title,article_published_at,first_seen
-domain,87e0bbc636999b.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T08:01:47.720Z
-domain,b94b6bcfa27554.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T08:01:47.720Z
-domain,edcf8b03c84634.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T08:01:47.720Z
-domain,fulcio.sigstore.dev,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
-domain,rekor.sigstore.dev,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
+domain,87e0bbc636999b.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T09:02:29.756Z
+domain,b94b6bcfa27554.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T09:02:29.756Z
+domain,edcf8b03c84634.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T09:02:29.756Z
 email,15010050@tutamail.com,https://www.ransomware.live/group/bitpaymer,Ransomware.live - bitpaymer,,2026-05-18T07:32:53.173Z
 email,2020host2021@tutanota.com,https://www.ransomware.live/group/snatch,Ransomware.live - snatch,,2026-05-18T07:32:53.173Z
 email,47266@airmail.cc,https://www.ransomware.live/group/wastedlocker,Ransomware.live - wastedlocker,,2026-05-18T07:32:53.173Z
@@ -165,9 +163,6 @@ email,wehavesolution@onionmail.org,https://www.ransomware.live/group/8base,Ranso
 email,yagamuchi@mailum.com,https://www.ransomware.live/group/blackfield,Ransomware.live - blackfield,,2026-05-18T07:32:53.173Z
 email,yamaguchigumi@cock.li,https://www.ransomware.live/group/risen,Ransomware.live - risen,,2026-05-18T07:32:53.173Z
 email,znhsupport@protonmail.com,https://www.ransomware.live/group/luckbit,Ransomware.live - luckbit,,2026-05-18T07:32:53.173Z
-filename,~/.local/share/kitty/cat.py,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
-filename,index.js,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
-filename,main.js,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
 ftp,ftp://dataShare:2bTWYKNn7aK7Rqp9mnv3@176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
 ftp,ftp://dataShare:nX4aJxu3rYUMiLjCMtuJYTKS@176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
 ip,103.121.91.144,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-18T07:32:53.173Z
@@ -256,6 +251,7 @@ ip,172.96.137.108:80,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,172.96.137.32:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
 ip,176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
+ip,176.123.4.44,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T09:02:29.756Z
 ip,176.65.141.201,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-05-18T07:32:53.173Z
 ip,176.97.75.205:8015,https://www.ransomware.live/group/bashe,Ransomware.live - bashe,,2026-05-18T07:32:53.173Z
 ip,179.43.139.126,https://www.ransomware.live/group/benzona,Ransomware.live - benzona,,2026-05-18T07:32:53.173Z
@@ -273,6 +269,7 @@ ip,185.193.48.92:445,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,185.193.48.92:4675,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,185.229.9.27:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,185.239.48.114:27700,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
+ip,185.241.208.243,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T09:02:29.756Z
 ip,185.241.5.217:8081,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,185.243.112.167:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,185.28.119.50:5415,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
@@ -381,7 +378,7 @@ ip,70.34.202.129:8443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,77.73.67.162:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,79.141.162.184:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,8.140.226.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
-ip,80.200.28.28,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T08:01:47.720Z
+ip,80.200.28.28,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T09:02:29.756Z
 ip,81.17.31.98:1124,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,82.147.84.232,https://www.ransomware.live/group/teamxxx,Ransomware.live - teamxxx,,2026-05-18T07:32:53.173Z
 ip,83.217.209.210,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-05-18T07:32:53.173Z
@@ -415,6 +412,7 @@ ip,89.23.113.220:8083,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,89.248.163.120,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-05-18T07:32:53.173Z
 ip,89.38.225.185:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,89.46.235.60:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
+ip,91.208.197.87,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T09:02:29.756Z
 ip,91.236.230.33:6399,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,91.236.230.33:6400,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,91.245.255.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
@@ -1518,13 +1516,9 @@ session,05e034eb421832ae9209e9c17441c93ee4509f2e6dae2b23595763e0a19fdcee52,https
 session,05e4f38090e06156b94ebf76e93ab4ccb761d761b886bbabf2df41c2bc341e8b30,https://www.ransomware.live/group/radar,Ransomware.live - radar,,2026-05-18T07:32:53.173Z
 sha1,161CDCDB46FB8A348AEC609A86FF5823752065D2,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-18T07:32:53.173Z
 sha1,24BF7B72F54AA5B93C6681B4F69E579A47D7C102,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-18T07:32:53.173Z
-sha1,558b09d7ad0d1660e2a0fb8a06da81a6f42e06d2,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
 sha1,639DBC9B365096D6347142FCAE64725BD9F73270,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-18T07:32:53.173Z
-sha1,9d88f040c44b5f4d5f9db15ff89310776c168e99,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
 sha1,a515b7d89676b1401eeb9eb776190a1179c386cf,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-05-18T07:32:53.173Z
-sha1,acfc3f957a63b4cde93ff645f2b6bf26a8ed1bbf,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
 sha1,AD223FE2BB4563446AEE5227357BBFDC8ADA3797,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-18T07:32:53.173Z
-sha1,ba642fe2c7c65e42dd7f6444b83023dc6827e08c,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
 sha1,BB8FB75285BCD151132A3287F2786D4D91DA58B8,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-18T07:32:53.173Z
 sha1,c0979ec20b87084317d1bfa50405f7149c3b5c5f,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-05-18T07:32:53.173Z
 sha1,c12c4d58541cc4f75ae19b65295a52c559570054,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-05-18T07:32:53.173Z
@@ -1538,14 +1532,12 @@ sha256,0c0e0f9b09b80d87ebc88e2870907b6cacb4cd7703584baf8f2be1fd9438696d,https://
 sha256,0ee1d284ed663073872012c7bde7fac5ca1121403f1a5d2d5411317df282796c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,11cfea4100ba3731d859148d2011c7225d337db22797f7e111c0f2876e986490,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-05-18T07:32:53.173Z
 sha256,131da83b521f610819141d5c740313ce46578374abb22ef504a7593955a65f07,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,1a4afce34918bdc74ae3f31edaffffaa0ee074d83618f53edfd88137927340b8,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
 sha256,1b6af2fbbc636180dd7bae825486ccc45e42aefbb304d5f83fafca4d637c13cc,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,1ca67af90400ee6cbbd42175293274a0f5dc05315096cb2e214e4bfe12ffb71f,https://www.ransomware.live/group/payload,Ransomware.live - payload,,2026-05-18T07:32:53.173Z
 sha256,1d846592ffcc19ed03a34316520aa31369218a88afa4e17ac547686d0348aa5b,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-05-18T07:32:53.173Z
 sha256,1df92bf4c967297d8a39fc3f619a56702ee96d5cf9196b8e1d5b3654746c6514,https://www.ransomware.live/group/everest,Ransomware.live - everest,,2026-05-16T18:04:52.544Z
 sha256,1e9246e6a35731143368eaa0ade4f3cf576d6b22e6090152f6e94f1fa3070651,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,1f2df15442593b159e45d16a27e4d43d3a9062da212a588ba4c048f214a0b7be,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
-sha256,228a2cf081d4cbea9b91cde14a8f9c4a4d003e7f32431496953fd6bac266f5a3,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
 sha256,23642a78addcffd124db133a2dd2fcd2d1bdb060dd1e41da33cb18eec7a88867,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,270c3354b3ee2940b499e365eaba143fba9d458f434dc38e663dc0f08e96121e,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,28cea00267fa30fb63e80a3c3b193bd9cd2a3d46dd9ae6cede5f932ac15c7e2e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
@@ -1568,7 +1560,6 @@ sha256,3c92bfc71004340ebc00146ced294bc94f49f6a5e212016ac05e7d10fcb3312c,https://
 sha256,3d09e930305cb3aa4ca54a39b0e3749f083d432f202606c8adac8455014b47fc,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,43c5a487329f5d6b4a6d02e2f8ef62744b850312c5cb87c0a414f3830767be72,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,43f145fccec00f1e100ec3377eaf0ab60df3b9c5291b8011e05141cc04704be1,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
-sha256,43f2b001846c4966073ebffa5be8f15e491a1e7d32bbd805d57406ff540e0dd9,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
 sha256,48046fb0e566f5a2d184f84b76d6cadc458762556daed0ae4a3a1200afbefb54,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,49fcbd606ff10d4661e222b8910ab7829d1668e3c97f1bab7eb51e8ec7d799a5,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,501821a19ccf59830789849beff94238736adb4b213870a511890c5c8efab2a6,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
@@ -1619,7 +1610,6 @@ sha256,a331504acf589be5d11202232a7a93eeb4fe6b053beea231d9a0a661bcaf3fd6,https://
 sha256,a546ef13e8a71a8b5f0803075382eb0311d0d8dbae3f08bac0b2f4250af8add0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,a6b0847cf31ccc3f76538333498f8fef79d444a9d4ecfca0592861cf731ae6cb,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,abba655df92e99a15ddcde1d196ff4393a13dbff293e45f5375a2f61c84a2c7b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,b0cefb66b953e5184b6adb3035e9e267335ac5eabfe1848e07834777b9397b74,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
 sha256,b0dfaf509de38749c49afcb3cd34d27126044bb77cc16896b02ebced6f95db02,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,b1cf41363401fe5671e24fd55ee89b0c177140c482a8dab1b9891db509df52f6,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-05-18T07:32:53.173Z
 sha256,b2353fce403b079735a606294c4ffc20a71f1c6b16ec15e94f554beafcddd1ea,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
@@ -1638,7 +1628,6 @@ sha256,c0c726a23111c220d022fcd01a85f9788249e42baece03f83b6059170453b801,https://
 sha256,c0fc61631a20c373ce17e939e09cfb4f5179c9e0788e80079b4ee8986afe89bd,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,c9920e995fbc98cd3883ef4c4520300d5e82bab5d2a5c781e9e9fe694a43e82f,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-18T07:32:53.173Z
 sha256,c9c94ac5e1991a7db42c7973e328fceeb6f163d9f644031bdfd4123c7b3898b0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,cb86f4f223daa54467c7782a0d8607e9c84e2bb633e6f0e51d9a19579e200990,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
 sha256,ccda8247360a85b6c076527e438a995757b6cdf5530f38e125915d31291c00d5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,d00f7cf6af68ba832b9d364f28411346cfe66fd3b1f5bcac318766add29ff7f0,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,d3cc6cc4538d57f2d1f8a9d46a3e8be73ed849f7fe37d1d969c0377cf1d0fadc,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-05-18T07:32:53.173Z
@@ -1650,7 +1639,6 @@ sha256,dfe6fddc67bdc93b9947430b966da2877fda094edf3e21e6f0ba98a84bc53198,https://
 sha256,e3fa93dad8fb8c3a6d9b35d02ce97c22035b409e0efc9f04372f4c1d6280a481,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,e5aaa213818fe835f2716914238119fee746753aa4808e24aed817e929e6dcb8,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-05-18T07:32:53.173Z
 sha256,e6bd4ed287d1336206f5b4b65011e570267418799eb60c2d0d7496d5d9e95a33,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-05-18T07:32:53.173Z
-sha256,e7347d90653efc565f03733a95e9209d78f9cfa81e31ff2b2dd9d48d75a4b8b1,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T08:01:47.720Z
 sha256,e7706a633f24679c7550a31b96088dda8f772c98f64daee7cfbf0dc17a4a8338,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,e86bb8361c436be94b0901e5b39db9b6666134f23cce1e5581421c2981405cb1,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-18T07:32:53.173Z
 sha256,eb8cbc4a0eae33bfdc4ecb99d033c81224b005e55588ceb86346f2b2d3fd790f,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
