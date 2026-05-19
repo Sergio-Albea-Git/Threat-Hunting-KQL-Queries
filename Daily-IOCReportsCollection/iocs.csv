@@ -1,10 +1,10 @@
 type,value,source_url,source_title,article_published_at,first_seen
-domain,87e0bbc636999b.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T11:03:56.125Z
-domain,b94b6bcfa27554.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T11:03:56.125Z
-domain,edcf8b03c84634.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T11:03:56.125Z
-domain,fulcio.sigstore.dev,https://cybersecuritynews.com/hackers-compromise-antv-packages,Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave,2026-05-19T09:07:43.000Z,2026-05-19T11:03:56.125Z
-domain,rekor.sigstore.dev,https://cybersecuritynews.com/hackers-compromise-antv-packages,Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave,2026-05-19T09:07:43.000Z,2026-05-19T11:03:56.125Z
-domain,t.m-kosche.com,https://cybersecuritynews.com/hackers-compromise-antv-packages,Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave,2026-05-19T09:07:43.000Z,2026-05-19T11:03:56.125Z
+domain,87e0bbc636999b.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T12:04:44.017Z
+domain,b94b6bcfa27554.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T12:04:44.017Z
+domain,edcf8b03c84634.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T12:04:44.017Z
+domain,fulcio.sigstore.dev,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
+domain,rekor.sigstore.dev,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
+domain,t.m-kosche.com,https://cybersecuritynews.com/hackers-compromise-antv-packages,Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave,2026-05-19T09:07:43.000Z,2026-05-19T12:04:44.017Z
 email,15010050@tutamail.com,https://www.ransomware.live/group/bitpaymer,Ransomware.live - bitpaymer,,2026-05-18T07:32:53.173Z
 email,2020host2021@tutanota.com,https://www.ransomware.live/group/snatch,Ransomware.live - snatch,,2026-05-18T07:32:53.173Z
 email,47266@airmail.cc,https://www.ransomware.live/group/wastedlocker,Ransomware.live - wastedlocker,,2026-05-18T07:32:53.173Z
@@ -166,6 +166,9 @@ email,wehavesolution@onionmail.org,https://www.ransomware.live/group/8base,Ranso
 email,yagamuchi@mailum.com,https://www.ransomware.live/group/blackfield,Ransomware.live - blackfield,,2026-05-18T07:32:53.173Z
 email,yamaguchigumi@cock.li,https://www.ransomware.live/group/risen,Ransomware.live - risen,,2026-05-18T07:32:53.173Z
 email,znhsupport@protonmail.com,https://www.ransomware.live/group/luckbit,Ransomware.live - luckbit,,2026-05-18T07:32:53.173Z
+filename,~/.local/share/kitty/cat.py,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
+filename,index.js,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
+filename,main.js,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
 ftp,ftp://dataShare:2bTWYKNn7aK7Rqp9mnv3@176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
 ftp,ftp://dataShare:nX4aJxu3rYUMiLjCMtuJYTKS@176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
 ip,103.121.91.144,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-18T07:32:53.173Z
@@ -254,7 +257,7 @@ ip,172.96.137.108:80,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,172.96.137.32:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
 ip,176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
-ip,176.123.4.44,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T11:03:56.125Z
+ip,176.123.4.44,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T12:04:44.017Z
 ip,176.65.141.201,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-05-18T07:32:53.173Z
 ip,176.97.75.205:8015,https://www.ransomware.live/group/bashe,Ransomware.live - bashe,,2026-05-18T07:32:53.173Z
 ip,179.43.139.126,https://www.ransomware.live/group/benzona,Ransomware.live - benzona,,2026-05-18T07:32:53.173Z
@@ -272,7 +275,7 @@ ip,185.193.48.92:445,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,185.193.48.92:4675,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,185.229.9.27:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,185.239.48.114:27700,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
-ip,185.241.208.243,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T11:03:56.125Z
+ip,185.241.208.243,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T12:04:44.017Z
 ip,185.241.5.217:8081,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,185.243.112.167:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,185.28.119.50:5415,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
@@ -381,7 +384,7 @@ ip,70.34.202.129:8443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,77.73.67.162:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,79.141.162.184:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,8.140.226.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
-ip,80.200.28.28,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T11:03:56.125Z
+ip,80.200.28.28,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-19T12:04:44.017Z
 ip,81.17.31.98:1124,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,82.147.84.232,https://www.ransomware.live/group/teamxxx,Ransomware.live - teamxxx,,2026-05-18T07:32:53.173Z
 ip,83.217.209.210,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-05-18T07:32:53.173Z
@@ -415,7 +418,7 @@ ip,89.23.113.220:8083,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,89.248.163.120,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-05-18T07:32:53.173Z
 ip,89.38.225.185:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,89.46.235.60:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
-ip,91.208.197.87,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T11:03:56.125Z
+ip,91.208.197.87,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-19T12:04:44.017Z
 ip,91.236.230.33:6399,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,91.236.230.33:6400,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,91.245.255.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
@@ -1518,16 +1521,26 @@ session,05cb63af9848ae85a0016581a14a9848d516ed2f9fcb4f98a081363c48ee7f570b,https
 session,05e034eb421832ae9209e9c17441c93ee4509f2e6dae2b23595763e0a19fdcee52,https://www.ransomware.live/group/crypto24,Ransomware.live - crypto24,,2026-05-18T07:32:53.173Z
 session,05e4f38090e06156b94ebf76e93ab4ccb761d761b886bbabf2df41c2bc341e8b30,https://www.ransomware.live/group/radar,Ransomware.live - radar,,2026-05-18T07:32:53.173Z
 sha1,161CDCDB46FB8A348AEC609A86FF5823752065D2,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-18T07:32:53.173Z
+sha1,1a4afce34918bdc74ae3f31edaffffaa0ee07b91,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
+sha1,228a2cf081d4cbea9b91cde14a8f9c4a4d003fef,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
 sha1,24BF7B72F54AA5B93C6681B4F69E579A47D7C102,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-18T07:32:53.173Z
+sha1,43f2b001846c4966073ebffa5be8f15e491a1ffe,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
+sha1,558b09d7ad0d1660e2a0fb8a06da81a6f42e0b23,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
 sha1,639DBC9B365096D6347142FCAE64725BD9F73270,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-18T07:32:53.173Z
+sha1,9d88f040c44b5f4d5f9db15ff89310776c168f41,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
 sha1,a515b7d89676b1401eeb9eb776190a1179c386cf,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-05-18T07:32:53.173Z
+sha1,acfc3f957a63b4cde93ff645f2b6bf26a8ed1c72,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
 sha1,AD223FE2BB4563446AEE5227357BBFDC8ADA3797,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-18T07:32:53.173Z
+sha1,b0cefb66b953e5184b6adb3035e9e267335ac28c,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
+sha1,ba642fe2c7c65e42dd7f6444b83023dc6827e9a1,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
 sha1,BB8FB75285BCD151132A3287F2786D4D91DA58B8,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-18T07:32:53.173Z
 sha1,c0979ec20b87084317d1bfa50405f7149c3b5c5f,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-05-18T07:32:53.173Z
 sha1,c12c4d58541cc4f75ae19b65295a52c559570054,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-05-18T07:32:53.173Z
+sha1,cb86f4f223daa54467c7782a0d8607e9c84e2b51,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
 sha1,dbd05e2da5385928cbeb7b9695e825c588bede8e,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-05-18T07:32:53.173Z
 sha1,df249727c12741ca176d5f1ccba3ce188a546d28,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-05-18T07:32:53.173Z
 sha1,e00293ce0eb534874efd615ae590cf6aa3858ba4,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-05-18T07:32:53.173Z
+sha1,e7347d90653efc565f03733a95e9209d78f9cd15,https://cybersecuritynews.com/nx-console-vs-code-extension-compromised,Nx Console VS Code Extension Compromised to Steal Developer and Cloud Secrets,2026-05-19T11:50:27.000Z,2026-05-19T12:04:44.017Z
 sha1,F3F4C40C344695388E10CBF29DDB18EF3B61F7EF,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-18T07:32:53.173Z
 sha256,012657c4548d9c98223caa4cc7aa52fc083d6983d42fde16ca3271412e7fe3fe,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,09f7432834ce15e701aa7fcc84a9c2441c1c7e0a9cb66a6211845be73d2597cc,https://www.ransomware.live/group/benzona,Ransomware.live - benzona,,2026-05-18T07:32:53.173Z
@@ -1748,9 +1761,9 @@ twitter,@Anubis__media,https://www.ransomware.live/group/anubis,Ransomware.live 
 twitter,@Inifintyink,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-05-18T07:32:53.173Z
 twitter,@SGaming66355,https://www.ransomware.live/group/gdlockrsec,Ransomware.live - gdlockrsec,,2026-05-18T07:32:53.173Z
 twitter,https://x.com/zerodayx1,https://www.ransomware.live/group/bqtlock,Ransomware.live - bqtlock,,2026-05-18T07:32:53.173Z
-url,https://fulcio.sigstore.dev/api/v2/signingcert,https://cybersecuritynews.com/hackers-compromise-antv-packages,Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave,2026-05-19T09:07:43.000Z,2026-05-19T11:03:56.125Z
-url,https://rekor.sigstore.dev/api/v1/log/entries,https://cybersecuritynews.com/hackers-compromise-antv-packages,Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave,2026-05-19T09:07:43.000Z,2026-05-19T11:03:56.125Z
-url,https://t.m-kosche.com:443/api/public/otel/v1/traces,https://cybersecuritynews.com/hackers-compromise-antv-packages,Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave,2026-05-19T09:07:43.000Z,2026-05-19T11:03:56.125Z
+url,https://fulcio.sigstore.dev/api/v2/signingcert,https://cybersecuritynews.com/hackers-compromise-antv-packages,Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave,2026-05-19T09:07:43.000Z,2026-05-19T12:04:44.017Z
+url,https://rekor.sigstore.dev/api/v1/log/entries,https://cybersecuritynews.com/hackers-compromise-antv-packages,Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave,2026-05-19T09:07:43.000Z,2026-05-19T12:04:44.017Z
+url,https://t.m-kosche.com:443/api/public/otel/v1/traces,https://cybersecuritynews.com/hackers-compromise-antv-packages,Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave,2026-05-19T09:07:43.000Z,2026-05-19T12:04:44.017Z
 url,hxxp://23.95.182.59/31279geuwtoisgdehbiuowaehsgdb/cht,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-18T07:32:53.173Z
 url,hxxp://23.95.182.59/31279geuwtoisgdehbiuowaehsgdb/klg,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-18T07:32:53.173Z
 url,hxxp://94.103.91.246/addInfection,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-05-18T07:32:53.173Z
