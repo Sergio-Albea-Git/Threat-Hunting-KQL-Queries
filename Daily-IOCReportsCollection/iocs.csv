@@ -1,9 +1,9 @@
 type,value,source_url,source_title,article_published_at,first_seen
-domain,87e0bbc636999b.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-20T06:02:20.582Z
-domain,b94b6bcfa27554.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-20T06:02:20.582Z
-domain,edcf8b03c84634.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-20T06:02:20.582Z
-domain,mlcrosoft.co.com,https://cybersecuritynews.com/macos-malware-installs-fake-google-software,macOS Malware Installs Fake Google Software Update LaunchAgent for Persistence,2026-05-19T21:50:13.000Z,2026-05-20T06:02:20.582Z
-domain,yespp.co.kr,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+domain,87e0bbc636999b.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-20T07:02:39.499Z
+domain,b94b6bcfa27554.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-20T07:02:39.499Z
+domain,edcf8b03c84634.lhr.life,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-20T07:02:39.499Z
+domain,mlcrosoft.co.com,https://cybersecuritynews.com/macos-malware-installs-fake-google-software,macOS Malware Installs Fake Google Software Update LaunchAgent for Persistence,2026-05-19T21:50:13.000Z,2026-05-20T07:02:39.499Z
+domain,yespp.co.kr,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 email,15010050@tutamail.com,https://www.ransomware.live/group/bitpaymer,Ransomware.live - bitpaymer,,2026-05-18T07:32:53.173Z
 email,2020host2021@tutanota.com,https://www.ransomware.live/group/snatch,Ransomware.live - snatch,,2026-05-18T07:32:53.173Z
 email,47266@airmail.cc,https://www.ransomware.live/group/wastedlocker,Ransomware.live - wastedlocker,,2026-05-18T07:32:53.173Z
@@ -165,42 +165,42 @@ email,wehavesolution@onionmail.org,https://www.ransomware.live/group/8base,Ranso
 email,yagamuchi@mailum.com,https://www.ransomware.live/group/blackfield,Ransomware.live - blackfield,,2026-05-18T07:32:53.173Z
 email,yamaguchigumi@cock.li,https://www.ransomware.live/group/risen,Ransomware.live - risen,,2026-05-18T07:32:53.173Z
 email,znhsupport@protonmail.com,https://www.ransomware.live/group/luckbit,Ransomware.live - luckbit,,2026-05-18T07:32:53.173Z
-filename,.hwpx.jse,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,.hwpx.jse.zip,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,/tmp/.c.sh,https://cybersecuritynews.com/macos-malware-installs-fake-google-software,macOS Malware Installs Fake Google Software Update LaunchAgent for Persistence,2026-05-19T21:50:13.000Z,2026-05-20T06:02:20.582Z
-filename,/tmp/shub_split.sh,https://cybersecuritynews.com/macos-malware-installs-fake-google-software,macOS Malware Installs Fake Google Software Update LaunchAgent for Persistence,2026-05-19T21:50:13.000Z,2026-05-20T06:02:20.582Z
-filename,\syswow64\input.dll,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-filename,\syswow64\vslauncher.exe,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-filename,%appdata%\applicationdata32\cluster-overlay64.exe,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-filename,%appdata%\applicationdata32\filter.bin,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-filename,%appdata%\applicationdata32\openvr_api.dll,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-filename,1.pdf.lnk,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,1.pdf.lnk.zip,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,a.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,bb.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,bpersist.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,bpvme.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,dctrprraclus.zip,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-filename,doc_2026-03-26_08-58-03.netangular.pdf.zip,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,filter.bin,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-filename,firefox.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,input.dll,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-filename,onedrive.lnk,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,openvr_api.dll,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-filename,pdf.zip,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,pumpguard-pumpfun-ai-attack-defence-requirements.pdf.lnk,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,rundll32.exe,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,scheduler-once.bat,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-filename,sqlexpresschk.exe,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-filename,support/google/googleupdate.app,https://cybersecuritynews.com/macos-malware-installs-fake-google-software,macOS Malware Installs Fake Google Software Update LaunchAgent for Persistence,2026-05-19T21:50:13.000Z,2026-05-20T06:02:20.582Z
-filename,whale.vbs,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+filename,.hwpx.jse,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,.hwpx.jse.zip,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,/tmp/.c.sh,https://cybersecuritynews.com/macos-malware-installs-fake-google-software,macOS Malware Installs Fake Google Software Update LaunchAgent for Persistence,2026-05-19T21:50:13.000Z,2026-05-20T07:02:39.499Z
+filename,/tmp/shub_split.sh,https://cybersecuritynews.com/macos-malware-installs-fake-google-software,macOS Malware Installs Fake Google Software Update LaunchAgent for Persistence,2026-05-19T21:50:13.000Z,2026-05-20T07:02:39.499Z
+filename,\syswow64\input.dll,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+filename,\syswow64\vslauncher.exe,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+filename,%appdata%\applicationdata32\cluster-overlay64.exe,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+filename,%appdata%\applicationdata32\filter.bin,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+filename,%appdata%\applicationdata32\openvr_api.dll,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+filename,1.pdf.lnk,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,1.pdf.lnk.zip,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,a.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,bb.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,bpersist.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,bpvme.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,dctrprraclus.zip,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+filename,doc_2026-03-26_08-58-03.netangular.pdf.zip,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,filter.bin,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+filename,firefox.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,input.dll,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+filename,onedrive.lnk,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,openvr_api.dll,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+filename,pdf.zip,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,pumpguard-pumpfun-ai-attack-defence-requirements.pdf.lnk,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,rundll32.exe,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,scheduler-once.bat,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+filename,sqlexpresschk.exe,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+filename,support/google/googleupdate.app,https://cybersecuritynews.com/macos-malware-installs-fake-google-software,macOS Malware Installs Fake Google Software Update LaunchAgent for Persistence,2026-05-19T21:50:13.000Z,2026-05-20T07:02:39.499Z
+filename,whale.vbs,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 ftp,ftp://dataShare:2bTWYKNn7aK7Rqp9mnv3@176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
 ftp,ftp://dataShare:nX4aJxu3rYUMiLjCMtuJYTKS@176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
 ip,103.121.91.144,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-18T07:32:53.173Z
 ip,103.125.217.129:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,103.131.95.37,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-18T07:32:53.173Z
 ip,103.30.77.80:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
-ip,103.67.196.25,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+ip,103.67.196.25,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 ip,104.168.140.238:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,104.168.151.112:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,104.200.67.252:3966,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
@@ -276,7 +276,7 @@ ip,167.71.69.135:443,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,167.88.160.15:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,169.239.130.36:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,169.254.169.254,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-05-18T07:32:53.173Z
-ip,169.40.135.35,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
+ip,169.40.135.35,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
 ip,170.130.55.197:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,172.187.180.204:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,172.96.137.106:4567,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
@@ -284,7 +284,7 @@ ip,172.96.137.108:80,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,172.96.137.32:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
 ip,176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
-ip,176.123.4.44,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-20T06:02:20.582Z
+ip,176.123.4.44,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-20T07:02:39.499Z
 ip,176.65.141.201,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-05-18T07:32:53.173Z
 ip,176.97.75.205:8015,https://www.ransomware.live/group/bashe,Ransomware.live - bashe,,2026-05-18T07:32:53.173Z
 ip,179.43.139.126,https://www.ransomware.live/group/benzona,Ransomware.live - benzona,,2026-05-18T07:32:53.173Z
@@ -302,7 +302,7 @@ ip,185.193.48.92:445,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,185.193.48.92:4675,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,185.229.9.27:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,185.239.48.114:27700,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
-ip,185.241.208.243,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-20T06:02:20.582Z
+ip,185.241.208.243,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-20T07:02:39.499Z
 ip,185.241.5.217:8081,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,185.243.112.167:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,185.28.119.50:5415,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
@@ -376,7 +376,7 @@ ip,45.61.136.147:3917,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,45.61.136.147:3929,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,45.63.9.192:5050,https://www.ransomware.live/group/crypto24,Ransomware.live - crypto24,,2026-05-18T07:32:53.173Z
 ip,45.76.144.235:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
-ip,45.86.230.112,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+ip,45.86.230.112,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 ip,45.95.175.213:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,46.17.42.64,https://www.ransomware.live/group/cephalus,Ransomware.live - cephalus,,2026-05-18T07:32:53.173Z
 ip,5.187.48.26:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
@@ -412,7 +412,7 @@ ip,70.34.202.129:8443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,77.73.67.162:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,79.141.162.184:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,8.140.226.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
-ip,80.200.28.28,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-20T06:02:20.582Z
+ip,80.200.28.28,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-05-20T07:02:39.499Z
 ip,81.17.31.98:1124,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,82.147.84.232,https://www.ransomware.live/group/teamxxx,Ransomware.live - teamxxx,,2026-05-18T07:32:53.173Z
 ip,83.217.209.210,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-05-18T07:32:53.173Z
@@ -446,8 +446,8 @@ ip,89.23.113.220:8083,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,89.248.163.120,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-05-18T07:32:53.173Z
 ip,89.38.225.185:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,89.46.235.60:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
-ip,91.107.247.163,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
-ip,91.208.197.87,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-20T06:02:20.582Z
+ip,91.107.247.163,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
+ip,91.208.197.87,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-05-20T07:02:39.499Z
 ip,91.236.230.33:6399,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,91.236.230.33:6400,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 ip,91.245.255.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
@@ -473,7 +473,7 @@ md5,018d410685c743dedaad1dff81486dd7,https://www.ransomware.live/group/trigona,R
 md5,019b65ccaabcf519b65645284966db57,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-05-18T07:32:53.173Z
 md5,01feb8f50b5195328f27195b0e4d82da,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,0248bf2afb70642288646760bb25a38d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-md5,0331a83b58231cb0cd3bfe319003ed1a,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,0331a83b58231cb0cd3bfe319003ed1a,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,03ab9195dcbd96fbe4e11917c50b57b6,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
 md5,03b9887dee2c3c825b6a6c0df1d104ad,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,03eaabaf750bcf69d58f79098432f8a3,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
@@ -486,7 +486,7 @@ md5,06ce6cd8bde756265f95fcf4eecadbe9,https://www.ransomware.live/group/hellokitt
 md5,06e493f1f9a620ecec1a4f32fedd3128,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,07a155371aded5527e7bf38bf6445537,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
 md5,07c6b4756715d73304ec0ebc951dddad,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-05-18T07:32:53.173Z
-md5,08160acf08fccecde7b34090db18b321,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,08160acf08fccecde7b34090db18b321,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,083740c55d0a459674457b8551ed9c6a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,084deb26cd9d8eff3f972e8e0c4adfe6,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-05-18T07:32:53.173Z
 md5,0852f2dd2311413ba6e8c523cae415f6,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
@@ -519,7 +519,7 @@ md5,0d68a310f4265821900249bec89364c2,https://www.ransomware.live/group/qilin,Ran
 md5,0d928467bf7d0226f95eed9af9f2e650,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
 md5,0da1f4ede654e83241eaad7719a708a0,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-05-18T07:32:53.173Z
 md5,0dbdae5eea88dc10f668a15bc7d6443f,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
-md5,0dd1cf2d9a72fdbef19e77af59ba9d1f,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,0dd1cf2d9a72fdbef19e77af59ba9d1f,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,0e4ee38fe320cfb573a30820198ff442,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-05-18T07:32:53.173Z
 md5,0e521e0452f113cdf8b5c2fa6580db1f,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-05-18T07:32:53.173Z
 md5,0e8c4d7dba3c9d20a70c529adc003ce2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
@@ -644,7 +644,7 @@ md5,2506fe932b2e3acf792f2582d0c302db,https://www.ransomware.live/group/trigona,R
 md5,2513d6678b476a432af2e84fff485b44,https://www.ransomware.live/group/lockbit5,Ransomware.live - lockbit5,,2026-05-18T07:32:53.173Z
 md5,25a14b8104eb50d56c46df79b0df37bf,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-05-18T07:32:53.173Z
 md5,263e909c1c9e6e1657d36c43d0d150b9,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
-md5,2689f58b803364bbfba2edb423a3b572,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,2689f58b803364bbfba2edb423a3b572,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,26f41a46d0addde100bb9512a130de5e,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-05-18T07:32:53.173Z
 md5,27182f9017d8e4212fbc32e954e19d37,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,271998018494403a9b5d0d4b01eb0c44,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-05-18T07:32:53.173Z
@@ -761,7 +761,7 @@ md5,3f0e86647afd46659e3838a9aa95fb1f,https://www.ransomware.live/group/raworld,R
 md5,3f2753c325e34f1a2439130ff35062a8,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,3f63951399f8cd578e2a6faed2c9c0f0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,3f8dbb3a8b881cba220c124323e92e6b,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-05-18T07:32:53.173Z
-md5,3fdce08723365d5c06e1183585164118,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,3fdce08723365d5c06e1183585164118,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,40126b1b3c6f86194fc554cdba3cb5d3,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-05-18T07:32:53.173Z
 md5,402c7184e416914a9797bb24f140a5b2,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,40b1586d1c247e0b62adcdda55eed596,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
@@ -786,7 +786,7 @@ md5,448f1796fe8de02194b21c0715e0a5f6,https://www.ransomware.live/group/brainciph
 md5,44c36bc55af58eb506d1760ab608402b,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-05-18T07:32:53.173Z
 md5,44c7d18633b5741db270a6bd378b6f3c,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-05-18T07:32:53.173Z
 md5,44cda3592e15092bf5e2312f91e231d0,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
-md5,450774df6785e6eeb6ea906490905888,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,450774df6785e6eeb6ea906490905888,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,4541959091ebf97669a7362e7471217e,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,45436ce56e34d205f27a3b90ea6f34d4,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,4566f5ba6d1a1db0dd7794ea8d791b3f,https://www.ransomware.live/group/ralord,Ransomware.live - ralord,,2026-05-18T07:32:53.173Z
@@ -796,7 +796,7 @@ md5,466a8e120c75770ecbc0c73f0439d304,https://www.ransomware.live/group/cactus,Ra
 md5,46d51d309fa4883ee4c6e015ead80d84,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,46ecc24ef6d20f3eaf71ff37610d57d1,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-05-18T07:32:53.173Z
 md5,470a328ad3705d0c6866a48912a3f718,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-05-18T07:32:53.173Z
-md5,471faa43f4811a0250648d586cb3eebf,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,471faa43f4811a0250648d586cb3eebf,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,4794af13cc0fa91c06963e1beb95de29,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,4851e59fa347df21ab856397b98f5490,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
 md5,4857d2d9d7b65e4b907b3cac728e1842,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
@@ -846,7 +846,7 @@ md5,517ac3f7fc52792734b9a00a57cc5ae4,https://www.ransomware.live/group/fog,Ranso
 md5,51ba8d3aadbbde812934ddd0006b1b80,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,51c6124113221d1bf27e21c6fbbd1a97,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
 md5,523c501118ef5d7957ce54aee86d9b1d,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-05-18T07:32:53.173Z
-md5,52f1ff082e981cbdfd1f045c6021c63f,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,52f1ff082e981cbdfd1f045c6021c63f,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,5334cbddd1128f87308c0725d2cb012e,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-05-18T07:32:53.173Z
 md5,53465ddd5d3d663cbb11538a4eb4ea94,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,538c61b8d943a62f5978ac69e44f9c11,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
@@ -856,7 +856,7 @@ md5,53c8a4f0497929de4a5039b2c14bf426,https://www.ransomware.live/group/qilin,Ran
 md5,53d89e90a54fef428f74eed41b14fb38,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
 md5,54416fc42afa9b09ea7e8d8e318f4891,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-05-18T07:32:53.173Z
 md5,54dd1e7adb8d5440cfed65c9646f2529,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-md5,552ca91696fedd387e1ea47f50f18344,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,552ca91696fedd387e1ea47f50f18344,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,55628da8e685379cf4214dc3763664cb,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,569d2b5701755260514fe1563d7530bb,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-05-18T07:32:53.173Z
 md5,56caf9474873560e90de9479a1aeb769,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
@@ -886,7 +886,7 @@ md5,5bf3dfab3aac314adaa400a317987c82,https://www.ransomware.live/group/raworld,R
 md5,5c023f04aa143f5976621009457abeaa,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,5c1ef3e67167dc9d4ad2af212f59fd4c,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
 md5,5c254d25751269892b6f02d6c6384aef,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-05-18T07:32:53.173Z
-md5,5c2857913efc6007b3ee7028a132baa4,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,5c2857913efc6007b3ee7028a132baa4,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,5c4a3158e91dafa28c80c50a0c070e34,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,5cab4fabffeb5903f684c936a90e0b46,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-05-18T07:32:53.173Z
 md5,5cc24cc2fced61209f0a1a30ea7e32aa,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
@@ -933,7 +933,7 @@ md5,67a44a38cc36becd6e2e9c20c27fd9ad,https://www.ransomware.live/group/lynx,Rans
 md5,67b53b6d02ec8faf5926abcbe8eab8df,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,67edfff8250487d97f403c74fed85388,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-05-18T07:32:53.173Z
 md5,68635ad9d12f683071611bfd34c1ec34,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
-md5,6869766741b40825e31fd8bbff688bd3,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,6869766741b40825e31fd8bbff688bd3,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,68729b85aa01cd8c9f4ccd137ddde137,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,69434397fe9df4c7533a51db27e35c82,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,696a86a4c569590b0522664924db7c90,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
@@ -1025,17 +1025,17 @@ md5,7f3cea1165b04b096cee2d8da92e3b80,https://www.ransomware.live/group/raworld,R
 md5,7f7c78fb5d9fdee28996a3f12bd00fef,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
 md5,7fa55bf92073ca2115d70641566ce89b,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-05-18T07:32:53.173Z
 md5,7ffaaaef5bcaf94756352b1fc866ef3d,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-05-18T07:32:53.173Z
-md5,80088af673b0117dbd5cf528021dd970,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,80088af673b0117dbd5cf528021dd970,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,8061b9de6bbc0eadbc4000120678c544,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
-md5,806fb7876b63ba89d2432cb831be01ba,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,806fb7876b63ba89d2432cb831be01ba,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,8194a7341f8eefa0afe08b6b5ced3ed1,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,825620363d5ff8e4d820a402bfcb425d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,8265e6e7d458617d39490b6cebdbfa67,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,826a8e8c05983aa3a884d7abcfa473ac,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
 md5,82c4867ee2bd7460e36c38528cf8a6a4,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
 md5,82cb0577a64e59d187ab3174d1095c22,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-05-18T07:32:53.173Z
-md5,8301fc2c740f6309864e68b6e429d0f0,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-md5,831d7c614ba32aa5d70ff9b0f259ee1d,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,8301fc2c740f6309864e68b6e429d0f0,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+md5,831d7c614ba32aa5d70ff9b0f259ee1d,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,832feae0378a9b36c4958812735b6d81,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-05-18T07:32:53.173Z
 md5,834d44a077ef00f7b27c64998d8553a9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,834d94cf35d9417aa93a5cb350a756e9,https://www.ransomware.live/group/nitrogen,Ransomware.live - nitrogen,,2026-05-18T07:32:53.173Z
@@ -1152,7 +1152,7 @@ md5,9f43ea23f078264bdbc2b8fbd46ba6d4,https://www.ransomware.live/group/akira,Ran
 md5,9f510626c7327a7c2328bc5131726638,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
 md5,9f801240af1124b66defcd4b4ae63f2a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,9f9f02ce0d1a1aa6e4e0b2867af09ba0,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-05-18T07:32:53.173Z
-md5,9fe43e08c8f446554340f972dac8a68c,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,9fe43e08c8f446554340f972dac8a68c,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,a0ab57fe1e9bc4de85d65616ebe2ebec,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,a0efa7fb6dff1e035510ec1f42e083e4,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-05-18T07:32:53.173Z
 md5,a0f2727dd11b0f5ced13eadc3d5bba73,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
@@ -1166,7 +1166,7 @@ md5,a1f4931992bf05e9bff4b173c15cab15,https://www.ransomware.live/group/akira,Ran
 md5,a20886a5b378624d16972db66bd4e7e1,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-05-18T07:32:53.173Z
 md5,a20f8391af142d78fa825e38f0f40965,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-05-18T07:32:53.173Z
 md5,a2d853247d939106231314bc5b233bda,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-05-18T07:32:53.173Z
-md5,a3363e0c22c0356fdbcdc37f502bbcde,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,a3363e0c22c0356fdbcdc37f502bbcde,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,a34941a3022b8fb2b4a245c0ba3092c6,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,a34a354b9b59616b84dbc1503a7be058,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,a3a62b5aed61ace35c9aadde1f5cefde,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
@@ -1213,7 +1213,7 @@ md5,aeb06e5cdd5da2bc5259516fb738ac78,https://www.ransomware.live/group/j,Ransomw
 md5,aee55fe409111fe0a9ab4953135190c4,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,aef2b40fb0b685a2912e931afaeaa666,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,af568e8a6060812f040f0cb0fd6f5a7b,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-05-18T07:32:53.173Z
-md5,af7330af68a8f79b5a28fcc242e54a7e,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,af7330af68a8f79b5a28fcc242e54a7e,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,af95fbcf9da33352655f3c2bab3397e2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,afaad51d8f656489a0e10ba45ca5dfc2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,b04e8ee43aba85fa5c585b9335c953c2,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-05-18T07:32:53.173Z
@@ -1236,7 +1236,7 @@ md5,b31f67f6008931a8ff309ca7533a6070,https://www.ransomware.live/group/raworld,R
 md5,b32210d72550184a9bea08a0e087037f,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,b32a8951fc4c2e4c2d63d17200ca0032,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-05-18T07:32:53.173Z
 md5,b354cbddeb174aa81b1df88d92a294e3,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-md5,b3c90f52e4b86a94ec637fee4354bb84,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,b3c90f52e4b86a94ec637fee4354bb84,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,b3cdf0489ff37fe65141be9363b9489c,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-05-18T07:32:53.173Z
 md5,b3e63badb7006dfe9602ce6fb876cb90,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,b47cdcdc179c5949ce18f4d161603901,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-05-18T07:32:53.173Z
@@ -1272,8 +1272,8 @@ md5,ba35a80338fbf197a323f6fe960bf7cb,https://www.ransomware.live/group/hellokitt
 md5,ba365cabaca2381b0955ed1f2af9b609,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,ba4039b27f64a90d1038905f8b8804d0,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-05-18T07:32:53.173Z
 md5,ba56b0c4a215b40cbe64f8f8b1f166ad,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-05-18T07:32:53.173Z
-md5,bb5040d54135b0999cc491b41a0a45e2,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-md5,bb9e9c893b170b3774c150b1d0b93a73,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,bb5040d54135b0999cc491b41a0a45e2,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+md5,bb9e9c893b170b3774c150b1d0b93a73,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,bcd51ee1df396f07af0b0a345a6dbaf4,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-05-18T07:32:53.173Z
 md5,bcd65c46b1e2aec03311c2b14ecff880,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,bd0420a980ad560a0b5a66ed86c0f425,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
@@ -1310,9 +1310,9 @@ md5,c43f12b8330643c72d21bad3b6cfcf82,https://www.ransomware.live/group/rhysida,R
 md5,c44d1deca4dea25d451335dc62d28817,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,c45f5895c255c5bb59b2aa4947412753,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-05-18T07:32:53.173Z
 md5,c462c6b02b35df2910689947c5090fae,https://www.ransomware.live/group/lockbit5,Ransomware.live - lockbit5,,2026-05-18T07:32:53.173Z
-md5,c499e415f7e07f513d8319013a8b2e86,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,c499e415f7e07f513d8319013a8b2e86,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,c53abab7f6c08a65fe9d85874c4720a9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-md5,c57a8b40d2ca402656ff3d778f42708c,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,c57a8b40d2ca402656ff3d778f42708c,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,c5b0f31951b0145f4c00ef075e1e9911,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,c62620dc472f8e2835ad3abc6acd6e35,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-05-18T07:32:53.173Z
 md5,c66022aa8b77a95c9b78a8743657f830,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-05-18T07:32:53.173Z
@@ -1335,7 +1335,7 @@ md5,ca93d47bcc55e2e1bd4a679afc8e2e25,https://www.ransomware.live/group/lockbit5,
 md5,cabad66c40768fd276c7ccd0ddcde204,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,cb9bbcd6fb2cda389c79512066a76b58,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 md5,cb9c73b52474adb4a24a2a17daa2b95a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-md5,cbb059bd691d846e8279d617134d3129,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+md5,cbb059bd691d846e8279d617134d3129,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 md5,cbdc3846ef369daab8ee5dcbdccc4767,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-05-18T07:32:53.173Z
 md5,ccb993b425257228bd48c0aac20d5027,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-05-18T07:32:53.173Z
 md5,cd25c288c1027864c24e1ae91a84da10,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
@@ -1586,13 +1586,13 @@ sha1,df249727c12741ca176d5f1ccba3ce188a546d28,https://www.ransomware.live/group/
 sha1,e00293ce0eb534874efd615ae590cf6aa3858ba4,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-05-18T07:32:53.173Z
 sha1,F3F4C40C344695388E10CBF29DDB18EF3B61F7EF,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-05-18T07:32:53.173Z
 sha256,012657c4548d9c98223caa4cc7aa52fc083d6983d42fde16ca3271412e7fe3fe,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
-sha256,025fc0976c548fb5a880c83ea3eb21a5f23c5d53c4e51e862bb893c11adf712a,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
-sha256,05becb67d8bf1e49fcfccb0d346b82368a2b1c2bf07316078c364c7b020154de,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,025fc0976c548fb5a880c83ea3eb21a5f23c5d53c4e51e862bb893c11adf712a,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
+sha256,05becb67d8bf1e49fcfccb0d346b82368a2b1c2bf07316078c364c7b020154de,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,09f7432834ce15e701aa7fcc84a9c2441c1c7e0a9cb66a6211845be73d2597cc,https://www.ransomware.live/group/benzona,Ransomware.live - benzona,,2026-05-18T07:32:53.173Z
-sha256,0a69a9cc75d65774e5eb90a4a739bd4335d33b176dc4923acb691bd45af66bdf,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,0a69a9cc75d65774e5eb90a4a739bd4335d33b176dc4923acb691bd45af66bdf,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,0c0e0f9b09b80d87ebc88e2870907b6cacb4cd7703584baf8f2be1fd9438696d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,0ee1d284ed663073872012c7bde7fac5ca1121403f1a5d2d5411317df282796c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,10593dbe9edfde7943fdaadd7882f190216b2f6502667daf701088a6e810deaf,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,10593dbe9edfde7943fdaadd7882f190216b2f6502667daf701088a6e810deaf,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,11cfea4100ba3731d859148d2011c7225d337db22797f7e111c0f2876e986490,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-05-18T07:32:53.173Z
 sha256,131da83b521f610819141d5c740313ce46578374abb22ef504a7593955a65f07,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,1b6af2fbbc636180dd7bae825486ccc45e42aefbb304d5f83fafca4d637c13cc,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
@@ -1601,55 +1601,55 @@ sha256,1d846592ffcc19ed03a34316520aa31369218a88afa4e17ac547686d0348aa5b,https://
 sha256,1df92bf4c967297d8a39fc3f619a56702ee96d5cf9196b8e1d5b3654746c6514,https://www.ransomware.live/group/everest,Ransomware.live - everest,,2026-05-16T18:04:52.544Z
 sha256,1e9246e6a35731143368eaa0ade4f3cf576d6b22e6090152f6e94f1fa3070651,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,1f2df15442593b159e45d16a27e4d43d3a9062da212a588ba4c048f214a0b7be,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
-sha256,22b38dad7da097ea03aa28d0614164cd25fafeb1383dbc15047e34c8050f6f67,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,22b38dad7da097ea03aa28d0614164cd25fafeb1383dbc15047e34c8050f6f67,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,23642a78addcffd124db133a2dd2fcd2d1bdb060dd1e41da33cb18eec7a88867,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,270c3354b3ee2940b499e365eaba143fba9d458f434dc38e663dc0f08e96121e,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
-sha256,27c6a6bda2c0ef3ecb78dad9c6bb7c3abaf2e32b3ad96f372a0102c0c9c0f08d,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,27c6a6bda2c0ef3ecb78dad9c6bb7c3abaf2e32b3ad96f372a0102c0c9c0f08d,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,28cea00267fa30fb63e80a3c3b193bd9cd2a3d46dd9ae6cede5f932ac15c7e2e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,2b9fe8a2629727470be1c928f7c9be7e2ea6cc22fb12f971902bf9cea8b16afb,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,2c7aeac07ce7f03b74952e0e243bd52f2bfa60fadc92dd71a6a1fee2d14cdd77,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,2cd449f1bb24f05d2e240812a74bd62f2583bbbe4d0ccc9ae5736240e29a0068,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
-sha256,2ed9494e9b7b68415b4eb151c922c82c0191294d0aa443dd2cb5133e6bfe3d5d,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,2cd449f1bb24f05d2e240812a74bd62f2583bbbe4d0ccc9ae5736240e29a0068,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
+sha256,2ed9494e9b7b68415b4eb151c922c82c0191294d0aa443dd2cb5133e6bfe3d5d,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,2eddfe711c32ef1668e14a10d00452c83c29e394e17c41f491550a1583c1bcac,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,2f629395fdfa11e713ea8bf11d40f6f240acf2f5fcf9a2ac50b6f7fbc7521c83,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,2fc0a056fd4eff5d31d06c103af3298d711f33dbcd5d122cae30b571ac511e5a,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-18T07:32:53.173Z
 sha256,30a8cf3e6863030c762b468bf48d679f3dd053a80793770443938fa18de89617,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-05-18T07:32:53.173Z
-sha256,30dcd5c71beb76d2f8df768d5fd9e9145cb8fbbfc951a63b969d26d3b64002b9,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,30dcd5c71beb76d2f8df768d5fd9e9145cb8fbbfc951a63b969d26d3b64002b9,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,3298d203c2acb68c474e5fdad8379181890b4403d6491c523c13730129be3f75,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,33a8024395c56fab4564b9baef1645e505e00b0b36bff6fad3aedb666022599a,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
-sha256,33e44dea247eaa8b0fc8ed1f8ed575905f6ce0b7119337ddd29863bbb03288b3,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
+sha256,33e44dea247eaa8b0fc8ed1f8ed575905f6ce0b7119337ddd29863bbb03288b3,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
 sha256,35cefe4bc4a98ad73dda4444c700aac9,https://www.ransomware.live/group/nightspire,Ransomware.live - nightspire,,2026-05-18T07:32:53.173Z
 sha256,360758c296310ba428d0d52c90e31c05fc43d5889282fa840283cf468f2378e8,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,364f1b7466d8e4c9f55294ecf1f874c763bcf980c59b0250c613ac366def6aca,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,36760e9bbfaf5a28ec7f85d13c7e8078a4ee4e5168b672639e97037d66eb1d17,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-05-18T07:32:53.173Z
 sha256,3805f299d33ef43d17a5a1040149f0e5e2d5db57ec6f03c5687ac23db1f77a30,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,3ab9575225e00a83a4ac2b534da5a710bdcf6eb72884944c437b5fbe5c5c9235,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,3ab9575225e00a83a4ac2b534da5a710bdcf6eb72884944c437b5fbe5c5c9235,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,3bf53cddf7eb98d9cb94f9aa9f36c211a464e2c1b278f091d6026003050281de,https://www.ransomware.live/group/shinysp1d3r,Ransomware.live - shinysp1d3r,,2026-05-18T07:32:53.173Z
-sha256,3c278499c5e3ced3bf1a6a7287808c5267075f1dec0aa5c7be2c4c444f33f2bc,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,3c278499c5e3ced3bf1a6a7287808c5267075f1dec0aa5c7be2c4c444f33f2bc,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,3c7c91cd4dc336db8082e07ab7549556f05d80acbc778afc2dade67c02002f69,https://www.ransomware.live/group/ailock,Ransomware.live - ailock,,2026-05-18T07:32:53.173Z
 sha256,3c92bfc71004340ebc00146ced294bc94f49f6a5e212016ac05e7d10fcb3312c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,3d09e930305cb3aa4ca54a39b0e3749f083d432f202606c8adac8455014b47fc,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
-sha256,42a1fc74334c9a3b8720c79df55f84c7398bd31609eb10581e8c7155835498e3,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,42a1fc74334c9a3b8720c79df55f84c7398bd31609eb10581e8c7155835498e3,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,43c5a487329f5d6b4a6d02e2f8ef62744b850312c5cb87c0a414f3830767be72,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,43f145fccec00f1e100ec3377eaf0ab60df3b9c5291b8011e05141cc04704be1,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
-sha256,44daa1b68737b55a711963eec211c7c018bcba4cb6d68c286a4b45ea781a7d73,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
-sha256,44f6313e9542c0d51937a70160fe4137012905d8c79ad27ccc0021788ecfaa4e,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,44daa1b68737b55a711963eec211c7c018bcba4cb6d68c286a4b45ea781a7d73,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
+sha256,44f6313e9542c0d51937a70160fe4137012905d8c79ad27ccc0021788ecfaa4e,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,48046fb0e566f5a2d184f84b76d6cadc458762556daed0ae4a3a1200afbefb54,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
-sha256,48d9b2ce4fcd6854a3164ce395d7140014e0b58b77680623f3e4ca22d3a6e7fd,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,48d9b2ce4fcd6854a3164ce395d7140014e0b58b77680623f3e4ca22d3a6e7fd,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,49fcbd606ff10d4661e222b8910ab7829d1668e3c97f1bab7eb51e8ec7d799a5,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
-sha256,4a5e1d6ee1217e1fbacf54fc6017fbf9d24a25078266b02358d56a9c7437ceb7,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
-sha256,4c82fbafef9bab484a2fbe23e4ec8aac06e8e296d6c9e496f4a589f97fd4ab71,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,4a5e1d6ee1217e1fbacf54fc6017fbf9d24a25078266b02358d56a9c7437ceb7,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
+sha256,4c82fbafef9bab484a2fbe23e4ec8aac06e8e296d6c9e496f4a589f97fd4ab71,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,501821a19ccf59830789849beff94238736adb4b213870a511890c5c8efab2a6,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,515bd71a8b3c2bce7b40b89ddfe2e94d332b0779d569c58117f8dcdcb8a91ed9,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-05-18T07:32:53.173Z
 sha256,566ef5484da0a93c87dd0cb0a950a7cff4ab013175289cd5fccf9dd7ea430739,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,5B5A306E93A17A7EDBA89301717E304F72134CC5BFD900C4BF8FC2EA617FABDF,https://www.ransomware.live/group/payday,Ransomware.live - payday,,2026-05-18T07:32:53.173Z
 sha256,5c62626731856fb5e669473b39ac3deb0052b32981863f8cf697ae01c80512e5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,5d5d639fdfbf632bb7d9f1bb28731217d09d36078ab5e594baf2a5a41267a5d2,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
-sha256,5dc607c8990841139768884b1b43e1403496d5a458788a1937be139594f01dca,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
-sha256,5f9ff671955a6d551595f9838aed063c496da5039be0d222fe84f96cb3e1d32a,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,5dc607c8990841139768884b1b43e1403496d5a458788a1937be139594f01dca,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
+sha256,5f9ff671955a6d551595f9838aed063c496da5039be0d222fe84f96cb3e1d32a,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,6005dcbe15d60293c556f05e98ed9a46d398a82e5ca4d00c91ebec68a209ea84,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,623f3e98908962669e48edd414dbb67e9d4e204f677998fdcc9c2d790816a67f,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
-sha256,62c2c24937d67fdeb43f2c9690ab10e8bb90713af46945048db9a94a465ffcb8,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,62c2c24937d67fdeb43f2c9690ab10e8bb90713af46945048db9a94a465ffcb8,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,62dc6ed7c83769648b5c59ad9cc2a4e26daec96a952eb44c93fd45f2011a3444,https://www.ransomware.live/group/shinysp1d3r,Ransomware.live - shinysp1d3r,,2026-05-18T07:32:53.173Z
 sha256,63eb3d2886d9cb880c9b0d54b94f3e149b3b5b6215a33a0ef63588a09dcd4499,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,670a269d935f1586d4f0e5bed685d15a38e6fa790f763e6ed5c9fdd72dce3cf2,https://www.ransomware.live/group/shinysp1d3r,Ransomware.live - shinysp1d3r,,2026-05-18T07:32:53.173Z
@@ -1661,52 +1661,52 @@ sha256,6eeb20cc709a18bf8845f7b678967b7f0ff96475cf51a261da87244886bbfd2e,https://
 sha256,713392f009bc133f24b3271379a4ac147e1a7782b6a1ac957c1fda69d676b550,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,759b96f44806578cc0836a3a2bf11c8bc553effac72f8d28b94aec78b66be906,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,78d75669390e4177597faf9271ce3ad3a16a3652e145913dbfa9a5951972fcb0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,7a311b584497e8133cd85950fec6132904dd5b02388a9feed3f5e057fb891d09,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,7a311b584497e8133cd85950fec6132904dd5b02388a9feed3f5e057fb891d09,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,7c4b465159e1c7dbbe67f0eeb3f58de1caba293999a49843a0818480f05be14e,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-05-18T07:32:53.173Z
 sha256,7f731cc11f8e4d249142e99a44b9da7a48505ce32c4ee4881041beeddb3760be,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,81d93004a02a455af01b0f709e34d5134108ec350f9391dc0f91a00a54998590,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
+sha256,81d93004a02a455af01b0f709e34d5134108ec350f9391dc0f91a00a54998590,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
 sha256,840b1c580bfd15ca3eb1cc94cf479f63b93285d2599bc2e3cd361e3f5a340f19,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
-sha256,860a6177b055a2f5aa61470d17ec3c69da24f1cdf0a782237055cba431158923,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,860a6177b055a2f5aa61470d17ec3c69da24f1cdf0a782237055cba431158923,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,86b4d075d5bd0c49cbb21fd43935789b6612a2165273cc158dd0607b68941d04,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,87b4020bcd3fad1f5711e6801ca269ef5852256eeaf350f4dde2dc46c576262d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,87d25d0e5880b3b5cd30106853cbfc6ef1ad38966b30d9bd5b99df46098e546c,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,87d25d0e5880b3b5cd30106853cbfc6ef1ad38966b30d9bd5b99df46098e546c,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,8816caf03438cd45d7559961bf36a26f26464bab7a6339ce655b7fbad68bb439,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,88da2b1cee373d5f11949c1ade22af0badf16591a871978a9e02f70480e547b2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,8a2d6d27ffcc66400a640d3c9c9e6becb90c04c5bab452cac56f999c48a04d63,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,8b758ccdfbfa5ff3a0b67b2063c2397531cf0f7b3d278298da76528f443779e9,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-05-18T07:32:53.173Z
 sha256,8bc455e5de35290f8a94376357947bd72aaf6f4d452c25a8ef444e037ef76b9f,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
-sha256,8c87134c1b45e990e9568f0a3899b0076f94be16d3c40fa824ac1e6c6ee892db,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,8c87134c1b45e990e9568f0a3899b0076f94be16d3c40fa824ac1e6c6ee892db,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,8e9a33809b9062c5033928f82e8adacbef6cd7b40e73da9fcf13ec2493b4544c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,8edbb1944d94ff91ee917c31590b6d1d5690a52fc153e44355ee9749aa0f4625,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,8fa28795e4cd95e6c78c4a1308ea80674102669f9980b2006599d82eff6237b3,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-05-18T07:32:53.173Z
 sha256,910cc03d64bf09f53cdf3b83068cc46368c23a061c2e1ed5df0e3a35d6c9e084,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
-sha256,91415e0b9fe4e7cbe43ec0558a7adf89423de30d22b00b985c2e4b97e75076b1,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,91415e0b9fe4e7cbe43ec0558a7adf89423de30d22b00b985c2e4b97e75076b1,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,94f2e4d8d4436874785cd14e6e6d403507b8750852f7f2040352069a75da4c00,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-05-18T07:32:53.173Z
 sha256,95477703e789e6182096a09bc98853e0a70b680a4f19fa2bf86cbb9280e8ec5a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,9585af44c3ff8fd921c713680b0c2b3bbc9d56add848ed62164f7c9b9f23d065,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,95e744ddcc2e8f89f6c6e25503eff2eb5e70e98f6989bb4a4e93f17b09448e78,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,988776358d0e45a4907dc1f4906a916f1b3595a31fa44d8e04e563a32557eb42,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,992c951f4af57ca7cd8396f5ed69c2199fd6fd4ae5e93726da3e198e78bec0a5,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
-sha256,994d6d1edb57f945f4284cc0163ec998861c7496d85f6d45c08657c9727186e3,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
-sha256,9c0d334aac5a6f66016dc5ce8df75c46d519a4e6d16c68cf2b1405c81189186d,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,992c951f4af57ca7cd8396f5ed69c2199fd6fd4ae5e93726da3e198e78bec0a5,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
+sha256,994d6d1edb57f945f4284cc0163ec998861c7496d85f6d45c08657c9727186e3,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
+sha256,9c0d334aac5a6f66016dc5ce8df75c46d519a4e6d16c68cf2b1405c81189186d,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,9d9c146910f294b3e2a755f76e8066cd2edfac057ff54f00f405e2f9e8b9e51a,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,9f066975f1e02b29c7c635280f405c59704ce4f4e06b04e9ac8a7eac22acd3c7,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,9f393516edf6b8e011df6ee991758480c5b99a0efbfd68347786061f0e04426c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,9f61ff4deb8afced8b1ecdc8787a134c63bde632b18293fbfc94a91749e3e454,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,9f61ff4deb8afced8b1ecdc8787a134c63bde632b18293fbfc94a91749e3e454,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,a0630e2a81775e8334ea9f8cac73cebf1b9a70507ea3347c0c2eba82c80219a6,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,a1b468e9550f9960c5e60f7c52ca3c058de19d42eafa760b9d5282eb24b7c55f,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-05-18T07:32:53.173Z
 sha256,a26f0a2da63a838161a7d335aaa5e4b314a232acc15dcabdb6f6dbec63cda642,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-18T07:32:53.173Z
 sha256,a331504acf589be5d11202232a7a93eeb4fe6b053beea231d9a0a661bcaf3fd6,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,a546ef13e8a71a8b5f0803075382eb0311d0d8dbae3f08bac0b2f4250af8add0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,a6b0847cf31ccc3f76538333498f8fef79d444a9d4ecfca0592861cf731ae6cb,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,a7a19cab7aab606f833fa8225bc94ec9570a6666660b02cc41a63fe39ea8b0ad,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,a7a19cab7aab606f833fa8225bc94ec9570a6666660b02cc41a63fe39ea8b0ad,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,abba655df92e99a15ddcde1d196ff4393a13dbff293e45f5375a2f61c84a2c7b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,b0dfaf509de38749c49afcb3cd34d27126044bb77cc16896b02ebced6f95db02,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,b1cf41363401fe5671e24fd55ee89b0c177140c482a8dab1b9891db509df52f6,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-05-18T07:32:53.173Z
 sha256,b2353fce403b079735a606294c4ffc20a71f1c6b16ec15e94f554beafcddd1ea,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,b55fbe9358dd4b5825ce459e84cd0823ecdf7b64550fe1af968306047b7de5c9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,b67958afc982cafbe1c3f114b444d7f4c91a88a3e7a86f89ab8795ac2110d1e6,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
-sha256,b811f28b844eff8c1f4f931639bed5bcc41113364fdfc44d7703259457839edb,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
+sha256,b67958afc982cafbe1c3f114b444d7f4c91a88a3e7a86f89ab8795ac2110d1e6,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
+sha256,b811f28b844eff8c1f4f931639bed5bcc41113364fdfc44d7703259457839edb,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
 sha256,b8c994e3ed7dcc9080916119ddc315533c129479f508676d7544b82b2e24745f,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,bad3c2f72ef2be522a554a9615dc93027416a3d4048f77519fca5104fabba1f9,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,bb62196338dab7b26993f27e3a8ad917d848508ad8cd4646c9fe836b1140c3e4,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-05-18T07:32:53.173Z
@@ -1719,42 +1719,42 @@ sha256,c08a752138a6f0b332dfec981f20ec414ad367b7384389e0c59466b8e10655ec,https://
 sha256,c0c0b2306d31e8962973a22e50b18dfde852c6ddf99baf849e3384ed9f07a0d6,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,c0c726a23111c220d022fcd01a85f9788249e42baece03f83b6059170453b801,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,c0fc61631a20c373ce17e939e09cfb4f5179c9e0788e80079b4ee8986afe89bd,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
-sha256,c46b5a18ab3fb5fd1c5c8288a41c75bf0170c10b5e829af89370a12c86dd10f8,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
-sha256,c68e436d4cb984db026210806f50d0c81eec5f6e4860197dab91fab6f31ef796,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
-sha256,c7f7b5a6e7d93221344e6368c7ab4abf93e162f7567e1a7bcb8786cb8a183a73,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,c46b5a18ab3fb5fd1c5c8288a41c75bf0170c10b5e829af89370a12c86dd10f8,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
+sha256,c68e436d4cb984db026210806f50d0c81eec5f6e4860197dab91fab6f31ef796,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
+sha256,c7f7b5a6e7d93221344e6368c7ab4abf93e162f7567e1a7bcb8786cb8a183a73,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,c9920e995fbc98cd3883ef4c4520300d5e82bab5d2a5c781e9e9fe694a43e82f,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-18T07:32:53.173Z
 sha256,c9c94ac5e1991a7db42c7973e328fceeb6f163d9f644031bdfd4123c7b3898b0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,cbdfb46b9265a3dfb3bc6b0aade472dde28b1660dbd3ded3b67b1530b4497cca,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,cbdfb46b9265a3dfb3bc6b0aade472dde28b1660dbd3ded3b67b1530b4497cca,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,ccda8247360a85b6c076527e438a995757b6cdf5530f38e125915d31291c00d5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,d00f7cf6af68ba832b9d364f28411346cfe66fd3b1f5bcac318766add29ff7f0,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
 sha256,d3cc6cc4538d57f2d1f8a9d46a3e8be73ed849f7fe37d1d969c0377cf1d0fadc,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-05-18T07:32:53.173Z
 sha256,d953bce4d87f5837ce318481e3a1b6617cf64af976043d3b4b4866475bb31972,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,da8de7257c6897d2220cdf9d4755b15aeb38715807e3665716d2ee761c266fdb,https://www.ransomware.live/group/warlock,Ransomware.live - warlock,,2026-05-18T07:32:53.173Z
 sha256,dc4840a0992b218cbedd5a7ac5c711cb98f1f9e78a8ffdea37c694061dfd34c6,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-05-18T07:32:53.173Z
-sha256,dc602cb53a9c24abfcdaadf0ca8256b5fb5cac6d91d20ed8431bdaaf51c0cafe,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
-sha256,dc6cddc391b373b18f105f49a80ff83d53b430d8dea35c1f1576832fa9fbd2b3,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-sha256,dd4c7f5aae404816cf447b8090b620c1a1971a35c6791116aa3f871f00ae011b,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,dc602cb53a9c24abfcdaadf0ca8256b5fb5cac6d91d20ed8431bdaaf51c0cafe,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
+sha256,dc6cddc391b373b18f105f49a80ff83d53b430d8dea35c1f1576832fa9fbd2b3,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+sha256,dd4c7f5aae404816cf447b8090b620c1a1971a35c6791116aa3f871f00ae011b,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,def75a41435dc28430097a7e116b2d17526ce2b0172995618f2749b0d732f7ea,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
-sha256,df6942dc1a89226359adf1aac597c3b270f4a408214b4f7c2083f9524605e0f7,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
+sha256,df6942dc1a89226359adf1aac597c3b270f4a408214b4f7c2083f9524605e0f7,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
 sha256,dfe6fddc67bdc93b9947430b966da2877fda094edf3e21e6f0ba98a84bc53198,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
-sha256,e2faad8111e7d47349cbc549b85e62231b8678057906bc813aad7242fa95ae63,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,e2faad8111e7d47349cbc549b85e62231b8678057906bc813aad7242fa95ae63,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,e3fa93dad8fb8c3a6d9b35d02ce97c22035b409e0efc9f04372f4c1d6280a481,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-05-18T07:32:53.173Z
 sha256,e5aaa213818fe835f2716914238119fee746753aa4808e24aed817e929e6dcb8,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-05-18T07:32:53.173Z
-sha256,e5e1d8ec4cd109df290752ee3d4b2cbc9de6df4360e9983548f1bc6b1d088540,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
+sha256,e5e1d8ec4cd109df290752ee3d4b2cbc9de6df4360e9983548f1bc6b1d088540,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
 sha256,e6bd4ed287d1336206f5b4b65011e570267418799eb60c2d0d7496d5d9e95a33,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-05-18T07:32:53.173Z
 sha256,e7706a633f24679c7550a31b96088dda8f772c98f64daee7cfbf0dc17a4a8338,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,e86bb8361c436be94b0901e5b39db9b6666134f23cce1e5581421c2981405cb1,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-18T07:32:53.173Z
 sha256,eb8cbc4a0eae33bfdc4ecb99d033c81224b005e55588ceb86346f2b2d3fd790f,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
-sha256,ec368ae0b4369b6ef0da244774995c819c63cffb7fd2132379963b9c1640ccd2,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
-sha256,efaf8e7422ffd09c7f03f1a5b4e5c2cc32b05334c18d1ccb9673667f8f43108f,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,ec368ae0b4369b6ef0da244774995c819c63cffb7fd2132379963b9c1640ccd2,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
+sha256,efaf8e7422ffd09c7f03f1a5b4e5c2cc32b05334c18d1ccb9673667f8f43108f,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,f0ec54b9dc2e64c214e92b521933cee172283ff5c942cf84fae4ec5b03abab55,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-05-18T07:32:53.173Z
 sha256,f25f76a85ded0d4d285d9ae5482d8fe07dade3e241853d00b17642d7873733e8,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-05-18T07:32:53.173Z
 sha256,f3a6d4ccdd0f663269c3909e74d6847608b8632fb2814b0436a4532b8281e617,https://www.ransomware.live/group/kawa4096,Ransomware.live - kawa4096,,2026-05-18T07:32:53.173Z
-sha256,f5ca9c53d1537142889d7172c6643e886b2164233b91f0fc2d41ca010f035372,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-sha256,f736be55193c77af346dbe905e25f6a1dee3ec1aedca8989ad2088e4f6576b12,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,f5ca9c53d1537142889d7172c6643e886b2164233b91f0fc2d41ca010f035372,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+sha256,f736be55193c77af346dbe905e25f6a1dee3ec1aedca8989ad2088e4f6576b12,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 sha256,f749efde8f9de6a643a57a5b605bd4e7,https://www.ransomware.live/group/nightspire,Ransomware.live - nightspire,,2026-05-18T07:32:53.173Z
-sha256,fc75ed2159e0c8274076e46a37671cfb8d677af9f586224da1713df89490a958,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
-sha256,fe1033335a045c696c900d435119d210361966e2fb5cd1ba3382608cfa2c8e68,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T06:02:20.582Z
+sha256,fc75ed2159e0c8274076e46a37671cfb8d677af9f586224da1713df89490a958,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
+sha256,fe1033335a045c696c900d435119d210361966e2fb5cd1ba3382608cfa2c8e68,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-05-20T07:02:39.499Z
 telegram,@nightspireteam2025,https://www.ransomware.live/group/nightspire,Ransomware.live - nightspire,,2026-05-18T07:32:53.173Z
 telegram,https://t.me/+yXOcSjVjI9tjM2E0,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-05-18T07:32:53.173Z
 telegram,https://t.me/BQTlock,https://www.ransomware.live/group/bqtlock,Ransomware.live - bqtlock,,2026-05-18T07:32:53.173Z
@@ -1854,29 +1854,29 @@ twitter,@Anubis__media,https://www.ransomware.live/group/anubis,Ransomware.live 
 twitter,@Inifintyink,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-05-18T07:32:53.173Z
 twitter,@SGaming66355,https://www.ransomware.live/group/gdlockrsec,Ransomware.live - gdlockrsec,,2026-05-18T07:32:53.173Z
 twitter,https://x.com/zerodayx1,https://www.ransomware.live/group/bqtlock,Ransomware.live - bqtlock,,2026-05-18T07:32:53.173Z
-url,http://103.67.196.25/conf.dat,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-url,http://103.67.196.25/payload.dat,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-url,http://169.40.135.35/dctrpr/agentdiesel.hta,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-url,http://169.40.135.35/dctrpr/basketpast.hta,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-url,http://169.40.135.35/dctrpr/slippersuppity.hta,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-url,http://169.40.135.35/dctrprraclus.zip,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T06:02:20.582Z
-url,https://api.github.com/repos/brandonleeodd93-blip/doc7/contents/report/,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-url,https://edr-security-bucket1.cc/,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
-url,https://hardware-office.cc/foundation.halflife,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
-url,https://hell1-kitty.cc/gamecenter.fileman,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
-url,https://hell1-kitty.cc/gamecenter.filemanager,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
-url,https://hell1-kitty.cc/update1_usb_usb_usb.vocx4wev8,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
-url,https://memory-scanner.cc/,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
-url,https://memory-scanner.cc/presentation.pdf,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T06:02:20.582Z
-url,https://nelark.icu/xftaswx/res/bypass.b,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-url,https://nelark.icu/xftaswx/res/index.php,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-url,https://nelark.icu/xftaswx/res/post_proc.php?fpath=a.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-url,https://nelark.icu/xftaswx/res/post_proc.php?fpath=bpersist.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-url,https://nelark.icu/xftaswx/res/post_proc.php?fpath=scheduler-once,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-url,https://raw.githubusercontent.com/brandonleeodd93-blip/doc7/main/1.txt,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-url,https://raw.githubusercontent.com/brandonleeodd93-blip/doc7/main/view.pdf,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-url,https://www.pyrotech.co.kr/common/include/tech/default.php,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
-url,https://www.yespp.co.kr/common/include/code/out.php,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T06:02:20.582Z
+url,http://103.67.196.25/conf.dat,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+url,http://103.67.196.25/payload.dat,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+url,http://169.40.135.35/dctrpr/agentdiesel.hta,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+url,http://169.40.135.35/dctrpr/basketpast.hta,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+url,http://169.40.135.35/dctrpr/slippersuppity.hta,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+url,http://169.40.135.35/dctrprraclus.zip,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery - Cyber Security News,2026-05-19T22:07:50.000Z,2026-05-20T07:02:39.499Z
+url,https://api.github.com/repos/brandonleeodd93-blip/doc7/contents/report/,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+url,https://edr-security-bucket1.cc/,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
+url,https://hardware-office.cc/foundation.halflife,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
+url,https://hell1-kitty.cc/gamecenter.fileman,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
+url,https://hell1-kitty.cc/gamecenter.filemanager,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
+url,https://hell1-kitty.cc/update1_usb_usb_usb.vocx4wev8,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
+url,https://memory-scanner.cc/,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
+url,https://memory-scanner.cc/presentation.pdf,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-05-20T07:02:39.499Z
+url,https://nelark.icu/xftaswx/res/bypass.b,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+url,https://nelark.icu/xftaswx/res/index.php,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+url,https://nelark.icu/xftaswx/res/post_proc.php?fpath=a.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+url,https://nelark.icu/xftaswx/res/post_proc.php?fpath=bpersist.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+url,https://nelark.icu/xftaswx/res/post_proc.php?fpath=scheduler-once,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+url,https://raw.githubusercontent.com/brandonleeodd93-blip/doc7/main/1.txt,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+url,https://raw.githubusercontent.com/brandonleeodd93-blip/doc7/main/view.pdf,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+url,https://www.pyrotech.co.kr/common/include/tech/default.php,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
+url,https://www.yespp.co.kr/common/include/code/out.php,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-05-20T07:02:39.499Z
 url,hxxp://23.95.182.59/31279geuwtoisgdehbiuowaehsgdb/cht,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-18T07:32:53.173Z
 url,hxxp://23.95.182.59/31279geuwtoisgdehbiuowaehsgdb/klg,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-05-18T07:32:53.173Z
 url,hxxp://94.103.91.246/addInfection,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-05-18T07:32:53.173Z
