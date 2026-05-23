@@ -1,7 +1,33 @@
 # TIFeeds Enrichment
 
-Placeholder folder for threat-intel feed enrichment data.
+Threat-intel feed enrichment data — sources, classifications, and visual evidence
+augmenting the raw IOC feeds in `Daily-IOCReportsCollection/`.
 
-This directory is intended to host enrichment artefacts (lookups, mappings,
-context files) that augment the IOC feed in `Daily-IOCReportsCollection/`.
-Content will be populated by upcoming pipelines.
+## phishunt_enriched.csv
+
+Per-URL enrichment of [phishunt.io](https://phishunt.io/feed.csv) phishing feed.
+
+**Columns**
+
+1-16. Original phishunt feed columns:
+   `url, domain, company, date, first_seen, uuid, ip, country, asn, org, cert,
+   malicious_google, malicious_openphish, malicious_phishtank, malicious_tweetfeed, malicious_urlscan`
+17. `sector` — derived from `company` field (banking, crypto, social, tech,
+    shipping, streaming, gaming, e-commerce, payments, cloud_storage, telecom,
+    government, unknown). `NA` if the page is offline.
+18. `url_status` — `online` or `offline`.
+19. `screenshot_path` — path (relative to this folder) of the above-the-fold
+    screenshot captured at fetch time. `NA` if offline.
+
+## screenshots/
+
+PNG screenshots (1280×720, above-the-fold, no scroll) of online URLs at the
+moment they were enriched. Filenames are the `uuid` from the original feed.
+
+## Notes
+
+- Visiting phishing URLs is done via headless Playwright with a fresh isolated
+  context per URL, downloads aborted, no form interaction, 10s timeout.
+- Offline URLs are intentionally not retried — the feed already includes
+  multiple records per kit, so a single capture per UUID is sufficient.
+- Updated: 2026-05-23
