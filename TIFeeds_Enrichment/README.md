@@ -15,8 +15,12 @@ Per-URL enrichment of [phishunt.io](https://phishunt.io/feed.csv) phishing feed.
 17. `sector` — derived from `company` field (banking, crypto, social, tech,
     shipping, streaming, gaming, e-commerce, payments, cloud_storage, telecom,
     government, unknown). `NA` if the page is offline.
-18. `url_status` — `online` or `offline`.
-19. `screenshot_path` — path (relative to this folder) of the above-the-fold
+18. `language` — ISO 639-1 primary subtag (en, es, de, fr, ru, zh, ja…) read
+    from the rendered page's `<html lang="...">` attribute (with a fallback
+    to `<meta http-equiv="content-language">`). `unknown` if neither is
+    present, `NA` if offline.
+19. `url_status` — `online` or `offline`.
+20. `screenshot_path` — path (relative to this folder) of the above-the-fold
     screenshot captured at fetch time. `NA` if offline.
 
 ## screenshots/
