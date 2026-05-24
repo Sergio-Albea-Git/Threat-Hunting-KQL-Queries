@@ -30,4 +30,4 @@ moment they were enriched. Filenames are the `uuid` from the original feed.
   context per URL, downloads aborted, no form interaction, 10s timeout.
 - Offline URLs are intentionally not retried — the feed already includes
   multiple records per kit, so a single capture per UUID is sufficient.
-- Updated: 2026-05-23
+- Updated: 2026-05-24
