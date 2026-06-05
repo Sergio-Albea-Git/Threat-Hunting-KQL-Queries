@@ -1,0 +1,17 @@
+{
+  "name": "ioc-reporter",
+  "version": "1.0.0",
+  "description": "Daily FileHash IOC scraper for cybersecuritynews.com → PDF email report",
+  "scripts": {
+    "start": "bun run ioc-reporter.ts"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^8.0.0",
+    "nodemailer": "^8.0.7",
+    "pdf-lib": "^1.17.1",
+    "playwright": "^1.59.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
