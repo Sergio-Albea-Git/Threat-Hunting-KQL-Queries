@@ -15,19 +15,24 @@ Recent campaigns (cybersecuritynews coverage of `weaponized-chatgpt-download-sit
 
 ## Coverage
 
-9 macOS installers in this baseline (Claude Desktop pending — vendor endpoint blocks non-browser clients):
+17 rows: 9 macOS + 8 Windows (Chrome includes both consumer EXE and enterprise MSI variants):
 
-| App | Platform | Arch |
-|-----|----------|------|
-| Google Chrome | macOS | universal |
-| ChatGPT Desktop | macOS | universal |
-| Cursor | macOS | arm64 |
-| Visual Studio Code | macOS | arm64 |
-| Notion | macOS | universal |
-| Slack | macOS | arm64 |
-| Zoom | macOS | arm64 |
-| AnyDesk | macOS | universal |
-| Ghidra | cross-platform | jar |
+| App | macOS | Windows |
+|-----|-------|---------|
+| Google Chrome | universal `.dmg` | x64 `.exe` (consumer) + x64 `.msi` (enterprise) |
+| ChatGPT Desktop | universal `.dmg` | — (Microsoft Store only — no direct URL) |
+| Claude Desktop | — (Cloudflare blocks curl) | — (Cloudflare blocks curl) |
+| Cursor | arm64 `.dmg` | x64 `.exe` |
+| Visual Studio Code | arm64 `.zip` | x64 `.exe` |
+| Notion | universal `.dmg` | x64 `.exe` |
+| Slack | arm64 `.dmg` | x64 `.exe` |
+| Zoom | arm64 `.pkg` | x64 `.msi` |
+| AnyDesk | universal `.dmg` | x64 `.exe` |
+| Ghidra | cross-platform `.zip` (one file covers Mac+Win+Linux) | (same row) |
+
+Known gaps to revisit:
+- **Claude Desktop** (both platforms): the vendor endpoint at `https://claude.ai/api/desktop/...` returns 403 to non-browser clients (Cloudflare anti-bot). Requires headless browser automation to capture.
+- **ChatGPT Desktop Windows**: distributed exclusively via Microsoft Store as an `.appx`/`.msix` — no direct download URL exists.
 
 ## How to refresh
 

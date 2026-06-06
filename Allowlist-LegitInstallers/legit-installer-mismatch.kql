@@ -6,7 +6,9 @@
 // download URL.
 //
 // Hash baseline: see Allowlist-LegitInstallers/legit-installers.csv
-// Updated: 2026-06-06T17:30:00Z (regenerate periodically — vendor releases drift)
+// Updated: 2026-06-06T19:25:00Z (regenerate periodically — vendor releases drift)
+//
+// Coverage: macOS (9 apps) + Windows (7 apps + Chrome MSI variant) = 17 rows
 //
 // Tables: DeviceFileEvents (Microsoft Defender for Endpoint advanced hunting)
 // Adapt to your platform: in Sentinel use DeviceFileEvents from the M365D
@@ -15,23 +17,33 @@
 
 let LookbackDays = 7d;
 
-let LegitInstallers = datatable(FileName:string, SHA256:string, App:string)
+let LegitInstallers = datatable(FileName:string, SHA256:string, App:string, Platform:string)
 [
-    "googlechrome.dmg",         "a554745b5c860b1528eb85695269b310549e758657905da5d20448a20d87904c", "Google Chrome",
-    "ChatGPT.dmg",              "bd9722304ae73d0bfb90ac21768b56a0030362bd3e6b7669f45ced76f09eed41", "ChatGPT Desktop",
-    "Cursor-darwin-arm64.dmg",  "4f12e91c67381fe5b69cd6388334bccf8402ba0da551982663ebfbe8ef2057eb", "Cursor",
-    "VSCode-darwin-arm64.zip",  "cd8bed045a00acd427dc07c02dfe2bc59523bfe5fd205fa0a2ce2d67b200f09d", "Visual Studio Code",
-    "Notion-universal.dmg",     "616e88cb385950bf5df1c81d44384f9714fafd9da24222a91a2511354b88952d", "Notion",
-    "Slack-arm64.dmg",          "0c7e302a1822ee4d22bc4966d93ac794820557782308b825f92e08fba3db9d74", "Slack",
-    "Zoom-arm64.pkg",           "0abc1e5693297827802d8ac3239dd974767828e3c8abbfc0c24bd6c148b96bdd", "Zoom",
-    "anydesk.dmg",              "2c96df77040a19429b75b5add9de6c769025a48f3bcfcfe5c858f6cfb9c8a205", "AnyDesk",
-    "ghidra_12.1.2_PUBLIC.zip", "55f4b89f988bb83c5090860073934653f67fbc5f2b26cad527210c71636eac46", "Ghidra"
+    // ── macOS ──────────────────────────────────────────────────────────────
+    "googlechrome.dmg",                  "a554745b5c860b1528eb85695269b310549e758657905da5d20448a20d87904c", "Google Chrome",      "macOS",
+    "ChatGPT.dmg",                       "bd9722304ae73d0bfb90ac21768b56a0030362bd3e6b7669f45ced76f09eed41", "ChatGPT Desktop",    "macOS",
+    "Cursor-darwin-arm64.dmg",           "4f12e91c67381fe5b69cd6388334bccf8402ba0da551982663ebfbe8ef2057eb", "Cursor",             "macOS",
+    "VSCode-darwin-arm64.zip",           "cd8bed045a00acd427dc07c02dfe2bc59523bfe5fd205fa0a2ce2d67b200f09d", "Visual Studio Code", "macOS",
+    "Notion-universal.dmg",              "616e88cb385950bf5df1c81d44384f9714fafd9da24222a91a2511354b88952d", "Notion",             "macOS",
+    "Slack-arm64.dmg",                   "0c7e302a1822ee4d22bc4966d93ac794820557782308b825f92e08fba3db9d74", "Slack",              "macOS",
+    "Zoom-arm64.pkg",                    "0abc1e5693297827802d8ac3239dd974767828e3c8abbfc0c24bd6c148b96bdd", "Zoom",               "macOS",
+    "anydesk.dmg",                       "2c96df77040a19429b75b5add9de6c769025a48f3bcfcfe5c858f6cfb9c8a205", "AnyDesk",            "macOS",
+    "ghidra_12.1.2_PUBLIC.zip",          "55f4b89f988bb83c5090860073934653f67fbc5f2b26cad527210c71636eac46", "Ghidra",             "cross-platform",
+    // ── Windows ────────────────────────────────────────────────────────────
+    "chrome_installer.exe",              "203980641389366aaf5c8da29c2de1a6535980888ef6479bff8fb6a89bc39ddd", "Google Chrome",      "Windows",
+    "ChromeStandaloneEnterprise64.msi",  "70cdfe7b44846b7aa3f73a366a1221083944f3af367d246bad5daf07739408dd", "Google Chrome",      "Windows",
+    "CursorSetup-x64.exe",               "6d5b3ad19e50ae46413bdf5c3ac53da04eb1cd7fa713bcf48d31d223f0db6175", "Cursor",             "Windows",
+    "VSCodeSetup-x64.exe",               "7d08422f0d793280236460b05016831c6285ee2ec0257797dfa99981180b4bc7", "Visual Studio Code", "Windows",
+    "NotionSetup.exe",                   "a7dfa0804ac4f0b21ab2f1c94416cfc8b4e84d2e4e144c2e1da5f2d861065a21", "Notion",             "Windows",
+    "SlackSetup.exe",                    "7f19726c535990ab430a71c0789aceec5110855bf43f18232dc8b2a98739d2ca", "Slack",              "Windows",
+    "ZoomInstallerFull.msi",             "cb045d5943c546746b4236e8c3b6be4726e84e6e747c6251c90f666a66ead94d", "Zoom",               "Windows",
+    "AnyDesk.exe",                       "9f1effd1929bb3af3318e1500af2221b990e3ceb5bdae2d327e3fc8929fc41dc", "AnyDesk",            "Windows"
 ];
 
-// One row per watched filename: the app name + set of all known-good hashes
-// for that name (handles future expansion to arch/version variants).
+// One row per watched filename: app name, platform, and set of all known-good
+// hashes for that name (handles future expansion to arch/version variants).
 let WatchedByName = LegitInstallers
-    | summarize KnownHashes = make_set(SHA256), App = any(App) by FileName;
+    | summarize KnownHashes = make_set(SHA256), App = any(App), Platform = any(Platform) by FileName;
 
 DeviceFileEvents
 | where Timestamp > ago(LookbackDays)
@@ -43,6 +55,7 @@ DeviceFileEvents
     FileName,
     SHA256,
     SuspectedApp = App,
+    SuspectedPlatform = Platform,
     FolderPath,
     ActionType,
     InitiatingProcessFileName,
