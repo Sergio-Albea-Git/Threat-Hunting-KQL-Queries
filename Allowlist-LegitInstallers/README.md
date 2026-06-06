@@ -10,7 +10,7 @@ Recent campaigns (cybersecuritynews coverage of `weaponized-chatgpt-download-sit
 
 | File | Purpose |
 |------|---------|
-| `legit-installers.csv` | Hash baseline. Columns: `app, platform, arch, filename, size_bytes, sha256, sha1, source_url, captured_at` |
+| `legit-installers.csv` | Hash baseline. Columns: `app, platform, arch, filename, executable_name, size_bytes, sha256, sha1, source_url, captured_at`. `filename` is the installer (e.g. `googlechrome.dmg`); `executable_name` is the binary inside `.app/Contents/MacOS/` that actually runs after install (e.g. `Google Chrome`). Watch both — the installer hash detects malicious downloads, the executable name detects malicious binaries already on disk. |
 | `legit-installer-mismatch.kql` | Microsoft Defender for Endpoint / Sentinel hunt query — emits hits when a watched filename appears with a non-matching SHA256 |
 
 ## Coverage
