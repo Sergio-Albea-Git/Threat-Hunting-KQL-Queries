@@ -1,0 +1,75 @@
+name: IOC Feed
+
+# Migrado de un job launchd local (cada hora en el Mac) a GitHub Actions.
+# Scrapea cybersecuritynews.com + ransomware.live, construye iocs.csv (ventana de
+# 30 días) y lo pushea a Daily-IOCReportsCollection/iocs.csv en este mismo repo.
+
+on:
+  schedule:
+    # Cada hora. El cron de Actions es best-effort: suele retrasarse unos minutos
+    # y puede saltarse algún tick bajo carga. Para un feed de IOCs es aceptable.
+    - cron: '0 * * * *'
+  workflow_dispatch: {}
+
+# Necesario para que el GITHUB_TOKEN integrado pueda pushear el CSV al repo.
+permissions:
+  contents: write
+
+# Evita que un run programado y uno manual (o dos lentos) se solapen.
+concurrency:
+  group: ioc-feed
+  cancel-in-progress: false
+
+jobs:
+  push-iocs:
+    runs-on: ubuntu-latest
+    # 45 min: el PRIMER run tiene cache frío y re-scrapea toda la ventana (~500 art.).
+    # Los runs siguientes son rápidos porque actions/cache restaura el estado.
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: tools/ioc-pipeline
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install deps
+        run: bun install
+
+      - name: Install Playwright Chromium
+        run: bunx playwright install --with-deps chromium
+
+      # Persiste el cache incremental del scraper entre runs. Key rolling: cada run
+      # guarda un cache nuevo y restaura el más reciente vía restore-keys.
+      # Cache frío (primer run) -> re-scrape completo de la ventana (run más lento,
+      # por eso timeout 30); recuperable, no es pérdida de datos.
+      - name: Restore IOC state cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.local/share/pai/iocfeed/csn-articles-state.json
+            ~/.local/share/pai/iocfeed/ransomware-live-state.json
+          key: iocfeed-state-${{ github.run_id }}
+          restore-keys: |
+            iocfeed-state-
+
+      - name: Run IOC CSV pusher
+        # GH_TOKEN (sin prefijo reservado) lleva el token integrado; lo re-exportamos
+        # a GITHUB_TOKEN dentro del shell para que el script lo lea sin chocar con el
+        # prefijo GITHUB_ reservado por Actions a nivel de `env:`.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
+        run: |
+          export GITHUB_TOKEN="$GH_TOKEN"
+          export GITHUB_REPO="${{ github.repository }}"
+          export GITHUB_TARGET_PATH="Daily-IOCReportsCollection"
+          export GITHUB_BRANCH="main"
+          bun run csv-pusher.ts
