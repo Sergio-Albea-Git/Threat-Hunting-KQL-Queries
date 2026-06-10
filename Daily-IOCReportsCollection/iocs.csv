@@ -13,7 +13,6 @@ domain,allgoodsdirect.com.au,https://cybersecuritynews.com/cloud-atlas-apt-group
 domain,alnakhlah.com.sa,https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll,Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts,2026-05-25T19:48:22.000Z,2026-06-09T21:02:05.583Z
 domain,andrefelipedonascime1778799406970.2241107.meusitehostgator.com.br,https://cybersecuritynews.com/malspam-attack-uses-google-doubleclick-redirects,Malspam Attack Uses Google DoubleClick Redirects to Deliver Fileless .NET Loader,2026-06-08T16:01:55.000Z,2026-06-09T21:02:05.583Z
 domain,api.bio9438.com,https://cybersecuritynews.com/hackers-use-seo-poisoning-to-impersonate-gemini-cli,Hackers Use SEO Poisoning to Impersonate Gemini CLI and Claude Code Installers,2026-05-26T11:16:19.000Z,2026-06-09T21:02:05.583Z
-domain,api.eth-fastscan.org,https://cybersecuritynews.com/trending-hugging-face-repository-with-200k-downloads,Trending Hugging Face Repository With 200k Downloads Executes Malware on Windows Machines,2026-05-11T12:35:48.000Z,2026-06-09T21:02:05.583Z
 domain,api.ipapi.is,https://cybersecuritynews.com/tycoon-2fa-aitm-kit-bypasses-mfa,Tycoon 2FA AiTM Kit Bypasses MFA on Entra ID and Google Workspace Accounts,2026-05-27T18:50:18.000Z,2026-06-09T21:02:05.583Z
 domain,api.masscan.cloud,https://cybersecuritynews.com/hackers-compromise-170-npm-packages,"Hackers Compromise 170 npm Packages to Steal GitHub, npm, AWS, and Kubernetes Secrets",2026-05-14T17:21:48.000Z,2026-06-09T21:02:05.583Z
 domain,api.modobomco.com,https://cybersecuritynews.com/android-malware-silently-subscribes-victims,Android Malware Silently Subscribes Victims to Premium Services Without Consent,2026-05-22T15:23:52.000Z,2026-06-09T21:02:05.583Z
@@ -113,7 +112,6 @@ domain,kr.hugo-lapp.co,https://cybersecuritynews.com/hackers-impersonate-ghidra-
 domain,lafortunaitalian.co.uk,https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll,Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts,2026-05-25T19:48:22.000Z,2026-06-09T21:02:05.583Z
 domain,licencemanagers.azurewebsites.net,https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking,Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection,2026-06-01T12:40:00.000Z,2026-06-09T21:02:05.583Z
 domain,licencesupporting.azurewebsites.net,https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking,Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection,2026-06-01T12:40:00.000Z,2026-06-09T21:02:05.583Z
-domain,license.claude-pro.com,https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain,Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign,2026-05-11T15:55:58.000Z,2026-06-09T21:02:05.583Z
 domain,link-form-unj9.p-sm7rw6ru.workers.dev,https://cybersecuritynews.com/hackers-abuse-trusted-google-domains,Hackers Abuse Trusted Google Domains to Hide Phishing Links From Email Gateways,2026-05-27T10:43:20.000Z,2026-06-09T21:02:05.583Z
 domain,live.us.org,https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering,JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware,2026-05-29T15:45:11.000Z,2026-06-09T21:02:05.583Z
 domain,lyr.nuskly-msk-om-s-oundh.workers.dev,https://cybersecuritynews.com/hackers-abuse-oauth-device-authorization-flow,Hackers Abuse OAuth Device Authorization Flow to Steal Microsoft 365 Tokens,2026-05-15T14:53:32.000Z,2026-06-09T21:02:05.583Z
@@ -370,7 +368,6 @@ filename,%appdata%\applicationdata32\cluster-overlay64.exe,https://cybersecurity
 filename,%appdata%\applicationdata32\filter.bin,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery,2026-05-19T22:07:50.000Z,2026-06-09T21:02:05.583Z
 filename,%appdata%\applicationdata32\openvr_api.dll,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery,2026-05-19T22:07:50.000Z,2026-06-09T21:02:05.583Z
 filename,%appdata%\windowsgraphics\win_gfx_driver.exe,https://cybersecuritynews.com/solyximmortal-python-malware,"SolyxImmortal Python Malware Steals Browser Passwords, Cookies, Files, and Keystrokes",2026-06-02T13:30:30.000Z,2026-06-09T21:02:05.583Z
-filename,%temp%\update.bat,https://cybersecuritynews.com/trending-hugging-face-repository-with-200k-downloads,Trending Hugging Face Repository With 200k Downloads Executes Malware on Windows Machines,2026-05-11T12:35:48.000Z,2026-06-09T21:02:05.583Z
 filename,%userprofile%\.local\share\kitty\cat.py,https://cybersecuritynews.com/attackers-abuse-trusted-developer-tooling,Attackers Abuse Trusted Developer Tooling to Exfiltrate Source Code and Secrets,2026-05-29T15:34:24.000Z,2026-06-09T21:02:05.583Z
 filename,~/.cache/.sys,https://cybersecuritynews.com/microsoft-python-client-durabletask,Microsoft Python Client DurableTask Compromised by TeamPCP Hackers,2026-05-20T11:24:58.000Z,2026-06-09T21:02:05.583Z
 filename,~/.config/systemd/user/forge-js-worker.service,https://cybersecuritynews.com/hackers-push-22-versions-of-npm-rat,Hackers Push 22 Versions of npm RAT With Wallet Theft and Persistent Backdoor,2026-05-27T18:07:26.000Z,2026-06-09T21:02:05.583Z
@@ -402,7 +399,6 @@ filename,abc003.vbs,https://cybersecuritynews.com/microsoft-warns-of-attackers-u
 filename,adobe-pdfreader.b-cdn.net/adobe.application,https://cybersecuritynews.com/operation-dragon-whistle-uses-malicious-lnk-files,Operation Dragon Whistle Uses Malicious LNK Files to Target Changzhou University,2026-05-22T14:44:33.000Z,2026-06-09T21:02:05.583Z
 filename,ai_init.js,https://cybersecuritynews.com/typosquatted-npm-packages-steal-cloud-and-ci-cd-secrets,Typosquatted npm Packages Steal Cloud and CI/CD Secrets From Developer Systems,2026-05-29T14:23:05.000Z,2026-06-09T21:02:05.583Z
 filename,aotestpass.dll,https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware,SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry,2026-06-01T12:27:32.000Z,2026-06-09T21:02:05.583Z
-filename,api.eth-fastscan.org/update.bat,https://cybersecuritynews.com/trending-hugging-face-repository-with-200k-downloads,Trending Hugging Face Repository With 200k Downloads Executes Malware on Windows Machines,2026-05-11T12:35:48.000Z,2026-06-09T21:02:05.583Z
 filename,appsvc.exe,https://cybersecuritynews.com/stock-exchange-executives-outlook-account-targeted,Stock Exchange Executive’s Outlook Account Targeted to Exfiltrate Credentials,2026-06-04T17:58:49.000Z,2026-06-09T21:02:05.583Z
 filename,ark_x86.dll,https://cybersecuritynews.com/hackers-hide-malware-payloads-inside,Hackers Hide Malware Payloads Inside Nested macOS-Like Folders to Evade Scanning,2026-05-22T12:54:31.000Z,2026-06-09T21:02:05.583Z
 filename,armdriver.exe,https://cybersecuritynews.com/stock-exchange-executives-outlook-account-targeted,Stock Exchange Executive’s Outlook Account Targeted to Exfiltrate Credentials,2026-06-04T17:58:49.000Z,2026-06-09T21:02:05.583Z
@@ -417,7 +413,6 @@ filename,avk.exe,https://cybersecuritynews.com/mustang-panda-deploys-plugx-rat,M
 filename,bancasellacarte.apk,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
 filename,bandizip.exe,https://cybersecuritynews.com/hackers-hide-malware-payloads-inside,Hackers Hide Malware Payloads Inside Nested macOS-Like Folders to Evade Scanning,2026-05-22T12:54:31.000Z,2026-06-09T21:02:05.583Z
 filename,bb.ps1,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-06-09T21:02:05.583Z
-filename,bbg_free_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,bccromacarte.apk,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
 filename,bedrockfinder-1.0.0.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 filename,binary.myscript.vbs,https://cybersecuritynews.com/malicious-rvtools-installer-abuses-sectigo-certificate,Malicious RVTools Installer Abuses Sectigo Certificate to Bypass SmartScreen Warnings,2026-05-29T06:39:30.000Z,2026-06-09T21:02:05.583Z
@@ -457,7 +452,6 @@ filename,calendaromatic-win_x64.exe,https://cybersecuritynews.com/tamperedchef-m
 filename,canvas-nest.js,https://cybersecuritynews.com/mini-shai-hulud-attack-forces-npm,Mini Shai-Hulud Attack Forces npm to Reset Bypass-2FA Publishing Tokens,2026-05-22T06:24:28.000Z,2026-06-09T21:02:05.583Z
 filename,capraassetmanagementinc.vbs,https://cybersecuritynews.com/hackers-use-fake-adobe-document-cloud-pages,Hackers Use Fake Adobe Document Cloud Pages to Deliver ScreenConnect Malware,2026-05-29T11:28:59.000Z,2026-06-09T21:02:05.583Z
 filename,cat.py,https://cybersecuritynews.com/mini-shai-hulud-compromises-antv-npm-packages-to-steal-ci-cd-credentials,Mini Shai-Hulud Compromises @antv npm Packages to Steal CI/CD Credentials,2026-05-21T16:49:54.000Z,2026-06-09T21:02:05.583Z
-filename,catgatekeeper_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,ceo.msi,https://cybersecuritynews.com/hackers-use-fake-adobe-document-cloud-pages,Hackers Use Fake Adobe Document Cloud Pages to Deliver ScreenConnect Malware,2026-05-29T11:28:59.000Z,2026-06-09T21:02:05.583Z
 filename,certificate.js,https://cybersecuritynews.com/hackers-abuse-scheduled-tasks-to-maintain-persistence,Hackers Abuse Scheduled Tasks to Maintain Persistence in FrostyNeighbor Attacks,2026-05-15T08:04:29.000Z,2026-06-09T21:02:05.583Z
 filename,certificate.pdf,https://cybersecuritynews.com/hackers-abuse-scheduled-tasks-to-maintain-persistence,Hackers Abuse Scheduled Tasks to Maintain Persistence in FrostyNeighbor Attacks,2026-05-15T08:04:29.000Z,2026-06-09T21:02:05.583Z
@@ -467,9 +461,6 @@ filename,check_cophoto.py,https://cybersecuritynews.com/attackers-use-cloudflare
 filename,checkmarx-ast-scanner-2026.5.09.jar,https://cybersecuritynews.com/teampcp-compromised-checkmarx-jenkins-ast-plugin,TeamPCP Compromised Checkmarx Jenkins AST Plugin Following KICS Supply Chain Attack,2026-05-12T07:49:27.000Z,2026-06-09T21:02:05.583Z
 filename,chromedo.vbs,https://cybersecuritynews.com/hackers-hide-malware-payloads-inside,Hackers Hide Malware Payloads Inside Nested macOS-Like Folders to Evade Scanning,2026-05-22T12:54:31.000Z,2026-06-09T21:02:05.583Z
 filename,chunk-pur7ouag.js,https://cybersecuritynews.com/legitimate-looking-codex-remote-ui,Legitimate-Looking Codex Remote UI Steals OpenAI Codex Authentication Tokens,2026-05-29T11:27:24.000Z,2026-06-09T21:02:05.583Z
-filename,claude-pro-windows-x64.zip,https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain,Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign,2026-05-11T15:55:58.000Z,2026-06-09T21:02:05.583Z
-filename,claude.msi,https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain,Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign,2026-05-11T15:55:58.000Z,2026-06-09T21:02:05.583Z
-filename,claudedesign-optimized_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,codeflush.exe,https://cybersecuritynews.com/new-stealthy-vidar-stealer-campaign,New Stealthy Vidar Stealer Campaign Bypass EDR and Steal Credentials,2026-05-12T15:37:59.000Z,2026-06-09T21:02:05.583Z
 filename,collector.py,https://cybersecuritynews.com/malicious-rvtools-installer-abuses-sectigo-certificate,Malicious RVTools Installer Abuses Sectigo Certificate to Bypass SmartScreen Warnings,2026-05-29T06:39:30.000Z,2026-06-09T21:02:05.583Z
 filename,connection.dll,https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking,Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection,2026-06-01T12:40:00.000Z,2026-06-09T21:02:05.583Z
@@ -478,7 +469,6 @@ filename,cryptbase.dll,https://cybersecuritynews.com/hackers-abuse-legitimate-hw
 filename,data.bin,https://cybersecuritynews.com/hackers-deploy-mltbackdoor-malware,Hackers Deploy MLTBackdoor Malware via Multi-Stage ClickFix Infection Chain,2026-06-10T08:10:58.000Z,2026-06-10T11:56:35.433Z
 filename,dctrprraclus.zip,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery,2026-05-19T22:07:50.000Z,2026-06-09T21:02:05.583Z
 filename,debugchromium.exe,https://cybersecuritynews.com/laravel-lang-packages-compromised,Hackers Compromised 233 Versions of Laravel-Lang Packages by Hacking 700 GitHub Repos,2026-05-23T05:34:00.000Z,2026-06-09T21:02:05.583Z
-filename,deepseek-tui_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,deepseek-v4-flash_x64.7z,https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures,"Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",2026-06-09T08:39:18.000Z,2026-06-09T21:02:05.583Z
 filename,deepseek-v4-flash_x64.exe,https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures,"Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",2026-06-09T08:39:18.000Z,2026-06-09T21:02:05.583Z
 filename,deepseek-v4-pro_x64.7z,https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures,"Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",2026-06-09T08:39:18.000Z,2026-06-09T21:02:05.583Z
@@ -491,7 +481,6 @@ filename,doc_2026-03-26_08-58-03.netangular.pdf.zip,https://cybersecuritynews.co
 filename,donutdupeworking-1.21.11.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 filename,donutsmp-duper-1.0.0.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 filename,dsocks.exe,https://cybersecuritynews.com/graphworm-malware-uses-microsoft-onedrive,GraphWorm Malware Uses Microsoft OneDrive as Command-and-Control Infrastructure,2026-05-20T10:29:50.000Z,2026-06-09T21:02:05.583Z
-filename,dv4-mcp-setup.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,ebixexam.desktop.zip,https://cybersecuritynews.com/nimbus-manticore-apt-abuses-fake-recruitment-portal,Nimbus Manticore APT Abuses Fake Recruitment Portal to Deliver Custom Malware,2026-06-02T07:56:17.000Z,2026-06-09T21:02:05.583Z
 filename,ebixexam.updater.dll,https://cybersecuritynews.com/nimbus-manticore-apt-abuses-fake-recruitment-portal,Nimbus Manticore APT Abuses Fake Recruitment Portal to Deliver Custom Malware,2026-06-02T07:56:17.000Z,2026-06-09T21:02:05.583Z
 filename,ebixexam.updater.servicehub.dll,https://cybersecuritynews.com/nimbus-manticore-apt-abuses-fake-recruitment-portal,Nimbus Manticore APT Abuses Fake Recruitment Portal to Deliver Custom Malware,2026-06-02T07:56:17.000Z,2026-06-09T21:02:05.583Z
@@ -513,18 +502,12 @@ filename,fmapp.exe,https://cybersecuritynews.com/seedworm-apt-abuses-signed-fort
 filename,form.pdf,https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures,"Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",2026-06-09T08:39:18.000Z,2026-06-09T21:02:05.583Z
 filename,fortiendpoint_patch.exe,https://cybersecuritynews.com/forticlient-code-execution-vulnerability,FortiClient Code Execution Vulnerability Exploited to Deploy EKZ Malware,2026-05-28T03:38:43.000Z,2026-06-09T21:02:05.583Z
 filename,fortitray.exe,https://cybersecuritynews.com/forticlient-code-execution-vulnerability,FortiClient Code Execution Vulnerability Exploited to Deploy EKZ Malware,2026-05-28T03:38:43.000Z,2026-06-09T21:02:05.583Z
-filename,fraudgpt_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,gen_photo_upload.py,https://cybersecuritynews.com/attackers-use-cloudflare-storage-endpoint,Attackers Use Cloudflare Storage Endpoint to Exfiltrate Files From Compromised Networks,2026-05-19T14:01:55.000Z,2026-06-09T21:02:05.583Z
 filename,git.youzzjizz.com/git.js,https://cybersecuritynews.com/hackers-backdoor-popular-art-template-npm-package,Hackers Backdoor Popular art-template npm Package to Launch Watering-Hole Attacks,2026-05-22T22:08:05.000Z,2026-06-09T21:02:05.583Z
 filename,glazed_addon-1.0.0.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
-filename,glm5-local_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
-filename,goddtv.msi,https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain,Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign,2026-05-11T15:55:58.000Z,2026-06-09T21:02:05.583Z
 filename,godmode-2.8.1.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
-filename,gpt-image-2-desktop.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
-filename,grokcli_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,healthmon.exe,https://cybersecuritynews.com/phantompulse-rat-uses-process-injection-and-uac-bypass,PHANTOMPULSE RAT Uses Process Injection and UAC Bypass to Compromise Windows Systems,2026-06-02T08:50:11.000Z,2026-06-09T21:02:05.583Z
 filename,helper.py,https://cybersecuritynews.com/clearfake-uses-bsc-testnet-smart-contracts,ClearFake Uses BSC Testnet Smart Contracts for Takedown-Resistant Command and Control,2026-05-28T15:23:22.000Z,2026-06-09T21:02:05.583Z
-filename,hermes-agent_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,hpbprndiloc.dll,https://cybersecuritynews.com/microsoft-details-kazuar-malwares-modular-architecture,Microsoft Details Kazuar Malware’s Modular Architecture and P2P Botnet Operations,2026-05-15T08:53:28.000Z,2026-06-09T21:02:05.583Z
 filename,hqcupdate.exe,https://cybersecuritynews.com/new-stealthy-vidar-stealer-campaign,New Stealthy Vidar Stealer Campaign Bypass EDR and Steal Credentials,2026-05-12T15:37:59.000Z,2026-06-09T21:02:05.583Z
 filename,hwmonitor_x64.exe,https://cybersecuritynews.com/hackers-abuse-legitimate-hwmonitor-binary,Hackers Abuse Legitimate HWMonitor Binary to Load Malicious DLL Payload,2026-05-14T12:03:48.000Z,2026-06-09T21:02:05.583Z
@@ -536,10 +519,7 @@ filename,installer.dll,https://cybersecuritynews.com/hackers-exploit-ghost-cms-c
 filename,intesacarte.apk,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
 filename,invoice.pdf,https://cybersecuritynews.com/attackers-abuse-cloud-services-malicious-traffic,Attackers Abuse Cloud Services to Hide Malicious Traffic,2026-06-02T17:13:03.000Z,2026-06-09T21:02:05.583Z
 filename,k3772.bat,https://cybersecuritynews.com/new-stealthy-vidar-stealer-campaign,New Stealthy Vidar Stealer Campaign Bypass EDR and Steal Credentials,2026-05-12T15:37:59.000Z,2026-06-09T21:02:05.583Z
-filename,kawaiigpt_x64.cpl.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
-filename,kawaiigpt_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,keyhunter_worker.py,https://cybersecuritynews.com/langflow-cve-2026-33017-exploited,Langflow CVE-2026-33017 Exploited to Steal AWS Keys and Deploy NATS Worker,2026-05-14T09:12:08.000Z,2026-06-09T21:02:05.583Z
-filename,kimi-k2.6_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,klirwaycarte.apk,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
 filename,krypton-1.0.0.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 filename,krypton-cracked-1.0.0.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
@@ -556,7 +536,6 @@ filename,libwebp.dll,https://cybersecuritynews.com/hackers-use-grandoreiro-malwa
 filename,listener_http.py,https://cybersecuritynews.com/attackers-use-cloudflare-storage-endpoint,Attackers Use Cloudflare Storage Endpoint to Exfiltrate Files From Compromised Networks,2026-05-19T14:01:55.000Z,2026-06-09T21:02:05.583Z
 filename,lmiguardiandll.dll,https://cybersecuritynews.com/chinese-apt-hackers-exploit-microsoft-exchange,Chinese APT Hackers Exploit Microsoft Exchange to Breach Energy Sector Network,2026-05-14T20:01:59.000Z,2026-06-09T21:02:05.583Z
 filename,lmiguardiansvc.exe,https://cybersecuritynews.com/chinese-apt-hackers-exploit-microsoft-exchange,Chinese APT Hackers Exploit Microsoft Exchange to Breach Energy Sector Network,2026-05-14T20:01:59.000Z,2026-06-09T21:02:05.583Z
-filename,ltx-2.3_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,main.dll,https://cybersecuritynews.com/nimbus-manticore-apt-abuses-fake-recruitment-portal,Nimbus Manticore APT Abuses Fake Recruitment Portal to Deliver Custom Malware,2026-06-02T07:56:17.000Z,2026-06-09T21:02:05.583Z
 filename,main.js,https://cybersecuritynews.com/attackers-abuse-trusted-developer-tooling,Attackers Abuse Trusted Developer Tooling to Exfiltrate Source Code and Secrets,2026-05-29T15:34:24.000Z,2026-06-09T21:02:05.583Z
 filename,malware.zip,https://cybersecuritynews.com/hackers-abuse-legitimate-hwmonitor-binary,Hackers Abuse Legitimate HWMonitor Binary to Load Malicious DLL Payload,2026-05-14T12:03:48.000Z,2026-06-09T21:02:05.583Z
@@ -571,8 +550,6 @@ filename,mingw10.dll,https://cybersecuritynews.com/hackers-use-grandoreiro-malwa
 filename,mistralai/client/__init__.py,https://cybersecuritynews.com/mistralai-pypi-package-compromised,MistralAI PyPI Package Compromised to Inject Malicious Code - Microsoft Warns,2026-05-12T11:04:50.000Z,2026-06-09T21:02:05.583Z
 filename,mod.so,https://cybersecuritynews.com/invisibleferret-malware-now-ships-as-pyd,InvisibleFerret Malware Now Ships as .pyd and .so Files to Evade Script Detection,2026-05-25T19:50:53.000Z,2026-06-09T21:02:05.583Z
 filename,mooneycarte.apk,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
-filename,mpclient.dll,https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain,Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign,2026-05-11T15:55:58.000Z,2026-06-09T21:02:05.583Z
-filename,mpcopyaccelerator.exe,https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain,Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign,2026-05-11T15:55:58.000Z,2026-06-09T21:02:05.583Z
 filename,mpextms.exe,https://cybersecuritynews.com/hackers-deploy-mltbackdoor-malware,Hackers Deploy MLTBackdoor Malware via Multi-Stage ClickFix Infection Chain,2026-06-10T08:10:58.000Z,2026-06-10T11:56:35.433Z
 filename,ms3360.bat,https://cybersecuritynews.com/new-stealthy-vidar-stealer-campaign,New Stealthy Vidar Stealer Campaign Bypass EDR and Steal Credentials,2026-05-12T15:37:59.000Z,2026-06-09T21:02:05.583Z
 filename,mslogon.dll,https://cybersecuritynews.com/microsoft-warns-of-attackers-using-trusted-hpe-operations-agent,Microsoft Warns of Attackers Using Trusted HPE Operations Agent for Malware-Free Intrusions,2026-05-15T12:15:36.000Z,2026-06-09T21:02:05.583Z
@@ -586,14 +563,11 @@ filename,node-ipc-9.1.6.tgz,https://cybersecuritynews.com/node-ipc-npm-package-c
 filename,node-ipc-9.2.3.tgz,https://cybersecuritynews.com/node-ipc-npm-package-compromised,node-ipc npm Package with 822K Weekly Downloads Compromised in Supply Chain Attack,2026-05-14T18:08:21.000Z,2026-06-09T21:02:05.583Z
 filename,node.js,https://cybersecuritynews.com/lucid-stealer-targets-18-browsers-crypto-wallets-and-discord-tokens,"New Lucid Stealer Targets 18 Browsers, Crypto Wallets, and Discord Tokens With Hidden Remote Access",2026-06-08T15:04:36.000Z,2026-06-09T21:02:05.583Z
 filename,notepadplusplus.dll,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
-filename,novupdate.exe,https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain,Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign,2026-05-11T15:55:58.000Z,2026-06-09T21:02:05.583Z
 filename,noway.bat,https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware,SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry,2026-06-01T12:27:32.000Z,2026-06-09T21:02:05.583Z
 filename,onedrive.lnk,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-06-09T21:02:05.583Z
-filename,onesync.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,opensearch_init.js,https://cybersecuritynews.com/typosquatted-npm-packages-steal-cloud-and-ci-cd-secrets,Typosquatted npm Packages Steal Cloud and CI/CD Secrets From Developer Systems,2026-05-29T14:23:05.000Z,2026-06-09T21:02:05.583Z
 filename,openvr_api.dll,https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin,UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery,2026-05-19T22:07:50.000Z,2026-06-09T21:02:05.583Z
 filename,opticam-1.0.0.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
-filename,opus-4-7_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,order_12258.js,https://cybersecuritynews.com/hackers-use-fake-purchase-orders-to-deploy-js-monoglyphrat,JS.MonoGlyphRAT Malware Targets US Enterprises Using Fake Purchase Orders,2026-06-03T15:56:27.000Z,2026-06-09T21:02:05.583Z
 filename,org/checkupdateto.js,https://cybersecuritynews.com/hackers-use-malicious-ads,Hackers Use Malicious Ads to Deliver FlutterShell Backdoor on macOS Systems,2026-06-04T20:25:42.000Z,2026-06-09T21:02:05.583Z
 filename,overonedrivev0316.exe,https://cybersecuritynews.com/graphworm-malware-uses-microsoft-onedrive,GraphWorm Malware Uses Microsoft OneDrive as Command-and-Control Infrastructure,2026-05-20T10:29:50.000Z,2026-06-09T21:02:05.583Z
@@ -699,11 +673,9 @@ filename,vulkan-1.dll,https://cybersecuritynews.com/proofpoint-warns-ta4922-depl
 filename,waybroad.dll,https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware,SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry,2026-06-01T12:27:32.000Z,2026-06-09T21:02:05.583Z
 filename,whale.vbs,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-06-09T21:02:05.583Z
 filename,win_gfx_driver.exe,https://cybersecuritynews.com/solyximmortal-python-malware,"SolyxImmortal Python Malware Steals Browser Passwords, Cookies, Files, and Keystrokes",2026-06-02T13:30:30.000Z,2026-06-09T21:02:05.583Z
-filename,winhealhcare.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,winmm.dll,https://cybersecuritynews.com/chinese-apt-hackers-exploit-microsoft-exchange,Chinese APT Hackers Exploit Microsoft Exchange to Breach Energy Sector Network,2026-05-14T20:01:59.000Z,2026-06-09T21:02:05.583Z
 filename,winp.zip,https://cybersecuritynews.com/malicious-rvtools-installer-abuses-sectigo-certificate,Malicious RVTools Installer Abuses Sectigo Certificate to Bypass SmartScreen Warnings,2026-05-29T06:39:30.000Z,2026-06-09T21:02:05.583Z
 filename,winter.js,https://cybersecuritynews.com/weaponized-chatgpt-download-site-delivers-malware,Weaponized ChatGPT Download Site Delivers Malware Via Sponsored Search Results,2026-06-04T13:46:12.000Z,2026-06-09T21:02:05.583Z
-filename,worldmonitor_x64.exe,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 filename,wstep163.cab,https://cybersecuritynews.com/new-stealthy-vidar-stealer-campaign,New Stealthy Vidar Stealer Campaign Bypass EDR and Steal Credentials,2026-05-12T15:37:59.000Z,2026-06-09T21:02:05.583Z
 filename,y4cumb.onlyoffice.com/storage/files/root/folder_3602000/file_3601577/v1/content.zip,https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking,Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection,2026-06-01T12:40:00.000Z,2026-06-09T21:02:05.583Z
 filename,ys1825.bat,https://cybersecuritynews.com/new-stealthy-vidar-stealer-campaign,New Stealthy Vidar Stealer Campaign Bypass EDR and Steal Credentials,2026-05-12T15:37:59.000Z,2026-06-09T21:02:05.583Z
@@ -874,7 +846,6 @@ ip,176.123.4.44,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-a
 ip,176.65.141.201,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-06-09T21:02:05.583Z
 ip,176.97.75.205:8015,https://www.ransomware.live/group/bashe,Ransomware.live - bashe,,2026-06-09T21:02:05.583Z
 ip,177.154.191.148,https://cybersecuritynews.com/hackers-use-fake-adobe-document-cloud-pages,Hackers Use Fake Adobe Document Cloud Pages to Deliver ScreenConnect Malware,2026-05-29T11:28:59.000Z,2026-06-09T21:02:05.583Z
-ip,178.128.108.89,https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain,Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign,2026-05-11T15:55:58.000Z,2026-06-09T21:02:05.583Z
 ip,178.128.233.36,https://cybersecuritynews.com/seedworm-apt-abuses-signed-fortemedia-2,Seedworm APT Abuses Signed Fortemedia and SentinelOne Binaries for DLL Sideloading,2026-05-27T12:22:42.000Z,2026-06-09T21:02:05.583Z
 ip,178.156.165.82,https://cybersecuritynews.com/smartapesg-campaign-uses-clickfix-scripts,SmartApeSG Campaign Uses ClickFix Scripts to Infect Windows Hosts With RAT Malware,2026-06-01T14:42:22.000Z,2026-06-09T21:02:05.583Z
 ip,178.156.173.194,https://cybersecuritynews.com/smartapesg-campaign-uses-clickfix-scripts,SmartApeSG Campaign Uses ClickFix Scripts to Infect Windows Hosts With RAT Malware,2026-06-01T14:42:22.000Z,2026-06-09T21:02:05.583Z
@@ -939,7 +910,6 @@ ip,192.236.147.131,https://cybersecuritynews.com/unc3753-attacking-us-law-firms,
 ip,192.236.147.138,https://cybersecuritynews.com/unc3753-attacking-us-law-firms,UNC3753 Attacking US Law Firms Using Vishing and RMM Tools to Exfiltrate Data,2026-06-08T15:21:48.000Z,2026-06-09T21:02:05.583Z
 ip,192.236.154.158,https://cybersecuritynews.com/unc3753-attacking-us-law-firms,UNC3753 Attacking US Law Firms Using Vishing and RMM Tools to Exfiltrate Data,2026-06-08T15:21:48.000Z,2026-06-09T21:02:05.583Z
 ip,192.238.134.166,https://cybersecuritynews.com/new-malware-framework-enables-screen-control,"New Malware Framework Enables Screen Control, Browser Artifact Access, and UAC Bypass",2026-05-14T18:32:23.000Z,2026-06-09T21:02:05.583Z
-ip,192.252.186.62,https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain,Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign,2026-05-11T15:55:58.000Z,2026-06-09T21:02:05.583Z
 ip,192.42.116.14,https://cybersecuritynews.com/forticlient-code-execution-vulnerability,FortiClient Code Execution Vulnerability Exploited to Deploy EKZ Malware,2026-05-28T03:38:43.000Z,2026-06-09T21:02:05.583Z
 ip,193.112.70.226,https://cybersecuritynews.com/hackers-abuse-mshta-legacy-windows-tool,Hackers Abuse MSHTA Legacy Windows Tool to Deliver LummaStealer and Amatera Malware,2026-05-20T11:20:28.000Z,2026-06-09T21:02:05.583Z
 ip,193.124.185.129:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -1000,7 +970,6 @@ ip,208.115.220.17,https://cybersecuritynews.com/jinx-0164-threat-actor-using-lin
 ip,208.123.119.103:7453,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,208.73.200.28:9999,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,209.182.225.136,https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability,Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware,2026-06-08T17:18:01.000Z,2026-06-09T21:02:05.583Z
-ip,209.189.190.206,https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain,Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign,2026-05-11T15:55:58.000Z,2026-06-09T21:02:05.583Z
 ip,212.224.107.203,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
 ip,212.83.61.213,https://cybersecuritynews.com/iran-linked-hackers-destroy-it-backups-and-recovery-systems,"Iran-Linked Hackers Destroy IT, Backups, and Recovery Systems in Cyberattack targeting Middle East",2026-06-01T10:49:34.000Z,2026-06-09T21:02:05.583Z
 ip,213.165.51.115,https://cybersecuritynews.com/threat-actor-uses-stolen-gemini-api-keys,Threat Actor Uses Stolen Gemini API Keys to Automate Telegram Influence Campaign,2026-06-02T18:45:55.000Z,2026-06-09T21:02:05.583Z
@@ -1169,7 +1138,6 @@ ip,79.141.162.184:80,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,8.140.226.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,8.211.130.16,https://cybersecuritynews.com/china-linked-hackers-target-southeast-asian-edge-routers,China-Linked Hackers Target Southeast Asian Edge Routers With Custom Linux Implant,2026-05-26T16:08:22.000Z,2026-06-09T21:02:05.583Z
 ip,8.213.217.130,https://cybersecuritynews.com/china-linked-hackers-target-southeast-asian-edge-routers,China-Linked Hackers Target Southeast Asian Edge Routers With Custom Linux Implant,2026-05-26T16:08:22.000Z,2026-06-09T21:02:05.583Z
-ip,8.217.190.58,https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain,Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign,2026-05-11T15:55:58.000Z,2026-06-09T21:02:05.583Z
 ip,8.8.8.8,https://cybersecuritynews.com/chinese-apt-verdantbamboo-uses-brickstorm-malware,Chinese APT VerdantBamboo Uses BRICKSTORM Malware to Compromise Firewalls and Appliances,2026-06-05T12:03:27.000Z,2026-06-09T21:02:05.583Z
 ip,80.200.28.28,https://cybersecuritynews.com/malicious-npm-packages-steal-keys,"Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",2026-05-18T09:57:43.000Z,2026-06-09T21:02:05.583Z
 ip,81.17.31.98:1124,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -1223,7 +1191,6 @@ ip,91.107.247.163,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks
 ip,91.193.19.198,https://cybersecuritynews.com/iran-linked-hackers-destroy-it-backups-and-recovery-systems,"Iran-Linked Hackers Destroy IT, Backups, and Recovery Systems in Cyberattack targeting Middle East",2026-06-01T10:49:34.000Z,2026-06-09T21:02:05.583Z
 ip,91.195.240.123,https://cybersecuritynews.com/teampcp-compromised-checkmarx-jenkins-ast-plugin,TeamPCP Compromised Checkmarx Jenkins AST Plugin Following KICS Supply Chain Attack,2026-05-12T07:49:27.000Z,2026-06-09T21:02:05.583Z
 ip,91.208.197.87,https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts,Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data,2026-05-19T06:59:09.000Z,2026-06-09T21:02:05.583Z
-ip,91.215.85.103,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-06-09T21:02:05.583Z
 ip,91.236.230.33:6399,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,91.236.230.33:6400,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,91.245.255.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -1342,7 +1309,6 @@ md5,144183a4217ae0914ba0c865858d07cd,https://www.ransomware.live/group/qilin,Ran
 md5,145b1e3aa4cdf15b5eb443571199cb19,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,145d3ae9d1c6f1d4aa67e31fa32c32e9,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,146d350fd6271b4411714c630d8cda87,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
-md5,14920c9751d20452a1006d20b8e73234,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,14a0ecf45aa72adb2b1f2ccca99f6faa,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
 md5,14da9c0c4e3ac3b9abb2c48b37bece19,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 md5,155569b791e9a12e68c173170ea84ea8,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
@@ -1390,7 +1356,6 @@ md5,1b701df9e6b5252feef3d1d8dcfe12f5,https://www.ransomware.live/group/anubis,Ra
 md5,1b99383c43c36fa94d046dca6423a93b,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
 md5,1bcb819677151a01d5de9ae1144c07f5,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,1bd031cd287202a00644f92084b21ee1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,1bd1df4f228ecd29a9b6fab48beaa366,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,1bde76f3197123dcc2ecd0bfef567484,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,1c2cab4230749bdf4defc751adbd885a,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,1c34c1860041aa479c14a9c5b332712c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -1423,7 +1388,6 @@ md5,21e9327a11f82e300c9d753b86df3a19,https://www.ransomware.live/group/akira,Ran
 md5,2238997aec239bb5ebd7589f754bf606,https://www.ransomware.live/group/j,Ransomware.live - j,,2026-06-09T21:02:05.583Z
 md5,2277d6615a877c34b67d6f3c919df5b7,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,2286f126ab4740ccf2595ad1fa0c615c,https://cybersecuritynews.com/hackers-abuse-cpanel-and-whm-servers,Hackers Abuse CVE-2026-41940 to Take Over cPanel and WHM Servers,2026-05-12T03:37:17.000Z,2026-06-09T21:02:05.583Z
-md5,22c0c7d441fd22432cfe7854b59ba82b,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,22c5aecc3889592780338a44a2452b8b,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,22d35005e926fe29379cb07b810a6075,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,2348b069647af0a714ae1e005f73b522,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
@@ -1516,7 +1480,6 @@ md5,33a4d3945aa2732cd52fbf37bc48ed2d,https://www.ransomware.live/group/raworld,R
 md5,33d8eabbf428fef8c5cd50b440ee3d07,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-06-09T21:02:05.583Z
 md5,3426341929acfd5f963d75d209337802,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,344c3f60bdccc98812b0dc5f9dc2f413,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
-md5,347980085c8926d5a1ff8e15a31fd812,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,348b0ce6af4698061678c8e92b4b2675,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,34ad4ab24152c2bca2a4aa23f847c4d1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,35dd9c3a56e88a39bf6c8fdad46b0398,https://cybersecuritynews.com/devilnfc-android-malware-uses-kiosk-mode,DevilNFC Android Malware Uses Kiosk Mode to Trap Victims During NFC Relay Attacks,2026-05-20T17:37:54.000Z,2026-06-09T21:02:05.583Z
@@ -1532,7 +1495,6 @@ md5,37155f0bca29ccd6b6d4f5b2bc42eb4d,https://www.ransomware.live/group/qilin,Ran
 md5,38b4ecf10404eb0425a0b81c32f33c31,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,38ce06bf89b28ccebf5a78404eb3818e,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-06-09T21:02:05.583Z
 md5,396460e7459be6a8b1f7350de4c8d752,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
-md5,397405106d895815a9bef8d84445af5a,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,399bcaf347b3c9a024f1cd63cc62b193,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,39a14bfc65e6f5e13fc2817206a39cad,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,39ea2394a6e6c39c5d7722dc996daf05,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
@@ -1580,7 +1542,6 @@ md5,431d61e95586c03461552d134ca54d16,https://www.ransomware.live/group/akira,Ran
 md5,43351ce424c9a72fcb47de7da7b368c3,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,433deedf1091c8ea24e0ebaabfb240ff,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,436c014614477e79696e838d6b605f4e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,437e4bdb12d7fa8d1c9a9e9db84b8726,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,43b0adfed2c14c240931d8e0a3986d9e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,4419c553fae636eca63a8148cfd48fcc,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,441b0a8999a65e2c02f81a27e7b442e5,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -1597,7 +1558,6 @@ md5,45ee3983a7c1133f267af09173668864,https://cybersecuritynews.com/new-nfcshare-
 md5,45f7c7d46e3b6057a9d6140a22a78e49,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,460d2b2fb982485172912cea56d6e53e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,466a8e120c75770ecbc0c73f0439d304,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
-md5,46917d8326d77e4e3c39cb843dbfc675,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,46d51d309fa4883ee4c6e015ead80d84,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,46ecc24ef6d20f3eaf71ff37610d57d1,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,470a328ad3705d0c6866a48912a3f718,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
@@ -1608,7 +1568,6 @@ md5,4857d2d9d7b65e4b907b3cac728e1842,https://www.ransomware.live/group/raworld,R
 md5,48912431b3d2780430c6afc696f342b8,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,48b0a4505a96a640300e43e2af712276,https://www.ransomware.live/group/lockbit5,Ransomware.live - lockbit5,,2026-06-09T21:02:05.583Z
 md5,48d3a69c0102f121b7af73ec26ea7cd1,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
-md5,48dd212fae0086822d4ae7696cc61693,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,491f619c358382872f87e1479c145a5e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,495afbc7ebae07d50c529c1bd5889f54,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,496aa6ac94eb97d2bc05bfce688460c1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -1626,7 +1585,6 @@ md5,4becb7b02f39cfe4af8031a6f0464282,https://www.ransomware.live/group/trigona,R
 md5,4c282ce56a6991de050c2d8ea93d2b77,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,4c37fbc3e9cc57b0bc00facf1cef927f,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,4c58195328f5b5e4a37aa6f42b386172,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-06-09T21:02:05.583Z
-md5,4c7abc81b308fc874ec0de4f026db260,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,4ca68bf3d630332e9c19a17ac910376e,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,4d43e35962c8c7fdca5f64da8f561f5a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,4d4a30b6e491a2eb9c6ce4c4b99ae1bb,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -1670,8 +1628,6 @@ md5,54416fc42afa9b09ea7e8d8e318f4891,https://www.ransomware.live/group/rhysida,R
 md5,54dd1e7adb8d5440cfed65c9646f2529,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,552ca91696fedd387e1ea47f50f18344,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-06-09T21:02:05.583Z
 md5,55628da8e685379cf4214dc3763664cb,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
-md5,556b35236eeb111b0606d88a7aa3fd87,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
-md5,562d48524313d414b5a419fed6ca10aa,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,5659292833ec421da11ebde005d9c9a8,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
 md5,569d2b5701755260514fe1563d7530bb,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
 md5,56caf9474873560e90de9479a1aeb769,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -1707,7 +1663,6 @@ md5,5c4a3158e91dafa28c80c50a0c070e34,https://www.ransomware.live/group/akira,Ran
 md5,5cab4fabffeb5903f684c936a90e0b46,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-06-09T21:02:05.583Z
 md5,5cc24cc2fced61209f0a1a30ea7e32aa,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,5cffa3126b9effc279d32b2cf4ef2278,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
-md5,5d14461718b74b86fdd68c6aee801dc4,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,5d22a4ed1eef9ee71fae815e633cc673,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,5d4fb327482a0d6c46d28428fccd0a82,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,5e1eec7d018f2dbd1280cd0c238e830d,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
@@ -1748,17 +1703,14 @@ md5,66004c532d292572494de9934fe3910b,https://www.ransomware.live/group/akira,Ran
 md5,66cd0ea0fbcecd96016782a63753c335,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,670fe8faaede4e2e033311fb662d2a4a,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,671fb7f86ab618565ee8dbc58e061dc4,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,6721f30d84f58532d877f2b31bfc9162,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,6742fdde9d5fde37ac5a9c9cbb1f691f,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
 md5,674b2a09419bd5f572e9bffe943ca0c7,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,67a44a38cc36becd6e2e9c20c27fd9ad,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
 md5,67b53b6d02ec8faf5926abcbe8eab8df,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,67edfff8250487d97f403c74fed85388,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
-md5,6861fa47889e0340ab7efaab448c56b6,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,68635ad9d12f683071611bfd34c1ec34,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,6869766741b40825e31fd8bbff688bd3,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-06-09T21:02:05.583Z
 md5,68729b85aa01cd8c9f4ccd137ddde137,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,68ba5a1bafae7db35e2eee7ea3f11882,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,69434397fe9df4c7533a51db27e35c82,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,696a86a4c569590b0522664924db7c90,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,6ac329c65bc4e087880395da110cf96d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -1822,7 +1774,6 @@ md5,76e6f6c63756479726e6565647879637,https://cybersecuritynews.com/hackers-use-f
 md5,770c1dc157226638f8ad1ac9669f4883,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-06-09T21:02:05.583Z
 md5,773fcd0432808e74bfb863489799dd05,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,77958f66ade19ace783617531f0d82ac,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,78c11c45c00a9c22f537c59a472beca1,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,793bed4cb96031a738fa60c9b2813606,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,799e1b6ad59324054e74eb6bfe5f78f9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,79f7c7356d43aee07cc613fe8d978420,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -1843,7 +1794,6 @@ md5,7d6e15948fb671909f269aad8a816cf8,https://www.ransomware.live/group/raworld,R
 md5,7d827558e7841cc2887fc99537c1c97e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,7dd26568049fac1b87f676ecfaac9ba0,https://www.ransomware.live/group/gunra,Ransomware.live - gunra,,2026-06-09T21:02:05.583Z
 md5,7dd4de113a97c638518f01760ff4f03c,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
-md5,7de2896e373342e0f3b765c855bf7396,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,7de7717e90bb9aa2ad0e76e29994cf3f,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,7e00a7bec089ad085c306a3de539d453,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,7e043d880dcf7889c6767ab97764769c,https://www.ransomware.live/group/nitrogen,Ransomware.live - nitrogen,,2026-06-09T21:02:05.583Z
@@ -1884,7 +1834,6 @@ md5,86281388d3cdbc77b337000b0725ea81,https://www.ransomware.live/group/cactus,Ra
 md5,86453f01deb226e67a4f0f24449ca301,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,865d3eb51125ff14eca170383ded4e26,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,868d8f2e942dd73b8ba9022fe7676032,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
-md5,86c7f2a3c307928daaca7c1df3ea5d72,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,8779178085c6ddeb37a616415ff38e34,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,87b3f09aa41bad9d87c5cd17c1a0edfa,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,87b418a1d8eaf648b6338af20407abbb,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
@@ -1918,7 +1867,6 @@ md5,8d28158234d650c7d04e8682c4e624ee,https://www.ransomware.live/group/raworld,R
 md5,8db6eee838614a191b992e68a7653fa1,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,8dbd57b042bc63b9ecdc9e3e5506ce85,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-06-09T21:02:05.583Z
 md5,8dc613df28d63907d1b686a8b0c480bf,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,8dde7a417130ae78a3f2aeed1f5b8f58,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,8defef59460fe89479da2f0d00212d31,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,8e2965a4dd7a27ed1b304ac03ad4d728,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,8e4a887acab5f9475c5fa9a26fb9e720,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
@@ -1965,7 +1913,6 @@ md5,964c13b68dc6b6b918b66a9a10469d2a,https://www.ransomware.live/group/qilin,Ran
 md5,96fbb98b1f722ae5f49ab63da0f74cf2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,97150d47ea7779101be6582fc329c2cd,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-06-09T21:02:05.583Z
 md5,9734089f6eab3bf3d443755954cc785f,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
-md5,975bd8eb56716adbcadb5216592a17c7,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,977452c8332167f83a417b079169ac8a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,977fe7712d2c2d8592c094a9de88170c,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
 md5,97f9d8c8d44da37c7b9cefe31bda3466,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
@@ -2012,7 +1959,6 @@ md5,a18d79e94229fdf02ef091cf974ed546,https://www.ransomware.live/group/akira,Ran
 md5,a1f4931992bf05e9bff4b173c15cab15,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,a20886a5b378624d16972db66bd4e7e1,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
 md5,a20f8391af142d78fa825e38f0f40965,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
-md5,a224f44bdac16250d8093df68e05b512,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,a2d853247d939106231314bc5b233bda,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
 md5,a3363e0c22c0356fdbcdc37f502bbcde,https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters,"Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",2026-05-19T18:51:39.000Z,2026-06-09T21:02:05.583Z
 md5,a34941a3022b8fb2b4a245c0ba3092c6,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -2044,7 +1990,6 @@ md5,a9297a8acbee74ba0169333ee38be2ef,https://www.ransomware.live/group/nitrogen,
 md5,a94a0bc0ff90b0466c36326598714fa4,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,a99266340fb6880f8e0a8744b23a8b03,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,a9c7be14e01b219a1e237412464260b5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,a9d492ab22400257f756f0308e06f04c,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,aa0406ac91d3a12e57f52ef82cb7d2e7,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,aa0f5feb21c48ac7ba8a8c61d2cd1304,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,aa63680c9b15034463d46847e7534975,https://www.ransomware.live/group/j,Ransomware.live - j,,2026-06-09T21:02:05.583Z
@@ -2105,18 +2050,15 @@ md5,b6162bebd1daab783d85c498721c60ff,https://www.ransomware.live/group/akira,Ran
 md5,b666ea987c7dff545e984ad88ce80a9b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,b667c985e344a4a16bc64d18f4fda14e,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,b6c46c1bd6ea86beae25c77d05280d59,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
-md5,b6f77b48223f57c67f00ccd8ab3d047e,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,b71956ba98abacf4b4dcc5a0453baaa2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,b7271756136f8f07923acae4e64f8efa,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,b736d9d2ca32d72181772d6aab4a8ca5,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
-md5,b7a76b82c2a5e16a3c346cc6aa145556,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,b7e14409b99a663fa181ec5e2abc8fb3,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
 md5,b86aacec897b8376c23647c4f0e78fba,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
 md5,b8846b3e1adfc89aa767687364fecf6a,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,b91a7dbb7f6b1f5c922c01181d71f972,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,b92c65af386ed772972b43cab0d55a4a,https://cybersecuritynews.com/hackers-use-six-layer-persistence,Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems,2026-05-22T21:02:22.000Z,2026-06-09T21:02:05.583Z
 md5,b95d45860a6aca8fd23b5a75ff6f6c5c,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
-md5,b96c0d609c1b7e74f8cb1442bf0b5418,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,b97812a2e6be54e725defbab88357fa2,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-06-09T21:02:05.583Z
 md5,b99bdb8880e4ef03727885ea50a4a2fc,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,b9c5b973ec910da2e3474468a85515e9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -2207,7 +2149,6 @@ md5,cff6c948bfede2c14590bd5daacd96ef,https://www.ransomware.live/group/fog,Ranso
 md5,d0291a6d151395076d7fb7ca9b798125,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,d0457a54a4905ed5d2bb8a2b7ef7be0f,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
 md5,d057ffad923778f8381b662593a46d2a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,d0a92b090279894f4628bc3d627fbde0,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,d1013bbaa2f151195d563b2b65126fa3,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-06-09T21:02:05.583Z
 md5,d10e0387e3d55dc1f82c23719e2b168b,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 md5,d14ec0d9f4c265174c54d0f949e006ea,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
@@ -2260,7 +2201,6 @@ md5,da3e8045d4c7ad80a1fe6ce1f65d64b1,https://www.ransomware.live/group/akira,Ran
 md5,db0d857a85478d3271c404548574d88f,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,db71c06452f27955314d6d4132506baa,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,db804c3f55c5d09dace40c76c99cab52,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
-md5,dbaa133fd3d1a834460206d83b480f80,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,dc2dbcbf61b0799cdacae8c61a1b162d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,dc344328208c3481587d0aab1005fcdd,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-06-09T21:02:05.583Z
 md5,dc7392e7f60537f113e25d66cff87876,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -2278,16 +2218,13 @@ md5,dee2ecb51fbfa2f1de9dbe9a7524da12,https://www.ransomware.live/group/fog,Ranso
 md5,df04653e98de0dd39f4e166a5cc9339b,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,df0dcae2fbd51e2319f9ea46517f4398,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,df2ef788797faaef5a33a146525af764,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,df36a31148d2c6414bdafeab771ea728,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,df6994b9de1e435af2cdd0885b2615e2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,df8a2e7aa46af996bdf67d79601671c3,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,df9e9578e48c28ec40b5719f20eabee6,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,dfb38db3eeee3287524d4d3aacae8c45,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,e002e13fa8990ebec5d7a8424bc7d5e0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,e01776ec67b9f1ae780c3e24ecc4bf06,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,e0411fcbbff0e20922d224c3ac8c811e,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
 md5,e0fd8ff6d39e4c11bdaf860c35fd8dc0,https://cybersecuritynews.com/payload-ransomware-uses-chacha20,Payload Ransomware Uses ChaCha20 and Curve25519 ECDH to Encrypt Windows Files,2026-05-26T07:44:26.000Z,2026-06-09T21:02:05.583Z
-md5,e102797eb4225a93eaeeaa6b9979716a,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,e11d147dad6e47a1cecb1f2755f95a55,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-06-09T21:02:05.583Z
 md5,e148dee0132f5d20c01fbb4a3fc87b47,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,e1ce144c54d3808839b5a24a8ad6fd8d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -2344,7 +2281,6 @@ md5,ebc321e4c8b761c50d13dc0d8cb86d72,https://www.ransomware.live/group/trigona,R
 md5,ec0a65af65cc430ed6feb769f92edb6f,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,ec4ca4db5ec0b782e51224fa7082ac06,https://cybersecuritynews.com/hackers-use-six-layer-persistence,Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems,2026-05-22T21:02:22.000Z,2026-06-09T21:02:05.583Z
 md5,ec5b1a6de3564c26c4e0e804e6bc2ecb,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-06-09T21:02:05.583Z
-md5,ecb3e753b60cc0f3d7de50fe7f133e49,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,ecd1abe0953939b062c9ba50584209cc,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,ece41a9cc7979a716d75ef1bec89ce41,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,ed2510198b03435570d72ce274bc245c,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
@@ -2368,12 +2304,10 @@ md5,ef8b86deb35985016271885cac9a713b,https://www.ransomware.live/group/raworld,R
 md5,efa0d819098dc38d7a92ecd7eaf8a82a,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
 md5,efb855cd4ef6669457cc90e330ea4967,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,efd6896140a769c2f7142cefbd68fc3d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,f01e96a80f92c414dd824aef5a1ac1e7,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,f0410358a0d9dbd0dff3113d9c744ca7,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-06-09T21:02:05.583Z
 md5,f05b57cdc3420acc359efe9e4941c428,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-06-09T21:02:05.583Z
 md5,f07d058c7c29f4d5c061b11c53853ece,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,f0f300206af1eed81b7b74357df437da,https://www.ransomware.live/group/j,Ransomware.live - j,,2026-06-09T21:02:05.583Z
-md5,f101a346502a324320f952d39e217064,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,f16238836909d07f86154c5ccbade96a,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
 md5,f162816f1d7b0006cfa0bfaf95c492c4,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,f17b6cdcbac9462f01da65bd4f8636db,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -2398,7 +2332,6 @@ md5,f59d26d27cbab79fe84ef2e7e3b718f9,https://www.ransomware.live/group/akira,Ran
 md5,f6359f375ae370e15bfef366f238ee15,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,f63c17d6753abb95d876f5c02dc57ad5,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,f6664f4e77b7bcc59772cd359fdf271c,https://www.ransomware.live/group/gunra,Ransomware.live - gunra,,2026-06-09T21:02:05.583Z
-md5,f6d328422e7ca22e70a6aa71315450f3,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,f6e5f0ed974c89e2b4a47989fc987c79,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
 md5,f71d8db7fda7659718330efcbd0776f0,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
 md5,f73005682c1d90f4b3269483b687e891,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-06-09T21:02:05.583Z
@@ -2415,7 +2348,6 @@ md5,f982da00c547913fd0ae7d0da0fc77e7,https://www.ransomware.live/group/qilin,Ran
 md5,f9a3a00b8772103ca109662b32d01934,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,fa11f152e232a3362556598c33b71def,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,fa2c07869bbc5d77c28eb79ef452c0c9,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
-md5,faa5f780fb0e0786dd1a2bd19af290ca,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,fac561bb0f072d29fe6f8ee6072c905a,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
 md5,faf9a658f4f9b424be3dab262a8af81c,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-06-09T21:02:05.583Z
 md5,fb1161fa1a5f5624b6fcd3aa674d864c,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -2423,7 +2355,6 @@ md5,fb1bc3f935fdeb3555465070ba2db33c,https://cybersecuritynews.com/hackers-abuse
 md5,fb42dec2c39cd7884ca4cb6b76308f51,https://www.ransomware.live/group/0apt,Ransomware.live - 0apt,,2026-06-09T21:02:05.583Z
 md5,fb7abc83427e101c90a2a830d1b38271,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,fbbb2685cb612b25c50c59c1ffa6e654,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
-md5,fbfe7513685913e6f878647eec429d45,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,fc2a126a389d9eb7b16b619b64a2a573,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,fc2c9afd1a78adaeaa63028dbe894eee,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,fc5be86c846e93b0a65dd18849205514,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -2439,7 +2370,6 @@ md5,fdc6848dad660414bed9ad1b381cf6e3,https://www.ransomware.live/group/qilin,Ran
 md5,fead64a37461b9e5d0875ebec870152a,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,feb81a8d7e0f91d6f74b440cdd3c2f28,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,febb622cd9eeb5c8860dcef4cbfd4b74,https://cybersecuritynews.com/kali365-phaas-operation-expands-beyond-microsoft-365,Kali365 PhaaS Operation Expands Beyond Microsoft 365 to Target Okta and MAX Messenger,2026-06-04T13:01:57.000Z,2026-06-09T21:02:05.583Z
-md5,ff371b43786cbb87dab325ce17cf8b7c,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 md5,ff458208c49836cdec92f0a4a7ba6afd,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
 md5,ff57f16df2d6d726e727591e57e7f759,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,ff8e92d2fd2df3ffad5bbe9e44828377,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -3273,7 +3203,6 @@ url,http://45.95.147.178/z/post/root.php,https://cybersecuritynews.com/hackers-u
 url,http://45.95.147.178/z/wor.php,https://cybersecuritynews.com/hackers-use-six-layer-persistence,Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems,2026-05-22T21:02:22.000Z,2026-06-09T21:02:05.583Z
 url,http://45.95.147.178/z/wr.php,https://cybersecuritynews.com/hackers-use-six-layer-persistence,Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems,2026-05-22T21:02:22.000Z,2026-06-09T21:02:05.583Z
 url,http://46.226.166.57/ce3cbfc887?force=1,https://cybersecuritynews.com/new-drivesurge-threat-actor-uses-clickfix,New DriveSurge Threat Actor Uses ClickFix and Fake Updates to Infect Website Visitors,2026-06-01T10:14:29.000Z,2026-06-09T21:02:05.583Z
-url,http://91.215.85.103/pay_or_leak/instructure_affected_schools_list.txt,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-06-09T21:02:05.583Z
 url,http://92.119.164.235/,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,http://aab.sportsontheweb.net/x.php,https://cybersecuritynews.com/typosquatted-npm-packages-steal-cloud-and-ci-cd-secrets,Typosquatted npm Packages Steal Cloud and CI/CD Secrets From Developer Systems,2026-05-29T14:23:05.000Z,2026-06-09T21:02:05.583Z
 url,http://abimj.edu.af/index.php,https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware,SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry,2026-06-01T12:27:32.000Z,2026-06-09T21:02:05.583Z
@@ -3330,7 +3259,6 @@ url,https://hardware-office.cc/foundation.halflife,https://cybersecuritynews.com
 url,https://hell1-kitty.cc/gamecenter.fileman,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-06-09T21:02:05.583Z
 url,https://hell1-kitty.cc/gamecenter.filemanager,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-06-09T21:02:05.583Z
 url,https://hell1-kitty.cc/update1_usb_usb_usb.vocx4wev8,https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper,"Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",2026-05-19T17:22:29.000Z,2026-06-09T21:02:05.583Z
-url,https://hkdk.events/djbk1i9hp0sqoh,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 url,https://huggingface.co/jpeek998/system-releases/resolve/main,https://cybersecuritynews.com/microsoftsystem64-malware-uses-huggingface-datasets,MicrosoftSystem64 Malware Uses HuggingFace Datasets for Stealthy Data Exfiltration,2026-05-29T08:54:28.000Z,2026-06-09T21:02:05.583Z
 url,https://ikhwancast.com,https://cybersecuritynews.com/whatsapp-disrupts-nso-cyberattack,WhatsApp Disrupts NSO-Linked Cyberattack Targeting Users with Pegasus Spyware,2026-06-08T14:54:14.000Z,2026-06-09T21:02:05.583Z
 url,https://ipv4.icanhazip.com,https://cybersecuritynews.com/hackers-backdoor-popular-art-template-npm-package,Hackers Backdoor Popular art-template npm Package to Launch Watering-Hole Attacks,2026-05-22T22:08:05.000Z,2026-06-09T21:02:05.583Z
@@ -3349,9 +3277,6 @@ url,https://newlumm.fun/,https://cybersecuritynews.com/hackers-use-youtube-and-s
 url,https://nova-client.com/nova-client-1.21.11-latest.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,https://nwphotoblog.com,https://cybersecuritynews.com/proofpoint-warns-ta4922-deploys-atlas-rat,"Proofpoint Warns TA4922 Deploys Atlas RAT, RomulusLoader, SilentRunLoader, and ValleyRAT",2026-06-04T15:09:02.000Z,2026-06-09T21:02:05.583Z
 url,https://odinclient.com/odin-1.21.10-latest.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
-url,https://pastebin.com/raw/5tmhdyrf,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
-url,https://pastebin.com/raw/m6ktha5z,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
-url,https://pastebin.com/raw/w6bvffwq,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 url,https://pixeldrain.com/api/file/o4jkp4tx?download,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,https://platecrumbs.com/11z77u3.php,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
 url,https://precommit.vercel.app/minimal.macflag,https://cybersecuritynews.com/north-korean-hackers-weaponize-git-hooks,North Korean Hackers Weaponize Git Hooks to Deploy Cross-Platform Malware,2026-05-12T13:24:33.000Z,2026-06-09T21:02:05.583Z
@@ -3359,11 +3284,8 @@ url,https://precommit.vercel.app/percival.macflag,https://cybersecuritynews.com/
 url,https://precommit.vercel.app/winds.cmd,https://cybersecuritynews.com/north-korean-hackers-weaponize-git-hooks,North Korean Hackers Weaponize Git Hooks to Deploy Cross-Platform Malware,2026-05-12T13:24:33.000Z,2026-06-09T21:02:05.583Z
 url,https://rekor.sigstore.dev/api/v1/log/entries,https://cybersecuritynews.com/hackers-compromise-antv-packages,Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave,2026-05-19T09:07:43.000Z,2026-06-09T21:02:05.583Z
 url,https://script-dev.digital/api/css.js,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
-url,https://shinyp0g4jjniry5qi824btzn0p6mxhrdtxe2k6pdy4g3vdzqvr.onion/,https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms,ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program,2026-05-11T13:21:11.000Z,2026-06-09T21:02:05.583Z
 url,https://simplevoicechatmod.com/downloads/voicechat-fabric-1.21.11-2.6.11.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,https://sjdkjj23.s3.ap-southeast-1.amazonaws.com/uacmc.png,https://cybersecuritynews.com/hackers-use-fake-income-tax-assessment-pages,Hackers Use Fake Income Tax Assessment Pages to Infect Windows Systems,2026-05-20T22:13:36.000Z,2026-06-09T21:02:05.583Z
-url,https://snippet.host/beuskq/raw,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
-url,https://snippet.host/uikosx/raw,https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories,Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware,2026-05-11T15:11:31.000Z,2026-06-09T21:02:05.583Z
 url,https://sourceforge.net/projects/bluewaveremover/,https://cybersecuritynews.com/hackers-use-fake-chatgpt-and-claude-installers,Hackers Use Fake ChatGPT and Claude Installers to Deploy DinDoor Backdoor,2026-05-27T18:16:03.000Z,2026-06-09T21:02:05.583Z
 url,https://sourceforge.net/projects/gearup/,https://cybersecuritynews.com/hackers-use-fake-chatgpt-and-claude-installers,Hackers Use Fake ChatGPT and Claude Installers to Deploy DinDoor Backdoor,2026-05-27T18:16:03.000Z,2026-06-09T21:02:05.583Z
 url,https://staticcloudflare.pro/api/css.js,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
