@@ -8,7 +8,7 @@ on:
   schedule:
     # Cada hora. El cron de Actions es best-effort: suele retrasarse unos minutos
     # y puede saltarse algún tick bajo carga. Para un feed de IOCs es aceptable.
-    - cron: '0 * * * *'
+    - cron: '37 * * * *'
   workflow_dispatch: {}
 
 # Necesario para que el GITHUB_TOKEN integrado pueda pushear el CSV al repo.
