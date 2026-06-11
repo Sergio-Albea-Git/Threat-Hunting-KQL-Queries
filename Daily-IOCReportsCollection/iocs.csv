@@ -64,7 +64,6 @@ domain,cloud.zistopstoabetterlife.com,https://cybersecuritynews.com/hackers-use-
 domain,contosocorp.onmicrosoft.com,https://cybersecuritynews.com/microsoft-entra-agent-id-logs,Microsoft Entra Agent ID Logs Reveal Suspicious Assistive Agent Activity,2026-06-09T16:03:16.000Z,2026-06-09T21:02:05.583Z
 domain,cookies.28gholland.workers.dev,https://cybersecuritynews.com/tycoon-2fa-operators-adopt-oauth-device-code,Tycoon 2FA Operators Adopt OAuth Device Code Phishing to Bypass MFA,2026-05-15T11:33:51.000Z,2026-06-09T21:02:05.583Z
 domain,copilot-ai.whisdev.org,https://cybersecuritynews.com/microsoftsystem64-malware-uses-huggingface-datasets,MicrosoftSystem64 Malware Uses HuggingFace Datasets for Stealthy Data Exfiltration,2026-05-29T08:54:28.000Z,2026-06-09T21:02:05.583Z
-domain,cp.dene.de.com,https://cybersecuritynews.com/hackers-abuse-cpanel-and-whm-servers,Hackers Abuse CVE-2026-41940 to Take Over cPanel and WHM Servers,2026-05-12T03:37:17.000Z,2026-06-09T21:02:05.583Z
 domain,d.pc-weide.com,https://cybersecuritynews.com/hackers-use-tax-phishing-emails,Hackers Use Tax Phishing Emails to Deploy In-Memory Malware on Windows Systems,2026-06-10T17:11:05.000Z,2026-06-10T19:18:42.344Z
 domain,data-cloud-ofe8.p-8yejy42o.workers.dev,https://cybersecuritynews.com/hackers-abuse-trusted-google-domains,Hackers Abuse Trusted Google Domains to Hide Phishing Links From Email Gateways,2026-05-27T10:43:20.000Z,2026-06-09T21:02:05.583Z
 domain,ddjidd564.github.io,https://cybersecuritynews.com/hackers-use-34-malicious-packages,"Hackers Use 34 Malicious Packages to Steal Cloud Keys, Wallets, and SSH Credentials",2026-06-02T13:35:16.000Z,2026-06-09T21:02:05.583Z
@@ -1393,7 +1392,6 @@ md5,21c244771422cf24ef49cdaf2b437c12,https://www.ransomware.live/group/fog,Ranso
 md5,21e9327a11f82e300c9d753b86df3a19,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,2238997aec239bb5ebd7589f754bf606,https://www.ransomware.live/group/j,Ransomware.live - j,,2026-06-09T21:02:05.583Z
 md5,2277d6615a877c34b67d6f3c919df5b7,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
-md5,2286f126ab4740ccf2595ad1fa0c615c,https://cybersecuritynews.com/hackers-abuse-cpanel-and-whm-servers,Hackers Abuse CVE-2026-41940 to Take Over cPanel and WHM Servers,2026-05-12T03:37:17.000Z,2026-06-09T21:02:05.583Z
 md5,22c5aecc3889592780338a44a2452b8b,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,22d35005e926fe29379cb07b810a6075,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,2348b069647af0a714ae1e005f73b522,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
@@ -1899,7 +1897,6 @@ md5,9200c2686560b4bfe672a051ea0356ee,https://www.ransomware.live/group/raworld,R
 md5,927c94b401a7711cf5f6c910d9c46f52,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,92a20ba91b4d3b89b57aa95a120667ae,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-06-09T21:02:05.583Z
 md5,92ed4d259940d4294190e60add5cc587,https://cybersecuritynews.com/china-linked-hackers-target-southeast-asian-edge-routers,China-Linked Hackers Target Southeast Asian Edge Routers With Custom Linux Implant,2026-05-26T16:08:22.000Z,2026-06-09T21:02:05.583Z
-md5,9305b4ebbb4d39907cf36b62989a6af3,https://cybersecuritynews.com/hackers-abuse-cpanel-and-whm-servers,Hackers Abuse CVE-2026-41940 to Take Over cPanel and WHM Servers,2026-05-12T03:37:17.000Z,2026-06-09T21:02:05.583Z
 md5,93472c81a0f33a18fa8f88c8b2814356,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,935d7db2557d62a55a23b6020d42351c,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,93931e0aed4fc5322b1691b140de1ce9,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -2360,7 +2357,6 @@ md5,fa2c07869bbc5d77c28eb79ef452c0c9,https://www.ransomware.live/group/trigona,R
 md5,fac561bb0f072d29fe6f8ee6072c905a,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
 md5,faf9a658f4f9b424be3dab262a8af81c,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-06-09T21:02:05.583Z
 md5,fb1161fa1a5f5624b6fcd3aa674d864c,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
-md5,fb1bc3f935fdeb3555465070ba2db33c,https://cybersecuritynews.com/hackers-abuse-cpanel-and-whm-servers,Hackers Abuse CVE-2026-41940 to Take Over cPanel and WHM Servers,2026-05-12T03:37:17.000Z,2026-06-09T21:02:05.583Z
 md5,fb42dec2c39cd7884ca4cb6b76308f51,https://www.ransomware.live/group/0apt,Ransomware.live - 0apt,,2026-06-09T21:02:05.583Z
 md5,fb7abc83427e101c90a2a830d1b38271,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,fbbb2685cb612b25c50c59c1ffa6e654,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
@@ -2437,7 +2433,6 @@ sha1,6ea9c6d2d932532a4cd44c7974fb1a0a87dbfcf9,https://cybersecuritynews.com/hack
 sha1,6fded427a16d5314ba3e1eb9afd120dc84449769,https://cybersecuritynews.com/hackers-abuse-scheduled-tasks-to-maintain-persistence,Hackers Abuse Scheduled Tasks to Maintain Persistence in FrostyNeighbor Attacks,2026-05-15T08:04:29.000Z,2026-06-09T21:02:05.583Z
 sha1,776a43e46c36a539c916ed426745ee96e2392b39,https://cybersecuritynews.com/hackers-abuse-scheduled-tasks-to-maintain-persistence,Hackers Abuse Scheduled Tasks to Maintain Persistence in FrostyNeighbor Attacks,2026-05-15T08:04:29.000Z,2026-06-09T21:02:05.583Z
 sha1,793cb9b1d7846afa4fb8e900d6e9ed9501dc3e7e,https://cybersecuritynews.com/new-malware-framework-enables-screen-control,"New Malware Framework Enables Screen Control, Browser Artifact Access, and UAC Bypass",2026-05-14T18:32:23.000Z,2026-06-09T21:02:05.583Z
-sha1,79ac49eedf774dd4b0cfa308722bc463cfe5885c,https://cybersecuritynews.com/tanstack-npm-packages-hacked,84 TanStack npm Packages Hacked in Ongoing Supply-Chain Attack Targeting CI Credentials,2026-05-12T02:44:11.000Z,2026-06-09T21:02:05.583Z
 sha1,7dcfe9ee25841dfd58d3d6871bf867fe32141dfb,https://cybersecuritynews.com/graphworm-malware-uses-microsoft-onedrive,GraphWorm Malware Uses Microsoft OneDrive as Command-and-Control Infrastructure,2026-05-20T10:29:50.000Z,2026-06-09T21:02:05.583Z
 sha1,7e28d9889f414b06c19a22a9bd316f0ac279a4d6,https://cybersecuritynews.com/ironworm-supply-chain-attack-uses-malicious-npm-packages,IronWorm Supply Chain Attack Uses Malicious npm Packages to Steal Developer Secrets,2026-06-04T19:35:36.000Z,2026-06-09T21:02:05.583Z
 sha1,7e537d8e91668580a482bd77a5a4caba26d6bdac,https://cybersecuritynews.com/hackers-abuse-scheduled-tasks-to-maintain-persistence,Hackers Abuse Scheduled Tasks to Maintain Persistence in FrostyNeighbor Attacks,2026-05-15T08:04:29.000Z,2026-06-09T21:02:05.583Z
