@@ -511,7 +511,6 @@ filename,installer.dll,https://cybersecuritynews.com/hackers-exploit-ghost-cms-c
 filename,intelaudioservice.exe,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
 filename,intesacarte.apk,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
 filename,invoice.pdf,https://cybersecuritynews.com/attackers-abuse-cloud-services-malicious-traffic,Attackers Abuse Cloud Services to Hide Malicious Traffic,2026-06-02T17:13:03.000Z,2026-06-09T21:02:05.583Z
-filename,keyhunter_worker.py,https://cybersecuritynews.com/langflow-cve-2026-33017-exploited,Langflow CVE-2026-33017 Exploited to Steal AWS Keys and Deploy NATS Worker,2026-05-14T09:12:08.000Z,2026-06-09T21:02:05.583Z
 filename,klirwaycarte.apk,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
 filename,krypton-1.0.0.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 filename,krypton-cracked-1.0.0.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
@@ -813,7 +812,6 @@ ip,158.160.3.224:443,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,158.94.211.76,https://cybersecuritynews.com/hackers-use-fake-purchase-orders-to-deploy-js-monoglyphrat,JS.MonoGlyphRAT Malware Targets US Enterprises Using Fake Purchase Orders,2026-06-03T15:56:27.000Z,2026-06-09T21:02:05.583Z
 ip,159.223.46.184,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-06-09T21:02:05.583Z
 ip,159.89.112.223:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
-ip,159.89.205.184,https://cybersecuritynews.com/langflow-cve-2026-33017-exploited,Langflow CVE-2026-33017 Exploited to Steal AWS Keys and Deploy NATS Worker,2026-05-14T09:12:08.000Z,2026-06-09T21:02:05.583Z
 ip,160.119.76.250,https://cybersecuritynews.com/hackers-use-six-layer-persistence,Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems,2026-05-22T21:02:22.000Z,2026-06-09T21:02:05.583Z
 ip,160.191.89.7,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
 ip,161.35.200.18,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -1062,7 +1060,6 @@ ip,45.153.34.71,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,
 ip,45.156.87.204,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
 ip,45.156.87.253,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
 ip,45.156.87.69,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
-ip,45.192.109.25,https://cybersecuritynews.com/langflow-cve-2026-33017-exploited,Langflow CVE-2026-33017 Exploited to Steal AWS Keys and Deploy NATS Worker,2026-05-14T09:12:08.000Z,2026-06-09T21:02:05.583Z
 ip,45.227.253.59:3111,https://www.ransomware.live/group/cry0,Ransomware.live - cry0,,2026-06-09T21:02:05.583Z
 ip,45.234.176.202,https://cybersecuritynews.com/hackers-use-six-layer-persistence,Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems,2026-05-22T21:02:22.000Z,2026-06-09T21:02:05.583Z
 ip,45.251.243.210,https://cybersecuritynews.com/mustang-panda-deploys-plugx-rat,Mustang Panda Deploys PlugX RAT Through Multi-Stage LNK and PowerShell Attack Chain,2026-06-02T13:43:29.000Z,2026-06-09T21:02:05.583Z
@@ -3258,7 +3255,6 @@ url,http://forestoaker.com:6290,https://cybersecuritynews.com/hackers-impersonat
 url,http://friendlydomain.ru/,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,http://gluckcreek.online:48261,https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot,"Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",2026-06-04T21:22:17.000Z,2026-06-09T21:02:05.583Z
 url,http://ip-api.com/json,https://cybersecuritynews.com/hackers-use-grandoreiro-malware-to-target-portuguese-banks,Hackers Use Grandoreiro Malware to Target Portuguese Banks and Latin American Companies,2026-05-27T18:57:51.000Z,2026-06-09T21:02:05.583Z
-url,http://ipinfo.io/json,https://cybersecuritynews.com/seedworm-apt-abuses-signed-fortemedia,Seedworm APT Abuses Signed Fortemedia and SentinelOne Binaries for DLL Sideloading,2026-05-14T08:14:20.000Z,2026-06-09T21:02:05.583Z
 url,http://limbo100x.ru/,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,http://metakit.fireant.vn/software/setup.exe,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
 url,http://metakit.fireant.vn/software/version.xml,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
@@ -3333,7 +3329,6 @@ url,https://steamcommunity.com/id/enomisvool123/,https://cybersecuritynews.com/w
 url,https://steamcommunity.com/id/eremohnf342,https://cybersecuritynews.com/wordpress-malware-abuses-steam,WordPress Malware Abuses Steam Community Profiles for C2 Operations,2026-06-02T18:50:58.000Z,2026-06-09T21:02:05.583Z
 url,https://steamcommunity.com/id/ravypadliha,https://cybersecuritynews.com/wordpress-malware-abuses-steam,WordPress Malware Abuses Steam Community Profiles for C2 Operations,2026-06-02T18:50:58.000Z,2026-06-09T21:02:05.583Z
 url,https://steamcommunity.com/profiles/76561199096946028/,https://cybersecuritynews.com/wordpress-malware-abuses-steam,WordPress Malware Abuses Steam Community Profiles for C2 Operations,2026-06-02T18:50:58.000Z,2026-06-09T21:02:05.583Z
-url,https://svc.wompworthy.com,https://cybersecuritynews.com/seedworm-apt-abuses-signed-fortemedia,Seedworm APT Abuses Signed Fortemedia and SentinelOne Binaries for DLL Sideloading,2026-05-14T08:14:20.000Z,2026-06-09T21:02:05.583Z
 url,https://t.m-kosche.com:443/api/public/otel/v1/traces,https://cybersecuritynews.com/hackers-compromise-antv-packages,Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave,2026-05-19T09:07:43.000Z,2026-06-09T21:02:05.583Z
 url,https://t.me/+pw_g24ajdcqwmmyy,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,https://t.me/metamaskenmann,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
