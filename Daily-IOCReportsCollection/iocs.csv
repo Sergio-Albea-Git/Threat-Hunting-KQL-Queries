@@ -926,13 +926,7 @@ ip,199.232.210.172,https://www.ransomware.live/group/lockbit3,Ransomware.live - 
 ip,20.101.57.9,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
 ip,20.106.103.146,https://cybersecuritynews.com/microsoft-entra-agent-id-logs,Microsoft Entra Agent ID Logs Reveal Suspicious Assistive Agent Activity,2026-06-09T16:03:16.000Z,2026-06-09T21:02:05.583Z
 ip,20.12.23.50,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
-ip,20.12.5.4,https://cybersecuritynews.com/cisco-catalyst-sd-wan-controller-0-day,Cisco Catalyst SD-WAN Controller 0-Day Actively Exploited to Gain Admin Access,2026-05-15T02:30:10.000Z,2026-06-09T21:02:05.583Z
-ip,20.12.6.2,https://cybersecuritynews.com/cisco-catalyst-sd-wan-controller-0-day,Cisco Catalyst SD-WAN Controller 0-Day Actively Exploited to Gain Admin Access,2026-05-15T02:30:10.000Z,2026-06-09T21:02:05.583Z
-ip,20.12.7.1,https://cybersecuritynews.com/cisco-catalyst-sd-wan-controller-0-day,Cisco Catalyst SD-WAN Controller 0-Day Actively Exploited to Gain Admin Access,2026-05-15T02:30:10.000Z,2026-06-09T21:02:05.583Z
-ip,20.15.4.4,https://cybersecuritynews.com/cisco-catalyst-sd-wan-controller-0-day,Cisco Catalyst SD-WAN Controller 0-Day Actively Exploited to Gain Admin Access,2026-05-15T02:30:10.000Z,2026-06-09T21:02:05.583Z
-ip,20.15.5.2,https://cybersecuritynews.com/cisco-catalyst-sd-wan-controller-0-day,Cisco Catalyst SD-WAN Controller 0-Day Actively Exploited to Gain Admin Access,2026-05-15T02:30:10.000Z,2026-06-09T21:02:05.583Z
 ip,20.17.161.118,https://cybersecuritynews.com/attackers-use-cloudflare-storage-endpoint,Attackers Use Cloudflare Storage Endpoint to Exfiltrate Files From Compromised Networks,2026-05-19T14:01:55.000Z,2026-06-09T21:02:05.583Z
-ip,20.18.2.2,https://cybersecuritynews.com/cisco-catalyst-sd-wan-controller-0-day,Cisco Catalyst SD-WAN Controller 0-Day Actively Exploited to Gain Admin Access,2026-05-15T02:30:10.000Z,2026-06-09T21:02:05.583Z
 ip,200.9.155.153,https://cybersecuritynews.com/btmob-malware-control-android-devices,New BTMOB Malware Lets Attackers Remotely Control Android Devices,2026-05-27T15:01:25.000Z,2026-06-09T21:02:05.583Z
 ip,201.138.238.195,https://cybersecuritynews.com/hackers-abuse-mshta-legacy-windows-tool,Hackers Abuse MSHTA Legacy Windows Tool to Deliver LummaStealer and Amatera Malware,2026-05-20T11:20:28.000Z,2026-06-09T21:02:05.583Z
 ip,202.56.2.126,https://cybersecuritynews.com/wordpress-plugin-vulnerability-exploit,Hackers Actively Exploiting WordPress Plugin Vulnerability to Inject PHP code,2026-06-04T12:01:36.000Z,2026-06-09T21:02:05.583Z
@@ -979,7 +973,6 @@ ip,23.254.244.163:443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,23.54.127.209,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
 ip,23.95.182.59,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-06-09T21:02:05.583Z
 ip,24.199.90.58,https://cybersecuritynews.com/hackers-use-nf-e-invoice-lures,Hackers Use NF-e Invoice Lures to Deliver Banana RAT Through Malicious Batch Files,2026-05-22T20:20:43.000Z,2026-06-09T21:02:05.583Z
-ip,26.1.1.1,https://cybersecuritynews.com/cisco-catalyst-sd-wan-controller-0-day,Cisco Catalyst SD-WAN Controller 0-Day Actively Exploited to Gain Admin Access,2026-05-15T02:30:10.000Z,2026-06-09T21:02:05.583Z
 ip,3.125.114.193,https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll,Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts,2026-05-25T19:48:22.000Z,2026-06-09T21:02:05.583Z
 ip,3.125.114.57,https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll,Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts,2026-05-25T19:48:22.000Z,2026-06-09T21:02:05.583Z
 ip,3.64.60.12:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
