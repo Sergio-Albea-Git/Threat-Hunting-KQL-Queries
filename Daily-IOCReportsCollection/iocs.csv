@@ -549,6 +549,7 @@ filename,rdp_new.ps1,https://cybersecuritynews.com/cloud-atlas-apt-group-modifie
 filename,replit.app/api/acpsuydgwbasd.exe,https://cybersecuritynews.com/solana-fakefix-campaign-uses-25-malicious-npm-and-pypi-packages,Solana FakeFix Campaign Uses 25 Malicious npm and PyPI Packages to Steal Developer Secrets,2026-06-12T09:13:56.000Z,2026-06-12T11:28:35.289Z
 filename,reprot.doc,https://cybersecuritynews.com/operation-dragon-whistle-uses-malicious-lnk-files,Operation Dragon Whistle Uses Malicious LNK Files to Target Changzhou University,2026-05-22T14:44:33.000Z,2026-06-09T21:02:05.583Z
 filename,reprot.pdf,https://cybersecuritynews.com/operation-dragon-whistle-uses-malicious-lnk-files,Operation Dragon Whistle Uses Malicious LNK Files to Target Changzhou University,2026-05-22T14:44:33.000Z,2026-06-09T21:02:05.583Z
+filename,result.dll,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 filename,rootfs.tar.zst.bin,https://cybersecuritynews.com/legitimate-looking-codex-remote-ui,Legitimate-Looking Codex Remote UI Steals OpenAI Codex Authentication Tokens,2026-05-29T11:27:24.000Z,2026-06-09T21:02:05.583Z
 filename,router.elf,https://cybersecuritynews.com/china-linked-hackers-target-southeast-asian-edge-routers,China-Linked Hackers Target Southeast Asian Edge Routers With Custom Linux Implant,2026-05-26T16:08:22.000Z,2026-06-09T21:02:05.583Z
 filename,runtimebroker_update.exe,https://cybersecuritynews.com/hackers-deploy-azureveil-adaptix-c2-agent,Hackers Deploy AZUREVEIL Adaptix C2 Agent via Spearphishing Campaign,2026-06-02T10:28:56.000Z,2026-06-09T21:02:05.583Z
@@ -702,6 +703,9 @@ ip,128.254.230.110:443,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,13.37.127.130:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,13.38.235.203:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,130.193.52.194:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
+ip,136.0.141.112,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
+ip,136.0.141.138,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
+ip,136.0.141.41,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,139.162.11.152,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
 ip,139.180.128.42,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
 ip,139.99.33.239,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
@@ -721,6 +725,8 @@ ip,144.172.95.78,https://www.ransomware.live/group/ralord,Ransomware.live - ralo
 ip,144.208.127.130:14906,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,144.208.127.155,https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability,Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware,2026-06-08T17:18:01.000Z,2026-06-09T21:02:05.583Z
 ip,146.19.216.119,https://cybersecuritynews.com/palo-alto-vulnerability-exploited,Palo Alto Networks PAN-OS Authentication Vulnerability Bypass Exploited in the Wild,2026-05-30T02:45:22.000Z,2026-06-09T21:02:05.583Z
+ip,146.19.216.120,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
+ip,146.19.216.125,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,146.19.24.84:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,146.70.129.114,https://cybersecuritynews.com/hackers-use-six-layer-persistence,Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems,2026-05-22T21:02:22.000Z,2026-06-09T21:02:05.583Z
 ip,146.70.143.147:18095,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -766,6 +772,7 @@ ip,163.172.53.20,https://cybersecuritynews.com/jinx-0164-threat-actor-using-link
 ip,164.92.223.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,165.227.69.170:1433,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,165.227.69.170:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
+ip,166.0.132.237,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,166.88.77.186,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
 ip,167.71.69.135:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,167.88.160.15:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -802,6 +809,7 @@ ip,178.156.165.82,https://cybersecuritynews.com/smartapesg-campaign-uses-clickfi
 ip,178.156.173.194,https://cybersecuritynews.com/smartapesg-campaign-uses-clickfix-scripts,SmartApeSG Campaign Uses ClickFix Scripts to Infect Windows Hosts With RAT Malware,2026-06-01T14:42:22.000Z,2026-06-09T21:02:05.583Z
 ip,178.156.177.192,https://cybersecuritynews.com/btmob-malware-control-android-devices,New BTMOB Malware Lets Attackers Remotely Control Android Devices,2026-05-27T15:01:25.000Z,2026-06-09T21:02:05.583Z
 ip,179.43.139.126,https://www.ransomware.live/group/benzona,Ransomware.live - benzona,,2026-06-09T21:02:05.583Z
+ip,179.43.172.213,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,179.43.177.220,https://cybersecuritynews.com/seedworm-apt-abuses-signed-fortemedia-2,Seedworm APT Abuses Signed Fortemedia and SentinelOne Binaries for DLL Sideloading,2026-05-27T12:22:42.000Z,2026-06-09T21:02:05.583Z
 ip,18.139.83.110,https://cybersecuritynews.com/proofpoint-warns-ta4922-deploys-atlas-rat,"Proofpoint Warns TA4922 Deploys Atlas RAT, RomulusLoader, SilentRunLoader, and ValleyRAT",2026-06-04T15:09:02.000Z,2026-06-09T21:02:05.583Z
 ip,18.159.131.20:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -824,6 +832,7 @@ ip,185.182.193.21,https://cybersecuritynews.com/hackers-use-bluerabbit-backdoor,
 ip,185.189.13.56,https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services,WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files,2026-05-21T07:30:46.000Z,2026-06-09T21:02:05.583Z
 ip,185.193.48.92:445,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,185.193.48.92:4675,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
+ip,185.195.232.139,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,185.200.191.37,https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services,WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files,2026-05-21T07:30:46.000Z,2026-06-09T21:02:05.583Z
 ip,185.203.116.18,https://cybersecuritynews.com/devilnfc-android-malware-uses-kiosk-mode,DevilNFC Android Malware Uses Kiosk Mode to Trap Victims During NFC Relay Attacks,2026-05-20T17:37:54.000Z,2026-06-09T21:02:05.583Z
 ip,185.208.159.199,https://cybersecuritynews.com/hackers-abuse-mshta-legacy-windows-tool,Hackers Abuse MSHTA Legacy Windows Tool to Deliver LummaStealer and Amatera Malware,2026-05-20T11:20:28.000Z,2026-06-09T21:02:05.583Z
@@ -880,6 +889,7 @@ ip,194.213.18.181:49493,https://www.ransomware.live/group/bianlian,Ransomware.li
 ip,194.36.179.18,https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services,WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files,2026-05-21T07:30:46.000Z,2026-06-09T21:02:05.583Z
 ip,194.36.179.30,https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services,WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files,2026-05-21T07:30:46.000Z,2026-06-09T21:02:05.583Z
 ip,194.36.188.25:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
+ip,194.58.66.82,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,194.68.26.241,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
 ip,194.68.27.93:40812,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,194.68.27.93:53312,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -894,6 +904,7 @@ ip,195.201.21.34,https://www.ransomware.live/group/interlock,Ransomware.live - i
 ip,195.230.23.91:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,195.58.49.99,https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll,Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts,2026-05-25T19:48:22.000Z,2026-06-09T21:02:05.583Z
 ip,197.51.170.131,https://cybersecuritynews.com/hackers-abuse-middle-east-telecom-networks,Hackers Abuse Middle East Telecom Networks for Large-Scale Command-and-Control Operations,2026-05-22T23:10:05.000Z,2026-06-09T21:02:05.583Z
+ip,198.12.106.60,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,199.217.99.122,https://cybersecuritynews.com/android-banking-trojan-overlayphantom,Android Banking Trojan OverlayPhantom Abuses Accessibility Service to Control Devices,2026-06-01T16:09:13.000Z,2026-06-09T21:02:05.583Z
 ip,199.232.210.172,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
 ip,20.101.57.9,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
@@ -902,6 +913,7 @@ ip,20.12.23.50,https://www.ransomware.live/group/lockbit3,Ransomware.live - lock
 ip,20.17.161.118,https://cybersecuritynews.com/attackers-use-cloudflare-storage-endpoint,Attackers Use Cloudflare Storage Endpoint to Exfiltrate Files From Compromised Networks,2026-05-19T14:01:55.000Z,2026-06-09T21:02:05.583Z
 ip,200.9.155.153,https://cybersecuritynews.com/btmob-malware-control-android-devices,New BTMOB Malware Lets Attackers Remotely Control Android Devices,2026-05-27T15:01:25.000Z,2026-06-09T21:02:05.583Z
 ip,201.138.238.195,https://cybersecuritynews.com/hackers-abuse-mshta-legacy-windows-tool,Hackers Abuse MSHTA Legacy Windows Tool to Deliver LummaStealer and Amatera Malware,2026-05-20T11:20:28.000Z,2026-06-09T21:02:05.583Z
+ip,202.144.192.47,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,202.56.2.126,https://cybersecuritynews.com/wordpress-plugin-vulnerability-exploit,Hackers Actively Exploiting WordPress Plugin Vulnerability to Inject PHP code,2026-06-04T12:01:36.000Z,2026-06-09T21:02:05.583Z
 ip,202.61.160.201,https://cybersecuritynews.com/hackers-use-fake-income-tax-assessment-pages,Hackers Use Fake Income Tax Assessment Pages to Infect Windows Systems,2026-05-20T22:13:36.000Z,2026-06-09T21:02:05.583Z
 ip,203.161.43.187:53,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -932,6 +944,7 @@ ip,217.69.11.57,https://cybersecuritynews.com/developer-targeting-glassworm-malw
 ip,217.69.11.99,https://cybersecuritynews.com/developer-targeting-glassworm-malware-abuses-npm,"Developer-Targeting Glassworm Malware Abuses npm, PyPI, OpenVSX, and GitHub",2026-05-27T08:08:39.000Z,2026-06-09T21:02:05.583Z
 ip,220.205.123.186,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
 ip,222.73.29.92,https://cybersecuritynews.com/hackers-abuse-mshta-legacy-windows-tool,Hackers Abuse MSHTA Legacy Windows Tool to Deliver LummaStealer and Amatera Malware,2026-05-20T11:20:28.000Z,2026-06-09T21:02:05.583Z
+ip,23.128.228.6,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,23.137.105.75,https://cybersecuritynews.com/north-korea-aligned-hackers-abuse-github-repositories,North Korea-Aligned Hackers Abuse GitHub Repositories to Infect Developers,2026-06-09T16:02:01.000Z,2026-06-09T21:02:05.583Z
 ip,23.227.196.107,https://cybersecuritynews.com/hackers-use-fake-chatgpt-and-claude-installers,Hackers Use Fake ChatGPT and Claude Installers to Deploy DinDoor Backdoor,2026-05-27T18:16:03.000Z,2026-06-09T21:02:05.583Z
 ip,23.227.198.237:13937,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -943,6 +956,7 @@ ip,23.227.198.237:64103,https://www.ransomware.live/group/bianlian,Ransomware.li
 ip,23.251.57.59,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
 ip,23.254.129.112,https://cybersecuritynews.com/china-linked-hackers-target-southeast-asian-edge-routers,China-Linked Hackers Target Southeast Asian Edge Routers With Custom Linux Implant,2026-05-26T16:08:22.000Z,2026-06-09T21:02:05.583Z
 ip,23.254.244.163:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
+ip,23.26.237.80,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,23.54.127.209,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
 ip,23.95.182.59,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-06-09T21:02:05.583Z
 ip,24.199.90.58,https://cybersecuritynews.com/hackers-use-nf-e-invoice-lures,Hackers Use NF-e Invoice Lures to Deliver Banana RAT Through Malicious Batch Files,2026-05-22T20:20:43.000Z,2026-06-09T21:02:05.583Z
@@ -966,6 +980,8 @@ ip,37.32.15.8,https://cybersecuritynews.com/hackers-abuse-middle-east-telecom-ne
 ip,38.132.122.213,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-06-09T21:02:05.583Z
 ip,38.132.122.214,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-06-09T21:02:05.583Z
 ip,38.134.148.20,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
+ip,38.225.209.122,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
+ip,38.225.209.229,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,38.246.249.74,https://cybersecuritynews.com/world-cup-phishing-campaign-nearly-triples,World Cup Phishing Campaign Nearly Triples With 203 Unique IP Addresses,2026-05-22T23:08:47.000Z,2026-06-09T21:02:05.583Z
 ip,38.47.213.197,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
 ip,38.54.107.167,https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability,Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware,2026-06-08T17:18:01.000Z,2026-06-09T21:02:05.583Z
@@ -1031,6 +1047,7 @@ ip,5.189.149.171,https://www.ransomware.live/group/sorry,Ransomware.live - sorry
 ip,5.252.177.249,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
 ip,5.255.106.12:3389,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,5.255.106.12:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
+ip,5.9.241.27,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,50.54.130.245,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
 ip,51.16.209.105:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,51.250.0.16:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -2685,6 +2702,7 @@ sha256,794fab796e48f97e976d99157913ab5beee5ae8ef2731bf2af2222ae5b6a1c65,https://
 sha256,79af67ed343bc45b6a19e4836ebb83f1130243ff98f48465f9a7a807ba4bfa91,https://cybersecuritynews.com/mustang-panda-deploys-plugx-rat,Mustang Panda Deploys PlugX RAT Through Multi-Stage LNK and PowerShell Attack Chain,2026-06-02T13:43:29.000Z,2026-06-09T21:02:05.583Z
 sha256,7a311b584497e8133cd85950fec6132904dd5b02388a9feed3f5e057fb891d09,https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows,"The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",2026-05-19T20:12:32.000Z,2026-06-09T21:02:05.583Z
 sha256,7aa15de93cf85729ddf970e8d7897f69ece3ca29608f73e784a9ba40c9cea18d,https://cybersecuritynews.com/new-drivesurge-threat-actor-uses-clickfix,New DriveSurge Threat Actor Uses ClickFix and Fake Updates to Infect Website Visitors,2026-06-01T10:14:29.000Z,2026-06-09T21:02:05.583Z
+sha256,7b03fb383a5ce784a3cb9b0f8a76a84e984d14e553de5d98faff3d07d9793085,https://cybersecuritynews.com/malware-platform-unlocked-php-installation-page,Threat Actor Malware Platform Exposed via Unlocked PHP Installation Page,2026-06-15T07:31:34.000Z,2026-06-15T08:40:33.342Z
 sha256,7ba5481c873bb3081442561f749f590badd72ef249fddfe993e30b28dc0c2112,https://cybersecuritynews.com/smartapesg-campaign-uses-clickfix-scripts,SmartApeSG Campaign Uses ClickFix Scripts to Infect Windows Hosts With RAT Malware,2026-06-01T14:42:22.000Z,2026-06-09T21:02:05.583Z
 sha256,7c1f99dca8e5a7897892f9d224a6495023a2cfd2671697d229d355978c415ed2,https://cybersecuritynews.com/knowledgedeliver-lms-zero-day-exploited,KnowledgeDeliver LMS Zero-Day Exploited to Deploy BLUEBEAM Web Shell,2026-05-25T15:30:48.000Z,2026-06-09T21:02:05.583Z
 sha256,7c4b465159e1c7dbbe67f0eeb3f58de1caba293999a49843a0818480f05be14e,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-06-09T21:02:05.583Z
