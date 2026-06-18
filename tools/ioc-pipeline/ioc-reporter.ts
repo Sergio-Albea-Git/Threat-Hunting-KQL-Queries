@@ -421,6 +421,39 @@ function isPrivateOrReservedIP(ip: string): boolean {
   return false;
 }
 
+// Cloudflare's published IPv4 edge ranges (https://www.cloudflare.com/ips-v4).
+// IPs in these ranges are CDN / reverse-proxy edge addresses fronting sites,
+// not attacker infrastructure — capturing them yields false-positive IOCs.
+// The list is stable (Cloudflare changes it rarely); refresh from the URL above
+// if they announce new ranges.
+const CLOUDFLARE_IPV4_CIDRS = [
+  "173.245.48.0/20", "103.21.244.0/22", "103.22.200.0/22", "103.31.4.0/22",
+  "141.101.64.0/18", "108.162.192.0/18", "190.93.240.0/20", "188.114.96.0/20",
+  "197.234.240.0/22", "198.41.128.0/17", "162.158.0.0/15", "104.16.0.0/13",
+  "104.24.0.0/14", "172.64.0.0/13", "131.0.72.0/22",
+];
+
+function ipv4ToUint(ip: string): number | null {
+  const parts = ip.split(".").map(Number);
+  if (parts.length !== 4 || parts.some(n => Number.isNaN(n) || n < 0 || n > 255)) return null;
+  return ((parts[0] << 24) | (parts[1] << 16) | (parts[2] << 8) | parts[3]) >>> 0;
+}
+
+const CLOUDFLARE_RANGES = CLOUDFLARE_IPV4_CIDRS.map(cidr => {
+  const [net, bitsStr] = cidr.split("/");
+  const bits = Number(bitsStr);
+  const mask = bits === 0 ? 0 : (0xffffffff << (32 - bits)) >>> 0;
+  return { base: (ipv4ToUint(net)! & mask) >>> 0, mask };
+});
+
+/** True if `ip` (optionally `ip:port`) falls in a Cloudflare edge range.
+ *  Exported for csv-pusher post-build defense-in-depth filtering. */
+export function isCloudflareIP(ip: string): boolean {
+  const u = ipv4ToUint(ip.split(":")[0]);
+  if (u === null) return false;
+  return CLOUDFLARE_RANGES.some(r => ((u & r.mask) >>> 0) === r.base);
+}
+
 function isPlausibleDomain(host: string): boolean {
   const h = host.toLowerCase();
   const labels = h.split(".");
@@ -589,7 +622,7 @@ function extractDomainsURLsIPs(html: string, title: string, articleUrl: string):
     if (IP_RE.test(refangedMatch)) {
       IP_RE.lastIndex = 0;
       const ipMatch = refangedMatch.match(/^(\d{1,3}\.){3}\d{1,3}$/);
-      if (ipMatch && !isPrivateOrReservedIP(refangedMatch)) {
+      if (ipMatch && !isPrivateOrReservedIP(refangedMatch) && !isCloudflareIP(refangedMatch)) {
         push(refangedMatch, "IP", "high");
       }
     } else if (DOMAIN_RE.test(refangedMatch)) {
@@ -632,7 +665,7 @@ function extractDomainsURLsIPs(html: string, title: string, articleUrl: string):
     let mi: RegExpExecArray | null;
     while ((mi = IP_RE.exec(block)) !== null) {
       const ip = mi[1];
-      if (isPrivateOrReservedIP(ip)) continue;
+      if (isPrivateOrReservedIP(ip) || isCloudflareIP(ip)) continue;
       if (precededByVersionWord(block, mi.index)) continue;
       push(ip, "IP", "medium");
     }
