@@ -32,6 +32,7 @@ import {
   closeBrowser,
   isBenignFilename,
   isAllowlistedDomainExported,
+  isCloudflareIP,
   sendFailureEmail,
   type ArticleResult,
   type IOC,
@@ -176,6 +177,8 @@ function filterBenign(rows: CsvRow[]): { kept: CsvRow[]; dropped: Record<string,
         const host = new URL(r.value).hostname.toLowerCase();
         if (isAllowlistedDomainExported(host)) dropReason = "url_allowlisted_host";
       } catch { /* unparseable URL — keep */ }
+    } else if (r.type === "ip" && isCloudflareIP(r.value)) {
+      dropReason = "cloudflare_ip";
     }
     if (dropReason) {
       dropped[dropReason] = (dropped[dropReason] ?? 0) + 1;
