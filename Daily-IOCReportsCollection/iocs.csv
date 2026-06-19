@@ -928,7 +928,6 @@ ip,185.193.48.92:445,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,185.193.48.92:4675,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,185.195.232.139,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,185.200.191.37,https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services,WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files,2026-05-21T07:30:46.000Z,2026-06-09T21:02:05.583Z
-ip,185.203.116.18,https://cybersecuritynews.com/devilnfc-android-malware-uses-kiosk-mode,DevilNFC Android Malware Uses Kiosk Mode to Trap Victims During NFC Relay Attacks,2026-05-20T17:37:54.000Z,2026-06-09T21:02:05.583Z
 ip,185.22.154.73,https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll,Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts,2026-05-25T19:48:22.000Z,2026-06-09T21:02:05.583Z
 ip,185.220.101.15,https://cybersecuritynews.com/forticlient-code-execution-vulnerability,FortiClient Code Execution Vulnerability Exploited to Deploy EKZ Malware,2026-05-28T03:38:43.000Z,2026-06-09T21:02:05.583Z
 ip,185.229.9.27:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -1145,7 +1144,6 @@ ip,46.226.166.57,https://cybersecuritynews.com/new-drivesurge-threat-actor-uses-
 ip,46.246.125.131,https://cybersecuritynews.com/iran-linked-hackers-destroy-it-backups-and-recovery-systems,"Iran-Linked Hackers Destroy IT, Backups, and Recovery Systems in Cyberattack targeting Middle East",2026-06-01T10:49:34.000Z,2026-06-09T21:02:05.583Z
 ip,46.30.190.173,https://cybersecuritynews.com/iran-linked-hackers-destroy-it-backups-and-recovery-systems,"Iran-Linked Hackers Destroy IT, Backups, and Recovery Systems in Cyberattack targeting Middle East",2026-06-01T10:49:34.000Z,2026-06-09T21:02:05.583Z
 ip,47.15.69.15,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-2,Hackers Abuse Legitimate RMM Tools to Maintain Persistent Access and Evade Detection,2026-06-18T14:49:28.000Z,2026-06-18T17:50:52.017Z
-ip,47.253.167.219,https://cybersecuritynews.com/devilnfc-android-malware-uses-kiosk-mode,DevilNFC Android Malware Uses Kiosk Mode to Trap Victims During NFC Relay Attacks,2026-05-20T17:37:54.000Z,2026-06-09T21:02:05.583Z
 ip,47.55.96.251,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,47.81.37.109,https://cybersecuritynews.com/china-linked-hackers-target-southeast-asian-edge-routers,China-Linked Hackers Target Southeast Asian Edge Routers With Custom Linux Implant,2026-05-26T16:08:22.000Z,2026-06-09T21:02:05.583Z
 ip,5.109.182.231,https://cybersecuritynews.com/hackers-abuse-middle-east-telecom-networks,Hackers Abuse Middle East Telecom Networks for Large-Scale Command-and-Control Operations,2026-05-22T23:10:05.000Z,2026-06-09T21:02:05.583Z
@@ -1552,7 +1550,6 @@ md5,3426341929acfd5f963d75d209337802,https://www.ransomware.live/group/hellokitt
 md5,344c3f60bdccc98812b0dc5f9dc2f413,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,348b0ce6af4698061678c8e92b4b2675,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,34ad4ab24152c2bca2a4aa23f847c4d1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,35dd9c3a56e88a39bf6c8fdad46b0398,https://cybersecuritynews.com/devilnfc-android-malware-uses-kiosk-mode,DevilNFC Android Malware Uses Kiosk Mode to Trap Victims During NFC Relay Attacks,2026-05-20T17:37:54.000Z,2026-06-09T21:02:05.583Z
 md5,36171704cde087f839b10c2465d864e1,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 md5,36330349aa9c3dc0fee84e0c57283e65,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
 md5,3637a397b30237dfdef72a21eb542d33,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
@@ -1996,7 +1993,6 @@ md5,9befad1d56d2bd8195813aea1f37f921,https://www.ransomware.live/group/qilin,Ran
 md5,9bfa6efef31916adcb6d447b48434be5,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,9c5698924d4d1881efaf88651a304cb3,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-06-09T21:02:05.583Z
 md5,9ce8e06f1de868e553758b242b82a1c4,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
-md5,9d19527aeb4cabfb40bbaea6d73b5ff0,https://cybersecuritynews.com/devilnfc-android-malware-uses-kiosk-mode,DevilNFC Android Malware Uses Kiosk Mode to Trap Victims During NFC Relay Attacks,2026-05-20T17:37:54.000Z,2026-06-09T21:02:05.583Z
 md5,9d7da311e248445569fb79344a0ec1d9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,9db8f7378e2df01c842cfcb617e64475,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-06-09T21:02:05.583Z
 md5,9e5e96c4318ea5e8daab17ea456af069,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
@@ -2187,7 +2183,6 @@ md5,c9f7953e5a693b289c6a95599fcdd29f,https://www.ransomware.live/group/akira,Ran
 md5,ca2200de13490701a70a3193565bc691,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,ca33f9d7566d3578129c352bd5a93597,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,ca93d47bcc55e2e1bd4a679afc8e2e25,https://www.ransomware.live/group/lockbit5,Ransomware.live - lockbit5,,2026-06-09T21:02:05.583Z
-md5,caa5e8cf3275339d251210072ebe88c2,https://cybersecuritynews.com/devilnfc-android-malware-uses-kiosk-mode,DevilNFC Android Malware Uses Kiosk Mode to Trap Victims During NFC Relay Attacks,2026-05-20T17:37:54.000Z,2026-06-09T21:02:05.583Z
 md5,cabad66c40768fd276c7ccd0ddcde204,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,cb9bbcd6fb2cda389c79512066a76b58,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,cb9c73b52474adb4a24a2a17daa2b95a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
