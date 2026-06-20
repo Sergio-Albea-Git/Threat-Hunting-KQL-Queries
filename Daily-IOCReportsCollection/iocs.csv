@@ -160,7 +160,6 @@ domain,pay.zfxupi.net,https://cybersecuritynews.com/ghost-stadium-phishing-campa
 domain,payroll.vardeno.nl,https://cybersecuritynews.com/microsoft-365-device-code-phishing-campaign,Microsoft 365 Device Code Phishing Campaign Bypasses Password Theft With Legitimate Login Flow,2026-06-16T14:19:18.000Z,2026-06-16T17:36:59.243Z
 domain,peerdistsvcmanagers.azurewebsites.net,https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking,Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection,2026-06-01T12:40:00.000Z,2026-06-09T21:02:05.583Z
 domain,pengajian.muliastudy.com,https://cybersecuritynews.com/malspam-attack-uses-google-doubleclick-redirects,Malspam Attack Uses Google DoubleClick Redirects to Deliver Fileless .NET Loader,2026-06-08T16:01:55.000Z,2026-06-09T21:02:05.583Z
-domain,pixel.toolname.com,https://cybersecuritynews.com/tamperedchef-malware-uses-signed-productivity-apps,TamperedChef Malware Uses Signed Productivity Apps to Deliver Stealers and RATs,2026-05-21T19:41:44.000Z,2026-06-09T21:02:05.583Z
 domain,portal.federalverify-ssaclientportal.com,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools,Hackers Abuse Legitimate RMM Tools in The Quarry IRS and SSA Phishing Campaigns - Cyber Security News,2026-06-16T06:41:57.000Z,2026-06-16T11:55:44.264Z
 domain,premier-healthadvisory.azurewebsites.net,https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking,Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection,2026-06-01T12:40:00.000Z,2026-06-09T21:02:05.583Z
 domain,premierhealthadvisory.azurewebsites.net,https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking,Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection,2026-06-01T12:40:00.000Z,2026-06-09T21:02:05.583Z
@@ -438,7 +437,6 @@ filename,90.185.225/de2079d13aa5d620.js,https://cybersecuritynews.com/solana-fak
 filename,90.185.225/v026a4a141fd9e7d2dd.js,https://cybersecuritynews.com/solana-fakefix-campaign-uses-25-malicious-npm-and-pypi-packages,Solana FakeFix Campaign Uses 25 Malicious npm and PyPI Packages to Steal Developer Secrets,2026-06-12T09:13:56.000Z,2026-06-12T11:28:35.289Z
 filename,90.185.225/v0277dff354c59f92d3.js,https://cybersecuritynews.com/solana-fakefix-campaign-uses-25-malicious-npm-and-pypi-packages,Solana FakeFix Campaign Uses 25 Malicious npm and PyPI Packages to Steal Developer Secrets,2026-06-12T09:13:56.000Z,2026-06-12T11:28:35.289Z
 filename,90.185.225/v26a4a141fd9e7d2dd.js,https://cybersecuritynews.com/solana-fakefix-campaign-uses-25-malicious-npm-and-pypi-packages,Solana FakeFix Campaign Uses 25 Malicious npm and PyPI Packages to Steal Developer Secrets,2026-06-12T09:13:56.000Z,2026-06-12T11:28:35.289Z
-filename,98653.2.87.teamsx.zip,https://cybersecuritynews.com/hackers-use-fake-microsoft-teams-downloads-to-deploy-valleyrat-malware,Hackers Use Fake Microsoft Teams Downloads to Deploy ValleyRAT Malware,2026-05-21T19:47:21.000Z,2026-06-09T21:02:05.583Z
 filename,a.exe,https://cybersecuritynews.com/iran-linked-hackers-destroy-it-backups-and-recovery-systems,"Iran-Linked Hackers Destroy IT, Backups, and Recovery Systems in Cyberattack targeting Middle East",2026-06-01T10:49:34.000Z,2026-06-09T21:02:05.583Z
 filename,a021185521s210008-11521.js,https://cybersecuritynews.com/malspam-attack-uses-google-doubleclick-redirects,Malspam Attack Uses Google DoubleClick Redirects to Deliver Fileless .NET Loader,2026-06-08T16:01:55.000Z,2026-06-09T21:02:05.583Z
 filename,a021185521s210008-11521.zip,https://cybersecuritynews.com/malspam-attack-uses-google-doubleclick-redirects,Malspam Attack Uses Google DoubleClick Redirects to Deliver Fileless .NET Loader,2026-06-08T16:01:55.000Z,2026-06-09T21:02:05.583Z
@@ -505,7 +503,6 @@ filename,c:\windows\temp\lqhequi9a4lz.exe,https://cybersecuritynews.com/hackers-
 filename,c:\windows\wininet.exe,https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll,Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts,2026-05-25T19:48:22.000Z,2026-06-09T21:02:05.583Z
 filename,caixabank.apk,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
 filename,caixabanknfc.apk,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
-filename,calendaromatic-win_x64.exe,https://cybersecuritynews.com/tamperedchef-malware-uses-signed-productivity-apps,TamperedChef Malware Uses Signed Productivity Apps to Deliver Stealers and RATs,2026-05-21T19:41:44.000Z,2026-06-09T21:02:05.583Z
 filename,canvas-nest.js,https://cybersecuritynews.com/mini-shai-hulud-attack-forces-npm,Mini Shai-Hulud Attack Forces npm to Reset Bypass-2FA Publishing Tokens,2026-05-22T06:24:28.000Z,2026-06-09T21:02:05.583Z
 filename,capraassetmanagementinc.vbs,https://cybersecuritynews.com/hackers-use-fake-adobe-document-cloud-pages,Hackers Use Fake Adobe Document Cloud Pages to Deliver ScreenConnect Malware,2026-05-29T11:28:59.000Z,2026-06-09T21:02:05.583Z
 filename,ceo.msi,https://cybersecuritynews.com/hackers-use-fake-adobe-document-cloud-pages,Hackers Use Fake Adobe Document Cloud Pages to Deliver ScreenConnect Malware,2026-05-29T11:28:59.000Z,2026-06-09T21:02:05.583Z
@@ -709,7 +706,6 @@ filename,update.exe,https://cybersecuritynews.com/new-drivesurge-threat-actor-us
 filename,updatechecker.dll,https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking,Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection,2026-06-01T12:40:00.000Z,2026-06-09T21:02:05.583Z
 filename,usersscreen.exe,https://cybersecuritynews.com/powershell-and-python-loader-to-deploy-narwhalrat,"Hackers Abuse LNK Files, PowerShell, and Python Loader to Deploy NarwhalRAT",2026-06-15T11:00:07.000Z,2026-06-15T15:32:11.536Z
 filename,utilifysetup.exe,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
-filename,utility.dll,https://cybersecuritynews.com/hackers-use-fake-microsoft-teams-downloads-to-deploy-valleyrat-malware,Hackers Use Fake Microsoft Teams Downloads to Deploy ValleyRAT Malware,2026-05-21T19:47:21.000Z,2026-06-09T21:02:05.583Z
 filename,vapev4-1.21.11.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 filename,vaultsvc.exe,https://cybersecuritynews.com/sheetcreep-c-rat-abuses-google-sheets-api,SHEETCREEP C# RAT Abuses Google Sheets API as C2 to Target Diplomatic Organizations,2026-06-12T12:50:02.000Z,2026-06-12T19:33:28.362Z
 filename,vcredist_x64.dll,https://cybersecuritynews.com/hackers-abuse-ai-chatbot-recommendations,Hackers Abuse AI Chatbot Recommendations to Push Malicious Software Download Links,2026-05-27T16:13:11.000Z,2026-06-09T21:02:05.583Z
@@ -738,7 +734,6 @@ ip,103.131.95.37,https://www.ransomware.live/group/sorry,Ransomware.live - sorry
 ip,103.132.98.224,https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware,SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry,2026-06-01T12:27:32.000Z,2026-06-09T21:02:05.583Z
 ip,103.132.98.226,https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware,SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry,2026-06-01T12:27:32.000Z,2026-06-09T21:02:05.583Z
 ip,103.214.172.33,https://cybersecuritynews.com/proofpoint-warns-ta4922-deploys-atlas-rat,"Proofpoint Warns TA4922 Deploys Atlas RAT, RomulusLoader, SilentRunLoader, and ValleyRAT",2026-06-04T15:09:02.000Z,2026-06-09T21:02:05.583Z
-ip,103.215.77.17,https://cybersecuritynews.com/hackers-use-fake-microsoft-teams-downloads-to-deploy-valleyrat-malware,Hackers Use Fake Microsoft Teams Downloads to Deploy ValleyRAT Malware,2026-05-21T19:47:21.000Z,2026-06-09T21:02:05.583Z
 ip,103.30.77.80:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,104.145.210.107,https://cybersecuritynews.com/hackers-use-fake-software-update-prompts,Hackers Use Fake Software Update Prompts to Steal Passwords and Crypto Wallet Data From macOS Users,2026-06-17T16:12:12.000Z,2026-06-18T05:30:51.219Z
 ip,104.168.140.238:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -1382,7 +1377,6 @@ md5,1852be15aa8dcf664291b3849bd348e4,https://www.ransomware.live/group/trigona,R
 md5,187390322be5f643e538ff45dbfd39f5,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,1888ecf4e90f02ecaaefdb3624825fa2,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
 md5,18a7251ddde77ed24bc54700d84d9be1,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
-md5,18f3e85d7237e3cac0ad13bdcf513f0f,https://cybersecuritynews.com/hackers-use-fake-microsoft-teams-downloads-to-deploy-valleyrat-malware,Hackers Use Fake Microsoft Teams Downloads to Deploy ValleyRAT Malware,2026-05-21T19:47:21.000Z,2026-06-09T21:02:05.583Z
 md5,18f9eebf70db818c0f2a3c865f7132ee,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,1965b4ea67c442855e6aebb5a6c67933,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,19c4f4e3eb499b4049c76546c99e0c10,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -1786,7 +1780,6 @@ md5,6e79ae622b7ef30f31fdbcc2dc65339e,https://cybersecuritynews.com/hackers-backd
 md5,6f059281f864368d16c5bf49cafa9c51,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,6f893b1cc5cf534c59eabe932c1bf21e,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,6fc6164b3a08669992acad3764fb1922,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
-md5,709604ce58e3f8255587ac9253db6994,https://cybersecuritynews.com/hackers-use-fake-microsoft-teams-downloads-to-deploy-valleyrat-malware,Hackers Use Fake Microsoft Teams Downloads to Deploy ValleyRAT Malware,2026-05-21T19:47:21.000Z,2026-06-09T21:02:05.583Z
 md5,71085940124ad3c035a181acadc10362,https://cybersecuritynews.com/malicious-rvtools-installer-abuses-sectigo-certificate,Malicious RVTools Installer Abuses Sectigo Certificate to Bypass SmartScreen Warnings,2026-05-29T06:39:30.000Z,2026-06-09T21:02:05.583Z
 md5,7113bd6ad83f3c3f71f69728588ab256,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,714b31629c37dee57038ca4e52ef65ac,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-06-09T21:02:05.583Z
@@ -1921,7 +1914,6 @@ md5,8f69165aae148726d48621471d7bf3c3,https://www.ransomware.live/group/raworld,R
 md5,8f718979876dd1050ce4f729d69e0072,https://www.ransomware.live/group/lockbit5,Ransomware.live - lockbit5,,2026-06-09T21:02:05.583Z
 md5,8f75b0c895b1854566ebe2ec592c6fa6,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,8f84941f03bc4a9f2633a283770e780b,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
-md5,8f9de887e9aed9d580f386ba2d191319,https://cybersecuritynews.com/hackers-use-fake-microsoft-teams-downloads-to-deploy-valleyrat-malware,Hackers Use Fake Microsoft Teams Downloads to Deploy ValleyRAT Malware,2026-05-21T19:47:21.000Z,2026-06-09T21:02:05.583Z
 md5,8ff61e4156c10b085e0c2233f24e8501,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
 md5,90280056c5ad293736030e4747d80c01,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,9113f4b245da32c75d61b467ee89e0b7,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-06-09T21:02:05.583Z
