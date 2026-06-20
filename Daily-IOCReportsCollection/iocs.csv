@@ -786,7 +786,6 @@ ip,108.61.216.142:443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,108.61.216.142:5060,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,109.107.170.111,https://cybersecuritynews.com/hackers-use-seo-poisoning-to-impersonate-gemini-cli,Hackers Use SEO Poisoning to Impersonate Gemini CLI and Claude Code Installers,2026-05-26T11:16:19.000Z,2026-06-09T21:02:05.583Z
 ip,109.122.217.21,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
-ip,109.69.58.213,https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services,WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files,2026-05-21T07:30:46.000Z,2026-06-09T21:02:05.583Z
 ip,122.183.48.195,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-2,Hackers Abuse Legitimate RMM Tools to Maintain Persistent Access and Evade Detection,2026-06-18T14:49:28.000Z,2026-06-18T17:50:52.017Z
 ip,122.183.48.35,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-2,Hackers Abuse Legitimate RMM Tools to Maintain Persistent Access and Evade Detection,2026-06-18T14:49:28.000Z,2026-06-18T17:50:52.017Z
 ip,122.183.48.82,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-2,Hackers Abuse Legitimate RMM Tools to Maintain Persistent Access and Evade Detection,2026-06-18T14:49:28.000Z,2026-06-18T17:50:52.017Z
@@ -917,11 +916,9 @@ ip,185.163.47.217,https://cybersecuritynews.com/smartapesg-campaign-uses-clickfi
 ip,185.175.59.85,https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering,JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware,2026-05-29T15:45:11.000Z,2026-06-09T21:02:05.583Z
 ip,185.178.208.153,https://cybersecuritynews.com/new-pink-hacking-group-attacking-enterprise-users,New Pink Hacking Group Attacking Enterprise Users to Steal Cloud Storage Passwords,2026-06-08T16:22:46.000Z,2026-06-09T21:02:05.583Z
 ip,185.182.193.21,https://cybersecuritynews.com/hackers-use-bluerabbit-backdoor,Hackers Use BLUERABBIT Backdoor to Encrypt Files and Wipe Disks Across Windows Systems - Cyber Security News,2026-06-11T15:32:55.000Z,2026-06-11T17:54:45.952Z
-ip,185.189.13.56,https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services,WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files,2026-05-21T07:30:46.000Z,2026-06-09T21:02:05.583Z
 ip,185.193.48.92:445,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,185.193.48.92:4675,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,185.195.232.139,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
-ip,185.200.191.37,https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services,WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files,2026-05-21T07:30:46.000Z,2026-06-09T21:02:05.583Z
 ip,185.22.154.73,https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll,Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts,2026-05-25T19:48:22.000Z,2026-06-09T21:02:05.583Z
 ip,185.220.101.15,https://cybersecuritynews.com/forticlient-code-execution-vulnerability,FortiClient Code Execution Vulnerability Exploited to Deploy EKZ Malware,2026-05-28T03:38:43.000Z,2026-06-09T21:02:05.583Z
 ip,185.229.9.27:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -971,8 +968,6 @@ ip,194.150.220.218,https://cybersecuritynews.com/hackers-impersonate-ghidra-dnsp
 ip,194.213.18.181:16963,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,194.213.18.181:20290,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,194.213.18.181:49493,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
-ip,194.36.179.18,https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services,WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files,2026-05-21T07:30:46.000Z,2026-06-09T21:02:05.583Z
-ip,194.36.179.30,https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services,WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files,2026-05-21T07:30:46.000Z,2026-06-09T21:02:05.583Z
 ip,194.36.188.25:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,194.58.66.82,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,194.68.26.241,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
@@ -1235,7 +1230,6 @@ ip,86.54.28.216,https://www.ransomware.live/group/gunra,Ransomware.live - gunra,
 ip,87.120.114.51:20000,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,87.121.45.33,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-06-09T21:02:05.583Z
 ip,87.121.61.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
-ip,87.225.105.217,https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services,WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files,2026-05-21T07:30:46.000Z,2026-06-09T21:02:05.583Z
 ip,88.212.241.105:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,88.218.168.33:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,89.1.88.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -3307,7 +3301,6 @@ url,https://steamcommunity.com/id/ravypadliha,https://cybersecuritynews.com/word
 url,https://steamcommunity.com/profiles/76561199096946028/,https://cybersecuritynews.com/wordpress-malware-abuses-steam,WordPress Malware Abuses Steam Community Profiles for C2 Operations,2026-06-02T18:50:58.000Z,2026-06-09T21:02:05.583Z
 url,https://t.me/+pw_g24ajdcqwmmyy,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,https://t.me/metamaskenmann,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
-url,https://t.me/want_to_cry_team,https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services,WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files,2026-05-21T07:30:46.000Z,2026-06-09T21:02:05.583Z
 url,https://taketwolabs.com/wp-content/notepadplusplus.dll,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
 url,https://tinyurl.com/intesa-carte,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
 url,https://utaq.cfww.shop/gooll/49554fde7424c31c.js,https://cybersecuritynews.com/hackers-backdoor-popular-art-template-npm-package,Hackers Backdoor Popular art-template npm Package to Launch Watering-Hole Attacks,2026-05-22T22:08:05.000Z,2026-06-09T21:02:05.583Z
