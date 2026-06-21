@@ -504,7 +504,6 @@ filename,codecstore384d.dll,https://cybersecuritynews.com/new-oniondrop-loader-c
 filename,collector.py,https://cybersecuritynews.com/malicious-rvtools-installer-abuses-sectigo-certificate,Malicious RVTools Installer Abuses Sectigo Certificate to Bypass SmartScreen Warnings,2026-05-29T06:39:30.000Z,2026-06-09T21:02:05.583Z
 filename,connection.dll,https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking,Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection,2026-06-01T12:40:00.000Z,2026-06-09T21:02:05.583Z
 filename,cons_1.0.1.msi,https://cybersecuritynews.com/hackers-use-clickfix-prompt-to-install-msi-package,Hackers Use ClickFix Prompt to Install MSI Package and Launch Hands-On-Keyboard Attack,2026-06-17T16:34:50.000Z,2026-06-18T05:30:51.219Z
-filename,consultar_nf-e.bat,https://cybersecuritynews.com/hackers-use-nf-e-invoice-lures,Hackers Use NF-e Invoice Lures to Deliver Banana RAT Through Malicious Batch Files,2026-05-22T20:20:43.000Z,2026-06-09T21:02:05.583Z
 filename,css.js,https://cybersecuritynews.com/errtraffic-maas-uses-fake-recaptcha-and-cloudflare-turnstile-lures,ErrTraffic MaaS Uses Fake reCAPTCHA and Cloudflare Turnstile Lures to Execute PowerShell Commands,2026-06-17T12:28:05.000Z,2026-06-18T05:30:51.219Z
 filename,data.bin,https://cybersecuritynews.com/hackers-deploy-mltbackdoor-malware,Hackers Deploy MLTBackdoor Malware via Multi-Stage ClickFix Infection Chain,2026-06-10T08:10:58.000Z,2026-06-10T11:56:35.433Z
 filename,dbgview64.exe,https://cybersecuritynews.com/microsoft-teams-relay-abused,Hackers Weaponize Microsoft Teams Relay to Hide Ransomware Traffic,2026-06-16T13:59:55.000Z,2026-06-16T17:36:59.243Z
@@ -835,7 +834,7 @@ ip,159.89.112.223:443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,160.119.76.250,https://cybersecuritynews.com/hackers-use-six-layer-persistence,Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems,2026-05-22T21:02:22.000Z,2026-06-09T21:02:05.583Z
 ip,160.191.89.7,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
 ip,161.35.200.18,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
-ip,162.141.111.227,https://cybersecuritynews.com/hackers-use-nf-e-invoice-lures,Hackers Use NF-e Invoice Lures to Deliver Banana RAT Through Malicious Batch Files,2026-05-22T20:20:43.000Z,2026-06-09T21:02:05.583Z
+ip,162.141.111.227,https://cybersecuritynews.com/hackers-abuse-powershell-commands,Hackers Abuse PowerShell Commands to Deliver SmartRAT Through Brazilian Bank Phishing Page,2026-06-18T11:22:18.000Z,2026-06-18T17:50:52.017Z
 ip,162.252.173.100:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,162.33.177.101,https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability,Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware,2026-06-08T17:18:01.000Z,2026-06-09T21:02:05.583Z
 ip,162.33.177.150,https://cybersecuritynews.com/hackers-use-grandoreiro-malware-to-target-portuguese-banks,Hackers Use Grandoreiro Malware to Target Portuguese Banks and Latin American Companies,2026-05-27T18:57:51.000Z,2026-06-09T21:02:05.583Z
@@ -1029,7 +1028,6 @@ ip,23.254.244.163:443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,23.26.237.80,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,23.54.127.209,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
 ip,23.95.182.59,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-06-09T21:02:05.583Z
-ip,24.199.90.58,https://cybersecuritynews.com/hackers-use-nf-e-invoice-lures,Hackers Use NF-e Invoice Lures to Deliver Banana RAT Through Malicious Batch Files,2026-05-22T20:20:43.000Z,2026-06-09T21:02:05.583Z
 ip,24.202.0.56,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,24.53.42.79,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,26.1.1.2,https://cybersecuritynews.com/cisco-sd-wan-vmanage-vulnerability-exploit,Cisco SD-WAN vManage Vulnerability Exploited in Zero-Day Attacks,2026-06-16T05:38:32.000Z,2026-06-16T06:14:59.759Z
@@ -3182,9 +3180,6 @@ url,http://158.94.211.76:34567/ceoznp?ia=gezhov8lbb7py4kx&amp;df=,https://cybers
 url,http://158.94.211.76:34567/ceoznp?ia=udp3hip4p5sh3u5r&amp;df=,https://cybersecuritynews.com/hackers-use-fake-purchase-orders-to-deploy-js-monoglyphrat,JS.MonoGlyphRAT Malware Targets US Enterprises Using Fake Purchase Orders,2026-06-03T15:56:27.000Z,2026-06-09T21:02:05.583Z
 url,http://195.201.194.107:8010/api/validate/hf-upload-complete,https://cybersecuritynews.com/microsoftsystem64-malware-uses-huggingface-datasets,MicrosoftSystem64 Malware Uses HuggingFace Datasets for Stealthy Data Exfiltration,2026-05-29T08:54:28.000Z,2026-06-09T21:02:05.583Z
 url,http://204.10.194.247:8765,https://cybersecuritynews.com/hackers-push-22-versions-of-npm-rat,Hackers Push 22 Versions of npm RAT With Wallet Theft and Persistent Backdoor,2026-05-27T18:07:26.000Z,2026-06-09T21:02:05.583Z
-url,http://24.199.90.58:80/disease_vector,https://cybersecuritynews.com/hackers-use-nf-e-invoice-lures,Hackers Use NF-e Invoice Lures to Deliver Banana RAT Through Malicious Batch Files,2026-05-22T20:20:43.000Z,2026-06-09T21:02:05.583Z
-url,http://24.199.90.58:80/payload.php,https://cybersecuritynews.com/hackers-use-nf-e-invoice-lures,Hackers Use NF-e Invoice Lures to Deliver Banana RAT Through Malicious Batch Files,2026-05-22T20:20:43.000Z,2026-06-09T21:02:05.583Z
-url,http://24.199.90.58:80/st.txt,https://cybersecuritynews.com/hackers-use-nf-e-invoice-lures,Hackers Use NF-e Invoice Lures to Deliver Banana RAT Through Malicious Batch Files,2026-05-22T20:20:43.000Z,2026-06-09T21:02:05.583Z
 url,http://45.95.147.178/k.php,https://cybersecuritynews.com/hackers-use-six-layer-persistence,Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems,2026-05-22T21:02:22.000Z,2026-06-09T21:02:05.583Z
 url,http://45.95.147.178/z/post/noroot.php,https://cybersecuritynews.com/hackers-use-six-layer-persistence,Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems,2026-05-22T21:02:22.000Z,2026-06-09T21:02:05.583Z
 url,http://45.95.147.178/z/post/root.php,https://cybersecuritynews.com/hackers-use-six-layer-persistence,Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems,2026-05-22T21:02:22.000Z,2026-06-09T21:02:05.583Z
