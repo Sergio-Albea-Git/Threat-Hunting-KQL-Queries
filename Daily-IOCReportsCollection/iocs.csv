@@ -101,6 +101,8 @@ domain,globalitconsultants.azurewebsites.net,https://cybersecuritynews.com/nimbu
 domain,gnilsoporte.github.io,https://cybersecuritynews.com/gitbait-phishing-campaign-abuses-github-pages,GitBait Phishing Campaign Abuses GitHub Pages to Attack Financial Institutions,2026-06-17T16:52:52.000Z,2026-06-18T05:30:51.219Z
 domain,gsbauwu1hsa.legalaro.com,https://cybersecuritynews.com/microsoft-365-device-code-phishing-campaign,Microsoft 365 Device Code Phishing Campaign Bypasses Password Theft With Legitimate Login Flow,2026-06-16T14:19:18.000Z,2026-06-16T17:36:59.243Z
 domain,henriquevieira.horizoralabs.com,https://cybersecuritynews.com/microsoft-365-device-code-phishing-campaign,Microsoft 365 Device Code Phishing Campaign Bypasses Password Theft With Legitimate Login Flow,2026-06-16T14:19:18.000Z,2026-06-16T17:36:59.243Z
+domain,hgodpcx.ajb8.com,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
+domain,hgodpcx.auq8.com,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 domain,horizonex.it.com,https://cybersecuritynews.com/microsoft-365-device-code-phishing-campaign,Microsoft 365 Device Code Phishing Campaign Bypasses Password Theft With Legitimate Login Flow,2026-06-16T14:19:18.000Z,2026-06-16T17:36:59.243Z
 domain,hsecontractors-project.sign-ins.workers.dev,https://cybersecuritynews.com/microsoft-365-device-code-phishing-campaign,Microsoft 365 Device Code Phishing Campaign Bypasses Password Theft With Legitimate Login Flow,2026-06-16T14:19:18.000Z,2026-06-16T17:36:59.243Z
 domain,hub.ssa-guidance.com,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools,Hackers Abuse Legitimate RMM Tools in The Quarry IRS and SSA Phishing Campaigns - Cyber Security News,2026-06-16T06:41:57.000Z,2026-06-16T11:55:44.264Z
@@ -109,6 +111,7 @@ domain,hwsrv-1327785.hostwindsdns.com,https://cybersecuritynews.com/140-mastra-n
 domain,hwsrv-1327786.hostwindsdns.com,https://cybersecuritynews.com/140-mastra-npm-packages-compromised,Hackers Compromised 140+ Mastra npm Packages to Deploy Password-Stealing Malware,2026-06-17T09:05:34.000Z,2026-06-17T10:17:54.068Z
 domain,infocontablidades.it.com,https://cybersecuritynews.com/hackers-use-rokarolla-android-malware-2,Hackers Use Rokarolla Android Malware to Disable Google Play Protect and Control Devices,2026-06-17T07:14:45.000Z,2026-06-17T10:17:54.068Z
 domain,invoice.msopsa.top,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
+domain,io.ary2.com,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 domain,join-exam-now-ebix.azurewebsites.net,https://cybersecuritynews.com/nimbus-manticore-apt-abuses-fake-recruitment-portal,Nimbus Manticore APT Abuses Fake Recruitment Portal to Deliver Custom Malware,2026-06-02T07:56:17.000Z,2026-06-09T21:02:05.583Z
 domain,keepassxc.us.com,https://cybersecuritynews.com/hackers-use-seo-poisoning-to-impersonate-gemini-cli,Hackers Use SEO Poisoning to Impersonate Gemini CLI and Claude Code Installers,2026-05-26T11:16:19.000Z,2026-06-09T21:02:05.583Z
 domain,keepassxc.us.org,https://cybersecuritynews.com/hackers-use-seo-poisoning-to-impersonate-gemini-cli,Hackers Use SEO Poisoning to Impersonate Gemini CLI and Claude Code Installers,2026-05-26T11:16:19.000Z,2026-06-09T21:02:05.583Z
@@ -424,6 +427,8 @@ filename,\music\servertool.exe,https://cybersecuritynews.com/hackers-use-remotep
 filename,\pictures\googleearth.ps1,https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll,Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts,2026-05-25T19:48:22.000Z,2026-06-09T21:02:05.583Z
 filename,%appdata%\windowsgraphics\win_gfx_driver.exe,https://cybersecuritynews.com/solyximmortal-python-malware,"SolyxImmortal Python Malware Steals Browser Passwords, Cookies, Files, and Keystrokes",2026-06-02T13:30:30.000Z,2026-06-09T21:02:05.583Z
 filename,%localappdata%\microsoft\vault\vaultsvc.exe,https://cybersecuritynews.com/sheetcreep-c-rat-abuses-google-sheets-api,SHEETCREEP C# RAT Abuses Google Sheets API as C2 to Target Diplomatic Organizations,2026-06-12T12:50:02.000Z,2026-06-12T19:33:28.362Z
+filename,%temp%\winpatch.zip,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
+filename,%temp%\winpatch\update.vbs,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
 filename,%userprofile%\.local\share\kitty\cat.py,https://cybersecuritynews.com/attackers-abuse-trusted-developer-tooling,Attackers Abuse Trusted Developer Tooling to Exfiltrate Source Code and Secrets,2026-05-29T15:34:24.000Z,2026-06-09T21:02:05.583Z
 filename,~/.config/systemd/user/forge-js-worker.service,https://cybersecuritynews.com/hackers-push-22-versions-of-npm-rat,Hackers Push 22 Versions of npm RAT With Wallet Theft and Persistent Backdoor,2026-05-27T18:07:26.000Z,2026-06-09T21:02:05.583Z
 filename,~/.local/share/kitty/cat.py,https://cybersecuritynews.com/attackers-abuse-trusted-developer-tooling,Attackers Abuse Trusted Developer Tooling to Exfiltrate Source Code and Secrets,2026-05-29T15:34:24.000Z,2026-06-09T21:02:05.583Z
@@ -608,6 +613,7 @@ filename,nvmconf.service,https://cybersecuritynews.com/140-mastra-npm-packages-c
 filename,o.vbs,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 filename,opensearch_init.js,https://cybersecuritynews.com/typosquatted-npm-packages-steal-cloud-and-ci-cd-secrets,Typosquatted npm Packages Steal Cloud and CI/CD Secrets From Developer Systems,2026-05-29T14:23:05.000Z,2026-06-09T21:02:05.583Z
 filename,opticam-1.0.0.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
+filename,optimax.dll,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 filename,options\vds.exe,https://cybersecuritynews.com/fishmonger-hackers-expands-sprysocks-backdoor-from-linux,FishMonger Hackers Expands SprySOCKS Backdoor From Linux to Windows With Advanced Stealth Features,2026-06-17T13:01:41.000Z,2026-06-18T05:30:51.219Z
 filename,order_12258.js,https://cybersecuritynews.com/hackers-use-fake-purchase-orders-to-deploy-js-monoglyphrat,JS.MonoGlyphRAT Malware Targets US Enterprises Using Fake Purchase Orders,2026-06-03T15:56:27.000Z,2026-06-09T21:02:05.583Z
 filename,org/checkupdateto.js,https://cybersecuritynews.com/hackers-use-malicious-ads,Hackers Use Malicious Ads to Deliver FlutterShell Backdoor on macOS Systems,2026-06-04T20:25:42.000Z,2026-06-09T21:02:05.583Z
@@ -702,6 +708,7 @@ filename,uevmonitor.dll,https://cybersecuritynews.com/iranian-hackers-abuse-appd
 filename,ugate.exe,https://cybersecuritynews.com/hackers-use-weaponized-windows-shortcuts,Hackers Use Weaponized Windows Shortcuts to Spread Crypto Clipper Across USB Drives - Cyber Security News,2026-06-19T07:50:37.000Z,2026-06-19T08:17:43.367Z
 filename,ugayt.hta,https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware,SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry,2026-06-01T12:27:32.000Z,2026-06-09T21:02:05.583Z
 filename,ukpkmkk.so,https://cybersecuritynews.com/china-linked-showboat-malware-uses-linux-persistence,China-Linked Showboat Malware Uses Linux Persistence to Target Telecom Companies,2026-06-19T08:56:20.000Z,2026-06-19T12:34:50.036Z
+filename,ultimate.dll,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 filename,unbcl.dll,https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking,Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection,2026-06-01T12:40:00.000Z,2026-06-09T21:02:05.583Z
 filename,unityplayer.dll,https://cybersecuritynews.com/hackers-deploy-azureveil-adaptix-c2-agent,Hackers Deploy AZUREVEIL Adaptix C2 Agent via Spearphishing Campaign,2026-06-02T10:28:56.000Z,2026-06-09T21:02:05.583Z
 filename,update.exe,https://cybersecuritynews.com/new-drivesurge-threat-actor-uses-clickfix,New DriveSurge Threat Actor Uses ClickFix and Fake Updates to Infect Website Visitors,2026-06-01T10:14:29.000Z,2026-06-09T21:02:05.583Z
@@ -722,6 +729,8 @@ filename,vulkan-1.dll,https://cybersecuritynews.com/proofpoint-warns-ta4922-depl
 filename,waybroad.dll,https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware,SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry,2026-06-01T12:27:32.000Z,2026-06-09T21:02:05.583Z
 filename,webui.js,https://cybersecuritynews.com/hackers-use-rokarolla-android-malware,Hackers Use Rokarolla Android Malware to Disable Google Play Protect and Control Devices,2026-06-17T07:03:49.000Z,2026-06-17T10:17:54.068Z
 filename,win_gfx_driver.exe,https://cybersecuritynews.com/solyximmortal-python-malware,"SolyxImmortal Python Malware Steals Browser Passwords, Cookies, Files, and Keystrokes",2026-06-02T13:30:30.000Z,2026-06-09T21:02:05.583Z
+filename,win-driver-xd7d/chost.exe,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
+filename,win-driver-xd7d/loader.py,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
 filename,winp.zip,https://cybersecuritynews.com/malicious-rvtools-installer-abuses-sectigo-certificate,Malicious RVTools Installer Abuses Sectigo Certificate to Bypass SmartScreen Warnings,2026-05-29T06:39:30.000Z,2026-06-09T21:02:05.583Z
 filename,winter.js,https://cybersecuritynews.com/weaponized-chatgpt-download-site-delivers-malware,Weaponized ChatGPT Download Site Delivers Malware Via Sponsored Search Results,2026-06-04T13:46:12.000Z,2026-06-09T21:02:05.583Z
 filename,y4cumb.onlyoffice.com/storage/files/root/folder_3602000/file_3601577/v1/content.zip,https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking,Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection,2026-06-01T12:40:00.000Z,2026-06-09T21:02:05.583Z
@@ -773,6 +782,7 @@ ip,104.28.165.251,https://cybersecuritynews.com/hackers-use-llm-agent-to-move-fr
 ip,104.36.229.149:28333,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,104.36.229.149:5168,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,104.36.229.179:5729,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
+ip,107.150.106.14,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 ip,107.170.35.225,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-06-09T21:02:05.583Z
 ip,107.172.212.235,https://cybersecuritynews.com/hackers-use-fake-video-player-updates,Hackers Use Fake Video Player Updates to Deploy Miner and RAT Malware,2026-05-29T14:07:45.000Z,2026-06-09T21:02:05.583Z
 ip,107.189.26.195:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -818,6 +828,7 @@ ip,146.19.216.125,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-expl
 ip,146.19.24.84:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,146.70.143.147:18095,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,146.70.233.83,https://cybersecuritynews.com/iran-linked-hackers-destroy-it-backups-and-recovery-systems,"Iran-Linked Hackers Destroy IT, Backups, and Recovery Systems in Cyberattack targeting Middle East",2026-06-01T10:49:34.000Z,2026-06-09T21:02:05.583Z
+ip,146.70.244.90,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 ip,146.70.53.171,https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll,Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts,2026-05-25T19:48:22.000Z,2026-06-09T21:02:05.583Z
 ip,147.45.141.206:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,147.45.154.131:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -1017,6 +1028,7 @@ ip,216.16.184.145,https://cybersecuritynews.com/hackers-use-microsoft-graph-reco
 ip,216.181.107.134:41296,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,216.219.94.99:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,216.247.226.32,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
+ip,217.138.252.123,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 ip,217.156.122.75,https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot,"Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",2026-06-04T21:22:17.000Z,2026-06-09T21:02:05.583Z
 ip,217.69.0.159,https://cybersecuritynews.com/developer-targeting-glassworm-malware-abuses-npm,"Developer-Targeting Glassworm Malware Abuses npm, PyPI, OpenVSX, and GitHub",2026-05-27T08:08:39.000Z,2026-06-09T21:02:05.583Z
 ip,217.69.11.57,https://cybersecuritynews.com/developer-targeting-glassworm-malware-abuses-npm,"Developer-Targeting Glassworm Malware Abuses npm, PyPI, OpenVSX, and GitHub",2026-05-27T08:08:39.000Z,2026-06-09T21:02:05.583Z
@@ -1138,6 +1150,7 @@ ip,51.3.97.221,https://cybersecuritynews.com/microsoft-entra-agent-id-logs,Micro
 ip,52.12.243.110:8888,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,52.78.2.74,https://cybersecuritynews.com/hackers-impersonate-node-js-installer-in-google-ads,Hackers Impersonate Node.js Installer in Google Ads to Deploy Infostealer Malware,2026-06-22T07:42:23.000Z,2026-06-22T08:42:57.383Z
 ip,52.78.77.48,https://cybersecuritynews.com/hackers-impersonate-node-js-installer-in-google-ads,Hackers Impersonate Node.js Installer in Google Ads to Deploy Infostealer Malware,2026-06-22T07:42:23.000Z,2026-06-22T08:42:57.383Z
+ip,62.102.148.212,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 ip,62.171.133.1,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
 ip,62.210.28.199:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,62.210.28.199:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -1247,6 +1260,7 @@ ip,94.198.40.6:20025,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,94.198.40.6:20028,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,94.231.205.229,https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot,"Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",2026-06-04T21:22:17.000Z,2026-06-09T21:02:05.583Z
 ip,95.179.233.26:8090,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
+ip,95.216.92.207,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
 ip,96.178.187.175,https://cybersecuritynews.com/errtraffic-maas-uses-fake-recaptcha-and-cloudflare-turnstile-lures,ErrTraffic MaaS Uses Fake reCAPTCHA and Cloudflare Turnstile Lures to Execute PowerShell Commands,2026-06-17T12:28:05.000Z,2026-06-18T05:30:51.219Z
 ip,96.181.156.219,https://cybersecuritynews.com/errtraffic-maas-uses-fake-recaptcha-and-cloudflare-turnstile-lures,ErrTraffic MaaS Uses Fake reCAPTCHA and Cloudflare Turnstile Lures to Execute PowerShell Commands,2026-06-17T12:28:05.000Z,2026-06-18T05:30:51.219Z
 ip,96.232.20.66,https://cybersecuritynews.com/new-pink-hacking-group-attacking-enterprise-users,New Pink Hacking Group Attacking Enterprise Users to Steal Cloud Storage Passwords,2026-06-08T16:22:46.000Z,2026-06-09T21:02:05.583Z
@@ -1277,7 +1291,9 @@ md5,03eaabaf750bcf69d58f79098432f8a3,https://www.ransomware.live/group/trigona,R
 md5,0452d8379cae3490935f81a0dfea1a9e,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,0544137574179494761d395005175510,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,054d432e231e8ee6e301675ef2bd598d,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
+md5,05627d1bddb7292bb45139244f46051f,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,05d188f071d097f5b6bd8138749b4b14,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
+md5,0627f034c42549e2130734b5f8dbf854,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,06ade3c98aa2432458f24966509bd9a9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,06b9331e6e2699a4382bd09ae85a515d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,06ce6cd8bde756265f95fcf4eecadbe9,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
@@ -1298,6 +1314,7 @@ md5,0999410905d53bcb9e4bf5ae113330f4,https://www.ransomware.live/group/trigona,R
 md5,0a0bf18c2cb53435d9df2311761fb7b1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,0a12b53d92f56d3dafb4e68083f94654,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
 md5,0a2ace23aa06f0bf22c028b98aa3456a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,0a2d2a4ec1ca2aa6a23a35abb5a75451,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,0a5f3fc92af7aa3e448ac7b84e495fc6,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
 md5,0a6dd4eee2a0629d1da62f248a17ec80,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,0a75d6369662af48ce6789d6b313a9a5,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
@@ -1326,6 +1343,7 @@ md5,0f5f2290a30c8f0f33f39a4513794806,https://www.ransomware.live/group/raworld,R
 md5,0f7d721e4e5e2ce0a5c629f2fd4ac572,https://www.ransomware.live/group/0apt,Ransomware.live - 0apt,,2026-06-09T21:02:05.583Z
 md5,0f9ae168dc8d27ff3f0ff0a1bf4c2d8d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,0fe4937a7dfa8f212f21f65a496d7713,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,0ffb4b4e430f4b69216fb9d2e082e482,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,101cfe94fba460a2963fc67a6f6c3f6c,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,103aad8d9a1830ecf540510aa4063ea0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,10403f08a869a83d5c8d81162b711453,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
@@ -1364,6 +1382,7 @@ md5,160f60dc3fc9920cfc3847de4de2ef09,https://www.ransomware.live/group/chaos,Ran
 md5,16153e9582cfe94a06fc670a5d851ed9,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,161ed1a00e23f4b039d87d20fe9a93b6,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,16b9b5e0f9f1747350ad37eff94bb82f,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,16fed5909de4f50351fc33fbfcf156df,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,176bfe9ab5a14115ff5b90b07626cb64,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,1773e21117bd6a0e17a3975be84ab6ae,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
 md5,1799f8305930359699524757cbde2381,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -1374,7 +1393,9 @@ md5,1852be15aa8dcf664291b3849bd348e4,https://www.ransomware.live/group/trigona,R
 md5,187390322be5f643e538ff45dbfd39f5,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,1888ecf4e90f02ecaaefdb3624825fa2,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
 md5,18a7251ddde77ed24bc54700d84d9be1,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
+md5,18f894a3168ee0b809eed321a2e748b4,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,18f9eebf70db818c0f2a3c865f7132ee,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
+md5,19232d0eff3ef7aee3b5d7620c72358c,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,1965b4ea67c442855e6aebb5a6c67933,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,19c4f4e3eb499b4049c76546c99e0c10,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,19e201749611c757b4605635e8521bba,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
@@ -1537,6 +1558,7 @@ md5,3637a397b30237dfdef72a21eb542d33,https://www.ransomware.live/group/trigona,R
 md5,36a52cda091a0d5b20a567f0015308b4,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,36a5b5d5ccb39e8babd51a8bc5d9a514,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,36ccc47e3979f58e3a59fe9e8a019486,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
+md5,36ff9f683e870145aaf5a715bc934762,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,3707ad2d1afb7bf423de3c29132d41d8,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,370fbcc6711fb983ae4679f02c5ac461,https://www.ransomware.live/group/0apt,Ransomware.live - 0apt,,2026-06-09T21:02:05.583Z
 md5,37155f0bca29ccd6b6d4f5b2bc42eb4d,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
@@ -1597,6 +1619,7 @@ md5,43b0adfed2c14c240931d8e0a3986d9e,https://www.ransomware.live/group/akira,Ran
 md5,4419c553fae636eca63a8148cfd48fcc,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,441b0a8999a65e2c02f81a27e7b442e5,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,44588897641257ef950b7e6c993d22c3,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,44805c4b36bd3d97ba8ecaf6fe103572,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,448f1796fe8de02194b21c0715e0a5f6,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-06-09T21:02:05.583Z
 md5,44c36bc55af58eb506d1760ab608402b,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,44c7d18633b5741db270a6bd378b6f3c,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
@@ -1618,6 +1641,7 @@ md5,48912431b3d2780430c6afc696f342b8,https://www.ransomware.live/group/akira,Ran
 md5,48b0a4505a96a640300e43e2af712276,https://www.ransomware.live/group/lockbit5,Ransomware.live - lockbit5,,2026-06-09T21:02:05.583Z
 md5,48d3a69c0102f121b7af73ec26ea7cd1,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,491f619c358382872f87e1479c145a5e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,4924369c0bdaf73b21eb992eb9db4dea,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 md5,495afbc7ebae07d50c529c1bd5889f54,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,496aa6ac94eb97d2bc05bfce688460c1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,49d6227ca213fe3fcaab68670e2bbe7c,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -1634,6 +1658,7 @@ md5,4becb7b02f39cfe4af8031a6f0464282,https://www.ransomware.live/group/trigona,R
 md5,4c282ce56a6991de050c2d8ea93d2b77,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,4c37fbc3e9cc57b0bc00facf1cef927f,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,4c58195328f5b5e4a37aa6f42b386172,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-06-09T21:02:05.583Z
+md5,4c80d17fa5db5b1c2aaddb5351e9cb6b,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,4ca68bf3d630332e9c19a17ac910376e,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,4d43e35962c8c7fdca5f64da8f561f5a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,4d4a30b6e491a2eb9c6ce4c4b99ae1bb,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -1714,6 +1739,7 @@ md5,5cc24cc2fced61209f0a1a30ea7e32aa,https://www.ransomware.live/group/raworld,R
 md5,5cffa3126b9effc279d32b2cf4ef2278,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,5d22a4ed1eef9ee71fae815e633cc673,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,5d4fb327482a0d6c46d28428fccd0a82,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,5d9cdb072415b191df3f444f53b2ff4b,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,5e1eec7d018f2dbd1280cd0c238e830d,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,5e1f61b9c1c27cad3b7a81c804ac7b86,https://www.ransomware.live/group/lockbit5,Ransomware.live - lockbit5,,2026-06-09T21:02:05.583Z
 md5,5e741d3ff10756e5eee2633ad65ecf96,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -1762,6 +1788,7 @@ md5,67a44a38cc36becd6e2e9c20c27fd9ad,https://www.ransomware.live/group/lynx,Rans
 md5,67b53b6d02ec8faf5926abcbe8eab8df,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,67edfff8250487d97f403c74fed85388,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
 md5,68635ad9d12f683071611bfd34c1ec34,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
+md5,6869f24aecd75e2144aba8dc03dc2d0f,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,68729b85aa01cd8c9f4ccd137ddde137,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,68c16c46f8afb9e00bbaba0207fb0a46,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,69434397fe9df4c7533a51db27e35c82,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -1791,7 +1818,9 @@ md5,6dd8c26f64df37d0c7645b63c9bba51f,https://www.ransomware.live/group/rhysida,R
 md5,6e2189ab11f130ead644b1d5bd00f1ac,https://www.ransomware.live/group/benzona,Ransomware.live - benzona,,2026-06-09T21:02:05.583Z
 md5,6e48a67e0005cd6299d585314830af69,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,6f059281f864368d16c5bf49cafa9c51,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
+md5,6f761f63642cd6329a29cfad80be50c3,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,6f893b1cc5cf534c59eabe932c1bf21e,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
+md5,6f91d1f8f0cbaab137351936b52f7a94,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,6fb6a55424adfb61e31f06aef33273e5,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,6fc6164b3a08669992acad3764fb1922,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,71085940124ad3c035a181acadc10362,https://cybersecuritynews.com/malicious-rvtools-installer-abuses-sectigo-certificate,Malicious RVTools Installer Abuses Sectigo Certificate to Bypass SmartScreen Warnings,2026-05-29T06:39:30.000Z,2026-06-09T21:02:05.583Z
@@ -1815,6 +1844,7 @@ md5,738f49a9827206e8fdef60c6fbdf94ce,https://www.ransomware.live/group/raworld,R
 md5,73a25bacdb5da2a8e6ead5a8a7d92e70,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,73e86d3acd62c44df894192915952a5b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,7403cbcc5a9c32384d431856dc48fcc9,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
+md5,7461445fca3f9d8911148e0908d33c3b,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,7486f1a88d6a3ae96fa08f882d452399,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,748b043f1602547196fbbada0536a7c3,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,74ae58a716aa834949388ee1574788e0,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
@@ -1836,6 +1866,7 @@ md5,79ecd61b09b0f2d54b34586c916c4ec9,https://cybersecuritynews.com/new-malware-a
 md5,79f7c7356d43aee07cc613fe8d978420,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,7a99bd570caf0d33464ecfd64d4da58d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,7b2d0d3fc3ddbc01f042c5c72506ef0a,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
+md5,7b361a6d0d42309d09ec9000b53712b3,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,7b795e5db82f25b8261d70048b2c3940,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,7be61ea851f894d26bf57cf0f1f55ed6,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 md5,7bf5cbca413b327c655e2270645955d9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -1860,6 +1891,7 @@ md5,7e851829ee37bc0cf65a268d1d1baa7a,https://www.ransomware.live/group/lynx,Rans
 md5,7f0039dfcbb9098550e5f5981ec4297d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,7f07488381c1fc7c09215d6f77601fb6,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,7f16449cd0c4862d1eadf8a5742bf09a,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
+md5,7f2b2e3516fa454adfd51f857ae80adf,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,7f3cea1165b04b096cee2d8da92e3b80,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,7f7c78fb5d9fdee28996a3f12bd00fef,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,7f81c1bc8cfd588e8998968e2621456e,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
@@ -1902,6 +1934,7 @@ md5,890fef6aa06bce73db52ee3087fa2a0e,https://www.ransomware.live/group/fog,Ranso
 md5,892c3dd7315ccbad1967c7d99f1de756,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,89375ce211d9a6a474ff99a7fbace93a,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,8974830446d35e234881696092aded87,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools,Hackers Abuse Legitimate RMM Tools in The Quarry IRS and SSA Phishing Campaigns - Cyber Security News,2026-06-16T06:41:57.000Z,2026-06-16T11:55:44.264Z
+md5,897abf678edad72998554ec18675092f,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 md5,8a12e997e672b80319c5b852b237e5a9,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
 md5,8a4a51a2175b0935a5172536e6d27054,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,8a61e38f6bb7a87ce40ce9c987dc4ce6,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
@@ -1919,17 +1952,20 @@ md5,8c3322009b8982663c0cbecd9492e7eb,https://cybersecuritynews.com/new-malware-a
 md5,8c6d9fc389ad3f20ccbc71d77eb39bfa,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,8c9304a013c8053f1bc4bb8109b3a919,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,8ca5c9745e8a0e18167a9b932821645a,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
+md5,8cc249b16adf7e4a658af7fa31d7998e,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,8cee838b3cc92c9f99889644d2e1e950,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,8cf9caa34b24c6777333a93d7729eadd,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,8d28158234d650c7d04e8682c4e624ee,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,8db6eee838614a191b992e68a7653fa1,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,8dbd57b042bc63b9ecdc9e3e5506ce85,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-06-09T21:02:05.583Z
 md5,8dc613df28d63907d1b686a8b0c480bf,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,8deb2a60d42de0f8f8786e485d2f046f,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,8defef59460fe89479da2f0d00212d31,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,8e2965a4dd7a27ed1b304ac03ad4d728,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,8e4a887acab5f9475c5fa9a26fb9e720,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,8e5cf313bfbb57aab0ccc5c4cb0d46ac,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,8ed43c2c1aa9bb8c7c3902e1f3f4b473,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
+md5,8edb3ea62a7e643ba1a88d20799cf94f,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,8ef468f21842ee03e1c5a41a6fef6bba,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,8f052170eb9c8cda872d07888753c5e7,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,8f69165aae148726d48621471d7bf3c3,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -1946,6 +1982,7 @@ md5,9192d18a955a9d03e2c70b60aac1784a,https://cybersecuritynews.com/malicious-rvt
 md5,91acae0fff5ecbf0b65c3ddebb5a824a,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-06-09T21:02:05.583Z
 md5,91ae179fb34f7f1203c2aa01d2b4e30f,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,9200c2686560b4bfe672a051ea0356ee,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
+md5,9221423d7daff9e64f7e2af54f911fea,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,927c94b401a7711cf5f6c910d9c46f52,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,92a20ba91b4d3b89b57aa95a120667ae,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-06-09T21:02:05.583Z
 md5,92ed4d259940d4294190e60add5cc587,https://cybersecuritynews.com/china-linked-hackers-target-southeast-asian-edge-routers,China-Linked Hackers Target Southeast Asian Edge Routers With Custom Linux Implant,2026-05-26T16:08:22.000Z,2026-06-09T21:02:05.583Z
@@ -1967,6 +2004,7 @@ md5,95f6de7442e040fb10547140a05ddd45,https://www.ransomware.live/group/akira,Ran
 md5,961ed262cd7753e154e5110135b180ad,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,963ce01dd8f7a4d1a25504396ab2a0c1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,964c13b68dc6b6b918b66a9a10469d2a,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
+md5,9660895fa3fcabbef466703636f6d51d,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,96fbb98b1f722ae5f49ab63da0f74cf2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,97150d47ea7779101be6582fc329c2cd,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-06-09T21:02:05.583Z
 md5,9734089f6eab3bf3d443755954cc785f,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
@@ -1980,6 +2018,7 @@ md5,993dd975a0ef36bedb6532672ecd3d65,https://www.ransomware.live/group/raworld,R
 md5,993f4c0cadbc769a4b0ed62a918db58d,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,994a0c3e3e1390d972b1bdd8e8f2a449,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
 md5,996c394d0f6d6967df9542c52f6f4661,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
+md5,9973676bfa9fe89aa5c76e3cd0b21ae8,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,997d9e2d14080c5d176b6bb414d88561,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,99be93aa4c34b39fedcd37663c34511f,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-06-09T21:02:05.583Z
 md5,99e5cad6249bece80c26a6023e77826d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -2017,16 +2056,20 @@ md5,a18d79e94229fdf02ef091cf974ed546,https://www.ransomware.live/group/akira,Ran
 md5,a1f4931992bf05e9bff4b173c15cab15,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,a20886a5b378624d16972db66bd4e7e1,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
 md5,a20f8391af142d78fa825e38f0f40965,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
+md5,a2d54fcd0c2816f607a5962523fc648c,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,a2d853247d939106231314bc5b233bda,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
+md5,a3181550e0e0a6153a44b7a0495535b0,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,a34941a3022b8fb2b4a245c0ba3092c6,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,a34a354b9b59616b84dbc1503a7be058,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,a3a62b5aed61ace35c9aadde1f5cefde,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,a3dc8739c25b9b0c0348fc12fddcef65,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
+md5,a3e3197e2344c51e95c063541ea22205,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,a48060248c624cb8edce7415dcf142b1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,a4b88bf440613390cd32e045a59fd7b0,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
 md5,a4ccd1a3ee084e7356cffb3e0a41eab1,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,a4d8d1d4dcbc2fb3063bc3c9886de2cc,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,a4e7b94c88a041d5e9983a704053f01c,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
+md5,a5101caf0a1789d6a4bc30e644d6b152,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,a6302fdb63e2244c1246a73a7d65d09e,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,a63bbfc44e6fb3d14fbbf085c7eb4b68,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,a645a17ed0246606f58a7801a7fb866d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -2044,6 +2087,7 @@ md5,a8e97fe5a7115e42759d67f7e4d88b0d,https://www.ransomware.live/group/lockbit3,
 md5,a91d55cb6f5d7328a2a778c203177221,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,a9297a8acbee74ba0169333ee38be2ef,https://www.ransomware.live/group/nitrogen,Ransomware.live - nitrogen,,2026-06-09T21:02:05.583Z
 md5,a94a0bc0ff90b0466c36326598714fa4,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,a97e552f5e655e1cfa56853f65beeb0e,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,a99266340fb6880f8e0a8744b23a8b03,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,a9c7be14e01b219a1e237412464260b5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,aa0406ac91d3a12e57f52ef82cb7d2e7,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
@@ -2054,6 +2098,7 @@ md5,ab05a1925fee8334a2114811d5283364,https://www.ransomware.live/group/qilin,Ran
 md5,ab359be0ab33876eb32325706e43f0c1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,ab6a985dbef013596ac79ca5117ef77c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,ab9e577334aeb060ac402598098e13b9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,abae20b26b70b526bebb5e2617092ede,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,abe06e90aeb9e69647efe1431f6a1a68,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,acdce16891bae1babc5b953a0c3706c5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,ad15c99cc96350cb25c914b5bfb94ffe,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -2066,12 +2111,15 @@ md5,aef2b40fb0b685a2912e931afaeaa666,https://www.ransomware.live/group/raworld,R
 md5,af568e8a6060812f040f0cb0fd6f5a7b,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,af95fbcf9da33352655f3c2bab3397e2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,afaad51d8f656489a0e10ba45ca5dfc2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,afe085b7324d72673eef749ff5f21a49,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 md5,b04e8ee43aba85fa5c585b9335c953c2,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,b0579ea540b639929f1a7426310d0d2c,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,b0a59e8b365962c73da486bccc361354,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,b0b9a31de4dfd11bf267dd781b47230a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,b0bed416ff458a1d5e3398560317af7a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,b0f4f813a9de094c06821366e2459aee,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,b0ff9b355c154c3a8a6b63211be60121,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
+md5,b104a05e8a2e218adfb7654ba8bf3d49,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,b1094be42cf05bdd38951c8bf5c83cfd,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,b163803130f466db74f68a19f9cee11e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,b16928f4e8447778388e785f746434b3,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
@@ -2114,6 +2162,7 @@ md5,b7e14409b99a663fa181ec5e2abc8fb3,https://www.ransomware.live/group/cactus,Ra
 md5,b86aacec897b8376c23647c4f0e78fba,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
 md5,b8846b3e1adfc89aa767687364fecf6a,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,b91a7dbb7f6b1f5c922c01181d71f972,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,b9406e969cdfdaef433e93d0b9ad1f5d,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,b95d45860a6aca8fd23b5a75ff6f6c5c,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,b97812a2e6be54e725defbab88357fa2,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-06-09T21:02:05.583Z
 md5,b99bdb8880e4ef03727885ea50a4a2fc,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -2152,9 +2201,11 @@ md5,c02311bf513ebe0d1a5a1500b89021d4,https://www.ransomware.live/group/akira,Ran
 md5,c0a5f20bf77fda622bc93df6caccc626,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,c0a72edcd670fc46f607a89672ad65df,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,c0bee5d054345131355452ef0c057697,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,c113739225ece5f6e4805466dec1401d,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,c18dd6b7d1acf12d39ebb017a21a4a3e,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,c28b33f7365f9dc72cc291d13458f334,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,c2cbbd6e392a453a47da69d086756e71,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,c2e25aba8e2ad4cafdd6c633b8ca0906,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 md5,c387b2eb96bb137cdd54220d920edce9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,c38ff538cf86969c8b30b98b46c4e9ee,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,c43f12b8330643c72d21bad3b6cfcf82,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
@@ -2210,6 +2261,7 @@ md5,d24cd19a50e6d574a0cfdfc07c6d22bb,https://www.ransomware.live/group/akira,Ran
 md5,d25890a2e967a17ff3dad8a70bfdd832,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,d28e935364b86c2292a92f56c68e6e4a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,d2b2a35d0e85409379b7a61a441de709,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,d2fd89ebdad493ec9ac76ce35213cec4,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,d309e3d77ed6a336eb3ad263ddf9db90,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,d30cc10d54ebc967c8538ff74f442eee,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
 md5,d31424d69faf59b6ade630bd9969d360,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -2233,6 +2285,7 @@ md5,d71036dbaff60b41cc4fd767be595997,https://www.ransomware.live/group/trigona,R
 md5,d724d178eb09cd8ce2af8b088117b332,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,d72c3508cbb968c478e0bd91e0f11424,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,d75f9129bb5d05492a65ff78e081bcb2,https://cybersecuritynews.com/hackers-use-bluerabbit-backdoor,Hackers Use BLUERABBIT Backdoor to Encrypt Files and Wipe Disks Across Windows Systems - Cyber Security News,2026-06-11T15:32:55.000Z,2026-06-11T17:54:45.952Z
+md5,d79270ba44e665ebb0383eb77a52e38b,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,d7aa8e838d85ac9fcbef1cc7f55dccbf,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,d7ad18e63064ef80cc6b98db54516f6f,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-06-09T21:02:05.583Z
 md5,d80125b9429e9d5f06ace959f00de8d0,https://cybersecuritynews.com/hackers-use-bluerabbit-backdoor,Hackers Use BLUERABBIT Backdoor to Encrypt Files and Wipe Disks Across Windows Systems - Cyber Security News,2026-06-11T15:32:55.000Z,2026-06-11T17:54:45.952Z
@@ -2244,6 +2297,7 @@ md5,d953809c842ada81c92bfbf9c7088671,https://www.ransomware.live/group/trigona,R
 md5,d96adf82f061b1a6c80699364a1e3208,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,d96d2bcf13d55740f3bb64d45d2db94d,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-06-09T21:02:05.583Z
 md5,d972bbbb3edb0e5ab5751b911f3dda17,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
+md5,d997efa98afab2c003654b8d5ce2bedf,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,d99cea84fd8d6fe7874036c7d12d65c8,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,d9a053e54be4003cc28b41fe30790349,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
 md5,d9e524c5a75ad511b802f35488f6af5d,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
@@ -2254,10 +2308,15 @@ md5,dad708e050632a4280cabf98ac1376b7,https://cybersecuritynews.com/new-malware-a
 md5,db0d857a85478d3271c404548574d88f,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,db71c06452f27955314d6d4132506baa,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,db804c3f55c5d09dace40c76c99cab52,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
+md5,dbcc5a3e6afe41060d6357e24dc03fd3,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
+md5,dbdd4d8e4aef3ce69cf65ed470425c89,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,dc2dbcbf61b0799cdacae8c61a1b162d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,dc344328208c3481587d0aab1005fcdd,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-06-09T21:02:05.583Z
+md5,dc35086ba0f5f83545c32a023a1f3be4,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
+md5,dc71c10ca0b2c83b6b3a6a062fca314f,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,dc7392e7f60537f113e25d66cff87876,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,dcc7371a1bb7380221bc0d48b85d99b8,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
+md5,dd1e5a3cd9f842bd70be45a62c3ebbf6,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,dd394a40255027c7354123fc0f1a6c05,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
 md5,dd42c3e017889c107a81da78d87dc8af,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,ddaa09b5c3bf5aa24e300c24905469f2,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
@@ -2270,6 +2329,7 @@ md5,dedaf87d9f14524ec3fe7c3d2e304bf5,https://www.ransomware.live/group/hellokitt
 md5,dede7dfe4b5285ed0a3e770efe4db5ff,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,dee2ecb51fbfa2f1de9dbe9a7524da12,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
 md5,df04653e98de0dd39f4e166a5cc9339b,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
+md5,df0c9f6289e56f31c0700f40590857d3,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,df0dcae2fbd51e2319f9ea46517f4398,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,df2ef788797faaef5a33a146525af764,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,df4fa0369eaca5cec348be293890d4af,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
@@ -2299,6 +2359,7 @@ md5,e614b22e081429a22b31a5eb7fedcc21,https://www.ransomware.live/group/trigona,R
 md5,e634fe96f81b8a5198c8ac65a95e58a4,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,e6580cfd266ee1f3a4835add61eed47e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,e67e7b8e0fb6baff4f25bb05dd5a5e21,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-06-09T21:02:05.583Z
+md5,e6b27080aa1ce1901a23dd75716d9092,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,e6f2d39553181b74ff76a63484b8aa35,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,e6f72dd4d9da34dff7a1a47b8506f762,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,e72e0069e1fb4328e2704bda97fb4a40,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -2314,10 +2375,12 @@ md5,e8beb18255980acdeae7895c8a0d03f1,https://www.ransomware.live/group/raworld,R
 md5,e8fb54b0d6780b2d032f865b78a711ba,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,e931ab5882d62ea08e498d90e2e11ad0,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,e937ba13a70cf62da5c5a471df866f6b,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
+md5,e9916ff56074725f5739ead5091fe6c7,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,e99e6b583d77db4337e07af0ad0452dc,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,ea084a42dc0796e98677235de2eb2020,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,ea16d3eb7bafa159c311c7806729ccdd,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
 md5,ea1f8794c73b26724314e5356f1f4128,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
+md5,ea2fe3b409da439aec25cf7eabf5b7a7,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,ea4ec74ecdb45e9d72ac35bd5c14e7c0,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
 md5,ea6175f6cbd3bacb2fa48bf6b402e9f8,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,ea80da668a5dd8723d4c4248c3bbecf8,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -2341,6 +2404,7 @@ md5,ed28d0bc67de67146a3f8785ddaef6b6,https://www.ransomware.live/group/raworld,R
 md5,ed46a267d7725e0e1ed956a5e441da8a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,ed5bb1ca1c6d80582d9565983646b856,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,ed83c8e2dcc966748548be0e36fb90ce,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
+md5,ed9209111b995cbe78f8e097c289f127,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,eda59d39892f40dbd14925432f9ba108,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,edcdc4df9344765a584561e0a0f64676,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,edec051ce461d62fbbd3abf09534b731,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-06-09T21:02:05.583Z
@@ -2361,6 +2425,7 @@ md5,efd6896140a769c2f7142cefbd68fc3d,https://www.ransomware.live/group/akira,Ran
 md5,f0410358a0d9dbd0dff3113d9c744ca7,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-06-09T21:02:05.583Z
 md5,f05b57cdc3420acc359efe9e4941c428,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-06-09T21:02:05.583Z
 md5,f07d058c7c29f4d5c061b11c53853ece,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
+md5,f093891e281bcd9c8016dea7d89cc671,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,f0f300206af1eed81b7b74357df437da,https://www.ransomware.live/group/j,Ransomware.live - j,,2026-06-09T21:02:05.583Z
 md5,f16238836909d07f86154c5ccbade96a,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
 md5,f162816f1d7b0006cfa0bfaf95c492c4,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-06-09T21:02:05.583Z
@@ -2372,6 +2437,7 @@ md5,f280e12f51f996dae7fffc64a56ee527,https://cybersecuritynews.com/hackers-explo
 md5,f2bf5c1aa8e8566cc2f3cb060556926c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,f325cd4350d958e4a5141e520ab4ad52,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,f35a29f2c7153f6a13768b77ff9da28d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
+md5,f3626a38fcf488c9eed54beb8c7c116f,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 md5,f392807da3ee1f3e9702ce5fa91d418d,https://www.ransomware.live/group/blacklock,Ransomware.live - blacklock,,2026-06-09T21:02:05.583Z
 md5,f40a9023601154d7d61b349ab2945c97,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,f44854e0df2ebd9aee5b525cc6df21da,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -2411,7 +2477,9 @@ md5,fb7abc83427e101c90a2a830d1b38271,https://www.ransomware.live/group/raworld,R
 md5,fbbb2685cb612b25c50c59c1ffa6e654,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-06-09T21:02:05.583Z
 md5,fc2a126a389d9eb7b16b619b64a2a573,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,fc2c9afd1a78adaeaa63028dbe894eee,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
+md5,fc4cee066d8526f5806bb23278f647da,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,fc5be86c846e93b0a65dd18849205514,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,fcc9de5c040307e6ac3011e8b379f6d9,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,fceca579efcef09eb507c6ca977ea281,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
 md5,fcfb5662c79023c9065085d7a704dbdd,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,fcfd090aa00fe9388da6d20cd2326058,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
@@ -2423,15 +2491,18 @@ md5,fdc6848dad660414bed9ad1b381cf6e3,https://www.ransomware.live/group/qilin,Ran
 md5,fead64a37461b9e5d0875ebec870152a,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,feb81a8d7e0f91d6f74b440cdd3c2f28,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,febb622cd9eeb5c8860dcef4cbfd4b74,https://cybersecuritynews.com/kali365-phaas-operation-expands-beyond-microsoft-365,Kali365 PhaaS Operation Expands Beyond Microsoft 365 to Target Okta and MAX Messenger,2026-06-04T13:01:57.000Z,2026-06-09T21:02:05.583Z
+md5,ff11e000f377c54dea928b09ebad9df8,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,ff458208c49836cdec92f0a4a7ba6afd,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-06-09T21:02:05.583Z
 md5,ff57f16df2d6d726e727591e57e7f759,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,ff8e92d2fd2df3ffad5bbe9e44828377,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,ffd340da6546fd9727011fa808af4ac1,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
+md5,fffcbd0ac2cb545496890f50395181ff,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 mutex,MakeAmericaGreatAgain,https://www.ransomware.live/group/payload,Ransomware.live - payload,,2026-06-09T21:02:05.583Z
 registry_key,hkcu\...\currentversion\run,https://cybersecuritynews.com/140-mastra-npm-packages-compromised,Hackers Compromised 140+ Mastra npm Packages to Deploy Password-Stealing Malware,2026-06-17T09:05:34.000Z,2026-06-17T10:17:54.068Z
 registry_key,hkcu\software\classes\ms-pu\clsid,https://cybersecuritynews.com/mustang-panda-deploys-plugx-rat,Mustang Panda Deploys PlugX RAT Through Multi-Stage LNK and PowerShell Attack Chain,2026-06-02T13:43:29.000Z,2026-06-09T21:02:05.583Z
 registry_key,hkcu\software\microsoft\windows\currentversion\ru,https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware,SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry,2026-06-01T12:27:32.000Z,2026-06-09T21:02:05.583Z
 registry_key,hkcu\software\microsoft\windows\currentversion\run,https://cybersecuritynews.com/hackers-use-fake-purchase-orders-to-deploy-js-monoglyphrat,JS.MonoGlyphRAT Malware Targets US Enterprises Using Fake Purchase Orders,2026-06-03T15:56:27.000Z,2026-06-09T21:02:05.583Z
+registry_key,hkcu\software\microsoft\windows\currentversion\run\csshost,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
 registry_key,hkcu\software\microsoft\windows\currentversion\run\edgeupdate,https://cybersecuritynews.com/hackers-use-clickfix-prompt-to-install-msi-package,Hackers Use ClickFix Prompt to Install MSI Package and Launch Hands-On-Keyboard Attack,2026-06-17T16:34:50.000Z,2026-06-18T05:30:51.219Z
 registry_key,hkcu\software\microsoft\windows\currentversion\run\g,https://cybersecuritynews.com/mustang-panda-deploys-plugx-rat,Mustang Panda Deploys PlugX RAT Through Multi-Stage LNK and PowerShell Attack Chain,2026-06-02T13:43:29.000Z,2026-06-09T21:02:05.583Z
 registry_key,hkcu\software\microsoft\windows\currentversion\run\runsearch,https://cybersecuritynews.com/hackers-use-clickfix-prompt-to-install-msi-package,Hackers Use ClickFix Prompt to Install MSI Package and Launch Hands-On-Keyboard Attack,2026-06-17T16:34:50.000Z,2026-06-18T05:30:51.219Z
@@ -2574,9 +2645,11 @@ sha256,14118a6070f89baafd5f2aeaf2df7535a8053f99944453584f0d1efeb6501ac3,https://
 sha256,1514b1268e9dc6d2f37137aa38c756cb4bf8186ac9235d6863b78e7f8bbbe976,https://cybersecuritynews.com/smartapesg-campaign-uses-clickfix-scripts,SmartApeSG Campaign Uses ClickFix Scripts to Infect Windows Hosts With RAT Malware,2026-06-01T14:42:22.000Z,2026-06-09T21:02:05.583Z
 sha256,15e6df0c95f2147952308e640d55270e9d097639eaebb34d4b352415f1c6bceb,https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot,"Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",2026-06-04T21:22:17.000Z,2026-06-09T21:02:05.583Z
 sha256,16474e9e4773fbc1e0b48a5025fad31b7f084b1beffb9a42687b4d01979885fe,https://cybersecuritynews.com/interlock-and-rhysida-ransomware-operations,Interlock and Rhysida Ransomware Operations Share Supper Backdoor and Malware Codebase,2026-06-16T12:19:29.000Z,2026-06-16T17:36:59.243Z
+sha256,164e322d6fbc62e254d73583acd7f39444c884d3f5e6a5d27db143fc25bc88b3,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
 sha256,16562974deec80e41ef57a71a6de8c03ceb393005fb1432f8d9d82c61294ef8c,https://cybersecuritynews.com/hackers-abuse-ai-chatbot-recommendations,Hackers Abuse AI Chatbot Recommendations to Push Malicious Software Download Links,2026-05-27T16:13:11.000Z,2026-06-09T21:02:05.583Z
 sha256,172a25a9ed8b798d8baeec29424b46627b5b39723b37c787f928d3700509001e,https://cybersecuritynews.com/clickfix-campaign-uses-etherhiding-and-guloader,ClickFix Campaign Uses EtherHiding and GULoader to Infect Windows Users via Fake CAPTCHA,2026-06-17T01:22:20.000Z,2026-06-17T10:17:54.068Z
 sha256,174086534a2de730058465a4a4e231ce3778ab17ebebfd7f62b3bf9750bc7bdb,https://cybersecuritynews.com/hola-browser-for-windows-delivery-pipeline-compromised,Hola Browser for Windows Delivery Pipeline Compromised to Deliver Cryptominer,2026-06-05T19:53:13.000Z,2026-06-09T21:02:05.583Z
+sha256,17832aa629524ef6e8d8d6e9b6b902a8d324b559e3c36dbd0e221ab1690be871,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
 sha256,17bad5ae5b2ac262f5f18854853869840245c344105aa38c7f550ef51d2e5f26,https://cybersecuritynews.com/malicious-npm-campaign-steals-ssh-keys-api-tokens,"Malicious npm Campaign Steals SSH Keys, API Tokens, Cloud Credentials, and Wallet Secrets",2026-06-12T16:01:06.000Z,2026-06-12T19:33:28.362Z
 sha256,17ffe7ecbf1d5a4bc3768d896c9348d5de337baa0b0938e4283324d3b1e8ccbd,https://cybersecuritynews.com/hackers-deploy-vip-keylogger-through-phishing-emails,Hackers Deploy VIP Keylogger Through Phishing Emails Masquerading as Business Documents,2026-05-28T15:26:14.000Z,2026-06-09T21:02:05.583Z
 sha256,185b7a487316454da04e9cc0fe6eb370bb2955cf6096fe3e8c02c46f8989ba37,https://cybersecuritynews.com/hackers-use-tax-phishing-emails,Hackers Use Tax Phishing Emails to Deploy In-Memory Malware on Windows Systems,2026-06-10T17:11:05.000Z,2026-06-10T19:18:42.344Z
@@ -2617,6 +2690,7 @@ sha256,26a2268281e8043125ef72b92f8980b42912048753d56894bc378fb54c7c188a,https://
 sha256,26f2abfc254a59c2386dd46dca16744f7147a0f0366cb6008e1d53219175f44c,https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot,"Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",2026-06-04T21:22:17.000Z,2026-06-09T21:02:05.583Z
 sha256,270c3354b3ee2940b499e365eaba143fba9d458f434dc38e663dc0f08e96121e,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-06-09T21:02:05.583Z
 sha256,2812e0847d472cb8870c94f463331dbe53b84135132b9bf5f6d84c2382be628f,https://cybersecuritynews.com/north-korea-aligned-hackers-abuse-github-repositories,North Korea-Aligned Hackers Abuse GitHub Repositories to Infect Developers,2026-06-09T16:02:01.000Z,2026-06-09T21:02:05.583Z
+sha256,282b9bc318ad1234cbd1b86424b784299b8be31545802a7c6b751166b814b990,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
 sha256,28cea00267fa30fb63e80a3c3b193bd9cd2a3d46dd9ae6cede5f932ac15c7e2e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 sha256,29546a03e07bfeb3025313b12671c758ced1c4921a4bc859a7ab40ec52584cdb,https://cybersecuritynews.com/new-weedhack-malware-as-a-service-targets-minecraft-players,"New Weedhack Malware-as-a-Service Targets Minecraft Players to Steal Credentials, and Hijack Accounts",2026-06-09T12:46:04.000Z,2026-06-09T21:02:05.583Z
 sha256,29ac78c51bcdfe68c64830bdeb6e41437dd55e2691149741c9b78be03b6c82ea,https://cybersecuritynews.com/new-drivesurge-threat-actor-uses-clickfix,New DriveSurge Threat Actor Uses ClickFix and Fake Updates to Infect Website Visitors,2026-06-01T10:14:29.000Z,2026-06-09T21:02:05.583Z
@@ -2716,6 +2790,7 @@ sha256,4efbef69eb3b09bacff892d6a55778d07c418e7f15eba3cf1245e8cdfd8dda0b,https://
 sha256,4fcfa88fffacbce30bbe2136753c9ab5a4c092940d2406fd9d44d5118e745b9d,https://cybersecuritynews.com/proofpoint-warns-ta4922-deploys-atlas-rat,"Proofpoint Warns TA4922 Deploys Atlas RAT, RomulusLoader, SilentRunLoader, and ValleyRAT",2026-06-04T15:09:02.000Z,2026-06-09T21:02:05.583Z
 sha256,501821a19ccf59830789849beff94238736adb4b213870a511890c5c8efab2a6,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-06-09T21:02:05.583Z
 sha256,50eae63d3e24be9ca8803f4b5a0408aef97ee3fab7af018d8c2dde7c359edd65,https://cybersecuritynews.com/north-korean-hackers-abuse-mastra-npm-supply-chain,North Korean Hackers Abuse Mastra npm Supply Chain to Target Developers and CI/CD Pipelines - Cyber Security News,2026-06-22T09:22:32.000Z,2026-06-22T15:08:04.613Z
+sha256,50ffce607867d8fa8eaf6ef5cd25a3c0e7e4415e881b9e55c04a67bcddb74fdf,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
 sha256,515bd71a8b3c2bce7b40b89ddfe2e94d332b0779d569c58117f8dcdcb8a91ed9,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-06-09T21:02:05.583Z
 sha256,51a57bfc9ed3eb6451c1c289607814d59e1698c666fb97ac5f694c398f23d045,https://cybersecuritynews.com/prc-nexus-hackers-exploit-redcap-servers,PRC-Nexus Hackers Exploit REDCap Servers to Spy on US Medical Research Institutions,2026-06-16T10:16:22.000Z,2026-06-16T11:55:44.264Z
 sha256,51f7b3f6991bc6253d33e6b93f4e0429957f3d54d967c461dbb82ea2a4694e12,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
@@ -2992,6 +3067,7 @@ sha256,c6ef82d2864dfd26f117a1ef5602679153423f2742970a7949cec72722f0a0b3,https://
 sha256,c7691712d794d4ef582c591566bf5fda76a364b0bcdad315adbaaec8607ad0f3,https://cybersecuritynews.com/new-weedhack-malware-as-a-service-targets-minecraft-players,"New Weedhack Malware-as-a-Service Targets Minecraft Players to Steal Credentials, and Hijack Accounts",2026-06-09T12:46:04.000Z,2026-06-09T21:02:05.583Z
 sha256,c7c5072df9f83f4c440a5c3bb4be1d5f6c67bbf78f196406ca20d27b43b975b8,https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures,"Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",2026-06-09T08:39:18.000Z,2026-06-09T21:02:05.583Z
 sha256,c7ef2ec19d158301773b1590f5b5eeb362a30f725acad8f5b3a230e9f26d14be,https://cybersecuritynews.com/nimbus-manticore-apt-abuses-fake-recruitment-portal,Nimbus Manticore APT Abuses Fake Recruitment Portal to Deliver Custom Malware,2026-06-02T07:56:17.000Z,2026-06-09T21:02:05.583Z
+sha256,c8075bbff748096e1c6a1ea0aa67bb6762fdd7551427a12425b35b94c1f1ecf2,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
 sha256,c824630154ac4fdfce94ded01f037c305eab51e9bef3f493c60ff3184a640502,https://cybersecuritynews.com/hackers-use-weaponized-windows-shortcuts,Hackers Use Weaponized Windows Shortcuts to Spread Crypto Clipper Across USB Drives - Cyber Security News,2026-06-19T07:50:37.000Z,2026-06-19T08:17:43.367Z
 sha256,c86aa6c2c589455659b7a4ce6bb15cbdecb69250504d0b00bf3a9ac2209e3f60,https://cybersecuritynews.com/hackers-deploy-vip-keylogger-through-phishing-emails,Hackers Deploy VIP Keylogger Through Phishing Emails Masquerading as Business Documents,2026-05-28T15:26:14.000Z,2026-06-09T21:02:05.583Z
 sha256,c8cc4225d1e21324ef419adbb1c10dd0578fb034b5f5d7b8000f0aae1871c061,https://cybersecuritynews.com/iran-linked-hackers-destroy-it-backups-and-recovery-systems,"Iran-Linked Hackers Destroy IT, Backups, and Recovery Systems in Cyberattack targeting Middle East",2026-06-01T10:49:34.000Z,2026-06-09T21:02:05.583Z
@@ -3099,6 +3175,7 @@ sha256,f34cfdc950124d26b4f2f99b192a4ab7a4163af3143c3b18bc2271ca08d6c899,https://
 sha256,f3a6d4ccdd0f663269c3909e74d6847608b8632fb2814b0436a4532b8281e617,https://www.ransomware.live/group/kawa4096,Ransomware.live - kawa4096,,2026-06-09T21:02:05.583Z
 sha256,f3b54984caca95fd496bcfe5d7db1611b08d2f5b7d250b43b430e5d76393f9e0,https://cybersecuritynews.com/hackers-use-weaponized-windows-shortcuts,Hackers Use Weaponized Windows Shortcuts to Spread Crypto Clipper Across USB Drives - Cyber Security News,2026-06-19T07:50:37.000Z,2026-06-19T08:17:43.367Z
 sha256,f54cd38632ac9da3af3533ae93e92625cbcb04df521dbf1b6acfaa81218f9e8c,https://cybersecuritynews.com/iranian-apt-uses-seo-poisoning,Iranian APT Uses SEO Poisoning to Deliver Fake SQL Developer Malware Installer,2026-05-25T15:15:56.000Z,2026-06-09T21:02:05.583Z
+sha256,f6669bd504ce6b0e303be7ee47f2ebbc062989c88c41f0a3f436044a24869798,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
 sha256,f6db77be038980e9dbbf9f11e0f7ae7d2d4d3f1a53199958f1f55137dde5efd3,https://cybersecuritynews.com/iran-linked-hackers-destroy-it-backups-and-recovery-systems,"Iran-Linked Hackers Destroy IT, Backups, and Recovery Systems in Cyberattack targeting Middle East",2026-06-01T10:49:34.000Z,2026-06-09T21:02:05.583Z
 sha256,f6e4b09ef788adef3f65fd2b99da8f5be5391be29471676dc07040a56c8fdfab,https://cybersecuritynews.com/hackers-use-onyxc2-malware-as-a-service,Hackers Use OnyxC2 Malware-as-a-Service to Steal Credentials From 210 Applications,2026-06-12T14:42:27.000Z,2026-06-12T19:33:28.362Z
 sha256,f6e5f7445b9ea717513a04d04acfa343025ca35302d025de33935e176a83f6ae,https://cybersecuritynews.com/new-oniondrop-loader-campaign-uses-gainmsg-c2,New OnionDrop Loader Campaign Uses gainmsg C2 to Deliver LegionLoader Payloads,2026-06-17T01:35:54.000Z,2026-06-17T10:17:54.068Z
@@ -3237,6 +3314,7 @@ url,http://cdn-static.okendo.io/reviews-widget-plus/js/okendo-reviews.js,https:/
 url,http://chromium-client.github.io/main/chromiumclient-.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,http://dash.awaydouble.org/0v2auth,https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures,"Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",2026-06-09T08:39:18.000Z,2026-06-09T21:02:05.583Z
 url,http://dieserbenni.ru/,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
+url,http://eixfi.ajb8.com,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 url,http://forestoaker.com:6290,https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot,"Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",2026-06-04T21:22:17.000Z,2026-06-09T21:02:05.583Z
 url,http://friendlydomain.ru/,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,http://gluckcreek.online:48261,https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot,"Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",2026-06-04T21:22:17.000Z,2026-06-09T21:02:05.583Z
@@ -3244,6 +3322,7 @@ url,http://ip-api.com/json,https://cybersecuritynews.com/hackers-use-grandoreiro
 url,http://limbo100x.ru/,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,http://metakit.fireant.vn/software/setup.exe,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
 url,http://metakit.fireant.vn/software/version.xml,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
+url,http://opi7.com,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 url,http://pentagon.cy/,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,http://ropea.top:28313,https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot,"Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",2026-06-04T21:22:17.000Z,2026-06-09T21:02:05.583Z
 url,http://stealer.cy/,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
@@ -3251,6 +3330,8 @@ url,http://stealer.to/,https://cybersecuritynews.com/hackers-use-youtube-and-seo
 url,http://weedhack.xyz,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,http://whack.cy/,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,http://whrc.ru/,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
+url,http://xonice.ahb8.com,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
+url,http://xook.ajb8.com,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 url,https://[errtraffic-domain]/api/index.php?a=ctx&amp;os=windows&amp;src=cloudflare&amp;cb=[browser]&amp;ref=[referrer]&amp;mode=download&amp;rid=[ray_id,https://cybersecuritynews.com/errtraffic-maas-uses-fake-recaptcha-and-cloudflare-turnstile-lures,ErrTraffic MaaS Uses Fake reCAPTCHA and Cloudflare Turnstile Lures to Execute PowerShell Commands,2026-06-17T12:28:05.000Z,2026-06-18T05:30:51.219Z
 url,https://1312stealer.ru/,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,https://abimj.edu.af/institute/10/,https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware,SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry,2026-06-01T12:27:32.000Z,2026-06-09T21:02:05.583Z
@@ -3276,6 +3357,7 @@ url,https://ddjidd564.github.io/defi-security-best-practices/config.json,https:/
 url,https://ddjidd564.github.io/defi-security-best-practices/priority_targets.json,https://cybersecuritynews.com/hackers-use-34-malicious-packages,"Hackers Use 34 Malicious Packages to Steal Cloud Keys, Wallets, and SSH Credentials",2026-06-02T13:35:16.000Z,2026-06-09T21:02:05.583Z
 url,https://deepaichats.com/ext/aimodel,https://cybersecuritynews.com/malicious-browser-add-ons-target-chatgpt,"Malicious Browser Add-Ons Target ChatGPT, Claude, Copilot, Gemini, and DeepSeek Users",2026-06-05T13:33:29.000Z,2026-06-09T21:02:05.583Z
 url,https://donutdupe.xyz/donutdupe-1.21.1.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
+url,https://dybic.ajb8.com,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 url,https://financemachinelearning.com/apparatus/wind/twig/statement.html,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
 url,https://fr24cast.com,https://cybersecuritynews.com/whatsapp-disrupts-nso-cyberattack,WhatsApp Disrupts NSO-Linked Cyberattack Targeting Users with Pegasus Spyware,2026-06-08T14:54:14.000Z,2026-06-09T21:02:05.583Z
 url,https://ghazacast.com,https://cybersecuritynews.com/whatsapp-disrupts-nso-cyberattack,WhatsApp Disrupts NSO-Linked Cyberattack Targeting Users with Pegasus Spyware,2026-06-08T14:54:14.000Z,2026-06-09T21:02:05.583Z
@@ -3293,6 +3375,8 @@ url,https://odinclient.com/odin-1.21.10-latest.jar,https://cybersecuritynews.com
 url,https://pixeldrain.com/api/file/o4jkp4tx?download,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,https://platecrumbs.com/11z77u3.php,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
 url,https://script-dev.digital/api/css.js,https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980,Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware,2026-05-26T12:24:49.000Z,2026-06-09T21:02:05.583Z
+url,https://sdkv1.dataexplore.cc,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
+url,https://sdkv1.dataexplore.co,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 url,https://simplevoicechatmod.com/downloads/voicechat-fabric-1.21.11-2.6.11.jar,https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning,Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware,2026-06-03T11:52:29.000Z,2026-06-09T21:02:05.583Z
 url,https://sourceforge.net/projects/bluewaveremover/,https://cybersecuritynews.com/hackers-use-fake-chatgpt-and-claude-installers,Hackers Use Fake ChatGPT and Claude Installers to Deploy DinDoor Backdoor,2026-05-27T18:16:03.000Z,2026-06-09T21:02:05.583Z
 url,https://sourceforge.net/projects/gearup/,https://cybersecuritynews.com/hackers-use-fake-chatgpt-and-claude-installers,Hackers Use Fake ChatGPT and Claude Installers to Deploy DinDoor Backdoor,2026-05-27T18:16:03.000Z,2026-06-09T21:02:05.583Z
