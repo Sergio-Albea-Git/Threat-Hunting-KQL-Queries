@@ -608,6 +608,7 @@ filename,libcef.dll,https://cybersecuritynews.com/proofpoint-warns-ta4922-deploy
 filename,libffi-6.dll,https://cybersecuritynews.com/hackers-use-grandoreiro-malware-to-target-portuguese-banks,Hackers Use Grandoreiro Malware to Target Portuguese Banks and Latin American Companies,2026-05-27T18:57:51.000Z,2026-06-09T21:02:05.583Z
 filename,libpam_cache.so,https://cybersecuritynews.com/quasar-linux-rat-targets-developers,Quasar Linux RAT Targets Developers With Fileless Execution and eBPF Rootkit,2026-05-26T16:49:30.000Z,2026-06-09T21:02:05.583Z
 filename,libpng15.dll,https://cybersecuritynews.com/hackers-use-grandoreiro-malware-to-target-portuguese-banks,Hackers Use Grandoreiro Malware to Target Portuguese Banks and Latin American Companies,2026-05-27T18:57:51.000Z,2026-06-09T21:02:05.583Z
+filename,libsvcs.dll,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 filename,libvlccore.dll,https://cybersecuritynews.com/clearfake-uses-bsc-testnet-smart-contracts,ClearFake Uses BSC Testnet Smart Contracts for Takedown-Resistant Command and Control,2026-05-28T15:23:22.000Z,2026-06-09T21:02:05.583Z
 filename,libwebp.dll,https://cybersecuritynews.com/hackers-use-grandoreiro-malware-to-target-portuguese-banks,Hackers Use Grandoreiro Malware to Target Portuguese Banks and Latin American Companies,2026-05-27T18:57:51.000Z,2026-06-09T21:02:05.583Z
 filename,list.vbs,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
@@ -724,6 +725,9 @@ filename,svcagent.dll,https://cybersecuritynews.com/phantompulse-rat-uses-proces
 filename,syncobs.exe,https://cybersecuritynews.com/phantompulse-rat-uses-process-injection-and-uac-bypass,PHANTOMPULSE RAT Uses Process Injection and UAC Bypass to Compromise Windows Systems,2026-06-02T08:50:11.000Z,2026-06-09T21:02:05.583Z
 filename,systemsettings.exe,https://cybersecuritynews.com/hackers-use-onyxc2-malware-as-a-service,Hackers Use OnyxC2 Malware-as-a-Service to Steal Credentials From 210 Applications,2026-06-12T14:42:27.000Z,2026-06-12T19:33:28.362Z
 filename,tailwind.js,https://cybersecuritynews.com/famous-chollima-hackers-target-php-developers,Famous Chollima Hackers Target PHP Developers Using Compromised Packagist Package,2026-06-01T07:45:09.000Z,2026-06-09T21:02:05.583Z
+filename,tax_assessment_0609.zip,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
+filename,tax_assessment.exe,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
+filename,tax_assessment.img,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 filename,te.host.dll,https://cybersecuritynews.com/stock-exchange-executives-outlook-account-targeted,Stock Exchange Executive’s Outlook Account Targeted to Exfiltrate Credentials,2026-06-04T17:58:49.000Z,2026-06-09T21:02:05.583Z
 filename,termsrv.dll,https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll,Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts,2026-05-25T19:48:22.000Z,2026-06-09T21:02:05.583Z
 filename,testexe.exe,https://cybersecuritynews.com/hackers-abuse-microsoft-fondue-exe,Hackers Abuse Microsoft Fondue.exe to Side-Load APPWIZ.cpl and Execute Malware - Cyber Security News,2026-06-18T14:52:15.000Z,2026-06-18T17:50:52.017Z
@@ -780,6 +784,7 @@ ip,103.131.95.37,https://www.ransomware.live/group/sorry,Ransomware.live - sorry
 ip,103.132.98.224,https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware,SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry,2026-06-01T12:27:32.000Z,2026-06-09T21:02:05.583Z
 ip,103.132.98.226,https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware,SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry,2026-06-01T12:27:32.000Z,2026-06-09T21:02:05.583Z
 ip,103.214.172.33,https://cybersecuritynews.com/proofpoint-warns-ta4922-deploys-atlas-rat,"Proofpoint Warns TA4922 Deploys Atlas RAT, RomulusLoader, SilentRunLoader, and ValleyRAT",2026-06-04T15:09:02.000Z,2026-06-09T21:02:05.583Z
+ip,103.231.12.27,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 ip,103.30.77.80:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,104.145.210.107,https://cybersecuritynews.com/hackers-use-fake-software-update-prompts,Hackers Use Fake Software Update Prompts to Steal Passwords and Crypto Wallet Data From macOS Users,2026-06-17T16:12:12.000Z,2026-06-18T05:30:51.219Z
 ip,104.161.48.103,https://cybersecuritynews.com/hackers-abuse-compromised-m365-accounts,Hackers Abuse Compromised M365 Accounts to Scale CodeStorm Phishing Operations,2026-06-23T10:32:00.000Z,2026-06-23T15:41:17.433Z
@@ -833,6 +838,7 @@ ip,122.183.48.195,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-too
 ip,122.183.48.35,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-2,Hackers Abuse Legitimate RMM Tools to Maintain Persistent Access and Evade Detection,2026-06-18T14:49:28.000Z,2026-06-18T17:50:52.017Z
 ip,122.183.48.82,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-2,Hackers Abuse Legitimate RMM Tools to Maintain Persistent Access and Evade Detection,2026-06-18T14:49:28.000Z,2026-06-18T17:50:52.017Z
 ip,124.156.129.151,https://cybersecuritynews.com/new-china-linked-threat-cluster-op-512-targets-iis-servers,New China-Linked Threat Cluster OP-512 Targets IIS Servers With Cryptographically Unique Web Shell Framework,2026-06-08T19:12:59.000Z,2026-06-09T21:02:05.583Z
+ip,126.51.108.152,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,128.254.230.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,13.37.127.130:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,13.38.235.203:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -882,6 +888,7 @@ ip,151.236.16.40:57144,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,151.236.22.19:3375,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,151.236.22.19:4421,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,151.241.99.169,https://cybersecuritynews.com/interlock-and-rhysida-ransomware-operations,Interlock and Rhysida Ransomware Operations Share Supper Backdoor and Malware Codebase,2026-06-16T12:19:29.000Z,2026-06-16T17:36:59.243Z
+ip,153.186.231.233,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,153.92.126.84,https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering,JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware,2026-05-29T15:45:11.000Z,2026-06-09T21:02:05.583Z
 ip,154.203.197.96:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,154.211.86.110,https://cybersecuritynews.com/proofpoint-warns-ta4922-deploys-atlas-rat,"Proofpoint Warns TA4922 Deploys Atlas RAT, RomulusLoader, SilentRunLoader, and ValleyRAT",2026-06-04T15:09:02.000Z,2026-06-09T21:02:05.583Z
@@ -908,6 +915,7 @@ ip,165.227.69.170:1433,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,165.227.69.170:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,166.0.132.237,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,166.88.77.186,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
+ip,167.179.79.189,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,167.71.69.135:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,167.88.160.15:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,169.239.130.36:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -1055,9 +1063,11 @@ ip,206.237.4.54:8080,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,206.238.115.58,https://cybersecuritynews.com/proofpoint-warns-ta4922-deploys-atlas-rat,"Proofpoint Warns TA4922 Deploys Atlas RAT, RomulusLoader, SilentRunLoader, and ValleyRAT",2026-06-04T15:09:02.000Z,2026-06-09T21:02:05.583Z
 ip,207.148.75.122,https://cybersecuritynews.com/fishmonger-hackers-expands-sprysocks-backdoor-from-linux,FishMonger Hackers Expands SprySOCKS Backdoor From Linux to Windows With Advanced Stealth Features,2026-06-17T13:01:41.000Z,2026-06-18T05:30:51.219Z
 ip,207.148.78.36,https://cybersecuritynews.com/fishmonger-hackers-expands-sprysocks-backdoor-from-linux,FishMonger Hackers Expands SprySOCKS Backdoor From Linux to Windows With Advanced Stealth Features,2026-06-17T13:01:41.000Z,2026-06-18T05:30:51.219Z
+ip,207.190.37.94,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,208.115.220.17,https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering,JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware,2026-05-29T15:45:11.000Z,2026-06-09T21:02:05.583Z
 ip,208.123.119.103:7453,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,208.73.200.28:9999,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
+ip,209.137.225.101,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,209.182.225.136,https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability,Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware,2026-06-08T17:18:01.000Z,2026-06-09T21:02:05.583Z
 ip,212.224.107.203,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-06-09T21:02:05.583Z
 ip,212.8.248.104,https://cybersecuritynews.com/hackers-use-bluerabbit-backdoor,Hackers Use BLUERABBIT Backdoor to Encrypt Files and Wipe Disks Across Windows Systems - Cyber Security News,2026-06-11T15:32:55.000Z,2026-06-11T17:54:45.952Z
@@ -1090,6 +1100,7 @@ ip,23.227.198.237:3963,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,23.227.198.237:50262,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,23.227.198.237:57226,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,23.227.198.237:64103,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
+ip,23.245.7.178,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,23.251.57.59,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
 ip,23.254.129.112,https://cybersecuritynews.com/china-linked-hackers-target-southeast-asian-edge-routers,China-Linked Hackers Target Southeast Asian Edge Routers With Custom Linux Implant,2026-05-26T16:08:22.000Z,2026-06-09T21:02:05.583Z
 ip,23.254.164.123,https://cybersecuritynews.com/140-mastra-npm-packages-compromised,Hackers Compromised 140+ Mastra npm Packages to Deploy Password-Stealing Malware,2026-06-17T09:05:34.000Z,2026-06-17T10:17:54.068Z
@@ -1153,6 +1164,7 @@ ip,45.227.253.59:3111,https://www.ransomware.live/group/cry0,Ransomware.live - c
 ip,45.251.243.210,https://cybersecuritynews.com/mustang-panda-deploys-plugx-rat,Mustang Panda Deploys PlugX RAT Through Multi-Stage LNK and PowerShell Attack Chain,2026-06-02T13:43:29.000Z,2026-06-09T21:02:05.583Z
 ip,45.32.150.97,https://cybersecuritynews.com/developer-targeting-glassworm-malware-abuses-npm,"Developer-Targeting Glassworm Malware Abuses npm, PyPI, OpenVSX, and GitHub",2026-05-27T08:08:39.000Z,2026-06-09T21:02:05.583Z
 ip,45.32.151.157,https://cybersecuritynews.com/developer-targeting-glassworm-malware-abuses-npm,"Developer-Targeting Glassworm Malware Abuses npm, PyPI, OpenVSX, and GitHub",2026-05-27T08:08:39.000Z,2026-06-09T21:02:05.583Z
+ip,45.32.38.160,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,45.41.187.117:5973,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,45.45.217.242,https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering,JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware,2026-05-29T15:45:11.000Z,2026-06-09T21:02:05.583Z
 ip,45.59.160.199,https://cybersecuritynews.com/invisibleferret-malware-now-ships-as-pyd,InvisibleFerret Malware Now Ships as .pyd and .so Files to Evade Script Detection,2026-05-25T19:50:53.000Z,2026-06-09T21:02:05.583Z
@@ -1234,6 +1246,7 @@ ip,72.45.107.194,https://cybersecuritynews.com/hackers-use-microsoft-graph-recon
 ip,74.125.132.95,https://cybersecuritynews.com/btmob-malware-control-android-devices,New BTMOB Malware Lets Attackers Remotely Control Android Devices,2026-05-27T15:01:25.000Z,2026-06-09T21:02:05.583Z
 ip,74.125.202.103,https://cybersecuritynews.com/btmob-malware-control-android-devices,New BTMOB Malware Lets Attackers Remotely Control Android Devices,2026-05-27T15:01:25.000Z,2026-06-09T21:02:05.583Z
 ip,75.152.86.244,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
+ip,76.92.245.217,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,77.110.122.58,https://cybersecuritynews.com/hackers-use-clickfix-prompt-to-install-msi-package,Hackers Use ClickFix Prompt to Install MSI Package and Launch Hands-On-Keyboard Attack,2026-06-17T16:34:50.000Z,2026-06-18T05:30:51.219Z
 ip,77.73.67.162:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,77.90.185.225,https://cybersecuritynews.com/solana-fakefix-campaign-uses-25-malicious-npm-and-pypi-packages,Solana FakeFix Campaign Uses 25 Malicious npm and PyPI Packages to Steal Developer Secrets,2026-06-12T09:13:56.000Z,2026-06-12T11:28:35.289Z
@@ -1633,6 +1646,7 @@ md5,3a6e2c775c9c1060c54a9a94e80d923a,https://www.ransomware.live/group/dragonfor
 md5,3a736252d9a7788752c4775eadb11849,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,3a8f6454927b8993aded75de0de2bd00,https://cybersecuritynews.com/hackers-use-tax-phishing-emails,Hackers Use Tax Phishing Emails to Deploy In-Memory Malware on Windows Systems,2026-06-10T17:11:05.000Z,2026-06-10T19:18:42.344Z
 md5,3ad44c2c507023cb2eb0d7014e73d612,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,3adcf5fca3f4fe23a9b73951e20d43bc,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 md5,3b10127e65fa3e215d21e0a2e7fd32be,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,3b1aba44dd3d9b6339b6f56e2f42034b,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,3b8cf25170846369215748ab0d865bef,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -2155,6 +2169,7 @@ md5,ab6a985dbef013596ac79ca5117ef77c,https://www.ransomware.live/group/akira,Ran
 md5,ab9e577334aeb060ac402598098e13b9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,abae20b26b70b526bebb5e2617092ede,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,abe06e90aeb9e69647efe1431f6a1a68,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,ac08e8f463e0fa4a431b74fd5d7f01a1,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 md5,acdce16891bae1babc5b953a0c3706c5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,ad15c99cc96350cb25c914b5bfb94ffe,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,ade360987f5cca7d29e9de4b8fd8fe53,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
@@ -2223,6 +2238,7 @@ md5,b97812a2e6be54e725defbab88357fa2,https://www.ransomware.live/group/dragonfor
 md5,b99bdb8880e4ef03727885ea50a4a2fc,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,b9c5b973ec910da2e3474468a85515e9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,b9e0b3844e46490682902fd7aa55b8d7,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,ba036fbf209b2dbdfec3fd3dee9b1798,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 md5,ba1b8daf14851ff78f1869f1defca326,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,ba2ef2f67e91d935c74c5c69627090f5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,ba35a80338fbf197a323f6fe960bf7cb,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
@@ -2253,6 +2269,7 @@ md5,bff3fdbff0a5d4aa1c03f7982c968e54,https://www.ransomware.live/group/akira,Ran
 md5,c0193c3b51020b1504c401bb27b84bea,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-06-09T21:02:05.583Z
 md5,c01ef0d5b74ca330b77d8c1afe10af59,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,c02311bf513ebe0d1a5a1500b89021d4,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
+md5,c0796f2ee614e1711d5355ee42dcbf62,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 md5,c0a5f20bf77fda622bc93df6caccc626,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,c0a72edcd670fc46f607a89672ad65df,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,c0bee5d054345131355452ef0c057697,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -2796,6 +2813,7 @@ sha256,364f1b7466d8e4c9f55294ecf1f874c763bcf980c59b0250c613ac366def6aca,https://
 sha256,36760e9bbfaf5a28ec7f85d13c7e8078a4ee4e5168b672639e97037d66eb1d17,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-06-09T21:02:05.583Z
 sha256,36a89f65fe2d693a094b51495f3a84d0f4f2ae7276649952d6f78c85282e6f6d,https://cybersecuritynews.com/new-weedhack-malware-as-a-service-targets-minecraft-players,"New Weedhack Malware-as-a-Service Targets Minecraft Players to Steal Credentials, and Hijack Accounts",2026-06-09T12:46:04.000Z,2026-06-09T21:02:05.583Z
 sha256,36bbb97b36f1d9748fdd7448deaa93b9b97d98b3fb44d87a3c848dad5ba91b34,https://cybersecuritynews.com/phantompulse-rat-uses-process-injection-and-uac-bypass,PHANTOMPULSE RAT Uses Process Injection and UAC Bypass to Compromise Windows Systems,2026-06-02T08:50:11.000Z,2026-06-09T21:02:05.583Z
+sha256,372d7d8ca222e03afa5970848cf88efa6a3bc5146d20398601285fc7eaea6735,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 sha256,37bcec9ba357a2cb13a4f0f910e40f01e33973a5d637a3487c298105ae1ff22b,https://cybersecuritynews.com/new-weedhack-malware-as-a-service-targets-minecraft-players,"New Weedhack Malware-as-a-Service Targets Minecraft Players to Steal Credentials, and Hijack Accounts",2026-06-09T12:46:04.000Z,2026-06-09T21:02:05.583Z
 sha256,3805f299d33ef43d17a5a1040149f0e5e2d5db57ec6f03c5687ac23db1f77a30,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 sha256,38965a60835a5ee3eaefd3d0bffa97c0e4f0c5cd74d31d8053bedeea14f536ee,https://cybersecuritynews.com/iran-linked-hackers-destroy-it-backups-and-recovery-systems,"Iran-Linked Hackers Destroy IT, Backups, and Recovery Systems in Cyberattack targeting Middle East",2026-06-01T10:49:34.000Z,2026-06-09T21:02:05.583Z
@@ -2820,6 +2838,7 @@ sha256,3e3901519c2305fbe9d5483b7234c25c6d2b562512916481d96f26b849c7d4e1,https://
 sha256,3ec6c91d68b416381ac9f6310a9e011f4060369c63416021864a6d5b91e97dc4,https://cybersecuritynews.com/ghostshell-malware-uses-mtls-implant-and-telegram-dead-drop,GhostShell Malware Uses mTLS Implant and Telegram Dead-Drop to Target Ukrainian Drone Operations,2026-06-24T14:31:59.000Z,2026-06-24T15:22:21.696Z
 sha256,3ee7dab4ae4f6d4f16dfabb6f38faef370411a9fc00ff035844e54703b99600a,https://cybersecuritynews.com/seedworm-apt-abuses-signed-fortemedia-2,Seedworm APT Abuses Signed Fortemedia and SentinelOne Binaries for DLL Sideloading,2026-05-27T12:22:42.000Z,2026-06-09T21:02:05.583Z
 sha256,3f0e5781d0855fb460661ac63257376db1941b2bb522499e4757ecb3ebd5dce3,https://cybersecuritynews.com/famous-chollima-hackers-target-php-developers,Famous Chollima Hackers Target PHP Developers Using Compromised Packagist Package,2026-06-01T07:45:09.000Z,2026-06-09T21:02:05.583Z
+sha256,3fe29bf7e2c391d5405f8c6947cc42a6ec356fcf8455ce705dc23a156f5b450a,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 sha256,402625ec79e3573a80b6de9b33fc1e503e3c7803603cd958ddd515fb0e4a3c91,https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering,JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware,2026-05-29T15:45:11.000Z,2026-06-09T21:02:05.583Z
 sha256,40b41979b317406f8abc601677a3b93aaf6ef8ab8ac188b8f383735e388f13b5,https://cybersecuritynews.com/proofpoint-warns-ta4922-deploys-atlas-rat,"Proofpoint Warns TA4922 Deploys Atlas RAT, RomulusLoader, SilentRunLoader, and ValleyRAT",2026-06-04T15:09:02.000Z,2026-06-09T21:02:05.583Z
 sha256,40d264cf9c73923932c3dfd52d20f46ff602be3fea8dc6ecc71aca46e6067bf5,https://cybersecuritynews.com/chinese-apt-verdantbamboo-uses-brickstorm-malware,Chinese APT VerdantBamboo Uses BRICKSTORM Malware to Compromise Firewalls and Appliances,2026-06-05T12:03:27.000Z,2026-06-09T21:02:05.583Z
@@ -2841,6 +2860,7 @@ sha256,48047c34bbd57fe1e24bc538bc2ce9e0ac4c4eb48d3b0c195b414f0379dc0745,https://
 sha256,4938d47fe6216f8f9fee0527bf5112c04c15a9ea62f87869677619aa5400f09f,https://cybersecuritynews.com/hackers-push-22-versions-of-npm-rat,Hackers Push 22 Versions of npm RAT With Wallet Theft and Persistent Backdoor,2026-05-27T18:07:26.000Z,2026-06-09T21:02:05.583Z
 sha256,49fcbd606ff10d4661e222b8910ab7829d1668e3c97f1bab7eb51e8ec7d799a5,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-06-09T21:02:05.583Z
 sha256,4a8860240e4231c3a74c81949be655a28e096a7d72f38fbe84e5b37636b98417,https://cybersecuritynews.com/north-korean-hackers-abuse-mastra-npm-supply-chain,North Korean Hackers Abuse Mastra npm Supply Chain to Target Developers and CI/CD Pipelines - Cyber Security News,2026-06-22T09:22:32.000Z,2026-06-22T15:08:04.613Z
+sha256,4b5405d9acd00dd9225ffcec840a1752951be801d20ee1cab4ebde9ccd96916a,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 sha256,4c0d9b802c075be79e9edb52d88f8dd72e6904f5c58267213745818470945c78,https://cybersecuritynews.com/north-korea-aligned-hackers-abuse-github-repositories,North Korea-Aligned Hackers Abuse GitHub Repositories to Infect Developers,2026-06-09T16:02:01.000Z,2026-06-09T21:02:05.583Z
 sha256,4c9061a07d667bf7dd6f597a43a8552af2f4277b7be06d6ea138abdb668d6a49,https://cybersecuritynews.com/hackers-use-tax-phishing-emails,Hackers Use Tax Phishing Emails to Deploy In-Memory Malware on Windows Systems,2026-06-10T17:11:05.000Z,2026-06-10T19:18:42.344Z
 sha256,4cdb1f7ac502289119f7f8256f00baaa994e6ecfb4000dcf5e1c46073508fcb3,https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot,"Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",2026-06-04T21:22:17.000Z,2026-06-09T21:02:05.583Z
@@ -2951,7 +2971,6 @@ sha256,7a9632bbecc31d02fdd0eab07e2424b3e1c9e9a3f91aac4ef6f708f2befbaa3d,https://
 sha256,7aa15de93cf85729ddf970e8d7897f69ece3ca29608f73e784a9ba40c9cea18d,https://cybersecuritynews.com/new-drivesurge-threat-actor-uses-clickfix,New DriveSurge Threat Actor Uses ClickFix and Fake Updates to Infect Website Visitors,2026-06-01T10:14:29.000Z,2026-06-09T21:02:05.583Z
 sha256,7b03fb383a5ce784a3cb9b0f8a76a84e984d14e553de5d98faff3d07d9793085,https://cybersecuritynews.com/malware-platform-unlocked-php-installation-page,Threat Actor Malware Platform Exposed via Unlocked PHP Installation Page,2026-06-15T07:31:34.000Z,2026-06-15T08:40:33.342Z
 sha256,7ba5481c873bb3081442561f749f590badd72ef249fddfe993e30b28dc0c2112,https://cybersecuritynews.com/smartapesg-campaign-uses-clickfix-scripts,SmartApeSG Campaign Uses ClickFix Scripts to Infect Windows Hosts With RAT Malware,2026-06-01T14:42:22.000Z,2026-06-09T21:02:05.583Z
-sha256,7c1f99dca8e5a7897892f9d224a6495023a2cfd2671697d229d355978c415ed2,https://cybersecuritynews.com/knowledgedeliver-lms-zero-day-exploited,KnowledgeDeliver LMS Zero-Day Exploited to Deploy BLUEBEAM Web Shell,2026-05-25T15:30:48.000Z,2026-06-09T21:02:05.583Z
 sha256,7c4b465159e1c7dbbe67f0eeb3f58de1caba293999a49843a0818480f05be14e,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-06-09T21:02:05.583Z
 sha256,7d87a86dbd2379ef2516c99258137cd9c25ca19c48aeb096c5332c02fcbf16d0,https://cybersecuritynews.com/hackers-use-tax-phishing-emails,Hackers Use Tax Phishing Emails to Deploy In-Memory Malware on Windows Systems,2026-06-10T17:11:05.000Z,2026-06-10T19:18:42.344Z
 sha256,7e5b708f6659b1fad3aae7b589a706434fbf21708aeec5af5910189b96e25fef,https://cybersecuritynews.com/weaponized-chatgpt-download-site-delivers-malware,Weaponized ChatGPT Download Site Delivers Malware Via Sponsored Search Results,2026-06-04T13:46:12.000Z,2026-06-09T21:02:05.583Z
@@ -3250,6 +3269,7 @@ sha256,f34cfdc950124d26b4f2f99b192a4ab7a4163af3143c3b18bc2271ca08d6c899,https://
 sha256,f3a6d4ccdd0f663269c3909e74d6847608b8632fb2814b0436a4532b8281e617,https://www.ransomware.live/group/kawa4096,Ransomware.live - kawa4096,,2026-06-09T21:02:05.583Z
 sha256,f3b54984caca95fd496bcfe5d7db1611b08d2f5b7d250b43b430e5d76393f9e0,https://cybersecuritynews.com/hackers-use-weaponized-windows-shortcuts,Hackers Use Weaponized Windows Shortcuts to Spread Crypto Clipper Across USB Drives - Cyber Security News,2026-06-19T07:50:37.000Z,2026-06-19T08:17:43.367Z
 sha256,f544bfab72d380cc20692d8ec9d31ea666785fe225dccd55beab29a3c0fdfad2,https://cybersecuritynews.com/fluttershell-macos-backdoor-abuses-flutter-framework,FlutterShell macOS Backdoor Abuses Flutter Framework and WKWebView for Stealthy Attacks,2026-06-23T13:26:21.000Z,2026-06-23T15:41:17.433Z
+sha256,f5dc1016679f54f2be22da0ff6642046f7a943410c188514b96c28d8a3b95e12,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 sha256,f6669bd504ce6b0e303be7ee47f2ebbc062989c88c41f0a3f436044a24869798,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
 sha256,f6db77be038980e9dbbf9f11e0f7ae7d2d4d3f1a53199958f1f55137dde5efd3,https://cybersecuritynews.com/iran-linked-hackers-destroy-it-backups-and-recovery-systems,"Iran-Linked Hackers Destroy IT, Backups, and Recovery Systems in Cyberattack targeting Middle East",2026-06-01T10:49:34.000Z,2026-06-09T21:02:05.583Z
 sha256,f6e4b09ef788adef3f65fd2b99da8f5be5391be29471676dc07040a56c8fdfab,https://cybersecuritynews.com/hackers-use-onyxc2-malware-as-a-service,Hackers Use OnyxC2 Malware-as-a-Service to Steal Credentials From 210 Applications,2026-06-12T14:42:27.000Z,2026-06-12T19:33:28.362Z
