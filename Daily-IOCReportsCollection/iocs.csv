@@ -421,7 +421,6 @@ email,yamaguchigumi@cock.li,https://www.ransomware.live/group/risen,Ransomware.l
 email,znhsupport@protonmail.com,https://www.ransomware.live/group/luckbit,Ransomware.live - luckbit,,2026-06-09T21:02:05.583Z
 filename,/api/css.js,https://cybersecuritynews.com/errtraffic-maas-uses-fake-recaptcha-and-cloudflare-turnstile-lures,ErrTraffic MaaS Uses Fake reCAPTCHA and Cloudflare Turnstile Lures to Execute PowerShell Commands,2026-06-17T12:28:05.000Z,2026-06-18T05:30:51.219Z
 filename,/cf.js,https://cybersecuritynews.com/errtraffic-maas-uses-fake-recaptcha-and-cloudflare-turnstile-lures,ErrTraffic MaaS Uses Fake reCAPTCHA and Cloudflare Turnstile Lures to Execute PowerShell Commands,2026-06-17T12:28:05.000Z,2026-06-18T05:30:51.219Z
-filename,/tmp/out.zip,https://cybersecuritynews.com/developer-targeting-glassworm-malware-abuses-npm,"Developer-Targeting Glassworm Malware Abuses npm, PyPI, OpenVSX, and GitHub",2026-05-27T08:08:39.000Z,2026-06-09T21:02:05.583Z
 filename,/var/lib/eth-scs/libeth.so,https://cybersecuritynews.com/china-nexus-hackers-use-backdoored-pam-modules,China-Nexus Hackers Use Backdoored PAM Modules for Credential Theft and Authentication Bypass,2026-06-15T12:42:43.000Z,2026-06-15T15:32:11.536Z
 filename,\appdata\roaming\2faguard\main.dll,https://cybersecuritynews.com/nimbus-manticore-apt-abuses-fake-recruitment-portal,Nimbus Manticore APT Abuses Fake Recruitment Portal to Deliver Custom Malware,2026-06-02T07:56:17.000Z,2026-06-09T21:02:05.583Z
 filename,\ckaconsent.dll,https://cybersecuritynews.com/nimbus-manticore-apt-abuses-fake-recruitment-portal,Nimbus Manticore APT Abuses Fake Recruitment Portal to Deliver Custom Malware,2026-06-02T07:56:17.000Z,2026-06-09T21:02:05.583Z
@@ -1055,9 +1054,6 @@ ip,216.219.94.99:80,https://www.ransomware.live/group/bianlian,Ransomware.live -
 ip,216.247.226.32,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,217.138.252.123,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 ip,217.156.122.75,https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot,"Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",2026-06-04T21:22:17.000Z,2026-06-09T21:02:05.583Z
-ip,217.69.0.159,https://cybersecuritynews.com/developer-targeting-glassworm-malware-abuses-npm,"Developer-Targeting Glassworm Malware Abuses npm, PyPI, OpenVSX, and GitHub",2026-05-27T08:08:39.000Z,2026-06-09T21:02:05.583Z
-ip,217.69.11.57,https://cybersecuritynews.com/developer-targeting-glassworm-malware-abuses-npm,"Developer-Targeting Glassworm Malware Abuses npm, PyPI, OpenVSX, and GitHub",2026-05-27T08:08:39.000Z,2026-06-09T21:02:05.583Z
-ip,217.69.11.99,https://cybersecuritynews.com/developer-targeting-glassworm-malware-abuses-npm,"Developer-Targeting Glassworm Malware Abuses npm, PyPI, OpenVSX, and GitHub",2026-05-27T08:08:39.000Z,2026-06-09T21:02:05.583Z
 ip,220.205.123.186,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
 ip,23.128.228.6,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,23.137.105.75,https://cybersecuritynews.com/north-korea-aligned-hackers-abuse-github-repositories,North Korea-Aligned Hackers Abuse GitHub Repositories to Infect Developers,2026-06-09T16:02:01.000Z,2026-06-09T21:02:05.583Z
@@ -1126,8 +1122,6 @@ ip,45.156.87.253,https://www.ransomware.live/group/sorry,Ransomware.live - sorry
 ip,45.156.87.69,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
 ip,45.227.253.59:3111,https://www.ransomware.live/group/cry0,Ransomware.live - cry0,,2026-06-09T21:02:05.583Z
 ip,45.251.243.210,https://cybersecuritynews.com/mustang-panda-deploys-plugx-rat,Mustang Panda Deploys PlugX RAT Through Multi-Stage LNK and PowerShell Attack Chain,2026-06-02T13:43:29.000Z,2026-06-09T21:02:05.583Z
-ip,45.32.150.97,https://cybersecuritynews.com/developer-targeting-glassworm-malware-abuses-npm,"Developer-Targeting Glassworm Malware Abuses npm, PyPI, OpenVSX, and GitHub",2026-05-27T08:08:39.000Z,2026-06-09T21:02:05.583Z
-ip,45.32.151.157,https://cybersecuritynews.com/developer-targeting-glassworm-malware-abuses-npm,"Developer-Targeting Glassworm Malware Abuses npm, PyPI, OpenVSX, and GitHub",2026-05-27T08:08:39.000Z,2026-06-09T21:02:05.583Z
 ip,45.32.38.160,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,45.41.187.117:5973,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,45.45.217.242,https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering,JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware,2026-05-29T15:45:11.000Z,2026-06-09T21:02:05.583Z
@@ -1138,7 +1132,6 @@ ip,45.61.136.147:3929,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,45.63.9.192:5050,https://www.ransomware.live/group/crypto24,Ransomware.live - crypto24,,2026-06-09T21:02:05.583Z
 ip,45.76.144.235:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,45.76.26.42,https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability,Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware,2026-06-08T17:18:01.000Z,2026-06-09T21:02:05.583Z
-ip,45.76.44.240,https://cybersecuritynews.com/developer-targeting-glassworm-malware-abuses-npm,"Developer-Targeting Glassworm Malware Abuses npm, PyPI, OpenVSX, and GitHub",2026-05-27T08:08:39.000Z,2026-06-09T21:02:05.583Z
 ip,45.77.149.152,https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability,Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware,2026-06-08T17:18:01.000Z,2026-06-09T21:02:05.583Z
 ip,45.95.175.213:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,46.17.42.64,https://www.ransomware.live/group/cephalus,Ransomware.live - cephalus,,2026-06-09T21:02:05.583Z
