@@ -710,7 +710,7 @@ ip,104.200.72.15:10403,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,104.200.73.216:3389,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,104.200.73.216:43696,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,104.200.73.216:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
-ip,104.207.144.154,https://cybersecuritynews.com/palo-alto-vulnerability-exploited,Palo Alto Networks PAN-OS Authentication Vulnerability Bypass Exploited in the Wild,2026-05-30T02:45:22.000Z,2026-06-09T21:02:05.583Z
+ip,104.207.144.154,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,104.225.129.101:35247,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,104.225.129.101:63618,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,104.225.129.101:8465,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -774,7 +774,7 @@ ip,144.172.95.78,https://www.ransomware.live/group/ralord,Ransomware.live - ralo
 ip,144.208.127.130:14906,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,144.208.127.155,https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability,Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware,2026-06-08T17:18:01.000Z,2026-06-09T21:02:05.583Z
 ip,144.31.53.78,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
-ip,146.19.216.119,https://cybersecuritynews.com/palo-alto-vulnerability-exploited,Palo Alto Networks PAN-OS Authentication Vulnerability Bypass Exploited in the Wild,2026-05-30T02:45:22.000Z,2026-06-09T21:02:05.583Z
+ip,146.19.216.119,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,146.19.216.120,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,146.19.216.125,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,146.19.24.84:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
