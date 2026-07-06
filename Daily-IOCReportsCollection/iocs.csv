@@ -1,4 +1,5 @@
 type,value,source_url,source_title,article_published_at,first_seen
+domain,3w.jxuw3.com,https://cybersecuritynews.com/silverfox-hackers-use-go-rat-av-killer,"SilverFox Hackers Use Go RAT, AV Killer, and Kernel Rootkit in Live ValleyRAT Campaign",2026-07-06T15:01:13.000Z,2026-07-06T17:23:42.436Z
 domain,75877.mcdir.me,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-06-29T12:17:47.010Z
 domain,786rty00jk.918ahoaurduaod.com,https://cybersecuritynews.com/hackers-abuse-compromised-m365-accounts,Hackers Abuse Compromised M365 Accounts to Scale CodeStorm Phishing Operations,2026-06-23T10:32:00.000Z,2026-06-23T15:41:17.433Z
 domain,a.dev-tunnels.com,https://cybersecuritynews.com/simplehelp-authentication-bypass-vulnerability-exploited,SimpleHelp Authentication Bypass Vulnerability Exploited in the Wild to Deploy TaskWeaver Loader,2026-06-30T11:00:52.000Z,2026-06-30T11:59:46.516Z
@@ -44,6 +45,7 @@ domain,dashboard-bl.pamconj.com,https://cybersecuritynews.com/microsoft-365-phis
 domain,data-seed-prebsc-1-s1.bnbchain.org,https://cybersecuritynews.com/clickfix-campaign-uses-etherhiding-and-guloader,ClickFix Campaign Uses EtherHiding and GULoader to Infect Windows Users via Fake CAPTCHA,2026-06-17T01:22:20.000Z,2026-06-17T10:17:54.068Z
 domain,defs.updater-worelos.com,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
 domain,dentalstrategies.noventragroup.app,https://cybersecuritynews.com/microsoft-365-device-code-phishing-campaign,Microsoft 365 Device Code Phishing Campaign Bypasses Password Theft With Legitimate Login Flow,2026-06-16T14:19:18.000Z,2026-06-16T17:36:59.243Z
+domain,df.sjickdeh.org,https://cybersecuritynews.com/silverfox-hackers-use-go-rat-av-killer,"SilverFox Hackers Use Go RAT, AV Killer, and Kernel Rootkit in Live ValleyRAT Campaign",2026-07-06T15:01:13.000Z,2026-07-06T17:23:42.436Z
 domain,dns.alidns.com,https://cybersecuritynews.com/hackers-use-mapbox-dead-drop-c2,Hackers Use Mapbox Dead-Drop C2 and Python RAT to Target Vulnerability Researchers,2026-07-02T13:16:49.000Z,2026-07-02T14:56:50.046Z
 domain,docusign-arizonacreativeevents.nextvexharbor.de,https://cybersecuritynews.com/microsoft-365-device-code-phishing-campaign,Microsoft 365 Device Code Phishing Campaign Bypasses Password Theft With Legitimate Login Flow,2026-06-16T14:19:18.000Z,2026-06-16T17:36:59.243Z
 domain,docusign-stlequityhomes.nextvexharbor.de,https://cybersecuritynews.com/microsoft-365-device-code-phishing-campaign,Microsoft 365 Device Code Phishing Campaign Bypasses Password Theft With Legitimate Login Flow,2026-06-16T14:19:18.000Z,2026-06-16T17:36:59.243Z
@@ -148,6 +150,7 @@ domain,sendgrid.uslogin-prodsg.com,https://cybersecuritynews.com/aws-aitm-phishi
 domain,service-auth.netlify.app,https://cybersecuritynews.com/ghostwriter-hackers-abuse-gmail-admin-themed-emails,Ghostwriter Hackers Abuse Gmail Admin-Themed Emails to Steal Credentials and 2FA Codes,2026-06-17T00:08:51.000Z,2026-06-17T10:17:54.068Z
 domain,services.templatesearchsvc.org,https://cybersecuritynews.com/searchjack-campaign-uses-23-chrome-extensions,"SearchJack Campaign Uses 23 Chrome Extensions to Hijack Searches of 758,000 Users",2026-06-15T12:17:08.000Z,2026-06-15T15:32:11.536Z
 domain,sheetcreep-serviceaccount.iam.gserviceaccount.com,https://cybersecuritynews.com/sheetcreep-c-rat-abuses-google-sheets-api,SHEETCREEP C# RAT Abuses Google Sheets API as C2 to Target Diplomatic Organizations,2026-06-12T12:50:02.000Z,2026-06-12T19:33:28.362Z
+domain,shengan-light.com.tw,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
 domain,sjdkjj23.s3.ap-southeast-1.amazonaws.com,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 domain,sntdr-soporte.github.io,https://cybersecuritynews.com/gitbait-phishing-campaign-abuses-github-pages,GitBait Phishing Campaign Abuses GitHub Pages to Attack Financial Institutions,2026-06-17T16:52:52.000Z,2026-06-18T05:30:51.219Z
 domain,sntdrsoporte-jatencionf.github.io,https://cybersecuritynews.com/gitbait-phishing-campaign-abuses-github-pages,GitBait Phishing Campaign Abuses GitHub Pages to Attack Financial Institutions,2026-06-17T16:52:52.000Z,2026-06-18T05:30:51.219Z
@@ -793,6 +796,8 @@ ip,173.178.178.139,https://cybersecuritynews.com/hackers-use-microsoft-graph-rec
 ip,174.169.162.62,https://cybersecuritynews.com/unc3753-attacking-us-law-firms,UNC3753 Attacking US Law Firms Using Vishing and RMM Tools to Exfiltrate Data,2026-06-08T15:21:48.000Z,2026-06-09T21:02:05.583Z
 ip,176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 ip,176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
+ip,176.114.8.101,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
+ip,176.114.8.90,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
 ip,176.65.141.201,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-06-09T21:02:05.583Z
 ip,176.97.75.205:8015,https://www.ransomware.live/group/bashe,Ransomware.live - bashe,,2026-06-09T21:02:05.583Z
 ip,178.32.224.221,https://cybersecuritynews.com/interlock-and-rhysida-ransomware-operations,Interlock and Rhysida Ransomware Operations Share Supper Backdoor and Malware Codebase,2026-06-16T12:19:29.000Z,2026-06-16T17:36:59.243Z
@@ -818,6 +823,9 @@ ip,185.229.9.27:993,https://www.ransomware.live/group/bianlian,Ransomware.live -
 ip,185.239.48.114:27700,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,185.241.5.217:8081,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,185.243.112.167:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
+ip,185.252.24.52,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
+ip,185.252.24.74,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
+ip,185.252.24.78,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
 ip,185.254.97.249,https://cybersecuritynews.com/asyncrat-campaign-uses-dll-sideloading,AsyncRAT Campaign Uses DLL Sideloading and ScreenConnect for Stealthy Remote Access,2026-07-02T18:10:41.000Z,2026-07-02T19:02:15.516Z
 ip,185.28.119.50:5415,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,185.76.79.207:38378,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -856,6 +864,7 @@ ip,193.8.187.2,https://cybersecuritynews.com/fortigatesniffer-tool-fortibleed,Ha
 ip,193.8.187.26,https://cybersecuritynews.com/fortigatesniffer-tool-fortibleed,Hackers Using FortigateSniffer Tool That Turns Compromised Firewalls Into Password Collectors,2026-06-23T04:02:46.000Z,2026-06-23T15:41:17.433Z
 ip,193.8.187.42,https://cybersecuritynews.com/fortigatesniffer-tool-fortibleed,Hackers Using FortigateSniffer Tool That Turns Compromised Firewalls Into Password Collectors,2026-06-23T04:02:46.000Z,2026-06-23T15:41:17.433Z
 ip,194.113.39.71,https://cybersecuritynews.com/fortigatesniffer-tool-fortibleed,Hackers Using FortigateSniffer Tool That Turns Compromised Firewalls Into Password Collectors,2026-06-23T04:02:46.000Z,2026-06-23T15:41:17.433Z
+ip,194.156.79.122,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
 ip,194.213.18.181:16963,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,194.213.18.181:20290,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,194.213.18.181:49493,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -918,6 +927,7 @@ ip,217.138.252.123,https://cybersecuritynews.com/malicious-gst-debit-note-attach
 ip,220.205.123.186,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-06-09T21:02:05.583Z
 ip,23.128.228.6,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,23.137.105.75,https://cybersecuritynews.com/north-korea-aligned-hackers-abuse-github-repositories,North Korea-Aligned Hackers Abuse GitHub Repositories to Infect Developers,2026-06-09T16:02:01.000Z,2026-06-09T21:02:05.583Z
+ip,23.164.48.21,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
 ip,23.169.65.49,https://cybersecuritynews.com/prc-nexus-hackers-exploit-redcap-servers,PRC-Nexus Hackers Exploit REDCap Servers to Spy on US Medical Research Institutions,2026-06-16T10:16:22.000Z,2026-06-16T11:55:44.264Z
 ip,23.227.198.237:13937,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,23.227.198.237:20451,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -1073,6 +1083,7 @@ ip,84.201.211.40,https://www.ransomware.live/group/lockbit3,Ransomware.live - lo
 ip,84.201.6.54,https://cybersecuritynews.com/optinmonster-plugin-exposes-wordpress-sites,OptinMonster Plugin Hack Exposes 1.2 Million Wordpress Sites to Cyberattack,2026-06-16T07:13:37.000Z,2026-06-16T11:55:44.264Z
 ip,84.32.84.32,https://cybersecuritynews.com/bing-search-for-manageengine-opmanager,Bing Search for 'ManageEngine OpManager' Delivers Akira Ransomware,2026-06-30T12:56:24.000Z,2026-06-30T17:27:04.521Z
 ip,85.11.187.8,https://cybersecuritynews.com/fortigatesniffer-tool-fortibleed,Hackers Using FortigateSniffer Tool That Turns Compromised Firewalls Into Password Collectors,2026-06-23T04:02:46.000Z,2026-06-23T15:41:17.433Z
+ip,85.17.40.98,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
 ip,85.209.11.49,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 ip,85.235.151.5:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,85.239.155.68,https://cybersecuritynews.com/lucid-stealer-targets-18-browsers-crypto-wallets-and-discord-tokens,"New Lucid Stealer Targets 18 Browsers, Crypto Wallets, and Discord Tokens With Hidden Remote Access",2026-06-08T15:04:36.000Z,2026-06-09T21:02:05.583Z
@@ -1106,6 +1117,8 @@ ip,89.23.113.220:8083,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,89.248.163.120,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-06-09T21:02:05.583Z
 ip,89.38.225.185:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,89.46.235.60:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
+ip,91.108.82.101,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
+ip,91.108.82.73,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
 ip,91.236.230.33:6399,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,91.236.230.33:6400,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 ip,91.245.255.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
@@ -2648,6 +2661,7 @@ sha256,5139253b1f30b34ab3aa888aba175866fa1f82728ab07b999c24b49b191c3f68,https://
 sha256,515bd71a8b3c2bce7b40b89ddfe2e94d332b0779d569c58117f8dcdcb8a91ed9,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-06-09T21:02:05.583Z
 sha256,51a57bfc9ed3eb6451c1c289607814d59e1698c666fb97ac5f694c398f23d045,https://cybersecuritynews.com/prc-nexus-hackers-exploit-redcap-servers,PRC-Nexus Hackers Exploit REDCap Servers to Spy on US Medical Research Institutions,2026-06-16T10:16:22.000Z,2026-06-16T11:55:44.264Z
 sha256,51f7b3f6991bc6253d33e6b93f4e0429957f3d54d967c461dbb82ea2a4694e12,https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions,New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps,2026-06-09T11:56:42.000Z,2026-06-09T21:02:05.583Z
+sha256,520304a1cabdd9aa05c0a769c3874bc3cc2608d8e71ae607ca2bdf96b298b5de,https://cybersecuritynews.com/silverfox-hackers-use-go-rat-av-killer,"SilverFox Hackers Use Go RAT, AV Killer, and Kernel Rootkit in Live ValleyRAT Campaign",2026-07-06T15:01:13.000Z,2026-07-06T17:23:42.436Z
 sha256,52886aab179f26421678ff23af1b0fabf0a17ffbb534369cdbbac8008cbed8e7,https://cybersecuritynews.com/north-korea-aligned-hackers-abuse-github-repositories,North Korea-Aligned Hackers Abuse GitHub Repositories to Infect Developers,2026-06-09T16:02:01.000Z,2026-06-09T21:02:05.583Z
 sha256,54218a8f2d1acc5d1beb576b970bb5333a4b78b05493754d2d1457ebf22a0ac1,https://cybersecuritynews.com/ghostshell-malware-uses-mtls-implant-and-telegram-dead-drop,GhostShell Malware Uses mTLS Implant and Telegram Dead-Drop to Target Ukrainian Drone Operations,2026-06-24T14:31:59.000Z,2026-06-24T15:22:21.696Z
 sha256,5455341ed1bbe75a664fca2dd0794c508e1874f75360253a7ff5bc119bc92d80,https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures,"Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",2026-06-09T08:39:18.000Z,2026-06-09T21:02:05.583Z
