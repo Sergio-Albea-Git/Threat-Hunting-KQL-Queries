@@ -238,6 +238,7 @@ email,blacksnaketeam@onionmail.org,https://www.ransomware.live/group/blacksnake,
 email,blacksnaketeam@protonmail.com,https://www.ransomware.live/group/blacksnake,Ransomware.live - blacksnake,,2026-06-09T21:02:05.583Z
 email,bluecrap@my.com,https://www.ransomware.live/group/risen,Ransomware.live - risen,,2026-06-09T21:02:05.583Z
 email,bluewindgroup@onionmail.org,https://www.ransomware.live/group/bluewindgroup,Ransomware.live - bluewindgroup,,2026-06-09T21:02:05.583Z
+email,boobaproject@proton.me,https://www.ransomware.live/group/booba project,Ransomware.live - booba project,,2026-07-06T09:38:37.602Z
 email,br.fixdata24@onionmail.com,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-06-09T21:02:05.583Z
 email,br.fixdata24@proton.me,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-06-09T21:02:05.583Z
 email,brain.dataleak@cyberfear.com,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-06-09T21:02:05.583Z
@@ -2379,6 +2380,7 @@ session,056885d45a7137be429cbdb59b55c313c4a6776f9c0c23fdb19131bc2baef01436,https
 session,05809b2da1d5b1a302f48b5767fd1843d54f3c516f9ab0eb26b544ffa73340292e,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-06-09T21:02:05.583Z
 session,05b78a617603489362217dfae7211b397800e212d5a34e4ae989a9671e8dd13d48,https://www.ransomware.live/group/flocker,Ransomware.live - flocker,,2026-06-09T21:02:05.583Z
 session,05babe48a5070de46a39ee4aa025988beefe059dad57babe52ba797b85643f4523,https://www.ransomware.live/group/arkana,Ransomware.live - arkana,,2026-06-09T21:02:05.583Z
+session,05bd51745f37597905bc59249cff25569c357296ede1b0d2214215a09b6448816e,https://www.ransomware.live/group/doommageddon,Ransomware.live - doommageddon,,2026-07-06T09:38:37.602Z
 session,05cb63af9848ae85a0016581a14a9848d516ed2f9fcb4f98a081363c48ee7f570b,https://www.ransomware.live/group/slug,Ransomware.live - slug,,2026-06-09T21:02:05.583Z
 session,05e034eb421832ae9209e9c17441c93ee4509f2e6dae2b23595763e0a19fdcee52,https://www.ransomware.live/group/crypto24,Ransomware.live - crypto24,,2026-06-09T21:02:05.583Z
 session,05e4f38090e06156b94ebf76e93ab4ccb761d761b886bbabf2df41c2bc341e8b30,https://www.ransomware.live/group/radar,Ransomware.live - radar,,2026-06-09T21:02:05.583Z
@@ -2996,6 +2998,7 @@ sha256,e3fa93dad8fb8c3a6d9b35d02ce97c22035b409e0efc9f04372f4c1d6280a481,https://
 sha256,e4496565d9fd2f9425c10a98d3a8632c12af5fe4259484cb202d7f65532b7df2,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-06-29T12:17:47.010Z
 sha256,e4d377b339f96c69c3001b854b22decae41883bd31f2f5a8c20f57d931ae0b44,https://cybersecuritynews.com/ghostshell-malware-uses-mtls-implant-and-telegram-dead-drop,GhostShell Malware Uses mTLS Implant and Telegram Dead-Drop to Target Ukrainian Drone Operations,2026-06-24T14:31:59.000Z,2026-06-24T15:22:21.696Z
 sha256,e5aaa213818fe835f2716914238119fee746753aa4808e24aed817e929e6dcb8,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-06-09T21:02:05.583Z
+sha256,e5c19b3a0461eb7e66cb638b2624c464b96223bab0d036c70f902ff6a9241fd0,https://www.ransomware.live/group/doommageddon,Ransomware.live - doommageddon,,2026-07-06T09:38:37.602Z
 sha256,e6bd4ed287d1336206f5b4b65011e570267418799eb60c2d0d7496d5d9e95a33,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-06-09T21:02:05.583Z
 sha256,e76cbdf420540a18e2ddea02938acf3c4b4139f3511d314dca9781afe1e439bb,https://cybersecuritynews.com/hackers-use-rokarolla-banking-trojan-to-intercept-sms-codes,Hackers Use Rokarolla Banking Trojan to Intercept SMS Codes and Steal Crypto Credentials,2026-06-29T09:45:20.000Z,2026-06-29T12:17:47.010Z
 sha256,e7706a633f24679c7550a31b96088dda8f772c98f64daee7cfbf0dc17a4a8338,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-06-09T21:02:05.583Z
@@ -3141,6 +3144,7 @@ tox,C1DD64D0994AEAA297225CD94D1A6842819C74319A85350913AB9A82678C001EB09B71214D66
 tox,CF7175635116009D235F2BC2C657CB4DF1B18317D4EADD30F8238C33E2D2116851C9344C774D,https://www.ransomware.live/group/satanlockv2,Ransomware.live - satanlockv2,,2026-06-09T21:02:05.583Z
 tox,D1F9B62B1505674B719AD0E4FA7DE03A87646BDC39968D4BAEDE07348BDF166418D3DA070045,https://www.ransomware.live/group/nemesis,Ransomware.live - nemesis,,2026-06-09T21:02:05.583Z
 tox,D27A7B3711CD1442A8FAC19BB5780FF291101F6286A62AD21E5F7F08BD5F5F1B9803AAC6ECF9,https://www.ransomware.live/group/kuiper,Ransomware.live - kuiper,,2026-06-09T21:02:05.583Z
+tox,D288571294F08ADDFE46DF631194745143BE8B40F9F846379040DC40EB39BC2E8CE056B66927,https://www.ransomware.live/group/settra,Ransomware.live - settra,,2026-07-06T09:38:37.602Z
 tox,D3404141459BC7206CC4AFEC16A3403F262C0937A732C12644E7CA97F0615201A519F7EAB2E2,https://www.ransomware.live/group/donut,Ransomware.live - donut,,2026-06-09T21:02:05.583Z
 tox,D6C324719AD0AA50A54E4F8DED8E8220D8698DD67B218B5429466C40E7F72657C015D86C7E4A,https://www.ransomware.live/group/esxiargs,Ransomware.live - esxiargs,,2026-06-09T21:02:05.583Z
 tox,E39D0A412302DF31B24613AA88D5859A5432A5FCBAD25917E93DA84D56CB411F88119E8AEB78,https://www.ransomware.live/group/bluebox,Ransomware.live - bluebox,,2026-06-09T21:02:05.583Z
@@ -3149,6 +3153,7 @@ tox,E9CD65687463F67F64937E961DD723DC82C79CB548375AAE8AA4A0698D356C5E7E157B22E8CD
 tox,EB66AAB860C618A4998118BC352BED9C9537EB3D7AC9BE1FFE548F68D921BB51A14BB177D99A,https://www.ransomware.live/group/darkangels,Ransomware.live - darkangels,,2026-06-09T21:02:05.583Z
 tox,EFE1A6E5C8AF91FB1EA3A170823F5E69A85F866CF33A4370EC467474916941042E29C2EA4930,https://www.ransomware.live/group/blackshrantac,Ransomware.live - blackshrantac,,2026-06-09T21:02:05.583Z
 tox,F1D0F45DBC3F4CA784D5D0D0DD8ADCD31AB5645BE00293FE6302CD0381F6527AC647A61CB08D,https://www.ransomware.live/group/noname,Ransomware.live - noname,,2026-06-09T21:02:05.583Z
+tox,F65E1621B7A5DC0139FE108B9CD48404082951E7E7F421A07A7B88A8E8111C13C552EA2B0C4C,https://www.ransomware.live/group/krybit,Ransomware.live - krybit,,2026-07-06T09:38:37.602Z
 tox,F6B2E01CFA4D3F2DB75E4EDD07EC28BF793E541A9674C3E6A66E1CDA9D931A1344E321FD2582,https://www.ransomware.live/group/arcus,Ransomware.live - arcus,,2026-06-09T21:02:05.583Z
 tox,F79A71AD8BB2E3E7EDFC38970FDC05E922E429B5DFC325C7D0E91F216DE8F3537C1A1C97F197,https://www.ransomware.live/group/warlock,Ransomware.live - warlock,,2026-06-09T21:02:05.583Z
 tox,F8E24C7F5B12CD69C44C73F438F65E9BF560ADF35EBBDF92CF9A9B84079F8F04060FF98D098E,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-06-09T21:02:05.583Z
