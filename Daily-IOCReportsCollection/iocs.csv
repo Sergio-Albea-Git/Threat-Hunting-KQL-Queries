@@ -70,6 +70,8 @@ domain,fldsmdrc-95.github.io,https://cybersecuritynews.com/gitbait-phishing-camp
 domain,fortknox.noventragroup.app,https://cybersecuritynews.com/microsoft-365-device-code-phishing-campaign,Microsoft 365 Device Code Phishing Campaign Bypasses Password Theft With Legitimate Login Flow,2026-06-16T14:19:18.000Z,2026-06-16T17:36:59.243Z
 domain,frehf.oss-cn-hongkong.aliyuncs.com,https://cybersecuritynews.com/hackers-use-fake-vlc-executable,Hackers Use Fake VLC Executable and Malicious libvlc.dll to Deploy ValleyRAT,2026-07-02T13:58:13.000Z,2026-07-02T14:56:50.046Z
 domain,ftps.upd-domain-goloro.com,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
+domain,gateway.filen.io,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
+domain,gateway.filen.net,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 domain,gnilsoporte.github.io,https://cybersecuritynews.com/gitbait-phishing-campaign-abuses-github-pages,GitBait Phishing Campaign Abuses GitHub Pages to Attack Financial Institutions,2026-06-17T16:52:52.000Z,2026-06-18T05:30:51.219Z
 domain,gnjh.scalableinfrastructure.de,https://cybersecuritynews.com/hackers-abuse-compromised-m365-accounts,Hackers Abuse Compromised M365 Accounts to Scale CodeStorm Phishing Operations,2026-06-23T10:32:00.000Z,2026-06-23T15:41:17.433Z
 domain,google-ai-labs-it.onrender.com,https://cybersecuritynews.com/russia-linked-turla-uses-compromised-infrastructure,Russia-Linked Turla Uses Compromised Infrastructure to Deploy STOCKSTAY in Ukraine Operations,2026-06-29T12:59:37.000Z,2026-06-29T18:32:37.326Z
@@ -483,6 +485,7 @@ filename,deepseek-v4-flash_x64.exe,https://cybersecuritynews.com/threat-actors-a
 filename,deepseek-v4-pro_x64.7z,https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures,"Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",2026-06-09T08:39:18.000Z,2026-06-09T21:02:05.583Z
 filename,deepseek-v4-pro_x64.exe,https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures,"Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",2026-06-09T08:39:18.000Z,2026-06-09T21:02:05.583Z
 filename,diplomacyeduai.msi,https://cybersecuritynews.com/russia-linked-turla-uses-compromised-infrastructure,Russia-Linked Turla Uses Compromised Infrastructure to Deploy STOCKSTAY in Ukraine Operations,2026-06-29T12:59:37.000Z,2026-06-29T18:32:37.326Z
+filename,dnxstore.dll,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 filename,document_11052026-03578240540350-93.exe,https://cybersecuritynews.com/sheetcreep-c-rat-abuses-google-sheets-api,SHEETCREEP C# RAT Abuses Google Sheets API as C2 to Target Diplomatic Organizations,2026-06-12T12:50:02.000Z,2026-06-12T19:33:28.362Z
 filename,driversprintergraphic.rar,https://cybersecuritynews.com/russia-linked-turla-uses-compromised-infrastructure,Russia-Linked Turla Uses Compromised Infrastructure to Deploy STOCKSTAY in Ukraine Operations,2026-06-29T12:59:37.000Z,2026-06-29T18:32:37.326Z
 filename,dtlcrashcatch.dll,https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit,OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors,2026-06-11T17:15:23.000Z,2026-06-11T17:54:45.952Z
@@ -604,7 +607,9 @@ filename,proximitycommon.dll,https://cybersecuritynews.com/hackers-abuse-powersh
 filename,proximityuxhost.exe,https://cybersecuritynews.com/hackers-abuse-powershell-deliver-xctdoor-backdoor,"Hackers Abuse PowerShell, VBScript, and BAT Files to Deliver Xctdoor Backdoor",2026-06-18T09:46:22.000Z,2026-06-18T09:47:14.865Z
 filename,psexec.exe,https://cybersecuritynews.com/gentlemen-ransomware-global-attacks,Gentlemen Ransomware Expands Global Attack Campaigns,2026-07-07T16:23:11.000Z,2026-07-07T18:34:31.291Z
 filename,pskill.exe,https://cybersecuritynews.com/inc-ransomware-uses-rust-based-windows,INC Ransomware Uses Rust-Based Windows and Linux/ESXi Encryptors in New Attacks,2026-06-19T11:33:11.000Z,2026-06-19T12:34:50.036Z
+filename,publish.exe,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 filename,rclone.exe,https://cybersecuritynews.com/inc-ransomware-uses-rust-based-windows,INC Ransomware Uses Rust-Based Windows and Linux/ESXi Encryptors in New Attacks,2026-06-19T11:33:11.000Z,2026-06-19T12:34:50.036Z
+filename,readme.docm,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 filename,reality.exe,https://cybersecuritynews.com/fake-indian-itr-notice-delivers-dual-rat-malware,Fake Indian ITR Notice Delivers Dual RAT Malware Through Six-Stage Infection Chain,2026-07-08T17:37:35.000Z,2026-07-08T18:04:48.173Z
 filename,replace.exe,https://cybersecuritynews.com/hackers-exploit-unpatched-sharepoint-servers,Hackers Exploit Unpatched SharePoint Servers to Deploy Ransomware and Custom Backdoors,2026-06-24T11:20:44.000Z,2026-06-24T12:35:54.945Z
 filename,replit.app/api/acpsuydgwbasd.exe,https://cybersecuritynews.com/solana-fakefix-campaign-uses-25-malicious-npm-and-pypi-packages,Solana FakeFix Campaign Uses 25 Malicious npm and PyPI Packages to Steal Developer Secrets,2026-06-12T09:13:56.000Z,2026-06-12T11:28:35.289Z
@@ -1347,6 +1352,7 @@ md5,1c34c1860041aa479c14a9c5b332712c,https://www.ransomware.live/group/akira,Ran
 md5,1c4176f57bbfa70829f0218e6f995fda,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,1c47c63e5ed25060d95359c57c77b107,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,1c4bea81c0da22badd9b7eab574c51cd,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
+md5,1cbffddcb8e1e839737bbf6e50a80aaf,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 md5,1d3fba0d99d5452acbb8d326e8f4e800,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,1d5622cc9901830f76672bff670ff565,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,1d895cf4391b817e54fb9ec9d8e65f7e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -1771,6 +1777,7 @@ md5,7552223103876a69c8a162f54cc8500b,https://www.ransomware.live/group/raworld,R
 md5,75599941918f313459d6151c26704083,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,756007cdaa3b8b85c2890d06e82c0984,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
 md5,75acf47d1c2ff932b1b2b61e17424826,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
+md5,77014b3e77529079f041b5b9e73a013b,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 md5,770c1dc157226638f8ad1ac9669f4883,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-06-09T21:02:05.583Z
 md5,773fcd0432808e74bfb863489799dd05,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,77958f66ade19ace783617531f0d82ac,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
@@ -1786,6 +1793,7 @@ md5,7b795e5db82f25b8261d70048b2c3940,https://www.ransomware.live/group/fog,Ranso
 md5,7be61ea851f894d26bf57cf0f1f55ed6,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-06-09T21:02:05.583Z
 md5,7bf5cbca413b327c655e2270645955d9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,7bfcdf4e2cc520fb8817a7bb711df873,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
+md5,7c517d1f4385e0d6e8fa5932d17873eb,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 md5,7c870d186057084254075870aebfb111,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-06-09T21:02:05.583Z
 md5,7ca94d84f4a02fb1f608818c1c3ab62d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,7cb34a621478c692c12f9cbbbe457a58,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-06-09T21:02:05.583Z
@@ -2030,6 +2038,7 @@ md5,afaad51d8f656489a0e10ba45ca5dfc2,https://www.ransomware.live/group/akira,Ran
 md5,afe085b7324d72673eef749ff5f21a49,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 md5,b04e8ee43aba85fa5c585b9335c953c2,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-06-09T21:02:05.583Z
 md5,b0579ea540b639929f1a7426310d0d2c,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-06-09T21:02:05.583Z
+md5,b077401fe3d9642345d4c3deafa60aa5,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 md5,b0a59e8b365962c73da486bccc361354,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,b0b9a31de4dfd11bf267dd781b47230a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
 md5,b0bed416ff458a1d5e3398560317af7a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-06-09T21:02:05.583Z
