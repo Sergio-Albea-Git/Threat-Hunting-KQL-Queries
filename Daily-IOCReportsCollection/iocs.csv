@@ -871,7 +871,7 @@ ip,184.94.215.147:53,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,185.100.157.74,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-07-09T22:52:34.620Z
 ip,185.106.94.255,https://www.ransomware.live/group/weyhro,Ransomware.live - weyhro,,2026-07-09T22:52:34.620Z
 ip,185.163.193.251:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,185.182.193.21,https://cybersecuritynews.com/hackers-use-bluerabbit-backdoor,Hackers Use BLUERABBIT Backdoor to Encrypt Files and Wipe Disks Across Windows Systems - Cyber Security News,2026-06-11T15:32:55.000Z,2026-06-11T17:54:45.952Z
+ip,185.182.193.21,https://cybersecuritynews.com/gigawiper-malware-attacking-windows-systems,GigaWiper Malware Attacking Windows Systems With Data Wipers and Fake Ransomware Notices,2026-07-10T08:55:26.000Z,2026-07-10T10:03:37.612Z
 ip,185.193.48.92:445,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,185.193.48.92:4675,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,185.195.232.139,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
@@ -976,7 +976,7 @@ ip,208.123.119.103:7453,https://www.ransomware.live/group/bianlian,Ransomware.li
 ip,208.73.200.28:9999,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,209.137.225.101,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,212.224.107.203,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-09T22:52:34.620Z
-ip,212.8.248.104,https://cybersecuritynews.com/hackers-use-bluerabbit-backdoor,Hackers Use BLUERABBIT Backdoor to Encrypt Files and Wipe Disks Across Windows Systems - Cyber Security News,2026-06-11T15:32:55.000Z,2026-06-11T17:54:45.952Z
+ip,212.8.248.104,https://cybersecuritynews.com/gigawiper-malware-attacking-windows-systems,GigaWiper Malware Attacking Windows Systems With Data Wipers and Fake Ransomware Notices,2026-07-10T08:55:26.000Z,2026-07-10T10:03:37.612Z
 ip,212.80.7.74,https://cybersecuritynews.com/hackers-use-remotepc-rmm-and-powershell-stagers,Hackers Use RemotePC RMM and PowerShell Stagers to Deploy Prinz Eugen Ransomware,2026-06-22T16:01:11.000Z,2026-06-22T18:58:51.618Z
 ip,213.139.77.167,https://cybersecuritynews.com/interlock-and-rhysida-ransomware-operations,Interlock and Rhysida Ransomware Operations Share Supper Backdoor and Malware Codebase,2026-06-16T12:19:29.000Z,2026-06-16T17:36:59.243Z
 ip,213.165.41.26,https://cybersecuritynews.com/hackers-use-clickfix-prompt-to-install-msi-package,Hackers Use ClickFix Prompt to Install MSI Package and Launch Hands-On-Keyboard Attack,2026-06-17T16:34:50.000Z,2026-06-18T05:30:51.219Z
@@ -1820,7 +1820,6 @@ md5,7f81c1bc8cfd588e8998968e2621456e,https://cybersecuritynews.com/new-malware-a
 md5,7fa55bf92073ca2115d70641566ce89b,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
 md5,7ffaaaef5bcaf94756352b1fc866ef3d,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-07-09T22:52:34.620Z
 md5,8061b9de6bbc0eadbc4000120678c544,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
-md5,806dab5164cf60d94026b88ab2d9851d,https://cybersecuritynews.com/hackers-use-bluerabbit-backdoor,Hackers Use BLUERABBIT Backdoor to Encrypt Files and Wipe Disks Across Windows Systems - Cyber Security News,2026-06-11T15:32:55.000Z,2026-06-11T17:54:45.952Z
 md5,8194a7341f8eefa0afe08b6b5ced3ed1,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,825620363d5ff8e4d820a402bfcb425d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,8265e6e7d458617d39490b6cebdbfa67,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
@@ -2207,11 +2206,9 @@ md5,d6e7547ad7dfd1fbc62e8282aebcc391,https://www.ransomware.live/group/qilin,Ran
 md5,d71036dbaff60b41cc4fd767be595997,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,d724d178eb09cd8ce2af8b088117b332,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,d72c3508cbb968c478e0bd91e0f11424,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-07-09T22:52:34.620Z
-md5,d75f9129bb5d05492a65ff78e081bcb2,https://cybersecuritynews.com/hackers-use-bluerabbit-backdoor,Hackers Use BLUERABBIT Backdoor to Encrypt Files and Wipe Disks Across Windows Systems - Cyber Security News,2026-06-11T15:32:55.000Z,2026-06-11T17:54:45.952Z
 md5,d79270ba44e665ebb0383eb77a52e38b,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,d7aa8e838d85ac9fcbef1cc7f55dccbf,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,d7ad18e63064ef80cc6b98db54516f6f,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-07-09T22:52:34.620Z
-md5,d80125b9429e9d5f06ace959f00de8d0,https://cybersecuritynews.com/hackers-use-bluerabbit-backdoor,Hackers Use BLUERABBIT Backdoor to Encrypt Files and Wipe Disks Across Windows Systems - Cyber Security News,2026-06-11T15:32:55.000Z,2026-06-11T17:54:45.952Z
 md5,d811f4b4dc97b25751cd0e8373c533e3,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
 md5,d86163423afa32bb0b793ad909d6b357,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-07-09T22:52:34.620Z
 md5,d86383882515b7a9218d5f69924feadf,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-07-09T22:52:34.620Z
@@ -2555,7 +2552,6 @@ sha1,932f4b274e6f08c55b64a4e7a0cbbe9dff829649,https://cybersecuritynews.com/mali
 sha1,954a7dc750ac502c51dfd7db2068a11961b2f342,https://cybersecuritynews.com/malicious-windows-shortcuts-use-powershell-and-node-js,Malicious Windows Shortcuts Use PowerShell and Node.js to Enable Remote Code Execution,2026-07-10T12:20:22.000Z,2026-07-10T16:01:13.904Z
 sha1,955bfc3dcc867256f9f46a606deb0779fa3416d8,https://cybersecuritynews.com/fishmonger-hackers-expands-sprysocks-backdoor-from-linux,FishMonger Hackers Expands SprySOCKS Backdoor From Linux to Windows With Advanced Stealth Features,2026-06-17T13:01:41.000Z,2026-06-18T05:30:51.219Z
 sha1,96f0dbf52aed0afd43e44500116b04b674f7358e,https://cybersecuritynews.com/gentlemen-ransomware-global-attacks,Gentlemen Ransomware Expands Global Attack Campaigns,2026-07-07T16:23:11.000Z,2026-07-07T18:34:31.291Z
-sha1,9706a192e2c1a1faaf0a521daf31c2af60ff4590,https://cybersecuritynews.com/hackers-use-bluerabbit-backdoor,Hackers Use BLUERABBIT Backdoor to Encrypt Files and Wipe Disks Across Windows Systems - Cyber Security News,2026-06-11T15:32:55.000Z,2026-06-11T17:54:45.952Z
 sha1,97acf3dfda80c91c3a8c9f2372546301d4a1a7a8,https://cybersecuritynews.com/libssh2-vulnerability,Critical libssh2 Vulnerability Allows Attackers to Execute Remote Code Via Malicious SSH packets,2026-06-23T08:51:40.000Z,2026-06-23T15:41:17.433Z
 sha1,9ad51ad97c01e97ab59214116740785e0f6320a8,https://cybersecuritynews.com/gentlemen-ransomware-global-attacks,Gentlemen Ransomware Expands Global Attack Campaigns,2026-07-07T16:23:11.000Z,2026-07-07T18:34:31.291Z
 sha1,9b7fcaed4634dd918a26352f12a26f04c52be3a1,https://cybersecuritynews.com/malicious-windows-shortcuts-use-powershell-and-node-js,Malicious Windows Shortcuts Use PowerShell and Node.js to Enable Remote Code Execution,2026-07-10T12:20:22.000Z,2026-07-10T16:01:13.904Z
