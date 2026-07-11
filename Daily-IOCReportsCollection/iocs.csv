@@ -797,7 +797,6 @@ ip,146.70.244.90,https://cybersecuritynews.com/malicious-gst-debit-note-attachme
 ip,147.45.141.206:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,147.45.154.131:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,148.163.93.50,https://cybersecuritynews.com/hackers-abuse-compromised-m365-accounts,Hackers Abuse Compromised M365 Accounts to Scale CodeStorm Phishing Operations,2026-06-23T10:32:00.000Z,2026-06-23T15:41:17.433Z
-ip,149.248.3.38,https://cybersecuritynews.com/china-linked-jdy-botnet-uses-1500-soho-and-iot-devices,"China-Linked JDY Botnet Uses 1,500+ SOHO and IoT Devices for Rapid Vulnerability Exploitation",2026-06-11T09:25:39.000Z,2026-06-11T09:53:16.358Z
 ip,149.56.12.51,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-08T15:52:48.419Z
 ip,150.171.30.10,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-09T22:52:34.620Z
 ip,151.236.16.144:64250,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -1210,7 +1209,6 @@ ip,98.44.29.78,https://cybersecuritynews.com/hackers-abuse-compromised-m365-acco
 ip,98.82.12.229:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,99.239.33.130,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,99.244.137.184,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
-md5,0000000000000000bdb718bdf47cbcde,https://cybersecuritynews.com/china-linked-jdy-botnet-uses-1500-soho-and-iot-devices,"China-Linked JDY Botnet Uses 1,500+ SOHO and IoT Devices for Rapid Vulnerability Exploitation",2026-06-11T09:25:39.000Z,2026-06-11T09:53:16.358Z
 md5,003291d904b89142bada57a9db732ae7,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-07-09T22:52:34.620Z
 md5,00380c75734fd72885b315c53b4e9774,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,005c650353052ace090b2a56c2d0023b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
