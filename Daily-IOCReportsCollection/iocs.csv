@@ -718,7 +718,6 @@ ip,107.150.106.14,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-r
 ip,107.170.35.225,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-07-09T22:52:34.620Z
 ip,107.170.45.91,https://cybersecuritynews.com/false-positive-or-first-sign-of-a-breach-how-tier-1-soc-analysts-can-tell-the-difference-faster,False&nbsp;Positive&nbsp;or&nbsp;First&nbsp;Sign&nbsp;of&nbsp;a&nbsp;Breach?&nbsp;How&nbsp;Tier&nbsp;1 SOC&nbsp;Analysts&nbsp;Can&nbsp;Tell&nbsp;the&nbsp;Difference&nbsp;Faster&nbsp;,2026-06-30T16:13:56.000Z,2026-06-30T17:27:04.521Z
 ip,107.189.26.195:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,108.208.40.144,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,108.61.216.142:1433,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,108.61.216.142:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,108.61.216.142:5060,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -749,7 +748,6 @@ ip,143.198.179.167:1433,https://www.ransomware.live/group/bianlian,Ransomware.li
 ip,143.198.179.167:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,143.198.179.167:5060,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,144.172.103.42,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-07-09T22:52:34.620Z
-ip,144.172.190.50,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,144.172.95.78,https://www.ransomware.live/group/ralord,Ransomware.live - ralord,,2026-07-09T22:52:34.620Z
 ip,144.208.127.130:14906,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,144.31.53.78,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
@@ -812,7 +810,6 @@ ip,172.96.137.106:4567,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,172.96.137.108:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,172.96.137.160,https://cybersecuritynews.com/bing-search-for-manageengine-opmanager,Bing Search for 'ManageEngine OpManager' Delivers Akira Ransomware,2026-06-30T12:56:24.000Z,2026-06-30T17:27:04.521Z
 ip,172.96.137.32:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,173.178.178.139,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,174.169.162.62,https://cybersecuritynews.com/unc3753-uses-screen-sharing-sessions-and-rmm-tools,UNC3753 Uses Screen-Sharing Sessions and RMM Tools to Exfiltrate Sensitive Legal Data,2026-06-17T01:43:49.000Z,2026-06-17T10:17:54.068Z
 ip,176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 ip,176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
@@ -900,7 +897,6 @@ ip,198.13.159.44,https://cybersecuritynews.com/mistic-backdoor-blends-with-micro
 ip,198.23.185.81,https://cybersecuritynews.com/asyncrat-campaign-uses-dll-sideloading,AsyncRAT Campaign Uses DLL Sideloading and ScreenConnect for Stealthy Remote Access,2026-07-02T18:10:41.000Z,2026-07-02T19:02:15.516Z
 ip,198.245.53.26,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-08T15:52:48.419Z
 ip,198.54.120.13,https://cybersecuritynews.com/anydesk-phishing-attack-uses-scheduled-task-persistence,AnyDesk Phishing Attack Uses Scheduled Task Persistence and Artifact Deletion to Evade Detection,2026-07-07T15:17:32.000Z,2026-07-07T16:07:06.078Z
-ip,199.126.64.61,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,199.209.141.166,https://cybersecuritynews.com/mustang-panda-abuses-zoho-workdrive,Mustang Panda Abuses Zoho WorkDrive for Command-and-Control and Data Exfiltration,2026-06-30T10:30:10.000Z,2026-06-30T11:59:46.516Z
 ip,199.232.210.172,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-09T22:52:34.620Z
 ip,199.58.81.140,https://cybersecuritynews.com/hackers-use-systembc-malware-to-hide-c2-traffic,Hackers Use SystemBC Malware to Hide C2 Traffic and Maintain Persistent Access,2026-06-30T12:37:58.000Z,2026-06-30T17:27:04.521Z
@@ -939,10 +935,8 @@ ip,212.86.125.24,https://cybersecuritynews.com/one-malicious-oauth-approval,One 
 ip,213.111.148.90,https://cybersecuritynews.com/one-malicious-oauth-approval,One Malicious OAuth Approval Can Give Hackers Persistent Access to Salesforce Data,2026-07-14T14:28:24.000Z,2026-07-14T15:10:07.618Z
 ip,213.139.77.167,https://cybersecuritynews.com/interlock-and-rhysida-ransomware-operations,Interlock and Rhysida Ransomware Operations Share Supper Backdoor and Malware Codebase,2026-06-16T12:19:29.000Z,2026-06-16T17:36:59.243Z
 ip,213.165.41.26,https://cybersecuritynews.com/hackers-use-clickfix-prompt-to-install-msi-package,Hackers Use ClickFix Prompt to Install MSI Package and Launch Hands-On-Keyboard Attack,2026-06-17T16:34:50.000Z,2026-06-18T05:30:51.219Z
-ip,216.16.184.145,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,216.181.107.134:41296,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,216.219.94.99:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,216.247.226.32,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,216.250.112.100,https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page,ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers,2026-07-08T21:23:03.000Z,2026-07-08T21:46:26.616Z
 ip,217.138.252.123,https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat,Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader,2026-06-22T20:57:09.000Z,2026-06-22T21:40:30.278Z
 ip,217.15.160.247,https://cybersecuritynews.com/china-nexus-hackers-exploit-ruckus-routers,China-Nexus Hackers Exploit Ruckus Routers to Build Operational Relay Box Networks,2026-07-08T07:51:58.000Z,2026-07-08T07:57:02.958Z
@@ -965,8 +959,6 @@ ip,23.254.164.92,https://cybersecuritynews.com/140-mastra-npm-packages-compromis
 ip,23.254.244.163:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,23.54.127.209,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-09T22:52:34.620Z
 ip,23.95.182.59,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-07-09T22:52:34.620Z
-ip,24.202.0.56,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
-ip,24.53.42.79,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,26.1.1.2,https://cybersecuritynews.com/cisco-sd-wan-vmanage-vulnerability-exploit,Cisco SD-WAN vManage Vulnerability Exploited in Zero-Day Attacks,2026-06-16T05:38:32.000Z,2026-06-16T06:14:59.759Z
 ip,27.124.40.52,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-09T11:35:54.410Z
 ip,27.124.9.47,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-09T11:35:54.410Z
@@ -1022,7 +1014,6 @@ ip,45.95.175.213:8443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,46.17.42.64,https://www.ransomware.live/group/cephalus,Ransomware.live - cephalus,,2026-07-09T22:52:34.620Z
 ip,46.183.25.6,https://cybersecuritynews.com/interlock-and-rhysida-ransomware-operations,Interlock and Rhysida Ransomware Operations Share Supper Backdoor and Malware Codebase,2026-06-16T12:19:29.000Z,2026-06-16T17:36:59.243Z
 ip,47.15.69.15,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-2,Hackers Abuse Legitimate RMM Tools to Maintain Persistent Access and Evade Detection,2026-06-18T14:49:28.000Z,2026-06-18T17:50:52.017Z
-ip,47.55.96.251,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,5.181.156.168,https://cybersecuritynews.com/ghostshell-malware-uses-mtls-implant-and-telegram-dead-drop,GhostShell Malware Uses mTLS Implant and Telegram Dead-Drop to Target Ukrainian Drone Operations,2026-06-24T14:31:59.000Z,2026-06-24T15:22:21.696Z
 ip,5.187.48.26:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,5.189.149.171,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-07-09T22:52:34.620Z
@@ -1071,13 +1062,7 @@ ip,68.60.174.238,https://cybersecuritynews.com/errtraffic-maas-uses-fake-recaptc
 ip,69.197.176.26:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,69.46.15.169:3389,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,69.46.15.169:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,70.24.235.36,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,70.34.202.129:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,70.67.169.118,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
-ip,70.83.127.83,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
-ip,72.143.216.88,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
-ip,72.45.107.194,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
-ip,75.152.86.244,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 ip,76.92.245.217,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,77.110.122.58,https://cybersecuritynews.com/hackers-use-clickfix-prompt-to-install-msi-package,Hackers Use ClickFix Prompt to Install MSI Package and Launch Hands-On-Keyboard Attack,2026-06-17T16:34:50.000Z,2026-06-18T05:30:51.219Z
 ip,77.73.67.162:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -1160,8 +1145,6 @@ ip,96.44.156.220:24467,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,98.183.80.18,https://cybersecuritynews.com/hackers-abuse-compromised-m365-accounts,Hackers Abuse Compromised M365 Accounts to Scale CodeStorm Phishing Operations,2026-06-23T10:32:00.000Z,2026-06-23T15:41:17.433Z
 ip,98.44.29.78,https://cybersecuritynews.com/hackers-abuse-compromised-m365-accounts,Hackers Abuse Compromised M365 Accounts to Scale CodeStorm Phishing Operations,2026-06-23T10:32:00.000Z,2026-06-23T15:41:17.433Z
 ip,98.82.12.229:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,99.239.33.130,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
-ip,99.244.137.184,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
 md5,003291d904b89142bada57a9db732ae7,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-07-09T22:52:34.620Z
 md5,00380c75734fd72885b315c53b4e9774,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,005c650353052ace090b2a56c2d0023b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
