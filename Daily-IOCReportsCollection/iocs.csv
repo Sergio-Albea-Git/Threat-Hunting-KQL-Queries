@@ -616,7 +616,6 @@ filename,reality.exe,https://cybersecuritynews.com/fake-indian-itr-notice-delive
 filename,remark.sys,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-09T11:35:54.410Z
 filename,replace.exe,https://cybersecuritynews.com/hackers-exploit-unpatched-sharepoint-servers,Hackers Exploit Unpatched SharePoint Servers to Deploy Ransomware and Custom Backdoors,2026-06-24T11:20:44.000Z,2026-06-24T12:35:54.945Z
 filename,reports.vbs,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
-filename,result.dll,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 filename,run.vbs,https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page,ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers,2026-07-08T21:23:03.000Z,2026-07-08T21:46:26.616Z
 filename,runsearch.exe,https://cybersecuritynews.com/hackers-use-clickfix-prompt-to-install-msi-package,Hackers Use ClickFix Prompt to Install MSI Package and Launch Hands-On-Keyboard Attack,2026-06-17T16:34:50.000Z,2026-06-18T05:30:51.219Z
 filename,sc.msi,https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-2-exploitation,Hackers Can Go From CitrixBleed 2 Exploitation to Ransomware in Under an Hour,2026-07-10T12:49:23.000Z,2026-07-10T16:01:13.904Z
@@ -710,7 +709,6 @@ ip,104.200.72.15:10403,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,104.200.73.216:3389,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,104.200.73.216:43696,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,104.200.73.216:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,104.207.144.154,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,104.225.129.101:35247,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,104.225.129.101:63618,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,104.225.129.101:8465,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -752,9 +750,6 @@ ip,13.38.235.203:443,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,130.12.180.43,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-06-29T12:17:47.010Z
 ip,130.193.52.194:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,135.136.1.133,https://cybersecuritynews.com/hackers-exploit-weak-credentials-and-internet-facing-plcs,Hackers Exploit Weak Credentials and Internet-Facing PLCs to Breach Water Utilities,2026-06-26T13:27:05.000Z,2026-06-26T21:09:03.104Z
-ip,136.0.141.112,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
-ip,136.0.141.138,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
-ip,136.0.141.41,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,138.226.246.94,https://cybersecuritynews.com/lastpass-customer-data-klue,LastPass Customer Data Exposed in Klue supply chain Attack,2026-06-23T14:15:52.000Z,2026-06-23T15:41:17.433Z
 ip,139.180.134.221,https://cybersecuritynews.com/cl-sta-1062-hackers-use-tinyrct-backdoor,CL-STA-1062 Hackers Use TinyRCT Backdoor to Target Southeast Asian Governments,2026-06-26T08:55:01.000Z,2026-06-26T12:00:35.358Z
 ip,14.176.1.47,https://cybersecuritynews.com/hackers-turning-ai-gateways-as-attack,Hackers are Turning AI Gateways as Attack Surfaces to Compromise Enterprise Networks,2026-07-10T11:56:18.000Z,2026-07-10T16:01:13.904Z
@@ -772,9 +767,6 @@ ip,144.172.95.78,https://www.ransomware.live/group/ralord,Ransomware.live - ralo
 ip,144.208.127.130:14906,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,144.31.53.78,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
 ip,145.241.123.102,https://cybersecuritynews.com/hackers-turning-ai-gateways-as-attack,Hackers are Turning AI Gateways as Attack Surfaces to Compromise Enterprise Networks,2026-07-10T11:56:18.000Z,2026-07-10T16:01:13.904Z
-ip,146.19.216.119,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
-ip,146.19.216.120,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
-ip,146.19.216.125,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,146.19.24.84:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,146.70.139.154,https://cybersecuritynews.com/citrixbleed-vulnerability-exploited,CitrixBleed Vulnerability Exploited by Hackers Within 24 Hours of Public Disclosure,2026-07-02T16:38:52.000Z,2026-07-02T17:15:20.767Z
 ip,146.70.143.147:18095,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -818,7 +810,6 @@ ip,164.92.223.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,165.227.69.170:1433,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,165.227.69.170:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,165.245.215.18,https://cybersecuritynews.com/odyssey-stealer-hits-macos-users,"Odyssey Stealer Hits macOS Users in 100+ Countries, Targets 300 Crypto Wallet Extensions",2026-07-10T10:45:26.000Z,2026-07-10T16:01:13.904Z
-ip,166.0.132.237,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,167.179.79.189,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,167.71.69.135:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,167.88.160.15:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -844,7 +835,6 @@ ip,176.65.141.201,https://www.ransomware.live/group/datacarry,Ransomware.live - 
 ip,176.97.75.205:8015,https://www.ransomware.live/group/bashe,Ransomware.live - bashe,,2026-07-09T22:52:34.620Z
 ip,178.32.224.221,https://cybersecuritynews.com/interlock-and-rhysida-ransomware-operations,Interlock and Rhysida Ransomware Operations Share Supper Backdoor and Malware Codebase,2026-06-16T12:19:29.000Z,2026-06-16T17:36:59.243Z
 ip,179.43.139.126,https://www.ransomware.live/group/benzona,Ransomware.live - benzona,,2026-07-09T22:52:34.620Z
-ip,179.43.172.213,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,179.43.185.226,https://cybersecuritynews.com/helix-data-extortion-group-uses-vishing-and-device-code-phishing,Helix Data Extortion Group Uses Vishing and Device Code Phishing to Steal SharePoint Data,2026-07-09T07:57:32.000Z,2026-07-09T08:05:39.165Z
 ip,179.43.185.230,https://cybersecuritynews.com/helix-data-extortion-group-uses-vishing-and-device-code-phishing,Helix Data Extortion Group Uses Vishing and Device Code Phishing to Steal SharePoint Data,2026-07-09T07:57:32.000Z,2026-07-09T08:05:39.165Z
 ip,18.159.131.20:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -860,7 +850,6 @@ ip,185.163.193.251:443,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,185.182.193.21,https://cybersecuritynews.com/gigawiper-malware-attacking-windows-systems,GigaWiper Malware Attacking Windows Systems With Data Wipers and Fake Ransomware Notices,2026-07-10T08:55:26.000Z,2026-07-10T10:03:37.612Z
 ip,185.193.48.92:445,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,185.193.48.92:4675,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,185.195.232.139,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,185.215.113.108,https://cybersecuritynews.com/fake-document-reader-in-the-google-play-store,Fake Document Reader in The Google Play Store with 100K Downloads Deliver Android Malware,2026-06-24T20:57:34.000Z,2026-06-24T21:12:11.318Z
 ip,185.229.9.27:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,185.239.48.114:27700,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -913,7 +902,6 @@ ip,194.213.18.181:20290,https://www.ransomware.live/group/bianlian,Ransomware.li
 ip,194.213.18.181:49493,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,194.233.92.26,https://cybersecuritynews.com/china-nexus-hackers-exploit-ruckus-routers,China-Nexus Hackers Exploit Ruckus Routers to Build Operational Relay Box Networks,2026-07-08T07:51:58.000Z,2026-07-08T07:57:02.958Z
 ip,194.36.188.25:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,194.58.66.82,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,194.68.27.93:40812,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,194.68.27.93:53312,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,194.87.57.81,https://cybersecuritynews.com/anydesk-phishing-attack-uses-scheduled-task-persistence,AnyDesk Phishing Attack Uses Scheduled Task Persistence and Artifact Deletion to Evade Detection,2026-07-07T15:17:32.000Z,2026-07-07T16:07:06.078Z
@@ -921,7 +909,6 @@ ip,194.87.85.168,https://www.ransomware.live/group/weyhro,Ransomware.live - weyh
 ip,195.133.67.35,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-09T22:52:34.620Z
 ip,195.201.21.34,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-07-09T22:52:34.620Z
 ip,195.230.23.91:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,198.12.106.60,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,198.13.159.44,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
 ip,198.23.185.81,https://cybersecuritynews.com/asyncrat-campaign-uses-dll-sideloading,AsyncRAT Campaign Uses DLL Sideloading and ScreenConnect for Stealthy Remote Access,2026-07-02T18:10:41.000Z,2026-07-02T19:02:15.516Z
 ip,198.245.53.26,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-08T15:52:48.419Z
@@ -942,7 +929,6 @@ ip,20.15.4.5,https://cybersecuritynews.com/cisco-sd-wan-vmanage-vulnerability-ex
 ip,20.15.5.3,https://cybersecuritynews.com/cisco-sd-wan-vmanage-vulnerability-exploit,Cisco SD-WAN vManage Vulnerability Exploited in Zero-Day Attacks,2026-06-16T05:38:32.000Z,2026-06-16T06:14:59.759Z
 ip,20.18.3.1,https://cybersecuritynews.com/cisco-sd-wan-vmanage-vulnerability-exploit,Cisco SD-WAN vManage Vulnerability Exploited in Zero-Day Attacks,2026-06-16T05:38:32.000Z,2026-06-16T06:14:59.759Z
 ip,20.9.9.2,https://cybersecuritynews.com/cisco-sd-wan-vmanage-vulnerability-exploit,Cisco SD-WAN vManage Vulnerability Exploited in Zero-Day Attacks,2026-06-16T05:38:32.000Z,2026-06-16T06:14:59.759Z
-ip,202.144.192.47,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,202.182.102.5,https://cybersecuritynews.com/cl-sta-1062-hackers-use-tinyrct-backdoor,CL-STA-1062 Hackers Use TinyRCT Backdoor to Target Southeast Asian Governments,2026-06-26T08:55:01.000Z,2026-06-26T12:00:35.358Z
 ip,202.61.160.137,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 ip,202.61.160.160,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
@@ -975,7 +961,6 @@ ip,217.138.252.123,https://cybersecuritynews.com/malicious-gst-debit-note-attach
 ip,217.15.160.247,https://cybersecuritynews.com/china-nexus-hackers-exploit-ruckus-routers,China-Nexus Hackers Exploit Ruckus Routers to Build Operational Relay Box Networks,2026-07-08T07:51:58.000Z,2026-07-08T07:57:02.958Z
 ip,217.15.164.147,https://cybersecuritynews.com/china-nexus-hackers-exploit-ruckus-routers,China-Nexus Hackers Exploit Ruckus Routers to Build Operational Relay Box Networks,2026-07-08T07:51:58.000Z,2026-07-08T07:57:02.958Z
 ip,220.205.123.186,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-07-09T22:52:34.620Z
-ip,23.128.228.6,https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited,Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild,2026-06-15T07:43:04.000Z,2026-06-15T08:40:33.342Z
 ip,23.133.4.108,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-09T11:35:54.410Z
 ip,23.133.4.109,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-09T11:35:54.410Z
 ip,23.164.48.21,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
@@ -991,7 +976,6 @@ ip,23.251.57.59,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,
 ip,23.254.164.123,https://cybersecuritynews.com/140-mastra-npm-packages-compromised,Hackers Compromised 140+ Mastra npm Packages to Deploy Password-Stealing Malware,2026-06-17T09:05:34.000Z,2026-06-17T10:17:54.068Z
 ip,23.254.164.92,https://cybersecuritynews.com/140-mastra-npm-packages-compromised,Hackers Compromised 140+ Mastra npm Packages to Deploy Password-Stealing Malware,2026-06-17T09:05:34.000Z,2026-06-17T10:17:54.068Z
 ip,23.254.244.163:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,23.26.237.80,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,23.54.127.209,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-09T22:52:34.620Z
 ip,23.95.182.59,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-07-09T22:52:34.620Z
 ip,24.202.0.56,https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance,Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees,2026-06-15T13:10:38.000Z,2026-06-15T15:32:11.536Z
@@ -1009,8 +993,6 @@ ip,37.27.244.222,https://cybersecuritynews.com/interlock-and-rhysida-ransomware-
 ip,38.132.122.213,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-07-09T22:52:34.620Z
 ip,38.132.122.214,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-07-09T22:52:34.620Z
 ip,38.134.148.20,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-09T22:52:34.620Z
-ip,38.225.209.122,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
-ip,38.225.209.229,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,38.45.124.19,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-09T11:35:54.410Z
 ip,38.55.151.63,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 ip,38.91.114.219,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-09T11:35:54.410Z
@@ -1062,7 +1044,6 @@ ip,5.252.177.249,https://www.ransomware.live/group/anubis,Ransomware.live - anub
 ip,5.252.177.88,https://cybersecuritynews.com/ghostshell-malware-uses-mtls-implant-and-telegram-dead-drop,GhostShell Malware Uses mTLS Implant and Telegram Dead-Drop to Target Ukrainian Drone Operations,2026-06-24T14:31:59.000Z,2026-06-24T15:22:21.696Z
 ip,5.255.106.12:3389,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,5.255.106.12:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
-ip,5.9.241.27,https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers,WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer,2026-06-15T08:02:11.000Z,2026-06-15T08:40:33.342Z
 ip,50.54.130.245,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-07-09T22:52:34.620Z
 ip,51.16.209.105:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,51.250.0.16:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -2877,7 +2858,6 @@ sha256,7a313840d25adf94c7bf1d17393f5b991ba8baf50b8cacb7ce0420189c177e26,https://
 sha256,7a370a9262d37de6a24706f92ff0cdded7202281a6ff3bf313721756226ebff9,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-06-29T12:17:47.010Z
 sha256,7a7ad4ae347a3f99f3773a113d9f70ecfa967100c96e8275bd1df833caee68d1,https://cybersecuritynews.com/rust-clipboard-hijacker-uses-fake-github-stars,Rust Clipboard Hijacker Uses Fake GitHub Stars and VirusTotal Upvotes to Steal Crypto - Cyber Security News,2026-06-18T09:33:19.000Z,2026-06-18T09:47:14.865Z
 sha256,7a9632bbecc31d02fdd0eab07e2424b3e1c9e9a3f91aac4ef6f708f2befbaa3d,https://cybersecuritynews.com/rust-clipboard-hijacker-uses-fake-github-stars,Rust Clipboard Hijacker Uses Fake GitHub Stars and VirusTotal Upvotes to Steal Crypto - Cyber Security News,2026-06-18T09:33:19.000Z,2026-06-18T09:47:14.865Z
-sha256,7b03fb383a5ce784a3cb9b0f8a76a84e984d14e553de5d98faff3d07d9793085,https://cybersecuritynews.com/malware-platform-unlocked-php-installation-page,Threat Actor Malware Platform Exposed via Unlocked PHP Installation Page,2026-06-15T07:31:34.000Z,2026-06-15T08:40:33.342Z
 sha256,7c4b465159e1c7dbbe67f0eeb3f58de1caba293999a49843a0818480f05be14e,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-07-09T22:52:34.620Z
 sha256,7d80b3ef74ad7992b93c31966962612e4e2ceb93e7727cdbd1d2a9af47d44ba8,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools,FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks,2026-07-03T12:24:04.000Z,2026-07-03T17:01:42.480Z
 sha256,7d8b6a64f7b65b281e7b5568929c6f96c62bbae9628162aabe7d8140a86d3de8,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-06-29T12:17:47.010Z
