@@ -1,0 +1,191 @@
+ISO2,Country,ExpectedLanguages
+AF,Afghanistan,ps;fa
+AL,Albania,sq
+DZ,Algeria,ar;fr
+AD,Andorra,ca
+AO,Angola,pt
+AG,Antigua and Barbuda,en
+AR,Argentina,es
+AM,Armenia,hy
+AU,Australia,en
+AT,Austria,de
+AZ,Azerbaijan,az
+BS,Bahamas,en
+BH,Bahrain,ar;en
+BD,Bangladesh,bn
+BB,Barbados,en
+BY,Belarus,be;ru
+BE,Belgium,nl;fr;de
+BZ,Belize,en;es
+BJ,Benin,fr
+BT,Bhutan,dz;en
+BO,Bolivia,es;qu;ay
+BA,Bosnia and Herzegovina,bs;hr;sr
+BW,Botswana,en;tn
+BR,Brazil,pt
+BN,Brunei,ms;en
+BG,Bulgaria,bg
+BF,Burkina Faso,fr
+BI,Burundi,rn;fr;en
+CV,Cabo Verde,pt
+KH,Cambodia,km
+CM,Cameroon,fr;en
+CA,Canada,en;fr
+CF,Central African Republic,fr;sg
+TD,Chad,fr;ar
+CL,Chile,es
+CN,China,zh
+CO,Colombia,es
+KM,Comoros,ar;fr
+CG,Republic of the Congo,fr
+CD,Democratic Republic of the Congo,fr
+CR,Costa Rica,es
+CI,Côte d'Ivoire,fr
+HR,Croatia,hr
+CU,Cuba,es
+CY,Cyprus,el;tr;en
+CZ,Czechia,cs
+DK,Denmark,da
+DJ,Djibouti,fr;ar
+DM,Dominica,en
+DO,Dominican Republic,es
+EC,Ecuador,es;qu
+EG,Egypt,ar
+SV,El Salvador,es
+GQ,Equatorial Guinea,es;fr;pt
+ER,Eritrea,ti;ar;en
+EE,Estonia,et
+SZ,Eswatini,en;ss
+ET,Ethiopia,am;om;en
+FJ,Fiji,en;fj;hi
+FI,Finland,fi;sv
+FR,France,fr
+GA,Gabon,fr
+GM,Gambia,en
+GE,Georgia,ka
+DE,Germany,de
+GH,Ghana,en
+GR,Greece,el
+GD,Grenada,en
+GT,Guatemala,es
+GN,Guinea,fr
+GW,Guinea-Bissau,pt
+GY,Guyana,en
+HT,Haiti,fr;ht
+HN,Honduras,es
+HU,Hungary,hu
+IS,Iceland,is
+IN,India,hi;en;bn;te;mr;ta;ur;gu;kn;ml;pa
+ID,Indonesia,id
+IR,Iran,fa
+IQ,Iraq,ar;ku
+IE,Ireland,en;ga
+IL,Israel,he;ar
+IT,Italy,it
+JM,Jamaica,en
+JP,Japan,ja
+JO,Jordan,ar;en
+KZ,Kazakhstan,kk;ru
+KE,Kenya,en;sw
+KI,Kiribati,en
+KW,Kuwait,ar;en
+KG,Kyrgyzstan,ky;ru
+LA,Laos,lo
+LV,Latvia,lv
+LB,Lebanon,ar;fr;en
+LS,Lesotho,en;st
+LR,Liberia,en
+LY,Libya,ar
+LI,Liechtenstein,de
+LT,Lithuania,lt
+LU,Luxembourg,lb;fr;de
+MG,Madagascar,mg;fr
+MW,Malawi,en;ny
+MY,Malaysia,ms;en;zh;ta
+MV,Maldives,dv
+ML,Mali,fr
+MT,Malta,mt;en
+MH,Marshall Islands,en;mh
+MR,Mauritania,ar;fr
+MU,Mauritius,en;fr
+MX,Mexico,es
+FM,Micronesia,en
+MD,Moldova,ro;ru
+MC,Monaco,fr
+MN,Mongolia,mn
+ME,Montenegro,sr;bs;hr;sq
+MA,Morocco,ar;ber;fr
+MZ,Mozambique,pt
+MM,Myanmar,my
+NA,Namibia,en;af;de
+NR,Nauru,en;na
+NP,Nepal,ne
+NL,Netherlands,nl
+NZ,New Zealand,en;mi
+NI,Nicaragua,es
+NE,Niger,fr
+NG,Nigeria,en;ha;yo;ig
+KP,North Korea,ko
+MK,North Macedonia,mk;sq
+NO,Norway,no;nb;nn
+OM,Oman,ar;en
+PK,Pakistan,ur;en;pa
+PW,Palau,en
+PS,Palestine,ar
+PA,Panama,es
+PG,Papua New Guinea,en;tpi
+PY,Paraguay,es;gn
+PE,Peru,es;qu;ay
+PH,Philippines,en;tl
+PL,Poland,pl
+PT,Portugal,pt
+QA,Qatar,ar;en
+RO,Romania,ro
+RU,Russia,ru
+RW,Rwanda,rw;en;fr
+SA,Saudi Arabia,ar
+SN,Senegal,fr
+RS,Serbia,sr
+SC,Seychelles,en;fr
+SL,Sierra Leone,en
+SG,Singapore,en;ms;zh;ta
+SK,Slovakia,sk
+SI,Slovenia,sl
+SB,Solomon Islands,en
+SO,Somalia,so;ar
+ZA,South Africa,en;af;zu;xh;st;tn;ts;ss;ve;nr
+KR,South Korea,ko
+SS,South Sudan,en;ar
+ES,Spain,es;ca;eu;gl
+LK,Sri Lanka,si;ta;en
+SD,Sudan,ar;en
+SR,Suriname,nl
+SE,Sweden,sv
+CH,Switzerland,de;fr;it;rm
+SY,Syria,ar
+TW,Taiwan,zh
+TJ,Tajikistan,tg;ru
+TZ,Tanzania,sw;en
+TH,Thailand,th
+TL,Timor-Leste,pt;tet
+TG,Togo,fr
+TO,Tonga,to;en
+TT,Trinidad and Tobago,en
+TN,Tunisia,ar;fr
+TR,Turkey,tr
+TM,Turkmenistan,tk;ru
+TV,Tuvalu,en
+UG,Uganda,en;sw
+UA,Ukraine,uk;ru
+AE,United Arab Emirates,ar;en
+GB,United Kingdom,en
+US,United States,en;es
+UY,Uruguay,es
+UZ,Uzbekistan,uz;ru
+VU,Vanuatu,bi;en;fr
+VA,Vatican City,it;la
+VE,Venezuela,es
+VN,Vietnam,vi
+YE,Yemen,ar
+ZM,Zambia,en
+ZW,Zimbabwe,en;sn;nd
