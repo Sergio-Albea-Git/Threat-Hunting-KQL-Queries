@@ -69,6 +69,7 @@ domain,io.ary2.com,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-
 domain,joycedoula.com.br,https://cybersecuritynews.com/clickfix-campaign-delivers-telepuz,ClickFix Campaign Delivers Modular TELEPUZ Malware With 36 Remote Commands,2026-07-20T14:20:34.000Z,2026-07-20T19:15:38.773Z
 domain,ldb.rightwidth.dev,https://cybersecuritynews.com/north-korean-hackers-ottercookie-malware,North Korean Hackers Hide OTTERCOOKIE Malware in SVG Images to Backdoor Developers,2026-07-20T06:31:20.000Z,2026-07-20T08:27:29.999Z
 domain,listen.microsoft-voicebox-recordings.com,https://cybersecuritynews.com/hackers-abuse-compromised-m365-accounts,Hackers Abuse Compromised M365 Accounts to Scale CodeStorm Phishing Operations,2026-06-23T10:32:00.000Z,2026-06-23T15:41:17.433Z
+domain,login.orbitalframework.cc,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 domain,mail.account-check.digital,https://cybersecuritynews.com/unc1151-ghostwriter-hackers-target-belarusian-politician,UNC1151 Ghostwriter Hackers Target Belarusian Politician in Gmail Phishing Campaign - Cyber Security News,2026-06-29T09:45:54.000Z,2026-06-29T12:17:47.010Z
 domain,mail.account-security.digital,https://cybersecuritynews.com/unc1151-ghostwriter-hackers-target-belarusian-politician,UNC1151 Ghostwriter Hackers Target Belarusian Politician in Gmail Phishing Campaign - Cyber Security News,2026-06-29T09:45:54.000Z,2026-06-29T12:17:47.010Z
 domain,mail.authorized-logins.net,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
@@ -676,6 +677,7 @@ ip,142.93.242.144,https://cybersecuritynews.com/mistic-backdoor-blends-with-micr
 ip,143.198.179.167:1433,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,143.198.179.167:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,143.198.179.167:5060,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
+ip,144.124.251.171,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 ip,144.172.103.42,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-07-09T22:52:34.620Z
 ip,144.172.95.78,https://www.ransomware.live/group/ralord,Ransomware.live - ralord,,2026-07-09T22:52:34.620Z
 ip,144.208.127.130:14906,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -815,6 +817,7 @@ ip,194.87.85.168,https://www.ransomware.live/group/weyhro,Ransomware.live - weyh
 ip,195.133.67.35,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-09T22:52:34.620Z
 ip,195.201.21.34,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-07-09T22:52:34.620Z
 ip,195.230.23.91:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
+ip,195.63.140.33,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 ip,198.13.159.44,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
 ip,198.23.185.81,https://cybersecuritynews.com/asyncrat-campaign-uses-dll-sideloading,AsyncRAT Campaign Uses DLL Sideloading and ScreenConnect for Stealthy Remote Access,2026-07-02T18:10:41.000Z,2026-07-02T19:02:15.516Z
 ip,198.245.53.26,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-08T15:52:48.419Z
@@ -985,6 +988,7 @@ ip,76.92.245.217,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-d
 ip,77.110.127.205,https://cybersecuritynews.com/one-security-alert-exposed-a-genai-powered-malware-factory,"One Security Alert Exposed a GenAI-Powered Malware Factory Containing More Than 1,000 Attack Files",2026-07-21T08:57:15.000Z,2026-07-21T13:01:58.391Z
 ip,77.73.67.162:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,77.91.122.13,https://cybersecuritynews.com/fortigatesniffer-tool-fortibleed,Hackers Using FortigateSniffer Tool That Turns Compromised Firewalls Into Password Collectors,2026-06-23T04:02:46.000Z,2026-06-23T15:41:17.433Z
+ip,78.40.196.252,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 ip,79.141.162.184:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,8.140.226.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,8.8.8.8,https://cybersecuritynews.com/hackers-compromised-jscrambler,"Hackers Compromised jscrambler With 15,800+ Weekly Downloads to Attack Developers",2026-07-13T09:30:28.000Z,2026-07-13T15:32:10.717Z
@@ -1270,6 +1274,7 @@ md5,29008280fdd61d472b196fba89fa414d,https://www.ransomware.live/group/akira,Ran
 md5,2908589ca1a1f5d98c7f71563a3abac6,https://www.ransomware.live/group/lockbit5,Ransomware.live - lockbit5,,2026-07-09T22:52:34.620Z
 md5,29144c2f5acd859adf08d42ffcd74f50,https://www.ransomware.live/group/0apt,Ransomware.live - 0apt,,2026-07-09T22:52:34.620Z
 md5,2918b9ddaf12a57f6710c07515b27a8b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
+md5,29203ca123d51b1b33505a0813d360df,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 md5,2940779f88cf063ca5dcf861ec7bf325,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,296cca79bbb3ca764de8fcdc2070ecc2,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-07-09T22:52:34.620Z
 md5,29a2cc59a9ebd334103ce146bca38522,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-07-09T22:52:34.620Z
@@ -1294,6 +1299,7 @@ md5,2dd7cd2bf15eec7d62689435fca9c49c,https://www.ransomware.live/group/dragonfor
 md5,2dd9d0c4d5498772c1079939e8833721,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,2ddb664a99000837bb9975fb8aa5796b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,2df69869a379688bad6bf9c18d6aa958,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
+md5,2e116632248a7e1f8aa6bca92d9c1c90,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 md5,2e30aa5886ad27092ae968471bd845c6,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,2eccc71416422af47b5969cc0ac64642,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,2ecd724cccdff65f66027d1c9b91a1c7,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
@@ -1554,6 +1560,7 @@ md5,674b2a09419bd5f572e9bffe943ca0c7,https://www.ransomware.live/group/akira,Ran
 md5,67a44a38cc36becd6e2e9c20c27fd9ad,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-07-09T22:52:34.620Z
 md5,67b53b6d02ec8faf5926abcbe8eab8df,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,67edfff8250487d97f403c74fed85388,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-07-09T22:52:34.620Z
+md5,681db529e402467a4b0567c82a350fc0,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 md5,68635ad9d12f683071611bfd34c1ec34,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,6869f24aecd75e2144aba8dc03dc2d0f,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,68729b85aa01cd8c9f4ccd137ddde137,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
@@ -1664,6 +1671,7 @@ md5,7f81c1bc8cfd588e8998968e2621456e,https://cybersecuritynews.com/new-malware-a
 md5,7fa55bf92073ca2115d70641566ce89b,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
 md5,7ffaaaef5bcaf94756352b1fc866ef3d,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-07-09T22:52:34.620Z
 md5,8061b9de6bbc0eadbc4000120678c544,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
+md5,810f257542018be0fc62af542d13d012,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 md5,8194a7341f8eefa0afe08b6b5ced3ed1,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,825620363d5ff8e4d820a402bfcb425d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,8265e6e7d458617d39490b6cebdbfa67,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
@@ -2217,6 +2225,7 @@ md5,f78073b1b2de009645a0254507b87a37,https://www.ransomware.live/group/trigona,R
 md5,f78deca349a87b5966e3566ada4fb3e8,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,f7f679420671b7e18677831d4d276277,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-07-09T22:52:34.620Z
 md5,f828044c91ac00afffcd77b4ce680857,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-09T22:52:34.620Z
+md5,f8453efe408ce25b9484f872797e3d63,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 md5,f8a242fa6a8df6eafded0a6987a5ac09,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-09T22:52:34.620Z
 md5,f90ed4b2d0b67114aa89ddfed658e5c0,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,f91cf21c1415ef1a90cff56e7dc7e88c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
