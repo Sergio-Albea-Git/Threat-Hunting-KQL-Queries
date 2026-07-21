@@ -4,7 +4,7 @@
 | --- | --- |
 | T1110 | Brute Force |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (21/11/2024)
 
 ---
 

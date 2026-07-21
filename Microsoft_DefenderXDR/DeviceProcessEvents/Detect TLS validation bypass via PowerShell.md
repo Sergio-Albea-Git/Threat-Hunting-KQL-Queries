@@ -4,7 +4,7 @@
 | --- | --- |
 | T1059.001 | Command and Scripting Interpreter: PowerShell |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (03/04/2026)
 
 ---
 

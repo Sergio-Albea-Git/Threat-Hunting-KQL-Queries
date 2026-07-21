@@ -4,7 +4,7 @@
 | --- | --- |
 | T1491.001 | Defacement: Internal Defacement |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (28/05/2025)
 
 ---
 

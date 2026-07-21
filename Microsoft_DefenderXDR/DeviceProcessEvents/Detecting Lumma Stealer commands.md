@@ -4,7 +4,7 @@
 | --- | --- |
 | T1218.005 | System Binary Proxy Execution: Mshta |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (14/01/2025)
 
 ---
 

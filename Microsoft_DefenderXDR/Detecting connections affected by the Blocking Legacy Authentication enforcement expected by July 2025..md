@@ -4,7 +4,7 @@
 | --- | --- |
 | T1078.004 | Valid Accounts: Cloud Accounts |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (23/06/2025)
 
 ---
 

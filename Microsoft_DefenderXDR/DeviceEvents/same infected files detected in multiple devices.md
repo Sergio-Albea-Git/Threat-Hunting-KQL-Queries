@@ -4,7 +4,7 @@
 | --- | --- |
 | T1204.002 | User Execution: Malicious File |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (04/07/2024)
 
 ---
 

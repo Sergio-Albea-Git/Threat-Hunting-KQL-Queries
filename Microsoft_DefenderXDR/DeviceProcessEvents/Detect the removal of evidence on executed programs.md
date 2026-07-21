@@ -4,7 +4,7 @@
 | --- | --- |
 | T1070.004 | Indicator Removal: File Deletion |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (02/07/2025)
 
 ---
 

@@ -4,7 +4,7 @@
 | --- | --- |
 | T1176 | Browser Extensions |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (02/12/2024)
 
 ---
 

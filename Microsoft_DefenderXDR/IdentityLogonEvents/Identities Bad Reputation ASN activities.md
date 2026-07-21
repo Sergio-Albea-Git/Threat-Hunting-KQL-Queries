@@ -4,7 +4,7 @@
 | --- | --- |
 | T1078 | Valid Accounts |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (22/08/2024)
 
 ---
 

@@ -4,7 +4,7 @@
 | --- | --- |
 | T1550.001 | Use Alternate Authentication Material: Application Access Token |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (13/08/2024)
 
 ---
 

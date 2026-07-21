@@ -4,7 +4,7 @@
 | --- | --- |
 | T1595 | Active Scanning |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (13/09/2024)
 
 ---
 

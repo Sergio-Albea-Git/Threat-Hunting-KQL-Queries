@@ -4,7 +4,7 @@
 | --- | --- |
 | T1598.003 | Phishing for Information: Spearphishing Link |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (14/05/2025)
 
 ---
 

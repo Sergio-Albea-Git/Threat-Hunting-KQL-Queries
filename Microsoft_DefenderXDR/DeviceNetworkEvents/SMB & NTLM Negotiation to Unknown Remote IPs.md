@@ -5,7 +5,7 @@
 | T1021.002 | Remote Services: SMB/Windows Admin Shares |
 | T1557.001 | Adversary-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (22/09/2025)
 
 ---
 

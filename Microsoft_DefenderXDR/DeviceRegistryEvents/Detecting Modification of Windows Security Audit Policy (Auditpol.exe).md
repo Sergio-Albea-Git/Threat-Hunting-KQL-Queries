@@ -4,7 +4,7 @@
 | --- | --- |
 | T1562.002 | Impair Defenses: Disable Windows Event Logging |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (29/10/2025)
 
 ---
 

@@ -4,7 +4,7 @@
 | --- | --- |
 | T1005 | Data from Local System |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (26/06/2025)
 
 ---
 

@@ -4,7 +4,7 @@
 | --- | --- |
 | T1082 | System Information Discovery |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (16/09/2025)
 
 ---
 

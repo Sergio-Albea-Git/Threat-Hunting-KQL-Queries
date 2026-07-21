@@ -4,7 +4,7 @@
 | --- | --- |
 | T1566.002 | Phishing: Spearphishing Link |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (17/03/2026)
 
 ---
 

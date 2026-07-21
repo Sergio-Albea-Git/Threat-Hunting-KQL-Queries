@@ -4,7 +4,7 @@
 | --- | --- |
 | T1048 | Exfiltration Over Alternative Protocol |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (16/10/2024)
 
 ---
 

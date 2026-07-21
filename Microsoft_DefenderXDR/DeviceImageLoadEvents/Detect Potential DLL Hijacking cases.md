@@ -4,7 +4,7 @@
 | --- | --- |
 | T1574.001 | Hijack Execution Flow: DLL |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (20/08/2024)
 
 ---
 

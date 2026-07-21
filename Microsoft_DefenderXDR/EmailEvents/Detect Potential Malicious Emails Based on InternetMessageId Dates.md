@@ -4,7 +4,7 @@
 | --- | --- |
 | T1566 | Phishing |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (22/04/2026)
 
 ---
 

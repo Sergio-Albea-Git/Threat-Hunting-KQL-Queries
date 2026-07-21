@@ -4,7 +4,7 @@
 | --- | --- |
 | T1490 | Inhibit System Recovery |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (02/07/2025)
 
 ---
 

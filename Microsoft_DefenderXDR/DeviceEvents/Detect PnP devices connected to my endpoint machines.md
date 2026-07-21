@@ -4,7 +4,7 @@
 | --- | --- |
 | T1200 | Hardware Additions |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (07/10/2024)
 
 ---
 

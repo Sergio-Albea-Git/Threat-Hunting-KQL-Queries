@@ -4,7 +4,7 @@
 | --- | --- |
 | T1204.004 | User Execution: Malicious Copy and Paste |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (12/09/2025)
 
 ---
 

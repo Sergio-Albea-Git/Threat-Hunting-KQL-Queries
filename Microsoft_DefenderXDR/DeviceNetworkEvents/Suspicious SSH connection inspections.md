@@ -4,7 +4,7 @@
 | --- | --- |
 | T1021.004 | Remote Services: SSH |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (18/09/2024)
 
 ---
 

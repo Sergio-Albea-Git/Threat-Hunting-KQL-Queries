@@ -4,7 +4,7 @@
 | --- | --- |
 | T1090.003 | Proxy: Multi-hop Proxy |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (18/11/2025)
 
 ---
 

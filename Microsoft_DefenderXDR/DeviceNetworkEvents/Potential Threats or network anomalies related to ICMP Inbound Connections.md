@@ -4,7 +4,7 @@
 | --- | --- |
 | T1095 | Non-Application Layer Protocol |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (09/09/2024)
 
 ---
 

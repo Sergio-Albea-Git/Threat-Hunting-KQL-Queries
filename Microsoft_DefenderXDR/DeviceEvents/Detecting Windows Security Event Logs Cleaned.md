@@ -4,7 +4,7 @@
 | --- | --- |
 | T1070.001 | Indicator Removal: Clear Windows Event Logs |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (20/01/2025)
 
 ---
 

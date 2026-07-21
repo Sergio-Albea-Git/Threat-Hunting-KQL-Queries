@@ -5,7 +5,7 @@
 | T1562.007 | Impair Defenses: Disable or Modify Cloud Firewall |
 | T1078.004 | Valid Accounts: Cloud Accounts |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (23/12/2024)
 
 ---
 

@@ -4,7 +4,7 @@
 | --- | --- |
 | T1071.001 | Application Layer Protocol: Web Protocols |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (16/08/2024)
 
 ---
 

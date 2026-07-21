@@ -4,7 +4,7 @@
 | --- | --- |
 | T1071.004 | Application Layer Protocol: DNS |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (14/03/2025)
 
 ---
 

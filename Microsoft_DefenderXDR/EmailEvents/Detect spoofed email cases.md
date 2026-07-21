@@ -4,7 +4,7 @@
 | --- | --- |
 | T1656 | Impersonation |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (04/07/2024)
 
 ---
 

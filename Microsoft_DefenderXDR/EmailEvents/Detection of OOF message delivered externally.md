@@ -4,7 +4,7 @@
 | --- | --- |
 | T1589 | Gather Victim Identity Information |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (29/09/2024)
 
 ---
 

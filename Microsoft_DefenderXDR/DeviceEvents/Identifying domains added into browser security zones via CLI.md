@@ -4,7 +4,7 @@
 | --- | --- |
 | T1112 | Modify Registry |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (27/02/2025)
 
 ---
 

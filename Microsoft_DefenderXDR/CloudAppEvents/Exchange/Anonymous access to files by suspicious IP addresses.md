@@ -4,7 +4,7 @@
 | --- | --- |
 | T1213.002 | Data from Information Repositories: SharePoint |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (06/08/2024)
 
 ---
 

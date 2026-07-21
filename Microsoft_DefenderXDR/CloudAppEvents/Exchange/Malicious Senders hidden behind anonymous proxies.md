@@ -5,7 +5,7 @@
 | T1566.002 | Phishing: Spearphishing Link |
 | T1090.003 | Proxy: Multi-hop Proxy |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (02/08/2024)
 
 ---
 

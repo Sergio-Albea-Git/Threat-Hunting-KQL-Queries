@@ -4,7 +4,7 @@
 | --- | --- |
 | T1046 | Network Service Discovery |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (18/02/2025)
 
 ---
 

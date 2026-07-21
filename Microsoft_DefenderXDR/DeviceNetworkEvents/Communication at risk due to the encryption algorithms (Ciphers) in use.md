@@ -4,7 +4,7 @@
 | --- | --- |
 | T1573 | Encrypted Channel |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (29/08/2024)
 
 ---
 

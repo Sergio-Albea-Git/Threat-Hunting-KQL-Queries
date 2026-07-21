@@ -4,7 +4,7 @@
 | --- | --- |
 | — | Operational / enrichment query (no single ATT&CK technique) |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (25/08/2024)
 
 ---
 

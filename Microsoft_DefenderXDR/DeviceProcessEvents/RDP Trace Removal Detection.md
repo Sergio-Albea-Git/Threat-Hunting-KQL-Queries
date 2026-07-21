@@ -4,7 +4,7 @@
 | --- | --- |
 | T1070 | Indicator Removal |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (18/07/2025)
 
 ---
 

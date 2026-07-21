@@ -4,7 +4,7 @@
 | --- | --- |
 | T1036.003 | Masquerading: Rename System Utilities |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (12/06/2025)
 
 ---
 

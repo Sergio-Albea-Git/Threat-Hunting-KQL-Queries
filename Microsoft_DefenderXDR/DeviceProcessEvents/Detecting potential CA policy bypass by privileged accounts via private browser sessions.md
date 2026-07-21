@@ -5,7 +5,7 @@
 | T1550.001 | Use Alternate Authentication Material: Application Access Token |
 | T1078.004 | Valid Accounts: Cloud Accounts |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (28/09/2025)
 
 ---
 

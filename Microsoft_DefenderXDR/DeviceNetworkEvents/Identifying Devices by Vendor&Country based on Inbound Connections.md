@@ -4,7 +4,7 @@
 | --- | --- |
 | T1590.005 | Gather Victim Network Information: IP Addresses |
 
-**Author:** Sergio Albea (05/06/2026)
+**Author:** Sergio Albea (18/02/2025)
 
 ---
 
