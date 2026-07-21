@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| — | Operational / enrichment query (no single ATT&CK technique) |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Review required outbound connections to work with Defender for Cloud Apps**
 
 Microsoft has a new requirement for Cloud Apps to ensure service quality and prevent the interruption of some services and needs immediate Action by April, 21 2025. It is related to update your firewall rules to allow outbound traffic on port 443 for the corresponding IP addresses and URLs. 

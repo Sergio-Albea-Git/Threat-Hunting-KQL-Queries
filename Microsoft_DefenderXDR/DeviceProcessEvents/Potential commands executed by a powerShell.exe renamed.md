@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1036.003 | Masquerading: Rename System Utilities |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Potential commands executed by a powerShell.exe renamed**
 
 PowerShell is a trusted Microsoft tool that attackers can misuse by renaming its executable file to hide their actions and deliver threats. The following query, detect cli common commands to identify the mentioned executions by a renamed Powershell.

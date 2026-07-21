@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1027 | Obfuscated Files or Information |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detecting Base64 Code in Commands**
 
 This KQL Query is oriented to detect strings added into executed command lines which are base64coded. After it, it decoded the corresponding string and show the results decoded.

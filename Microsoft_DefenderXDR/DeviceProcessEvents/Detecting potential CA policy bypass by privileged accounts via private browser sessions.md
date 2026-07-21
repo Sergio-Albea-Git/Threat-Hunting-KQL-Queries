@@ -1,3 +1,14 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1550.001 | Use Alternate Authentication Material: Application Access Token |
+| T1078.004 | Valid Accounts: Cloud Accounts |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detecting potential CA policy bypass by privileged accounts via private browser sessions**
 
 When two accounts from the same Entra tenant are signed into the same browser app, the device authentication (the PRT) belonging to the primary account is implicitly applied to the second account. That means the second account can inherit device-based Conditional Access, effectively bypassing intended device checks and weakening protection for privileged accounts.

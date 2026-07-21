@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1200 | Hardware Additions |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect PnP devices connected to my endpoint machines.md**
 
 | Technique ID | Title    |

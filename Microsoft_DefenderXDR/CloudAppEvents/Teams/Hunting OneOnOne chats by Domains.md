@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566.003 | Phishing: Spearphishing via Service |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Hunting OneOnOne chats by Domains**
 
 The following KQL query helps detect domains interacting with OneOnOne Teams Chats in your tenant, and allows to whitelist trusted or known domains while flagging suspicious ones.

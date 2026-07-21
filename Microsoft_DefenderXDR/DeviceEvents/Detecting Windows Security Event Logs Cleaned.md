@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1070.001 | Indicator Removal: Clear Windows Event Logs |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detecting Windows Security Event Logs Cleaned**
 
 **Description:**  This KQL query below will help you detect cases where Windows Security Event Logs, has been removed directly using Event Viewer.

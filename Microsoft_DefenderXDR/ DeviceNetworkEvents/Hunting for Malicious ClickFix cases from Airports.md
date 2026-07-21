@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1204.004 | User Execution: Malicious Copy and Paste |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Hunting for Malicious ClickFix cases executed from Airports**
 
 **Description**: A few months ago, I shared a post about the risks of users signing in from airport networks. These can easily be spoofed by malicious actors setting up fake Wi-Fi hotspots to harvest user credentials and other sensitive data.

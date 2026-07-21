@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1557 | Adversary-in-the-Middle |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Identify HotSpot connections shared via IPhone**
 
 Detecting networks shared by phones with key words in their Names such as "FREE", "AIRPORT" "OPEN", can be potential cases of Evil Twin Attack where malicious actors can intercept network traffic, steal login credentials, capture sensitive data, or launch further attacks like Man-in-the-Middle (MitM) attacks.

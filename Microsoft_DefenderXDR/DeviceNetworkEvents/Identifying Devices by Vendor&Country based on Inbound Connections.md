@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1590.005 | Gather Victim Network Information: IP Addresses |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Identifying Devices by Vendor&Country based on Inbound Connections**
 
 This KQL Query focuses on summarizing the number of devices attempting to connect to exposed servers, categorized by vendor and it country, by decoding their MAC addresses. 

@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1021.001 | Remote Services: Remote Desktop Protocol |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Identifying File Exfiltration via RDP Sessions**
 
 **Description:** The following KQL query focuses on detecting cases where files are created, modified, or otherwise accessed via RDP from another computer. Its main objective is to verify whether, during an RDP session, the connection has mapped a local disk or other redirected device — allowing us to easily identify potential cases of data exfiltration through RDP file transfer.

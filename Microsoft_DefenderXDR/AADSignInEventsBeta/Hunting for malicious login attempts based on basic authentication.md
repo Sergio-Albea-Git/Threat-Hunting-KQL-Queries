@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1078.004 | Valid Accounts: Cloud Accounts |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Hunting for malicious login attempts based on basic authentication**
 
 **Description:**  This KQL Query helps to detect Basic authentication sign-in attempts using specific agents which are identified as risky and used by malicious actors.

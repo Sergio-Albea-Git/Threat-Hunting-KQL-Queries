@@ -1,3 +1,14 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1562.007 | Impair Defenses: Disable or Modify Cloud Firewall |
+| T1078.004 | Valid Accounts: Cloud Accounts |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Monitor Exclusion into Conditional Access Policies**
 
 **Description:**  This KQL Query helps to keep an eye on accounts that are being excluded from Conditional Access (CA) policies which they should be blocked by it and which specific field triggered the CA detection and got them excluded.

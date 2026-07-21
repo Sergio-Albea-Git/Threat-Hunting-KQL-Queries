@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1105 | Ingress Tool Transfer |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **[IA] - Monitoring Explorer-Initiated External Traffic**
 
 #### MITRE ATT&CK Technique(s)

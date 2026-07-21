@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1078.004 | Valid Accounts: Cloud Accounts |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Monitoring potential sign-in Attempts from Airport Networks**
 
 **Description:** This query identifies potential connections from airport perimeters, which can help us identify bad actors using open WIFI's to trigger different attacks.

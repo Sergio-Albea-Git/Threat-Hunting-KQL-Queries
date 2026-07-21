@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| — | Operational / enrichment query (no single ATT&CK technique) |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Enriching CVE Tables with CVE Mitre Data**
 
 **Description**: This query takes the info from the CVE Mitre site (https://cve.mitre.org) enriching the Defender tables with different URL's related to the vulnerability itself, how to remediate it and additional information.

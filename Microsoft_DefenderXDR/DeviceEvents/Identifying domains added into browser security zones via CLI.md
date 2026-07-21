@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1112 | Modify Registry |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Identifying domains added into browser security zones via CLI**
 
 **Description:** The ZoneMap key under Internet Settings is used to define security zones for specific domains. 

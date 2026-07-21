@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1203 | Exploitation for Client Execution |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Weaponized files extracting .DLL files after execution**
 
 **Description:** When Weaponize files such as Word documents are opened, they can immediately extracts a disguised DLL file into the system’s temporary folder while simultaneously exploiting the Equation Editor vulnerability to execute the extracted file.The following query can help to identify when either a Word or another unusual file (I am whitelisting zip ones) extract a DLL file once is executed.

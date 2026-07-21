@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1059.001 | Command and Scripting Interpreter: PowerShell |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect TLS validation bypass via PowerShell**
 
 PowerShell disabling TLS validation before downloading the payload, it’s a small step, but a very useful one from a detection point of view.

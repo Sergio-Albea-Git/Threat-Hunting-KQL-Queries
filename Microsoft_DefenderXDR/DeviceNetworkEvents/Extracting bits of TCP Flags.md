@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1046 | Network Service Discovery |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Extracting bits of TCP Flags**
 
 This KQL Query is oriented to extract the different bits of TCP Flags which helps to review the different state of the connections and identify possible threats associated.

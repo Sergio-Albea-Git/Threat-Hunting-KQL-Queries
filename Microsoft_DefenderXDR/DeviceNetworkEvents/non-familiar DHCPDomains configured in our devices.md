@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1557 | Adversary-in-the-Middle |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detecting non-familiar DHCPDomains configured in our devices**
 
 **Description**:As far as my users are managing sensible or critical information, I am not really happy when their local device configuration are modified and their network rely on airports, hotels, or the nearest coffee shop's Wi-Fi.

@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1078 | Valid Accounts |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Sign-in Attempts Using Deprecated TLS Versions**
 
 **Description:**  This query identifies Azure AD sign-ins that are using legacy TLS versions (below TLS 1.2). It highlights the accounts, devices, and applications involved, providing visibility into insecure protocol usage. Tracking these events helps detect weak encryption risks and enables proactive remediation to enforce modern, secure standards. 

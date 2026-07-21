@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1021.004 | Remote Services: SSH |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Suspicious SSH connection inspections**
 
 **Description:** The aim of this query is detect SSH connections attempts where the external sources are specifying babeld (Network Protocol) or Conker (Network Conf. Manager) as parameters to establish a connection, is detect suspicious activity such as:

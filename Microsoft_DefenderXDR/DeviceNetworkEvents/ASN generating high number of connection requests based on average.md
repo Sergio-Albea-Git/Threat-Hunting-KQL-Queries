@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1071.001 | Application Layer Protocol: Web Protocols |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **ASN generating high number of connection requests based on average**
 
 **Description:** Identify An ASN that typically handles an average of X connection requests per day over a consistent 7-day period suddenly triples—or more—the number of requests. (You can adjust this line to define the exact multiplication threshold). In addition, identify if during the last week, a new ASN has triggered more than 1K connection attempt during a day.

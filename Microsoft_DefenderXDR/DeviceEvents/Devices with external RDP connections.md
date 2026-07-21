@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1021.001 | Remote Services: Remote Desktop Protocol |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Devices with external RDP connections**
 
 **Description:** This query identifies devices into DeviceEvents table that are initiating RDP connections and provides the location of the remote IP addresses. 

@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1090.003 | Proxy: Multi-hop Proxy |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **[IC] -Tor Exit Browser hunting based on Device Events**
 
 #### MITRE ATT&CK Technique(s)

@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1078.004 | Valid Accounts: Cloud Accounts |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Success sign-in from more than 3 countries in one day based on the Latitude and Longitude distance among them**
 
 **Description:** A while ago, I was annoyed with some Defender XDR alerts related to "User Impossible travel". I had different false positives,

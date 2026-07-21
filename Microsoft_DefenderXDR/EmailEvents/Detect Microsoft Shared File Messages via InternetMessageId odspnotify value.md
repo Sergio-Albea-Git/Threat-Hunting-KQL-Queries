@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566.002 | Phishing: Spearphishing Link |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect Microsoft Shared File Messages via InternetMessageId odspnotify value**
 
 #### MITRE ATT&CK Technique(s)

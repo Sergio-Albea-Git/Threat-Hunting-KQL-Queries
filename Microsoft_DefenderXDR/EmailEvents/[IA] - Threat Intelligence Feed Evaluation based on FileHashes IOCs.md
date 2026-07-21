@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566.001 | Phishing: Spearphishing Attachment |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **[IA] - Threat Intelligence Feed Evaluation based on FileHashes IOCs**
 
 | Technique ID | Title    |

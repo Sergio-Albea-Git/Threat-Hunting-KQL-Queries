@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1071.001 | Application Layer Protocol: Web Protocols |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Classifying HTTP Status Code and detecting possible Threats**
 
 **Description**: I decided to create a table with extended information about the potential threats associated with HTTP status code.

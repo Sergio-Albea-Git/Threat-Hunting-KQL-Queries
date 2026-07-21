@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1573 | Encrypted Channel |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Identifying methods used to establish secure communication over insecure channels**
 
 **Description**: In this case, I have been researching about the 'curve' value into AdditionalFields field of DeviceNetworkEvents table which I identified into iana.org as two groups 'Elliptic curve' and 'Diffie-Hellman groups'.

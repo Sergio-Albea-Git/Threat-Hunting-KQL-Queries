@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566.002 | Phishing: Spearphishing Link |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **[IA] - Threat Intelligence Feed Evaluation based on URL IOCs**
 
 | Technique ID | Title    |

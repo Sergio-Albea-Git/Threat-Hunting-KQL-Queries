@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1190 | Exploit Public-Facing Application |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect WordPress plugins from HTTP requests**
 
 One of the ongoing threats that I feel we face daily is the use of multiple plugins and add-ons across various sites from devices so I focus on identifying common platforms where users might connect and utilize different features. I started with WordPress plugins to gather information and monitor user activity, particularly to stay informed about any connections to specific WordPress sites that employ unknown plugins.

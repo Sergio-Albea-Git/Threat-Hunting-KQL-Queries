@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1095 | Non-Application Layer Protocol |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Potential Threats or network anomalies related to ICMP Inbound Connections**
 
 **Description**: Digging through the network logs and checking out data related to the ICMP protocol, which is often used by devices like routers to send error messages and operational info. It also handles stuff like Ping, Traceroute, and more.

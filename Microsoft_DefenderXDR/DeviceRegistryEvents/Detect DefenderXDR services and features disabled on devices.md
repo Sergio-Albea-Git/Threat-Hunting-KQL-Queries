@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1562.001 | Impair Defenses: Disable or Modify Tools |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect DefenderXDR services and features disabled on devices**
 
 **Description:** This KQL Query is oriented to detect devices with DefenderXDR and associated features disabled which can be identified by the reg. keys as:

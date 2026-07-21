@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1071.004 | Application Layer Protocol: DNS |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect unusual/suspicious RTT values based on DNS Answers**
 
 **Description:** Round Trip Time (RTT) analysis is a powerful value for threat hunting, revealing:

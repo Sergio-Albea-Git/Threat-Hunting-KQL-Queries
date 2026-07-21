@@ -1,3 +1,14 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566.002 | Phishing: Spearphishing Link |
+| T1090.003 | Proxy: Multi-hop Proxy |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Malicious Senders hidden behind anonymous proxies**
 
 I had pending to have a deep view into the CloudAppEvents table and finally I had some time over the weekend to have a look around.

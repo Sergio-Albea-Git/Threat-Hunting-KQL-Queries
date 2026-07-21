@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1036 | Masquerading |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **[IC] - Catching Emojis into File Names**
 
 | Technique ID | Title    |

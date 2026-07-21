@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1070 | Indicator Removal |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect Attempts to modify Amcache.hve or SYSTEM files**
 
 **Description:**  Amcache.hve is a Windows registry file that logs details about executed programs, including file paths, hashes, timestamps, and metadata. It helps reconstruct what was run on a system—even if the original file is gone. 

@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566.001 | Phishing: Spearphishing Attachment |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **[IC] - Catching Emojis into Email Attachment Files names**
 
 | Technique ID | Title    |

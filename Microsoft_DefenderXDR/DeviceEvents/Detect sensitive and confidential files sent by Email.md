@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1048 | Exfiltration Over Alternative Protocol |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect sensitive and confidential files sent by Email**
 
 To detect sensitive or confidential information sent by email from our users, I discovered that DefenderXDR is registering events when some user or services is reading files tagged or marked as sensitive. Basically, it has a "SensitiveFileRead" ActionType in the DeviceFileEvents table which indicates that a process on the monitored device has accessed a file classified as sensitive. This could include files with personally identifiable information (PII), intellectual property, or other data deemed sensitive based on the organization’s data protection policies or Microsoft’s predefined rules.

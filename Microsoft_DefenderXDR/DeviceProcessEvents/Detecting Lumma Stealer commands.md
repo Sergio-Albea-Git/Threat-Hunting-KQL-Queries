@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1218.005 | System Binary Proxy Execution: Mshta |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detecting Lumma Stealer commands**
 
 One of the techniques used to distribute the Lumma Stealer malware is via command lines using the native Windows application mshta which is an HTML tool for executing scripts. This KQL Query helps to identify commands that use the aforementioned application and also those that use the

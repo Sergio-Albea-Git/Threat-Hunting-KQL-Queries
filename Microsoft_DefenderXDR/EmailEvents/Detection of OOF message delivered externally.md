@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1589 | Gather Victim Identity Information |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detection of OOF message delivered externally**
 
  The following query is oriented to increase awareness about the content of OOF auto-reply messages, which often contain sensitive information such as:

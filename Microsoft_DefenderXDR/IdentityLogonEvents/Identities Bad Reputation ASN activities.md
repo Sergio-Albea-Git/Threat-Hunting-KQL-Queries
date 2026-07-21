@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1078 | Valid Accounts |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Identities Bad Reputation ASN activities**
 
 **Description**: This new query generates additional information using ASN/CIDR info from 'Firewall IP Lists @ Gyp the Cat dot Com' site (which takes data provided by other services and formats them) combined with a 'Bad ASN Rate/Reputation' source from the well-known source SpamHaus. As a result, it will show if some user sign-in attempt was trigger from a SenderIP address related to the mentioned ASN's and it can be filtered to just show the 'LoginSuccess' cases:

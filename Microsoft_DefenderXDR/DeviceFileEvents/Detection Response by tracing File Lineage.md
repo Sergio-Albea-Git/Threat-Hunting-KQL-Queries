@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1105 | Ingress Tool Transfer |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detection Response by tracing File Lineage**
 
 **Description:** This query groups all files by their originating file—such as a ZIP archive or from a Website—and includes all the files that were extracted from it. 

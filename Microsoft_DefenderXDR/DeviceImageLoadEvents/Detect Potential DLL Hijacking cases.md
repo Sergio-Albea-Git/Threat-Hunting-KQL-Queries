@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1574.001 | Hijack Execution Flow: DLL |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect Potential DLL Hijacking cases**
 
 Hijacklibs.net is a project that provides an curated list of DLL Hijacking candidates.As mentioned in their website: "DLL Hijacking is, in the broadest sense, tricking a legitimate/trusted application into loading an arbitrary DLL. Defensive measures such as AV and EDR solutions may not pick up on this activity out of the box, and allow-list applications such as AppLocker may not block the execution of the untrusted code. There are numerous examples of threat actors that have been observed to leverage DLL Hijacking to achieve their objectives."

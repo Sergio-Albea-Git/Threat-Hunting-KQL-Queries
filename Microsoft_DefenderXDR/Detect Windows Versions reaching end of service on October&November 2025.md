@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1082 | System Information Discovery |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect Windows Versions reaching end of service on October&November 2025**
 
 This query helps you quickly see the number of affected devices or get a detailed list of machines still running versions that are approaching end of support:

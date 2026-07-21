@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1491.001 | Defacement: Internal Defacement |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect suspicious actions to change Desktop Background**
 
 One of the key behaviors often observed during ransomware attacks includes altering the desktop background. These actions are designed to ensure that all users on the infected machine are made aware of the compromise.

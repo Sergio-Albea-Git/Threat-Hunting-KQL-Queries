@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1071.004 | Application Layer Protocol: DNS |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect Malicious URL answers by DNS queries**
 
 **Description:** The aim of this query is detect suspicious URL answers from DNS Queries, validating them with an external TI Feed and be alerted when there are some matches.

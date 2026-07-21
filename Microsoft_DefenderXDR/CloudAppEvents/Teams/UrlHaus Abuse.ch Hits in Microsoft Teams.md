@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566.003 | Phishing: Spearphishing via Service |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **UrlHaus Abuse.ch Hits in Microsoft Teams**
 
 This Query is oriented to identify Malicious URL sent via Microsoft Teams and detect possible hits.

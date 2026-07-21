@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566 | Phishing |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Threat Hunting based on IOCs extracted from Security News and Reports**
 
 **Description:** This query is oriented to identify IOCs observed into different Security websites and reports with the aim to identify quickly possible attacks reported from different sources. 

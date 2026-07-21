@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566 | Phishing |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Rating ISPs to detect potential malicious domains sending threats**
 
 **Description:** This latest query is oriented to email threats and allows you to rate ISPs to detect:

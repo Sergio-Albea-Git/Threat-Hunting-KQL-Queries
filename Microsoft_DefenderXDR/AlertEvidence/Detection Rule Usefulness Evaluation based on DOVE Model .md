@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| — | Operational / enrichment query (no single ATT&CK technique) |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detection Rule Usefulness Evaluation based on DOVE Model**
 
 **Description:** Creating multiple detections without reviewing them over time to ensure they’re still effective can easily turn them into pure noise, adding nothing but fatigue to our day-to-day incident analysis.

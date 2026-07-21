@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1070 | Indicator Removal |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **RDP Trace Removal Detection**
 
 By analyzing login sequences, screen tile caches, clipboard data, and session memory, analysts can now reconstruct full attacker activity during Remote Desktop sessions—even if the adversary tries to cover their tracks. 

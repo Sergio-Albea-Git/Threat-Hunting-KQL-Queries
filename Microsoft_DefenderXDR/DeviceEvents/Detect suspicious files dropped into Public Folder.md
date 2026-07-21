@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1074.001 | Data Staged: Local Data Staging |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect suspicious files dropped into Public Folder**
 
 One of the key behaviors often observed during ransomware attacks includes dropping ransom notes in the C:\Users\Public folder. These actions are designed to ensure that all users on the infected machine are made aware of the compromise.

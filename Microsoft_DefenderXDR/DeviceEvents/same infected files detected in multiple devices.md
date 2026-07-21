@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1204.002 | User Execution: Malicious File |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Find devices where multiple files were executed and they were detected as infected**
 
 **Description:** This query helped me to identify devices where users are executing multiple infected files from the 

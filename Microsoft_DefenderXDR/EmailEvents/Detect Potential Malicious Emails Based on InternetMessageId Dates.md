@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566 | Phishing |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect Potential Malicious Emails Based on InternetMessageId Dates**
 
 #### MITRE ATT&CK Technique(s)

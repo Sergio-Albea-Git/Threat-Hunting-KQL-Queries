@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1598.003 | Phishing for Information: Spearphishing Link |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **User Information collected externally when a URL is clicked**
 
 Email campaigns using postmarkapp.com allows to collect information about the users that click on a URL formatted by this system. They can contains valid domains in the URL but at the begging , it will contains a text such as track.pstmrk.it which will back private information to the sender:

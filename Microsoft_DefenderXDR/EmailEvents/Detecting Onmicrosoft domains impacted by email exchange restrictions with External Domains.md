@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566 | Phishing |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detecting Onmicrosoft domains impacted by email exchange restrictions with External Domains(June 2026)**
 
  Microsoft has announced new restrictions on email sending for organizations that use the default onmicrosoft domains.

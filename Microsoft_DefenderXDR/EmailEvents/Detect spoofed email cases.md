@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1656 | Impersonation |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detection of spoofed Emails**
 
 It has been a long journey to create a query that shows a high percentage of true positives regarding spoofed emails, but finally, I am proud of the results achieved!

@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1176 | Browser Extensions |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Classifying Browser Extension by Type and risk severity**
 
 This query is oriented to identify and classify browser extensions by group and risk severity based on a well-known list of browser extension.

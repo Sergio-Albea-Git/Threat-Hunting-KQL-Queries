@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1021 | Remote Services |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **[LM] - Internal Threat Hunting over Routers Devices**
 
 #### MITRE ATT&CK Technique(s)

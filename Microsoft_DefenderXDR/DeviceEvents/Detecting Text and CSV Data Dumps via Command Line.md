@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1005 | Data from Local System |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detecting Text and CSV Data Dumps via Command Line**
 
 This KQL Query detects when a device exports data to commonly used file formats like .csv or .txt.

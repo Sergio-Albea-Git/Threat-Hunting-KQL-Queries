@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566.003 | Phishing: Spearphishing via Service |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Monitoring M.Teams activities such as shared URLs, OneToOne chats and Domains participating into meetings**
 
 New day, new KQL query, this time oriented to identify Microsoft Teams activities such as:

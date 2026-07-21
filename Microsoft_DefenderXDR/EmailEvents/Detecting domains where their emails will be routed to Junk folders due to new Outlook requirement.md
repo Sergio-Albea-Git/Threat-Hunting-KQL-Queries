@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1566.001 | Phishing: Spearphishing Attachment |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detecting domains where their emails will be routed to Junk folders due to new Outlook requirement**
 
 Microsoft has reported that After May 5th, 2025, Outlook will begin routing messages from high volume non‐compliant domains to the Junk folder, giving senders an opportunity to address any outstanding issues.

@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| — | Operational / enrichment query (no single ATT&CK technique) |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Non-supported Agent version required for the Contain User action by Attack Disruption**
 
 **Description:** The following query checks if the devices have the minimum sense agent version(v10.8470) required for the Contain User action triggered by Microsoft DefenderXDR Attack disruption.

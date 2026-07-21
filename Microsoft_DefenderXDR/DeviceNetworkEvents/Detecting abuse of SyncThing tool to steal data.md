@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1567 | Exfiltration Over Web Service |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detecting abuse of SyncThing tool to steal data**
 
 #### MITRE ATT&CK Technique(s)

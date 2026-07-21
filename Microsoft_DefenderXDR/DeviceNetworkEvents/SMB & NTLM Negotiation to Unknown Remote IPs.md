@@ -1,3 +1,14 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1021.002 | Remote Services: SMB/Windows Admin Shares |
+| T1557.001 | Adversary-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **SMB & NTLM Negotiation to Unknown Remote IPs**
 
 **Description**: NetworkSignatureInspected just means the network sensor saw and matched a signature (it inspected the packet) — it doesn’t mean the flow was blocked. That’s the problem.

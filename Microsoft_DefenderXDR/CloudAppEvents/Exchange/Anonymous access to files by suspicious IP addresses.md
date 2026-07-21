@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1213.002 | Data from Information Repositories: SharePoint |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Anonymous access to files by suspicious IP addresses**
 
 This new query review connections using an anonymous proxy and having activities with OneDrive/Sharepoint files.

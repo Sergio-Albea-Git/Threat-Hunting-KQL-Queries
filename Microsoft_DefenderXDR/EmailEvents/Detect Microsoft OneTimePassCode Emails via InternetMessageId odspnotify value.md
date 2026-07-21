@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1621 | Multi-Factor Authentication Request Generation |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect Microsoft OneTimePassCode Emails via InternetMessageId odspnotify value**
 
 #### MITRE ATT&CK Technique(s)

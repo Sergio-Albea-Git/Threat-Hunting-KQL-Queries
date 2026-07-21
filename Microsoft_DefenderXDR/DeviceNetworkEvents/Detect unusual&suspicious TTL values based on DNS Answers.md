@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1071.004 | Application Layer Protocol: DNS |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect unusual/suspicious TTL values based on DNS Answers**
 
 **Description:** Time to live (TTL) values in DNS responses provide valuable threat-hunting insights, including:

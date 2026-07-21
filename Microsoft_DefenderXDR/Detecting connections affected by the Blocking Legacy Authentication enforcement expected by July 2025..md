@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1078.004 | Valid Accounts: Cloud Accounts |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detecting connections affected by the Blocking Legacy Authentication enforcement expected by July 2025**
 
 Beginning in July, access to services like SharePoint, OneDrive, and Office files using outdated authentication methods—such as RPS and FPRPC—will be blocked, with full implementation expected by August. This change is part of Microsoft’s broader strategy under the Secure Future Initiative (SFI), which promotes a “Secure by Default” approach to help organizations maintain a strong baseline of protection.

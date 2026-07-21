@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1189 | Drive-by Compromise |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **IOCs for SmartApeSG fake browser update leads to NetSupport RAT and StealC**
 
 Based on the post below posted by Palo Alto Networks Unit 42, I created a quick KQL query to detect potential matches with some of the IOCs related to distribution of hashtag#NetSupportRAT and hashtag#StealC malware.

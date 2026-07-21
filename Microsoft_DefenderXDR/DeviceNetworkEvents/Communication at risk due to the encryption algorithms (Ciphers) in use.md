@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1573 | Encrypted Channel |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Communication at risk due to the encryption algorithms (Ciphers) in use**
 
 **Description**: This query is using the DeviceNetworkEvents table to filter  by connections where there are encryption algorithms used.

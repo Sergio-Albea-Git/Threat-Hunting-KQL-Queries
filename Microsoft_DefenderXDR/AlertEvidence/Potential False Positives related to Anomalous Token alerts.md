@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1550.001 | Use Alternate Authentication Material: Application Access Token |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detecting Potential False Positives related to 'Anomalous Token' alerts**
 
 **Description:** We are on vacation period so is more than normal that our users are connected from different/unusual countries and the new locations trigger new tickets. However, the time to verify every alert to ensure that there is not malicious or suspicious action behind, is time consuming. 

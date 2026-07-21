@@ -1,3 +1,13 @@
+**MITRE ATT&CK Technique(s)**
+
+| Technique ID | Title |
+| --- | --- |
+| T1595 | Active Scanning |
+
+**Author:** Sergio Albea (05/06/2026)
+
+---
+
 **Detect External Sources scanning my exposed devices.md**
 
 **Description:**  Detecting ExternalSource IP's that are scanning my exposed devices which helps me to identify if some IP's is triggering scans multiple times or in multiple devices.
