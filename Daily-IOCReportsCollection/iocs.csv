@@ -12,6 +12,7 @@ domain,api.betflixfree.net,https://cybersecuritynews.com/lurking-lizard-uses-fak
 domain,api.ipify.org,https://cybersecuritynews.com/hackers-use-googleerrorreport-scheduled-task-for-persistence,Hackers Use GoogleErrorReport Scheduled Task for Persistence in Dropping Elephant Campaign,2026-06-23T21:13:08.000Z,2026-06-23T22:50:15.620Z
 domain,api.isharkvpn.com,https://cybersecuritynews.com/lurking-lizard-uses-fake-7-zip-installers,Lurking Lizard Uses Fake 7-Zip Installers to Turn Victim Devices Into Proxy Nodes,2026-07-08T19:22:37.000Z,2026-07-08T20:07:33.488Z
 domain,api.mapbox.com,https://cybersecuritynews.com/hackers-use-mapbox-dead-drop-c2,Hackers Use Mapbox Dead-Drop C2 and Python RAT to Target Vulnerability Researchers,2026-07-02T13:16:49.000Z,2026-07-02T14:56:50.046Z
+domain,api.proxyscrape.com,https://cybersecuritynews.com/nullzereptool-uses-telegram,New NULLZEREPTOOL Uses Telegram to Launch 20 DDoS Methods With Rotating Proxies,2026-07-22T12:03:33.000Z,2026-07-22T13:06:44.269Z
 domain,api.snaptik.io,https://cybersecuritynews.com/lurking-lizard-uses-fake-7-zip-installers,Lurking Lizard Uses Fake 7-Zip Installers to Turn Victim Devices Into Proxy Nodes,2026-07-08T19:22:37.000Z,2026-07-08T20:07:33.488Z
 domain,api.wirevpn.app,https://cybersecuritynews.com/lurking-lizard-uses-fake-7-zip-installers,Lurking Lizard Uses Fake 7-Zip Installers to Turn Victim Devices Into Proxy Nodes,2026-07-08T19:22:37.000Z,2026-07-08T20:07:33.488Z
 domain,api.wirevpn.io,https://cybersecuritynews.com/lurking-lizard-uses-fake-7-zip-installers,Lurking Lizard Uses Fake 7-Zip Installers to Turn Victim Devices Into Proxy Nodes,2026-07-08T19:22:37.000Z,2026-07-08T20:07:33.488Z
@@ -21,7 +22,6 @@ domain,aws-central.us-west-login.com,https://cybersecuritynews.com/aws-aitm-phis
 domain,aws.us-east-prod.com,https://cybersecuritynews.com/aws-aitm-phishing-kit-steals-console-credentials,AWS AiTM Phishing Kit Steals Console Credentials and MFA Codes in Real Time,2026-06-25T12:59:06.000Z,2026-06-25T18:35:57.483Z
 domain,aws.us-west-login.com,https://cybersecuritynews.com/aws-aitm-phishing-kit-steals-console-credentials,AWS AiTM Phishing Kit Steals Console Credentials and MFA Codes in Real Time,2026-06-25T12:59:06.000Z,2026-06-25T18:35:57.483Z
 domain,baccarat.com.au,https://cybersecuritynews.com/lastpass-customer-data-klue,LastPass Customer Data Exposed in Klue supply chain Attack,2026-06-23T14:15:52.000Z,2026-06-23T15:41:17.433Z
-domain,baoyuw2s.s3.ap-southeast-1.amazonaws.com,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 domain,basecon.com.ua,https://cybersecuritynews.com/stockstay-backdoor-uses-malicious-rdp-files,STOCKSTAY Backdoor Uses Malicious RDP Files and WinRAR Exploit to Target Ukraine,2026-07-07T14:36:49.000Z,2026-07-07T16:07:06.078Z
 domain,bin.visitbenin.org,https://cybersecuritynews.com/lurking-lizard-uses-fake-7-zip-installers,Lurking Lizard Uses Fake 7-Zip Installers to Turn Victim Devices Into Proxy Nodes,2026-07-08T19:22:37.000Z,2026-07-08T20:07:33.488Z
 domain,c.windowns-cdn.com,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-08T15:52:48.419Z
@@ -63,7 +63,6 @@ domain,high.cpu.co.ua,https://cybersecuritynews.com/new-tuxbot-v3-iot-botnet-use
 domain,house.com.au,https://cybersecuritynews.com/lastpass-customer-data-klue,LastPass Customer Data Exposed in Klue supply chain Attack,2026-06-23T14:15:52.000Z,2026-06-23T15:41:17.433Z
 domain,install.app-distribution.net,https://cybersecuritynews.com/openclaw-skill-marketplace-exposes-ai-agents,OpenClaw Skill Marketplace Exposes AI Agents to Supply Chain Malware and Financial Fraud,2026-06-25T08:39:03.000Z,2026-06-25T09:56:25.250Z
 domain,inventory-card-thumbzilla-ip.trycloudflare.com,https://cybersecuritynews.com/asyncrat-campaign-abuses-trycloudflare-tunnels,AsyncRAT Campaign Abuses TryCloudflare Tunnels and Python Scripts for Malware Delivery,2026-07-02T17:48:17.000Z,2026-07-02T19:02:15.516Z
-domain,invoice.msopsa.top,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 domain,io.ary2.com,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 domain,joycedoula.com.br,https://cybersecuritynews.com/clickfix-campaign-delivers-telepuz,ClickFix Campaign Delivers Modular TELEPUZ Malware With 36 Remote Commands,2026-07-20T14:20:34.000Z,2026-07-20T19:15:38.773Z
 domain,ldb.rightwidth.dev,https://cybersecuritynews.com/north-korean-hackers-ottercookie-malware,North Korean Hackers Hide OTTERCOOKIE Malware in SVG Images to Backdoor Developers,2026-07-20T06:31:20.000Z,2026-07-20T08:27:29.999Z
@@ -80,6 +79,7 @@ domain,mercy-synopsis-notify-motels.trycloudflare.com,https://cybersecuritynews.
 domain,models.litellm.cloud,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools,FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks,2026-07-03T12:24:04.000Z,2026-07-03T17:01:42.480Z
 domain,monteviral2026.duckdns.org,https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page,ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers,2026-07-08T21:23:03.000Z,2026-07-08T21:46:26.616Z
 domain,nano.upscale-kolo.com,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
+domain,newtonsoftt.json.net,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
 domain,newtuxdev.sevielw.digikalas.online,https://cybersecuritynews.com/new-tuxbot-v3-iot-botnet-uses-llm-generated-code,New TuxBot v3 IoT Botnet Uses LLM-Generated Code to Hijack Devices and Launch DDoS Attacks,2026-07-16T08:29:11.000Z,2026-07-16T09:37:07.380Z
 domain,opa.tlsd.shop,https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-2-exploitation,Hackers Can Go From CitrixBleed 2 Exploitation to Ransomware in Under an Hour,2026-07-10T12:49:23.000Z,2026-07-10T16:01:13.904Z
 domain,openclawcli.vercel.app,https://cybersecuritynews.com/openclaw-skill-marketplace-exposes-ai-agents,OpenClaw Skill Marketplace Exposes AI Agents to Supply Chain Malware and Financial Fraud,2026-06-25T08:39:03.000Z,2026-06-25T09:56:25.250Z
@@ -90,10 +90,12 @@ domain,personal-store.netlify.app,https://cybersecuritynews.com/apt42-uses-ai-as
 domain,php.authorized-logins.net,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
 domain,play.monzo.com,https://cybersecuritynews.com/scammers-impersonate-trusted-brands,Scammers Impersonate Trusted Brands in Gambling Ads to Drive Casino Traffic,2026-07-03T14:00:10.000Z,2026-07-03T17:01:42.480Z
 domain,pool.hasvault.pro,https://cybersecuritynews.com/hackers-turning-ai-gateways-as-attack,Hackers are Turning AI Gateways as Attack Surfaces to Compromise Enterprise Networks,2026-07-10T11:56:18.000Z,2026-07-10T16:01:13.904Z
+domain,pool.ntp.org,https://cybersecuritynews.com/nullzereptool-uses-telegram,New NULLZEREPTOOL Uses Telegram to Launch 20 DDoS Methods With Rotating Proxies,2026-07-22T12:03:33.000Z,2026-07-22T13:06:44.269Z
 domain,prodoc.ap.gov.br,https://cybersecuritynews.com/government-websites-deliver-malware,Hackers Hijack 20+ Government Websites to Deliver Malware Through Trusted Links,2026-07-21T17:11:36.000Z,2026-07-21T18:52:25.479Z
 domain,progressive936.onmicrosoft.com,https://cybersecuritynews.com/hackers-leverage-microsoft-teams-call,Hackers Leverage Microsoft Teams Call to Install RMM Tools and Deploy EtherRAT,2026-07-07T10:21:41.000Z,2026-07-07T13:02:54.102Z
 domain,projects-shared.netlify.app,https://cybersecuritynews.com/apt42-uses-ai-assisted-phishing-and-tamecat-malware,APT42 Uses AI-Assisted Phishing and TAMECAT Malware to Target Government and Defense Officials,2026-07-21T13:49:23.000Z,2026-07-21T15:24:13.035Z
 domain,protocolo.sorocaba.sp.gov.br,https://cybersecuritynews.com/government-websites-deliver-malware,Hackers Hijack 20+ Government Websites to Deliver Malware Through Trusted Links,2026-07-21T17:11:36.000Z,2026-07-21T18:52:25.479Z
+domain,proxylist.geonode.com,https://cybersecuritynews.com/nullzereptool-uses-telegram,New NULLZEREPTOOL Uses Telegram to Launch 20 DDoS Methods With Rotating Proxies,2026-07-22T12:03:33.000Z,2026-07-22T13:06:44.269Z
 domain,qygg.efficientplatforms.de,https://cybersecuritynews.com/hackers-abuse-compromised-m365-accounts,Hackers Abuse Compromised M365 Accounts to Scale CodeStorm Phishing Operations,2026-06-23T10:32:00.000Z,2026-06-23T15:41:17.433Z
 domain,r.manage-server.xyz,https://cybersecuritynews.com/asyncrat-campaign-uses-dll-sideloading,AsyncRAT Campaign Uses DLL Sideloading and ScreenConnect for Stealthy Remote Access,2026-07-02T18:10:41.000Z,2026-07-02T19:02:15.516Z
 domain,recv.hackmoltrepeat.com,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools,FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks,2026-07-03T12:24:04.000Z,2026-07-03T17:01:42.480Z
@@ -107,11 +109,9 @@ domain,robinskitchen.com.au,https://cybersecuritynews.com/lastpass-customer-data
 domain,router.bittorrent.com,https://cybersecuritynews.com/asyncapi-npm-packages-with-2m-weekly-downloads,AsyncAPI npm Packages With 2M Weekly Downloads Compromised via GitHub Actions,2026-07-14T15:30:07.000Z,2026-07-14T18:44:38.321Z
 domain,s3.us-east-1.amazonaws.com,https://cybersecuritynews.com/hackers-abuse-compromised-m365-accounts,Hackers Abuse Compromised M365 Accounts to Scale CodeStorm Phishing Operations,2026-06-23T10:32:00.000Z,2026-06-23T15:41:17.433Z
 domain,scan.aquasecurtiy.org,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools,FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks,2026-07-03T12:24:04.000Z,2026-07-03T17:01:42.480Z
-domain,sdcwww.oss-ap-southeast-1.aliyuncs.com,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 domain,sendgrid.us-west-prod.com,https://cybersecuritynews.com/aws-aitm-phishing-kit-steals-console-credentials,AWS AiTM Phishing Kit Steals Console Credentials and MFA Codes in Real Time,2026-06-25T12:59:06.000Z,2026-06-25T18:35:57.483Z
 domain,sendgrid.uslogin-prodsg.com,https://cybersecuritynews.com/aws-aitm-phishing-kit-steals-console-credentials,AWS AiTM Phishing Kit Steals Console Credentials and MFA Codes in Real Time,2026-06-25T12:59:06.000Z,2026-06-25T18:35:57.483Z
 domain,shengan-light.com.tw,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
-domain,sjdkjj23.s3.ap-southeast-1.amazonaws.com,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 domain,skt.3n7wj.com,https://cybersecuritynews.com/redhook-android-rat-abuses-adb-wireless-debugging,RedHook Android RAT Abuses ADB Wireless Debugging to Gain Shell-Level Access,2026-07-09T18:17:01.000Z,2026-07-09T21:06:07.795Z
 domain,sktv.3n7wj.com,https://cybersecuritynews.com/redhook-android-rat-abuses-adb-wireless-debugging,RedHook Android RAT Abuses ADB Wireless Debugging to Gain Shell-Level Access,2026-07-09T18:17:01.000Z,2026-07-09T21:06:07.795Z
 domain,spx.pamconj.com,https://cybersecuritynews.com/microsoft-365-phishing-panel-uses-oauth-device-code-flow,Microsoft 365 Phishing Panel Uses OAuth Device Code Flow to Capture Tokens and Persist Access,2026-07-02T17:53:31.000Z,2026-07-02T19:02:15.516Z
@@ -119,7 +119,6 @@ domain,sss.authorized-logins.net,https://cybersecuritynews.com/mistic-backdoor-b
 domain,sufficiently-points-est-minimize.trycloudflare.com,https://cybersecuritynews.com/asyncrat-campaign-abuses-trycloudflare-tunnels,AsyncRAT Campaign Abuses TryCloudflare Tunnels and Python Scripts for Malware Delivery,2026-07-02T17:48:17.000Z,2026-07-02T19:02:15.516Z
 domain,t.m-kosche.com,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools,FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks,2026-07-03T12:24:04.000Z,2026-07-03T17:01:42.480Z
 domain,tdtqy-oyaaa-aaaae-af2dq-cai.raw.icp0.io,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools,FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks,2026-07-03T12:24:04.000Z,2026-07-03T17:01:42.480Z
-domain,temu.baskwms.top,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 domain,tipidor-38534.portmap.host,https://cybersecuritynews.com/hackers-expanding-destiny-stealer-across-the-us-and-europe-is-your-organization-ready-to-defend,Destiny Stealer Is Expanding Across the US and Europe. Is Your Organization Ready?&nbsp;,2026-07-15T18:37:13.000Z,2026-07-15T18:42:16.980Z
 domain,update.update-fall.com,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
 domain,update.whtatsapp.net,https://cybersecuritynews.com/lurking-lizard-uses-fake-7-zip-installers,Lurking Lizard Uses Fake 7-Zip Installers to Turn Victim Devices Into Proxy Nodes,2026-07-08T19:22:37.000Z,2026-07-08T20:07:33.488Z
@@ -130,8 +129,6 @@ domain,wisp.breadarchive.dpdns.org,https://cybersecuritynews.com/150-npm-package
 domain,wool-basalt-clock.glitch.me,https://cybersecuritynews.com/russia-linked-turla-uses-compromised-infrastructure,Russia-Linked Turla Uses Compromised Infrastructure to Deploy STOCKSTAY in Ukraine Operations,2026-06-29T12:59:37.000Z,2026-06-29T18:32:37.326Z
 domain,www.drs.gov.ua,https://cybersecuritynews.com/stockstay-backdoor-uses-malicious-rdp-files,STOCKSTAY Backdoor Uses Malicious RDP Files and WinRAR Exploit to Target Ukraine,2026-07-07T14:36:49.000Z,2026-07-07T16:07:06.078Z
 domain,www.thesnapchatmodapk.com,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-06-29T12:17:47.010Z
-domain,xijkwm2.s3.ap-southeast-1.amazonaws.com,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
-domain,yifubafu.s3.ap-southeast-1.amazonaws.com,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 email,15010050@tutamail.com,https://www.ransomware.live/group/bitpaymer,Ransomware.live - bitpaymer,,2026-07-09T22:52:34.620Z
 email,2020host2021@tutanota.com,https://www.ransomware.live/group/snatch,Ransomware.live - snatch,,2026-07-09T22:52:34.620Z
 email,47266@airmail.cc,https://www.ransomware.live/group/wastedlocker,Ransomware.live - wastedlocker,,2026-07-09T22:52:34.620Z
@@ -310,6 +307,7 @@ filename,%temp%\winpatch\update.vbs,https://cybersecuritynews.com/windows-rat-us
 filename,%userprofile%\qhgqkhaadceize2uorub.zip,https://cybersecuritynews.com/new-giftedcrook-chain-abuses-winrar-ads,New GIFTEDCROOK Chain Abuses WinRAR ADS and Reflective Loading to Steal Browser Data,2026-06-26T12:43:11.000Z,2026-06-26T21:09:03.104Z
 filename,~/.cache/mesa/shadercache/glcache.bin,https://cybersecuritynews.com/miasma-turns-trusted-npm-packages-into-persistent-backdoors,Miasma Turns Trusted npm Packages Into Persistent Backdoors for Developer Machines,2026-07-14T15:11:46.000Z,2026-07-14T18:44:38.321Z
 filename,~/.config/systemd/user/nodejs/sync.js,https://cybersecuritynews.com/miasma-turns-trusted-npm-packages-into-persistent-backdoors,Miasma Turns Trusted npm Packages Into Persistent Backdoors for Developer Machines,2026-07-14T15:11:46.000Z,2026-07-14T18:44:38.321Z
+filename,0harmony.dll,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
 filename,1.exe,https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-2-exploitation,Hackers Can Go From CitrixBleed 2 Exploitation to Ransomware in Under an Hour,2026-07-10T12:49:23.000Z,2026-07-10T16:01:13.904Z
 filename,1.ps1,https://cybersecuritynews.com/bing-search-for-manageengine-opmanager,Bing Search for 'ManageEngine OpManager' Delivers Akira Ransomware,2026-06-30T12:56:24.000Z,2026-06-30T17:27:04.521Z
 filename,122_stage2_unpacked.bin,https://cybersecuritynews.com/ghostshell-malware-uses-mtls-implant-and-telegram-dead-drop,GhostShell Malware Uses mTLS Implant and Telegram Dead-Drop to Target Ukrainian Drone Operations,2026-06-24T14:31:59.000Z,2026-06-24T15:22:21.696Z
@@ -331,7 +329,6 @@ filename,advanced-ip-scanner.msi,https://cybersecuritynews.com/bing-search-for-m
 filename,aeff97fe.msi,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
 filename,agentaiawesomeskills2.0.zip,https://cybersecuritynews.com/agentbaiting-campaign-fake-ai-skills,AgentBaiting Campaign Uses 800 Fake AI Skills and MCP Servers to Deliver SmartLoader Malware,2026-07-21T12:25:00.000Z,2026-07-21T13:01:58.391Z
 filename,anydesk.exe,https://cybersecuritynews.com/goddamn-ransomware-rebrands-from-beast,GodDamn Ransomware Rebrands From Beast and Uses PoisonX Driver to Disable Defenses,2026-07-09T19:18:57.000Z,2026-07-09T21:06:07.795Z
-filename,applicationform1.vbs,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 filename,apps_libwallets_v1.3.rar,https://cybersecuritynews.com/russia-linked-turla-uses-compromised-infrastructure,Russia-Linked Turla Uses Compromised Infrastructure to Deploy STOCKSTAY in Ukraine Operations,2026-06-29T12:59:37.000Z,2026-06-29T18:32:37.326Z
 filename,appwiz.cpl,https://cybersecuritynews.com/hackers-use-googleerrorreport-scheduled-task-for-persistence,Hackers Use GoogleErrorReport Scheduled Task for Persistence in Dropping Elephant Campaign,2026-06-23T21:13:08.000Z,2026-06-23T22:50:15.620Z
 filename,as.exe,https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-2-exploitation,Hackers Can Go From CitrixBleed 2 Exploitation to Ransomware in Under an Hour,2026-07-10T12:49:23.000Z,2026-07-10T16:01:13.904Z
@@ -360,7 +357,6 @@ filename,clientid.sys,https://cybersecuritynews.com/goodpersonrat-uses-fake-lets
 filename,clientmngr.exe,https://cybersecuritynews.com/russia-linked-turla-uses-compromised-infrastructure,Russia-Linked Turla Uses Compromised Infrastructure to Deploy STOCKSTAY in Ukraine Operations,2026-06-29T12:59:37.000Z,2026-06-29T18:32:37.326Z
 filename,clientmngr2.exe,https://cybersecuritynews.com/russia-linked-turla-uses-compromised-infrastructure,Russia-Linked Turla Uses Compromised Infrastructure to Deploy STOCKSTAY in Ukraine Operations,2026-06-29T12:59:37.000Z,2026-06-29T18:32:37.326Z
 filename,common_offline_utility_itr-1_to_4_ay2026-27.zip,https://cybersecuritynews.com/fake-indian-itr-notice-delivers-dual-rat-malware,Fake Indian ITR Notice Delivers Dual RAT Malware Through Six-Stage Infection Chain,2026-07-08T17:37:35.000Z,2026-07-08T18:04:48.173Z
-filename,confirmation.vbs,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 filename,consent.exe,https://cybersecuritynews.com/bing-search-for-manageengine-opmanager,Bing Search for 'ManageEngine OpManager' Delivers Akira Ransomware,2026-06-30T12:56:24.000Z,2026-06-30T17:27:04.521Z
 filename,converterddsnet.exe,https://cybersecuritynews.com/russia-linked-turla-uses-compromised-infrastructure,Russia-Linked Turla Uses Compromised Infrastructure to Deploy STOCKSTAY in Ukraine Operations,2026-06-29T12:59:37.000Z,2026-06-29T18:32:37.326Z
 filename,copia.msi,https://cybersecuritynews.com/russia-linked-turla-uses-compromised-infrastructure,Russia-Linked Turla Uses Compromised Infrastructure to Deploy STOCKSTAY in Ukraine Operations,2026-06-29T12:59:37.000Z,2026-06-29T18:32:37.326Z
@@ -404,7 +400,6 @@ filename,fattura-26189991026.pdf,https://cybersecuritynews.com/malicious-chrome-
 filename,fattura-2819889242.pfd.js,https://cybersecuritynews.com/malicious-chrome-extension-uses-native-messaging-host,Malicious Chrome Extension Uses Native Messaging Host to Execute PowerShell Commands,2026-06-25T09:51:56.000Z,2026-06-25T09:56:25.250Z
 filename,fatura-btgpactual-22568.bat,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-08T15:52:48.419Z
 filename,fg_sniffer_windows_amd64.exe,https://cybersecuritynews.com/fortigatesniffer-tool-fortibleed,Hackers Using FortigateSniffer Tool That Turns Compromised Firewalls Into Password Collectors,2026-06-23T04:02:46.000Z,2026-06-23T15:41:17.433Z
-filename,financialreportss.vbs,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 filename,fj5nmesp9eukrun.ps1,https://cybersecuritynews.com/asyncrat-campaign-uses-dll-sideloading,AsyncRAT Campaign Uses DLL Sideloading and ScreenConnect for Stealthy Remote Access,2026-07-02T18:10:41.000Z,2026-07-02T19:02:15.516Z
 filename,fondue.exe,https://cybersecuritynews.com/hackers-use-googleerrorreport-scheduled-task-for-persistence,Hackers Use GoogleErrorReport Scheduled Task for Persistence in Dropping Elephant Campaign,2026-06-23T21:13:08.000Z,2026-06-23T22:50:15.620Z
 filename,for-security-mcp-3.3.zip,https://cybersecuritynews.com/agentbaiting-campaign-fake-ai-skills,AgentBaiting Campaign Uses 800 Fake AI Skills and MCP Servers to Deliver SmartLoader Malware,2026-07-21T12:25:00.000Z,2026-07-21T13:01:58.391Z
@@ -435,7 +430,6 @@ filename,ledger.zip,https://cybersecuritynews.com/hackers-crack-telegram-2fa,Hac
 filename,ledgerwallet.zip,https://cybersecuritynews.com/hackers-crack-telegram-2fa,Hackers Don’t Crack Telegram 2FA—They Copy Your Already Logged-In Session,2026-07-16T12:10:21.000Z,2026-07-16T13:04:40.144Z
 filename,legal.exe,https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-2-exploitation,Hackers Can Go From CitrixBleed 2 Exploitation to Ransomware in Under an Hour,2026-07-10T12:49:23.000Z,2026-07-10T16:01:13.904Z
 filename,libsvcs.dll,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
-filename,list.vbs,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 filename,load.py,https://cybersecuritynews.com/asyncrat-campaign-abuses-trycloudflare-tunnels,AsyncRAT Campaign Abuses TryCloudflare Tunnels and Python Scripts for Malware Delivery,2026-07-02T17:48:17.000Z,2026-07-02T19:02:15.516Z
 filename,locker.exe,https://cybersecuritynews.com/bing-search-for-manageengine-opmanager,Bing Search for 'ManageEngine OpManager' Delivers Akira Ransomware,2026-06-30T12:56:24.000Z,2026-06-30T17:27:04.521Z
 filename,lpprem64.dll,https://cybersecuritynews.com/hackers-telegram-bots-secret-backdoor,Hackers Turn Telegram Bots Into Secret Backdoor Controllers for Government Systems,2026-07-21T05:53:05.000Z,2026-07-21T13:01:58.391Z
@@ -485,6 +479,8 @@ filename,n.exe,https://cybersecuritynews.com/bing-search-for-manageengine-opmana
 filename,netpass64.exe,https://cybersecuritynews.com/goddamn-ransomware-rebrands-from-beast,GodDamn Ransomware Rebrands From Beast and Uses PoisonX Driver to Disable Defenses,2026-07-09T19:18:57.000Z,2026-07-09T21:06:07.795Z
 filename,netscan.exe,https://cybersecuritynews.com/goddamn-ransomware-rebrands-from-beast,GodDamn Ransomware Rebrands From Beast and Uses PoisonX Driver to Disable Defenses,2026-07-09T19:18:57.000Z,2026-07-09T21:06:07.795Z
 filename,new.bin,https://cybersecuritynews.com/malware-used-by-hackers-last-week,Top 10 Malware’s used by Hackers Last Week to Launch Cyberattacks,2026-07-21T13:22:54.000Z,2026-07-21T15:24:13.035Z
+filename,newtonsoft.json.net.dll,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
+filename,newtonsoft.values.net.dll,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
 filename,next-ecommerce-private-main.zip,https://cybersecuritynews.com/north-korean-hackers-ottercookie-malware,North Korean Hackers Hide OTTERCOOKIE Malware in SVG Images to Backdoor Developers,2026-07-20T06:31:20.000Z,2026-07-20T08:27:29.999Z
 filename,niple.docx.odp.pdf.sys,https://cybersecuritynews.com/hackers-abuse-blogspot-and-powershell-download-cradles,Hackers Abuse Blogspot and PowerShell Download Cradles to Deploy PureLog Steale,2026-07-03T12:08:12.000Z,2026-07-03T17:01:42.480Z
 filename,node.js,https://cybersecuritynews.com/simplehelp-authentication-bypass-vulnerability-exploited,SimpleHelp Authentication Bypass Vulnerability Exploited in the Wild to Deploy TaskWeaver Loader,2026-06-30T11:00:52.000Z,2026-06-30T11:59:46.516Z
@@ -494,7 +490,6 @@ filename,nss3.dll,https://cybersecuritynews.com/malware-used-by-hackers-last-wee
 filename,ntds.zip,https://cybersecuritynews.com/hackers-exploit-unpatched-sharepoint-servers,Hackers Exploit Unpatched SharePoint Servers to Deploy Ransomware and Custom Backdoors,2026-06-24T11:20:44.000Z,2026-06-24T12:35:54.945Z
 filename,ntdsutil.exe,https://cybersecuritynews.com/hackers-exploit-weak-credentials-and-internet-facing-plcs,Hackers Exploit Weak Credentials and Internet-Facing PLCs to Breach Water Utilities,2026-06-26T13:27:05.000Z,2026-06-26T21:09:03.104Z
 filename,nvdahelperremote.dll,https://cybersecuritynews.com/fake-indian-itr-notice-delivers-dual-rat-malware,Fake Indian ITR Notice Delivers Dual RAT Malware Through Six-Stage Infection Chain,2026-07-08T17:37:35.000Z,2026-07-08T18:04:48.173Z
-filename,o.vbs,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 filename,obs-studio-windows-x64.zip,https://cybersecuritynews.com/asyncrat-campaign-uses-dll-sideloading,AsyncRAT Campaign Uses DLL Sideloading and ScreenConnect for Stealthy Remote Access,2026-07-02T18:10:41.000Z,2026-07-02T19:02:15.516Z
 filename,ode.dll,https://cybersecuritynews.com/cavern-manticore-abuses-sysaid-rmm-and-windirstat-dll-sideloading,Cavern Manticore Abuses SysAid RMM and WinDirStat DLL Sideloading to Deploy C2 Framework,2026-07-07T08:48:01.000Z,2026-07-07T13:02:54.102Z
 filename,operapassview.exe,https://cybersecuritynews.com/goddamn-ransomware-rebrands-from-beast,GodDamn Ransomware Rebrands From Beast and Uses PoisonX Driver to Disable Defenses,2026-07-09T19:18:57.000Z,2026-07-09T21:06:07.795Z
@@ -522,7 +517,6 @@ filename,regsvcs.exe,https://cybersecuritynews.com/malware-used-by-hackers-last-
 filename,remark.sys,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-09T11:35:54.410Z
 filename,replace.exe,https://cybersecuritynews.com/hackers-exploit-unpatched-sharepoint-servers,Hackers Exploit Unpatched SharePoint Servers to Deploy Ransomware and Custom Backdoors,2026-06-24T11:20:44.000Z,2026-06-24T12:35:54.945Z
 filename,reportfinal.rlo.scr,https://cybersecuritynews.com/one-security-alert-exposed-a-genai-powered-malware-factory,"One Security Alert Exposed a GenAI-Powered Malware Factory Containing More Than 1,000 Attack Files",2026-07-21T08:57:15.000Z,2026-07-21T13:01:58.391Z
-filename,reports.vbs,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 filename,run.vbs,https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page,ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers,2026-07-08T21:23:03.000Z,2026-07-08T21:46:26.616Z
 filename,sc.msi,https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-2-exploitation,Hackers Can Go From CitrixBleed 2 Exploitation to Ransomware in Under an Hour,2026-07-10T12:49:23.000Z,2026-07-10T16:01:13.904Z
 filename,script.vbs,https://cybersecuritynews.com/asyncrat-campaign-uses-dll-sideloading,AsyncRAT Campaign Uses DLL Sideloading and ScreenConnect for Stealthy Remote Access,2026-07-02T18:10:41.000Z,2026-07-02T19:02:15.516Z
@@ -749,6 +743,7 @@ ip,184.94.215.147:53,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,185.10.68.127,https://cybersecuritynews.com/new-tuxbot-v3-iot-botnet-uses-llm-generated-code,New TuxBot v3 IoT Botnet Uses LLM-Generated Code to Hijack Devices and Launch DDoS Attacks,2026-07-16T08:29:11.000Z,2026-07-16T09:37:07.380Z
 ip,185.100.157.74,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-07-09T22:52:34.620Z
 ip,185.106.94.255,https://www.ransomware.live/group/weyhro,Ransomware.live - weyhro,,2026-07-09T22:52:34.620Z
+ip,185.126.237.64,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
 ip,185.163.193.251:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,185.182.193.21,https://cybersecuritynews.com/gigawiper-malware-attacking-windows-systems,GigaWiper Malware Attacking Windows Systems With Data Wipers and Fake Ransomware Notices,2026-07-10T08:55:26.000Z,2026-07-10T10:03:37.612Z
 ip,185.193.48.92:445,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -830,11 +825,6 @@ ip,20.15.5.3,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,H
 ip,20.18.3.1,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,20.9.9.2,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,202.182.102.5,https://cybersecuritynews.com/cl-sta-1062-hackers-use-tinyrct-backdoor,CL-STA-1062 Hackers Use TinyRCT Backdoor to Target Southeast Asian Governments,2026-06-26T08:55:01.000Z,2026-06-26T12:00:35.358Z
-ip,202.61.160.137,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
-ip,202.61.160.160,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
-ip,202.61.160.201,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
-ip,202.61.160.202,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
-ip,202.61.160.208,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 ip,203.161.43.187:53,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,203.161.43.195:444,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,204.13.164.118,https://cybersecuritynews.com/hackers-use-systembc-malware-to-hide-c2-traffic,Hackers Use SystemBC Malware to Hide C2 Traffic and Maintain Persistent Access,2026-06-30T12:37:58.000Z,2026-06-30T17:27:04.521Z
@@ -889,7 +879,6 @@ ip,38.132.122.213,https://www.ransomware.live/group/devman,Ransomware.live - dev
 ip,38.132.122.214,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-07-09T22:52:34.620Z
 ip,38.134.148.20,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-09T22:52:34.620Z
 ip,38.45.124.19,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-09T11:35:54.410Z
-ip,38.55.151.63,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 ip,38.91.114.219,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-09T11:35:54.410Z
 ip,4.239.95.1,https://cybersecuritynews.com/bing-search-for-manageengine-opmanager,Bing Search for 'ManageEngine OpManager' Delivers Akira Ransomware,2026-06-30T12:56:24.000Z,2026-06-30T17:27:04.521Z
 ip,40.69.42.241,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-09T22:52:34.620Z
@@ -1059,7 +1048,6 @@ md5,018d410685c743dedaad1dff81486dd7,https://www.ransomware.live/group/trigona,R
 md5,019b65ccaabcf519b65645284966db57,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-07-09T22:52:34.620Z
 md5,01feb8f50b5195328f27195b0e4d82da,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,0248bf2afb70642288646760bb25a38d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,02bb20455cc592a69c080abac770ce90,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,03ab9195dcbd96fbe4e11917c50b57b6,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,03b9887dee2c3c825b6a6c0df1d104ad,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,03eaabaf750bcf69d58f79098432f8a3,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
@@ -1067,7 +1055,6 @@ md5,0452d8379cae3490935f81a0dfea1a9e,https://www.ransomware.live/group/trigona,R
 md5,0544137574179494761d395005175510,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,054d432e231e8ee6e301675ef2bd598d,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-09T22:52:34.620Z
 md5,05627d1bddb7292bb45139244f46051f,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
-md5,05d188f071d097f5b6bd8138749b4b14,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,0627f034c42549e2130734b5f8dbf854,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,06ade3c98aa2432458f24966509bd9a9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,06b9331e6e2699a4382bd09ae85a515d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
@@ -1094,7 +1081,6 @@ md5,0a5f3fc92af7aa3e448ac7b84e495fc6,https://www.ransomware.live/group/anubis,Ra
 md5,0a6dd4eee2a0629d1da62f248a17ec80,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-07-09T22:52:34.620Z
 md5,0a75d6369662af48ce6789d6b313a9a5,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
 md5,0b1d2e7bd7f535e427aa80adbb6a95d6,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
-md5,0ba93109757776a44de9d8c88baa4963,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,0c0ece5515f5e2719f0e0a93e1f112dc,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
 md5,0c30fdc297c54753166d572ed04d1d6b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,0c5f94364ee042b8ab77e9ce959495bd,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
@@ -1175,7 +1161,6 @@ md5,19f3fabf03519cc60e89ceb950f0cdc2,https://www.ransomware.live/group/akira,Ran
 md5,19ff6488a259d750ec18902fe75a713b,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 md5,1a0a919dff09f63366f27f5e4c865d75,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-07-09T22:52:34.620Z
 md5,1a2e261b1ae3c96b6d418dae80ce62a3,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-07-09T22:52:34.620Z
-md5,1a3cc75466ffb1971482f7abf7aabc3f,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,1a4a4eb6dfc583c02c70bf83fc0e3cd1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,1a6ff95d098d1a37e1fc17b4987c9749,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,1a79b6d169aac719c9323bc3ee4a8361,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-07-09T22:52:34.620Z
@@ -1194,13 +1179,11 @@ md5,1bde76f3197123dcc2ecd0bfef567484,https://www.ransomware.live/group/qilin,Ran
 md5,1c2cab4230749bdf4defc751adbd885a,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,1c34c1860041aa479c14a9c5b332712c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,1c4176f57bbfa70829f0218e6f995fda,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,1c47c63e5ed25060d95359c57c77b107,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,1c4bea81c0da22badd9b7eab574c51cd,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 md5,1cbffddcb8e1e839737bbf6e50a80aaf,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 md5,1d3fba0d99d5452acbb8d326e8f4e800,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,1d5622cc9901830f76672bff670ff565,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,1d895cf4391b817e54fb9ec9d8e65f7e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,1d94fbe9cab21278cc3f104bea334d08,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,1da7262950658cbf6557d996658aecd6,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,1deebb8d874160bb510b61cb8d8de9a5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,1e19df21dba272cbf002e11c35cb024c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
@@ -1213,7 +1196,6 @@ md5,1f2e30361154ecc055bfe96e22bbef20,https://www.ransomware.live/group/trigona,R
 md5,1f7ef2536f59f92d01644f751de02f24,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,1fbaee13b6a905dc2e5c8467d77ad9af,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,2020979e080d7ac9c0403172573c7de8,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
-md5,20209b3a32769afc6a75694b8d8839dd,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,204e093df42647e3fe647ad3e2d6a89c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,2052591870714efa3df51a186bf57d75,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,205589629ead5d3c1d9e914b49c08589,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
@@ -1276,7 +1258,6 @@ md5,2bf6ad6878a73e2c5c0c0075bcf53dc5,https://www.ransomware.live/group/akira,Ran
 md5,2c05347bc5b09218850331071b34a4da,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,2c29f8ca69cd2cf27629edf0c77d7d71,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,2c31a750240788f924ef64a2fb4fdf3b,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
-md5,2c6f05f1f309d89b2236e6c8b59c88f9,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,2c83e59eea3e6890d31adc7c518e3702,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,2cda932f5a9dafb0a328d0f9788bd89c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,2d0973538cb4ae6347ad592e64cea59f,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
@@ -1298,7 +1279,6 @@ md5,30656c737338818bee8cc3591e3f3dcc,https://www.ransomware.live/group/lynx,Rans
 md5,3065f86823e429728a9adb21863414a2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,308f2db72b3668d8e56008914fedef06,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,30b0a6d84807399bf4ae0da1c9c7bade,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,31037a42ca048e06e69a78f55bc2eff5,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,3104efb23ea174ac5eda9f5fd0e8c077,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-07-09T22:52:34.620Z
 md5,3139c8e0d0dd9683ebfecdb2e4f1b6bb,https://www.ransomware.live/group/nitrogen,Ransomware.live - nitrogen,,2026-07-09T22:52:34.620Z
 md5,3158a3849ea2695d6ec5aea6512fd030,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
@@ -1348,7 +1328,6 @@ md5,3a736252d9a7788752c4775eadb11849,https://www.ransomware.live/group/akira,Ran
 md5,3ad44c2c507023cb2eb0d7014e73d612,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,3adcf5fca3f4fe23a9b73951e20d43bc,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 md5,3b10127e65fa3e215d21e0a2e7fd32be,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
-md5,3b1aba44dd3d9b6339b6f56e2f42034b,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,3b8cf25170846369215748ab0d865bef,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,3bb1c26086562c4c3a6cf59954faeb30,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,3c311cabe7de6a8c104f8f10541d392d,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-07-09T22:52:34.620Z
@@ -1368,7 +1347,6 @@ md5,3f63951399f8cd578e2a6faed2c9c0f0,https://www.ransomware.live/group/akira,Ran
 md5,3f8dbb3a8b881cba220c124323e92e6b,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
 md5,40126b1b3c6f86194fc554cdba3cb5d3,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-07-09T22:52:34.620Z
 md5,402c7184e416914a9797bb24f140a5b2,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
-md5,4044e4b6471c9de7b0a4ba37d9d9df9a,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,40b1586d1c247e0b62adcdda55eed596,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,41050b2b9f619cdd9916e3bdd5b9f2f9,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-07-09T22:52:34.620Z
 md5,4120a68cdf6f898d351a658133ef399a,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
@@ -1440,12 +1418,10 @@ md5,4eb1b66e419e0c9662ab5190acc66cfb,https://www.ransomware.live/group/akira,Ran
 md5,4eb6c2e3ff883a49b7709f97bfdf7079,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,4edc0efe1fd24f4f9ea234b83fcaeb6a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,4ef0160b3eb114a94aeedd0bb5716058,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-07-09T22:52:34.620Z
-md5,4f0593e8e0e8fac49429e9b45ebf7fa1,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,4f178cefbf3fc66baed13b3c4fa897d4,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-09T22:52:34.620Z
 md5,4f287c6c35f36203168b9d02ac8da88a,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,4fae00c0278abb3156d6e48c4af42b37,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,4fe99e5dc101170750d8ece6ea066155,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-07-09T22:52:34.620Z
-md5,5002eca748205d544618e3bd2dedc223,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,50363f811d630e8e3ceb84f6f3db066e,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-07-09T22:52:34.620Z
 md5,503f112e243519a1b9e0344499561908,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,50fee1710bafba430433991f7965e35f,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
@@ -1489,7 +1465,6 @@ md5,5b0b615f51621e8f354d9f571a627ff5,https://www.ransomware.live/group/raworld,R
 md5,5b28a0fc21ba079b380effb30e853132,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-07-09T22:52:34.620Z
 md5,5b49aa1d67d60d435c5430c3e50da081,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,5b4d60780f6b5bbb6cb0a28fee885422,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
-md5,5b6bbcc06cf08cc99e1afeda486d42fb,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,5bf3dfab3aac314adaa400a317987c82,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,5c023f04aa143f5976621009457abeaa,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,5c1ef3e67167dc9d4ad2af212f59fd4c,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
@@ -1525,8 +1500,6 @@ md5,629351f53efb7fb828eddf528d9b49aa,https://www.ransomware.live/group/akira,Ran
 md5,630e9ae8d128e8fa21147a89ebefd0e6,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,633dc3ef1f8d697a23b30da10f422215,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,6358d925c5393bf4f6347369c88a1280,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
-md5,6359e6236471cbe434d0ef4c42b7f879,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
-md5,63ac85195b73753333316a889cf5880f,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,643eca6a2b11a3391007c537114b4102,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,64433a8a138c62661da2ccf552483c33,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-07-09T22:52:34.620Z
 md5,64a590760fdbb84356544cc90ac3d50f,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
@@ -1537,8 +1510,6 @@ md5,65960a16c117030401992050ce836dfb,https://www.ransomware.live/group/akira,Ran
 md5,659dfc88879ddcf395356de0ccad0486,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,65c0c7c9fe6bc1d5296447aae6c6c14c,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-07-09T22:52:34.620Z
 md5,66004c532d292572494de9934fe3910b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,66442f2457eca8f47385b1fb2c6fcab8,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
-md5,66705384a7ad81d14c34fc6c054a0ecf,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,66cd0ea0fbcecd96016782a63753c335,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,670fe8faaede4e2e033311fb662d2a4a,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 md5,671fb7f86ab618565ee8dbc58e061dc4,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
@@ -1551,7 +1522,6 @@ md5,681db529e402467a4b0567c82a350fc0,https://cybersecuritynews.com/hackers-fake-
 md5,68635ad9d12f683071611bfd34c1ec34,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,6869f24aecd75e2144aba8dc03dc2d0f,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,68729b85aa01cd8c9f4ccd137ddde137,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,68c16c46f8afb9e00bbaba0207fb0a46,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,69434397fe9df4c7533a51db27e35c82,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,696a86a4c569590b0522664924db7c90,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,6ac329c65bc4e087880395da110cf96d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
@@ -1562,7 +1532,6 @@ md5,6b6a8a7aee2e97e2e1573cb380b93df8,https://www.ransomware.live/group/akira,Ran
 md5,6bafa6190e30fcae5dda8017079f9980,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
 md5,6be23d5a1ff1e9cbe99fe7f7c49a5607,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-07-09T22:52:34.620Z
 md5,6bf95bc0fe536e68e34033a66f620857,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,6c39900d77dcba158e1d27c7619cb06d,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,6c3b2558fc8cfcb2751437b6e5cdeb6f,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-07-09T22:52:34.620Z
 md5,6c5e38cfaacff00e250dc2ab9565b6dd,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,6c755a742f2b2e5c1820f57d0338365f,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-07-09T22:52:34.620Z
@@ -1581,7 +1550,6 @@ md5,6f059281f864368d16c5bf49cafa9c51,https://www.ransomware.live/group/trigona,R
 md5,6f761f63642cd6329a29cfad80be50c3,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,6f893b1cc5cf534c59eabe932c1bf21e,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 md5,6f91d1f8f0cbaab137351936b52f7a94,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
-md5,6fb6a55424adfb61e31f06aef33273e5,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,6fc6164b3a08669992acad3764fb1922,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 md5,7113bd6ad83f3c3f71f69728588ab256,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,714b31629c37dee57038ca4e52ef65ac,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-07-09T22:52:34.620Z
@@ -1602,14 +1570,12 @@ md5,735e8b75c78afadf0b8d896e87a1f4e7,https://www.ransomware.live/group/raworld,R
 md5,738f49a9827206e8fdef60c6fbdf94ce,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,73a25bacdb5da2a8e6ead5a8a7d92e70,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,73e86d3acd62c44df894192915952a5b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,7403cbcc5a9c32384d431856dc48fcc9,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,7461445fca3f9d8911148e0908d33c3b,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,7486f1a88d6a3ae96fa08f882d452399,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,748b043f1602547196fbbada0536a7c3,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,74ae58a716aa834949388ee1574788e0,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-07-09T22:52:34.620Z
 md5,74e6deb66b7845af3eb2d61727bb0bad,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
 md5,74f27fb712ad76c9b39398c93e5d94a8,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,74fd9f91fc93b6288b4fc253ea5b3e20,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,7552223103876a69c8a162f54cc8500b,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,75599941918f313459d6151c26704083,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,756007cdaa3b8b85c2890d06e82c0984,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
@@ -1618,10 +1584,8 @@ md5,77014b3e77529079f041b5b9e73a013b,https://cybersecuritynews.com/apt-c-20-hack
 md5,770c1dc157226638f8ad1ac9669f4883,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-07-09T22:52:34.620Z
 md5,773fcd0432808e74bfb863489799dd05,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,77958f66ade19ace783617531f0d82ac,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,7849061c536a3efb05a56d504694e7e7,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,793bed4cb96031a738fa60c9b2813606,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,799e1b6ad59324054e74eb6bfe5f78f9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,79ecd61b09b0f2d54b34586c916c4ec9,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,79f7c7356d43aee07cc613fe8d978420,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,7a99bd570caf0d33464ecfd64d4da58d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,7b2d0d3fc3ddbc01f042c5c72506ef0a,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
@@ -1650,11 +1614,9 @@ md5,7e525ef64a4e27fbb325d7cb4653f0a1,https://www.ransomware.live/group/lockbit3,
 md5,7e851829ee37bc0cf65a268d1d1baa7a,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-07-09T22:52:34.620Z
 md5,7f0039dfcbb9098550e5f5981ec4297d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,7f07488381c1fc7c09215d6f77601fb6,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
-md5,7f16449cd0c4862d1eadf8a5742bf09a,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,7f2b2e3516fa454adfd51f857ae80adf,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,7f3cea1165b04b096cee2d8da92e3b80,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,7f7c78fb5d9fdee28996a3f12bd00fef,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
-md5,7f81c1bc8cfd588e8998968e2621456e,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,7fa55bf92073ca2115d70641566ce89b,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
 md5,7ffaaaef5bcaf94756352b1fc866ef3d,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-07-09T22:52:34.620Z
 md5,8061b9de6bbc0eadbc4000120678c544,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
@@ -1704,8 +1666,6 @@ md5,8b5cb84a3132e396cdf2464440705c76,https://www.ransomware.live/group/raworld,R
 md5,8b67ddffca38733299d804975061b9ff,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,8ba945d33948f9603e6c06987cabd5a5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,8bcd83352bbd52ca7bda998a52dd0e5c,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-07-09T22:52:34.620Z
-md5,8c3322009b8982663c0cbecd9492e7eb,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
-md5,8c6d9fc389ad3f20ccbc71d77eb39bfa,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,8c9304a013c8053f1bc4bb8109b3a919,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,8ca5c9745e8a0e18167a9b932821645a,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 md5,8cc249b16adf7e4a658af7fa31d7998e,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
@@ -1766,7 +1726,6 @@ md5,97f9d8c8d44da37c7b9cefe31bda3466,https://www.ransomware.live/group/trigona,R
 md5,983a20479a281a182d33b75c0945e447,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-07-09T22:52:34.620Z
 md5,98cafe7df2d7e332d2602bb5b4c49019,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,993dd975a0ef36bedb6532672ecd3d65,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
-md5,993f4c0cadbc769a4b0ed62a918db58d,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,994a0c3e3e1390d972b1bdd8e8f2a449,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-09T22:52:34.620Z
 md5,996c394d0f6d6967df9542c52f6f4661,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 md5,9973676bfa9fe89aa5c76e3cd0b21ae8,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
@@ -1786,12 +1745,10 @@ md5,9c872a0d5d5a38950e8b9ac9b488be3f,https://cybersecuritynews.com/hackers-use-c
 md5,9cbd560f820c95d7c38342cd558cb5c6,https://cybersecuritynews.com/hackers-use-cisco-anyconnect-and-google-update-lures,Hackers Use Cisco AnyConnect and Google Update Lures to Drop SharkLoader Malware,2026-06-25T07:48:40.000Z,2026-06-25T09:56:25.250Z
 md5,9ce8e06f1de868e553758b242b82a1c4,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,9d7da311e248445569fb79344a0ec1d9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,9d9ac85765e4a818a3ccabe2cf4fef82,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,9db8f7378e2df01c842cfcb617e64475,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-07-09T22:52:34.620Z
 md5,9e5e96c4318ea5e8daab17ea456af069,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,9ea321b6a0f069caab7092cfe1cbbde0,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 md5,9ef845add689fc71cae33686139efbb0,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-09T22:52:34.620Z
-md5,9f13c7b8ba391b2f597874e54d310648,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,9f1c1e45b292299818c7fe64c865e67a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,9f43ea23f078264bdbc2b8fbd46ba6d4,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,9f510626c7327a7c2328bc5131726638,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
@@ -1913,7 +1870,6 @@ md5,b6c46c1bd6ea86beae25c77d05280d59,https://www.ransomware.live/group/raworld,R
 md5,b71956ba98abacf4b4dcc5a0453baaa2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,b7271756136f8f07923acae4e64f8efa,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,b736d9d2ca32d72181772d6aab4a8ca5,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
-md5,b7cd06c71465038b658a6dc1f273a507,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,b7e14409b99a663fa181ec5e2abc8fb3,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
 md5,b86aacec897b8376c23647c4f0e78fba,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-09T22:52:34.620Z
 md5,b8846b3e1adfc89aa767687364fecf6a,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
@@ -1983,7 +1939,6 @@ md5,c6c511ba966328c9497c8aa9264fb733,https://www.ransomware.live/group/trigona,R
 md5,c786e93b0984d16d8614e1e0560b679c,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,c7ae7f5becb7cf94aa107ddc1caf4b03,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,c7b0760770fa3eab2b4fc9851ecba67e,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
-md5,c7f38cbb99c8b74fa0465293feeba700,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,c82121875584b5607f9d8a9c5c10889a,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
 md5,c8b135ad5b33239307dc4920eafb0974,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,c8b1f8d313a165976b553bb6223435d5,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
@@ -2003,11 +1958,9 @@ md5,cdb36dc4612f1ccc231fe54d8a3543d3,https://www.ransomware.live/group/trigona,R
 md5,cf1951f7084a180094c7092c7bb54998,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,cfabf91cef8cb93ca8f2da8492015e25,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-07-09T22:52:34.620Z
 md5,cff6c948bfede2c14590bd5daacd96ef,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-07-09T22:52:34.620Z
-md5,d01cad98dd0d01b75e04e784953c5e2b,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,d0291a6d151395076d7fb7ca9b798125,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,d0457a54a4905ed5d2bb8a2b7ef7be0f,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-09T22:52:34.620Z
 md5,d057ffad923778f8381b662593a46d2a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,d06333c360b51456f427e616c3c5f8bd,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,d1013bbaa2f151195d563b2b65126fa3,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-07-09T22:52:34.620Z
 md5,d10e0387e3d55dc1f82c23719e2b168b,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 md5,d14ec0d9f4c265174c54d0f949e006ea,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-07-09T22:52:34.620Z
@@ -2027,7 +1980,6 @@ md5,d3326491afcc35962994e391d485b3ff,https://www.ransomware.live/group/hellokitt
 md5,d34632a9e6cb564ccf8eb2f8ec7e7c32,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,d37594e06b180d71d1612e6fd61e02a2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,d38b90dc371589519336d0c092529213,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
-md5,d43fdaa1f0ee09d7e5f0f94ee9df7b6c,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,d44071f255785c73909d64f824331ebf,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-07-09T22:52:34.620Z
 md5,d452a011c80ee87cb37b37296d5cff5f,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,d50cac4d6287863144292c6e0bd01ad6,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
@@ -2060,7 +2012,6 @@ md5,d9a053e54be4003cc28b41fe30790349,https://www.ransomware.live/group/anubis,Ra
 md5,da0c807e2a9c933c46502eccf349fc01,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,da15ca8a6a316ee543ecc0cf4799700e,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-07-09T22:52:34.620Z
 md5,da3e8045d4c7ad80a1fe6ce1f65d64b1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,dad708e050632a4280cabf98ac1376b7,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,db0d857a85478d3271c404548574d88f,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,db71c06452f27955314d6d4132506baa,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,db804c3f55c5d09dace40c76c99cab52,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-07-09T22:52:34.620Z
@@ -2076,7 +2027,6 @@ md5,dd1e5a3cd9f842bd70be45a62c3ebbf6,https://cybersecuritynews.com/arystinger-bo
 md5,dd394a40255027c7354123fc0f1a6c05,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-09T22:52:34.620Z
 md5,dd42c3e017889c107a81da78d87dc8af,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 md5,ddaa09b5c3bf5aa24e300c24905469f2,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-07-09T22:52:34.620Z
-md5,ddaffe9849f7f3c79f8804adb9a6b3d5,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,de883a502b6c1663bd3aaa6ff5d344be,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,de8f808ba308e34097afa5c3136a0640,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,debfec52a00da2abc9ea61346dbd7742,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
@@ -2087,7 +2037,6 @@ md5,df04653e98de0dd39f4e166a5cc9339b,https://www.ransomware.live/group/raworld,R
 md5,df0c9f6289e56f31c0700f40590857d3,https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers,"AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",2026-06-22T19:42:21.000Z,2026-06-22T21:40:30.278Z
 md5,df0dcae2fbd51e2319f9ea46517f4398,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,df2ef788797faaef5a33a146525af764,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
-md5,df4fa0369eaca5cec348be293890d4af,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,df6994b9de1e435af2cdd0885b2615e2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,df9e9578e48c28ec40b5719f20eabee6,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,dfb38db3eeee3287524d4d3aacae8c45,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-07-09T22:52:34.620Z
@@ -2214,7 +2163,6 @@ md5,f7f679420671b7e18677831d4d276277,https://www.ransomware.live/group/interlock
 md5,f828044c91ac00afffcd77b4ce680857,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-09T22:52:34.620Z
 md5,f8453efe408ce25b9484f872797e3d63,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 md5,f8a242fa6a8df6eafded0a6987a5ac09,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-09T22:52:34.620Z
-md5,f90ed4b2d0b67114aa89ddfed658e5c0,https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system,New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers,2026-06-22T11:36:12.000Z,2026-06-22T15:08:04.613Z
 md5,f91cf21c1415ef1a90cff56e7dc7e88c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,f94d17b5f232e9cfd2255ca9823cb18a,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-07-09T22:52:34.620Z
 md5,f954f24e6eb85ef1b64e315491dad816,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-09T22:52:34.620Z
@@ -2587,6 +2535,7 @@ sha256,3ec6c91d68b416381ac9f6310a9e011f4060369c63416021864a6d5b91e97dc4,https://
 sha256,3f31aee0948d16f8d64bf6bec69a4331099993e502b11bfc56b2c0112024489d,https://cybersecuritynews.com/this-2000-a-month-crypter-can-kill-edr,"This $2,000-a-Month Crypter Can Kill EDR and Make Malware Disappear From Disk",2026-07-21T17:28:06.000Z,2026-07-21T18:52:25.479Z
 sha256,3f797a639bc855bc6d5471f327924b62d10900ddec49b970eca6604142bbb4be,https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security,Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection,2026-06-24T20:58:31.000Z,2026-06-24T21:12:11.318Z
 sha256,3fae7ede2ef9c809b54504c3d78e5111d7fad0b522c707b8f6ff21015af79251,https://cybersecuritynews.com/hackers-use-rokarolla-banking-trojan-to-intercept-sms-codes,Hackers Use Rokarolla Banking Trojan to Intercept SMS Codes and Steal Crypto Credentials,2026-06-29T09:45:20.000Z,2026-06-29T12:17:47.010Z
+sha256,3fbe32d76a22bda7a8fd3cdc6faf68807108f01d74ec8b346f4c5d4b61dbc84b,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
 sha256,3fe29bf7e2c391d5405f8c6947cc42a6ec356fcf8455ce705dc23a156f5b450a,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-06-24T17:30:17.257Z
 sha256,4066781fa830224c8bbcc3aa005a396657f9c8f9016f9a64ad44a9d7f5f45e34,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools,FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks,2026-07-03T12:24:04.000Z,2026-07-03T17:01:42.480Z
 sha256,41d77fef030b8515efb068defed5e15c14fbebd16259253f1f79febd6e12ebcb,https://cybersecuritynews.com/hackers-crack-telegram-2fa,Hackers Don’t Crack Telegram 2FA—They Copy Your Already Logged-In Session,2026-07-16T12:10:21.000Z,2026-07-16T13:04:40.144Z
@@ -2620,6 +2569,7 @@ sha256,4d9c160ebb44507b11f0e6421f691900284f25b5530a23d9fd50de0ae01663ca,https://
 sha256,4e035575be8fe350a9e36cf29dbbc8826af2f772672bd08c9e489a243cb90e31,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-06-29T12:17:47.010Z
 sha256,4e1f8888d020decd09799ec946f1bf677cac6612b24582ddbf4d8ede425d8384,https://cybersecuritynews.com/cl-sta-1062-hackers-use-tinyrct-backdoor,CL-STA-1062 Hackers Use TinyRCT Backdoor to Target Southeast Asian Governments,2026-06-26T08:55:01.000Z,2026-06-26T12:00:35.358Z
 sha256,4eaebd93e23be3427d4c1349d64bef4b5fc455c93aebb9b5b752981e9266488e,https://cybersecuritynews.com/goldeneyedog-behind-digicert-breach,GoldenEyeDog Hackers Group Behind DigiCert Breach that Hijacks Code-Signing Certificates,2026-07-20T08:21:28.000Z,2026-07-20T08:27:29.999Z
+sha256,4ed6e7b56abece2bef9cdddd0d10da2f8379a09ff94541ed0e70152f669c6682,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
 sha256,501821a19ccf59830789849beff94238736adb4b213870a511890c5c8efab2a6,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-07-09T22:52:34.620Z
 sha256,50ffce607867d8fa8eaf6ef5cd25a3c0e7e4415e881b9e55c04a67bcddb74fdf,https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2,Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection - Cyber Security News,2026-06-22T21:00:01.000Z,2026-06-22T21:40:30.278Z
 sha256,511d3ffb4091cbcc94571d9fb3102e8cb424c6e187d01d53ff12078d54929bda,https://cybersecuritynews.com/new-tuxbot-v3-iot-botnet-uses-llm-generated-code,New TuxBot v3 IoT Botnet Uses LLM-Generated Code to Hijack Devices and Launch DDoS Attacks,2026-07-16T08:29:11.000Z,2026-07-16T09:37:07.380Z
@@ -2654,6 +2604,7 @@ sha256,5be325905df8aab7089ab2348d89343f55a2f88dadd75de8f382e8fa026451bd,https://
 sha256,5c38af2f39802c0362a72247bfd52a35e16b93f45dfe1a2b573a2e620c8d1189,https://cybersecuritynews.com/apt42-uses-ai-assisted-phishing-and-tamecat-malware,APT42 Uses AI-Assisted Phishing and TAMECAT Malware to Target Government and Defense Officials,2026-07-21T13:49:23.000Z,2026-07-21T15:24:13.035Z
 sha256,5c4c98d774eb100f9a89ae4e984c27a4f532e58c7cf8c87046dc87db5a065404,https://cybersecuritynews.com/goddamn-ransomware-rebrands-from-beast,GodDamn Ransomware Rebrands From Beast and Uses PoisonX Driver to Disable Defenses,2026-07-09T19:18:57.000Z,2026-07-09T21:06:07.795Z
 sha256,5c62626731856fb5e669473b39ac3deb0052b32981863f8cf697ae01c80512e5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
+sha256,5d062e3e52d36d3e66f1c4b54e26149a5b552417f8cc360c390b568aaeb92678,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
 sha256,5d17645548a44fe39d3cc816ffa3933321c1eb8b08a8f4348e3cd82f25112c81,https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page,ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers,2026-07-08T21:23:03.000Z,2026-07-08T21:46:26.616Z
 sha256,5d5d639fdfbf632bb7d9f1bb28731217d09d36078ab5e594baf2a5a41267a5d2,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-07-09T22:52:34.620Z
 sha256,5e2ba7c4c53fa6e0cef58011acdd50682cf83fb7b989712d2fcf1b5173bad956,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools,FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks,2026-07-03T12:24:04.000Z,2026-07-03T17:01:42.480Z
@@ -2848,6 +2799,7 @@ sha256,b6c7e0bf573b1c7d9d3a05eb08d26579199515b847df984862805f44a7af8007,https://
 sha256,b7ca95d1b23c8e67416a25cedf741de0917c2096bbc9d24649eea7853d054903,https://cybersecuritynews.com/hackers-compromised-jscrambler,"Hackers Compromised jscrambler With 15,800+ Weekly Downloads to Attack Developers",2026-07-13T09:30:28.000Z,2026-07-13T15:32:10.717Z
 sha256,b8c994e3ed7dcc9080916119ddc315533c129479f508676d7544b82b2e24745f,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-07-09T22:52:34.620Z
 sha256,b9a8ae1e6d2c875e21c77f3b9255ca0b3b0b3e0addbb2c3c865e5b95eb734d22,https://cybersecuritynews.com/golangghost-steals-chrome-secrets,GolangGhost Steals Chrome Secrets From macOS Keychain and Hijacks MetaMask Permissions,2026-07-22T06:59:56.000Z,2026-07-22T10:48:55.559Z
+sha256,ba8f36968c8cdd9799c1d5e5619d1a5d6a0b1eabfd7876daa3cfdebd51dd4516,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
 sha256,baabf249c77bc54c54ab0e66e15af798bd28aa5b4683554456a8b73ab8741239,https://cybersecuritynews.com/rust-macos-backdoor-uses-interactive-shell,Rust macOS Backdoor Uses Interactive Shell and Telegram File Uploads for Data Theft,2026-06-25T12:51:23.000Z,2026-06-25T18:35:57.483Z
 sha256,bad3c2f72ef2be522a554a9615dc93027416a3d4048f77519fca5104fabba1f9,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-07-09T22:52:34.620Z
 sha256,bafba443170e54ef7fd431ce7f1b5e202719f3fd022e4ef70788904f574d2cdf,https://cybersecuritynews.com/china-nexus-hackers-exploit-ruckus-routers,China-Nexus Hackers Exploit Ruckus Routers to Build Operational Relay Box Networks,2026-07-08T07:51:58.000Z,2026-07-08T07:57:02.958Z
@@ -2870,10 +2822,12 @@ sha256,c099f965144bccd0b590f946659fc3c0747c54aef505b6caaca9078712f455fb,https://
 sha256,c0c0b2306d31e8962973a22e50b18dfde852c6ddf99baf849e3384ed9f07a0d6,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 sha256,c0c726a23111c220d022fcd01a85f9788249e42baece03f83b6059170453b801,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-07-09T22:52:34.620Z
 sha256,c0fc61631a20c373ce17e939e09cfb4f5179c9e0788e80079b4ee8986afe89bd,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-07-09T22:52:34.620Z
+sha256,c162009eda7579c3bf5f4fb1606368270c989433d8923d43e033bd5aefc8e335,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
 sha256,c2ab9adaba93ff094b8f3fc37d906014d870582039d276b7bd03e6fd583d8a15,https://cybersecuritynews.com/china-nexus-hackers-exploit-ruckus-routers,China-Nexus Hackers Exploit Ruckus Routers to Build Operational Relay Box Networks,2026-07-08T07:51:58.000Z,2026-07-08T07:57:02.958Z
 sha256,c308b143c8b8ae1d6c9e0305199eda73e80b8c3855ef3ba8ec7d79e7b4816336,https://cybersecuritynews.com/apt42-uses-ai-assisted-phishing-and-tamecat-malware,APT42 Uses AI-Assisted Phishing and TAMECAT Malware to Target Government and Defense Officials,2026-07-21T13:49:23.000Z,2026-07-21T15:24:13.035Z
 sha256,c30ccd8d66ea757121c036e76408e8ee9fe122bf4d048e2744abf56ecdd8e019,https://cybersecuritynews.com/unc1151-ghostwriter-hackers-target-belarusian-politician,UNC1151 Ghostwriter Hackers Target Belarusian Politician in Gmail Phishing Campaign - Cyber Security News,2026-06-29T09:45:54.000Z,2026-06-29T12:17:47.010Z
 sha256,c37c0ae9641d2e5329fcdee847a756bf1140fdb7f0b7c78a40fdc39055e7d926,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools,FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks,2026-07-03T12:24:04.000Z,2026-07-03T17:01:42.480Z
+sha256,c386d416afef8319bf11c9180f6d35c0e1f7cb40b7a0c81b166c253afc623706,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
 sha256,c3cfe522d2da15b033f65eb5377bf9e99be598dc4c21729e6f168dbc8f19540b,https://cybersecuritynews.com/hackers-use-rokarolla-banking-trojan-to-intercept-sms-codes,Hackers Use Rokarolla Banking Trojan to Intercept SMS Codes and Steal Crypto Credentials,2026-06-29T09:45:20.000Z,2026-06-29T12:17:47.010Z
 sha256,c3e324106803df27f5b6e0d49d2daf02d4cde396af4401f1ad29d78198e370b6,https://cybersecuritynews.com/hackers-use-rokarolla-banking-trojan-to-intercept-sms-codes,Hackers Use Rokarolla Banking Trojan to Intercept SMS Codes and Steal Crypto Credentials,2026-06-29T09:45:20.000Z,2026-06-29T12:17:47.010Z
 sha256,c46e907886e2158cbc453e767183aecf07887b5ac8848f19684451883d69f5f0,https://cybersecuritynews.com/this-2000-a-month-crypter-can-kill-edr,"This $2,000-a-Month Crypter Can Kill EDR and Make Malware Disappear From Disk",2026-07-21T17:28:06.000Z,2026-07-21T18:52:25.479Z
@@ -2998,6 +2952,7 @@ sha256,fc091ddb4d845280aeb7745cfdb6b7cb0013abc35db9e634f055b8e8fb0b5b1e,https://
 sha256,fc41c336b79cbc6559a17d716b84101dbef1adc5357b643a75111af442719611,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-06-29T12:17:47.010Z
 sha256,fe1033335a045c696c900d435119d210361966e2fb5cd1ba3382608cfa2c8e68,https://cybersecuritynews.com/gentlemen-ransomware-global-attacks,Gentlemen Ransomware Expands Global Attack Campaigns,2026-07-07T16:23:11.000Z,2026-07-07T18:34:31.291Z
 sha256,fe41e6c1725f63582f022a17abe098e49338a78118a00ca87785b2fa0cf3dadf,https://cybersecuritynews.com/hackers-use-rokarolla-banking-trojan-to-intercept-sms-codes,Hackers Use Rokarolla Banking Trojan to Intercept SMS Codes and Steal Crypto Credentials,2026-06-29T09:45:20.000Z,2026-06-29T12:17:47.010Z
+sha256,fe498d584f43b7d6ebe2ebc34481d9b0e8e931d2af039f59451bf42effe8b461,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
 sha256,ff3555154e91e42490cc722b6c7f3c4c91654b7ef53a35d0719ffb89accf1b27,https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page,ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers,2026-07-08T21:23:03.000Z,2026-07-08T21:46:26.616Z
 sha256,ff791fe1532a2dc3b3c188a71bfd0177f973ef228e4d1dda1db6d3c4b0d62b3e,https://cybersecuritynews.com/clickfix-campaign-delivers-telepuz,ClickFix Campaign Delivers Modular TELEPUZ Malware With 36 Remote Commands,2026-07-20T14:20:34.000Z,2026-07-20T19:15:38.773Z
 telegram,@nightspireteam2025,https://www.ransomware.live/group/nightspire,Ransomware.live - nightspire,,2026-07-09T22:52:34.620Z
@@ -3106,6 +3061,7 @@ twitter,@SGaming66355,https://www.ransomware.live/group/gdlockrsec,Ransomware.li
 twitter,https://x.com/zerodayx1,https://www.ransomware.live/group/bqtlock,Ransomware.live - bqtlock,,2026-07-09T22:52:34.620Z
 url,http://130.12.180.43/files/7924412375/uposldn.exe,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-06-29T12:17:47.010Z
 url,http://158.94.208.168/files/8514679081/drtjyu7.exe,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-06-29T12:17:47.010Z
+url,http://185.126.237.64:5341/api/events/raw,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T13:06:44.269Z
 url,http://45.131.66.106:4444/beacon,https://cybersecuritynews.com/agentic-ransomware-jadepuffer-uses-base64-python-payloads,Agentic Ransomware JADEPUFFER Uses Base64 Python Payloads to Harvest Cloud and API Keys,2026-07-02T13:40:52.000Z,2026-07-02T14:56:50.046Z
 url,http://45.86.229.111/slw:8080,https://cybersecuritynews.com/hackers-exploit-roundcube-n-day-flaws,Hackers Exploit Roundcube N-Day Flaws to Steal Credentials and Deploy VShell,2026-07-08T08:56:07.000Z,2026-07-08T10:37:51.329Z
 url,http://62.60.226.97:5553/voshod.exe,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-06-29T12:17:47.010Z
@@ -3230,6 +3186,8 @@ url,https://netblokir.asia/files/telemetriawork/telepuz.dll,https://cybersecurit
 url,https://netblokirovka.asia/files/telemetriawork/telepuz.dll,https://cybersecuritynews.com/clickfix-campaign-delivers-telepuz,ClickFix Campaign Delivers Modular TELEPUZ Malware With 36 Remote Commands,2026-07-20T14:20:34.000Z,2026-07-20T19:15:38.773Z
 url,https://netlobikrovka.asia/files/telemetriawork/telepuz.dll,https://cybersecuritynews.com/clickfix-campaign-delivers-telepuz,ClickFix Campaign Delivers Modular TELEPUZ Malware With 36 Remote Commands,2026-07-20T14:20:34.000Z,2026-07-20T19:15:38.773Z
 url,https://online.zp.ua/wp-content/uploads/tools/editortoolspdf.zip,https://cybersecuritynews.com/russia-linked-turla-uses-compromised-infrastructure,Russia-Linked Turla Uses Compromised Infrastructure to Deploy STOCKSTAY in Ukraine Operations,2026-06-29T12:59:37.000Z,2026-06-29T18:32:37.326Z
+url,https://pastebin.com/rxk4vgnx,https://cybersecuritynews.com/nullzereptool-uses-telegram,New NULLZEREPTOOL Uses Telegram to Launch 20 DDoS Methods With Rotating Proxies,2026-07-22T12:03:33.000Z,2026-07-22T13:06:44.269Z
+url,https://pastebin.com/ryxq077s,https://cybersecuritynews.com/nullzereptool-uses-telegram,New NULLZEREPTOOL Uses Telegram to Launch 20 DDoS Methods With Rotating Proxies,2026-07-22T12:03:33.000Z,2026-07-22T13:06:44.269Z
 url,https://preferencenail.com/sfp.js,https://cybersecuritynews.com/150-npm-packages-promises-wi-fi-bypass-students,150+ npm Packages Promises Wi-Fi Bypass Students Using Their Systems for DDoS Attack,2026-07-14T08:38:07.000Z,2026-07-14T09:28:19.762Z
 url,https://protrafficinspector.com/stats,https://cybersecuritynews.com/150-npm-packages-promises-wi-fi-bypass-students,150+ npm Packages Promises Wi-Fi Bypass Students Using Their Systems for DDoS Attack,2026-07-14T08:38:07.000Z,2026-07-14T09:28:19.762Z
 url,https://realizationnewestfangs.com,https://cybersecuritynews.com/150-npm-packages-promises-wi-fi-bypass-students,150+ npm Packages Promises Wi-Fi Bypass Students Using Their Systems for DDoS Attack,2026-07-14T08:38:07.000Z,2026-07-14T09:28:19.762Z
