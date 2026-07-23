@@ -644,7 +644,9 @@ ip,130.193.52.194:443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,135.136.1.133,https://cybersecuritynews.com/hackers-exploit-weak-credentials-and-internet-facing-plcs,Hackers Exploit Weak Credentials and Internet-Facing PLCs to Breach Water Utilities,2026-06-26T13:27:05.000Z,2026-06-26T21:09:03.104Z
 ip,138.226.246.94,https://cybersecuritynews.com/lastpass-customer-data-klue,LastPass Customer Data Exposed in Klue supply chain Attack,2026-06-23T14:15:52.000Z,2026-06-23T15:41:17.433Z
 ip,139.180.134.221,https://cybersecuritynews.com/cl-sta-1062-hackers-use-tinyrct-backdoor,CL-STA-1062 Hackers Use TinyRCT Backdoor to Target Southeast Asian Governments,2026-06-26T08:55:01.000Z,2026-06-26T12:00:35.358Z
+ip,139.28.37.250,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
 ip,14.176.1.47,https://cybersecuritynews.com/hackers-turning-ai-gateways-as-attack,Hackers are Turning AI Gateways as Attack Surfaces to Compromise Enterprise Networks,2026-07-10T11:56:18.000Z,2026-07-10T16:01:13.904Z
+ip,141.11.164.153,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
 ip,142.11.200.186,https://cybersecuritynews.com/nissan-confirms-data-breach,Nissan Confirms Data Breach Following Oracle PeopleSoft 0-Day Attacks,2026-06-30T03:39:15.000Z,2026-06-30T08:44:03.016Z
 ip,142.111.194.73,https://cybersecuritynews.com/new-giftedcrook-chain-abuses-winrar-ads,New GIFTEDCROOK Chain Abuses WinRAR ADS and Reflective Loading to Steal Browser Data,2026-06-26T12:43:11.000Z,2026-06-26T21:09:03.104Z
 ip,142.93.234.59:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -674,6 +676,8 @@ ip,151.236.16.40:34236,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,151.236.16.40:57144,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,151.236.22.19:3375,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,151.236.22.19:4421,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
+ip,151.241.99.207,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
+ip,151.241.99.233,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
 ip,153.186.231.233,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-06-24T17:30:17.257Z
 ip,154.203.197.96:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,154.216.17.241:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -683,6 +687,7 @@ ip,154.6.197.43,https://cybersecuritynews.com/new-tuxbot-v3-iot-botnet-uses-llm-
 ip,154.91.75.192,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-09T11:35:54.410Z
 ip,154.92.16.22,https://cybersecuritynews.com/hackers-use-fake-vlc-executable,Hackers Use Fake VLC Executable and Malicious libvlc.dll to Deploy ValleyRAT,2026-07-02T13:58:13.000Z,2026-07-02T14:56:50.046Z
 ip,158.160.3.224:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
+ip,158.62.198.182,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
 ip,158.94.208.168,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-06-29T12:17:47.010Z
 ip,158.94.211.95,https://cybersecuritynews.com/lokibot-campaign-uses-jscript-attachment,"LokiBot Campaign Uses JScript Attachment, .NET Injector, and Process Injection to Steal Credentials",2026-06-25T13:26:53.000Z,2026-06-25T18:35:57.483Z
 ip,159.183.181.239,https://cybersecuritynews.com/lastpass-customer-data-klue,LastPass Customer Data Exposed in Klue supply chain Attack,2026-06-23T14:15:52.000Z,2026-06-23T15:41:17.433Z
@@ -712,6 +717,10 @@ ip,172.96.137.106:4567,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,172.96.137.108:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,172.96.137.160,https://cybersecuritynews.com/bing-search-for-manageengine-opmanager,Bing Search for 'ManageEngine OpManager' Delivers Akira Ransomware,2026-06-30T12:56:24.000Z,2026-06-30T17:27:04.521Z
 ip,172.96.137.32:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
+ip,175.110.121.107,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
+ip,175.110.121.39,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
+ip,175.110.121.41,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
+ip,175.110.121.42,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
 ip,176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 ip,176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 ip,176.114.8.101,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
@@ -738,6 +747,7 @@ ip,185.182.193.21,https://cybersecuritynews.com/gigawiper-malware-attacking-wind
 ip,185.193.48.92:445,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,185.193.48.92:4675,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,185.215.113.108,https://cybersecuritynews.com/fake-document-reader-in-the-google-play-store,Fake Document Reader in The Google Play Store with 100K Downloads Deliver Android Malware,2026-06-24T20:57:34.000Z,2026-06-24T21:12:11.318Z
+ip,185.225.17.225,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
 ip,185.229.9.27:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,185.239.48.114:27700,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,185.241.5.217:8081,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -760,11 +770,14 @@ ip,185.82.73.167,https://cybersecuritynews.com/hackers-exploit-weak-credentials-
 ip,185.82.73.168,https://cybersecuritynews.com/hackers-exploit-weak-credentials-and-internet-facing-plcs,Hackers Exploit Weak Credentials and Internet-Facing PLCs to Breach Water Utilities,2026-06-26T13:27:05.000Z,2026-06-26T21:09:03.104Z
 ip,185.82.73.170,https://cybersecuritynews.com/hackers-exploit-weak-credentials-and-internet-facing-plcs,Hackers Exploit Weak Credentials and Internet-Facing PLCs to Breach Water Utilities,2026-06-26T13:27:05.000Z,2026-06-26T21:09:03.104Z
 ip,185.82.73.171,https://cybersecuritynews.com/hackers-exploit-weak-credentials-and-internet-facing-plcs,Hackers Exploit Weak Credentials and Internet-Facing PLCs to Breach Water Utilities,2026-06-26T13:27:05.000Z,2026-06-26T21:09:03.104Z
+ip,185.82.73.175,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
 ip,185.87.49.47:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,188.119.66.189,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 ip,188.166.2.226,https://cybersecuritynews.com/new-tuxbot-v3-iot-botnet-uses-llm-generated-code,New TuxBot v3 IoT Botnet Uses LLM-Generated Code to Hijack Devices and Launch DDoS Attacks,2026-07-16T08:29:11.000Z,2026-07-16T09:37:07.380Z
 ip,188.40.187.145,https://cybersecuritynews.com/bing-search-for-manageengine-opmanager,Bing Search for 'ManageEngine OpManager' Delivers Akira Ransomware,2026-06-30T12:56:24.000Z,2026-06-30T17:27:04.521Z
 ip,189.219.16.249,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-07-09T22:52:34.620Z
+ip,192.142.10.99,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
+ip,192.142.54.79,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
 ip,192.253.248.181,https://cybersecuritynews.com/hackers-crack-telegram-2fa,Hackers Don’t Crack Telegram 2FA—They Copy Your Already Logged-In Session,2026-07-16T12:10:21.000Z,2026-07-16T13:04:40.144Z
 ip,193.124.185.129:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,193.23.244.244,https://cybersecuritynews.com/hackers-use-systembc-malware-to-hide-c2-traffic,Hackers Use SystemBC Malware to Hide C2 Traffic and Maintain Persistent Access,2026-06-30T12:37:58.000Z,2026-06-30T17:27:04.521Z
@@ -776,6 +789,7 @@ ip,193.37.69.225,https://www.ransomware.live/group/vanhelsing,Ransomware.live - 
 ip,193.43.104.153,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-07-09T22:52:34.620Z
 ip,194.156.79.122,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-06T17:23:42.436Z
 ip,194.213.18.133,https://cybersecuritynews.com/hackers-exploit-roundcube-n-day-flaws,Hackers Exploit Roundcube N-Day Flaws to Steal Credentials and Deploy VShell,2026-07-08T08:56:07.000Z,2026-07-08T10:37:51.329Z
+ip,194.213.18.137,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
 ip,194.213.18.181:16963,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,194.213.18.181:20290,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,194.213.18.181:49493,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
@@ -948,6 +962,7 @@ ip,76.92.245.217,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-d
 ip,77.110.127.205,https://cybersecuritynews.com/one-security-alert-exposed-a-genai-powered-malware-factory,"One Security Alert Exposed a GenAI-Powered Malware Factory Containing More Than 1,000 Attack Files",2026-07-21T08:57:15.000Z,2026-07-21T13:01:58.391Z
 ip,77.73.67.162:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,78.40.196.252,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
+ip,79.133.46.209,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
 ip,79.141.162.184:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,8.140.226.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,8.8.8.8,https://cybersecuritynews.com/hackers-compromised-jscrambler,"Hackers Compromised jscrambler With 15,800+ Weekly Downloads to Attack Developers",2026-07-13T09:30:28.000Z,2026-07-13T15:32:10.717Z
@@ -958,6 +973,7 @@ ip,83.142.209.11,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-comprom
 ip,83.142.209.194,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools,FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks,2026-07-03T12:24:04.000Z,2026-07-03T17:01:42.480Z
 ip,83.142.209.203,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools,FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks,2026-07-03T12:24:04.000Z,2026-07-03T17:01:42.480Z
 ip,83.217.209.210,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-07-09T22:52:34.620Z
+ip,84.200.205.165,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
 ip,84.201.211.40,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-09T22:52:34.620Z
 ip,84.32.84.32,https://cybersecuritynews.com/bing-search-for-manageengine-opmanager,Bing Search for 'ManageEngine OpManager' Delivers Akira Ransomware,2026-06-30T12:56:24.000Z,2026-06-30T17:27:04.521Z
 ip,85.137.53.71,https://cybersecuritynews.com/asyncapi-npm-packages-with-2m-weekly-downloads,AsyncAPI npm Packages With 2M Weekly Downloads Compromised via GitHub Actions,2026-07-14T15:30:07.000Z,2026-07-14T18:44:38.321Z
@@ -989,6 +1005,9 @@ ip,87.121.45.33,https://www.ransomware.live/group/termite,Ransomware.live - term
 ip,87.121.61.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,88.212.241.105:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,88.218.168.33:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
+ip,88.80.150.199,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
+ip,88.80.150.200,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
+ip,88.80.150.202,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
 ip,89.1.88.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,89.23.113.220:8083,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-09T22:52:34.620Z
 ip,89.248.163.120,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-07-09T22:52:34.620Z
