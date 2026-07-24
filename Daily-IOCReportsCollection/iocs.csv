@@ -635,7 +635,6 @@ ip,109.122.217.21,https://www.ransomware.live/group/sorry,Ransomware.live - sorr
 ip,109.205.195.211,https://cybersecuritynews.com/bing-search-for-manageengine-opmanager,Bing Search for 'ManageEngine OpManager' Delivers Akira Ransomware,2026-06-30T12:56:24.000Z,2026-07-17T04:03:24.001Z
 ip,111.88.74.246,https://cybersecuritynews.com/unc1151-ghostwriter-hackers-target-belarusian-politician,UNC1151 Ghostwriter Hackers Target Belarusian Politician in Gmail Phishing Campaign,2026-06-29T09:45:54.000Z,2026-07-17T04:03:24.001Z
 ip,118.107.0.197,https://cybersecuritynews.com/fake-indian-itr-notice-delivers-dual-rat-malware,Fake Indian ITR Notice Delivers Dual RAT Malware Through Six-Stage Infection Chain,2026-07-08T17:37:35.000Z,2026-07-17T04:03:24.001Z
-ip,126.51.108.152,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
 ip,128.254.230.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,13.37.127.130:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,13.38.235.203:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
@@ -677,7 +676,6 @@ ip,151.236.22.19:3375,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,151.236.22.19:4421,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,151.241.99.207,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T08:37:52.040Z
 ip,151.241.99.233,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T08:37:52.040Z
-ip,153.186.231.233,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
 ip,154.203.197.96:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,154.216.17.241:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,154.216.19.224,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-07-17T04:48:24.482Z
@@ -700,7 +698,6 @@ ip,164.92.223.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,165.227.69.170:1433,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,165.227.69.170:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,165.245.215.18,https://cybersecuritynews.com/odyssey-stealer-hits-macos-users,"Odyssey Stealer Hits macOS Users in 100+ Countries, Targets 300 Crypto Wallet Extensions",2026-07-10T10:45:26.000Z,2026-07-17T04:03:24.001Z
-ip,167.179.79.189,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
 ip,167.71.69.135:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,167.88.160.15:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,169.239.130.36:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
@@ -822,20 +819,13 @@ ip,2.27.5.53,https://cybersecuritynews.com/malicious-chrome-extension-uses-nativ
 ip,2.59.134.97,https://cybersecuritynews.com/asyncrat-campaign-uses-dll-sideloading,AsyncRAT Campaign Uses DLL Sideloading and ScreenConnect for Stealthy Remote Access,2026-07-02T18:10:41.000Z,2026-07-17T04:03:24.001Z
 ip,20.101.57.9,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-17T04:48:24.482Z
 ip,20.12.23.50,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-17T04:48:24.482Z
-ip,20.12.7.2,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
-ip,20.15.4.5,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
-ip,20.15.5.3,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
-ip,20.18.3.1,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
-ip,20.9.9.2,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
 ip,202.182.102.5,https://cybersecuritynews.com/cl-sta-1062-hackers-use-tinyrct-backdoor,CL-STA-1062 Hackers Use TinyRCT Backdoor to Target Southeast Asian Governments,2026-06-26T08:55:01.000Z,2026-07-17T04:03:24.001Z
 ip,203.161.43.187:53,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,203.161.43.195:444,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,204.13.164.118,https://cybersecuritynews.com/hackers-use-systembc-malware-to-hide-c2-traffic,Hackers Use SystemBC Malware to Hide C2 Traffic and Maintain Persistent Access,2026-06-30T12:37:58.000Z,2026-07-17T04:03:24.001Z
 ip,206.237.4.54:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
-ip,207.190.37.94,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
 ip,208.123.119.103:7453,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,208.73.200.28:9999,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
-ip,209.137.225.101,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
 ip,209.182.237.133,https://cybersecuritynews.com/new-tuxbot-v3-iot-botnet-uses-llm-generated-code,New TuxBot v3 IoT Botnet Uses LLM-Generated Code to Hijack Devices and Launch DDoS Attacks,2026-07-16T08:29:11.000Z,2026-07-17T04:03:24.001Z
 ip,209.99.186.235,https://cybersecuritynews.com/nadmesh-uses-shodan,NadMesh Uses Shodan to Find and Hijack Exposed AI and MCP Infrastructure,2026-07-19T03:30:16.000Z,2026-07-19T04:11:22.984Z
 ip,212.224.107.203,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-17T04:48:24.482Z
@@ -861,13 +851,11 @@ ip,23.227.198.237:3963,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,23.227.198.237:50262,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,23.227.198.237:57226,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,23.227.198.237:64103,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
-ip,23.245.7.178,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
 ip,23.251.57.59,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-07-17T04:48:24.482Z
 ip,23.254.244.163:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,23.54.127.209,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-17T04:48:24.482Z
 ip,23.94.252.228,https://cybersecuritynews.com/one-security-alert-exposed-a-genai-powered-malware-factory,"One Security Alert Exposed a GenAI-Powered Malware Factory Containing More Than 1,000 Attack Files",2026-07-21T08:57:15.000Z,2026-07-21T12:54:29.772Z
 ip,23.95.182.59,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-07-17T04:48:24.482Z
-ip,26.1.1.2,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
 ip,27.124.40.52,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-17T04:03:24.001Z
 ip,27.124.9.47,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-17T04:03:24.001Z
 ip,3.135.194.95,https://cybersecuritynews.com/hackers-hide-750mb-lampion-rat,Hackers Hide 750MB Lampion RAT Inside Fake Payment Receipt Emails,2026-07-24T08:29:23.000Z,2026-07-24T08:50:37.019Z
@@ -917,7 +905,6 @@ ip,45.194.44.46,https://cybersecuritynews.com/unc1151-ghostwriter-hackers-target
 ip,45.197.133.104,https://cybersecuritynews.com/unc1151-ghostwriter-hackers-target-belarusian-politician,UNC1151 Ghostwriter Hackers Target Belarusian Politician in Gmail Phishing Campaign,2026-06-29T09:45:54.000Z,2026-07-17T04:03:24.001Z
 ip,45.227.253.59:3111,https://www.ransomware.live/group/cry0,Ransomware.live - cry0,,2026-07-17T04:48:24.482Z
 ip,45.32.113.172,https://cybersecuritynews.com/cl-sta-1062-hackers-use-tinyrct-backdoor,CL-STA-1062 Hackers Use TinyRCT Backdoor to Target Southeast Asian Governments,2026-06-26T08:55:01.000Z,2026-07-17T04:03:24.001Z
-ip,45.32.38.160,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
 ip,45.41.187.117:5973,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,45.59.114.190,https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads,FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users,2026-07-24T11:54:18.000Z,2026-07-24T12:51:24.527Z
 ip,45.59.117.145,https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads,FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users,2026-07-24T11:54:18.000Z,2026-07-24T12:51:24.527Z
@@ -980,7 +967,6 @@ ip,69.46.15.169:3389,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,69.46.15.169:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,70.34.202.129:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,70.34.205.43,https://cybersecuritynews.com/chonkychicken-steals-chrome-credentials,"ChonkyChicken Malware Steals Chrome Credentials, Moves Laterally and Spies on Victims",2026-07-24T11:26:58.000Z,2026-07-24T11:51:15.184Z
-ip,76.92.245.217,https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day,Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access,2026-06-24T17:03:41.000Z,2026-07-17T04:03:24.001Z
 ip,77.110.127.205,https://cybersecuritynews.com/one-security-alert-exposed-a-genai-powered-malware-factory,"One Security Alert Exposed a GenAI-Powered Malware Factory Containing More Than 1,000 Attack Files",2026-07-21T08:57:15.000Z,2026-07-21T12:54:29.772Z
 ip,77.73.67.162:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,78.40.196.252,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-22T01:12:50.569Z
