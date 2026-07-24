@@ -425,7 +425,6 @@ filename,ledgerwallet.zip,https://cybersecuritynews.com/hackers-crack-telegram-2
 filename,legal.exe,https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-2-exploitation,Hackers Can Go From CitrixBleed 2 Exploitation to Ransomware in Under an Hour,2026-07-10T12:49:23.000Z,2026-07-17T04:03:24.001Z
 filename,lib.dll,https://cybersecuritynews.com/chaos-ransomware-turns-chrome-malware,Chaos Ransomware Turns Your Chrome and Edge Web Browser Into an Invisible Malware Command Channel,2026-07-23T16:23:32.000Z,2026-07-23T16:51:38.593Z
 filename,lib.threadpool.rb,https://cybersecuritynews.com/malicious-rubygems-developer-machines,Malicious RubyGems Turn Developer Machines Into Monero Miners and Spread Through SSH,2026-07-24T06:01:02.000Z,2026-07-24T07:50:20.618Z
-filename,libsvcs.dll,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
 filename,load.py,https://cybersecuritynews.com/asyncrat-campaign-abuses-trycloudflare-tunnels,AsyncRAT Campaign Abuses TryCloudflare Tunnels and Python Scripts for Malware Delivery,2026-07-02T17:48:17.000Z,2026-07-17T04:03:24.001Z
 filename,locker.exe,https://cybersecuritynews.com/bing-search-for-manageengine-opmanager,Bing Search for 'ManageEngine OpManager' Delivers Akira Ransomware,2026-06-30T12:56:24.000Z,2026-07-17T04:03:24.001Z
 filename,lpprem64.dll,https://cybersecuritynews.com/hackers-telegram-bots-secret-backdoor,Hackers Turn Telegram Bots Into Secret Backdoor Controllers for Government Systems,2026-07-21T05:53:05.000Z,2026-07-21T12:54:29.772Z
@@ -537,9 +536,6 @@ filename,synopsis-notify-motels.trycloudflare.com/ma.zip,https://cybersecurityne
 filename,systemsettings.dll,https://cybersecuritynews.com/hackers-use-cisco-anyconnect-and-google-update-lures,Hackers Use Cisco AnyConnect and Google Update Lures to Drop SharkLoader Malware,2026-06-25T07:48:40.000Z,2026-07-17T04:03:24.001Z
 filename,taiwan.zip,https://cybersecuritynews.com/mustang-panda-abuses-zoho-workdrive,Mustang Panda Abuses Zoho WorkDrive for Command-and-Control and Data Exfiltration,2026-06-30T10:30:10.000Z,2026-07-17T04:03:24.001Z
 filename,tasloginbase.dll,https://cybersecuritynews.com/goldeneyedog-behind-digicert-breach,GoldenEyeDog Hackers Group Behind DigiCert Breach that Hijacks Code-Signing Certificates,2026-07-20T08:21:28.000Z,2026-07-20T13:14:35.826Z
-filename,tax_assessment_0609.zip,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
-filename,tax_assessment.exe,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
-filename,tax_assessment.img,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
 filename,tax-number52563.zip,https://cybersecuritynews.com/this-2000-a-month-crypter-can-kill-edr,"This $2,000-a-Month Crypter Can Kill EDR and Make Malware Disappear From Disk",2026-07-21T17:28:06.000Z,2026-07-21T17:42:28.227Z
 filename,tax-number809863.zip,https://cybersecuritynews.com/this-2000-a-month-crypter-can-kill-edr,"This $2,000-a-Month Crypter Can Kill EDR and Make Malware Disappear From Disk",2026-07-21T17:28:06.000Z,2026-07-21T17:42:28.227Z
 filename,telepuz.dll,https://cybersecuritynews.com/clickfix-campaign-delivers-telepuz,ClickFix Campaign Delivers Modular TELEPUZ Malware With 36 Remote Commands,2026-07-20T14:20:34.000Z,2026-07-20T14:27:38.618Z
@@ -584,7 +580,6 @@ ip,103.121.91.144,https://www.ransomware.live/group/sorry,Ransomware.live - sorr
 ip,103.125.217.129:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,103.131.95.37,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-07-17T04:48:24.482Z
 ip,103.229.53.18,https://cybersecuritynews.com/kuinaextractor-uses-telegram-exfiltration,"KuinaExtractor Uses Telegram Exfiltration, UAC Bypass, and Sandbox Detection for Stealth",2026-06-26T09:40:41.000Z,2026-07-17T04:03:24.001Z
-ip,103.231.12.27,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
 ip,103.30.77.80:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,103.75.11.110,https://cybersecuritynews.com/one-malicious-oauth-approval,One Malicious OAuth Approval Can Give Hackers Persistent Access to Salesforce Data,2026-07-14T14:28:24.000Z,2026-07-17T04:03:24.001Z
 ip,103.75.11.78,https://cybersecuritynews.com/one-malicious-oauth-approval,One Malicious OAuth Approval Can Give Hackers Persistent Access to Salesforce Data,2026-07-14T14:28:24.000Z,2026-07-17T04:03:24.001Z
@@ -1350,7 +1345,6 @@ md5,3a514e164db30acdb3063eb79a23aa4f,https://www.ransomware.live/group/dragonfor
 md5,3a6e2c775c9c1060c54a9a94e80d923a,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-07-17T04:48:24.482Z
 md5,3a736252d9a7788752c4775eadb11849,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 md5,3ad44c2c507023cb2eb0d7014e73d612,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
-md5,3adcf5fca3f4fe23a9b73951e20d43bc,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
 md5,3b10127e65fa3e215d21e0a2e7fd32be,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-17T04:48:24.482Z
 md5,3b8cf25170846369215748ab0d865bef,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 md5,3bb1c26086562c4c3a6cf59954faeb30,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
@@ -1820,7 +1814,6 @@ md5,ab359be0ab33876eb32325706e43f0c1,https://www.ransomware.live/group/akira,Ran
 md5,ab6a985dbef013596ac79ca5117ef77c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 md5,ab9e577334aeb060ac402598098e13b9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 md5,abe06e90aeb9e69647efe1431f6a1a68,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
-md5,ac08e8f463e0fa4a431b74fd5d7f01a1,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
 md5,acdce16891bae1babc5b953a0c3706c5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 md5,ad15c99cc96350cb25c914b5bfb94ffe,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-17T04:48:24.482Z
 md5,ade360987f5cca7d29e9de4b8fd8fe53,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-17T04:48:24.482Z
@@ -1885,7 +1878,6 @@ md5,b97812a2e6be54e725defbab88357fa2,https://www.ransomware.live/group/dragonfor
 md5,b99bdb8880e4ef03727885ea50a4a2fc,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 md5,b9c5b973ec910da2e3474468a85515e9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 md5,b9e0b3844e46490682902fd7aa55b8d7,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
-md5,ba036fbf209b2dbdfec3fd3dee9b1798,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
 md5,ba1b8daf14851ff78f1869f1defca326,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 md5,ba2ef2f67e91d935c74c5c69627090f5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 md5,ba35a80338fbf197a323f6fe960bf7cb,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-07-17T04:48:24.482Z
@@ -1917,7 +1909,6 @@ md5,bff3fdbff0a5d4aa1c03f7982c968e54,https://www.ransomware.live/group/akira,Ran
 md5,c0193c3b51020b1504c401bb27b84bea,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-07-17T04:48:24.482Z
 md5,c01ef0d5b74ca330b77d8c1afe10af59,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-17T04:48:24.482Z
 md5,c02311bf513ebe0d1a5a1500b89021d4,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
-md5,c0796f2ee614e1711d5355ee42dcbf62,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
 md5,c0a5f20bf77fda622bc93df6caccc626,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 md5,c0a72edcd670fc46f607a89672ad65df,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 md5,c0bee5d054345131355452ef0c057697,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
@@ -2503,7 +2494,6 @@ sha256,364f1b7466d8e4c9f55294ecf1f874c763bcf980c59b0250c613ac366def6aca,https://
 sha256,36760e9bbfaf5a28ec7f85d13c7e8078a4ee4e5168b672639e97037d66eb1d17,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-07-17T04:48:24.482Z
 sha256,36ed7f9f9324b5241b9bfd93afae426b288ac5b006be7297a2984f737b26bc0b,https://cybersecuritynews.com/apt42-uses-ai-assisted-phishing-and-tamecat-malware,APT42 Uses AI-Assisted Phishing and TAMECAT Malware to Target Government and Defense Officials,2026-07-21T13:49:23.000Z,2026-07-21T13:59:46.806Z
 sha256,36f4ae11560ed34f32c927468a09a5370a5fbdcae41660f6e8d9a49330c8d059,https://cybersecuritynews.com/hackers-crack-telegram-2fa,Hackers Don’t Crack Telegram 2FA—They Copy Your Already Logged-In Session,2026-07-16T12:10:21.000Z,2026-07-17T04:03:24.001Z
-sha256,372d7d8ca222e03afa5970848cf88efa6a3bc5146d20398601285fc7eaea6735,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
 sha256,3805f299d33ef43d17a5a1040149f0e5e2d5db57ec6f03c5687ac23db1f77a30,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 sha256,3a2cd6a8e2c76c91aa04260df46a95df0e9799100d23cd32fdee9415bf1b3971,https://cybersecuritynews.com/unc1151-ghostwriter-hackers-target-belarusian-politician,UNC1151 Ghostwriter Hackers Target Belarusian Politician in Gmail Phishing Campaign,2026-06-29T09:45:54.000Z,2026-07-17T04:03:24.001Z
 sha256,3b19a82e1354ac14a3da7c840cbdd0ce50db38432d78e767b36f08e45024c23d,https://cybersecuritynews.com/trickbot-dns-traffic-hidden-channel,TrickBot Turns Ordinary DNS Traffic Into a Hidden Channel for Malware Commands,2026-07-23T11:46:47.000Z,2026-07-23T16:51:38.593Z
@@ -2526,7 +2516,6 @@ sha256,3f31aee0948d16f8d64bf6bec69a4331099993e502b11bfc56b2c0112024489d,https://
 sha256,3f797a639bc855bc6d5471f327924b62d10900ddec49b970eca6604142bbb4be,https://cybersecuritynews.com/new-windows-backdoor-mistic-enables-in-memory-code-execution,New Windows Backdoor Mistic Enables In-Memory Code Execution and Credential Theft,2026-06-30T09:17:59.000Z,2026-07-17T04:03:24.001Z
 sha256,3fae7ede2ef9c809b54504c3d78e5111d7fad0b522c707b8f6ff21015af79251,https://cybersecuritynews.com/hackers-use-rokarolla-banking-trojan-to-intercept-sms-codes,Hackers Use Rokarolla Banking Trojan to Intercept SMS Codes and Steal Crypto Credentials,2026-06-29T09:45:20.000Z,2026-07-17T04:03:24.001Z
 sha256,3fbe32d76a22bda7a8fd3cdc6faf68807108f01d74ec8b346f4c5d4b61dbc84b,https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package,A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results,2026-07-22T13:00:54.000Z,2026-07-22T22:29:05.979Z
-sha256,3fe29bf7e2c391d5405f8c6947cc42a6ec356fcf8455ce705dc23a156f5b450a,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
 sha256,4066781fa830224c8bbcc3aa005a396657f9c8f9016f9a64ad44a9d7f5f45e34,https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools,FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks,2026-07-03T12:24:04.000Z,2026-07-17T04:03:24.001Z
 sha256,41d77fef030b8515efb068defed5e15c14fbebd16259253f1f79febd6e12ebcb,https://cybersecuritynews.com/hackers-crack-telegram-2fa,Hackers Don’t Crack Telegram 2FA—They Copy Your Already Logged-In Session,2026-07-16T12:10:21.000Z,2026-07-17T04:03:24.001Z
 sha256,420f1931af9b3f7d02c5edfc78eb69abdad6e71d2c3e9b81f9cbc3823a503654,https://cybersecuritynews.com/new-giftedcrook-chain-abuses-winrar-ads,New GIFTEDCROOK Chain Abuses WinRAR ADS and Reflective Loading to Steal Browser Data,2026-06-26T12:43:11.000Z,2026-07-17T04:03:24.001Z
@@ -2549,7 +2538,6 @@ sha256,49c827cf48efb122a9d6fd87b426482b7496ccd4a2dbca31ebbf6b2b80c98530,https://
 sha256,49fcbd606ff10d4661e222b8910ab7829d1668e3c97f1bab7eb51e8ec7d799a5,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-07-17T04:48:24.482Z
 sha256,4a0aa78757958683155a7b9289427fb829abcad1bf5ee6399eb73e8409b0bc11,https://cybersecuritynews.com/miasma-malware-uses-binding-gyp-and-bun,Miasma Malware Uses binding.gyp and Bun to Execute Hidden Payloads in npm Packages,2026-06-26T08:48:48.000Z,2026-07-17T04:03:24.001Z
 sha256,4b188d179e50e8208a6efec85e273e88d8fc390c836f299ba12915e0840408fd,https://cybersecuritynews.com/150-npm-packages-promises-wi-fi-bypass-students,150+ npm Packages Promise Wi-Fi Bypass for Students Using Their Systems for DDoS Attacks,2026-07-14T08:38:07.000Z,2026-07-17T04:03:24.001Z
-sha256,4b5405d9acd00dd9225ffcec840a1752951be801d20ee1cab4ebde9ccd96916a,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
 sha256,4b7b35b921d7615b7a82a42c379560d1b0c5a74c81311a269874195ba2744f2d,https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page,ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers,2026-07-08T21:23:03.000Z,2026-07-17T04:03:24.001Z
 sha256,4b80681cd444cf9679d7e4d715489f6ddbe4580a9d110bd1952e54e8193afefd,https://cybersecuritynews.com/unc1151-ghostwriter-hackers-target-belarusian-politician,UNC1151 Ghostwriter Hackers Target Belarusian Politician in Gmail Phishing Campaign,2026-06-29T09:45:54.000Z,2026-07-17T04:03:24.001Z
 sha256,4c9f271242f61f1a31b8146305e9a7ed512c521445d4f7a7a901e301307add3d,https://cybersecuritynews.com/lokibot-campaign-uses-jscript-attachment,"LokiBot Campaign Uses JScript Attachment, .NET Injector, and Process Injection to Steal Credentials",2026-06-25T13:26:53.000Z,2026-07-17T04:03:24.001Z
@@ -2902,7 +2890,6 @@ sha256,f565988f281bf77bcad26ea7f543617e53da4b62f5df63d4f7a89bae1729cf81,https://
 sha256,f57e010541fb4ccbf23aefc4a827f753a6ff3f8792d9c04c3eea83f6963c6bae,https://cybersecuritynews.com/anydesk-phishing-attack-uses-scheduled-task-persistence,AnyDesk Phishing Attack Uses Scheduled Task Persistence and Artifact Deletion to Evade Detection,2026-07-07T15:17:32.000Z,2026-07-17T04:03:24.001Z
 sha256,f591275a8f014b29e567529d67c54eb7bb4473db1c38737d6bfd5b3d52c9344e,https://cybersecuritynews.com/new-windows-backdoor-mistic-enables-in-memory-code-execution,New Windows Backdoor Mistic Enables In-Memory Code Execution and Credential Theft,2026-06-30T09:17:59.000Z,2026-07-17T04:03:24.001Z
 sha256,f5c6434ee5f7578faa3bc1257e1c9226c019797a00fd56edb1f468ac0a598510,https://cybersecuritynews.com/armored-likho-apt-uses-ai-generated-loaders,Armored Likho APT Uses AI-Generated Loaders to Deploy BusySnake Stealer Against Government Targets,2026-07-13T10:12:16.000Z,2026-07-17T04:03:24.001Z
-sha256,f5dc1016679f54f2be22da0ff6642046f7a943410c188514b96c28d8a3b95e12,https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware,Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users,2026-06-24T15:59:49.000Z,2026-07-17T04:03:24.001Z
 sha256,f622ed85ef31ad4ab973f4e74524866fe1bb44f0965ad2b2ad796cd657a05bfd,https://cybersecuritynews.com/gigawiper-malware-attacking-windows-systems,GigaWiper Malware Attacking Windows Systems With Data Wipers and Fake Ransomware Notices,2026-07-10T08:55:26.000Z,2026-07-17T04:03:24.001Z
 sha256,f63d293e117cae1d0a6c24359fc1361a9dc48178049cc6491051b09268c8c39c,https://cybersecuritynews.com/hackers-disable-defender-sysmon,"Hackers Disable Defender, Sysmon, and WAF Before Dumping Credentials With Mimikatz",2026-07-02T10:15:14.000Z,2026-07-17T04:03:24.001Z
 sha256,f67de637fca127212dc60b9a02f74e66dbd602b3b9f6f6e4f2b75614c1f9e944,https://cybersecuritynews.com/goldeneyedog-behind-digicert-breach,GoldenEyeDog Hackers Group Behind DigiCert Breach that Hijacks Code-Signing Certificates,2026-07-20T08:21:28.000Z,2026-07-20T13:14:35.826Z
