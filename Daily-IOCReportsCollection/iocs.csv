@@ -624,6 +624,7 @@ ip,104.238.57.233:80,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,104.238.57.44:56099,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,104.238.57.44:64598,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,104.238.60.168:2602,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
+ip,104.243.35.63,https://cybersecuritynews.com/cl0p-hackers-exploit-windchill,Cl0p Hackers Exploit Windchill Servers to Steal Companies’ Secret Product Designs,2026-07-24T13:05:36.000Z,2026-07-24T13:51:36.979Z
 ip,104.244.75.168,https://www.ransomware.live/group/blacksuit,Ransomware.live - blacksuit,,2026-07-17T04:48:24.482Z
 ip,104.36.229.149:28333,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,104.36.229.149:5168,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
@@ -856,6 +857,8 @@ ip,212.224.107.203,https://www.ransomware.live/group/anubis,Ransomware.live - an
 ip,212.8.248.104,https://cybersecuritynews.com/gigawiper-malware-attacking-windows-systems,GigaWiper Malware Attacking Windows Systems With Data Wipers and Fake Ransomware Notices,2026-07-10T08:55:26.000Z,2026-07-17T04:03:24.001Z
 ip,212.86.125.24,https://cybersecuritynews.com/one-malicious-oauth-approval,One Malicious OAuth Approval Can Give Hackers Persistent Access to Salesforce Data,2026-07-14T14:28:24.000Z,2026-07-17T04:03:24.001Z
 ip,213.111.148.90,https://cybersecuritynews.com/one-malicious-oauth-approval,One Malicious OAuth Approval Can Give Hackers Persistent Access to Salesforce Data,2026-07-14T14:28:24.000Z,2026-07-17T04:03:24.001Z
+ip,216.152.148.54,https://cybersecuritynews.com/cl0p-hackers-exploit-windchill,Cl0p Hackers Exploit Windchill Servers to Steal Companies’ Secret Product Designs,2026-07-24T13:05:36.000Z,2026-07-24T13:51:36.979Z
+ip,216.152.151.204,https://cybersecuritynews.com/cl0p-hackers-exploit-windchill,Cl0p Hackers Exploit Windchill Servers to Steal Companies’ Secret Product Designs,2026-07-24T13:05:36.000Z,2026-07-24T13:51:36.979Z
 ip,216.181.107.134:41296,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,216.219.94.99:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,216.250.112.100,https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page,ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers,2026-07-08T21:23:03.000Z,2026-07-17T04:03:24.001Z
@@ -952,6 +955,7 @@ ip,45.86.229.111,https://cybersecuritynews.com/hackers-exploit-roundcube-n-day-f
 ip,45.86.230.112,https://cybersecuritynews.com/gentlemen-ransomware-global-attacks,Gentlemen Ransomware Expands Global Attack Campaigns,2026-07-07T16:23:11.000Z,2026-07-17T04:03:24.001Z
 ip,45.95.175.213:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,46.17.42.64,https://www.ransomware.live/group/cephalus,Ransomware.live - cephalus,,2026-07-17T04:48:24.482Z
+ip,5.180.41.35,https://cybersecuritynews.com/cl0p-hackers-exploit-windchill,Cl0p Hackers Exploit Windchill Servers to Steal Companies’ Secret Product Designs,2026-07-24T13:05:36.000Z,2026-07-24T13:51:36.979Z
 ip,5.181.156.168,https://cybersecuritynews.com/ghostshell-malware-uses-mtls-implant-and-telegram-dead-drop,GhostShell Malware Uses mTLS Implant and Telegram Dead-Drop to Target Ukrainian Drone Operations,2026-06-24T14:31:59.000Z,2026-07-17T04:03:24.001Z
 ip,5.187.48.26:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,5.189.149.171,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-07-17T04:48:24.482Z
@@ -2584,6 +2588,7 @@ sha256,526287a40aad1b218228cdd1f459ad3b93f858585048347644d597c6ab19515a,https://
 sha256,54218a8f2d1acc5d1beb576b970bb5333a4b78b05493754d2d1457ebf22a0ac1,https://cybersecuritynews.com/ghostshell-malware-uses-mtls-implant-and-telegram-dead-drop,GhostShell Malware Uses mTLS Implant and Telegram Dead-Drop to Target Ukrainian Drone Operations,2026-06-24T14:31:59.000Z,2026-07-17T04:03:24.001Z
 sha256,554f1aefeb698995501751328c2f9fe93f02a680679fba3dd15f1ed93d46bf1b,https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page,ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers,2026-07-08T21:23:03.000Z,2026-07-17T04:03:24.001Z
 sha256,5562246e38f8935ba8b07350e6aaa44bc22abf37b77f49836fde5999f4b61cf1,https://cybersecuritynews.com/millenium-rat-rewritten-in-c,"Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",2026-06-29T09:46:16.000Z,2026-07-17T04:03:24.001Z
+sha256,55a1eb4c2d3da04376df39d7ba832569c6af1a37a0cf2b95f754ac898023a30c,https://cybersecuritynews.com/cl0p-hackers-exploit-windchill,Cl0p Hackers Exploit Windchill Servers to Steal Companies’ Secret Product Designs,2026-07-24T13:05:36.000Z,2026-07-24T13:51:36.979Z
 sha256,566ef5484da0a93c87dd0cb0a950a7cff4ab013175289cd5fccf9dd7ea430739,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 sha256,566f4bfdfea54129b8528d50cae187a9030e2f2787749add4b0db22ac35ea581,https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page,ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers,2026-07-08T21:23:03.000Z,2026-07-17T04:03:24.001Z
 sha256,57307ee8a3cda10730eacecaf789fab6f8771f9d29397e07c31a6bd4551bba10,https://cybersecuritynews.com/hackers-use-rokarolla-banking-trojan-to-intercept-sms-codes,Hackers Use Rokarolla Banking Trojan to Intercept SMS Codes and Steal Crypto Credentials,2026-06-29T09:45:20.000Z,2026-07-17T04:03:24.001Z
