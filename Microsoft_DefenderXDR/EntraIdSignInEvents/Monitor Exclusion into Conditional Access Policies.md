@@ -22,7 +22,7 @@ The aim of this case is to identify:
 - Identify unexpected exclusions, which could mean an attacker got in and excluded themselves to bypass CA controls
   
 ```
-AADSignInEventsBeta
+EntraIdSignInEvents
 | extend ca = todynamic(tostring(ConditionalAccessPolicies))
 | mv-expand Policies = parse_json(ConditionalAccessPolicies)
 | extend PolicyName = tostring(Policies.displayName),
