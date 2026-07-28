@@ -15,7 +15,7 @@ The following KQL queries will help you to detect remaining connections using th
 
 
 ```
-AADSignInEventsBeta
+EntraIdSignInEvents
 | where ErrorCode == "0"
 | where Timestamp > ago(7d)
 | where ClientAppUsed in ("Exchange ActiveSync", "Exchange Web Services", "AutoDiscover", "Unknown", "POP3", "IMAP4", "Other clients", "Authenticated SMTP", "MAPI Over HTTP", "Offline Address Book")
