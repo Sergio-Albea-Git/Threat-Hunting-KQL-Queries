@@ -13,7 +13,7 @@
 **Description:**  This query identifies Azure AD sign-ins that are using legacy TLS versions (below TLS 1.2). It highlights the accounts, devices, and applications involved, providing visibility into insecure protocol usage. Tracking these events helps detect weak encryption risks and enables proactive remediation to enforce modern, secure standards. 
 
 ```
-AADSignInEventsBeta
+EntraIdSignInEvents
 | where ErrorCode == 0
 | mv-apply d = parse_json(AuthenticationProcessingDetails) on (
     extend key = tostring(d.key), value = tostring(d.value)
