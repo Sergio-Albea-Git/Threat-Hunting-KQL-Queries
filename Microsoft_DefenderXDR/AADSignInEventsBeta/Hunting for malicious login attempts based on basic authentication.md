@@ -16,7 +16,7 @@ Microsoft discourages the use of ROPC and Basic Authentication in favor of more 
 
 
 ```
-AADSignInEventsBeta
+EntraIdSignInEvents
 | where UserAgent  has "BAV2ROPC" or UserAgent has "AConsumerV2ROPC"
 | where AuthenticationRequirement has "singleFactorAuthentication"
 | distinct  Application, EndpointCall, ErrorCode, AuthenticationRequirement, UserAgent, ClientAppUsed, IPAddress , Country
