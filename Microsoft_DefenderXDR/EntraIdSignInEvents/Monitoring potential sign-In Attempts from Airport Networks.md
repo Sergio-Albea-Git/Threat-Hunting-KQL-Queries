@@ -15,7 +15,7 @@ In addition, this information can help to identify travelling users, which can e
 
 ```
 let Airport_Data = externaldata(AirportName:string, maxLatitude: decimal, minLatitude:decimal, maxLongitude:decimal, minLongitude:decimal,iata:string, country: string,maxlatindicator:int)[@"https://raw.githubusercontent.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries/refs/heads/main/Security-Lists/Airport_polygon.csv"] with (format="csv", ignoreFirstRecord=True);
-AADSignInEventsBeta
+EntraIdSignInEvents
 | extend Latitude0 = todecimal(Latitude), Longitude0 = todecimal(Longitude)
 | extend IntegerPart = toint(Latitude0)
 | join kind=inner   (Airport_Data) on $left.IntegerPart == $right.maxlatindicator
