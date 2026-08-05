@@ -111,7 +111,6 @@ domain,router.bittorrent.com,https://cybersecuritynews.com/asyncapi-npm-packages
 domain,rpc-mainnet.matic.quiknode.pro,https://cybersecuritynews.com/fake-ai-tool-campaign,Fake AI Tool Campaign Turns Developer Interest Into Enterprise Initial Access,2026-08-04T09:12:20.000Z,2026-08-04T09:35:11.656Z
 domain,s.orove.cn,https://cybersecuritynews.com/a-leaked-android-rat,A Leaked Android RAT Is Powering 170 Servers and Its Successor Is Already Online,2026-07-29T10:59:33.000Z,2026-07-29T11:55:21.671Z
 domain,s2.adform.net,https://cybersecuritynews.com/adform-advertising-platform-compromised,Hackers Turned a Trusted Advertising Platform Into a Crypto-Stealer Delivery Network,2026-08-01T12:13:57.000Z,2026-08-02T10:01:58.969Z
-domain,shengan-light.com.tw,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-17T04:03:24.001Z
 domain,skt.3n7wj.com,https://cybersecuritynews.com/redhook-android-rat-abuses-adb-wireless-debugging,RedHook Android RAT Abuses ADB Wireless Debugging to Gain Shell-Level Access,2026-07-09T18:17:01.000Z,2026-07-17T04:03:24.001Z
 domain,sktv.3n7wj.com,https://cybersecuritynews.com/redhook-android-rat-abuses-adb-wireless-debugging,RedHook Android RAT Abuses ADB Wireless Debugging to Gain Shell-Level Access,2026-07-09T18:17:01.000Z,2026-07-17T04:03:24.001Z
 domain,ssl.blsouqs.com,https://cybersecuritynews.com/bindcloak-steals-windows-tokens,BINDCLOAK Steals Windows User and Process Tokens to Run Malware With Higher Privileges,2026-08-04T08:51:36.000Z,2026-08-04T09:35:11.656Z
@@ -748,8 +747,6 @@ ip,175.110.121.41,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-pl
 ip,175.110.121.42,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T08:37:52.040Z
 ip,176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-17T04:48:24.482Z
 ip,176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-17T04:48:24.482Z
-ip,176.114.8.101,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-17T04:03:24.001Z
-ip,176.114.8.90,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-17T04:03:24.001Z
 ip,176.65.141.201,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-07-17T04:48:24.482Z
 ip,176.97.75.205:8015,https://www.ransomware.live/group/bashe,Ransomware.live - bashe,,2026-07-17T04:48:24.482Z
 ip,178.128.108.89,https://cybersecuritynews.com/opsec-mistake-exposed-triback-malware,Hackers’ OPSEC Mistake Exposed a Global Espionage Campaign and Its New TriBack Malware,2026-07-23T15:28:29.000Z,2026-07-23T16:51:38.593Z
@@ -789,9 +786,6 @@ ip,185.241.5.217:8081,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,185.242.246.169,https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page,ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers,2026-07-08T21:23:03.000Z,2026-07-17T04:03:24.001Z
 ip,185.243.112.167:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,185.247.185.85,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T06:42:25.304Z
-ip,185.252.24.52,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-17T04:03:24.001Z
-ip,185.252.24.74,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-17T04:03:24.001Z
-ip,185.252.24.78,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-17T04:03:24.001Z
 ip,185.28.119.50:5415,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,185.45.193.151,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T10:17:16.024Z
 ip,185.62.1.8,https://cybersecuritynews.com/hackers-turning-ai-gateways-as-attack,Hackers are Turning AI Gateways as Attack Surfaces to Compromise Enterprise Networks,2026-07-10T11:56:18.000Z,2026-07-17T04:03:24.001Z
@@ -832,7 +826,6 @@ ip,193.37.69.162,https://www.ransomware.live/group/vanhelsing,Ransomware.live - 
 ip,193.37.69.225,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-07-17T04:48:24.482Z
 ip,193.42.33.51,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T11:44:56.817Z
 ip,193.43.104.153,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-07-17T04:48:24.482Z
-ip,194.156.79.122,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-17T04:03:24.001Z
 ip,194.213.18.133,https://cybersecuritynews.com/hackers-exploit-roundcube-n-day-flaws,Hackers Exploit Roundcube N-Day Flaws to Steal Credentials and Deploy VShell,2026-07-08T08:56:07.000Z,2026-07-17T04:03:24.001Z
 ip,194.213.18.137,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T08:37:52.040Z
 ip,194.213.18.181:16963,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
@@ -903,7 +896,6 @@ ip,220.205.123.186,https://www.ransomware.live/group/sorry,Ransomware.live - sor
 ip,223.26.63.56,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,23.133.4.108,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-17T04:03:24.001Z
 ip,23.133.4.109,https://cybersecuritynews.com/goodpersonrat-uses-fake-letsvpn-installer,GoodPersonRAT Uses Fake LetsVPN Installer to Give Attackers Full Remote Control,2026-07-09T08:57:11.000Z,2026-07-17T04:03:24.001Z
-ip,23.164.48.21,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-17T04:03:24.001Z
 ip,23.224.4.114,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-02T10:01:58.969Z
 ip,23.226.57.50,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T11:58:41.259Z
 ip,23.227.198.237:13937,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
@@ -1112,7 +1104,6 @@ ip,84.201.6.21,https://cybersecuritynews.com/hackers-are-using-fake-crypto-walle
 ip,84.32.102.230,https://cybersecuritynews.com/adform-advertising-platform-compromised,Hackers Turned a Trusted Advertising Platform Into a Crypto-Stealer Delivery Network,2026-08-01T12:13:57.000Z,2026-08-02T10:01:58.969Z
 ip,85.137.253.48,https://cybersecuritynews.com/a-leaked-android-rat,A Leaked Android RAT Is Powering 170 Servers and Its Successor Is Already Online,2026-07-29T10:59:33.000Z,2026-07-29T11:55:21.671Z
 ip,85.137.53.71,https://cybersecuritynews.com/asyncapi-npm-packages-with-2m-weekly-downloads,AsyncAPI npm Packages With 2M Weekly Downloads Compromised via GitHub Actions,2026-07-14T15:30:07.000Z,2026-07-17T04:03:24.001Z
-ip,85.17.40.98,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-17T04:03:24.001Z
 ip,85.206.161.241,https://cybersecuritynews.com/macsync-uses-fake-claude-guide,MacSync macOS Stealer Uses Fake Claude Guide to Steal Passwords and Crypto Wallets,2026-08-03T07:07:18.000Z,2026-08-03T07:08:29.665Z
 ip,85.209.11.49,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-17T04:48:24.482Z
 ip,85.235.151.5:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
@@ -1153,8 +1144,6 @@ ip,89.38.225.185:443,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,89.46.235.60:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,90.156.224.57,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T06:42:25.304Z
 ip,91.108.106.229,https://cybersecuritynews.com/xcsset-v40-abuses-chrome-devtools,XCSSET v40 Abuses Chrome DevTools Protocol to Steal Cookies and Run Commands,2026-08-03T08:19:33.000Z,2026-08-03T09:08:51.978Z
-ip,91.108.82.101,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-17T04:03:24.001Z
-ip,91.108.82.73,https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains,RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks,2026-07-06T11:21:11.000Z,2026-07-17T04:03:24.001Z
 ip,91.236.230.33:6399,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,91.236.230.33:6400,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,91.245.255.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
