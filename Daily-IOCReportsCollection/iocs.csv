@@ -1,5 +1,4 @@
 type,value,source_url,source_title,article_published_at,first_seen
-domain,52facc3b24f8bad9c5c56819e385f3a1.testewin.com,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-17T04:03:24.001Z
 domain,638uneconomical.birchibase.co.nl,https://cybersecuritynews.com/greatness-phaas,Greatness PhaaS Bypasses Email Security and MFA to Hijack Microsoft 365 Accounts,2026-08-05T14:51:03.000Z,2026-08-05T16:53:22.815Z
 domain,a2.cdnresolver.com,https://cybersecuritynews.com/fake-recruiter-web3-developers,Fake Recruiters Target Web3 Developers Through Trusted Bitbucket and npm Workflows,2026-07-29T12:05:36.000Z,2026-07-29T12:55:31.678Z
 domain,aborters.duckdns.org,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T11:44:56.817Z
@@ -22,13 +21,11 @@ domain,backend.thedolphinx.top,https://cybersecuritynews.com/new-dolphin-x-malwa
 domain,blog.derrspecial-onlinedmin.live,https://cybersecuritynews.com/smokescreen-campaign,SMOKE#SCREEN Campaign Abuses ScreenConnect RMM and Cloudflare Tunnels to Hijack Windows and macOS Systems,2026-08-05T12:33:03.000Z,2026-08-05T13:17:43.952Z
 domain,bsc-dataseed.binance.org,https://cybersecuritynews.com/hijacked-joyfill-npm-packages-worm-like-rat,Hijacked Joyfill npm Packages Deploy Worm-Like RAT and Steal Developer Credentials,2026-07-29T14:40:36.000Z,2026-07-29T14:55:51.148Z
 domain,bsc-rpc.publicnode.com,https://cybersecuritynews.com/hijacked-joyfill-npm-packages-worm-like-rat,Hijacked Joyfill npm Packages Deploy Worm-Like RAT and Steal Developer Credentials,2026-07-29T14:40:36.000Z,2026-07-29T14:55:51.148Z
-domain,c.windowns-cdn.com,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-17T04:03:24.001Z
 domain,c2.saintpetersburgresident.ru,https://cybersecuritynews.com/dysphoria-botnet-infects-iot-devices,"Dysphoria Botnet Infects 200,000 IoT Devices and Hides C2 Behind Blockchain Domains",2026-07-28T08:17:37.000Z,2026-07-28T09:01:00.488Z
 domain,caliber-spinner-finishing.ngrok-free.dev,https://cybersecuritynews.com/hackers-use-fake-paysafe-skrill-and-neteller-packages,"Hackers Use Fake Paysafe, Skrill, and Neteller Packages to Harvest API Keys and Tokens",2026-07-09T15:12:08.000Z,2026-07-17T04:03:24.001Z
 domain,captcha.kanfetka.site,https://cybersecuritynews.com/new-tuxbot-v3-iot-botnet-uses-llm-generated-code,New TuxBot v3 IoT Botnet Uses LLM-Generated Code to Hijack Devices and Launch DDoS Attacks,2026-07-16T08:29:11.000Z,2026-07-17T04:03:24.001Z
 domain,careldutoit-el.co.za,https://cybersecuritynews.com/top-10-phishing-kits-used-by-hackers,"Top 10 Phishing Kits Used by Hackers to Launch Cyberattacks (July 20-26, 2026)",2026-07-28T17:40:32.000Z,2026-07-28T18:02:50.370Z
 domain,cdn.conditionfuneral.com,https://cybersecuritynews.com/150-npm-packages-promises-wi-fi-bypass-students,150+ npm Packages Promise Wi-Fi Bypass for Students Using Their Systems for DDoS Attacks,2026-07-14T08:38:07.000Z,2026-07-17T04:03:24.001Z
-domain,cdn.testewin.com,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-17T04:03:24.001Z
 domain,cert.hypersnet.com,https://cybersecuritynews.com/hackers-telegram-bots-secret-backdoor,Hackers Turn Telegram Bots Into Secret Backdoor Controllers for Government Systems,2026-07-21T05:53:05.000Z,2026-07-21T12:54:29.772Z
 domain,check.torproject.org,https://cybersecuritynews.com/hackers-compromised-jscrambler,"Hackers Compromised jscrambler With 15,800+ Weekly Downloads to Attack Developers",2026-07-13T09:30:28.000Z,2026-07-17T04:03:24.001Z
 domain,claude.ai.download-app.us,https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads,FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users,2026-07-24T11:54:18.000Z,2026-07-24T12:51:24.527Z
@@ -371,7 +368,6 @@ filename,c:\programdata\update_ms.msi,https://cybersecuritynews.com/chaos-ransom
 filename,c:\users\admin\appdata\roaming\xworm.exe,https://cybersecuritynews.com/malware-used-by-hackers-last-week,Top 10 Malware’s used by Hackers Last Week to Launch Cyberattacks,2026-07-21T13:22:54.000Z,2026-07-21T13:59:46.806Z
 filename,c:\users\public\documents\wxfun.dll,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T11:58:41.259Z
 filename,c5.exe,https://cybersecuritynews.com/a-two-minute-microsoft-teams-call,A Two-Minute Microsoft Teams Call Could End With Your Network Encrypted With Ransomware,2026-07-30T08:44:29.000Z,2026-07-30T09:25:55.214Z
-filename,c9dba5b0552d.vbs,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-17T04:03:24.001Z
 filename,callsoul.exe,https://cybersecuritynews.com/fake-recruiter-web3-developers,Fake Recruiters Target Web3 Developers Through Trusted Bitbucket and npm Workflows,2026-07-29T12:05:36.000Z,2026-07-29T12:55:31.678Z
 filename,chromelevator.ocx,https://cybersecuritynews.com/chonkychicken-steals-chrome-credentials,"ChonkyChicken Malware Steals Chrome Credentials, Moves Laterally and Spies on Victims",2026-07-24T11:26:58.000Z,2026-07-24T11:51:15.184Z
 filename,chromepass.exe,https://cybersecuritynews.com/goddamn-ransomware-rebrands-from-beast,GodDamn Ransomware Rebrands From Beast and Uses PoisonX Driver to Disable Defenses,2026-07-09T19:18:57.000Z,2026-07-17T04:03:24.001Z
@@ -420,7 +416,6 @@ filename,exp6.exe,https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-
 filename,exsym.exe,https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-2-exploitation,Hackers Can Go From CitrixBleed 2 Exploitation to Ransomware in Under an Hour,2026-07-10T12:49:23.000Z,2026-07-17T04:03:24.001Z
 filename,extension.js,https://cybersecuritynews.com/77-evil-twin-open-vsx-extensions,77 Evil Twin Open VSX Extensions Exfiltrate Private Git Repository and CI Data,2026-08-05T14:05:55.000Z,2026-08-05T14:17:53.472Z
 filename,farmauthnative.dll,https://cybersecuritynews.com/microsoft-sharepoint-vulnerabilities,"Microsoft SharePoint Vulnerabilities Actively Exploited for RCE, Web Shells, and IIS Key Theft",2026-07-20T10:57:37.000Z,2026-07-20T13:14:35.826Z
-filename,fatura-btgpactual-22568.bat,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-17T04:03:24.001Z
 filename,financial_report.bat,https://cybersecuritynews.com/email-phishing-threats-as-teams-vishing-attacks,Microsoft Detects 7.6 Billion Email Phishing Threats as Teams Vishing Attacks Increases 10-Fold,2026-07-24T07:36:11.000Z,2026-07-24T07:50:20.618Z
 filename,flashplay.exe,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T11:58:41.259Z
 filename,fofaapi.py,https://cybersecuritynews.com/deepseek-powered-hermes-agent,DeepSeek-Powered Hermes Agent Launches Autonomous Cyberattacks Against Exposed Servers,2026-07-31T09:22:22.000Z,2026-07-31T09:56:26.540Z
@@ -471,7 +466,6 @@ filename,menu\programs\startup\xworm.exe,https://cybersecuritynews.com/malware-u
 filename,mercy-synopsis-notify-motels.trycloudflare.com/ma.zip,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T11:44:56.817Z
 filename,miasma-monitor.service,https://cybersecuritynews.com/miasma-turns-trusted-npm-packages-into-persistent-backdoors,Miasma Turns Trusted npm Packages Into Persistent Backdoors for Developer Machines,2026-07-14T15:11:46.000Z,2026-07-17T04:03:24.001Z
 filename,microsoftedgeupdate.exe,https://cybersecuritynews.com/silverfox-hijacks-trusted-software,SilverFox Hijacks Trusted Software and Kernel Drivers to Disable Security Tools,2026-08-06T18:52:20.000Z,2026-08-06T19:23:29.854Z
-filename,microsoftedgeupdatecore.exe,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-17T04:03:24.001Z
 filename,microsofttoolkit.exe,https://cybersecuritynews.com/malware-used-by-hackers-last-week,Top 10 Malware’s used by Hackers Last Week to Launch Cyberattacks,2026-07-21T13:22:54.000Z,2026-07-21T13:59:46.806Z
 filename,midnight.exe,https://cybersecuritynews.com/a-two-minute-microsoft-teams-call,A Two-Minute Microsoft Teams Call Could End With Your Network Encrypted With Ransomware,2026-07-30T08:44:29.000Z,2026-07-30T09:25:55.214Z
 filename,mimik.exe,https://cybersecuritynews.com/goddamn-ransomware-rebrands-from-beast,GodDamn Ransomware Rebrands From Beast and Uses PoisonX Driver to Disable Defenses,2026-07-09T19:18:57.000Z,2026-07-17T04:03:24.001Z
@@ -711,7 +705,6 @@ ip,147.45.237.231,https://cybersecuritynews.com/standoff-hides-traffic,Operation
 ip,147.45.51.191,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 ip,147.78.47.250,https://cybersecuritynews.com/top-10-phishing-kits-used-by-hackers,"Top 10 Phishing Kits Used by Hackers to Launch Cyberattacks (July 20-26, 2026)",2026-07-28T17:40:32.000Z,2026-07-28T18:02:50.370Z
 ip,148.230.76.66,https://cybersecuritynews.com/remus-hides-its-command-server,Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults,2026-08-06T12:22:19.000Z,2026-08-06T13:21:32.613Z
-ip,149.56.12.51,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-17T04:03:24.001Z
 ip,150.158.50.175,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T11:58:41.259Z
 ip,150.171.30.10,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-17T04:48:24.482Z
 ip,151.236.16.144:64250,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
@@ -873,7 +866,6 @@ ip,195.201.21.34,https://www.ransomware.live/group/interlock,Ransomware.live - i
 ip,195.230.23.91:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,195.63.140.33,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-22T01:12:50.569Z
 ip,198.105.127.210,https://cybersecuritynews.com/hijacked-joyfill-npm-packages-worm-like-rat,Hijacked Joyfill npm Packages Deploy Worm-Like RAT and Steal Developer Credentials,2026-07-29T14:40:36.000Z,2026-07-29T14:55:51.148Z
-ip,198.245.53.26,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-17T04:03:24.001Z
 ip,199.232.210.172,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-17T04:48:24.482Z
 ip,2.24.131.246,https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads,FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users,2026-07-24T11:54:18.000Z,2026-07-24T12:51:24.527Z
 ip,20.101.57.9,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-17T04:48:24.482Z
@@ -1626,7 +1618,6 @@ md5,51c6124113221d1bf27e21c6fbbd1a97,https://www.ransomware.live/group/trigona,R
 md5,5222a31cf24f9f57ae3d1831f264a983,https://cybersecuritynews.com/opsec-mistake-exposed-triback-malware,Hackers’ OPSEC Mistake Exposed a Global Espionage Campaign and Its New TriBack Malware,2026-07-23T15:28:29.000Z,2026-07-23T16:51:38.593Z
 md5,523c501118ef5d7957ce54aee86d9b1d,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-07-17T04:48:24.482Z
 md5,527142e25a8229d1dc910af23cdb5256,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T11:44:56.817Z
-md5,52facc3b24f8bad9c5c56819e385f3a1,https://cybersecuritynews.com/banana-rat-uses-exposed-payload-generator,Banana RAT Uses Exposed Payload Generator to Create Polymorphic Banking Malware Variants,2026-07-08T14:44:56.000Z,2026-07-17T04:03:24.001Z
 md5,5334cbddd1128f87308c0725d2cb012e,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-07-17T04:48:24.482Z
 md5,53465ddd5d3d663cbb11538a4eb4ea94,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-17T04:48:24.482Z
 md5,538c61b8d943a62f5978ac69e44f9c11,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-17T04:48:24.482Z
