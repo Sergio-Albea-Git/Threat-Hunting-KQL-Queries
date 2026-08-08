@@ -60,8 +60,6 @@ domain,file.rightwidth.dev,https://cybersecuritynews.com/north-korean-hackers-ot
 domain,file.wx2.qq.com,https://cybersecuritynews.com/silverfox-hijacks-trusted-software,SilverFox Hijacks Trusted Software and Kernel Drivers to Disable Security Tools,2026-08-06T18:52:20.000Z,2026-08-07T00:27:41.648Z
 domain,fileportalshare.netlify.app,https://cybersecuritynews.com/apt42-uses-ai-assisted-phishing-and-tamecat-malware,APT42 Uses AI-Assisted Phishing and TAMECAT Malware to Target Government and Defense Officials,2026-07-21T13:49:23.000Z,2026-07-21T15:24:13.035Z
 domain,fullnode.mainnet.aptoslabs.com,https://cybersecuritynews.com/hijacked-joyfill-npm-packages-worm-like-rat,Hijacked Joyfill npm Packages Deploy Worm-Like RAT and Steal Developer Credentials,2026-07-29T14:40:36.000Z,2026-07-29T15:33:05.032Z
-domain,gateway.filen.io,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
-domain,gateway.filen.net,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 domain,gginfluence.influencesite.ru,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T08:03:03.540Z
 domain,global.turn.twilio.com,https://cybersecuritynews.com/chaos-ransomware-turns-chrome-malware,Chaos Ransomware Turns Your Chrome and Edge Web Browser Into an Invisible Malware Command Channel,2026-07-23T16:23:32.000Z,2026-07-23T17:03:22.024Z
 domain,go.getblock.io,https://cybersecuritynews.com/shai-hulud-chaindrop-worm-backdoors,Shai-Hulud CHAINDROP Worm Backdoors 400+ npm Packages With 1.3 Billion Monthly Downloads,2026-08-07T07:26:08.000Z,2026-08-07T08:36:46.541Z
@@ -394,7 +392,6 @@ filename,dist/intro.js,https://cybersecuritynews.com/hackers-compromised-jscramb
 filename,dist/setup.js,https://cybersecuritynews.com/hackers-compromised-jscrambler,"Hackers Compromised jscrambler With 15,800+ Weekly Downloads to Attack Developers",2026-07-13T09:30:28.000Z,2026-07-13T15:32:10.717Z
 filename,dizzy.exe,https://cybersecuritynews.com/a-two-minute-microsoft-teams-call,A Two-Minute Microsoft Teams Call Could End With Your Network Encrypted With Ransomware,2026-07-30T08:44:29.000Z,2026-07-30T14:53:06.968Z
 filename,dlrtygames.exe,https://cybersecuritynews.com/one-security-alert-exposed-a-genai-powered-malware-factory,"One Security Alert Exposed a GenAI-Powered Malware Factory Containing More Than 1,000 Attack Files",2026-07-21T08:57:15.000Z,2026-07-21T13:01:58.391Z
-filename,dnxstore.dll,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 filename,document.pdf.lnk,https://cybersecuritynews.com/apt42-uses-ai-assisted-phishing-and-tamecat-malware,APT42 Uses AI-Assisted Phishing and TAMECAT Malware to Target Government and Defense Officials,2026-07-21T13:49:23.000Z,2026-07-21T15:24:13.035Z
 filename,docx.exe,https://cybersecuritynews.com/malware-used-by-hackers-last-week,Top 10 Malware’s used by Hackers Last Week to Launch Cyberattacks,2026-07-21T13:22:54.000Z,2026-07-21T15:24:13.035Z
 filename,down.exe,https://cybersecuritynews.com/goldeneyedog-behind-digicert-breach,GoldenEyeDog Hackers Group Behind DigiCert Breach that Hijacks Code-Signing Certificates,2026-07-20T08:21:28.000Z,2026-07-20T08:27:29.999Z
@@ -496,11 +493,9 @@ filename,promecefplugilte8.exe,https://cybersecuritynews.com/goodpersonrat-uses-
 filename,psexesvc.exe,https://cybersecuritynews.com/goddamn-ransomware-rebrands-from-beast,GodDamn Ransomware Rebrands From Beast and Uses PoisonX Driver to Disable Defenses,2026-07-09T19:18:57.000Z,2026-07-09T21:06:07.795Z
 filename,pstpassword.exe,https://cybersecuritynews.com/goddamn-ransomware-rebrands-from-beast,GodDamn Ransomware Rebrands From Beast and Uses PoisonX Driver to Disable Defenses,2026-07-09T19:18:57.000Z,2026-07-09T21:06:07.795Z
 filename,pthreadvc2.dll,https://cybersecuritynews.com/hackers-telegram-bots-secret-backdoor,Hackers Turn Telegram Bots Into Secret Backdoor Controllers for Government Systems,2026-07-21T05:53:05.000Z,2026-07-21T13:01:58.391Z
-filename,publish.exe,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 filename,raw.githubusercontent.com/xmrig/xmrig/v6.22.2/scripts/setup.sh,https://cybersecuritynews.com/malicious-rubygems-developer-machines,Malicious RubyGems Turn Developer Machines Into Monero Miners and Spread Through SSH,2026-07-24T06:01:02.000Z,2026-07-24T07:56:59.003Z
 filename,raw.githubusercontent.com/xmrig/xmrig/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz,https://cybersecuritynews.com/malicious-rubygems-developer-machines,Malicious RubyGems Turn Developer Machines Into Monero Miners and Spread Through SSH,2026-07-24T06:01:02.000Z,2026-07-24T07:56:59.003Z
 filename,rce.js,https://cybersecuritynews.com/six-flowise-rce-flaws,Six Flowise RCE Flaws Let Attackers Execute Code on AI Workflow Servers,2026-08-04T13:57:53.000Z,2026-08-04T17:15:54.974Z
-filename,readme.docm,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 filename,record.pdf,https://cybersecuritynews.com/malware-used-by-hackers-last-week,Top 10 Malware’s used by Hackers Last Week to Launch Cyberattacks,2026-07-21T13:22:54.000Z,2026-07-21T15:24:13.035Z
 filename,regasm.exe,https://cybersecuritynews.com/malware-used-by-hackers-last-week,Top 10 Malware’s used by Hackers Last Week to Launch Cyberattacks,2026-07-21T13:22:54.000Z,2026-07-21T15:24:13.035Z
 filename,regasm.exe/regsvcs.exe,https://cybersecuritynews.com/malware-used-by-hackers-last-week,Top 10 Malware’s used by Hackers Last Week to Launch Cyberattacks,2026-07-21T13:22:54.000Z,2026-07-21T15:24:13.035Z
@@ -1335,7 +1330,6 @@ md5,1c2cab4230749bdf4defc751adbd885a,https://www.ransomware.live/group/raworld,R
 md5,1c34c1860041aa479c14a9c5b332712c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,1c4176f57bbfa70829f0218e6f995fda,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,1c4bea81c0da22badd9b7eab574c51cd,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
-md5,1cbffddcb8e1e839737bbf6e50a80aaf,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 md5,1d3fba0d99d5452acbb8d326e8f4e800,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,1d5622cc9901830f76672bff670ff565,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,1d895cf4391b817e54fb9ec9d8e65f7e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
@@ -1753,7 +1747,6 @@ md5,7552223103876a69c8a162f54cc8500b,https://www.ransomware.live/group/raworld,R
 md5,75599941918f313459d6151c26704083,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,756007cdaa3b8b85c2890d06e82c0984,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,75acf47d1c2ff932b1b2b61e17424826,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
-md5,77014b3e77529079f041b5b9e73a013b,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 md5,770c1dc157226638f8ad1ac9669f4883,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-07-09T22:52:34.620Z
 md5,773fcd0432808e74bfb863489799dd05,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,77958f66ade19ace783617531f0d82ac,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
@@ -1772,7 +1765,6 @@ md5,7be61ea851f894d26bf57cf0f1f55ed6,https://www.ransomware.live/group/bianlian,
 md5,7bf5cbca413b327c655e2270645955d9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,7bfcdf4e2cc520fb8817a7bb711df873,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-07-09T22:52:34.620Z
 md5,7c2f64461bb519c6cbf1fc687675514c,https://cybersecuritynews.com/new-backdoors-let-hackers-keylog,"New Backdoors Let Hackers Keylog, Steal Passwords and Control Government Computers",2026-07-31T06:51:55.000Z,2026-07-31T11:09:56.244Z
-md5,7c517d1f4385e0d6e8fa5932d17873eb,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 md5,7c84e75817349adcdea9925b86f67670,https://cybersecuritynews.com/opsec-mistake-exposed-triback-malware,Hackers’ OPSEC Mistake Exposed a Global Espionage Campaign and Its New TriBack Malware,2026-07-23T15:28:29.000Z,2026-07-23T17:03:22.024Z
 md5,7c870d186057084254075870aebfb111,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-07-09T22:52:34.620Z
 md5,7ca94d84f4a02fb1f608818c1c3ab62d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
@@ -1995,7 +1987,6 @@ md5,af95fbcf9da33352655f3c2bab3397e2,https://www.ransomware.live/group/akira,Ran
 md5,afaad51d8f656489a0e10ba45ca5dfc2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,b04e8ee43aba85fa5c585b9335c953c2,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-07-09T22:52:34.620Z
 md5,b0579ea540b639929f1a7426310d0d2c,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-07-09T22:52:34.620Z
-md5,b077401fe3d9642345d4c3deafa60aa5,https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images,APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor,2026-07-08T22:13:44.000Z,2026-07-09T04:35:54.940Z
 md5,b0976d46970314532bc118f522bb8a6f,https://cybersecuritynews.com/sparkkitty-malware-steals-crypto-wallet,SparkKitty Malware Steals Crypto Wallet Seed Phrases From iOS and Android Photos,2026-07-27T08:41:56.000Z,2026-07-27T22:38:44.199Z
 md5,b0a59e8b365962c73da486bccc361354,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
 md5,b0b9a31de4dfd11bf267dd781b47230a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-07-09T22:52:34.620Z
