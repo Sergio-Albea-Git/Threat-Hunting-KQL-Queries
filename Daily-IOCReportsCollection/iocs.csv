@@ -98,7 +98,6 @@ domain,polygon-mainnet.gateway.tatum.io,https://cybersecuritynews.com/fake-ai-to
 domain,polygon-public.nodies.app,https://cybersecuritynews.com/fake-ai-tool-campaign,Fake AI Tool Campaign Turns Developer Interest Into Enterprise Initial Access,2026-08-04T09:12:20.000Z,2026-08-04T17:15:54.974Z
 domain,polygon.drpc.org,https://cybersecuritynews.com/fake-ai-tool-campaign,Fake AI Tool Campaign Turns Developer Interest Into Enterprise Initial Access,2026-08-04T09:12:20.000Z,2026-08-04T17:15:54.974Z
 domain,polygon.publicnode.com,https://cybersecuritynews.com/fake-ai-tool-campaign,Fake AI Tool Campaign Turns Developer Interest Into Enterprise Initial Access,2026-08-04T09:12:20.000Z,2026-08-04T17:15:54.974Z
-domain,pool.hasvault.pro,https://cybersecuritynews.com/hackers-turning-ai-gateways-as-attack,Hackers are Turning AI Gateways as Attack Surfaces to Compromise Enterprise Networks,2026-07-10T11:56:18.000Z,2026-07-10T16:01:13.904Z
 domain,pool.ntp.org,https://cybersecuritynews.com/nullzereptool-uses-telegram,New NULLZEREPTOOL Uses Telegram to Launch 20 DDoS Methods With Rotating Proxies,2026-07-22T12:03:33.000Z,2026-07-22T13:06:44.269Z
 domain,pool.supportxmr.com,https://cybersecuritynews.com/malicious-rubygems-developer-machines,Malicious RubyGems Turn Developer Machines Into Monero Miners and Spread Through SSH,2026-07-24T06:01:02.000Z,2026-07-24T07:56:59.003Z
 domain,prodoc.ap.gov.br,https://cybersecuritynews.com/government-websites-deliver-malware,Hackers Hijack 20+ Government Websites to Deliver Malware Through Trusted Links,2026-07-21T17:11:36.000Z,2026-07-21T18:52:25.479Z
@@ -627,7 +626,6 @@ ip,130.193.52.194:443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,135.136.1.133,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
 ip,138.226.246.94,https://cybersecuritynews.com/one-malicious-oauth-approval,One Malicious OAuth Approval Can Give Hackers Persistent Access to Salesforce Data,2026-07-14T14:28:24.000Z,2026-07-14T15:10:07.618Z
 ip,139.28.37.250,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
-ip,14.176.1.47,https://cybersecuritynews.com/hackers-turning-ai-gateways-as-attack,Hackers are Turning AI Gateways as Attack Surfaces to Compromise Enterprise Networks,2026-07-10T11:56:18.000Z,2026-07-10T16:01:13.904Z
 ip,141.11.164.153,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
 ip,141.226.236.91,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
 ip,142.202.191.225,https://cybersecuritynews.com/smokescreen-campaign,SMOKE#SCREEN Campaign Abuses ScreenConnect RMM and Cloudflare Tunnels to Hijack Windows and macOS Systems,2026-08-05T12:33:03.000Z,2026-08-05T15:49:07.772Z
@@ -644,7 +642,6 @@ ip,144.172.110.53,https://cybersecuritynews.com/bluenoroff-hijacks-trusted-teleg
 ip,144.172.95.78,https://www.ransomware.live/group/ralord,Ransomware.live - ralord,,2026-08-08T23:58:52.825Z
 ip,144.208.127.130:14906,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,144.76.173.247,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
-ip,145.241.123.102,https://cybersecuritynews.com/hackers-turning-ai-gateways-as-attack,Hackers are Turning AI Gateways as Attack Surfaces to Compromise Enterprise Networks,2026-07-10T11:56:18.000Z,2026-07-10T16:01:13.904Z
 ip,146.103.127.44,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T11:02:59.842Z
 ip,146.19.216.119,https://cybersecuritynews.com/ransomware-gangs-attack-vpn,"Ransomware Gangs Attack Palo Alto, Fortinet, Citrix, and Check Point VPNs to Target Corporate Networks",2026-07-27T08:12:16.000Z,2026-07-27T22:38:44.199Z
 ip,146.19.216.120,https://cybersecuritynews.com/ransomware-gangs-attack-vpn,"Ransomware Gangs Attack Palo Alto, Fortinet, Citrix, and Check Point VPNs to Target Corporate Networks",2026-07-27T08:12:16.000Z,2026-07-27T22:38:44.199Z
@@ -758,7 +755,6 @@ ip,185.243.112.167:80,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,185.247.185.85,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T08:03:03.540Z
 ip,185.28.119.50:5415,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,185.45.193.151,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T11:02:59.842Z
-ip,185.62.1.8,https://cybersecuritynews.com/hackers-turning-ai-gateways-as-attack,Hackers are Turning AI Gateways as Attack Surfaces to Compromise Enterprise Networks,2026-07-10T11:56:18.000Z,2026-07-10T16:01:13.904Z
 ip,185.76.79.207:38378,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,185.76.79.207:9977,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,185.76.79.26:24443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
