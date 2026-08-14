@@ -680,6 +680,7 @@ ip,104.238.57.44:56099,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,104.238.57.44:64598,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,104.238.60.168:2602,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,104.243.35.63,https://cybersecuritynews.com/cl0p-hackers-exploit-windchill,Cl0p Hackers Exploit Windchill Servers to Steal Companies’ Secret Product Designs,2026-07-24T13:05:36.000Z,2026-07-24T13:51:36.979Z
+ip,104.243.42.117,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,104.244.75.168,https://www.ransomware.live/group/blacksuit,Ransomware.live - blacksuit,,2026-07-17T04:48:24.482Z
 ip,104.248.200.231,https://cybersecuritynews.com/phaas-kits-targeting-us-organizations,Three PhaaS Kits Targeting US Organizations to Steal M65 Logins by Bypassing MFA,2026-08-05T13:35:54.000Z,2026-08-05T14:17:53.472Z
 ip,104.36.229.149:28333,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
@@ -707,7 +708,9 @@ ip,108.61.216.142:443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,108.61.216.142:5060,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,109.122.217.21,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-07-17T04:48:24.482Z
 ip,112.216.9.171,https://cybersecuritynews.com/kimsuky-uses-local-llms,"Kimsuky Uses Local LLMs, AI-Generated Lures and GitHub C2 to Deploy AsyncRAT",2026-08-10T10:07:26.000Z,2026-08-10T16:49:27.570Z
+ip,116.105.166.148,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,116.204.169.70,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T11:58:41.259Z
+ip,117.72.74.48,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,120.79.8.107,https://cybersecuritynews.com/sparkkitty-malware-steals-crypto-wallet,SparkKitty Malware Steals Crypto Wallet Seed Phrases From iOS and Android Photos,2026-07-27T08:41:56.000Z,2026-07-27T08:44:25.486Z
 ip,128.254.230.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,129.212.237.224,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
@@ -758,6 +761,7 @@ ip,147.45.60.241,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fa
 ip,147.45.60.252,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
 ip,147.78.47.250,https://cybersecuritynews.com/top-10-phishing-kits-used-by-hackers,"Top 10 Phishing Kits Used by Hackers to Launch Cyberattacks (July 20-26, 2026)",2026-07-28T17:40:32.000Z,2026-07-28T18:02:50.370Z
 ip,148.230.76.66,https://cybersecuritynews.com/remus-hides-its-command-server,Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults,2026-08-06T12:22:19.000Z,2026-08-06T13:21:32.613Z
+ip,15.204.106.173,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,150.158.50.175,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T11:58:41.259Z
 ip,150.171.30.10,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-17T04:48:24.482Z
 ip,151.236.16.144:64250,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
@@ -815,6 +819,7 @@ ip,172.86.91.195,https://cybersecuritynews.com/bluenoroff-hijacks-trusted-telegr
 ip,172.96.137.106:4567,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,172.96.137.108:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,172.96.137.32:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
+ip,172.96.142.186,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,173.249.252.200,https://cybersecuritynews.com/n-able-n-central-vulnerability,Critical N-Able N-Central Vulnerability Allows Hackers to Gain god-mode Access to the RMM Console,2026-08-03T06:26:29.000Z,2026-08-03T07:08:29.665Z
 ip,175.110.121.107,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T08:37:52.040Z
 ip,175.110.121.39,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T08:37:52.040Z
@@ -932,6 +937,7 @@ ip,195.201.21.34,https://www.ransomware.live/group/interlock,Ransomware.live - i
 ip,195.230.23.91:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,195.63.140.33,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-22T01:12:50.569Z
 ip,198.105.127.210,https://cybersecuritynews.com/hijacked-joyfill-npm-packages-worm-like-rat,Hijacked Joyfill npm Packages Deploy Worm-Like RAT and Steal Developer Credentials,2026-07-29T14:40:36.000Z,2026-07-29T14:55:51.148Z
+ip,198.255.70.210,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,199.232.210.172,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-17T04:48:24.482Z
 ip,2.24.131.246,https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads,FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users,2026-07-24T11:54:18.000Z,2026-07-24T12:51:24.527Z
 ip,20.101.57.9,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-07-17T04:48:24.482Z
@@ -945,6 +951,7 @@ ip,206.119.191.242,https://cybersecuritynews.com/fake-flash-player-installer,Fak
 ip,206.237.4.54:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,207.174.0.143,https://cybersecuritynews.com/smokescreen-campaign,SMOKE#SCREEN Campaign Abuses ScreenConnect RMM and Cloudflare Tunnels to Hijack Windows and macOS Systems,2026-08-05T12:33:03.000Z,2026-08-05T13:17:43.952Z
 ip,207.189.11.170,https://cybersecuritynews.com/smokescreen-campaign,SMOKE#SCREEN Campaign Abuses ScreenConnect RMM and Cloudflare Tunnels to Hijack Windows and macOS Systems,2026-08-05T12:33:03.000Z,2026-08-05T13:17:43.952Z
+ip,207.246.106.162,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,207.56.30.188,https://cybersecuritynews.com/a-leaked-android-rat,A Leaked Android RAT Is Powering 170 Servers and Its Successor Is Already Online,2026-07-29T10:59:33.000Z,2026-07-29T11:55:21.671Z
 ip,207.56.30.194,https://cybersecuritynews.com/a-leaked-android-rat,A Leaked Android RAT Is Powering 170 Servers and Its Successor Is Already Online,2026-07-29T10:59:33.000Z,2026-07-29T11:55:21.671Z
 ip,208.123.119.103:7453,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
@@ -988,6 +995,8 @@ ip,23.227.198.237:3963,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,23.227.198.237:50262,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,23.227.198.237:57226,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,23.227.198.237:64103,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
+ip,23.236.182.215,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
+ip,23.237.196.170,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,23.249.28.88,https://cybersecuritynews.com/sparkkitty-malware-steals-crypto-wallet,SparkKitty Malware Steals Crypto Wallet Seed Phrases From iOS and Android Photos,2026-07-27T08:41:56.000Z,2026-07-27T08:44:25.486Z
 ip,23.251.57.59,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-07-17T04:48:24.482Z
 ip,23.254.244.163:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
@@ -1007,6 +1016,7 @@ ip,3.139.85.102,https://cybersecuritynews.com/hackers-hide-750mb-lampion-rat,Hac
 ip,3.141.199.105,https://cybersecuritynews.com/hackers-hide-750mb-lampion-rat,Hackers Hide 750MB Lampion RAT Inside Fake Payment Receipt Emails,2026-07-24T08:29:23.000Z,2026-07-24T08:50:37.019Z
 ip,3.144.37.134,https://cybersecuritynews.com/hackers-hide-750mb-lampion-rat,Hackers Hide 750MB Lampion RAT Inside Fake Payment Receipt Emails,2026-07-24T08:29:23.000Z,2026-07-24T08:50:37.019Z
 ip,3.23.155.57,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T11:44:56.817Z
+ip,3.235.109.125,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,3.64.60.12:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,3.86.153.4:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,31.220.80.82:8081,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
@@ -1032,6 +1042,9 @@ ip,38.248.95.214,https://cybersecuritynews.com/greatness-phaas,Greatness PhaaS B
 ip,38.248.95.228,https://cybersecuritynews.com/greatness-phaas,Greatness PhaaS Bypasses Email Security and MFA to Hijack Microsoft 365 Accounts,2026-08-05T14:51:03.000Z,2026-08-05T16:53:22.815Z
 ip,38.248.95.236,https://cybersecuritynews.com/greatness-phaas,Greatness PhaaS Bypasses Email Security and MFA to Hijack Microsoft 365 Accounts,2026-08-05T14:51:03.000Z,2026-08-05T16:53:22.815Z
 ip,38.46.13.82,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T11:58:41.259Z
+ip,38.46.219.162,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
+ip,38.46.219.163,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
+ip,38.46.219.166,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,38.76.185.209,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,39.108.186.119,https://cybersecuritynews.com/sparkkitty-malware-steals-crypto-wallet,SparkKitty Malware Steals Crypto Wallet Seed Phrases From iOS and Android Photos,2026-07-27T08:41:56.000Z,2026-07-27T08:44:25.486Z
 ip,40.124.130.50,https://cybersecuritynews.com/hackers-let-victims-complete-mfa,Hackers Let Victims Complete MFA Then Steal the Entire Microsoft 365 Session,2026-07-22T17:16:11.000Z,2026-07-22T22:29:05.979Z
@@ -1101,9 +1114,11 @@ ip,47.100.190.96,https://cybersecuritynews.com/zbtlink-chinese-router,Zbtlink Ch
 ip,47.107.224.89,https://cybersecuritynews.com/zbtlink-chinese-router,Zbtlink Chinese Router Sold Worldwide Contains a Hidden Backdoor Affecting 20+ Models,2026-08-07T06:38:52.000Z,2026-08-07T07:34:16.475Z
 ip,47.119.171.161,https://cybersecuritynews.com/sparkkitty-malware-steals-crypto-wallet,SparkKitty Malware Steals Crypto Wallet Seed Phrases From iOS and Android Photos,2026-07-27T08:41:56.000Z,2026-07-27T08:44:25.486Z
 ip,47.250.208.35,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
+ip,47.251.72.239,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,47.84.37.113,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
 ip,47.84.51.173,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
 ip,47.87.71.167,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
+ip,47.88.103.81,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,5.129.196.85,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T06:42:25.304Z
 ip,5.129.208.108,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T06:42:25.304Z
 ip,5.129.209.17,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T06:42:25.304Z
@@ -1288,6 +1303,7 @@ ip,95.142.35.34,https://cybersecuritynews.com/xcsset-v40-abuses-chrome-devtools,
 ip,95.142.37.159,https://cybersecuritynews.com/xcsset-v40-abuses-chrome-devtools,XCSSET v40 Abuses Chrome DevTools Protocol to Steal Cookies and Run Commands,2026-08-03T08:19:33.000Z,2026-08-03T09:08:51.978Z
 ip,95.163.244.138,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
 ip,95.179.233.26:8090,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
+ip,95.214.112.26,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,95.216.92.207,https://cybersecuritynews.com/golangghost-steals-chrome-secrets,GolangGhost Steals Chrome Secrets From macOS Keychain and Hijacks MetaMask Permissions,2026-07-22T06:59:56.000Z,2026-07-22T22:29:05.979Z
 ip,96.44.156.220:24467,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
 ip,98.82.12.229:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-07-17T04:48:24.482Z
