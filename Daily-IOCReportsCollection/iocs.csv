@@ -67,7 +67,7 @@ domain,download.bh-security.com,https://cybersecuritynews.com/fake-bahrain-civil
 domain,downloading-api.it.com,https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads,FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users,2026-07-24T11:54:18.000Z,2026-07-24T12:06:03.835Z
 domain,drr.accoderkubes.com,https://cybersecuritynews.com/google-themed-credential-phishing,Google-themed Credential Phishing Attempt Delivered Through a Fake 'New Audio MSG' Email,2026-08-12T08:34:05.000Z,2026-08-12T09:44:16.653Z
 domain,dtc.victorramarisimobiliaria.com.br,https://cybersecuritynews.com/hackers-hide-malware-polygon-blockchain,Hackers Hide Malware Infrastructure on Polygon Blockchain and Trick Users Into Running It With ClickFix,2026-08-11T12:24:18.000Z,2026-08-11T12:27:02.297Z
-domain,dwbud.vilaribit.com,https://cybersecuritynews.com/kratos-phaas-attacking-microsoft-365-users,"Kratos PhaaS Attacking Microsoft 365 Users Across the US, Europe to Steal Credentials",2026-07-16T09:16:34.000Z,2026-07-16T09:37:07.380Z
+domain,dwbud.vilaribit.com,https://cybersecuritynews.com/top-10-phishing-kits-used-by-hackers,"Top 10 Phishing Kits Used by Hackers to Launch Cyberattacks (July 20-26, 2026)",2026-07-28T17:40:32.000Z,2026-07-28T23:44:49.651Z
 domain,dwn.metaforgechain4.lol,https://cybersecuritynews.com/remus-hides-its-command-server,Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults,2026-08-06T12:22:19.000Z,2026-08-06T13:13:46.907Z
 domain,e1.cdnresolver.com,https://cybersecuritynews.com/fake-recruiter-web3-developers,Fake Recruiters Target Web3 Developers Through Trusted Bitbucket and npm Workflows,2026-07-29T12:05:36.000Z,2026-07-29T13:19:54.796Z
 domain,eastus2.wac-azure.com,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T14:04:51.803Z
@@ -502,7 +502,6 @@ filename,lpieuysjfgtrja.ps1,https://cybersecuritynews.com/kimsuky-uses-local-llm
 filename,lpprem64.dll,https://cybersecuritynews.com/hackers-telegram-bots-secret-backdoor,Hackers Turn Telegram Bots Into Secret Backdoor Controllers for Government Systems,2026-07-21T05:53:05.000Z,2026-07-21T13:01:58.391Z
 filename,lua51.dll,https://cybersecuritynews.com/fake-ai-tool-campaign,Fake AI Tool Campaign Turns Developer Interest Into Enterprise Initial Access,2026-08-04T09:12:20.000Z,2026-08-04T17:15:54.974Z
 filename,main.exe,https://cybersecuritynews.com/gunra-uses-stolen-sessions,Gunra Uses Stolen Sessions and RDP to Pivot Into Active Directory and IT Workstations,2026-08-13T11:29:50.000Z,2026-08-13T14:04:51.803Z
-filename,main.js,https://cybersecuritynews.com/kratos-phaas-attacking-microsoft-365-users,"Kratos PhaaS Attacking Microsoft 365 Users Across the US, Europe to Steal Credentials",2026-07-16T09:16:34.000Z,2026-07-16T09:37:07.380Z
 filename,maindll.dll,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T14:53:06.968Z
 filename,math_init.js,https://cybersecuritynews.com/new-npm-supply-chain-attack,New Shai-Hulud Supply Chain Attack Compromised 400+ Popular npm Packages,2026-08-06T05:22:57.000Z,2026-08-06T13:13:46.907Z
 filename,math_symbol.js,https://cybersecuritynews.com/new-npm-supply-chain-attack,New Shai-Hulud Supply Chain Attack Compromised 400+ Popular npm Packages,2026-08-06T05:22:57.000Z,2026-08-06T13:13:46.907Z
@@ -1052,7 +1051,7 @@ ip,38.76.185.209,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSwo
 ip,39.108.186.119,https://cybersecuritynews.com/sparkkitty-malware-steals-crypto-wallet,SparkKitty Malware Steals Crypto Wallet Seed Phrases From iOS and Android Photos,2026-07-27T08:41:56.000Z,2026-07-27T22:38:44.199Z
 ip,40.124.130.50,https://cybersecuritynews.com/hackers-let-victims-complete-mfa,Hackers Let Victims Complete MFA Then Steal the Entire Microsoft 365 Session,2026-07-22T17:16:11.000Z,2026-07-22T20:42:13.008Z
 ip,40.69.42.241,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-08T23:58:52.825Z
-ip,41.128.0.142,https://cybersecuritynews.com/kratos-phaas-attacking-microsoft-365-users,"Kratos PhaaS Attacking Microsoft 365 Users Across the US, Europe to Steal Credentials",2026-07-16T09:16:34.000Z,2026-07-16T09:37:07.380Z
+ip,41.128.0.142,https://cybersecuritynews.com/top-10-phishing-kits-used-by-hackers,"Top 10 Phishing Kits Used by Hackers to Launch Cyberattacks (July 20-26, 2026)",2026-07-28T17:40:32.000Z,2026-07-28T23:44:49.651Z
 ip,42.200.172.148,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T08:49:44.827Z
 ip,43.106.71.28,https://cybersecuritynews.com/opsec-mistake-exposed-triback-malware,Hackers’ OPSEC Mistake Exposed a Global Espionage Campaign and Its New TriBack Malware,2026-07-23T15:28:29.000Z,2026-07-23T17:03:22.024Z
 ip,43.128.26.132,https://cybersecuritynews.com/silverfox-hijacks-trusted-software,SilverFox Hijacks Trusted Software and Kernel Drivers to Disable Security Tools,2026-08-06T18:52:20.000Z,2026-08-07T00:27:41.648Z
@@ -1213,6 +1212,7 @@ ip,78.40.196.252,https://cybersecuritynews.com/hackers-fake-games-infostealers,H
 ip,79.110.48.52,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
 ip,79.130.26.202,https://cybersecuritynews.com/ransomware-gangs-attack-vpn,"Ransomware Gangs Attack Palo Alto, Fortinet, Citrix, and Check Point VPNs to Target Corporate Networks",2026-07-27T08:12:16.000Z,2026-07-27T22:38:44.199Z
 ip,79.133.46.209,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
+ip,79.141.160.78,https://www.ransomware.live/group/clop,Ransomware.live - clop,,2026-08-15T09:54:37.807Z
 ip,79.141.162.184:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,8.140.226.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,8.205.8.173,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T08:49:44.827Z
@@ -2872,6 +2872,7 @@ sha256,3bf53cddf7eb98d9cb94f9aa9f36c211a464e2c1b278f091d6026003050281de,https://
 sha256,3bff25e745707056cf4ed6428ee8aace9a1bff2fb4030e32a7c0470a34cbfa62,https://cybersecuritynews.com/vanta-stealer-empties-browser-vaults,"Vanta Stealer Empties Browser Vaults, Crypto Wallets and Gaming Accounts in Minutes",2026-08-06T16:53:08.000Z,2026-08-07T00:27:41.648Z
 sha256,3c181f642e24c28602a87be7f195e2f3d1ffa30b37e20f5121d99f88b22ab80e,https://cybersecuritynews.com/this-2000-a-month-crypter-can-kill-edr,"This $2,000-a-Month Crypter Can Kill EDR and Make Malware Disappear From Disk",2026-07-21T17:28:06.000Z,2026-07-21T18:52:25.479Z
 sha256,3c2182cb0bc7528829ef03f1b1745a92bcc47d917eb8870862488f21fdf1a6d6,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-14T19:34:12.311Z
+sha256,3c2466d8a4572c26530e6f6bcef01fc1baefb98dbff2c65efaed5599622f51f3,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-15T09:54:37.807Z
 sha256,3c37835766ca615f5eb0e766b4000b43e896a420d575f02e1e160be5711e0782,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T17:15:54.974Z
 sha256,3c7c91cd4dc336db8082e07ab7549556f05d80acbc778afc2dade67c02002f69,https://www.ransomware.live/group/ailock,Ransomware.live - ailock,,2026-08-08T23:58:52.825Z
 sha256,3c92bfc71004340ebc00146ced294bc94f49f6a5e212016ac05e7d10fcb3312c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
