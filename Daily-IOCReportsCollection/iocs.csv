@@ -912,8 +912,8 @@ ip,193.169.240.81,https://cybersecuritynews.com/fake-ccleaner-download,Fake CCle
 ip,193.230.215.22,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
 ip,193.233.202.17,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T11:02:59.842Z
 ip,193.29.57.37,https://cybersecuritynews.com/microsoft-teams-vishing-attack-gogrpc-backdoor,Microsoft Teams Vishing Attack Uses Quick Assist to Deploy GoGRPC Backdoor,2026-07-28T07:13:21.000Z,2026-07-28T08:03:03.540Z
-ip,193.37.32.179,https://cybersecuritynews.com/sonicwall-sma1000-0-day-vulnerability-2,Hackers Actively Exploiting SonicWall SMA1000 0-Day Vulnerability in the Wild,2026-07-16T14:20:44.000Z,2026-07-16T15:19:42.590Z
-ip,193.37.32.214,https://cybersecuritynews.com/sonicwall-sma1000-0-day-vulnerability-2,Hackers Actively Exploiting SonicWall SMA1000 0-Day Vulnerability in the Wild,2026-07-16T14:20:44.000Z,2026-07-16T15:19:42.590Z
+ip,193.37.32.179,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T08:49:44.827Z
+ip,193.37.32.214,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T08:49:44.827Z
 ip,193.37.69.162,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-08-08T23:58:52.825Z
 ip,193.37.69.225,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-08-08T23:58:52.825Z
 ip,193.42.33.51,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
@@ -977,8 +977,8 @@ ip,216.181.107.134:41296,https://www.ransomware.live/group/bianlian,Ransomware.l
 ip,216.203.20.36,https://cybersecuritynews.com/interlock-turns-the-tools,Interlock Turns the Tools Incident Responders Use Into Weapons for Stealing Windows Passwords,2026-08-10T11:32:58.000Z,2026-08-10T15:33:45.999Z
 ip,216.219.94.99:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,216.238.74.98,https://cybersecuritynews.com/ransomware-gangs-attack-vpn,"Ransomware Gangs Attack Palo Alto, Fortinet, Citrix, and Check Point VPNs to Target Corporate Networks",2026-07-27T08:12:16.000Z,2026-07-27T22:38:44.199Z
-ip,216.73.163.151,https://cybersecuritynews.com/sonicwall-sma1000-0-day-vulnerability-2,Hackers Actively Exploiting SonicWall SMA1000 0-Day Vulnerability in the Wild,2026-07-16T14:20:44.000Z,2026-07-16T15:19:42.590Z
-ip,216.73.163.158,https://cybersecuritynews.com/sonicwall-sma1000-0-day-vulnerability-2,Hackers Actively Exploiting SonicWall SMA1000 0-Day Vulnerability in the Wild,2026-07-16T14:20:44.000Z,2026-07-16T15:19:42.590Z
+ip,216.73.163.151,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T08:49:44.827Z
+ip,216.73.163.158,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T08:49:44.827Z
 ip,216.74.123.126,https://cybersecuritynews.com/north-korean-hackers-turn-trusted-npm-packages,North Korean Hackers Turn Trusted npm Packages Into a Gateway for Supply-Chain Attacks,2026-07-30T06:11:43.000Z,2026-07-30T14:53:06.968Z
 ip,217.198.13.211,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T08:03:03.540Z
 ip,217.60.195.160,https://cybersecuritynews.com/dysphoria-botnet-infects-iot-devices,"Dysphoria Botnet Infects 200,000 IoT Devices and Hides C2 Behind Blockchain Domains",2026-07-28T08:17:37.000Z,2026-07-28T11:00:03.700Z
