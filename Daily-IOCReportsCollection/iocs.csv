@@ -123,7 +123,6 @@ domain,liderongrade.duckdns.org,https://cybersecuritynews.com/fake-ccleaner-down
 domain,lmo.msdnmail.net,https://cybersecuritynews.com/phaas-kits-targeting-us-organizations,Three PhaaS Kits Targeting US Organizations to Steal M65 Logins by Bypassing MFA,2026-08-05T13:35:54.000Z,2026-08-05T15:49:07.772Z
 domain,login-live.rproxy.io,https://cybersecuritynews.com/top-10-phishing-kits-used-by-hackers,"Top 10 Phishing Kits Used by Hackers to Launch Cyberattacks (July 20-26, 2026)",2026-07-28T17:40:32.000Z,2026-07-28T23:44:49.651Z
 domain,login.microsoftonline.com,https://cybersecuritynews.com/phaas-kits-targeting-us-organizations,Three PhaaS Kits Targeting US Organizations to Steal M65 Logins by Bypassing MFA,2026-08-05T13:35:54.000Z,2026-08-05T15:49:07.772Z
-domain,login.orbitalframework.cc,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 domain,login.trees4sale.net,https://cybersecuritynews.com/dysphoria-botnet-infects-iot-devices,"Dysphoria Botnet Infects 200,000 IoT Devices and Hides C2 Behind Blockchain Domains",2026-07-28T08:17:37.000Z,2026-07-28T11:00:03.700Z
 domain,ls.j2x8a.top,https://cybersecuritynews.com/a-leaked-android-rat,A Leaked Android RAT Is Powering 170 Servers and Its Successor Is Already Online,2026-07-29T10:59:33.000Z,2026-07-29T11:06:48.791Z
 domain,mail.emb666.com,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
@@ -767,7 +766,6 @@ ip,143.244.47.89,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Med
 ip,143.246.208.236,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T14:04:51.803Z
 ip,143.92.32.49,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T14:53:06.968Z
 ip,143.92.32.65,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T14:53:06.968Z
-ip,144.124.251.171,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 ip,144.172.103.42,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-08-08T23:58:52.825Z
 ip,144.172.104.82,https://cybersecuritynews.com/cav3rn-uses-google-apps-script,CAV3RN Uses Google Apps Script as C2 Relay to Hide Malware Traffic Behind Google Infrastructure,2026-08-12T10:05:33.000Z,2026-08-12T11:25:57.301Z
 ip,144.172.110.53,https://cybersecuritynews.com/bluenoroff-hijacks-trusted-telegram-accounts,BlueNoroff Hijacks Trusted Telegram Accounts to Deliver ClickFix Malware Through Fake Zoom Calls,2026-07-27T08:00:18.000Z,2026-07-27T22:38:44.199Z
@@ -982,7 +980,6 @@ ip,195.133.67.35,https://www.ransomware.live/group/anubis,Ransomware.live - anub
 ip,195.133.73.225,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T08:03:03.540Z
 ip,195.201.21.34,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-08-08T23:58:52.825Z
 ip,195.230.23.91:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
-ip,195.63.140.33,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 ip,196.251.84.11,https://cybersecuritynews.com/hackers-use-ai-voice-calls,Hackers Use AI Voice Calls and Fake Banking Pages to Bypass MFA and Steal Accounts,2026-08-19T14:50:20.000Z,2026-08-19T17:55:24.909Z
 ip,198.105.127.210,https://cybersecuritynews.com/hijacked-joyfill-npm-packages-worm-like-rat,Hijacked Joyfill npm Packages Deploy Worm-Like RAT and Steal Developer Credentials,2026-07-29T14:40:36.000Z,2026-07-29T15:33:05.032Z
 ip,198.255.70.210,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T11:23:50.641Z
@@ -1269,7 +1266,6 @@ ip,77.91.100.175,https://cybersecuritynews.com/malicious-firefox-extensions-2,15
 ip,78.128.113.10,https://cybersecuritynews.com/cl0p-hackers-exploit-ptc,Cl0p Hackers Exploit PTC Windchill Flaw to Steal Passwords and Sensitive Company Data,2026-08-19T05:46:16.000Z,2026-08-19T05:59:57.080Z
 ip,78.153.155.112,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T14:03:23.329Z
 ip,78.153.155.152,https://cybersecuritynews.com/dysphoria-botnet-infects-iot-devices,"Dysphoria Botnet Infects 200,000 IoT Devices and Hides C2 Behind Blockchain Domains",2026-07-28T08:17:37.000Z,2026-07-28T11:00:03.700Z
-ip,78.40.196.252,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 ip,79.110.48.52,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
 ip,79.130.26.202,https://cybersecuritynews.com/ransomware-gangs-attack-vpn,"Ransomware Gangs Attack Palo Alto, Fortinet, Citrix, and Check Point VPNs to Target Corporate Networks",2026-07-27T08:12:16.000Z,2026-07-27T22:38:44.199Z
 ip,79.133.46.209,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
@@ -1600,7 +1596,6 @@ md5,29008280fdd61d472b196fba89fa414d,https://www.ransomware.live/group/akira,Ran
 md5,2908589ca1a1f5d98c7f71563a3abac6,https://www.ransomware.live/group/lockbit5,Ransomware.live - lockbit5,,2026-08-08T23:58:52.825Z
 md5,29144c2f5acd859adf08d42ffcd74f50,https://www.ransomware.live/group/0apt,Ransomware.live - 0apt,,2026-08-08T23:58:52.825Z
 md5,2918b9ddaf12a57f6710c07515b27a8b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
-md5,29203ca123d51b1b33505a0813d360df,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 md5,2940779f88cf063ca5dcf861ec7bf325,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,296cca79bbb3ca764de8fcdc2070ecc2,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-08-08T23:58:52.825Z
 md5,29a2cc59a9ebd334103ce146bca38522,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-08-08T23:58:52.825Z
@@ -1625,7 +1620,6 @@ md5,2dd7cd2bf15eec7d62689435fca9c49c,https://www.ransomware.live/group/dragonfor
 md5,2dd9d0c4d5498772c1079939e8833721,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,2ddb664a99000837bb9975fb8aa5796b,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,2df69869a379688bad6bf9c18d6aa958,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
-md5,2e116632248a7e1f8aa6bca92d9c1c90,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 md5,2e30aa5886ad27092ae968471bd845c6,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,2ead73ed62f1c2beb9043ce92e774e0b,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T17:15:54.974Z
 md5,2ec37a7cc8daf20b10e1ad6221061ca5,https://cybersecuritynews.com/ssh-bot-profiles-linux-cpu,"SSH Bot Profiles Linux CPU, GPU and RAM Before Deploying Cryptocurrency Miner",2026-07-31T09:38:27.000Z,2026-07-31T11:09:56.244Z
@@ -1917,7 +1911,6 @@ md5,67a44a38cc36becd6e2e9c20c27fd9ad,https://www.ransomware.live/group/lynx,Rans
 md5,67b53b6d02ec8faf5926abcbe8eab8df,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,67b59851c48c89880b692e238e54ad8b,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-14T19:34:12.311Z
 md5,67edfff8250487d97f403c74fed85388,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-08-08T23:58:52.825Z
-md5,681db529e402467a4b0567c82a350fc0,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 md5,68635ad9d12f683071611bfd34c1ec34,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
 md5,68729b85aa01cd8c9f4ccd137ddde137,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,69434397fe9df4c7533a51db27e35c82,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
@@ -2023,7 +2016,6 @@ md5,7fa55bf92073ca2115d70641566ce89b,https://www.ransomware.live/group/cactus,Ra
 md5,7ffaaaef5bcaf94756352b1fc866ef3d,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-08-08T23:58:52.825Z
 md5,8002ab4d0cf7e1888ee72de0b9f4282c,https://cybersecuritynews.com/opsec-mistake-exposed-triback-malware,Hackers’ OPSEC Mistake Exposed a Global Espionage Campaign and Its New TriBack Malware,2026-07-23T15:28:29.000Z,2026-07-23T17:03:22.024Z
 md5,8061b9de6bbc0eadbc4000120678c544,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
-md5,810f257542018be0fc62af542d13d012,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 md5,8194a7341f8eefa0afe08b6b5ced3ed1,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,825620363d5ff8e4d820a402bfcb425d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,8265e6e7d458617d39490b6cebdbfa67,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
@@ -2596,7 +2588,6 @@ md5,f78deca349a87b5966e3566ada4fb3e8,https://www.ransomware.live/group/trigona,R
 md5,f7f679420671b7e18677831d4d276277,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-08-08T23:58:52.825Z
 md5,f828044c91ac00afffcd77b4ce680857,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-08T23:58:52.825Z
 md5,f8410bcd14256d6d355d7076a78c074f,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
-md5,f8453efe408ce25b9484f872797e3d63,https://cybersecuritynews.com/hackers-fake-games-infostealers,Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets,2026-07-21T19:23:05.000Z,2026-07-21T20:47:24.398Z
 md5,f8a242fa6a8df6eafded0a6987a5ac09,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-08-08T23:58:52.825Z
 md5,f91cf21c1415ef1a90cff56e7dc7e88c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,f94d17b5f232e9cfd2255ca9823cb18a,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-08-08T23:58:52.825Z
