@@ -783,7 +783,6 @@ ip,137.74.7.212,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sh
 ip,138.124.244.206,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T14:03:23.329Z
 ip,139.180.197.150,https://cybersecuritynews.com/chinese-hackers-use-ai-agents,Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks,2026-08-21T14:41:55.000Z,2026-08-21T15:06:48.828Z
 ip,139.28.36.23,https://cybersecuritynews.com/sandworm-fake-job-interviews,Sandworm Fake Job Interviews Push Trojanized WireGuard VPN to Infect IT Professionals,2026-08-12T09:04:15.000Z,2026-08-12T09:44:16.653Z
-ip,139.28.37.250,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
 ip,139.99.64.101,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T10:04:06.550Z
 ip,139.99.64.102,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T10:04:06.550Z
 ip,139.99.64.113,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T10:04:06.550Z
@@ -847,8 +846,6 @@ ip,151.236.16.40:34236,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,151.236.16.40:57144,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,151.236.22.19:3375,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,151.236.22.19:4421,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
-ip,151.241.99.207,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
-ip,151.241.99.233,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
 ip,151.243.109.188,https://cybersecuritynews.com/xcsset-v40-abuses-chrome-devtools,XCSSET v40 Abuses Chrome DevTools Protocol to Steal Cookies and Run Commands,2026-08-03T08:19:33.000Z,2026-08-03T08:49:44.827Z
 ip,151.243.126.191,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T17:15:54.974Z
 ip,152.42.174.15,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T14:04:51.803Z
@@ -862,7 +859,6 @@ ip,155.2.215.71,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medu
 ip,158.160.228.178,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T14:03:23.329Z
 ip,158.160.3.224:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,158.173.166.3,https://cybersecuritynews.com/greatness-phaas,Greatness PhaaS Bypasses Email Security and MFA to Hijack Microsoft 365 Accounts,2026-08-05T14:51:03.000Z,2026-08-05T15:49:07.772Z
-ip,158.62.198.182,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
 ip,158.94.208.104,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
 ip,158.94.208.109,https://cybersecuritynews.com/dcrat-campaign,DCRat Campaign Hides Malware Archive Inside SVG Using HTML Smuggling,2026-08-14T11:57:04.000Z,2026-08-14T12:35:40.823Z
 ip,158.94.208.92,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
@@ -989,7 +985,6 @@ ip,188.225.72.157,https://cybersecuritynews.com/standoff-hides-traffic,Operation
 ip,188.225.82.125,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T08:03:03.540Z
 ip,189.219.16.249,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-08T23:58:52.825Z
 ip,191.101.80.211,https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads,FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users,2026-07-24T11:54:18.000Z,2026-07-24T12:06:03.835Z
-ip,192.142.10.99,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
 ip,192.142.54.79,https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs,CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure,2026-07-23T06:41:54.000Z,2026-07-23T07:59:14.107Z
 ip,192.163.162.30,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T14:53:06.968Z
 ip,192.252.186.62,https://cybersecuritynews.com/opsec-mistake-exposed-triback-malware,Hackers’ OPSEC Mistake Exposed a Global Espionage Campaign and Its New TriBack Malware,2026-07-23T15:28:29.000Z,2026-07-23T17:03:22.024Z
@@ -1007,7 +1002,6 @@ ip,193.37.69.225,https://www.ransomware.live/group/vanhelsing,Ransomware.live - 
 ip,193.42.33.51,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
 ip,193.43.104.153,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-08-08T23:58:52.825Z
 ip,194.150.220.163,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T14:03:23.329Z
-ip,194.213.18.137,https://cybersecuritynews.com/check-point-vulnerability-exploited,CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks,2026-07-23T05:23:02.000Z,2026-07-23T07:59:14.107Z
 ip,194.213.18.181:16963,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,194.213.18.181:20290,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,194.213.18.181:49493,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
