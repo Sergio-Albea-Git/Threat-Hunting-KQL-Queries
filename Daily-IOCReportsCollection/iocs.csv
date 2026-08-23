@@ -676,7 +676,7 @@ ip,103.97.128.67,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSwo
 ip,104.168.140.238:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,104.168.151.112:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,104.194.133.210,https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads,FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users,2026-07-24T11:54:18.000Z,2026-07-24T12:06:03.835Z
-ip,104.194.159.150,https://cybersecuritynews.com/one-compromised-wi-fi-gateway,One Compromised Wi-Fi Gateway Can Redirect Every Hotel Guest to Attacker Controlled Servers,2026-07-24T09:20:12.000Z,2026-07-24T12:06:03.835Z
+ip,104.194.159.150,https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp,Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts,2026-08-21T11:31:54.000Z,2026-08-21T11:57:49.734Z
 ip,104.194.9.14,https://cybersecuritynews.com/cl0p-hackers-exploit-ptc,Cl0p Hackers Exploit PTC Windchill Flaw to Steal Passwords and Sensitive Company Data,2026-08-19T05:46:16.000Z,2026-08-19T05:59:57.080Z
 ip,104.200.67.252:3966,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,104.200.67.252:50955,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
@@ -1068,7 +1068,7 @@ ip,3.64.60.12:443,https://www.ransomware.live/group/bianlian,Ransomware.live - b
 ip,3.86.153.4:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,31.220.80.82:8081,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,31.41.244.100,https://cybersecuritynews.com/ransomware-gangs-attack-vpn,"Ransomware Gangs Attack Palo Alto, Fortinet, Citrix, and Check Point VPNs to Target Corporate Networks",2026-07-27T08:12:16.000Z,2026-07-27T22:38:44.199Z
-ip,31.57.243.154,https://cybersecuritynews.com/one-compromised-wi-fi-gateway,One Compromised Wi-Fi Gateway Can Redirect Every Hotel Guest to Attacker Controlled Servers,2026-07-24T09:20:12.000Z,2026-07-24T12:06:03.835Z
+ip,31.57.243.154,https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp,Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts,2026-08-21T11:31:54.000Z,2026-08-21T11:57:49.734Z
 ip,31.57.35.88,https://cybersecuritynews.com/crypto-scammer-uses-claude-code,"Crypto Scammer Uses Claude Code to Process 100,000+ Phone Numbers for Victim Targeting",2026-08-18T12:16:17.000Z,2026-08-18T14:10:36.675Z
 ip,31.76.7.137,https://cybersecuritynews.com/fake-web3-interview,Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT,2026-08-17T07:03:02.000Z,2026-08-17T09:22:04.740Z
 ip,37.1.202.248:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
@@ -1085,7 +1085,7 @@ ip,38.12.1.47,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelb
 ip,38.132.122.213,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-08-08T23:58:52.825Z
 ip,38.132.122.214,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-08-08T23:58:52.825Z
 ip,38.134.148.20,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-08-08T23:58:52.825Z
-ip,38.146.28.75,https://cybersecuritynews.com/one-compromised-wi-fi-gateway,One Compromised Wi-Fi Gateway Can Redirect Every Hotel Guest to Attacker Controlled Servers,2026-07-24T09:20:12.000Z,2026-07-24T12:06:03.835Z
+ip,38.146.28.75,https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp,Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts,2026-08-21T11:31:54.000Z,2026-08-21T11:57:49.734Z
 ip,38.22.89.117,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T17:15:54.974Z
 ip,38.244.205.244,https://cybersecuritynews.com/hackers-exploit-trueconf-servers,Hackers Exploit TrueConf Servers to Push Malware Through Legitimate Video Conference Downloads,2026-08-21T06:21:10.000Z,2026-08-21T07:26:38.799Z
 ip,38.248.95.214,https://cybersecuritynews.com/greatness-phaas,Greatness PhaaS Bypasses Email Security and MFA to Hijack Microsoft 365 Accounts,2026-08-05T14:51:03.000Z,2026-08-05T15:49:07.772Z
