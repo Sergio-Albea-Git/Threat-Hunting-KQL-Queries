@@ -879,7 +879,6 @@ ip,178.130.47.50,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fa
 ip,178.16.52.101,https://cybersecuritynews.com/hackers-use-fake-captcha,Hackers Use Fake CAPTCHA to Install Malware That Kills 145 Security Processes,2026-08-20T13:39:22.000Z,2026-08-20T14:18:11.722Z
 ip,178.16.52.232,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
 ip,178.162.151.229,https://cybersecuritynews.com/hackers-hid-a-remote-control-toolkit,Hackers Hid a Remote-Control Toolkit Inside Oracle to Take Over a Windows Server,2026-08-06T13:16:33.000Z,2026-08-07T00:27:41.648Z
-ip,178.20.41.208,https://www.ransomware.live/group/incransom,Ransomware.live - incransom,,2026-07-25T18:38:16.345Z
 ip,178.208.92.129,https://cybersecuritynews.com/xcsset-v40-abuses-chrome-devtools,XCSSET v40 Abuses Chrome DevTools Protocol to Steal Cookies and Run Commands,2026-08-03T08:19:33.000Z,2026-08-03T08:49:44.827Z
 ip,178.208.92.168,https://cybersecuritynews.com/xcsset-v40-abuses-chrome-devtools,XCSSET v40 Abuses Chrome DevTools Protocol to Steal Cookies and Run Commands,2026-08-03T08:19:33.000Z,2026-08-03T08:49:44.827Z
 ip,179.132.128.189,https://cybersecuritynews.com/hackers-are-using-fake-crypto-wallet-screens,Hackers Are Using Fake Crypto Wallet Screens to Steal Recovery Phrases and Browser Sessions,2026-07-28T11:45:29.000Z,2026-07-28T15:53:01.436Z
@@ -3506,7 +3505,6 @@ tox,063719AF013AD4EE89B497701BA5916898D70F45543C39E41154C4BCAC3A2F26F57913B31431
 tox,071EA649F06BDB7123C99653B7371E3B59860EE405E66A31EE0FD385F745A000405B6846ECBC,https://www.ransomware.live/group/krybit,Ransomware.live - krybit,,2026-08-08T23:58:52.825Z
 tox,088B7708F2C1557B6023B1102FFC5C36C023FF4883CB073F26A33B73832C9268993ED58B817E,https://www.ransomware.live/group/nitrogen,Ransomware.live - nitrogen,,2026-08-08T23:58:52.825Z
 tox,0932023CDBDC780B80B4772D22975C9AAD6D1A5921AA4C746C9E4851A307DE1888A6F56FDFBE,https://www.ransomware.live/group/exitium,Ransomware.live - exitium,,2026-08-08T23:58:52.825Z
-tox,0C659C8A2EE2EFEA357B688B08D917AEB3323B8CF49922095CBDA6388A93E64290E09FFCD406,https://www.ransomware.live/group/wallstreet,Ransomware.live - wallstreet,,2026-07-25T18:38:16.345Z
 tox,0C8E5B45C57AE244E9C904C5BC74F73306937469D9CEA22541CA69AC162B8D42A20F4C0382AC,https://www.ransomware.live/group/ralord,Ransomware.live - ralord,,2026-08-08T23:58:52.825Z
 tox,116A337A063FBB66C4B7DFB4FC2271759A89B08757FD8376CE632CB0290BEB252F91B4B34C47,https://www.ransomware.live/group/payload,Ransomware.live - payload,,2026-08-13T08:03:40.425Z
 tox,13343E50C1B3466F0EA35B5B3E55A044CB7132FD28A8665EFEA0E5848E276D548C21B79F15C2,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-13T08:03:40.425Z
@@ -3522,7 +3520,6 @@ tox,227FE8D41713E46CB156800ABD5D88C3F16F62E415BF919D8D0A2896093F9E1D55A59F72D2D6
 tox,2368C617830435DD74C41323BD684F04627A8047F92A885419E0191AC21F6D49733E4FF2C60E,https://www.ransomware.live/group/sicarii,Ransomware.live - sicarii,,2026-08-08T23:58:52.825Z
 tox,243AAD0D1875CA4D48034E799785F2C9EA225E4466C87FA9B9297F7BEADC694478C7DE0A7639,https://www.ransomware.live/group/dark project,Ransomware.live - dark project,,2026-08-13T08:03:40.425Z
 tox,24CCCF90893D73BE99427731EFBA1A11C015D574EC433EA44908B6B6F20FB34AF56622F8A4E8,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-08-08T23:58:52.825Z
-tox,32C12B278912E26E5EAC57AEBB3F4FF16F0E31603C7B9D46AC02E9D993EE14351CEC3AB5945C,https://www.ransomware.live/group/orion,Ransomware.live - orion,,2026-07-25T18:38:16.345Z
 tox,358AC0F6C813DD4FD243524F040E2F77969278274BD8A8945B5041A249786E32CC784580F2EC,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 tox,389EFCEB8DB8143C000A0A70B6C44A0436761784760F23E2F43A421F48A45D72A4A22814F011,https://www.ransomware.live/group/d4rk4rmy,Ransomware.live - d4rk4rmy,,2026-08-08T23:58:52.825Z
 tox,39755E52DA820E219484E62135B4DFF88F616813F170895416A269B54F91610362775DE4DA2D,https://www.ransomware.live/group/exitium,Ransomware.live - exitium,,2026-08-13T08:03:40.425Z
@@ -3530,7 +3527,6 @@ tox,3B61CFD6E12D789A439816E1DE08CFDA58D76EB0B26585AA34CDA617C41D5943CDD15DB0B7E6
 tox,3DCE1C43491FC92EA7010322040B254FDD2731001C2DDC2B9E819F0C946BDC3CD251FA3B694A,https://www.ransomware.live/group/warlock,Ransomware.live - warlock,,2026-08-08T23:58:52.825Z
 tox,457BB4E5DF0E650509322CA894758D925A568828090A3449D5AEEED30E9B8E18DDDFF71909ED,https://www.ransomware.live/group/pear,Ransomware.live - pear,,2026-08-08T23:58:52.825Z
 tox,46CA5EEC55A16767B7F8293DB18F753D1BF60C536747EFD115035DDA40948427E1DDFD107F03,https://www.ransomware.live/group/nitrogen,Ransomware.live - nitrogen,,2026-08-08T23:58:52.825Z
-tox,48d52d08f74ceefb0e45009576c9d55b54559641e3147745e98e0e53c44f1f82,https://www.ransomware.live/group/redact,Ransomware.live - redact,,2026-07-25T18:38:16.345Z
 tox,4A4966259BE6EB1341A2A6A06EA25D747354257EA47F5FD4987A0760FFAEAB1E8E8955A0354F,https://www.ransomware.live/group/dataleak,Ransomware.live - dataleak,,2026-08-08T23:58:52.825Z
 tox,4A7F41CC6A5B87AF99450066F313C224D4E0E5501414670A8C5B802403E6292F9A8D1936A9F0,https://www.ransomware.live/group/makop,Ransomware.live - makop,,2026-08-08T23:58:52.825Z
 tox,4AE245548F2A225882951FB14E9BF87EE01A0C10AE159B99D1EA62620D91A372205227254A9F,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-08-08T23:58:52.825Z
