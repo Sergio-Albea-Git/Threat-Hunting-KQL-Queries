@@ -411,6 +411,7 @@ email,yagamuchi@mailum.com,https://www.ransomware.live/group/blackfield,Ransomwa
 email,yamaguchigumi@cock.li,https://www.ransomware.live/group/risen,Ransomware.live - risen,,2026-08-08T23:58:52.825Z
 email,znhsupport@protonmail.com,https://www.ransomware.live/group/luckbit,Ransomware.live - luckbit,,2026-08-08T23:58:52.825Z
 filename,../../../../../tmp/1234.sh,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T08:49:44.827Z
+filename,.pdf.lnk,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 filename,/api/xls/a1p2i.js,https://cybersecuritynews.com/microsoft-365-session-theft,"Hackers Let Microsoft 365 Users Complete MFA, Then Steal Logged-In Sessions",2026-08-19T16:17:56.000Z,2026-08-19T17:55:24.909Z
 filename,/dist/calc.bin,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T09:27:50.322Z
 filename,/dist/internal/calc-cache.bin,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T09:27:50.322Z
@@ -516,11 +517,13 @@ filename,header.doc,https://cybersecuritynews.com/china-nexus-hackers,China-Nexu
 filename,helperstandardizationapplication.bin,https://cybersecuritynews.com/clickfix-attack-ibm-spss-ide,ClickFix Attack Abuses Signed IBM SPSS IDE to Deploy New CNCMachineRMS RAT,2026-08-12T08:05:00.000Z,2026-08-12T09:44:16.653Z
 filename,holidaynotice.pdf.exe,https://cybersecuritynews.com/china-nexus-hackers,China-Nexus Hackers Disguise Malicious VHD as JPEG to Deploy QUICAgent Backdoor,2026-08-19T15:05:35.000Z,2026-08-19T17:55:24.909Z
 filename,index.js,https://cybersecuritynews.com/asyncapi-malware-contains-modules,"AsyncAPI Malware Contains Modules to Steal GitHub, npm, Cloud and AI API Credentials",2026-07-29T11:27:46.000Z,2026-07-29T13:19:54.796Z
+filename,information.lnk,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 filename,instance.exe,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T17:15:54.974Z
 filename,intaudio.exe,https://cybersecuritynews.com/armored-likho-still-toolkit-steals,Armored Likho Still Toolkit Steals Telegram Sessions and Records Victims’ Conversations,2026-08-13T12:39:53.000Z,2026-08-13T14:04:51.803Z
 filename,ipyw32.exe,https://cybersecuritynews.com/hackers-are-using-fake-crypto-wallet-screens,Hackers Are Using Fake Crypto Wallet Screens to Steal Recovery Phrases and Browser Sessions,2026-07-28T11:45:29.000Z,2026-07-28T15:53:01.436Z
 filename,irujkdnjhgttrhdkfdu.ps1,https://cybersecuritynews.com/kimsuky-uses-local-llms,"Kimsuky Uses Local LLMs, AI-Generated Lures and GitHub C2 to Deploy AsyncRAT",2026-08-10T10:07:26.000Z,2026-08-10T15:33:45.999Z
 filename,jedb5rox.cmd,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T11:02:59.842Z
+filename,jinf.pdf,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 filename,juridica.7z,https://cybersecuritynews.com/dcrat-campaign,DCRat Campaign Hides Malware Archive Inside SVG Using HTML Smuggling,2026-08-14T11:57:04.000Z,2026-08-14T12:35:40.823Z
 filename,kernel.so,https://cybersecuritynews.com/kimwolf-v7-uses-chrome-browser,Kimwolf v7 Botnet Uses Chrome Browser Fingerprints to Hide HTTP/2 DDoS Attacks,2026-08-13T10:37:21.000Z,2026-08-13T14:04:51.803Z
 filename,langflowpoc.py,https://cybersecuritynews.com/deepseek-powered-hermes-agent,DeepSeek-Powered Hermes Agent Launches Autonomous Cyberattacks Against Exposed Servers,2026-07-31T09:22:22.000Z,2026-07-31T11:09:56.244Z
@@ -563,6 +566,7 @@ filename,nvml.dll,https://cybersecuritynews.com/new-backdoors-let-hackers-keylog
 filename,oklnkae.vbs,https://cybersecuritynews.com/bluenoroff-hijacks-trusted-telegram-accounts,BlueNoroff Hijacks Trusted Telegram Accounts to Deliver ClickFix Malware Through Fake Zoom Calls,2026-07-27T08:00:18.000Z,2026-07-27T22:38:44.199Z
 filename,oleasapi.dll,https://cybersecuritynews.com/new-backdoors-let-hackers-keylog,"New Backdoors Let Hackers Keylog, Steal Passwords and Control Government Computers",2026-07-31T06:51:55.000Z,2026-07-31T11:09:56.244Z
 filename,order0087.docx,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
+filename,pattern.zip,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 filename,pdfcore8.dll,https://cybersecuritynews.com/silverfox-hijacks-trusted-software,SilverFox Hijacks Trusted Software and Kernel Drivers to Disable Security Tools,2026-08-06T18:52:20.000Z,2026-08-07T00:27:41.648Z
 filename,pdfdirect.exe,https://cybersecuritynews.com/silverfox-hijacks-trusted-software,SilverFox Hijacks Trusted Software and Kernel Drivers to Disable Security Tools,2026-08-06T18:52:20.000Z,2026-08-07T00:27:41.648Z
 filename,persistence86.dll,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T14:53:06.968Z
@@ -586,7 +590,9 @@ filename,runtimebroker.dll,https://cybersecuritynews.com/fake-ccleaner-download,
 filename,s5cmd.exe,https://cybersecuritynews.com/akira-uses-windows-safe-mode,Akira Ransomware Uses Windows Safe Mode to Shut Down EDR Before Launching Encryptor,2026-08-13T08:17:04.000Z,2026-08-13T09:44:25.769Z
 filename,sbiedll.dll,https://cybersecuritynews.com/hackers-hide-agent-tesla,Hackers Hide Agent Tesla JScript Behind Unicode Emojis to Evade Detection,2026-08-21T14:14:20.000Z,2026-08-21T15:06:48.828Z
 filename,scansts.dll,https://cybersecuritynews.com/china-linked-spy-campaign,China-Linked Spy Campaign Uses Five New Malware Families Against Central Asian Governments,2026-08-21T05:11:11.000Z,2026-08-21T07:26:38.799Z
+filename,sdd_2026.zip,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 filename,secretsdump.py,https://cybersecuritynews.com/gunra-uses-stolen-sessions,Gunra Uses Stolen Sessions and RDP to Pivot Into Active Directory and IT Workstations,2026-08-13T11:29:50.000Z,2026-08-13T14:04:51.803Z
+filename,session.lnk,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 filename,setting.js,https://cybersecuritynews.com/npm-packages-cross-platform-rat,Malicious npm Packages Deploy Cross-Platform RAT Targeting Alibaba Developers,2026-07-29T06:13:56.000Z,2026-07-29T08:08:42.897Z
 filename,setup.zip,https://cybersecuritynews.com/hackers-are-turning-claude-chatgpt,"Hackers Are Turning Claude, ChatGPT and Copilot Into Bait for Real Malware",2026-08-20T11:02:41.000Z,2026-08-20T11:57:55.591Z
 filename,setupx86x64install.exe,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T08:03:03.540Z
@@ -670,6 +676,7 @@ ip,103.238.129.112,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkS
 ip,103.30.77.80:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,103.35.189.225,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T14:03:23.329Z
 ip,103.35.191.173,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T14:03:23.329Z
+ip,103.77.242.187,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 ip,103.87.9.62,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T14:04:51.803Z
 ip,103.97.128.67,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T17:15:54.974Z
 ip,104.168.140.238:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
@@ -822,6 +829,7 @@ ip,158.94.208.92,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"T
 ip,159.198.37.74,https://cybersecuritynews.com/armored-likho-still-toolkit-steals,Armored Likho Still Toolkit Steals Telegram Sessions and Records Victims’ Conversations,2026-08-13T12:39:53.000Z,2026-08-13T14:04:51.803Z
 ip,159.223.46.184,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-08-08T23:58:52.825Z
 ip,159.89.112.223:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
+ip,160.187.147.119,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 ip,160.191.89.7,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-08T23:58:52.825Z
 ip,160.20.109.33,https://cybersecuritynews.com/fake-googletranslate-chrome-extension,Fake GoogleTranslate Chrome Extension Lets Attackers Remotely Control Your Browsers,2026-08-10T13:35:24.000Z,2026-08-10T15:33:45.999Z
 ip,161.35.200.18,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
@@ -1374,6 +1382,7 @@ md5,0168a4daa9598e991e140057e59438f6,https://www.ransomware.live/group/medusa,Ra
 md5,018d410685c743dedaad1dff81486dd7,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
 md5,019b65ccaabcf519b65645284966db57,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-08-08T23:58:52.825Z
 md5,01feb8f50b5195328f27195b0e4d82da,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
+md5,0210f46648d4e36a98c2c0fae404f36d,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,0248bf2afb70642288646760bb25a38d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,036bcb62be72c4663b9564955f93b05f,https://cybersecuritynews.com/kimwolf-v7-uses-chrome-browser,Kimwolf v7 Botnet Uses Chrome Browser Fingerprints to Hide HTTP/2 DDoS Attacks,2026-08-13T10:37:21.000Z,2026-08-13T14:04:51.803Z
 md5,03ab9195dcbd96fbe4e11917c50b57b6,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
@@ -1485,6 +1494,7 @@ md5,1846d5e033ab5fb00573300dc8abb992,https://www.ransomware.live/group/akira,Ran
 md5,1852be15aa8dcf664291b3849bd348e4,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
 md5,187390322be5f643e538ff45dbfd39f5,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,1888ecf4e90f02ecaaefdb3624825fa2,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-08-08T23:58:52.825Z
+md5,18e33961d2007c89311f7754313292b3,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,18f9eebf70db818c0f2a3c865f7132ee,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-08-08T23:58:52.825Z
 md5,1965b4ea67c442855e6aebb5a6c67933,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,19c4f4e3eb499b4049c76546c99e0c10,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
@@ -1617,6 +1627,7 @@ md5,2f76a29d4e4292d7f29a29345717812c,https://www.ransomware.live/group/qilin,Ran
 md5,2fb9ccecabed10cd8f9f77d77a30e998,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,2fe02e961381dd0e8304625bcacbe24a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,2ff86a4fdfec4a5b49d5545f9a62ec4c,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-14T19:34:12.311Z
+md5,300f7b8ff182c8c69a0c499cdda6f8b8,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,302f76897e4e5c8c98a52a38c4c98443,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,30656c737338818bee8cc3591e3f3dcc,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-08-08T23:58:52.825Z
 md5,3065f86823e429728a9adb21863414a2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
@@ -1676,6 +1687,7 @@ md5,3a6e2c775c9c1060c54a9a94e80d923a,https://www.ransomware.live/group/dragonfor
 md5,3a736252d9a7788752c4775eadb11849,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,3ad44c2c507023cb2eb0d7014e73d612,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,3ad4bf5a86d26ffbf09cae42af330a98,https://cybersecuritynews.com/hackers-infect-android-car-screens,Hackers Infect Android Car Screens Through Their Built-In Software Update System,2026-08-24T07:30:28.000Z,2026-08-24T09:27:50.322Z
+md5,3ad9fbfad7ffb569b1aa24d4588edc60,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,3b10127e65fa3e215d21e0a2e7fd32be,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-08T23:58:52.825Z
 md5,3b5381e4e1a32953a8af4b98befc643f,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-14T19:34:12.311Z
 md5,3b8cf25170846369215748ab0d865bef,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
@@ -1762,6 +1774,7 @@ md5,4bdaf7792e908f163ebef137854c571d,https://cybersecuritynews.com/roblox-malwar
 md5,4becb7b02f39cfe4af8031a6f0464282,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
 md5,4c282ce56a6991de050c2d8ea93d2b77,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
 md5,4c37fbc3e9cc57b0bc00facf1cef927f,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
+md5,4c5474238c4b2ec2ca0698902c084624,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,4c58195328f5b5e4a37aa6f42b386172,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-08-08T23:58:52.825Z
 md5,4ca68bf3d630332e9c19a17ac910376e,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-08-08T23:58:52.825Z
 md5,4d43e35962c8c7fdca5f64da8f561f5a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
@@ -1793,6 +1806,7 @@ md5,517ac3f7fc52792734b9a00a57cc5ae4,https://www.ransomware.live/group/fog,Ranso
 md5,5190ef1733183a0dc63fb623357f56d6,https://cybersecuritynews.com/fake-claude-code-install-guide,Fake Claude Code Install Guide Uses Google Ads to Deliver MacSync Infostealer,2026-07-28T13:23:35.000Z,2026-07-28T15:53:01.436Z
 md5,51ba8d3aadbbde812934ddd0006b1b80,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,51c6124113221d1bf27e21c6fbbd1a97,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
+md5,51e1876c971c76d9664ad198af8a5b61,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,523c501118ef5d7957ce54aee86d9b1d,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-08-08T23:58:52.825Z
 md5,527142e25a8229d1dc910af23cdb5256,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
 md5,5334cbddd1128f87308c0725d2cb012e,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-08-08T23:58:52.825Z
@@ -1802,6 +1816,7 @@ md5,538f8b4fbe62595021ffa36682bf518f,https://www.ransomware.live/group/j,Ransomw
 md5,53b50b5012e0492b113c270ada8c5624,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,53c8a4f0497929de4a5039b2c14bf426,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-08T23:58:52.825Z
 md5,53d89e90a54fef428f74eed41b14fb38,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
+md5,54089d9cf9c7d5ff9abbae88437f66a8,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,54416fc42afa9b09ea7e8d8e318f4891,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-08-08T23:58:52.825Z
 md5,54d21399b8b52b48a0fef68450593e45,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T08:49:44.827Z
 md5,54dd1e7adb8d5440cfed65c9646f2529,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
@@ -1815,6 +1830,7 @@ md5,56f673b1d3d65dce3ef3c8754098df04,https://www.ransomware.live/group/akira,Ran
 md5,5700eef6f154fdae3a22985674b41168,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,571684f28ce1cf4d8236dbd46ef6f7f0,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-08-08T23:58:52.825Z
 md5,5724f2b6e2c5783513de1d278cdf7999,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
+md5,5727c0ff18c58b80bca5ce80575996bd,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,572c433a50a0c25816e8bfd69428be0f,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,574260101279f8c190862a89f38bf03c,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,575b26c1cc06609722f98e2beaed6a8a,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-08T23:58:52.825Z
@@ -1833,6 +1849,7 @@ md5,59fe1ef7707fe497d89f34505222862f,https://cybersecuritynews.com/bindcloak-ste
 md5,5a591ed431d806f71e766ded7917aec1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,5b0b615f51621e8f354d9f571a627ff5,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,5b28a0fc21ba079b380effb30e853132,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-08-08T23:58:52.825Z
+md5,5b49177d14f073bd7abf4c94688ebd84,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,5b49aa1d67d60d435c5430c3e50da081,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,5b4d60780f6b5bbb6cb0a28fee885422,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-08-08T23:58:52.825Z
 md5,5bf3dfab3aac314adaa400a317987c82,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
@@ -1962,6 +1979,7 @@ md5,76554ad09897ac723a850eaf8c525efa,https://cybersecuritynews.com/kimwolf-v7-us
 md5,770c1dc157226638f8ad1ac9669f4883,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-08-08T23:58:52.825Z
 md5,773fcd0432808e74bfb863489799dd05,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,77958f66ade19ace783617531f0d82ac,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
+md5,77a7dfdc7bd74cc47ac3f4f8e019936c,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,77f8db41b320c0ba463c1b9b259cfd1b,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
 md5,793bed4cb96031a738fa60c9b2813606,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,799e1b6ad59324054e74eb6bfe5f78f9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
@@ -1978,6 +1996,7 @@ md5,7be61ea851f894d26bf57cf0f1f55ed6,https://www.ransomware.live/group/bianlian,
 md5,7bf5cbca413b327c655e2270645955d9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,7bfcdf4e2cc520fb8817a7bb711df873,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,7c2f64461bb519c6cbf1fc687675514c,https://cybersecuritynews.com/new-backdoors-let-hackers-keylog,"New Backdoors Let Hackers Keylog, Steal Passwords and Control Government Computers",2026-07-31T06:51:55.000Z,2026-07-31T11:09:56.244Z
+md5,7c6ac06ccfa7648a4a8cc916c14d9f67,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,7c870d186057084254075870aebfb111,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
 md5,7ca94d84f4a02fb1f608818c1c3ab62d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,7cb34a621478c692c12f9cbbbe457a58,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
@@ -2060,8 +2079,10 @@ md5,8d45a67b648d2cb46292ff5041a5dd44,https://cybersecuritynews.com/sparkkitty-ma
 md5,8db6eee838614a191b992e68a7653fa1,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,8dbd57b042bc63b9ecdc9e3e5506ce85,https://www.ransomware.live/group/braincipher,Ransomware.live - braincipher,,2026-08-08T23:58:52.825Z
 md5,8dc613df28d63907d1b686a8b0c480bf,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
+md5,8de25f181d32417fc34b2a77d2f4804b,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,8defef59460fe89479da2f0d00212d31,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,8e2965a4dd7a27ed1b304ac03ad4d728,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
+md5,8e4410c65ca11664561e1b6036209122,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,8e4a887acab5f9475c5fa9a26fb9e720,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-08-08T23:58:52.825Z
 md5,8e5cf313bfbb57aab0ccc5c4cb0d46ac,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,8ed43c2c1aa9bb8c7c3902e1f3f4b473,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
@@ -2092,10 +2113,12 @@ md5,93be893ff74816c49f2706f222789027,https://www.ransomware.live/group/rhysida,R
 md5,93c4750c01aa296698f8ecc8a4587156,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,949d9523269604db26065f002feef9ae,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-08-08T23:58:52.825Z
 md5,94cf899790945aca27e8bd195b86ecd6,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
+md5,94ed14ef07ac7504a3983ace8d894aae,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,94fd9e8ae8c97e1e5953005f622d344e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,9562d776b97cc5c843fa6699bb1cee15,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,95639f8080597118182c89cb63bd2415,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,95bd29a0321f88b1d52a083f505210ab,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
+md5,95d049f184c02aa756b361c2dacb354d,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,95d91cdeaf8991fec3618ca52a5d8a7e,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-14T19:34:12.311Z
 md5,95daa771a28eaed76eb01e1e8f403f7c,https://www.ransomware.live/group/lockbit5,Ransomware.live - lockbit5,,2026-08-08T23:58:52.825Z
 md5,95f6de7442e040fb10547140a05ddd45,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
@@ -2156,6 +2179,7 @@ md5,a18d79e94229fdf02ef091cf974ed546,https://www.ransomware.live/group/akira,Ran
 md5,a1f4931992bf05e9bff4b173c15cab15,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,a20886a5b378624d16972db66bd4e7e1,https://www.ransomware.live/group/lynx,Ransomware.live - lynx,,2026-08-08T23:58:52.825Z
 md5,a20f8391af142d78fa825e38f0f40965,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-08-08T23:58:52.825Z
+md5,a2191f29f58b9f0cb576b7459ed6680d,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,a2d853247d939106231314bc5b233bda,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-08-08T23:58:52.825Z
 md5,a34941a3022b8fb2b4a245c0ba3092c6,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,a34a354b9b59616b84dbc1503a7be058,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
@@ -2309,6 +2333,7 @@ md5,bff3fdbff0a5d4aa1c03f7982c968e54,https://www.ransomware.live/group/akira,Ran
 md5,c0193c3b51020b1504c401bb27b84bea,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-08-08T23:58:52.825Z
 md5,c01ef0d5b74ca330b77d8c1afe10af59,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,c02311bf513ebe0d1a5a1500b89021d4,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
+md5,c08ea73bac08ea4f4665e9e0b0fdd2a8,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,c0a5f20bf77fda622bc93df6caccc626,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,c0a72edcd670fc46f607a89672ad65df,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,c0bee5d054345131355452ef0c057697,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
@@ -2334,6 +2359,7 @@ md5,c6a7568134622007de026d22257502d5,https://cybersecuritynews.com/sparkkitty-ma
 md5,c6ba8b62756370e5c801822f9c0329ba,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,c6bfb1643ac7474ed8a7b4f96a187fdb,https://cybersecuritynews.com/hackers-infect-android-car-screens,Hackers Infect Android Car Screens Through Their Built-In Software Update System,2026-08-24T07:30:28.000Z,2026-08-24T09:27:50.322Z
 md5,c6c511ba966328c9497c8aa9264fb733,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
+md5,c774b3980151881d9d546710126b5ded,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,c786e93b0984d16d8614e1e0560b679c,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,c79d8b7c07b992c6aa435e4101770f99,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
 md5,c7ae7f5becb7cf94aa107ddc1caf4b03,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
@@ -2348,6 +2374,7 @@ md5,ca2200de13490701a70a3193565bc691,https://www.ransomware.live/group/trigona,R
 md5,ca33f9d7566d3578129c352bd5a93597,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
 md5,ca93d47bcc55e2e1bd4a679afc8e2e25,https://www.ransomware.live/group/lockbit5,Ransomware.live - lockbit5,,2026-08-08T23:58:52.825Z
 md5,cabad66c40768fd276c7ccd0ddcde204,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
+md5,cac69a696fc155717dabe641f22db0c9,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,cb9bbcd6fb2cda389c79512066a76b58,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,cb9c73b52474adb4a24a2a17daa2b95a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,cbdc3846ef369daab8ee5dcbdccc4767,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
@@ -2408,6 +2435,7 @@ md5,d72c3508cbb968c478e0bd91e0f11424,https://www.ransomware.live/group/fog,Ranso
 md5,d759364844d78a728505fb0485c3adbc,https://cybersecuritynews.com/kimwolf-v7-uses-chrome-browser,Kimwolf v7 Botnet Uses Chrome Browser Fingerprints to Hide HTTP/2 DDoS Attacks,2026-08-13T10:37:21.000Z,2026-08-13T14:04:51.803Z
 md5,d7aa8e838d85ac9fcbef1cc7f55dccbf,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,d7ad18e63064ef80cc6b98db54516f6f,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-08-08T23:58:52.825Z
+md5,d7dbce5d25aa483d9c5ec1223ed6bf6e,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,d811f4b4dc97b25751cd0e8373c533e3,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-08-08T23:58:52.825Z
 md5,d851b19b5b587f202795e10b72ced6e1,https://cybersecuritynews.com/sparkkitty-malware-steals-crypto-wallet,SparkKitty Malware Steals Crypto Wallet Seed Phrases From iOS and Android Photos,2026-07-27T08:41:56.000Z,2026-07-27T22:38:44.199Z
 md5,d86163423afa32bb0b793ad909d6b357,https://www.ransomware.live/group/datacarry,Ransomware.live - datacarry,,2026-08-08T23:58:52.825Z
@@ -2480,11 +2508,13 @@ md5,e72e0069e1fb4328e2704bda97fb4a40,https://www.ransomware.live/group/akira,Ran
 md5,e77221d7a4b47b9107ba1b61a551ca89,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T08:03:03.540Z
 md5,e792fedfd11d56a9ad68e6d407b9a09e,https://cybersecuritynews.com/fake-n26-support-calls-copybara-rat,Fake N26 Support Calls Deploy Copybara Android RAT to Control Banking Apps,2026-07-30T07:08:57.000Z,2026-07-30T14:53:06.968Z
 md5,e7ad64df3eea1239f735f790c17db441,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-08-08T23:58:52.825Z
+md5,e7da02737751f2f171aed28694b9554e,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,e8139b0bc60a930586cf3af6fa5ea573,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,e824c64c99e05fcac2d2745e19f2013e,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,e861444baa2eaa3dcc84540389b39e5e,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,e874240a53fc353bc770f507445cc061,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-08-08T23:58:52.825Z
 md5,e8a7b35ba3c8ea8e6be3e14191ee8bd8,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
+md5,e8aaa4f579e6be788929d3548b31bf6d,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,e8b60bf5af2d5cc5c501b87d04b8a6c2,https://cybersecuritynews.com/sparkkitty-malware-steals-crypto-wallet,SparkKitty Malware Steals Crypto Wallet Seed Phrases From iOS and Android Photos,2026-07-27T08:41:56.000Z,2026-07-27T22:38:44.199Z
 md5,e8beb18255980acdeae7895c8a0d03f1,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
 md5,e8fb54b0d6780b2d032f865b78a711ba,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
@@ -2508,6 +2538,7 @@ md5,eb0c1d82187ec3fe980eed2419875e4b,https://www.ransomware.live/group/lockbit5,
 md5,eb2479d710d08cffec1ad42bc1edc7aa,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,eb46bc3e2ad88149176ef33c9fea087a,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-08-08T23:58:52.825Z
 md5,eb531020d07166f41241bad62ae7aa55,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
+md5,eb80f7bddb699784baa9fbf2941eaf4a,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,eba1596272ff695a1219b1380468293a,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-08-08T23:58:52.825Z
 md5,ebbdb20711323dc22a5619ea3a3a2f25,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
 md5,ebc321e4c8b761c50d13dc0d8cb86d72,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
@@ -2557,6 +2588,7 @@ md5,f2070b889c7aa58ca153c6d1b3dc953e,https://www.ransomware.live/group/raworld,R
 md5,f2bf5c1aa8e8566cc2f3cb060556926c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,f325cd4350d958e4a5141e520ab4ad52,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 md5,f35a29f2c7153f6a13768b77ff9da28d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-08T23:58:52.825Z
+md5,f3620e42e9c726c65ea7e14e3bf35464,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,f37cec428257cd41153cf43d7f1a1265,https://cybersecuritynews.com/kimsuky-uses-local-llms,"Kimsuky Uses Local LLMs, AI-Generated Lures and GitHub C2 to Deploy AsyncRAT",2026-08-10T10:07:26.000Z,2026-08-10T15:33:45.999Z
 md5,f392807da3ee1f3e9702ce5fa91d418d,https://www.ransomware.live/group/blacklock,Ransomware.live - blacklock,,2026-08-08T23:58:52.825Z
 md5,f40a9023601154d7d61b349ab2945c97,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-08T23:58:52.825Z
@@ -2575,6 +2607,7 @@ md5,f6359f375ae370e15bfef366f238ee15,https://www.ransomware.live/group/fog,Ranso
 md5,f63c17d6753abb95d876f5c02dc57ad5,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-08-08T23:58:52.825Z
 md5,f6664f4e77b7bcc59772cd359fdf271c,https://www.ransomware.live/group/gunra,Ransomware.live - gunra,,2026-08-08T23:58:52.825Z
 md5,f6e5f0ed974c89e2b4a47989fc987c79,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-08-08T23:58:52.825Z
+md5,f6f7a94c11ea0ee01cbbe674cfac7851,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 md5,f71d8db7fda7659718330efcbd0776f0,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-08-08T23:58:52.825Z
 md5,f73005682c1d90f4b3269483b687e891,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-08-08T23:58:52.825Z
 md5,f76d907ca3817a8b2967790315265469,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-08-08T23:58:52.825Z
@@ -2784,6 +2817,7 @@ sha256,02e9da11f035bd4e18338ddd78e2818da49e7d1c8f614e9b329afaf581c33301,https://
 sha256,02ff86c7f9fe609a753ff15bda90baa3c3e0d4a2e559ec4fcf8a3de0954b7c55,https://cybersecuritynews.com/adform-advertising-platform-compromised,Hackers Turned a Trusted Advertising Platform Into a Crypto-Stealer Delivery Network,2026-08-01T12:13:57.000Z,2026-08-01T12:36:26.662Z
 sha256,0376db397807c1f1e32a99a9db622f35f4fe5597bd05b4fd5e93117062e0131f,https://cybersecuritynews.com/a-leaked-android-rat,A Leaked Android RAT Is Powering 170 Servers and Its Successor Is Already Online,2026-07-29T10:59:33.000Z,2026-07-29T11:06:48.791Z
 sha256,03d93b56ac4219a8ac8a55fd4ba777618b5682cc84bec0efe8ea78e497dd3b3d,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T14:53:06.968Z
+sha256,0428fbdefa8dda10ce8fc12b1b516641e83cd5088388168e3f1a0be1432b4077,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:22:49.953Z
 sha256,0432ae814945633b605c77d137bef96c7f84934c682aada69baa326dce781286,https://cybersecuritynews.com/kimsuky-expands-its-cyber,Kimsuky Expands Its Cyber Espionage Arsenal With Local AI Development Environment,2026-08-18T13:41:41.000Z,2026-08-18T14:10:36.675Z
 sha256,0475a46c70d8671322d39392c55d404b6d8f4de34090f0373244cef52ae55708,https://cybersecuritynews.com/fake-n26-support-calls-copybara-rat,Fake N26 Support Calls Deploy Copybara Android RAT to Control Banking Apps,2026-07-30T07:08:57.000Z,2026-07-30T14:53:06.968Z
 sha256,04bef2153417efeb408d8e027bd91bb6db5b957c43ceb7429a15cb76ef436af3,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T14:53:06.968Z
@@ -2823,6 +2857,7 @@ sha256,1456f31bf6b5d4ade90fe080006478133296080353bf69c1819fa9b766e7f57a,https://
 sha256,147276f871a5a33a611a6ee112137f3aae136ea79fcbf07361cb7d0d26c87e4d,https://cybersecuritynews.com/hackers-hide-malware-code,Hackers Hide Malware Code Inside English Words to Infect Windows Users,2026-08-20T11:39:53.000Z,2026-08-20T11:57:55.591Z
 sha256,14b573b7e3ff8ad4e1489a5c039532f16f9eff34ead1d299f97fb0badf0affdc,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
 sha256,1505eda3da68e2ff9919b55a31018bd30a991236f041aee835f3bc4e430ce505,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T07:59:33.215Z
+sha256,151d2a7f52f047638ca8ad80c859c6bfe04d7510fb10933817fa0e3ba5d07a11,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:22:49.953Z
 sha256,153d077bcb58e00f5746573cba25f6b0788b809bf7b2a52fca0dc22d3bb5c94e,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T14:04:51.803Z
 sha256,1545169fa8a3ae182d8e39aca8ec6cb6849b864e38646f29017232813e397e77,https://cybersecuritynews.com/zbtlink-chinese-router,Zbtlink Chinese Router Sold Worldwide Contains a Hidden Backdoor Affecting 20+ Models,2026-08-07T06:38:52.000Z,2026-08-07T08:36:46.541Z
 sha256,163e4a72cbe392c073eddc60aee69dc1cf87ce492c375af74e923d75d8084683,https://cybersecuritynews.com/bluenoroff-hijacks-trusted-telegram-accounts,BlueNoroff Hijacks Trusted Telegram Accounts to Deliver ClickFix Malware Through Fake Zoom Calls,2026-07-27T08:00:18.000Z,2026-07-27T22:38:44.199Z
@@ -2851,6 +2886,7 @@ sha256,2014d09c7ded74d89c885b5f11693865224116f1b25df9330e61fe528f419d73,https://
 sha256,203bd56fbb75c9176fcbc77be6ff0792c9f55cb0ea3a255766130fadaa0c05de,https://cybersecuritynews.com/bluenoroff-hijacks-trusted-telegram-accounts,BlueNoroff Hijacks Trusted Telegram Accounts to Deliver ClickFix Malware Through Fake Zoom Calls,2026-07-27T08:00:18.000Z,2026-07-27T22:38:44.199Z
 sha256,205fc66381b8e254508d40c693a1314c9fc2b94b8023b29483803c8b0e449c4d,https://cybersecuritynews.com/remus-hides-its-command-server,Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults,2026-08-06T12:22:19.000Z,2026-08-06T13:13:46.907Z
 sha256,20675a659c338f7267fd09bacb431f4491f061d3acf42d07aca2dec3d25fa549,https://cybersecuritynews.com/c2looper-updates,C2Looper Updates Itself Through OneDrive DLL Sideloading to Evade Detection,2026-08-18T12:47:11.000Z,2026-08-18T14:10:36.675Z
+sha256,209f69a6ca859f05c954096b30391a43fda33c9ed264dfdccf806697f04b06a8,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:22:49.953Z
 sha256,20c2a806619e1f32b3adc78689366959089d1a5de17a59a924bf477284785b5f,https://cybersecuritynews.com/malicious-solidity-pro-vs-code-extension,"Malicious Solidity Pro VS Code Extension Steals Crypto Wallets, API Keys and SSH Keys via Telegram",2026-08-10T11:56:27.000Z,2026-08-10T15:33:45.999Z
 sha256,20e20b074967ed6f6e04d609ccec5ff7492665ef25f894ca3be5885afb3eb3bb,https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp,Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts,2026-08-21T11:31:54.000Z,2026-08-21T11:57:49.734Z
 sha256,216ef271db7a1fe301bc4ca8cafb3849e4db57ff05a4bc6c146c13a026c6aa9c,https://cybersecuritynews.com/kimsuky-expands-its-cyber,Kimsuky Expands Its Cyber Espionage Arsenal With Local AI Development Environment,2026-08-18T13:41:41.000Z,2026-08-18T14:10:36.675Z
@@ -3053,10 +3089,12 @@ sha256,615f9ecc51ccce0de6e88dcff70662f77965214bf5ad0cc7e07bc4fae72c40d0,https://
 sha256,61659464d6ac002757b51c276f22cd3fff25089c1dc257c0b81309bf49aba7c0,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:08:35.932Z
 sha256,61a19cab5c7bbcf5ded1c8b6a05d586ecbe03afc055c132049226f86f5127b3d,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:08:35.932Z
 sha256,61b453cfedc6c67d9744b963bc3cabbee33f53606fdbf80da04bc3d4c93eb4fb,https://cybersecuritynews.com/top-10-malware-used-by-hackers,"Top 10 Malware Used by Hackers Between July 20-26, 2026 to Launch Cyberattacks",2026-07-27T10:57:45.000Z,2026-07-27T22:38:44.199Z
+sha256,61f961cfebdf9967844526649b4b75bba5b1b83210b70aa1bffe3f64e6ac3112,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:22:49.953Z
 sha256,623f3e98908962669e48edd414dbb67e9d4e204f677998fdcc9c2d790816a67f,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-08-08T23:58:52.825Z
 sha256,62801f6223e860a7cca271522e303b2d68f0365d2fa8c828d012d8859e52a773,https://cybersecuritynews.com/armored-likho-still-toolkit-steals,Armored Likho Still Toolkit Steals Telegram Sessions and Records Victims’ Conversations,2026-08-13T12:39:53.000Z,2026-08-13T14:04:51.803Z
 sha256,62c2c24937d67fdeb43f2c9690ab10e8bb90713af46945048db9a94a465ffcb8,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-14T19:34:12.311Z
 sha256,62dc6ed7c83769648b5c59ad9cc2a4e26daec96a952eb44c93fd45f2011a3444,https://www.ransomware.live/group/shinysp1d3r,Ransomware.live - shinysp1d3r,,2026-08-08T23:58:52.825Z
+sha256,63622c1ddb3e2a9f11cac192e13ac7494f558516b19d5d8f140f6d0d4d38ea84,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:22:49.953Z
 sha256,639430a33c0ecdf5a134501788a3a40f065ae4232efc66e1b82eca2b355e0606,https://cybersecuritynews.com/smokescreen-campaign,SMOKE#SCREEN Campaign Abuses ScreenConnect RMM and Cloudflare Tunnels to Hijack Windows and macOS Systems,2026-08-05T12:33:03.000Z,2026-08-05T15:49:07.772Z
 sha256,63c46b3c090a4b1efef146f2f1efc4f93d44f21db21d7825f43e02c3c5c89de6,https://cybersecuritynews.com/smokescreen-campaign,SMOKE#SCREEN Campaign Abuses ScreenConnect RMM and Cloudflare Tunnels to Hijack Windows and macOS Systems,2026-08-05T12:33:03.000Z,2026-08-05T15:49:07.772Z
 sha256,63eb3d2886d9cb880c9b0d54b94f3e149b3b5b6215a33a0ef63588a09dcd4499,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-08-08T23:58:52.825Z
@@ -3127,7 +3165,9 @@ sha256,7dcabb6d07d52b92bbf8d659d1ed373fa780e7839fd3d744826a56fc1cd2372f,https://
 sha256,7eca7aef8dcc46f15349509ac3dff8c0a71295c233787872c3842e058f9d7c50,https://cybersecuritynews.com/north-korean-etherhiding-campaign,North Korean EtherHiding Campaign Targets Crypto Wallets and Developer Credentials,2026-07-31T12:05:41.000Z,2026-07-31T13:16:53.527Z
 sha256,7f731cc11f8e4d249142e99a44b9da7a48505ce32c4ee4881041beeddb3760be,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 sha256,80965fa878946421e5778044fcb16bc523206eb8f3853c0f833e9dbb87fe24f1,https://cybersecuritynews.com/remus-hides-its-command-server,Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults,2026-08-06T12:22:19.000Z,2026-08-06T13:13:46.907Z
+sha256,80f08360ba768b152b71abb1cab557f552a13de18c83fe8e6396a197feec9185,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:22:49.953Z
 sha256,81bb80d9c5a97dc41b65f6248c131963c91346eb4fb672836b3d53ae67564d9f,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T07:59:33.215Z
+sha256,8207d8d949530ea063ffd5d47ee81b74bf718ec0a4755e2349e6af9b91e92dc1,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:22:49.953Z
 sha256,82268052f94df6f4870d02e57b18d4c54136cc7a8c8d80ad162631f99462c943,https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited,Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit,2026-08-12T03:23:37.000Z,2026-08-12T08:02:01.154Z
 sha256,8242443dfcec66e3fe04cbfa2fbd211ad34065ee07aa93813d792a437caab212,https://cybersecuritynews.com/kimwolf-v7-uses-chrome-browser,Kimwolf v7 Botnet Uses Chrome Browser Fingerprints to Hide HTTP/2 DDoS Attacks,2026-08-13T10:37:21.000Z,2026-08-13T14:04:51.803Z
 sha256,82520e6aa6194b2de0b1c404805a5da7d3693acab8f7ae2dd5104f14baf82cd7,https://cybersecuritynews.com/a-leaked-android-rat,A Leaked Android RAT Is Powering 170 Servers and Its Successor Is Already Online,2026-07-29T10:59:33.000Z,2026-07-29T11:06:48.791Z
@@ -3219,6 +3259,7 @@ sha256,a1b468e9550f9960c5e60f7c52ca3c058de19d42eafa760b9d5282eb24b7c55f,https://
 sha256,a1fdf65020ce4a0f0940c793c6425baf8a0b994ec48b9baaf72788661a9d29f4,https://cybersecuritynews.com/deadlock-ransomware,DeadLock Ransomware Stores C2 Configuration on Polygon Blockchain to Resist Takedowns,2026-08-11T09:39:02.000Z,2026-08-11T10:32:15.736Z
 sha256,a26f0a2da63a838161a7d335aaa5e4b314a232acc15dcabdb6f6dbec63cda642,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-08-08T23:58:52.825Z
 sha256,a331504acf589be5d11202232a7a93eeb4fe6b053beea231d9a0a661bcaf3fd6,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-08-08T23:58:52.825Z
+sha256,a335e75b78b601ebc5c258975d95fd79aa21f836fc6b79d82e9a22c596133f07,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:22:49.953Z
 sha256,a3b2fb0fdde660f07b3f2b05366403b624e35777cbc07dbe66398b21bba70396,https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp,Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts,2026-08-21T11:31:54.000Z,2026-08-21T11:57:49.734Z
 sha256,a40a61e54be9cc1671ea6832fef8139ce811a7d759058bb8b4ca86863f4cc1bd,https://cybersecuritynews.com/kimsuky-expands-its-cyber,Kimsuky Expands Its Cyber Espionage Arsenal With Local AI Development Environment,2026-08-18T13:41:41.000Z,2026-08-18T14:10:36.675Z
 sha256,a45144d22cac70a45d71cf4dffa4efbc373658779a56cf1300d6ac863d6cc7e2,https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited,Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit,2026-08-12T03:23:37.000Z,2026-08-12T08:02:01.154Z
@@ -3300,6 +3341,7 @@ sha256,c2aa28bb5e2a749c693712008276f311edd912f689371ef9e8a1ee5fb4167461,https://
 sha256,c4390e74aecd06d3bb355af7f403de0655d28cdc54fa68b1596d91c2b3bb0e46,https://cybersecuritynews.com/hackers-hide-malware-code,Hackers Hide Malware Code Inside English Words to Infect Windows Users,2026-08-20T11:39:53.000Z,2026-08-20T11:57:55.591Z
 sha256,c447e75f1029ed7a5882add16bcd13ad44be3bd47c93c830ff39185e23d25ebb,https://cybersecuritynews.com/dismantled-kratos-phishing-kits,Dismantled Kratos Phishing Kits Acting as Blueprint for Others to Attack Microsoft 365 Users,2026-07-28T12:42:21.000Z,2026-07-28T15:53:01.436Z
 sha256,c46b5a18ab3fb5fd1c5c8288a41c75bf0170c10b5e829af89370a12c86dd10f8,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-14T19:34:12.311Z
+sha256,c4acda412774c292f0db5d64467a2dd09282cdea43c41967e8bf90f6298accf3,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:22:49.953Z
 sha256,c4b4647795567ab15528edd1ab1bf37fb50e21b442e59a653051061973e87c02,https://cybersecuritynews.com/china-nexus-hackers,China-Nexus Hackers Disguise Malicious VHD as JPEG to Deploy QUICAgent Backdoor,2026-08-19T15:05:35.000Z,2026-08-19T17:55:24.909Z
 sha256,c55920f1bd0531b6738153068a666c080ddded47e6256f1fd980d51c0b507c91,https://cybersecuritynews.com/chaindrop-worm-infects-npm-packages,ChainDrop Worm Infects 400+ npm Packages to Steal GitHub and Cloud Credentials,2026-08-07T11:07:15.000Z,2026-08-07T11:27:25.308Z
 sha256,c692ad120cc90548d48dbe57d006f2403c49833b8993af3c38fe031eb39999bd,https://cybersecuritynews.com/a-leaked-android-rat,A Leaked Android RAT Is Powering 170 Servers and Its Successor Is Already Online,2026-07-29T10:59:33.000Z,2026-07-29T11:06:48.791Z
@@ -3311,6 +3353,7 @@ sha256,c9920e995fbc98cd3883ef4c4520300d5e82bab5d2a5c781e9e9fe694a43e82f,https://
 sha256,c9c94ac5e1991a7db42c7973e328fceeb6f163d9f644031bdfd4123c7b3898b0,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
 sha256,ca94d95413210a2a325155740eb8a5c58627ad5c4e704478621e7fc8165fe173,https://cybersecuritynews.com/abyssos-rat-rdpwrap,Abyssos RAT Includes RDPWrap-Related Module for Expanded Remote Access,2026-08-11T07:27:12.000Z,2026-08-11T09:36:38.706Z
 sha256,cab7f141fd6f2c58055b3731ef6a64b8a2d4d88a974770b047da19c0904322f0,https://cybersecuritynews.com/wordpress-sites-stopandprotect-malware,Hackers Turn Thousands of Compromised WordPress Sites Into C2 Servers for StopAndProtect Malware,2026-08-18T16:47:24.000Z,2026-08-18T17:58:55.793Z
+sha256,cb1c657f74b9e57f5e81126179128e8db949d1d4196be9dcb890341e222fd384,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:22:49.953Z
 sha256,cc4e06aa378a190f71384c03023bb3d18a6d66e297d46701220e132963d2e222,https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited,Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit,2026-08-12T03:23:37.000Z,2026-08-12T08:02:01.154Z
 sha256,cc8aa2bd7bf74ca0bbc5cb03a7b18eae73094b450d11654528c05685fe12e0c9,https://cybersecuritynews.com/wordpress-sites-stopandprotect-malware,Hackers Turn Thousands of Compromised WordPress Sites Into C2 Servers for StopAndProtect Malware,2026-08-18T16:47:24.000Z,2026-08-18T17:58:55.793Z
 sha256,ccda8247360a85b6c076527e438a995757b6cdf5530f38e125915d31291c00d5,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-08T23:58:52.825Z
@@ -3323,6 +3366,7 @@ sha256,cfa3900cefb447d89a7498224f2ecafa65b190336934811e6c1d4196d9b92452,https://
 sha256,cfd9c0bcc89ebc68aae889b9b49bc8290c3764bce5f2c9ac8b5ba0ba58e9bf61,https://cybersecuritynews.com/fake-ccleaner-download,Fake CCleaner Download Installs GhostDesk Chrome Spyware on Windows PCs,2026-08-12T12:28:02.000Z,2026-08-12T14:03:23.329Z
 sha256,d00f7cf6af68ba832b9d364f28411346cfe66fd3b1f5bcac318766add29ff7f0,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-08-08T23:58:52.825Z
 sha256,d0ee324b6390e9d61f9851cd1fa5f3bde4ce05821cd5b4f67ad665dbffe54ad7,https://cybersecuritynews.com/fake-captcha-tricks-mac-users,Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto,2026-08-24T09:49:32.000Z,2026-08-24T11:05:02.961Z
+sha256,d150c70d2732df17aa77991b9ebf4c896f044445e900978581d9598dfa5dc98c,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:22:49.953Z
 sha256,d185c71b58b1ebed730feb8bbb6568d80542d2b8228b2777d280a7a4b114fdd0,https://cybersecuritynews.com/kimsuky-expands-its-cyber,Kimsuky Expands Its Cyber Espionage Arsenal With Local AI Development Environment,2026-08-18T13:41:41.000Z,2026-08-18T14:10:36.675Z
 sha256,d26ea6828cc01ae151d99bbee78c4e6d132e9077842a558bce3901fa0970d9be,https://cybersecuritynews.com/hackers-are-using-fake-crypto-wallet-screens,Hackers Are Using Fake Crypto Wallet Screens to Steal Recovery Phrases and Browser Sessions,2026-07-28T11:45:29.000Z,2026-07-28T15:53:01.436Z
 sha256,d2856dd5a84e21c8a3d5e0e01456adb440621e3ee845fde739fcd3ca9ce62c7f,https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp,Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts,2026-08-21T11:31:54.000Z,2026-08-21T11:57:49.734Z
@@ -3565,9 +3609,19 @@ twitter,@Inifintyink,https://www.ransomware.live/group/devman,Ransomware.live - 
 twitter,@SGaming66355,https://www.ransomware.live/group/gdlockrsec,Ransomware.live - gdlockrsec,,2026-08-08T23:58:52.825Z
 twitter,Anubis__media,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-08-22T14:54:24.275Z
 twitter,https://x.com/zerodayx1,https://www.ransomware.live/group/bqtlock,Ransomware.live - bqtlock,,2026-08-08T23:58:52.825Z
+url,http://103.249.117.183/1.bat,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
+url,http://103.249.117.183/receive.php,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
+url,http://103.77.242.187/jinf.pdf,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
+url,http://103.77.242.187/logo.png,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 url,http://144.217.243.201/vr34der34/dex3.68.png,https://cybersecuritynews.com/hackers-infect-android-car-screens,Hackers Infect Android Car Screens Through Their Built-In Software Update System,2026-08-24T07:30:28.000Z,2026-08-24T09:27:50.322Z
 url,http://144.217.243.201/vr34der34/sh65.io,https://cybersecuritynews.com/hackers-infect-android-car-screens,Hackers Infect Android Car Screens Through Their Built-In Software Update System,2026-08-24T07:30:28.000Z,2026-08-24T09:27:50.322Z
 url,http://158.94.208.104/x7gkp2mq9zl4/my_s.bin,https://cybersecuritynews.com/hackers-hide-malware-polygon-blockchain,Hackers Hide Malware Infrastructure on Polygon Blockchain and Trick Users Into Running It With ClickFix,2026-08-11T12:24:18.000Z,2026-08-11T12:27:02.297Z
+url,http://160.187.147.119/any/app.vmd,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
+url,http://160.187.147.119/any/attach.vmd,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
+url,http://160.187.147.119/any/bimage.vmd,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
+url,http://160.187.147.119/any/mnfst.vmd,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
+url,http://160.187.147.119/any/sch.vmd,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
+url,http://160.187.147.119/any/vpost.vmd,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 url,http://193.233.202.17:42718/task39.ps1,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T11:02:59.842Z
 url,http://193.233.202.17:8088/slvbeaconsc.bin,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T11:02:59.842Z
 url,http://212.162.150.121/v1/verify,https://cybersecuritynews.com/shadow-hvnc-gives-attackers,Shadow hVNC Gives Attackers Remote Desktop Control Without Moving the Victim’s Mouse,2026-08-18T10:55:12.000Z,2026-08-18T10:59:00.709Z
@@ -3607,6 +3661,7 @@ url,http://temple.e-wl.com:9000/hook/temple,https://cybersecuritynews.com/malici
 url,http://typec.e-wl.com:9000/hook/typo,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:08:35.932Z
 url,http://vala.e-wl.com:9000/hook/value,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:08:35.932Z
 url,https://193.233.202.17,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T11:02:59.842Z
+url,https://1drv.ms/u/c/2c732f3239360d98/iqdihidlh5agtk-prrmltrbiacbeyfb4_w7hubefeizu6go?e=wpzabo,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 url,https://1rpc.io/eth,https://cybersecuritynews.com/north-korean-hackers-hiding-malware,North Korean Hackers Are Hiding Malware Servers Inside Empty Crypto Transfers,2026-08-04T07:01:10.000Z,2026-08-04T17:15:54.974Z
 url,https://25382ea9.trustkey-otcheckv1.pages.dev,https://cybersecuritynews.com/fake-captcha-tricks-mac-users,Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto,2026-08-24T09:49:32.000Z,2026-08-24T11:05:02.961Z
 url,https://3324.requestcatcher.com/hihi,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
@@ -3651,6 +3706,7 @@ url,https://endpoints.omniatech.io/v1/polygon-zkevm-testnet/public,https://cyber
 url,https://eth-mainnet.rpcfast.com/?apikey=xbhwbi1wkguk8snmu1bvvlurpglxmgwyec4s6g2h7wdwfigzsmpwvzrxrskeqwif,https://cybersecuritynews.com/north-korean-etherhiding-campaign,North Korean EtherHiding Campaign Targets Crypto Wallets and Developer Credentials,2026-07-31T12:05:41.000Z,2026-07-31T13:16:53.527Z
 url,https://eth.drpc.org,https://cybersecuritynews.com/north-korean-hackers-hiding-malware,North Korean Hackers Are Hiding Malware Servers Inside Empty Crypto Transfers,2026-08-04T07:01:10.000Z,2026-08-04T17:15:54.974Z
 url,https://fa5.flsdwnld.online/f5yxog/confirm.exe,https://cybersecuritynews.com/a-two-minute-microsoft-teams-call,A Two-Minute Microsoft Teams Call Could End With Your Network Encrypted With Ransomware,2026-07-30T08:44:29.000Z,2026-07-30T14:53:06.968Z
+url,https://filereserve.blob.core.windows.net/vgnghuyk/331331.msi,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:22:49.953Z
 url,https://gapidriver.com/api/get.php,https://cybersecuritynews.com/fake-web3-interview,Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT,2026-08-17T07:03:02.000Z,2026-08-17T09:22:04.740Z
 url,https://gapidriver.com/api/rest.php,https://cybersecuritynews.com/fake-web3-interview,Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT,2026-08-17T07:03:02.000Z,2026-08-17T09:22:04.740Z
 url,https://gapidriver.com/installer/gapiupdate.application,https://cybersecuritynews.com/fake-web3-interview,Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT,2026-08-17T07:03:02.000Z,2026-08-17T09:22:04.740Z
@@ -3697,6 +3753,7 @@ url,https://soprasteria-bg.com/,https://cybersecuritynews.com/sandworm-fake-job-
 url,https://sourceforge.net/projects/soprabulgariavpn/files/sopravpn_v10.exenload,https://cybersecuritynews.com/sandworm-fake-job-interviews,Sandworm Fake Job Interviews Push Trojanized WireGuard VPN to Infect IT Professionals,2026-08-12T09:04:15.000Z,2026-08-12T09:44:16.653Z
 url,https://sourceforge.net/projects/sopravpn/files/sopravpn_v5.exe/download,https://cybersecuritynews.com/sandworm-fake-job-interviews,Sandworm Fake Job Interviews Push Trojanized WireGuard VPN to Infect IT Professionals,2026-08-12T09:04:15.000Z,2026-08-12T09:44:16.653Z
 url,https://sourceforge.net/projects/sopravpn/files/sopravpn.exe/download,https://cybersecuritynews.com/sandworm-fake-job-interviews,Sandworm Fake Job Interviews Push Trojanized WireGuard VPN to Infect IT Professionals,2026-08-12T09:04:15.000Z,2026-08-12T09:44:16.653Z
+url,https://sweet-iki-4263.holy.jp/gmail.php,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:22:49.953Z
 url,https://t.me/hexvi********ach,https://cybersecuritynews.com/modernstealer-threat-actor,ModernStealer Threat Actor Linked to Government and Defense Data-Leak Claims,2026-08-03T11:05:10.000Z,2026-08-03T18:22:43.860Z
 url,https://t.me/yata0000,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T17:15:54.974Z
 url,https://t2.nmnsny.sbs,https://cybersecuritynews.com/hackers-infect-android-car-screens,Hackers Infect Android Car Screens Through Their Built-In Software Update System,2026-08-24T07:30:28.000Z,2026-08-24T09:27:50.322Z
