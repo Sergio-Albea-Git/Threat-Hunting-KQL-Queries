@@ -630,6 +630,7 @@ filename,sopravpn.exe,https://cybersecuritynews.com/sandworm-fake-job-interviews
 filename,sostener2.vbs,https://cybersecuritynews.com/powershell-rat-chain-duckdns-hosts,Hackers Distributing Malicious VBS/PowerShell RAT Chain Via Multiple DuckDNS Hosts,2026-08-10T08:38:34.000Z,2026-08-10T15:33:45.999Z
 filename,spy.mwork801.com/gmail/js/start.js,https://cybersecuritynews.com/google-themed-credential-phishing,Google-themed Credential Phishing Attempt Delivered Through a Fake 'New Audio MSG' Email,2026-08-12T08:34:05.000Z,2026-08-12T09:44:16.653Z
 filename,squirrelinteractive.bin,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T17:15:54.974Z
+filename,ss.py,https://cybersecuritynews.com/synkloader-mimic-as-it-support,SynkLoader Mimic as IT Support Personnel Attacking Users Via Microsoft Teams,2026-08-25T14:32:47.000Z,2026-08-25T15:25:00.049Z
 filename,staaaaas.exe,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T07:59:33.215Z
 filename,static/js/ws-worker.js,https://cybersecuritynews.com/jwr-phishing-framework,JWR Phishing Framework Uses Real-Time WebSocket Control and AES Encryption to Steal Banking Credentials,2026-08-18T14:03:57.000Z,2026-08-18T14:10:36.675Z
 filename,stn.exe,https://cybersecuritynews.com/ghost-chinese-company-built-the-network-hiding-pla-cyberattacks,Researchers Say a 'Ghost' Chinese Company Built the Network Hiding PLA Cyberattacks,2026-07-28T10:10:19.000Z,2026-07-28T11:00:03.700Z
@@ -1140,9 +1141,11 @@ ip,45.10.174.57,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sh
 ip,45.125.67.42,https://cybersecuritynews.com/fake-web3-interview,Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT,2026-08-17T07:03:02.000Z,2026-08-17T09:22:04.740Z
 ip,45.129.199.234:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
 ip,45.130.147.118:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-08T23:58:52.825Z
+ip,45.130.151.214,https://cybersecuritynews.com/toxnetv2-linux-botnet,ToxNetV2 Linux Botnet Uses NVIDIA AI to Generate Shell and Remote SSH Attack Actions,2026-08-25T14:30:19.000Z,2026-08-25T15:25:00.049Z
 ip,45.135.232.195,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-08-08T23:58:52.825Z
 ip,45.139.78.67,https://cybersecuritynews.com/standoff-hides-traffic,Operation STANDOFF Hides Command-and-Control Traffic Behind GitHub Redirects,2026-07-28T06:20:34.000Z,2026-07-28T08:03:03.540Z
 ip,45.150.34.77,https://cybersecuritynews.com/octagon-steal-sms-one-time-codes,Octagon Can Steal SMS One-Time Codes During Banking and Crypto Account Takeovers,2026-08-18T13:21:28.000Z,2026-08-18T14:10:36.675Z
+ip,45.151.139.113,https://cybersecuritynews.com/toxnetv2-linux-botnet,ToxNetV2 Linux Botnet Uses NVIDIA AI to Generate Shell and Remote SSH Attack Actions,2026-08-25T14:30:19.000Z,2026-08-25T15:25:00.049Z
 ip,45.153.34.71,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-08T23:58:52.825Z
 ip,45.156.87.204,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-08T23:58:52.825Z
 ip,45.156.87.253,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-08T23:58:52.825Z
