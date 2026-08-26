@@ -21,3 +21,9 @@ Microsoft Teams,Windows,x64,MSTeams-x64.msix,https://go.microsoft.com/fwlink/?li
 Microsoft Teams,Windows,x64,teamsbootstrapper.exe,https://go.microsoft.com/fwlink/?linkid=2243204,exact,new Teams bootstrapper; redirects to statics.teams.cdn.office.net/production-teamsprovision
 Adobe Acrobat Reader,Windows,x64,AcroRdrDCx64*_MUI.exe,https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/,prefix,version and filename vary per release
 Cursor,Windows,x64,CursorSetup-x64.exe,https://downloads.cursor.com/,domain,download path is build-pinned; allowlist the host
+Mozilla Firefox,macOS,universal,Firefox.dmg,https://download.mozilla.org/?product=firefox-latest-ssl&os=osx&lang=en-US,exact,redirects to download-installer.cdn.mozilla.net
+Mozilla Firefox,Windows,x64,Firefox Setup.exe,https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US,exact,redirects to download-installer.cdn.mozilla.net
+Spotify,macOS,universal,Spotify.dmg,https://download.scdn.co/Spotify.dmg,exact,
+Spotify,Windows,x64,SpotifyFullSetup.exe,https://download.scdn.co/SpotifyFullSetup.exe,exact,offline installer (SpotifySetup.exe is the ~1MB web stub)
+WhatsApp,macOS,universal,WhatsApp.dmg,https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release,exact,redirects to scontent fbcdn
+WhatsApp,Windows,x64,(Microsoft Store),https://apps.microsoft.com/detail/9NKSQGP7F2NH,store,Windows build is Microsoft Store only (MSIX) — no direct installer to hash

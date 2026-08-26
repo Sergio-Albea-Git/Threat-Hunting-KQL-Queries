@@ -16,7 +16,7 @@ Recent campaigns (cybersecuritynews coverage of `weaponized-chatgpt-download-sit
 
 ## Coverage
 
-11 products across macOS + Windows, each with up to 3 recent versions (Windows via winget manifests, macOS accumulated over time):
+14 products across macOS + Windows, each with up to 3 recent versions (Windows via winget manifests, macOS accumulated over time):
 
 | App | macOS | Windows |
 |-----|-------|---------|
@@ -31,11 +31,15 @@ Recent campaigns (cybersecuritynews coverage of `weaponized-chatgpt-download-sit
 | Slack | arm64 `.dmg` | x64 `.exe` |
 | Zoom | arm64 `.pkg` | x64 `.msi` |
 | AnyDesk | universal `.dmg` | x64 `.exe` |
+| Mozilla Firefox | universal `.dmg` | x64 `.exe` |
+| Spotify | universal `.dmg` | x64 `.exe` |
+| WhatsApp | universal `.dmg` | — (Microsoft Store only — URL allowlist) |
 | Ghidra | cross-platform `.zip` (one file covers Mac+Win+Linux) | (same row) |
 
 Known gaps to revisit:
 - **Claude Desktop** (both platforms): the vendor endpoint at `https://claude.ai/api/desktop/...` returns 403 to non-browser clients (Cloudflare anti-bot). Requires headless browser automation to capture.
 - **ChatGPT Desktop Windows**: distributed exclusively via Microsoft Store as an `.appx`/`.msix` — no direct download URL exists.
+- **WhatsApp Windows**: same situation — Microsoft Store MSIX only, so it is covered in `legit-download-sources.csv` (Store URL) but has no direct installer to hash. Its macOS build **is** hashed.
 
 ## How it refreshes
 
