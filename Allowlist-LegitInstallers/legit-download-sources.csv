@@ -1,0 +1,23 @@
+app,platform,arch,filename,source_url,match_type,notes
+Google Chrome,macOS,universal,googlechrome.dmg,https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg,exact,
+ChatGPT Desktop,macOS,universal,ChatGPT.dmg,https://persistent.oaistatic.com/sidekick/public/ChatGPT.dmg,exact,
+Visual Studio Code,macOS,arm64,VSCode-darwin-arm64.zip,https://update.code.visualstudio.com/latest/darwin-arm64/stable,exact,redirects to vscode.download.prss.microsoft.com
+Notion,macOS,universal,Notion-universal.dmg,https://www.notion.com/desktop/mac-universal/download,exact,
+Slack,macOS,arm64,Slack-arm64.dmg,https://slack.com/ssb/download-osx-silicon,exact,
+Zoom,macOS,arm64,Zoom-arm64.pkg,https://zoom.us/client/latest/Zoom.pkg?archType=arm64,exact,
+AnyDesk,macOS,universal,anydesk.dmg,https://download.anydesk.com/anydesk.dmg,exact,
+Microsoft Teams,macOS,universal,MicrosoftTeams.pkg,https://go.microsoft.com/fwlink/?linkid=869428,exact,redirects to statics.teams.cdn.office.net/production-osx
+Adobe Acrobat Reader,macOS,x64,AcroRdrDC_*_MUI.dmg,https://ardownload2.adobe.com/pub/adobe/acrobat/mac/AcrobatDC/,prefix,version and filename vary per release
+Cursor,macOS,arm64,Cursor-darwin-arm64.dmg,https://downloads.cursor.com/,domain,download path is build-pinned; allowlist the host
+Ghidra,cross-platform,jar,ghidra_*_PUBLIC.zip,https://github.com/NationalSecurityAgency/ghidra/releases/download/,prefix,GitHub release asset; version varies
+Google Chrome,Windows,x64,chrome_installer.exe,https://dl.google.com/chrome/install/latest/chrome_installer.exe,exact,consumer online installer
+Google Chrome,Windows,x64,googlechromestandaloneenterprise64.msi,https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi,exact,enterprise MSI
+Visual Studio Code,Windows,x64,VSCodeSetup-x64.exe,https://update.code.visualstudio.com/latest/win32-x64/stable,exact,redirects to vscode.download.prss.microsoft.com
+Notion,Windows,x64,NotionSetup.exe,https://www.notion.com/desktop/windows/download,exact,
+Slack,Windows,x64,SlackSetup.exe,https://slack.com/ssb/download-win64,exact,
+Zoom,Windows,x64,ZoomInstallerFull.msi,https://zoom.us/client/latest/ZoomInstallerFull.msi?archType=x64,exact,
+AnyDesk,Windows,x64,AnyDesk.exe,https://download.anydesk.com/AnyDesk.exe,exact,
+Microsoft Teams,Windows,x64,MSTeams-x64.msix,https://go.microsoft.com/fwlink/?linkid=2196106,exact,new Teams MSIX; redirects to statics.teams.cdn.office.net/production-windows-x64
+Microsoft Teams,Windows,x64,teamsbootstrapper.exe,https://go.microsoft.com/fwlink/?linkid=2243204,exact,new Teams bootstrapper; redirects to statics.teams.cdn.office.net/production-teamsprovision
+Adobe Acrobat Reader,Windows,x64,AcroRdrDCx64*_MUI.exe,https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/,prefix,version and filename vary per release
+Cursor,Windows,x64,CursorSetup-x64.exe,https://downloads.cursor.com/,domain,download path is build-pinned; allowlist the host
