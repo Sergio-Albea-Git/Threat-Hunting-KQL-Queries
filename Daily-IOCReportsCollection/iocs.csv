@@ -86,6 +86,15 @@ domain,docusign-2vh.davidvallejo-tophattx-com-s-account.workers.dev,https://cybe
 domain,docusign-wz7.emily-c57.workers.dev,https://cybersecuritynews.com/phaas-kits-targeting-us-organizations,Three PhaaS Kits Targeting US Organizations to Steal M65 Logins by Bypassing MFA,2026-08-05T13:35:54.000Z,2026-08-05T14:17:53.472Z
 domain,download-version.1-9-183.com,https://cybersecuritynews.com/hackers-are-turning-claude-chatgpt,"Hackers Are Turning Claude, ChatGPT and Copilot Into Bait for Real Malware",2026-08-20T11:02:41.000Z,2026-08-20T12:02:13.771Z
 domain,downloading-api.it.com,https://cybersecuritynews.com/hackers-use-fake-claude,Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware,2026-08-26T12:15:43.000Z,2026-08-26T12:57:57.838Z
+domain,drive.google.anticorruption.eurcpa.org,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
+domain,drive.google.formshare.cloud,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
+domain,drive.google.linkfileshare.net,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
+domain,drive.google.sharedfolders.app,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
+domain,drive.google.sharedfolders.org,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
+domain,drive.google.sharefolders.org,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
+domain,drive.google.usercontent.app,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
+domain,drive.google.usercontent.online,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
+domain,drive.google.verify-drive.com,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
 domain,drr.accoderkubes.com,https://cybersecuritynews.com/google-themed-credential-phishing,Google-themed Credential Phishing Attempt Delivered Through a Fake 'New Audio MSG' Email,2026-08-12T08:34:05.000Z,2026-08-12T08:50:38.393Z
 domain,dry-bush-5408.animalrescueeducationcenter-org.workers.dev,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 domain,dtc.victorramarisimobiliaria.com.br,https://cybersecuritynews.com/hackers-hide-malware-polygon-blockchain,Hackers Hide Malware Infrastructure on Polygon Blockchain and Trick Users Into Running It With ClickFix,2026-08-11T12:24:18.000Z,2026-08-11T12:37:37.401Z
@@ -822,6 +831,7 @@ ip,148.230.76.66,https://cybersecuritynews.com/remus-hides-its-command-server,Re
 ip,15.204.106.173,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,150.158.50.175,https://cybersecuritynews.com/fake-flash-player-installer,Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT,2026-07-30T09:46:34.000Z,2026-07-30T11:58:41.259Z
 ip,150.171.30.10,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
+ip,151.236.15.213,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
 ip,151.236.16.144:64250,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,151.236.16.242:12818,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,151.236.16.40:10351,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -915,6 +925,7 @@ ip,185.117.72.215,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,
 ip,185.125.100.81,https://cybersecuritynews.com/phaas-kits-targeting-us-organizations,Three PhaaS Kits Targeting US Organizations to Steal M65 Logins by Bypassing MFA,2026-08-05T13:35:54.000Z,2026-08-05T14:17:53.472Z
 ip,185.135.86.185,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
 ip,185.144.28.120,https://cybersecuritynews.com/vmware-syslog-path-traversal,"VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",2026-08-18T08:02:41.000Z,2026-08-18T08:28:13.933Z
+ip,185.158.250.155,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
 ip,185.158.251.169,https://cybersecuritynews.com/top-10-phishing-kits-used-by-hackers,"Top 10 Phishing Kits Used by Hackers to Launch Cyberattacks (July 20-26, 2026)",2026-07-28T17:40:32.000Z,2026-07-28T18:02:50.370Z
 ip,185.163.193.251:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,185.174.100.224,https://cybersecuritynews.com/microsoft-365-session-theft,"Hackers Let Microsoft 365 Users Complete MFA, Then Steal Logged-In Sessions",2026-08-19T16:17:56.000Z,2026-08-19T18:33:58.868Z
@@ -1289,6 +1300,7 @@ ip,91.98.98.86,https://cybersecuritynews.com/fake-google-gemini-installer,Hacker
 ip,92.118.112.181,https://cybersecuritynews.com/n-able-n-central-vulnerability,Critical N-Able N-Central Vulnerability Allows Hackers to Gain god-mode Access to the RMM Console,2026-08-03T06:26:29.000Z,2026-08-03T07:08:29.665Z
 ip,92.243.64.200:7258,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,92.243.66.51:8024,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,93.127.160.28,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
 ip,93.152.221.37,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,93.152.224.75,https://cybersecuritynews.com/clickfix-campaigns-pavinloader,ClickFix Campaigns Deploy PavinLoader With Blockchain-Based C2 and Amatera Stealer,2026-08-25T13:12:40.000Z,2026-08-25T13:13:02.827Z
 ip,94.103.91.246,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-08-16T10:06:34.545Z
@@ -1881,6 +1893,7 @@ md5,68635ad9d12f683071611bfd34c1ec34,https://www.ransomware.live/group/trigona,R
 md5,68729b85aa01cd8c9f4ccd137ddde137,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,69434397fe9df4c7533a51db27e35c82,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,696a86a4c569590b0522664924db7c90,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
+md5,6971626bf83b92c4ceef538c8919ca17,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
 md5,6ac329c65bc4e087880395da110cf96d,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 md5,6ae62456341ad1a113597a50779c095a,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-16T10:06:34.545Z
 md5,6b03b31c8cbd4a0a5829b63d16936ed3,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
@@ -2334,6 +2347,7 @@ md5,c5b0f31951b0145f4c00ef075e1e9911,https://www.ransomware.live/group/akira,Ran
 md5,c62620dc472f8e2835ad3abc6acd6e35,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-16T10:06:34.545Z
 md5,c66022aa8b77a95c9b78a8743657f830,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-08-16T10:06:34.545Z
 md5,c66e5310eeacd24a96735eafa02ca7eb,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
+md5,c66f20f2e39eb2f6a0a4cdbe0d955e5f,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
 md5,c68f8ee17c3e4e0c4ab82631c5df30fc,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-16T10:06:34.545Z
 md5,c6991024d7107c592c6795a6a16ab6ed,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,c6ba8b62756370e5c801822f9c0329ba,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
@@ -3632,6 +3646,7 @@ url,https://67sixcebeh.surf/xmr,https://cybersecuritynews.com/fake-captcha-trick
 url,https://a2.cdnresolver.com/m/test,https://cybersecuritynews.com/fake-recruiter-web3-developers,Fake Recruiters Target Web3 Developers Through Trusted Bitbucket and npm Workflows,2026-07-29T12:05:36.000Z,2026-07-29T12:55:31.678Z
 url,https://a2.nmnsny.sbs,https://cybersecuritynews.com/hackers-infect-android-car-screens,Hackers Infect Android Car Screens Through Their Built-In Software Update System,2026-08-24T07:30:28.000Z,2026-08-24T08:08:40.266Z
 url,https://acrfruxtmulgvyvtbwgq.supabase.co,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
+url,https://ad-g.org/login,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
 url,https://adminapi.tippusoni.in/4/dll.zip,https://cybersecuritynews.com/chinese-hackers-use-ai-agents,Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks,2026-08-21T14:41:55.000Z,2026-08-21T14:51:43.981Z
 url,https://adminapi.tippusoni.in/4/user.txt,https://cybersecuritynews.com/chinese-hackers-use-ai-agents,Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks,2026-08-21T14:41:55.000Z,2026-08-21T14:51:43.981Z
 url,https://agenticsora.com/ledger?token,https://cybersecuritynews.com/macsync-uses-fake-claude-guide,MacSync macOS Stealer Uses Fake Claude Guide to Steal Passwords and Crypto Wallets,2026-08-03T07:07:18.000Z,2026-08-03T07:08:29.665Z
