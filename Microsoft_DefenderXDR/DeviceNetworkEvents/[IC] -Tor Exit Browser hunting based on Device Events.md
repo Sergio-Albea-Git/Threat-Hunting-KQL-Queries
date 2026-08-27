@@ -25,10 +25,9 @@ In this particular query, I am getting the devices with connections to Tor Exit 
 //Author Sergio Albea 18-11-2025
 let TorExitNodesHistoric = externaldata(IP:string, ActiveDates:string, Source:string) ['https://firewalliplists.gypthecat.com/lists/kusto/kusto-tor-exit-historic.json.zip'] with(format="multijson"); 
 TorExitNodesHistoric 
-| extend ActiveDates = split(ActiveDates, ',') 
-| extend Country = tostring(geo_info_from_ip_address(IP)['country'])
+| extend ActiveDates = split(ActiveDates, ','), Country = tostring(geo_info_from_ip_address(IP)['country'])
 | summarize ActiveDays = array_length(make_set(ActiveDates)) by Country,IP,Source
 | join kind=inner (DeviceNetworkEvents) on $left.IP == $right.RemoteIP
-| summarize  by Source,DeviceName,TOR_Exit_Node= LocalIP,Country,ActiveDays,RemoteUrl, InitiatingProcessAccountName, InitiatingProcessVersionInfoProductName, ActionType//, Timestamp,ReportId
+| summarize  by Source,DeviceName,TOR_Exit_Node= LocalIP,Country,ActiveDays,RemoteUrl, InitiatingProcessAccountName, InitiatingProcessVersionInfoProductName, ActionType, Timestamp,ReportId
 | order by ActiveDays
 ```
