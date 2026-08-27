@@ -633,6 +633,7 @@ filename,rtkngui64loc.dll,https://cybersecuritynews.com/new-backdoors-let-hacker
 filename,rtksmbusloc.dll,https://cybersecuritynews.com/new-backdoors-let-hackers-keylog,"New Backdoors Let Hackers Keylog, Steal Passwords and Control Government Computers",2026-07-31T06:51:55.000Z,2026-07-31T07:49:11.843Z
 filename,runtimebroker.dll,https://cybersecuritynews.com/fake-ccleaner-download,Fake CCleaner Download Installs GhostDesk Chrome Spyware on Windows PCs,2026-08-12T12:28:02.000Z,2026-08-12T13:05:54.775Z
 filename,s5cmd.exe,https://cybersecuritynews.com/akira-uses-windows-safe-mode,Akira Ransomware Uses Windows Safe Mode to Shut Down EDR Before Launching Encryptor,2026-08-13T08:17:04.000Z,2026-08-13T09:09:26.031Z
+filename,sap.exe,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
 filename,sbiedll.dll,https://cybersecuritynews.com/hackers-hide-agent-tesla,Hackers Hide Agent Tesla JScript Behind Unicode Emojis to Evade Detection,2026-08-21T14:14:20.000Z,2026-08-21T14:51:43.981Z
 filename,scan_125992145_tlg_na_perepodgotovku_dsp.pdf,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
 filename,scansts.dll,https://cybersecuritynews.com/china-linked-spy-campaign,China-Linked Spy Campaign Uses Five New Malware Families Against Central Asian Governments,2026-08-21T05:11:11.000Z,2026-08-21T06:50:16.331Z
@@ -724,6 +725,7 @@ ip,103.87.9.62,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewel
 ip,103.97.128.67,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,104.168.140.238:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,104.168.151.112:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,104.194.134.167,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
 ip,104.194.159.150,https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp,Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts,2026-08-21T11:31:54.000Z,2026-08-21T11:51:09.531Z
 ip,104.194.9.14,https://cybersecuritynews.com/cl0p-hackers-exploit-ptc,Cl0p Hackers Exploit PTC Windchill Flaw to Steal Passwords and Sensitive Company Data,2026-08-19T05:46:16.000Z,2026-08-19T05:52:00.773Z
 ip,104.200.67.252:3966,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -804,6 +806,7 @@ ip,143.92.32.65,https://cybersecuritynews.com/fake-flash-player-installer,Fake F
 ip,144.172.103.42,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-08-16T10:06:34.545Z
 ip,144.172.104.82,https://cybersecuritynews.com/cav3rn-uses-google-apps-script,CAV3RN Uses Google Apps Script as C2 Relay to Hide Malware Traffic Behind Google Infrastructure,2026-08-12T10:05:33.000Z,2026-08-12T10:50:58.074Z
 ip,144.172.115.17,https://cybersecuritynews.com/cav3rn-uses-google-apps-script,CAV3RN Uses Google Apps Script as C2 Relay to Hide Malware Traffic Behind Google Infrastructure,2026-08-12T10:05:33.000Z,2026-08-12T10:50:58.074Z
+ip,144.172.116.150,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
 ip,144.172.95.78,https://www.ransomware.live/group/ralord,Ransomware.live - ralord,,2026-08-16T10:06:34.545Z
 ip,144.208.127.130:14906,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,145.223.68.66,https://cybersecuritynews.com/armored-likho-still-toolkit-steals,Armored Likho Still Toolkit Steals Telegram Sessions and Records Victims’ Conversations,2026-08-13T12:39:53.000Z,2026-08-13T13:10:09.302Z
@@ -876,6 +879,7 @@ ip,166.88.134.62,https://cybersecuritynews.com/hijacked-joyfill-npm-packages-wor
 ip,167.71.69.135:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,167.88.160.15:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,167.88.166.173,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
+ip,167.88.167.37,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
 ip,167.99.0.116,https://cybersecuritynews.com/phaas-kits-targeting-us-organizations,Three PhaaS Kits Targeting US Organizations to Steal M65 Logins by Bypassing MFA,2026-08-05T13:35:54.000Z,2026-08-05T14:17:53.472Z
 ip,167.99.78.100,https://cybersecuritynews.com/remus-hides-its-command-server,Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults,2026-08-06T12:22:19.000Z,2026-08-06T13:21:32.613Z
 ip,169.239.130.36:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -887,6 +891,8 @@ ip,172.187.180.204:443,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,172.241.25.105,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T09:50:50.128Z
 ip,172.241.25.106,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T09:50:50.128Z
 ip,172.241.25.107,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T09:50:50.128Z
+ip,172.86.113.245,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
+ip,172.86.90.75,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
 ip,172.86.98.113,https://cybersecuritynews.com/iran-linked-hackers,Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels,2026-08-26T13:47:36.000Z,2026-08-26T13:58:09.552Z
 ip,172.96.137.106:4567,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,172.96.137.108:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1048,6 +1054,7 @@ ip,23.227.198.237:50262,https://www.ransomware.live/group/bianlian,Ransomware.li
 ip,23.227.198.237:57226,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,23.227.198.237:64103,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,23.234.106.242,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
+ip,23.234.108.48,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
 ip,23.234.89.195,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
 ip,23.234.93.112,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
 ip,23.236.182.215,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
@@ -1142,6 +1149,7 @@ ip,45.61.134.36,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,
 ip,45.61.136.118:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,45.61.136.147:3917,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,45.61.136.147:3929,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,45.61.148.166,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
 ip,45.61.150.94,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
 ip,45.63.9.192:5050,https://www.ransomware.live/group/crypto24,Ransomware.live - crypto24,,2026-08-16T10:06:34.545Z
 ip,45.76.144.235:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1273,6 +1281,7 @@ ip,88.212.241.105:993,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,88.218.168.33:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,88.86.124.114,https://cybersecuritynews.com/13-minute-windrelay-malware-attack,13-Minute WindRelay Malware Attack Uses SpyNote RAT and NFC Relay Malware to Drain Victim Accounts,2026-08-12T12:00:34.000Z,2026-08-12T13:05:54.775Z
 ip,89.1.88.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,89.106.83.49,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
 ip,89.117.20.110,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 ip,89.23.113.220:8083,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,89.248.163.120,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-08-16T10:06:34.545Z
@@ -2693,7 +2702,6 @@ sha1,40b57c3622c1cbfd699207f71f2de5a8fe256893,https://cybersecuritynews.com/remo
 sha1,47d922b0fd5d704025d14ef98ded46e74830a423,https://cybersecuritynews.com/hackers-use-fake-captcha,Hackers Use Fake CAPTCHA to Install Malware That Kills 145 Security Processes,2026-08-20T13:39:22.000Z,2026-08-20T14:02:39.345Z
 sha1,48d011117eacf57128c7e473bb5d4d69e3d41ef6,https://cybersecuritynews.com/13-minute-windrelay-malware-attack,13-Minute WindRelay Malware Attack Uses SpyNote RAT and NFC Relay Malware to Drain Victim Accounts,2026-08-12T12:00:34.000Z,2026-08-12T13:05:54.775Z
 sha1,4dce7d4b1229f3705bdb70341484cf2eee36432e,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T08:12:03.255Z
-sha1,5057e1aca011e51ef51498c940ef96f3d3e8a305,https://cybersecuritynews.com/ai-assisted-linux-kernel-zero-day,AI-Assisted Research Uncovers Linux Kernel Zero-Day Enabling Root Privilege Escalation,2026-07-28T10:41:14.000Z,2026-07-28T11:01:24.724Z
 sha1,50cf07b97ef999e9fc5c7efae19d0e5f39db39fa,https://cybersecuritynews.com/13-minute-windrelay-malware-attack,13-Minute WindRelay Malware Attack Uses SpyNote RAT and NFC Relay Malware to Drain Victim Accounts,2026-08-12T12:00:34.000Z,2026-08-12T13:05:54.775Z
 sha1,55b4f951d5ac035c21b170c73c0a930a641b718c,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T08:12:03.255Z
 sha1,55f9780e1492344b7417fa723aedc4d0b97f31cd,https://cybersecuritynews.com/chaindrop-worm-infects-npm-packages,ChainDrop Worm Infects 400+ npm Packages to Steal GitHub and Cloud Credentials,2026-08-07T11:07:15.000Z,2026-08-07T11:26:58.469Z
@@ -3227,6 +3235,7 @@ sha256,a3b2fb0fdde660f07b3f2b05366403b624e35777cbc07dbe66398b21bba70396,https://
 sha256,a40a61e54be9cc1671ea6832fef8139ce811a7d759058bb8b4ca86863f4cc1bd,https://cybersecuritynews.com/kimsuky-expands-its-cyber,Kimsuky Expands Its Cyber Espionage Arsenal With Local AI Development Environment,2026-08-18T13:41:41.000Z,2026-08-18T14:29:25.345Z
 sha256,a45144d22cac70a45d71cf4dffa4efbc373658779a56cf1300d6ac863d6cc7e2,https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited,Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit,2026-08-12T03:23:37.000Z,2026-08-12T06:19:20.385Z
 sha256,a46d6adeb5c8e9ab5883ed8005b6ed684e7181148f5fdec7656ae6e51ca6e676,https://cybersecuritynews.com/fake-captcha-tricks-mac-users,Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto,2026-08-24T09:49:32.000Z,2026-08-24T10:08:59.669Z
+sha256,a4af136d159a8eb96b54924fa80355ca52874913301300f55af7d67ae97edcfe,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
 sha256,a4f03272cf96732dc9f58bb466d16f358e7f50d46dba30526a9fbebfec11717b,https://cybersecuritynews.com/clickfix-campaigns-pavinloader,ClickFix Campaigns Deploy PavinLoader With Blockchain-Based C2 and Amatera Stealer,2026-08-25T13:12:40.000Z,2026-08-25T13:13:02.827Z
 sha256,a4f21177027e07280edf929adfd1403e0f4e7eb1892ca38069d45a9cd06e2929,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
 sha256,a4f72ce8b5736fe3ca2083cfe21bd51697f12e900e307c357cb8523b8f86e3ec,https://cybersecuritynews.com/kimsuky-expands-its-cyber,Kimsuky Expands Its Cyber Espionage Arsenal With Local AI Development Environment,2026-08-18T13:41:41.000Z,2026-08-18T14:29:25.345Z
@@ -3400,6 +3409,7 @@ sha256,ea1b6ff3a0c1a749b9f09d66789973321d63d8896b48f7345193bdad512950a2,https://
 sha256,ea7056f2bf36c66a61ff787ff5be975a85f534c3c5ca178791dac2504db2c619,https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited,Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit,2026-08-12T03:23:37.000Z,2026-08-12T06:19:20.385Z
 sha256,ea893abf20b00d9bfc042a88fbf7b4bd42e68ce07c116d3e3b002e5b4a853877,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
 sha256,ea9600c3d62d807c07055f0951d08db03725417b9342a76e62410e2694050033,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
+sha256,eb0aab1e892d7e09e2c7bcf1d21fd83c1743ed9196b3efac6c78482fb0d99207,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
 sha256,eb8826bac873442045a6a05f1fa25b410ca18db6942053f6d146467c00d5338d,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T09:50:50.128Z
 sha256,eb8cbc4a0eae33bfdc4ecb99d033c81224b005e55588ceb86346f2b2d3fd790f,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-08-16T10:06:34.545Z
 sha256,ec368ae0b4369b6ef0da244774995c819c63cffb7fd2132379963b9c1640ccd2,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-14T19:51:41.532Z
