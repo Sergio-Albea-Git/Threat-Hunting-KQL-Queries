@@ -163,7 +163,6 @@ domain,meeting.tencent.com,https://cybersecuritynews.com/hackers-hide-valleyrat-
 domain,mesh.wirbe.com,https://cybersecuritynews.com/new-ai-built-malware-watches,New AI-Built Malware Watches How Security Teams Remove It and Fights Back,2026-08-31T09:25:07.000Z,2026-08-31T10:19:54.062Z
 domain,mimi.saghirmohamed19.workers.dev,https://cybersecuritynews.com/extensions-caught-stealing-crypto-wallets-and-passwords,19 Chrome and Edge Extensions Caught Stealing Crypto Wallets and Passwords,2026-08-31T12:39:35.000Z,2026-08-31T14:26:01.599Z
 domain,mob.lanjut.in,https://cybersecuritynews.com/hackers-hide-malware-polygon-blockchain,Hackers Hide Malware Infrastructure on Polygon Blockchain and Trick Users Into Running It With ClickFix,2026-08-11T12:24:18.000Z,2026-08-11T12:37:37.401Z
-domain,mousears.synology.me,https://cybersecuritynews.com/n-able-n-central-vulnerability,Critical N-Able N-Central Vulnerability Allows Hackers to Gain god-mode Access to the RMM Console,2026-08-03T06:26:29.000Z,2026-08-03T07:08:29.665Z
 domain,msauth.monlinelogicaline.com,https://cybersecuritynews.com/payroll-pirates-aitm-phishing,Payroll Pirates AiTM Phishing Hijacks Microsoft 365 Sessions and Targets Payroll Emails,2026-08-10T09:07:40.000Z,2026-08-10T16:49:27.570Z
 domain,mslogin.milocaroline.com,https://cybersecuritynews.com/payroll-pirates-aitm-phishing,Payroll Pirates AiTM Phishing Hijacks Microsoft 365 Sessions and Targets Payroll Emails,2026-08-10T09:07:40.000Z,2026-08-10T16:49:27.570Z
 domain,msonline.logicalineonline.com,https://cybersecuritynews.com/payroll-pirates-aitm-phishing,Payroll Pirates AiTM Phishing Hijacks Microsoft 365 Sessions and Targets Payroll Emails,2026-08-10T09:07:40.000Z,2026-08-10T16:49:27.570Z
@@ -965,7 +964,7 @@ ip,172.96.137.106:4567,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,172.96.137.108:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,172.96.137.32:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,172.96.142.186,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
-ip,173.249.252.200,https://cybersecuritynews.com/n-able-n-central-vulnerability,Critical N-Able N-Central Vulnerability Allows Hackers to Gain god-mode Access to the RMM Console,2026-08-03T06:26:29.000Z,2026-08-03T07:08:29.665Z
+ip,173.249.252.200,https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited,CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks,2026-08-04T12:44:52.000Z,2026-08-04T13:55:29.363Z
 ip,176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
 ip,176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
 ip,176.123.1.174,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
@@ -1146,9 +1145,9 @@ ip,31.57.35.88,https://cybersecuritynews.com/crypto-scammer-uses-claude-code,"Cr
 ip,31.58.209.241,https://cybersecuritynews.com/hackers-exploit-owncloud,Hackers Exploit ownCloud and WordPress Flaws to Steal Philippine Nuclear and Naval Data,2026-08-27T13:35:49.000Z,2026-08-27T14:07:36.792Z
 ip,31.76.7.137,https://cybersecuritynews.com/fake-web3-interview,Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT,2026-08-17T07:03:02.000Z,2026-08-17T12:42:34.854Z
 ip,37.1.202.248:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
-ip,37.153.90.88,https://cybersecuritynews.com/n-able-n-central-vulnerability,Critical N-Able N-Central Vulnerability Allows Hackers to Gain god-mode Access to the RMM Console,2026-08-03T06:26:29.000Z,2026-08-03T07:08:29.665Z
+ip,37.153.90.88,https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited,CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks,2026-08-04T12:44:52.000Z,2026-08-04T13:55:29.363Z
 ip,37.19.21.180,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
-ip,37.19.210.32,https://cybersecuritynews.com/n-able-n-central-vulnerability,Critical N-Able N-Central Vulnerability Allows Hackers to Gain god-mode Access to the RMM Console,2026-08-03T06:26:29.000Z,2026-08-03T07:08:29.665Z
+ip,37.19.210.32,https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited,CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks,2026-08-04T12:44:52.000Z,2026-08-04T13:55:29.363Z
 ip,37.221.66.239,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
 ip,38.110.228.125,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T10:17:16.024Z
 ip,38.110.228.33,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T10:17:16.024Z
@@ -1280,7 +1279,7 @@ ip,64.95.11.22,https://cybersecuritynews.com/interlock-turns-the-tools,Interlock
 ip,65.21.153.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,65.21.80.170,https://cybersecuritynews.com/clickfix-campaigns-pavinloader,ClickFix Campaigns Deploy PavinLoader With Blockchain-Based C2 and Amatera Stealer,2026-08-25T13:12:40.000Z,2026-08-25T13:13:02.827Z
 ip,66.78.40.205,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
-ip,68.235.46.214,https://cybersecuritynews.com/n-able-n-central-vulnerability,Critical N-Able N-Central Vulnerability Allows Hackers to Gain god-mode Access to the RMM Console,2026-08-03T06:26:29.000Z,2026-08-03T07:08:29.665Z
+ip,68.235.46.214,https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited,CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks,2026-08-04T12:44:52.000Z,2026-08-04T13:55:29.363Z
 ip,69.197.176.26:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,69.46.15.169:3389,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,69.46.15.169:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1350,7 +1349,7 @@ ip,87.120.104.147,https://cybersecuritynews.com/fake-googletranslate-chrome-exte
 ip,87.120.114.51:20000,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,87.121.45.33,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-08-16T10:06:34.545Z
 ip,87.121.61.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
-ip,87.249.138.34,https://cybersecuritynews.com/n-able-n-central-vulnerability,Critical N-Able N-Central Vulnerability Allows Hackers to Gain god-mode Access to the RMM Console,2026-08-03T06:26:29.000Z,2026-08-03T07:08:29.665Z
+ip,87.249.138.34,https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited,CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks,2026-08-04T12:44:52.000Z,2026-08-04T13:55:29.363Z
 ip,88.212.241.105:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,88.218.168.33:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,88.86.124.114,https://cybersecuritynews.com/13-minute-windrelay-malware-attack,13-Minute WindRelay Malware Attack Uses SpyNote RAT and NFC Relay Malware to Drain Victim Accounts,2026-08-12T12:00:34.000Z,2026-08-12T13:05:54.775Z
@@ -1382,7 +1381,7 @@ ip,91.92.242.30,https://cybersecuritynews.com/openclaw-ai-agents,Hackers Weaponi
 ip,91.92.40.118,https://cybersecuritynews.com/evooo1bot-linux-botnet,Evooo1Bot Linux Botnet Uses 16 DDoS Methods and SOCKS5 Proxies to Hijack Edge Devices,2026-08-17T06:49:16.000Z,2026-08-17T06:55:38.644Z
 ip,91.98.111.49,https://cybersecuritynews.com/fake-google-gemini-installer,Hackers Use Fake Google Gemini Installer to Deploy Vidar Stealer and Steal Browser Credentials,2026-08-21T10:56:24.000Z,2026-08-21T11:51:09.531Z
 ip,91.98.98.86,https://cybersecuritynews.com/fake-google-gemini-installer,Hackers Use Fake Google Gemini Installer to Deploy Vidar Stealer and Steal Browser Credentials,2026-08-21T10:56:24.000Z,2026-08-21T11:51:09.531Z
-ip,92.118.112.181,https://cybersecuritynews.com/n-able-n-central-vulnerability,Critical N-Able N-Central Vulnerability Allows Hackers to Gain god-mode Access to the RMM Console,2026-08-03T06:26:29.000Z,2026-08-03T07:08:29.665Z
+ip,92.118.112.181,https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited,CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks,2026-08-04T12:44:52.000Z,2026-08-04T13:55:29.363Z
 ip,92.243.64.200:7258,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,92.243.66.51:8024,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,93.127.160.28,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
