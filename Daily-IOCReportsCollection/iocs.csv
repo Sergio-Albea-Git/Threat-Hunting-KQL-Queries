@@ -42,6 +42,7 @@ domain,api.telegram.org,https://cybersecuritynews.com/aeternum-botnet-uses-polyg
 domain,api.trycloudflare.com,https://cybersecuritynews.com/claude-code-sessions-spawn,Claude Code Sessions Spawn Reverse Tunnels and LaunchAgent Persistence on macOS,2026-08-10T07:41:56.000Z,2026-08-10T16:49:27.570Z
 domain,api.whatsapp.dev.tadoo.app,https://cybersecuritynews.com/new-phishing-attack,New Phishing Attack Leverage SSL/TLS Certificates to Target High-value Brands Customers Via Whatsapp,2026-08-11T05:52:31.000Z,2026-08-11T06:36:33.220Z
 domain,app-api.lensstory.cc,https://cybersecuritynews.com/hackers-hide-malware-code,Hackers Hide Malware Code Inside English Words to Infect Windows Users,2026-08-20T11:39:53.000Z,2026-08-20T12:02:13.771Z
+domain,app-microsoft-edge.com.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,app.bcntextilrep.com,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T08:30:23.381Z
 domain,app.conviertenoensi.com,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T08:30:23.381Z
 domain,app.getmyxa.com,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
@@ -69,6 +70,7 @@ domain,auth.shuchimed.com,https://cybersecuritynews.com/remote-access-trojan,Hac
 domain,auth.speaktowinclients.com,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T08:30:23.381Z
 domain,auto.c3pool.org,https://cybersecuritynews.com/hackers-exploiting-macoss-screen-sharing-service,Hackers Actively Exploiting macOS’s built-in Screen Sharing Service Vulnerability in the Wild,2026-08-19T13:03:03.000Z,2026-08-19T13:41:30.490Z
 domain,b.pro-center.my.id,https://cybersecuritynews.com/ai-powered-anonymouskit-phaas,AI-Powered AnonyMousKIT PhaaS Steals Apple IDs and 2FA Codes to Unlock Stolen iPhones,2026-08-27T06:43:05.000Z,2026-08-27T07:22:26.625Z
+domain,baidu-pan.com.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,bbuseruploads.s3.amazonaws.com,https://cybersecuritynews.com/hackers-own-malware-infection,"Hackers’ Own Malware Infection Exposes Their RATs, Phishing Kits and Attack Infrastructure",2026-08-31T05:22:17.000Z,2026-08-31T07:19:19.595Z
 domain,bib.1001gacor.org,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions,2026-08-25T08:20:35.000Z,2026-08-25T08:58:58.774Z
 domain,bilelonellc.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize-microsoft-teams,Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement,2026-09-01T13:30:02.000Z,2026-09-01T13:50:34.982Z
@@ -78,6 +80,7 @@ domain,bob.1001gacor.org,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 
 domain,browser-update.pages.dev,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
 domain,brr.1001gacor.org,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions,2026-08-25T08:20:35.000Z,2026-08-25T08:58:58.774Z
 domain,c2.installscenter.com,https://cybersecuritynews.com/hackers-use-ai-malware,Hackers Use AI Malware to Rank and Sell Access to Compromised Corporate Networks,2026-09-01T12:05:30.000Z,2026-09-01T12:50:21.213Z
+domain,calibre-ebook.com.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,cardo.workers.dev,https://cybersecuritynews.com/malicious-solidity-pro-vs-code-extension,"Malicious Solidity Pro VS Code Extension Steals Crypto Wallets, API Keys and SSH Keys via Telegram",2026-08-10T11:56:27.000Z,2026-08-10T16:49:27.570Z
 domain,cdn.baraldes.com,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T08:30:23.381Z
 domain,cdn.cobraporganardinero.com,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T08:30:23.381Z
@@ -99,6 +102,7 @@ domain,claude-desktop.gitlab.io,https://cybersecuritynews.com/hackers-use-fake-c
 domain,claude.ai.download-app.us,https://cybersecuritynews.com/hackers-use-fake-claude,Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware,2026-08-26T12:15:43.000Z,2026-08-26T12:57:57.838Z
 domain,cloudflare-workers.workers.dev,https://cybersecuritynews.com/malicious-solidity-pro-vs-code-extension,"Malicious Solidity Pro VS Code Extension Steals Crypto Wallets, API Keys and SSH Keys via Telegram",2026-08-10T11:56:27.000Z,2026-08-10T16:49:27.570Z
 domain,cloudtroe.giize.com,https://cybersecuritynews.com/honeymyte-coolclient-backdoor,"HoneyMyte CoolClient Backdoor Uses Signed Kernel Rootkit to Hide Processes, Files and C2 Traffic",2026-08-17T08:55:57.000Z,2026-08-17T12:42:34.854Z
+domain,cn-drawio.com.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,code.claude.ai,https://cybersecuritynews.com/hackers-use-fake-claude,Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware,2026-08-26T12:15:43.000Z,2026-08-26T12:57:57.838Z
 domain,code.verification-claude-cdn.beer,https://cybersecuritynews.com/hackers-are-turning-claude-chatgpt,"Hackers Are Turning Claude, ChatGPT and Copilot Into Bait for Real Malware",2026-08-20T11:02:41.000Z,2026-08-20T12:02:13.771Z
 domain,commonerdays.vercel.app,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-3,Hackers Abuse Legitimate RMM Tools in 46-Country Phishing Campaign to Gain Remote Access,2026-08-26T10:23:29.000Z,2026-08-26T10:57:33.912Z
@@ -166,6 +170,7 @@ domain,ges.1001gacor.org,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 
 domain,getdl.jorix.cyou,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-3,Hackers Abuse Legitimate RMM Tools in 46-Country Phishing Campaign to Gain Remote Access,2026-08-26T10:23:29.000Z,2026-08-26T10:57:33.912Z
 domain,gm2.drr.accoderkubes.com,https://cybersecuritynews.com/google-themed-credential-phishing,Google-themed Credential Phishing Attempt Delivered Through a Fake 'New Audio MSG' Email,2026-08-12T08:34:05.000Z,2026-08-12T08:50:38.393Z
 domain,go.getblock.io,https://cybersecuritynews.com/shai-hulud-chaindrop-worm-backdoors,Shai-Hulud CHAINDROP Worm Backdoors 400+ npm Packages With 1.3 Billion Monthly Downloads,2026-08-07T07:26:08.000Z,2026-08-07T07:34:16.475Z
+domain,gw-sogou.com.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,health.luminexus.cc,https://cybersecuritynews.com/hackers-hide-malware-code,Hackers Hide Malware Code Inside English Words to Infect Windows Users,2026-08-20T11:39:53.000Z,2026-08-20T12:02:13.771Z
 domain,hpn.bandhiem.com,https://cybersecuritynews.com/mirage2fa-phishing-kit-bypasses-mfa-to-hijack-microsoft-365-sessions-targeting-3500-organizations,"Mirage2FA Phishing Kit Bypasses MFA to Hijack Microsoft 365 Sessions, Targeting 3,500+ Organizations",2026-08-26T08:21:30.000Z,2026-08-26T08:57:08.603Z
 domain,hrefbfdhfhgre-1422102728.cos.ap-hongkong.myqcloud.com,https://cybersecuritynews.com/silverfox-hijacks-trusted-software,SilverFox Hijacks Trusted Software and Kernel Drivers to Disable Security Tools,2026-08-06T18:52:20.000Z,2026-08-06T19:23:29.854Z
@@ -183,6 +188,7 @@ domain,internalsystemsdaily.onmicrosoft.com,https://cybersecuritynews.com/hacker
 domain,internalusahelpdeskit.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize-microsoft-teams,Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement,2026-09-01T13:30:02.000Z,2026-09-01T13:50:34.982Z
 domain,ithelpcenter365.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize-microsoft-teams,Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement,2026-09-01T13:30:02.000Z,2026-09-01T13:50:34.982Z
 domain,itprotectiondepartment.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize-microsoft-teams,Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement,2026-09-01T13:30:02.000Z,2026-09-01T13:50:34.982Z
+domain,kaspersky-lab.hl.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,ket.1001gacor.org,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions,2026-08-25T08:20:35.000Z,2026-08-25T08:58:58.774Z
 domain,kra.1001gacor.org,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions,2026-08-25T08:20:35.000Z,2026-08-25T08:58:58.774Z
 domain,kyfyvuwifdukctqyggto.supabase.co,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
@@ -199,6 +205,7 @@ domain,mayteslaadvisorhq.s3.us-east-2.amazonaws.com,https://cybersecuritynews.co
 domain,meeting.tencent.com,https://cybersecuritynews.com/hackers-hide-valleyrat-backdoor,Hackers Hide ValleyRAT Backdoor Inside Adware Targeting Users in China and India,2026-08-31T14:12:41.000Z,2026-08-31T14:26:01.599Z
 domain,mesh.wirbe.com,https://cybersecuritynews.com/new-ai-built-malware-watches,New AI-Built Malware Watches How Security Teams Remove It and Fights Back,2026-08-31T09:25:07.000Z,2026-08-31T10:19:54.062Z
 domain,mimi.saghirmohamed19.workers.dev,https://cybersecuritynews.com/extensions-caught-stealing-crypto-wallets-and-passwords,19 Chrome and Edge Extensions Caught Stealing Crypto Wallets and Passwords,2026-08-31T12:39:35.000Z,2026-08-31T14:26:01.599Z
+domain,mindmoster.com.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,mob.lanjut.in,https://cybersecuritynews.com/hackers-hide-malware-polygon-blockchain,Hackers Hide Malware Infrastructure on Polygon Blockchain and Trick Users Into Running It With ClickFix,2026-08-11T12:24:18.000Z,2026-08-11T12:37:37.401Z
 domain,msauth.monlinelogicaline.com,https://cybersecuritynews.com/payroll-pirates-aitm-phishing,Payroll Pirates AiTM Phishing Hijacks Microsoft 365 Sessions and Targets Payroll Emails,2026-08-10T09:07:40.000Z,2026-08-10T16:49:27.570Z
 domain,mslogin.milocaroline.com,https://cybersecuritynews.com/payroll-pirates-aitm-phishing,Payroll Pirates AiTM Phishing Hijacks Microsoft 365 Sessions and Targets Payroll Emails,2026-08-10T09:07:40.000Z,2026-08-10T16:49:27.570Z
@@ -208,6 +215,7 @@ domain,mzghdnikguesdamuxjbm.supabase.co,https://cybersecuritynews.com/malicious-
 domain,naturalapplication.azurewebsites.net,https://cybersecuritynews.com/fake-coding-tests,Hackers Pose as Recruiters and Send Fake Coding Tests to Infect Software Developers,2026-09-01T13:40:54.000Z,2026-09-01T13:50:34.982Z
 domain,neexportfolio.azurewebsites.net,https://cybersecuritynews.com/iran-linked-hackers,Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels,2026-08-26T13:47:36.000Z,2026-08-26T13:58:09.552Z
 domain,neexportfolio.eastus.cloudapp.azure.com,https://cybersecuritynews.com/iran-linked-hackers,Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels,2026-08-26T13:47:36.000Z,2026-08-26T13:58:09.552Z
+domain,newopt001.oss-cn-hongkong.aliyuncs.com,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,newsystemmaintenance.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize-microsoft-teams,Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement,2026-09-01T13:30:02.000Z,2026-09-01T13:50:34.982Z
 domain,nhg.1001gacor.org,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions,2026-08-25T08:20:35.000Z,2026-08-25T08:58:58.774Z
 domain,norakremer.co.uk,https://cybersecuritynews.com/wordpress-sites-stopandprotect-malware,Hackers Turn Thousands of Compromised WordPress Sites Into C2 Servers for StopAndProtect Malware,2026-08-18T16:47:24.000Z,2026-08-18T18:29:49.478Z
@@ -217,6 +225,7 @@ domain,ns1.studiotikva.com,https://cybersecuritynews.com/cav3rn-uses-google-apps
 domain,ns2.reg.ru,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
 domain,ns2.studiotikva.com,https://cybersecuritynews.com/cav3rn-uses-google-apps-script,CAV3RN Uses Google Apps Script as C2 Relay to Hide Malware Traffic Behind Google Infrastructure,2026-08-12T10:05:33.000Z,2026-08-12T10:50:58.074Z
 domain,nxsixihozitybwrbahiu.supabase.co,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
+domain,ocam-pc.com.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,office.ofrecie.com,https://cybersecuritynews.com/payroll-pirates-aitm-phishing,Payroll Pirates AiTM Phishing Hijacks Microsoft 365 Sessions and Targets Payroll Emails,2026-08-10T09:07:40.000Z,2026-08-10T16:49:27.570Z
 domain,office.pcvgtech.store,https://cybersecuritynews.com/mirage2fa-phishing-kit-bypasses-mfa-to-hijack-microsoft-365-sessions-targeting-3500-organizations,"Mirage2FA Phishing Kit Bypasses MFA to Hijack Microsoft 365 Sessions, Targeting 3,500+ Organizations",2026-08-26T08:21:30.000Z,2026-08-26T08:57:08.603Z
 domain,officedesk365.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize-microsoft-teams,Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement,2026-09-01T13:30:02.000Z,2026-09-01T13:50:34.982Z
@@ -226,6 +235,7 @@ domain,ommid.e-wl.com,https://cybersecuritynews.com/malicious-firefox-extensions
 domain,openfodervbs4view.ams3.cdn.digitaloceanspaces.com,https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-3,Hackers Abuse Legitimate RMM Tools in 46-Country Phishing Campaign to Gain Remote Access,2026-08-26T10:23:29.000Z,2026-08-26T10:57:33.912Z
 domain,option.spark198.com,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-31T07:19:19.595Z
 domain,oracle-challenge.s3.us-east-1.amazonaws.com,https://cybersecuritynews.com/fake-coding-tests,Hackers Pose as Recruiters and Send Fake Coding Tests to Infect Software Developers,2026-09-01T13:40:54.000Z,2026-09-01T13:50:34.982Z
+domain,pc-razerzone.com.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,pch.e-wl.com,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 domain,pipi.saghirmohamed19.workers.dev,https://cybersecuritynews.com/extensions-caught-stealing-crypto-wallets-and-passwords,19 Chrome and Edge Extensions Caught Stealing Crypto Wallets and Passwords,2026-08-31T12:39:35.000Z,2026-08-31T14:26:01.599Z
 domain,playstoreap.lovable.app,https://cybersecuritynews.com/btmob-fraud-as-a-service-platform,"BTMob Fraud-as-a-Service Platform Uses 1,400 Live Servers to Power Android Device Takeovers",2026-08-18T15:10:21.000Z,2026-08-18T15:29:36.251Z
@@ -262,6 +272,7 @@ domain,rpc-mainnet.matic.quiknode.pro,https://cybersecuritynews.com/fake-ai-tool
 domain,s3.us-east-1.amazonaws.com,https://cybersecuritynews.com/payroll-pirates-aitm-phishing,Payroll Pirates AiTM Phishing Hijacks Microsoft 365 Sessions and Targets Payroll Emails,2026-08-10T09:07:40.000Z,2026-08-10T16:49:27.570Z
 domain,search.criminalip.io,https://cybersecuritynews.com/criminal-ip-appoints-reconn-as-distributor-for-ti-asm-across-middle-east-africa,Criminal IP Appoints Reconn as Distributor for TI &amp; ASM Across Middle East &amp; Africa,2026-08-27T03:17:28.000Z,2026-09-02T05:29:26.555Z
 domain,seedcrackerx.github.io,https://cybersecuritynews.com/google-results-minecraft-client,"Top Google Results for Minecraft Client Led Gamers to Malware, McAfee Finds",2026-08-25T07:05:46.000Z,2026-08-25T07:39:24.400Z
+domain,sejda.hl.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,server.yaarsa.com,https://cybersecuritynews.com/btmob-fraud-as-a-service-platform,"BTMob Fraud-as-a-Service Platform Uses 1,400 Live Servers to Power Android Device Takeovers",2026-08-18T15:10:21.000Z,2026-08-18T15:29:36.251Z
 domain,serversniperxx.duckdns.org,https://cybersecuritynews.com/powershell-rat-chain-duckdns-hosts,Hackers Distributing Malicious VBS/PowerShell RAT Chain Via Multiple DuckDNS Hosts,2026-08-10T08:38:34.000Z,2026-08-10T16:49:27.570Z
 domain,ses.1001gacor.org,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions,2026-08-25T08:20:35.000Z,2026-08-25T08:58:58.774Z
@@ -284,6 +295,7 @@ domain,static.premios-king.com,https://cybersecuritynews.com/remote-access-troja
 domain,static.suplenation.com,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T08:30:23.381Z
 domain,static.trythecrowdmakers.com,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T08:30:23.381Z
 domain,static.turboleadslab.com,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T08:30:23.381Z
+domain,steelseries-cn.com.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,sto.1001gacor.org,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions,2026-08-25T08:20:35.000Z,2026-08-25T08:58:58.774Z
 domain,stream.luminfrastructure.cc,https://cybersecuritynews.com/hackers-hide-malware-code,Hackers Hide Malware Code Inside English Words to Infect Windows Users,2026-08-20T11:39:53.000Z,2026-08-20T12:02:13.771Z
 domain,stream.pawpalace.cc,https://cybersecuritynews.com/hackers-hide-malware-code,Hackers Hide Malware Code Inside English Words to Infect Windows Users,2026-08-20T11:39:53.000Z,2026-08-20T12:02:13.771Z
@@ -296,6 +308,7 @@ domain,tbcsschid.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize
 domain,teams0137.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize-microsoft-teams,Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement,2026-09-01T13:30:02.000Z,2026-09-01T13:50:34.982Z
 domain,temple.e-wl.com,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 domain,toks.great-site.net,https://cybersecuritynews.com/kimsuky-uses-local-llms,"Kimsuky Uses Local LLMs, AI-Generated Lures and GitHub C2 to Deploy AsyncRAT",2026-08-10T10:07:26.000Z,2026-08-10T16:49:27.570Z
+domain,translate-youdao.hl.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,tubitak.azurewebsites.net,https://cybersecuritynews.com/fake-coding-tests,Hackers Pose as Recruiters and Send Fake Coding Tests to Infect Software Developers,2026-09-01T13:40:54.000Z,2026-09-01T13:50:34.982Z
 domain,typec.e-wl.com,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 domain,u108265739.ct.sendgrid.net,https://cybersecuritynews.com/hackers-bypass-microsoft-365-mfa,Hackers Bypass Microsoft 365 MFA and Hijack Finance Mailbox to Steal Payments,2026-08-20T12:54:55.000Z,2026-08-20T13:02:26.800Z
@@ -306,6 +319,7 @@ domain,update.constant-path.xyz,https://cybersecuritynews.com/aeternum-botnet-us
 domain,update.gryxa.com,https://cybersecuritynews.com/new-ai-built-malware-watches,New AI-Built Malware Watches How Security Teams Remove It and Fights Back,2026-08-31T09:25:07.000Z,2026-08-31T10:19:54.062Z
 domain,update.sevrz.com,https://cybersecuritynews.com/new-ai-built-malware-watches,New AI-Built Malware Watches How Security Teams Remove It and Fights Back,2026-08-31T09:25:07.000Z,2026-08-31T10:19:54.062Z
 domain,updates.wildtrail.cc,https://cybersecuritynews.com/hackers-hide-malware-code,Hackers Hide Malware Code Inside English Words to Infect Windows Users,2026-08-20T11:39:53.000Z,2026-08-20T12:02:13.771Z
+domain,upitem.oss-cn-hangzhou.aliyuncs.com,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,us.lenovoappstore.com,https://cybersecuritynews.com/honeymyte-coolclient-backdoor,"HoneyMyte CoolClient Backdoor Uses Signed Kernel Rootkit to Hide Processes, Files and C2 Traffic",2026-08-17T08:55:57.000Z,2026-08-17T12:42:34.854Z
 domain,user.cheacker.store,https://cybersecuritynews.com/mirage2fa-phishing-kit-bypasses-mfa-to-hijack-microsoft-365-sessions-targeting-3500-organizations,"Mirage2FA Phishing Kit Bypasses MFA to Hijack Microsoft 365 Sessions, Targeting 3,500+ Organizations",2026-08-26T08:21:30.000Z,2026-08-26T08:57:08.603Z
 domain,v-k.com.ua,https://cybersecuritynews.com/wordpress-sites-stopandprotect-malware,Hackers Turn Thousands of Compromised WordPress Sites Into C2 Servers for StopAndProtect Malware,2026-08-18T16:47:24.000Z,2026-08-18T18:29:49.478Z
@@ -341,6 +355,7 @@ domain,www.cloudfareintcdn.com,https://cybersecuritynews.com/malicious-website-t
 domain,www.dlosdekr1u18msmov51.net,https://cybersecuritynews.com/malicious-website-themes,Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones,2026-09-01T07:58:11.000Z,2026-09-01T08:49:27.764Z
 domain,www.ex0x40vmi8qyccxq.net,https://cybersecuritynews.com/malicious-website-themes,Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones,2026-09-01T07:58:11.000Z,2026-09-01T08:49:27.764Z
 domain,www.f1ash.org.cn,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
+domain,www.gehie246.com,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 domain,www.ioa7xqmhiz26fv5e.info,https://cybersecuritynews.com/malicious-website-themes,Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones,2026-09-01T07:58:11.000Z,2026-09-01T08:49:27.764Z
 domain,www.isbo31w1o7xk3fztvmgpbv.app,https://cybersecuritynews.com/malicious-website-themes,Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones,2026-09-01T07:58:11.000Z,2026-09-01T08:49:27.764Z
 domain,www.jhflt6l0dwminsl494836rb.org,https://cybersecuritynews.com/malicious-website-themes,Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones,2026-09-01T07:58:11.000Z,2026-09-01T08:49:27.764Z
@@ -369,6 +384,7 @@ domain,yw.enhanceblabber.cc,https://cybersecuritynews.com/hackers-hide-malware-c
 domain,zaf.11gokil.org,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions,2026-08-25T08:20:35.000Z,2026-08-25T08:58:58.774Z
 domain,zaf.sm188dnsx.top,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions,2026-08-25T08:20:35.000Z,2026-08-25T08:58:58.774Z
 domain,zbtctl.epplink.net,https://cybersecuritynews.com/zbtlink-chinese-router,Zbtlink Chinese Router Sold Worldwide Contains a Hidden Backdoor Affecting 20+ Models,2026-08-07T06:38:52.000Z,2026-08-07T07:34:16.475Z
+domain,zh-diskgenius.com.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 email,15010050@tutamail.com,https://www.ransomware.live/group/bitpaymer,Ransomware.live - bitpaymer,,2026-08-16T10:06:34.545Z
 email,2020host2021@tutanota.com,https://www.ransomware.live/group/snatch,Ransomware.live - snatch,,2026-08-16T10:06:34.545Z
 email,47266@airmail.cc,https://www.ransomware.live/group/wastedlocker,Ransomware.live - wastedlocker,,2026-08-16T10:06:34.545Z
@@ -551,7 +567,6 @@ email,writetousbrkd@2mail.co,https://www.ransomware.live/group/barracuda,Ransomw
 email,yagamuchi@mailum.com,https://www.ransomware.live/group/blackfield,Ransomware.live - blackfield,,2026-08-16T10:06:34.545Z
 email,yamaguchigumi@cock.li,https://www.ransomware.live/group/risen,Ransomware.live - risen,,2026-08-16T10:06:34.545Z
 email,znhsupport@protonmail.com,https://www.ransomware.live/group/luckbit,Ransomware.live - luckbit,,2026-08-16T10:06:34.545Z
-filename,../../../../../tmp/1234.sh,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 filename,.config/index.js,https://cybersecuritynews.com/popular-npm-package-2,Popular npm Package With 150K Weekly Downloads Compromised in Mini Shai-Hulud Supply-Chain Attack,2026-09-01T08:36:35.000Z,2026-09-01T08:49:27.764Z
 filename,.github/_index.js,https://cybersecuritynews.com/popular-npm-package-2,Popular npm Package With 150K Weekly Downloads Compromised in Mini Shai-Hulud Supply-Chain Attack,2026-09-01T08:36:35.000Z,2026-09-01T08:49:27.764Z
 filename,.pdf.lnk,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:42:26.435Z
@@ -562,7 +577,6 @@ filename,/dist/internal/calc-mapping.bin,https://cybersecuritynews.com/malicious
 filename,/dist/math-calc.bin,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T07:08:29.914Z
 filename,/dist/math-core.bin,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T07:08:29.914Z
 filename,/lib/libseconfd.so,https://cybersecuritynews.com/hackers-compromise-cisco-routers,Hackers Compromise Cisco Routers to Spy on Networks and Reach Critical Infrastructure,2026-09-01T07:14:27.000Z,2026-09-01T07:49:15.888Z
-filename,/rollbackconfirm.action,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 filename,/tmp/mcp_clean_landers.py,https://cybersecuritynews.com/claude-code-sessions-spawn,Claude Code Sessions Spawn Reverse Tunnels and LaunchAgent Persistence on macOS,2026-08-10T07:41:56.000Z,2026-08-10T16:49:27.570Z
 filename,/tmp/osalogging.zip,https://cybersecuritynews.com/fake-claude-install-guide,Hackers Use Fake Claude Install Guide to Deploy MacSync Stealer and Trojanize Crypto Wallet Apps,2026-08-19T10:34:19.000Z,2026-08-19T12:05:38.490Z
 filename,/tmp/trezor-payload.zip,https://cybersecuritynews.com/crypto-scammer-uses-claude-code,"Crypto Scammer Uses Claude Code to Process 100,000+ Phone Numbers for Victim Targeting",2026-08-18T12:16:17.000Z,2026-08-18T12:29:03.971Z
@@ -818,13 +832,14 @@ ftp,ftp://dataShare:nX4aJxu3rYUMiLjCMtuJYTKS@176.113.115.97,https://www.ransomwa
 ip,1.0.0.201,https://cybersecuritynews.com/fake-web3-interview,Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT,2026-08-17T07:03:02.000Z,2026-08-17T12:42:34.854Z
 ip,1.1.1.1,https://cybersecuritynews.com/router-dns-tweak-blocks-malware,Free Router DNS Tweak Blocks Malware and Phishing Across Home Networks,2026-08-31T03:58:08.000Z,2026-08-31T07:19:19.595Z
 ip,1.1.1.3,https://cybersecuritynews.com/router-dns-tweak-blocks-malware,Free Router DNS Tweak Blocks Malware and Phishing Across Home Networks,2026-08-31T03:58:08.000Z,2026-08-31T07:19:19.595Z
-ip,1.19.140.217,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 ip,1.31.1.1,https://cybersecuritynews.com/payroll-pirates-aitm-phishing,Payroll Pirates AiTM Phishing Hijacks Microsoft 365 Sessions and Targets Payroll Emails,2026-08-10T09:07:40.000Z,2026-08-10T16:49:27.570Z
 ip,101.99.92.124,https://cybersecuritynews.com/phaas-kits-targeting-us-organizations,Three PhaaS Kits Targeting US Organizations to Steal M65 Logins by Bypassing MFA,2026-08-05T13:35:54.000Z,2026-08-05T14:17:53.472Z
 ip,103.106.190.217,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,103.121.91.144,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
 ip,103.125.217.129:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,103.131.95.37,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
+ip,103.156.25.35,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
+ip,103.183.3.162,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 ip,103.226.155.200,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,103.226.155.201,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,103.238.129.112,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
@@ -942,7 +957,6 @@ ip,147.135.199.186,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth
 ip,147.135.84.14,https://cybersecuritynews.com/remus-hides-its-command-server,Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults,2026-08-06T12:22:19.000Z,2026-08-06T13:21:32.613Z
 ip,147.45.141.206:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,147.45.154.131:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
-ip,147.45.51.191,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 ip,147.45.60.241,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
 ip,147.45.60.252,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
 ip,148.230.76.66,https://cybersecuritynews.com/remus-hides-its-command-server,Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults,2026-08-06T12:22:19.000Z,2026-08-06T13:21:32.613Z
@@ -981,6 +995,7 @@ ip,159.89.112.223:443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,160.187.147.119,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:42:26.435Z
 ip,160.191.89.7,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
 ip,160.20.109.33,https://cybersecuritynews.com/fake-googletranslate-chrome-extension,Fake GoogleTranslate Chrome Extension Lets Attackers Remotely Control Your Browsers,2026-08-10T13:35:24.000Z,2026-08-10T16:49:27.570Z
+ip,161.248.87.157,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 ip,161.35.200.18,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 ip,162.0.209.89,https://cybersecuritynews.com/hackers-hide-agent-tesla,Hackers Hide Agent Tesla JScript Behind Unicode Emojis to Evade Detection,2026-08-21T14:14:20.000Z,2026-08-21T14:51:43.981Z
 ip,162.19.83.163,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T09:50:50.128Z
@@ -1096,8 +1111,6 @@ ip,193.233.202.17,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,
 ip,193.233.245.45,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
 ip,193.233.245.52,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
 ip,193.242.184.180,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-31T10:19:54.062Z
-ip,193.37.32.179,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
-ip,193.37.32.214,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 ip,193.37.69.162,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-08-16T10:06:34.545Z
 ip,193.37.69.225,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-08-16T10:06:34.545Z
 ip,193.43.104.153,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-08-16T10:06:34.545Z
@@ -1122,8 +1135,8 @@ ip,198.255.70.210,https://cybersecuritynews.com/ai-token-jacking,AI Token Jackin
 ip,199.232.210.172,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
 ip,20.101.57.9,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
 ip,20.12.23.50,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
-ip,202.8.105.201,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 ip,202.8.120.249,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
+ip,202.95.14.237,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 ip,203.161.43.187:53,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,203.161.43.195:444,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,206.237.4.54:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1151,10 +1164,7 @@ ip,216.152.151.204,https://cybersecuritynews.com/cl0p-hackers-exploit-ptc,Cl0p H
 ip,216.181.107.134:41296,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,216.203.20.36,https://cybersecuritynews.com/interlock-turns-the-tools,Interlock Turns the Tools Incident Responders Use Into Weapons for Stealing Windows Passwords,2026-08-10T11:32:58.000Z,2026-08-10T16:49:27.570Z
 ip,216.219.94.99:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
-ip,216.73.163.151,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
-ip,216.73.163.158,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 ip,217.60.77.63,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T07:08:29.914Z
-ip,217.77.15.99,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 ip,219.76.254.184,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
 ip,220.205.123.186,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
 ip,223.26.63.56,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
@@ -1220,7 +1230,6 @@ ip,38.46.219.166,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking
 ip,38.60.244.141,https://cybersecuritynews.com/china-nexus-hackers,China-Nexus Hackers Disguise Malicious VHD as JPEG to Deploy QUICAgent Backdoor,2026-08-19T15:05:35.000Z,2026-08-19T15:26:51.644Z
 ip,38.76.185.209,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,40.69.42.241,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
-ip,42.200.172.148,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 ip,43.128.26.132,https://cybersecuritynews.com/silverfox-hijacks-trusted-software,SilverFox Hijacks Trusted Software and Kernel Drivers to Disable Security Tools,2026-08-06T18:52:20.000Z,2026-08-06T19:23:29.854Z
 ip,43.198.93.208:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,43.246.208.179,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
@@ -1282,6 +1291,7 @@ ip,46.226.162.68,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal
 ip,46.30.188.13,https://cybersecuritynews.com/hackerai-malware,HACKERAI Malware Turns GitHub Gists Into a Command-and-Control Channel,2026-08-14T10:21:16.000Z,2026-08-14T10:57:50.842Z
 ip,47.100.190.96,https://cybersecuritynews.com/zbtlink-chinese-router,Zbtlink Chinese Router Sold Worldwide Contains a Hidden Backdoor Affecting 20+ Models,2026-08-07T06:38:52.000Z,2026-08-07T07:34:16.475Z
 ip,47.107.224.89,https://cybersecuritynews.com/zbtlink-chinese-router,Zbtlink Chinese Router Sold Worldwide Contains a Hidden Backdoor Affecting 20+ Models,2026-08-07T06:38:52.000Z,2026-08-07T07:34:16.475Z
+ip,47.239.232.245,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 ip,47.250.208.35,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
 ip,47.251.72.239,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,47.84.37.113,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
@@ -1301,7 +1311,6 @@ ip,5.255.106.12:80,https://www.ransomware.live/group/bianlian,Ransomware.live - 
 ip,5.34.176.100,https://cybersecuritynews.com/vmware-syslog-path-traversal,"VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",2026-08-18T08:02:41.000Z,2026-08-18T08:28:13.933Z
 ip,5.61.36.246,https://cybersecuritynews.com/malware-crypter-services,"Malware Crypter Services Sell Windows Defender, EDR and SmartScreen Bypasses to Cybercriminals",2026-08-14T11:11:43.000Z,2026-08-14T12:35:26.642Z
 ip,50.114.167.112,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T10:17:16.024Z
-ip,50.241.210.53,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 ip,50.54.130.245,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
 ip,51.16.209.105:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,51.250.0.16:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1354,7 +1363,6 @@ ip,79.137.192.38,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal
 ip,79.141.160.78,https://www.ransomware.live/group/clop,Ransomware.live - clop,,2026-08-15T15:48:40.219Z
 ip,79.141.162.184:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,8.140.226.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
-ip,8.205.8.173,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 ip,80.71.224.30,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
 ip,80.92.204.33,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
 ip,80.92.204.47,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
@@ -1405,7 +1413,6 @@ ip,88.218.168.33:8443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,88.86.124.114,https://cybersecuritynews.com/13-minute-windrelay-malware-attack,13-Minute WindRelay Malware Attack Uses SpyNote RAT and NFC Relay Malware to Drain Victim Accounts,2026-08-12T12:00:34.000Z,2026-08-12T13:05:54.775Z
 ip,89.1.88.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,89.106.83.49,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
-ip,89.117.20.110,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 ip,89.23.113.220:8083,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,89.248.163.120,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-08-16T10:06:34.545Z
 ip,89.38.225.185:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1937,7 +1944,6 @@ md5,53c8a4f0497929de4a5039b2c14bf426,https://www.ransomware.live/group/qilin,Ran
 md5,53d89e90a54fef428f74eed41b14fb38,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-16T10:06:34.545Z
 md5,54089d9cf9c7d5ff9abbae88437f66a8,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:42:26.435Z
 md5,54416fc42afa9b09ea7e8d8e318f4891,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-08-16T10:06:34.545Z
-md5,54d21399b8b52b48a0fef68450593e45,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 md5,54dd1e7adb8d5440cfed65c9646f2529,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,55577fffb5b5acd3771ef9dc696498f1,https://cybersecuritynews.com/kimsuky-uses-local-llms,"Kimsuky Uses Local LLMs, AI-Generated Lures and GitHub C2 to Deploy AsyncRAT",2026-08-10T10:07:26.000Z,2026-08-10T16:49:27.570Z
 md5,55628da8e685379cf4214dc3763664cb,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
@@ -1981,7 +1987,6 @@ md5,5c1ef3e67167dc9d4ad2af212f59fd4c,https://www.ransomware.live/group/trigona,R
 md5,5c254d25751269892b6f02d6c6384aef,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-08-16T10:06:34.545Z
 md5,5c4a3158e91dafa28c80c50a0c070e34,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,5cab4fabffeb5903f684c936a90e0b46,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-08-16T10:06:34.545Z
-md5,5cb00bbfe818ee3e85fb99ab1db1af7c,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 md5,5cc24cc2fced61209f0a1a30ea7e32aa,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 md5,5cffa3126b9effc279d32b2cf4ef2278,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
 md5,5d22a4ed1eef9ee71fae815e633cc673,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
@@ -1995,7 +2000,6 @@ md5,5e741d3ff10756e5eee2633ad65ecf96,https://www.ransomware.live/group/raworld,R
 md5,5eadd67bec799465fa27a17d6bf93e2d,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,5f319c7e83b8daa6836b8ae674c8e0e6,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-31T07:19:19.595Z
 md5,5f3407dedd4b9bf1e57209cc2178b8dc,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-16T10:06:34.545Z
-md5,5f3a55201c511c9ff9be4c16c41028a2,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 md5,5f3ecd02a94cec2b62bfecd79f5a1d98,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-08-16T10:06:34.545Z
 md5,5f5bf7fc7a9ac89ce0bbb07bd1160078,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-31T07:19:19.595Z
 md5,600371ebab1e29429f06a5b1909056e5,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-08-16T10:06:34.545Z
@@ -2460,7 +2464,6 @@ md5,b666ea987c7dff545e984ad88ce80a9b,https://www.ransomware.live/group/akira,Ran
 md5,b667c985e344a4a16bc64d18f4fda14e,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 md5,b6a7dc31b3e1059b227e032f35727ebd,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
 md5,b6c46c1bd6ea86beae25c77d05280d59,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
-md5,b6df166291f80ee89032d769c99714f3,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 md5,b71956ba98abacf4b4dcc5a0453baaa2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,b7271756136f8f07923acae4e64f8efa,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-16T10:06:34.545Z
 md5,b736d9d2ca32d72181772d6aab4a8ca5,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
@@ -2873,7 +2876,6 @@ session,05e2640aa00bc196273e7ee81b2d3d81dd641f052229f89f1ea8bc39600c7d8648,https
 session,05e4f38090e06156b94ebf76e93ab4ccb761d761b886bbabf2df41c2bc341e8b30,https://www.ransomware.live/group/radar,Ransomware.live - radar,,2026-08-16T10:06:34.545Z
 sha1,03d605f13a74bfb6149078122fcf62bd6d8799d8,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
 sha1,04ab453494381e60171be04ea6be6e7c44eafafd,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
-sha1,04d4a9fbb32e967200eb98be014ca914a03bfa6b,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 sha1,04e25a563f159308fc3e15fe9ccc9d2cf623d0cc,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T08:12:03.255Z
 sha1,0d58c760097892590ff93b819f6b26925a6fbe2c,https://www.ransomware.live/group/majinahanashi,Ransomware.live - majinahanashi,,2026-08-31T07:19:19.595Z
 sha1,11f9fb29f2cc142e81c804f53599ae36282c95b3,https://cybersecuritynews.com/13-minute-windrelay-malware-attack,13-Minute WindRelay Malware Attack Uses SpyNote RAT and NFC Relay Malware to Drain Victim Accounts,2026-08-12T12:00:34.000Z,2026-08-12T13:05:54.775Z
@@ -2913,7 +2915,6 @@ sha1,56b819cb285dbdbc307268b4fadbddaa61319bb8,https://cybersecuritynews.com/13-m
 sha1,577b1cc894636f4ac5ad670b0079b9b7ade137c3,https://cybersecuritynews.com/bindcloak-steals-windows-tokens,BINDCLOAK Steals Windows User and Process Tokens to Run Malware With Higher Privileges,2026-08-04T08:51:36.000Z,2026-08-04T09:35:11.656Z
 sha1,58460d0b3d4d6b03761c89120393c0c676676496,https://cybersecuritynews.com/hackers-exploit-owncloud,Hackers Exploit ownCloud and WordPress Flaws to Steal Philippine Nuclear and Naval Data,2026-08-27T13:35:49.000Z,2026-08-27T14:07:36.792Z
 sha1,5ba1242050b5b447052b210788a5a25593d6987d,https://cybersecuritynews.com/hackers-compromise-cisco-routers,Hackers Compromise Cisco Routers to Spy on Networks and Reach Critical Infrastructure,2026-09-01T07:14:27.000Z,2026-09-01T07:49:15.888Z
-sha1,5e5b716f2385c818ec61198be1a2a07a4560eac5,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 sha1,639DBC9B365096D6347142FCAE64725BD9F73270,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-08-16T10:06:34.545Z
 sha1,65ca7e9363539282c2670dfab100b75c9bfb6253,https://cybersecuritynews.com/13-minute-windrelay-malware-attack,13-Minute WindRelay Malware Attack Uses SpyNote RAT and NFC Relay Malware to Drain Victim Accounts,2026-08-12T12:00:34.000Z,2026-08-12T13:05:54.775Z
 sha1,67e2a1e8ab963086bb768b28307cf58dadb0acc7,https://cybersecuritynews.com/13-minute-windrelay-malware-attack,13-Minute WindRelay Malware Attack Uses SpyNote RAT and NFC Relay Malware to Drain Victim Accounts,2026-08-12T12:00:34.000Z,2026-08-12T13:05:54.775Z
@@ -2950,7 +2951,6 @@ sha1,b0874252a7359aa701f3f144a1f03a6e0da8ae6d,https://cybersecuritynews.com/aete
 sha1,b149fa3a34bd585e7a674a4fd9538437bd06f514,https://cybersecuritynews.com/hackers-compromise-cisco-routers,Hackers Compromise Cisco Routers to Spy on Networks and Reach Critical Infrastructure,2026-09-01T07:14:27.000Z,2026-09-01T07:49:15.888Z
 sha1,b3ef2d08bf25a7dab9d8b98d64e564ea1f6db924,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T08:12:03.255Z
 sha1,b3f2897f2bc797e5b9033faef8c81e92b01cb831,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T10:17:16.024Z
-sha1,b4ee1f50fbb49f0ff5fde3d026343bc23ee08d51,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 sha1,b8fb2bfb182a172b29c365ad6cf743449975c418,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T08:12:03.255Z
 sha1,BB8FB75285BCD151132A3287F2786D4D91DA58B8,https://www.ransomware.live/group/promptlock,Ransomware.live - promptlock,,2026-08-16T10:06:34.545Z
 sha1,bc2bce53d71533c2eb1ccc30ef252ea2774d0100,https://cybersecuritynews.com/13-minute-windrelay-malware-attack,13-Minute WindRelay Malware Attack Uses SpyNote RAT and NFC Relay Malware to Drain Victim Accounts,2026-08-12T12:00:34.000Z,2026-08-12T13:05:54.775Z
@@ -2961,7 +2961,6 @@ sha1,c0979ec20b87084317d1bfa50405f7149c3b5c5f,https://www.ransomware.live/group/
 sha1,c0dba95939f7fc1a55b7aa6c132a204f073a981d,https://cybersecuritynews.com/iran-linked-hackers,Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels,2026-08-26T13:47:36.000Z,2026-08-26T13:58:09.552Z
 sha1,c12c4d58541cc4f75ae19b65295a52c559570054,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-16T10:06:34.545Z
 sha1,c164bfc953c66e58b11fc280e69fd43b8f255839,https://cybersecuritynews.com/hackers-compromise-cisco-routers,Hackers Compromise Cisco Routers to Spy on Networks and Reach Critical Infrastructure,2026-09-01T07:14:27.000Z,2026-09-01T07:49:15.888Z
-sha1,c2b0ae0a1f42a139abe4dd612676066ec1426394,https://cybersecuritynews.com/sonicwall-sma-face-zero-click,Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise,2026-08-03T08:45:41.000Z,2026-08-03T09:08:51.978Z
 sha1,c2f79738196b670d99064eca35c3eafa72e17c59,https://cybersecuritynews.com/fake-captcha-tricks-mac-users,Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto,2026-08-24T09:49:32.000Z,2026-08-24T10:08:59.669Z
 sha1,c37fb924cf5996c9e676bba399bdfc5f936b3572,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T08:12:03.255Z
 sha1,c41342908f98e813862edfe47ac3af676f8098c9,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T08:12:03.255Z
@@ -3057,6 +3056,7 @@ sha256,1932a80706489d55ae779ad1edfe0d0beb0239d0fc7bb10f99f89bc804ad3407,https://
 sha256,1a398687d1f626e71c3beec3b0bda9589415babbcdae6171293c097d3103472e,https://cybersecuritynews.com/remus-hides-its-command-server,Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults,2026-08-06T12:22:19.000Z,2026-08-06T13:21:32.613Z
 sha256,1af419b36a5edefef387409e2b3248c9223f7dc49a4f7b15ea095d371c3a70b2,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-14T19:51:41.532Z
 sha256,1b6af2fbbc636180dd7bae825486ccc45e42aefbb304d5f83fafca4d637c13cc,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
+sha256,1bd3662d784840e410d2d3c0a1040277f7f549089447359f01e05c2559cb1f17,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 sha256,1ca67af90400ee6cbbd42175293274a0f5dc05315096cb2e214e4bfe12ffb71f,https://www.ransomware.live/group/payload,Ransomware.live - payload,,2026-08-16T10:06:34.545Z
 sha256,1cc5a4be7f2e41086b53e698b487e43426e5e572bc99e5de62eada9baf83bdcd,https://cybersecuritynews.com/12-kb-windows-backdoor,12 KB Windows Backdoor Hides C2 Domain in desktop.ini Whitespace to Evade Detection,2026-08-17T06:22:22.000Z,2026-08-17T06:55:38.644Z
 sha256,1d846592ffcc19ed03a34316520aa31369218a88afa4e17ac547686d0348aa5b,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-08-16T10:06:34.545Z
@@ -3292,6 +3292,7 @@ sha256,65550f6d0ffec8421f703cdc7273d9c0563b3d480fe6702bad294a18afe72143,https://
 sha256,66150abf5072f0d02118648d072afecdc8bac1d224dbc569836a65398d48e98d,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 sha256,6700f62e1a3b33340cd678c388ecc8bac2e5943c0627df5d1b99b879c3ca42c9,https://cybersecuritynews.com/clickfix-campaigns-pavinloader,ClickFix Campaigns Deploy PavinLoader With Blockchain-Based C2 and Amatera Stealer,2026-08-25T13:12:40.000Z,2026-08-25T13:13:02.827Z
 sha256,670a269d935f1586d4f0e5bed685d15a38e6fa790f763e6ed5c9fdd72dce3cf2,https://www.ransomware.live/group/shinysp1d3r,Ransomware.live - shinysp1d3r,,2026-08-16T10:06:34.545Z
+sha256,676a2a7b94ca2f8ec76352ee656e4d075bb342bd7ad6efbc7c19c060001eace7,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 sha256,678ec8734367c7547794a604cc65e74a0f42320d85a6dce20c214e3b4536bb33,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 sha256,67fcfbdaab397ad1273135a3c6aa1d220ab76491cf945df081503401cc9732d2,https://cybersecuritynews.com/hackers-use-ai-malware,Hackers Use AI Malware to Rank and Sell Access to Compromised Corporate Networks,2026-09-01T12:05:30.000Z,2026-09-01T12:50:21.213Z
 sha256,68d4fba7b1300a59cd6212c08910a260cd71b40cd9f51cac933030a68faac0bb,https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited,Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit,2026-08-12T03:23:37.000Z,2026-08-12T06:19:20.385Z
@@ -3303,6 +3304,7 @@ sha256,6ae3a58a78be9c606009c657de4e390538b21ad951e62b6f4d31138e1a75732c,https://
 sha256,6cadab96185dbe6f3a7b95cf2f97d6ac395785607baa6ed7bf363deeb59cc360,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 sha256,6ccfd6b2964f564ab1b308b1c6b4d78f994ec1e975f4e848620ebb302d3e70ac,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
 sha256,6d5fe6b6a34eeb470798b970b70f41a07ccf59b22f49ad9b3dfff7aa3256f3c2,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
+sha256,6d6ba2bc9ad414837826f7278bc3e0116f1aeda02d0c2284ed65819f5d9180a8,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 sha256,6da9b1e6f3315ceb77dd14a937a26cc3602bf6a7e2c2ecafb3c65ce5319837be,https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited,Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit,2026-08-12T03:23:37.000Z,2026-08-12T06:19:20.385Z
 sha256,6db5ea393b1618259fee5a2ca7467be47ea025255d2ab45a78b76e23e4e0b59e,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 sha256,6eeb20cc709a18bf8845f7b678967b7f0ff96475cf51a261da87244886bbfd2e,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-08-16T10:06:34.545Z
@@ -3547,6 +3549,7 @@ sha256,c21eb14ba63e943db5ea9ab64af02a50a17260c7d8538a133c4f6e0957d36f47,https://
 sha256,c25d4412f7f93e7de5b2aaf41747175d94cffd983ca20efbd0efcdd718b58c4d,https://cybersecuritynews.com/hackers-use-fake-student-resume,Hackers Use Fake Student Resume to Secretly Install Malware on Researchers’ Computers,2026-08-28T11:55:37.000Z,2026-08-28T17:44:16.522Z
 sha256,c2aa28bb5e2a749c693712008276f311edd912f689371ef9e8a1ee5fb4167461,https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited,Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit,2026-08-12T03:23:37.000Z,2026-08-12T06:19:20.385Z
 sha256,c2c9187033d22d7944ea9298461a0ac693ef2774b4ce08b0955d2aba3646fb44,https://cybersecuritynews.com/hackers-use-new-hookedge-malware,Russian Hackers Use New HOOKEDGE Malware to Spy on European Defense and Diplomatic Targets,2026-08-28T15:07:59.000Z,2026-08-28T15:42:31.826Z
+sha256,c4100ad39d8db98f063feb6c3b6c8e9a9f9d9bf25a1e0233f43b058ff8a7dbdf,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 sha256,c4390e74aecd06d3bb355af7f403de0655d28cdc54fa68b1596d91c2b3bb0e46,https://cybersecuritynews.com/hackers-hide-malware-code,Hackers Hide Malware Code Inside English Words to Infect Windows Users,2026-08-20T11:39:53.000Z,2026-08-20T12:02:13.771Z
 sha256,c46b5a18ab3fb5fd1c5c8288a41c75bf0170c10b5e829af89370a12c86dd10f8,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-14T19:51:41.532Z
 sha256,c4acda412774c292f0db5d64467a2dd09282cdea43c41967e8bf90f6298accf3,https://cybersecuritynews.com/microsoft-teams-phishing,Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords,2026-08-24T12:33:55.000Z,2026-08-24T14:42:26.435Z
@@ -3554,6 +3557,7 @@ sha256,c4b4647795567ab15528edd1ab1bf37fb50e21b442e59a653051061973e87c02,https://
 sha256,c4dd46e5b450349fd9fbf686a5a22f55f8371123b098104db663a3980646e138,https://cybersecuritynews.com/hackers-use-ai-malware,Hackers Use AI Malware to Rank and Sell Access to Compromised Corporate Networks,2026-09-01T12:05:30.000Z,2026-09-01T12:50:21.213Z
 sha256,c513a7346484ee69a2931c4a89956ee50aa63e4366ef989315e669d8f10d7485,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T08:30:23.381Z
 sha256,c55920f1bd0531b6738153068a666c080ddded47e6256f1fd980d51c0b507c91,https://cybersecuritynews.com/chaindrop-worm-infects-npm-packages,ChainDrop Worm Infects 400+ npm Packages to Steal GitHub and Cloud Credentials,2026-08-07T11:07:15.000Z,2026-08-07T11:26:58.469Z
+sha256,c6100166e2d3b40388980f7674712ef39e937ac04925ca5d370415399ed73faf,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 sha256,c666ac4f1a1b8df7ccfe8b19705279acd8b7eb7a4d0b3802bb3465064883ab25,https://cybersecuritynews.com/hackers-use-fake-student-resume,Hackers Use Fake Student Resume to Secretly Install Malware on Researchers’ Computers,2026-08-28T11:55:37.000Z,2026-08-28T17:44:16.522Z
 sha256,c6db004f2e8ff321d8a0e6d0134f2737d0f6ff79a4627a4b803ef926c107aa00,https://cybersecuritynews.com/hackers-use-new-hookedge-malware,Russian Hackers Use New HOOKEDGE Malware to Spy on European Defense and Diplomatic Targets,2026-08-28T15:07:59.000Z,2026-08-28T15:42:31.826Z
 sha256,c7a80576fbd25057435652788591d13998da272edf627fc29d296684cefc50e5,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T10:17:16.024Z
@@ -3626,6 +3630,7 @@ sha256,e3fa93dad8fb8c3a6d9b35d02ce97c22035b409e0efc9f04372f4c1d6280a481,https://
 sha256,e43f8514cc53f6825b3552728222172966c7b8831a762037b8b3d83d8b13552f,https://www.ransomware.live/group/majinahanashi,Ransomware.live - majinahanashi,,2026-08-31T07:19:19.595Z
 sha256,e49399502d455dbd38f1140bffa761701608526aefb7174646c2f8ffe881ae73,https://cybersecuritynews.com/kimsuky-expands-its-cyber,Kimsuky Expands Its Cyber Espionage Arsenal With Local AI Development Environment,2026-08-18T13:41:41.000Z,2026-08-18T14:29:25.345Z
 sha256,e4c3a669362e8b456b1d6c8e6df7da2a9605a42d710d0cc951342b7ac0cb9d72,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
+sha256,e4fe2dee8f0bb132fa15fc686d1f93df39530a2d3a8d3a1f3a605a057c04e7b3,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 sha256,e5aaa213818fe835f2716914238119fee746753aa4808e24aed817e929e6dcb8,https://www.ransomware.live/group/beast,Ransomware.live - beast,,2026-08-16T10:06:34.545Z
 sha256,e5c19b3a0461eb7e66cb638b2624c464b96223bab0d036c70f902ff6a9241fd0,https://www.ransomware.live/group/doommageddon,Ransomware.live - doommageddon,,2026-08-16T10:06:34.545Z
 sha256,e6bd4ed287d1336206f5b4b65011e570267418799eb60c2d0d7496d5d9e95a33,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-08-16T10:06:34.545Z
@@ -3671,6 +3676,7 @@ sha256,f1ef5fe4c0cdcff13cc750c867728b89719f81437bdc49041edd1ae1f3edb4e8,https://
 sha256,f25f76a85ded0d4d285d9ae5482d8fe07dade3e241853d00b17642d7873733e8,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-08-16T10:06:34.545Z
 sha256,f2a326cff405299e4ebdfaac955c52fc7e496544eaa0921ecad4816cb3ae3a27,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T08:12:03.255Z
 sha256,f2fdfddbc436acc24a654092f5205b2c5bd3208b126b2c2754ac63e7aea22298,https://cybersecuritynews.com/malicious-website-themes,Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones,2026-09-01T07:58:11.000Z,2026-09-01T08:49:27.764Z
+sha256,f33d160d757e4b39019fdef21cf90cafb501b800ca0d4039366bc30856e3d81b,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 sha256,f3a6d4ccdd0f663269c3909e74d6847608b8632fb2814b0436a4532b8281e617,https://www.ransomware.live/group/kawa4096,Ransomware.live - kawa4096,,2026-08-16T10:06:34.545Z
 sha256,f3e8a55a2a3ea7c7b6676e90f4f49a2c55b13065b68ee50c51cc35fe2b5c3237,https://cybersecuritynews.com/kimwolf-v7-uses-chrome-browser,Kimwolf v7 Botnet Uses Chrome Browser Fingerprints to Hide HTTP/2 DDoS Attacks,2026-08-13T10:37:21.000Z,2026-08-13T11:09:48.702Z
 sha256,f3fb674441b05fab014212ece2528c92a36df6d45b88951e65ed72606fff0c80,https://cybersecuritynews.com/fake-captcha-tricks-mac-users,Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto,2026-08-24T09:49:32.000Z,2026-08-24T10:08:59.669Z
@@ -3920,6 +3926,7 @@ url,https://bh-alert.com/assets/bh-alert.apk,https://cybersecuritynews.com/andro
 url,https://black-feather-9cfd.adrianroy-01.workers.dev,https://cybersecuritynews.com/fake-captcha-tricks-mac-users,Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto,2026-08-24T09:49:32.000Z,2026-08-24T10:08:59.669Z
 url,https://brmconfig.com,https://cybersecuritynews.com/hackers-abuse-real-chatgpt-links,Hackers Abuse Real ChatGPT Links to Trick Windows Users Into Installing Malware,2026-09-01T12:45:18.000Z,2026-09-01T12:50:21.213Z
 url,https://brmconfig.com/video.mp4,https://cybersecuritynews.com/hackers-abuse-real-chatgpt-links,Hackers Abuse Real ChatGPT Links to Trick Windows Users Into Installing Malware,2026-09-01T12:45:18.000Z,2026-09-01T12:50:21.213Z
+url,https://cc8ttkv35b.com/7qinst,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 url,https://cdnjsdelivr.beer,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T08:12:03.255Z
 url,https://chatgpt.com/s/t_6a80bc61c434819190c3eae5932307e8,https://cybersecuritynews.com/hackers-abuse-real-chatgpt-links,Hackers Abuse Real ChatGPT Links to Trick Windows Users Into Installing Malware,2026-09-01T12:45:18.000Z,2026-09-01T12:50:21.213Z
 url,https://chatgpt.com/s/t_6a80bc61c434819190c3eae5932307e8?gad_source=1&amp;gad_campaignid=24099424548&amp;gbraid=0aaaabeyrb1r9fv_puc090w7fcw9egqhxr&amp;gclid=cjwkcajwy5rubhb5eiwaioatct0elcup9kixnpoamexdzpvbvbhgftyu1lu7_zkvtaselob3hqresrocsmqqavd_bwe,https://cybersecuritynews.com/hackers-abuse-real-chatgpt-links,Hackers Abuse Real ChatGPT Links to Trick Windows Users Into Installing Malware,2026-09-01T12:45:18.000Z,2026-09-01T12:50:21.213Z
@@ -3952,6 +3959,8 @@ url,https://meteorclients.com,https://cybersecuritynews.com/google-results-minec
 url,https://microsoft-flash.com/download/flashcenter_pp_ax_install_en.exe,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
 url,https://mzghdnikguesdamuxjbm.supabase.co,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 url,https://n-cfjznllwrpfpmyyinhdgwemzxljuukztq3qp73q-0lu-script.googleusercontent.com/usercodeapppanel,https://cybersecuritynews.com/fake-web3-interview,Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT,2026-08-17T07:03:02.000Z,2026-08-17T12:42:34.854Z
+url,https://n7b8t85zsg.com/ins711,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
+url,https://newopt001.oss-cn-hongkong.aliyuncs.com/innstll.1.0.61.zip,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 url,https://nova-client.com/,https://cybersecuritynews.com/google-results-minecraft-client,"Top Google Results for Minecraft Client Led Gamers to Malware, McAfee Finds",2026-08-25T07:05:46.000Z,2026-08-25T07:39:24.400Z
 url,https://npm-cache.com:443/router,https://cybersecuritynews.com/chaindrop-worm-infects-npm-packages,ChainDrop Worm Infects 400+ npm Packages to Steal GitHub and Cloud Credentials,2026-08-07T11:07:15.000Z,2026-08-07T11:26:58.469Z
 url,https://nxsixihozitybwrbahiu.supabase.co,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
@@ -4028,10 +4037,12 @@ url,https://winter-waterfall-0606.rihaniomar21.workers.dev/,https://cybersecurit
 url,https://www.criminalip.io,https://cybersecuritynews.com/criminal-ip-appoints-reconn-as-distributor-for-ti-asm-across-middle-east-africa,Criminal IP Appoints Reconn as Distributor for TI &amp; ASM Across Middle East &amp; Africa,2026-08-27T03:17:28.000Z,2026-09-02T05:29:26.555Z
 url,https://www.dropbox.com/scl/fi/vwtoo632m1y8sqnm5vplm/razo.rar?...&amp;dl=1,https://cybersecuritynews.com/fake-web3-interview,Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT,2026-08-17T07:03:02.000Z,2026-08-17T12:42:34.854Z
 url,https://www.f1ash.org.cn/flashcenter_pp_ax_install_cn.exe,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
+url,https://www.gehie246.com/712down,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 url,https://www.murlauncher.com/fenrir-launcher,https://cybersecuritynews.com/octagon-steal-sms-one-time-codes,Octagon Can Steal SMS One-Time Codes During Banking and Crypto Account Takeovers,2026-08-18T13:21:28.000Z,2026-08-18T13:29:13.960Z
 url,https://www.radium-client.com/,https://cybersecuritynews.com/google-results-minecraft-client,"Top Google Results for Minecraft Client Led Gamers to Malware, McAfee Finds",2026-08-25T07:05:46.000Z,2026-08-25T07:39:24.400Z
 url,https://xenoclient.lol,https://cybersecuritynews.com/google-results-minecraft-client,"Top Google Results for Minecraft Client Led Gamers to Malware, McAfee Finds",2026-08-25T07:05:46.000Z,2026-08-25T07:39:24.400Z
 url,https://xenonclient.com/,https://cybersecuritynews.com/google-results-minecraft-client,"Top Google Results for Minecraft Client Led Gamers to Malware, McAfee Finds",2026-08-25T07:05:46.000Z,2026-08-25T07:39:24.400Z
+url,https://yimxg25tiy.com/73inst,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 url,https://yvqmtnmeivrcyomyeouz.supabase.co,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 url,hxxp://23.95.182.59/31279geuwtoisgdehbiuowaehsgdb/cht,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-08-16T10:06:34.545Z
 url,hxxp://23.95.182.59/31279geuwtoisgdehbiuowaehsgdb/klg,https://www.ransomware.live/group/interlock,Ransomware.live - interlock,,2026-08-16T10:06:34.545Z
