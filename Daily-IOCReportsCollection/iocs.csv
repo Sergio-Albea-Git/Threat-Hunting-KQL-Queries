@@ -675,7 +675,6 @@ filename,cpe2801_v22.10.09.bin,https://cybersecuritynews.com/zbtlink-chinese-rou
 filename,ctxmui.dll,https://cybersecuritynews.com/honeymyte-coolclient-backdoor,"HoneyMyte CoolClient Backdoor Uses Signed Kernel Rootkit to Hide Processes, Files and C2 Traffic",2026-08-17T08:55:57.000Z,2026-08-17T12:42:34.854Z
 filename,curl.exe,https://cybersecuritynews.com/iran-linked-hackers-abuse-developer-tool,Iran-Linked Hackers Abuse Legitimate Developer Tool to Hide Dindoor Backdoor,2026-08-26T08:50:13.000Z,2026-08-26T08:57:08.603Z
 filename,dcrcvdrv.sys,https://cybersecuritynews.com/hackers-use-fake-captcha,Hackers Use Fake CAPTCHA to Install Malware That Kills 145 Security Processes,2026-08-20T13:39:22.000Z,2026-08-20T14:02:39.345Z
-filename,decompiler.exe,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 filename,deploy_implant.py,https://cybersecuritynews.com/chinese-hackers-use-ai-agents,Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks,2026-08-21T14:41:55.000Z,2026-08-21T14:51:43.981Z
 filename,deploy_shell.py,https://cybersecuritynews.com/chinese-hackers-use-ai-agents,Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks,2026-08-21T14:41:55.000Z,2026-08-21T14:51:43.981Z
 filename,desktop.exe,https://cybersecuritynews.com/hackers-use-fake-claude,Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware,2026-08-26T12:15:43.000Z,2026-08-26T12:57:57.838Z
@@ -727,7 +726,6 @@ filename,helperstandardizationapplication.bin,https://cybersecuritynews.com/clic
 filename,holidaynotice.pdf.exe,https://cybersecuritynews.com/china-nexus-hackers,China-Nexus Hackers Disguise Malicious VHD as JPEG to Deploy QUICAgent Backdoor,2026-08-19T15:05:35.000Z,2026-08-19T15:26:51.644Z
 filename,information.lnk,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:42:26.435Z
 filename,installer.exe,https://cybersecuritynews.com/hackers-own-malware-infection,"Hackers’ Own Malware Infection Exposes Their RATs, Phishing Kits and Attack Infrastructure",2026-08-31T05:22:17.000Z,2026-08-31T07:19:19.595Z
-filename,instance.exe,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 filename,intaudio.exe,https://cybersecuritynews.com/armored-likho-still-toolkit-steals,Armored Likho Still Toolkit Steals Telegram Sessions and Records Victims’ Conversations,2026-08-13T12:39:53.000Z,2026-08-13T13:10:09.302Z
 filename,irujkdnjhgttrhdkfdu.ps1,https://cybersecuritynews.com/kimsuky-uses-local-llms,"Kimsuky Uses Local LLMs, AI-Generated Lures and GitHub C2 to Deploy AsyncRAT",2026-08-10T10:07:26.000Z,2026-08-10T16:49:27.570Z
 filename,is_it_this_simple.js,https://cybersecuritynews.com/popular-npm-package,Popular npm Package With 150K+ Weekly Downloads Hit by Credential-Stealing Supply-Chain Worm,2026-08-31T11:42:55.000Z,2026-08-31T12:20:16.666Z
@@ -807,7 +805,6 @@ filename,sopravpn_v7__1_.exe,https://cybersecuritynews.com/sandworm-fake-job-int
 filename,sopravpn.exe,https://cybersecuritynews.com/sandworm-fake-job-interviews,Sandworm Fake Job Interviews Push Trojanized WireGuard VPN to Infect IT Professionals,2026-08-12T09:04:15.000Z,2026-08-12T09:50:49.273Z
 filename,sostener2.vbs,https://cybersecuritynews.com/powershell-rat-chain-duckdns-hosts,Hackers Distributing Malicious VBS/PowerShell RAT Chain Via Multiple DuckDNS Hosts,2026-08-10T08:38:34.000Z,2026-08-10T16:49:27.570Z
 filename,spy.mwork801.com/gmail/js/start.js,https://cybersecuritynews.com/google-themed-credential-phishing,Google-themed Credential Phishing Attempt Delivered Through a Fake 'New Audio MSG' Email,2026-08-12T08:34:05.000Z,2026-08-12T08:50:38.393Z
-filename,squirrelinteractive.bin,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 filename,ss.py,https://cybersecuritynews.com/synkloader-mimic-as-it-support,SynkLoader Mimic as IT Support Personnel Attacking Users Via Microsoft Teams,2026-08-25T14:32:47.000Z,2026-08-25T17:13:05.211Z
 filename,staaaaas.exe,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T08:12:03.255Z
 filename,stage2_payload.bin,https://cybersecuritynews.com/hackers-exploit-owncloud,Hackers Exploit ownCloud and WordPress Flaws to Steal Philippine Nuclear and Naval Data,2026-08-27T13:35:49.000Z,2026-08-27T14:07:36.792Z
@@ -856,7 +853,6 @@ filename,wsftprm.sys,https://cybersecuritynews.com/silverfox-hijacks-trusted-sof
 filename,wtsapi32.dll,https://cybersecuritynews.com/iran-linked-hackers,Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels,2026-08-26T13:47:36.000Z,2026-08-26T13:58:09.552Z
 filename,wwide9.dll,https://cybersecuritynews.com/clickfix-attack-ibm-spss-ide,ClickFix Attack Abuses Signed IBM SPSS IDE to Deploy New CNCMachineRMS RAT,2026-08-12T08:05:00.000Z,2026-08-12T08:50:38.393Z
 filename,xceed.wpf.datagrid.dll,https://cybersecuritynews.com/clickfix-attack-ibm-spss-ide,ClickFix Attack Abuses Signed IBM SPSS IDE to Deploy New CNCMachineRMS RAT,2026-08-12T08:05:00.000Z,2026-08-12T08:50:38.393Z
-filename,xeno.exe,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 filename,yugkag9mvnkwylo.bin,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T10:17:16.024Z
 filename,zlib1.dll,https://cybersecuritynews.com/hackers-pose-as-it-support-microsoft-teams,Hackers Pose as IT Support on Microsoft Teams to Take Remote Control of Windows PCs,2026-09-02T10:00:55.000Z,2026-09-02T10:30:51.284Z
 filename,zoom-update.vbs,https://cybersecuritynews.com/smokescreen-campaign,SMOKE#SCREEN Campaign Abuses ScreenConnect RMM and Cloudflare Tunnels to Hijack Windows and macOS Systems,2026-08-05T12:33:03.000Z,2026-08-05T13:17:43.952Z
@@ -1074,7 +1070,6 @@ ip,172.96.137.106:4567,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,172.96.137.108:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,172.96.137.32:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,172.96.142.186,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
-ip,173.249.252.200,https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited,CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks,2026-08-04T12:44:52.000Z,2026-08-04T13:55:29.363Z
 ip,176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
 ip,176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
 ip,176.123.1.174,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
@@ -1261,9 +1256,7 @@ ip,31.58.209.241,https://cybersecuritynews.com/hackers-exploit-owncloud,Hackers 
 ip,31.76.7.137,https://cybersecuritynews.com/fake-web3-interview,Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT,2026-08-17T07:03:02.000Z,2026-08-17T12:42:34.854Z
 ip,35.212.159.20,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T08:30:23.381Z
 ip,37.1.202.248:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
-ip,37.153.90.88,https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited,CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks,2026-08-04T12:44:52.000Z,2026-08-04T13:55:29.363Z
 ip,37.19.21.180,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
-ip,37.19.210.32,https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited,CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks,2026-08-04T12:44:52.000Z,2026-08-04T13:55:29.363Z
 ip,37.221.66.239,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
 ip,38.110.228.125,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T10:17:16.024Z
 ip,38.110.228.33,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain,2026-08-05T09:33:26.000Z,2026-08-05T10:17:16.024Z
@@ -1403,7 +1396,6 @@ ip,65.109.70.162,https://cybersecuritynews.com/new-tuktuk-malware,Ransomware Hac
 ip,65.21.153.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,65.21.80.170,https://cybersecuritynews.com/clickfix-campaigns-pavinloader,ClickFix Campaigns Deploy PavinLoader With Blockchain-Based C2 and Amatera Stealer,2026-08-25T13:12:40.000Z,2026-08-25T13:13:02.827Z
 ip,66.78.40.205,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
-ip,68.235.46.214,https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited,CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks,2026-08-04T12:44:52.000Z,2026-08-04T13:55:29.363Z
 ip,69.197.176.26:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,69.46.15.169:3389,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,69.46.15.169:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1472,7 +1464,6 @@ ip,87.120.104.147,https://cybersecuritynews.com/fake-googletranslate-chrome-exte
 ip,87.120.114.51:20000,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,87.121.45.33,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-08-16T10:06:34.545Z
 ip,87.121.61.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
-ip,87.249.138.34,https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited,CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks,2026-08-04T12:44:52.000Z,2026-08-04T13:55:29.363Z
 ip,88.212.241.105:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,88.218.168.33:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,88.86.124.114,https://cybersecuritynews.com/13-minute-windrelay-malware-attack,13-Minute WindRelay Malware Attack Uses SpyNote RAT and NFC Relay Malware to Drain Victim Accounts,2026-08-12T12:00:34.000Z,2026-08-12T13:05:54.775Z
@@ -1502,7 +1493,6 @@ ip,91.92.242.30,https://cybersecuritynews.com/openclaw-ai-agents,Hackers Weaponi
 ip,91.92.40.118,https://cybersecuritynews.com/evooo1bot-linux-botnet,Evooo1Bot Linux Botnet Uses 16 DDoS Methods and SOCKS5 Proxies to Hijack Edge Devices,2026-08-17T06:49:16.000Z,2026-08-17T06:55:38.644Z
 ip,91.98.111.49,https://cybersecuritynews.com/fake-google-gemini-installer,Hackers Use Fake Google Gemini Installer to Deploy Vidar Stealer and Steal Browser Credentials,2026-08-21T10:56:24.000Z,2026-08-21T11:51:09.531Z
 ip,91.98.98.86,https://cybersecuritynews.com/fake-google-gemini-installer,Hackers Use Fake Google Gemini Installer to Deploy Vidar Stealer and Steal Browser Credentials,2026-08-21T10:56:24.000Z,2026-08-21T11:51:09.531Z
-ip,92.118.112.181,https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited,CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks,2026-08-04T12:44:52.000Z,2026-08-04T13:55:29.363Z
 ip,92.243.64.200:7258,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,92.243.66.51:8024,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,93.127.160.28,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
@@ -1582,7 +1572,6 @@ md5,0a454a07e071971832985701bc6e9164,https://www.ransomware.live/group/thegentle
 md5,0a5f3fc92af7aa3e448ac7b84e495fc6,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-08-16T10:06:34.545Z
 md5,0a6dd4eee2a0629d1da62f248a17ec80,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-08-16T10:06:34.545Z
 md5,0a75d6369662af48ce6789d6b313a9a5,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-08-16T10:06:34.545Z
-md5,0aadd62b535e683a5a2fe31fde546d07,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 md5,0aaeb5c679e8f42e160248d5ef9e1d83,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
 md5,0b1d2e7bd7f535e427aa80adbb6a95d6,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 md5,0b33a1a23b044beb5c9a63aafd35595c,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-31T07:19:19.595Z
@@ -1595,7 +1584,6 @@ md5,0cb3ff08b5126d4fd6c85744b9bd6b94,https://www.ransomware.live/group/akira,Ran
 md5,0cd9c57c47abc7cb191739bbabfe4216,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 md5,0cf5491278c7d87e8c3fc88c7f9f26ff,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-08-16T10:06:34.545Z
 md5,0d003702bec166aec8f3869d53ccf89f,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
-md5,0d03faf1764297c908158da77c8ffcae,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 md5,0d09c690c1a4fb5944280def28e5e538,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,0d0bc6f8144b4d3f3b80654b4fd8403a,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 md5,0d68a310f4265821900249bec89364c2,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
@@ -1655,7 +1643,6 @@ md5,15e8950f1e4fedf8c1a0286841574a6b,https://www.ransomware.live/group/raworld,R
 md5,160f60dc3fc9920cfc3847de4de2ef09,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-08-16T10:06:34.545Z
 md5,16153e9582cfe94a06fc670a5d851ed9,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-08-16T10:06:34.545Z
 md5,161ed1a00e23f4b039d87d20fe9a93b6,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
-md5,163c8d117ef5a4e4e9c3e92a726af0eb,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 md5,16b9b5e0f9f1747350ad37eff94bb82f,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,1768e374535e5aeaec71002ab68838e7,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-14T19:51:41.532Z
 md5,176bfe9ab5a14115ff5b90b07626cb64,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-08-16T10:06:34.545Z
@@ -1675,7 +1662,6 @@ md5,19f3fabf03519cc60e89ceb950f0cdc2,https://www.ransomware.live/group/akira,Ran
 md5,19ff6488a259d750ec18902fe75a713b,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
 md5,1a0a919dff09f63366f27f5e4c865d75,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-08-16T10:06:34.545Z
 md5,1a2e261b1ae3c96b6d418dae80ce62a3,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-08-16T10:06:34.545Z
-md5,1a462c76efc4e73725b9e95c4a00fddb,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 md5,1a4a4eb6dfc583c02c70bf83fc0e3cd1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,1a6ff95d098d1a37e1fc17b4987c9749,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 md5,1a79b6d169aac719c9323bc3ee4a8361,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-08-16T10:06:34.545Z
@@ -1753,7 +1739,6 @@ md5,2506fe932b2e3acf792f2582d0c302db,https://www.ransomware.live/group/trigona,R
 md5,2513d6678b476a432af2e84fff485b44,https://www.ransomware.live/group/lockbit5,Ransomware.live - lockbit5,,2026-08-16T10:06:34.545Z
 md5,25a14b8104eb50d56c46df79b0df37bf,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-08-16T10:06:34.545Z
 md5,263e909c1c9e6e1657d36c43d0d150b9,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
-md5,26a94168fa25af0bcb46a18ede50af86,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 md5,26f41a46d0addde100bb9512a130de5e,https://www.ransomware.live/group/rhysida,Ransomware.live - rhysida,,2026-08-16T10:06:34.545Z
 md5,27182f9017d8e4212fbc32e954e19d37,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,271998018494403a9b5d0d4b01eb0c44,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-08-16T10:06:34.545Z
@@ -1800,7 +1785,6 @@ md5,2ddb664a99000837bb9975fb8aa5796b,https://www.ransomware.live/group/akira,Ran
 md5,2df69869a379688bad6bf9c18d6aa958,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 md5,2e30aa5886ad27092ae968471bd845c6,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 md5,2e8db0587aa8994a1f5bc796dafe33ba,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-31T07:19:19.595Z
-md5,2ead73ed62f1c2beb9043ce92e774e0b,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 md5,2eccc71416422af47b5969cc0ac64642,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 md5,2ecd724cccdff65f66027d1c9b91a1c7,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 md5,2f3cea435292106026e257789036a70e,https://cybersecuritynews.com/kimsuky-uses-local-llms,"Kimsuky Uses Local LLMs, AI-Generated Lures and GitHub C2 to Deploy AsyncRAT",2026-08-10T10:07:26.000Z,2026-08-10T16:49:27.570Z
@@ -1966,7 +1950,6 @@ md5,4b63ff49059ccf1c40057b310df96d9a,https://www.ransomware.live/group/akira,Ran
 md5,4b6a29dbae72a3d197676851da9564cf,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,4b807353dfbeadaddb392627e27470f9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,4b9bb8a7204b28332635f342b8ffdceb,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
-md5,4bdaf7792e908f163ebef137854c571d,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 md5,4becb7b02f39cfe4af8031a6f0464282,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-16T10:06:34.545Z
 md5,4c282ce56a6991de050c2d8ea93d2b77,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-16T10:06:34.545Z
 md5,4c37fbc3e9cc57b0bc00facf1cef927f,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
@@ -2212,7 +2195,6 @@ md5,7b2d0d3fc3ddbc01f042c5c72506ef0a,https://www.ransomware.live/group/trigona,R
 md5,7b795e5db82f25b8261d70048b2c3940,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-08-16T10:06:34.545Z
 md5,7b885b446bbd9b450146c88f84c64f30,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-31T07:19:19.595Z
 md5,7b8fc151c410055bfa198937825dfd7e,https://cybersecuritynews.com/kimsuky-uses-local-llms,"Kimsuky Uses Local LLMs, AI-Generated Lures and GitHub C2 to Deploy AsyncRAT",2026-08-10T10:07:26.000Z,2026-08-10T16:49:27.570Z
-md5,7b96170259a376ea79411c5713beb396,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 md5,7be61ea851f894d26bf57cf0f1f55ed6,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 md5,7bf5cbca413b327c655e2270645955d9,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,7bfcdf4e2cc520fb8817a7bb711df873,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
@@ -2365,7 +2347,6 @@ md5,963ce01dd8f7a4d1a25504396ab2a0c1,https://www.ransomware.live/group/akira,Ran
 md5,9642ae619b3165d23c6349002d1abe24,https://cybersecuritynews.com/hackers-infect-android-car-screens,Hackers Infect Android Car Screens Through Their Built-In Software Update System,2026-08-24T07:30:28.000Z,2026-08-24T08:08:40.266Z
 md5,964c13b68dc6b6b918b66a9a10469d2a,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
 md5,9675c957a5fded266939e314abff2078,https://cybersecuritynews.com/shadow-hvnc-gives-attackers,Shadow hVNC Gives Attackers Remote Desktop Control Without Moving the Victim’s Mouse,2026-08-18T10:55:12.000Z,2026-08-18T11:28:54.661Z
-md5,9699bd6a448d0662a1e9e353223263b6,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 md5,96b4c1d0683dce22bd3223e1e40689c1,https://cybersecuritynews.com/hackers-hide-valleyrat-backdoor,Hackers Hide ValleyRAT Backdoor Inside Adware Targeting Users in China and India,2026-08-31T14:12:41.000Z,2026-08-31T14:26:01.599Z
 md5,96fbb98b1f722ae5f49ab63da0f74cf2,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,9705d2d1c30b0ae4c4a50c6acb3a9dc8,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
@@ -2376,7 +2357,6 @@ md5,977fe7712d2c2d8592c094a9de88170c,https://www.ransomware.live/group/cactus,Ra
 md5,97f9d8c8d44da37c7b9cefe31bda3466,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-08-16T10:06:34.545Z
 md5,983a20479a281a182d33b75c0945e447,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-08-16T10:06:34.545Z
 md5,98cafe7df2d7e332d2602bb5b4c49019,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
-md5,9930036e8f787674db39094e21413e77,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 md5,993dd975a0ef36bedb6532672ecd3d65,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
 md5,994a0c3e3e1390d972b1bdd8e8f2a449,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-08-16T10:06:34.545Z
 md5,996c394d0f6d6967df9542c52f6f4661,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
@@ -2651,7 +2631,6 @@ md5,d0457a54a4905ed5d2bb8a2b7ef7be0f,https://www.ransomware.live/group/lockbit3,
 md5,d057ffad923778f8381b662593a46d2a,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 md5,d1013bbaa2f151195d563b2b65126fa3,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-08-16T10:06:34.545Z
 md5,d10e0387e3d55dc1f82c23719e2b168b,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
-md5,d123dbb5c5980bfeb22586197d2cc403,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 md5,d14ec0d9f4c265174c54d0f949e006ea,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-08-16T10:06:34.545Z
 md5,d16ec8c2dc42401f3acea469c128d981,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-08-16T10:06:34.545Z
 md5,d1c331c17ddd4abe0d53755461c1ec9a,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
@@ -4179,8 +4158,6 @@ url,https://sandbox-adventure.com/lifted-dreams/game,https://cybersecuritynews.c
 url,https://seedcrackerx.github.io/,https://cybersecuritynews.com/google-results-minecraft-client,"Top Google Results for Minecraft Client Led Gamers to Malware, McAfee Finds",2026-08-25T07:05:46.000Z,2026-08-25T07:39:24.400Z
 url,https://servicos.salto.sp.gov.br/j.jar,https://cybersecuritynews.com/breeze-comet-hackers,BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers,2026-09-02T13:23:38.000Z,2026-09-02T13:31:23.406Z
 url,https://sit.baer.gob.ve/r.exe,https://cybersecuritynews.com/breeze-comet-hackers,BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers,2026-09-02T13:23:38.000Z,2026-09-02T13:31:23.406Z
-url,https://solthere.net/api/v1/redeem,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
-url,https://solthere.net/justacoolkat10,https://cybersecuritynews.com/roblox-malware-streams-desktops,Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage,2026-08-04T12:14:24.000Z,2026-08-04T13:55:29.363Z
 url,https://soprasteria-bg.com/,https://cybersecuritynews.com/sandworm-fake-job-interviews,Sandworm Fake Job Interviews Push Trojanized WireGuard VPN to Infect IT Professionals,2026-08-12T09:04:15.000Z,2026-08-12T09:50:49.273Z
 url,https://sourceforge.net/projects/soprabulgariavpn/files/sopravpn_v10.exenload,https://cybersecuritynews.com/sandworm-fake-job-interviews,Sandworm Fake Job Interviews Push Trojanized WireGuard VPN to Infect IT Professionals,2026-08-12T09:04:15.000Z,2026-08-12T09:50:49.273Z
 url,https://sourceforge.net/projects/sopravpn/files/sopravpn_v5.exe/download,https://cybersecuritynews.com/sandworm-fake-job-interviews,Sandworm Fake Job Interviews Push Trojanized WireGuard VPN to Infect IT Professionals,2026-08-12T09:04:15.000Z,2026-08-12T09:50:49.273Z
