@@ -1164,6 +1164,7 @@ ip,193.233.202.17,https://cybersecuritynews.com/remote-scheduled-tasks-etherrat,
 ip,193.233.245.45,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
 ip,193.233.245.52,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
 ip,193.242.184.180,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-31T10:19:54.062Z
+ip,193.32.2.245,https://cybersecuritynews.com/streamrat-android-trojan,New StreamRAT Android Trojan Gives Hackers Full Remote Control Through VNC and Accessibility,2026-09-03T11:19:35.000Z,2026-09-03T11:44:41.005Z
 ip,193.37.69.162,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-08-16T10:06:34.545Z
 ip,193.37.69.225,https://www.ransomware.live/group/vanhelsing,Ransomware.live - vanhelsing,,2026-08-16T10:06:34.545Z
 ip,193.43.104.153,https://www.ransomware.live/group/termite,Ransomware.live - termite,,2026-08-16T10:06:34.545Z
@@ -1309,6 +1310,7 @@ ip,45.129.199.234:80,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,45.130.147.118:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,45.130.151.214,https://cybersecuritynews.com/toxnetv2-linux-botnet,ToxNetV2 Linux Botnet Uses NVIDIA AI to Generate Shell and Remote SSH Attack Actions,2026-08-25T14:30:19.000Z,2026-08-25T17:13:05.211Z
 ip,45.135.232.195,https://www.ransomware.live/group/dragonforce,Ransomware.live - dragonforce,,2026-08-16T10:06:34.545Z
+ip,45.147.28.59,https://cybersecuritynews.com/streamrat-android-trojan,New StreamRAT Android Trojan Gives Hackers Full Remote Control Through VNC and Accessibility,2026-09-03T11:19:35.000Z,2026-09-03T11:44:41.005Z
 ip,45.150.109.151,https://cybersecuritynews.com/hackers-exploit-ai-infrastructure,"Hackers Exploit AI Infrastructure to Steal API Keys, Gain Persistence and Mine Cryptocurrency",2026-08-27T12:55:39.000Z,2026-08-27T13:04:04.629Z
 ip,45.150.34.77,https://cybersecuritynews.com/octagon-steal-sms-one-time-codes,Octagon Can Steal SMS One-Time Codes During Banking and Crypto Account Takeovers,2026-08-18T13:21:28.000Z,2026-08-18T13:29:13.960Z
 ip,45.151.139.113,https://cybersecuritynews.com/toxnetv2-linux-botnet,ToxNetV2 Linux Botnet Uses NVIDIA AI to Generate Shell and Remote SSH Attack Actions,2026-08-25T14:30:19.000Z,2026-08-25T17:13:05.211Z
@@ -3663,6 +3665,7 @@ sha256,b8c994e3ed7dcc9080916119ddc315533c129479f508676d7544b82b2e24745f,https://
 sha256,b8d107800403b9197e5b7609ceacd8e4cac1b0f9a1d156e6dacd6c3f7794b36a,https://cybersecuritynews.com/fake-cloudflare-captcha,Hackers Use Fake Cloudflare CAPTCHA to Deploy Reverse Tunnel Into Corporate Networks,2026-08-31T07:58:22.000Z,2026-08-31T08:19:31.807Z
 sha256,b90a4e770869c28fd2140acb3ebdc50c113bb6f096b4bbdb9ac87c349c70e85e,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
 sha256,ba77feed86bcda49308746421bdc684a432dd5d68c363975b2a3c6831bda3f07,https://cybersecuritynews.com/fake-cloudflare-captcha,Hackers Use Fake Cloudflare CAPTCHA to Deploy Reverse Tunnel Into Corporate Networks,2026-08-31T07:58:22.000Z,2026-08-31T08:19:31.807Z
+sha256,ba83cc3c9535690191018edf73ca5c6001609df9919462796aa2e551f142e4d3,https://cybersecuritynews.com/streamrat-android-trojan,New StreamRAT Android Trojan Gives Hackers Full Remote Control Through VNC and Accessibility,2026-09-03T11:19:35.000Z,2026-09-03T11:44:41.005Z
 sha256,ba96c603e44046de703c67b2c3b7e4ca974afef7b437a0244418bc4edc781bb7,https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited,Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit,2026-08-12T03:23:37.000Z,2026-08-12T06:19:20.385Z
 sha256,ba9d459169a303067a4fe36c8b8582a5ea023b9c270dafe89613bab840501b19,https://cybersecuritynews.com/crypto-scammer-uses-claude-code,"Crypto Scammer Uses Claude Code to Process 100,000+ Phone Numbers for Victim Targeting",2026-08-18T12:16:17.000Z,2026-08-18T12:29:03.971Z
 sha256,bad3c2f72ef2be522a554a9615dc93027416a3d4048f77519fca5104fabba1f9,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-08-16T10:06:34.545Z
@@ -3777,6 +3780,7 @@ sha256,df8221a933b38284ebdcb8bffc2df62123c9f5b5f421dd0b070e13e668b3eabf,https://
 sha256,dfe696ff713318c53fb17731bd4a6585a02c085b590149b19847990b324a0be6,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-14T19:51:41.532Z
 sha256,dfe6fddc67bdc93b9947430b966da2877fda094edf3e21e6f0ba98a84bc53198,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 sha256,e008c4e82cff39aa0f4c040944f8deeb80b06c50aab558e8b84e20c8ee453418,https://cybersecuritynews.com/remus-hides-its-command-server,Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults,2026-08-06T12:22:19.000Z,2026-08-06T13:21:32.613Z
+sha256,e0714788b4e2518b0d9d4cbf18c7217bb97718e01689d77338f1cc4a230fcb6c,https://cybersecuritynews.com/streamrat-android-trojan,New StreamRAT Android Trojan Gives Hackers Full Remote Control Through VNC and Accessibility,2026-09-03T11:19:35.000Z,2026-09-03T11:44:41.005Z
 sha256,e2356c742c74cce5c6b6100162d0071a3f71e2fed2ed895c2011061a95b3299a,https://cybersecuritynews.com/akira-uses-windows-safe-mode,Akira Ransomware Uses Windows Safe Mode to Shut Down EDR Before Launching Encryptor,2026-08-13T08:17:04.000Z,2026-08-13T09:09:26.031Z
 sha256,e2b31ac7ee077b26332444a83a68ab75be641113e7d86979d844a0f3478f01f9,https://cybersecuritynews.com/new-tuktuk-malware,Ransomware Hackers Use New TukTuk Malware to Steal Credentials and Disable Security Tools,2026-09-02T14:05:53.000Z,2026-09-02T14:57:44.580Z
 sha256,e2eb7703047b37b28dc34e6990205d758a2454b39bc655b460606745fadcb530,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
