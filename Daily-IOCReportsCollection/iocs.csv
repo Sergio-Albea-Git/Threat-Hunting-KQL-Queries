@@ -864,22 +864,17 @@ ip,1.1.1.1,https://cybersecuritynews.com/router-dns-tweak-blocks-malware,Free Ro
 ip,1.1.1.3,https://cybersecuritynews.com/router-dns-tweak-blocks-malware,Free Router DNS Tweak Blocks Malware and Phishing Across Home Networks,2026-08-31T03:58:08.000Z,2026-08-31T07:19:19.595Z
 ip,1.31.1.1,https://cybersecuritynews.com/payroll-pirates-aitm-phishing,Payroll Pirates AiTM Phishing Hijacks Microsoft 365 Sessions and Targets Payroll Emails,2026-08-10T09:07:40.000Z,2026-08-10T16:49:27.570Z
 ip,101.99.92.124,https://cybersecuritynews.com/phaas-kits-targeting-us-organizations,Three PhaaS Kits Targeting US Organizations to Steal M65 Logins by Bypassing MFA,2026-08-05T13:35:54.000Z,2026-08-05T14:17:53.472Z
-ip,103.106.190.217,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,103.121.91.144,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
 ip,103.125.217.129:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,103.131.95.37,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
 ip,103.156.25.35,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 ip,103.183.3.162,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
-ip,103.226.155.200,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
-ip,103.226.155.201,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
-ip,103.238.129.112,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,103.30.77.80:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,103.35.189.225,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
 ip,103.35.191.173,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
 ip,103.45.66.18,https://cybersecuritynews.com/hackers-hide-valleyrat-backdoor,Hackers Hide ValleyRAT Backdoor Inside Adware Targeting Users in China and India,2026-08-31T14:12:41.000Z,2026-08-31T14:26:01.599Z
 ip,103.77.242.187,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:42:26.435Z
 ip,103.87.9.62,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
-ip,103.97.128.67,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,104.168.140.238:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,104.168.151.112:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,104.194.134.167,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
@@ -919,7 +914,6 @@ ip,104.36.229.149:5168,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,104.36.229.179:5729,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,104.64.211.22,https://cybersecuritynews.com/china-nexus-hackers,China-Nexus Hackers Disguise Malicious VHD as JPEG to Deploy QUICAgent Backdoor,2026-08-19T15:05:35.000Z,2026-08-19T15:26:51.644Z
 ip,107.170.35.225,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-08-16T10:06:34.545Z
-ip,107.175.49.181,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,107.189.18.7,https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp,Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts,2026-08-21T11:31:54.000Z,2026-08-21T11:51:09.531Z
 ip,107.189.26.195:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,108.187.28.158,https://cybersecuritynews.com/malicious-apache-modules,Malicious Apache Modules Turn Trusted Government Websites Into Stealth Phishing Proxies,2026-09-03T07:47:10.000Z,2026-09-03T09:12:00.967Z
@@ -1008,7 +1002,6 @@ ip,151.236.16.40:34236,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,151.236.16.40:57144,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,151.236.22.19:3375,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,151.236.22.19:4421,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
-ip,151.243.126.191,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,152.42.174.15,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
 ip,153.75.84.173,https://cybersecuritynews.com/hackers-use-fake-claude,Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware,2026-08-26T12:15:43.000Z,2026-08-26T12:57:57.838Z
 ip,154.203.197.96:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1040,7 +1033,6 @@ ip,162.0.209.89,https://cybersecuritynews.com/hackers-hide-agent-tesla,Hackers H
 ip,162.19.83.163,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T09:50:50.128Z
 ip,162.252.173.100:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,162.33.179.99:1433,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
-ip,162.4.136.30,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,164.92.223.252:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,165.22.101.200,https://cybersecuritynews.com/malicious-apache-modules,Malicious Apache Modules Turn Trusted Government Websites Into Stealth Phishing Proxies,2026-09-03T07:47:10.000Z,2026-09-03T09:12:00.967Z
 ip,165.227.123.79,https://cybersecuritynews.com/remus-hides-its-command-server,Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults,2026-08-06T12:22:19.000Z,2026-08-06T13:21:32.613Z
@@ -1185,7 +1177,6 @@ ip,199.232.210.172,https://www.ransomware.live/group/lockbit3,Ransomware.live - 
 ip,20.101.57.9,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
 ip,20.12.23.50,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
 ip,202.146.222.18,https://cybersecuritynews.com/malicious-apache-modules,Malicious Apache Modules Turn Trusted Government Websites Into Stealth Phishing Proxies,2026-09-03T07:47:10.000Z,2026-09-03T09:12:00.967Z
-ip,202.8.120.249,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,202.95.14.237,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 ip,203.161.43.187:53,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,203.161.43.195:444,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1218,7 +1209,6 @@ ip,216.219.94.99:80,https://www.ransomware.live/group/bianlian,Ransomware.live -
 ip,217.60.77.63,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T07:08:29.914Z
 ip,219.76.254.184,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
 ip,220.205.123.186,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
-ip,223.26.63.56,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,23.224.4.114,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-09-01T11:50:00.614Z
 ip,23.225.48.20,https://cybersecuritynews.com/malicious-website-themes,Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones,2026-09-01T07:58:11.000Z,2026-09-01T08:49:27.764Z
 ip,23.225.52.67,https://cybersecuritynews.com/malicious-website-themes,Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones,2026-09-01T07:58:11.000Z,2026-09-01T08:49:27.764Z
@@ -1267,7 +1257,6 @@ ip,38.132.122.214,https://www.ransomware.live/group/devman,Ransomware.live - dev
 ip,38.134.148.20,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-08-16T10:06:34.545Z
 ip,38.146.28.75,https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp,Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts,2026-08-21T11:31:54.000Z,2026-08-21T11:51:09.531Z
 ip,38.207.178.192,https://cybersecuritynews.com/hackers-use-fake-student-resume,Hackers Use Fake Student Resume to Secretly Install Malware on Researchers’ Computers,2026-08-28T11:55:37.000Z,2026-08-28T17:44:16.522Z
-ip,38.22.89.117,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,38.242.246.176,https://cybersecuritynews.com/hackers-use-ai-malware,Hackers Use AI Malware to Rank and Sell Access to Compromised Corporate Networks,2026-09-01T12:05:30.000Z,2026-09-01T12:50:21.213Z
 ip,38.244.205.244,https://cybersecuritynews.com/hackers-exploit-trueconf-servers,Hackers Exploit TrueConf Servers to Push Malware Through Legitimate Video Conference Downloads,2026-08-21T06:21:10.000Z,2026-08-21T06:50:16.331Z
 ip,38.248.95.214,https://cybersecuritynews.com/greatness-phaas,Greatness PhaaS Bypasses Email Security and MFA to Hijack Microsoft 365 Accounts,2026-08-05T14:51:03.000Z,2026-08-05T16:53:22.815Z
@@ -1277,7 +1266,6 @@ ip,38.46.219.162,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking
 ip,38.46.219.163,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,38.46.219.166,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,38.60.244.141,https://cybersecuritynews.com/china-nexus-hackers,China-Nexus Hackers Disguise Malicious VHD as JPEG to Deploy QUICAgent Backdoor,2026-08-19T15:05:35.000Z,2026-08-19T15:26:51.644Z
-ip,38.76.185.209,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,40.69.42.241,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
 ip,43.128.26.132,https://cybersecuritynews.com/silverfox-hijacks-trusted-software,SilverFox Hijacks Trusted Software and Kernel Drivers to Disable Security Tools,2026-08-06T18:52:20.000Z,2026-08-06T19:23:29.854Z
 ip,43.198.248.193,https://cybersecuritynews.com/malicious-apache-modules,Malicious Apache Modules Turn Trusted Government Websites Into Stealth Phishing Proxies,2026-09-03T07:47:10.000Z,2026-09-03T09:12:00.967Z
@@ -1315,9 +1303,6 @@ ip,45.156.87.69,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,
 ip,45.158.196.184,https://cybersecuritynews.com/c2looper-updates,C2Looper Updates Itself Through OneDrive DLL Sideloading to Evade Detection,2026-08-18T12:47:11.000Z,2026-08-18T13:29:13.960Z
 ip,45.158.196.23,https://cybersecuritynews.com/c2looper-updates,C2Looper Updates Itself Through OneDrive DLL Sideloading to Evade Detection,2026-08-18T12:47:11.000Z,2026-08-18T13:29:13.960Z
 ip,45.192.12.34,https://cybersecuritynews.com/octagon-steal-sms-one-time-codes,Octagon Can Steal SMS One-Time Codes During Banking and Crypto Account Takeovers,2026-08-18T13:21:28.000Z,2026-08-18T13:29:13.960Z
-ip,45.197.237.210,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
-ip,45.197.237.216,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
-ip,45.207.210.78,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,45.227.253.59:3111,https://www.ransomware.live/group/cry0,Ransomware.live - cry0,,2026-08-16T10:06:34.545Z
 ip,45.32.81.152,https://cybersecuritynews.com/zbtlink-chinese-router,Zbtlink Chinese Router Sold Worldwide Contains a Hidden Backdoor Affecting 20+ Models,2026-08-07T06:38:52.000Z,2026-08-07T07:34:16.475Z
 ip,45.41.187.117:5973,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1386,7 +1371,6 @@ ip,64.233.181.94,https://www.ransomware.live/group/lockbit3,Ransomware.live - lo
 ip,64.52.80.103:3544,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,64.52.80.103:6798,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,64.89.160.17,https://cybersecuritynews.com/hackers-own-malware-infection,"Hackers’ Own Malware Infection Exposes Their RATs, Phishing Kits and Attack Infrastructure",2026-08-31T05:22:17.000Z,2026-08-31T07:19:19.595Z
-ip,64.90.10.72,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,64.95.11.206:10443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,64.95.11.206:1433,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,64.95.11.206:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1496,7 +1480,6 @@ ip,91.98.98.86,https://cybersecuritynews.com/fake-google-gemini-installer,Hacker
 ip,92.243.64.200:7258,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,92.243.66.51:8024,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,93.127.160.28,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
-ip,93.152.221.37,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 ip,93.152.224.75,https://cybersecuritynews.com/clickfix-campaigns-pavinloader,ClickFix Campaigns Deploy PavinLoader With Blockchain-Based C2 and Amatera Stealer,2026-08-25T13:12:40.000Z,2026-08-25T13:13:02.827Z
 ip,94.103.91.246,https://www.ransomware.live/group/ghostsec,Ransomware.live - ghostsec,,2026-08-16T10:06:34.545Z
 ip,94.126.227.11,https://cybersecuritynews.com/iran-linked-hackers,Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels,2026-08-26T13:47:36.000Z,2026-08-26T13:58:09.552Z
@@ -3080,7 +3063,6 @@ sha256,096ec37870eb401793592c9b53b5b52fc7a70b113bc2d9cd3f53231142d6c584,https://
 sha256,09e3ce307b2af3f94a315eba97c094d8d755b3674208cc47ceab3c1630a84ad9,https://cybersecuritynews.com/vanta-stealer-empties-browser-vaults,"Vanta Stealer Empties Browser Vaults, Crypto Wallets and Gaming Accounts in Minutes",2026-08-06T16:53:08.000Z,2026-08-06T19:23:29.854Z
 sha256,09ed9ad3ac886f5aaf8357127b6dd5926bd4af1e2cc687a6a4856bcaedee2667,https://cybersecuritynews.com/zbtlink-chinese-router,Zbtlink Chinese Router Sold Worldwide Contains a Hidden Backdoor Affecting 20+ Models,2026-08-07T06:38:52.000Z,2026-08-07T07:34:16.475Z
 sha256,09f7432834ce15e701aa7fcc84a9c2441c1c7e0a9cb66a6211845be73d2597cc,https://www.ransomware.live/group/benzona,Ransomware.live - benzona,,2026-08-16T10:06:34.545Z
-sha256,0a60f8ba0c0fa86f469c973cccc853f5d71a7ae8f2a9e057d6c7735d2c28070a,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 sha256,0a6da70548f14834acb8960689a589b48ff422f8385ae445a281aab77045fe22,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
 sha256,0a9da2b33c94da3f1fc02502ab3caed6e1fbe40f9115422c09103c42a9f8b3d1,https://cybersecuritynews.com/malicious-solidity-pro-vs-code-extension,"Malicious Solidity Pro VS Code Extension Steals Crypto Wallets, API Keys and SSH Keys via Telegram",2026-08-10T11:56:27.000Z,2026-08-10T16:49:27.570Z
 sha256,0ae0a7f118b80e4655b8b86bb421c151a8f17930e76e714b2fa199409f3af9ce,https://cybersecuritynews.com/hackers-use-fake-captcha,Hackers Use Fake CAPTCHA to Install Malware That Kills 145 Security Processes,2026-08-20T13:39:22.000Z,2026-08-20T14:02:39.345Z
@@ -3177,7 +3159,6 @@ sha256,263c14e84398339b25cd3e59da7e108340306fdbb8112bbe7dc0f07a71eb8a31,https://
 sha256,26e3f1359ed228d9d4931b853f1bfc768c2ca22cb28b96c29380c040940c3a1f,https://cybersecuritynews.com/hackers-pose-as-it-support-microsoft-teams,Hackers Pose as IT Support on Microsoft Teams to Take Remote Control of Windows PCs,2026-09-02T10:00:55.000Z,2026-09-02T10:30:51.284Z
 sha256,26f735cbbb1257be94e6d01656a35bf66a8ae9c34868548d69ec5cb588f9f916,https://cybersecuritynews.com/china-nexus-hackers,China-Nexus Hackers Disguise Malicious VHD as JPEG to Deploy QUICAgent Backdoor,2026-08-19T15:05:35.000Z,2026-08-19T15:26:51.644Z
 sha256,270c3354b3ee2940b499e365eaba143fba9d458f434dc38e663dc0f08e96121e,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-08-16T10:06:34.545Z
-sha256,273df85db2d449bbf32a44848877b07b417667eb96481ce37e46bf04dd6cc222,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 sha256,2793e7caba2f9beecd9b01baf41b8cb79f5a1a083ddedc6602ff23996bdc3104,https://cybersecuritynews.com/hackers-use-new-hookedge-malware,Russian Hackers Use New HOOKEDGE Malware to Spy on European Defense and Diplomatic Targets,2026-08-28T15:07:59.000Z,2026-08-28T15:42:31.826Z
 sha256,2833fb725862866205b37619db050fbd84e6258682fa1d9485da0ae9257b9244,https://cybersecuritynews.com/hackers-hide-malware-code,Hackers Hide Malware Code Inside English Words to Infect Windows Users,2026-08-20T11:39:53.000Z,2026-08-20T12:02:13.771Z
 sha256,2837099af431e9afee76ce5e6ab5cb86bedce06e31c22be46250cb453cfdb978,https://cybersecuritynews.com/clickfix-campaigns-pavinloader,ClickFix Campaigns Deploy PavinLoader With Blockchain-Based C2 and Amatera Stealer,2026-08-25T13:12:40.000Z,2026-08-25T13:13:02.827Z
@@ -3261,7 +3242,6 @@ sha256,3c0f0413ca6326bd0107d532aec4daad7feec663d072f7c992682fb702b64cce,https://
 sha256,3c1dbc3f56e91cc79f0014850e773a7f12bbfef06680f08f883b2bf12873eccc,https://cybersecuritynews.com/projextor-shows-malware,Projextor Shows How Malware Can Hide Behind Trusted Electron Executables,2026-08-18T15:34:10.000Z,2026-08-18T18:29:49.478Z
 sha256,3c2182cb0bc7528829ef03f1b1745a92bcc47d917eb8870862488f21fdf1a6d6,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-14T19:51:41.532Z
 sha256,3c2466d8a4572c26530e6f6bcef01fc1baefb98dbff2c65efaed5599622f51f3,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-15T15:48:40.219Z
-sha256,3c37835766ca615f5eb0e766b4000b43e896a420d575f02e1e160be5711e0782,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 sha256,3c7c91cd4dc336db8082e07ab7549556f05d80acbc778afc2dade67c02002f69,https://www.ransomware.live/group/ailock,Ransomware.live - ailock,,2026-08-16T10:06:34.545Z
 sha256,3c92bfc71004340ebc00146ced294bc94f49f6a5e212016ac05e7d10fcb3312c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-08-16T10:06:34.545Z
 sha256,3cd9b7d583442963261f9985128042bf45d25482efcbf903c9248837cb0d744b,https://cybersecuritynews.com/smokescreen-campaign,SMOKE#SCREEN Campaign Abuses ScreenConnect RMM and Cloudflare Tunnels to Hijack Windows and macOS Systems,2026-08-05T12:33:03.000Z,2026-08-05T13:17:43.952Z
@@ -3295,7 +3275,6 @@ sha256,46305296e0675147c7b4ceacc7d5e45dd44d5d2242c0c3e02b444931b3e1564b,https://
 sha256,465913946d4985ab60899ed2b7bc779ea83d08683c041d0e33b496358b684106,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
 sha256,4661735db0f33dd567d29b2a056a967bb3762f831eb3678b27c4ffb06dbb8ec1,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
 sha256,467c192e3aeafbac29ab272575bc76545f371a50670fb4a1cf3104dae30622e0,https://cybersecuritynews.com/vanta-stealer-empties-browser-vaults,"Vanta Stealer Empties Browser Vaults, Crypto Wallets and Gaming Accounts in Minutes",2026-08-06T16:53:08.000Z,2026-08-06T19:23:29.854Z
-sha256,46a0bd09f145ab909e5bf45fafe906f452f06971bd227653f0c52af8e22da89e,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 sha256,46c40d3cefb10a9fd1dfeb03ff1dc550674d391bdf05c0294257809d51c254a8,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 sha256,47d8ffb3a9a3fe0337e3c1e355fab4847dd61952fbe9aad98aadede489ca31fd,https://cybersecuritynews.com/zbtlink-chinese-router,Zbtlink Chinese Router Sold Worldwide Contains a Hidden Backdoor Affecting 20+ Models,2026-08-07T06:38:52.000Z,2026-08-07T07:34:16.475Z
 sha256,48046fb0e566f5a2d184f84b76d6cadc458762556daed0ae4a3a1200afbefb54,https://www.ransomware.live/group/medusalocker,Ransomware.live - medusalocker,,2026-08-16T10:06:34.545Z
@@ -3321,7 +3300,6 @@ sha256,4f5d8319b4bad5d9243496c1358fda4783ea9a0865c32881b3f57ecedb879570,https://
 sha256,4f82542f68d2e677fb64ba986c8d5f3a04017a1bf7a11d375e52f950e32eb262,https://cybersecuritynews.com/fake-googletranslate-chrome-extension,Fake GoogleTranslate Chrome Extension Lets Attackers Remotely Control Your Browsers,2026-08-10T13:35:24.000Z,2026-08-10T16:49:27.570Z
 sha256,4fd32432341dfcf54d0517a6bbc38e5d265be70933493e4183c2a340cdde9a2d,https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited,Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit,2026-08-12T03:23:37.000Z,2026-08-12T06:19:20.385Z
 sha256,501821a19ccf59830789849beff94238736adb4b213870a511890c5c8efab2a6,https://www.ransomware.live/group/blacknevas,Ransomware.live - blacknevas,,2026-08-16T10:06:34.545Z
-sha256,50582f8d52e49f549615ec7cd68629b9f939a0cfc5c5408f324b2f1cff070e99,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 sha256,515bd71a8b3c2bce7b40b89ddfe2e94d332b0779d569c58117f8dcdcb8a91ed9,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-08-16T10:06:34.545Z
 sha256,51b9f246d6da85631131fcd1fabf0a67937d4bdde33625a44f7ee6a3a7baebd2,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-14T19:51:41.532Z
 sha256,51bfb2f390653647b087d789ef1559c3fdf220c565a909f1eee4d593893420dd,https://cybersecuritynews.com/remus-hides-its-command-server,Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults,2026-08-06T12:22:19.000Z,2026-08-06T13:21:32.613Z
@@ -3725,7 +3703,6 @@ sha256,d2aa40cc53b40c6e76ac0677c4a54387b3f27ee94c85d9b2c3a3d66aeef92a66,https://
 sha256,d3246926b20a8d021ed7de0ac8e9eee1dda986088f84ba18f31cb2042a121f5d,https://cybersecuritynews.com/popular-npm-package-2,Popular npm Package With 150K Weekly Downloads Compromised in Mini Shai-Hulud Supply-Chain Attack,2026-09-01T08:36:35.000Z,2026-09-01T08:49:27.764Z
 sha256,d347170752a28e2b8c4b8b9f3cab2e3a6541ba11682c94498d26eb9002779d60,https://cybersecuritynews.com/new-windows-backdoor,New Windows Backdoor Hides Inside ESET Agent and Wakes Up With a Secret Network Packet,2026-08-27T07:51:19.000Z,2026-08-27T08:22:39.228Z
 sha256,d34eb87981cd144c0916b1e720b94dc22b52924b3358c32350a235925e7dfa7e,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
-sha256,d37b6198034995b8642f78706e197b3ead3cdf125d7f9cf47a60dc7f9b8ef789,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 sha256,d3cc6cc4538d57f2d1f8a9d46a3e8be73ed849f7fe37d1d969c0377cf1d0fadc,https://www.ransomware.live/group/bluelocker,Ransomware.live - bluelocker,,2026-08-16T10:06:34.545Z
 sha256,d411d93f358128c77aed0be91365b18cfb7575ecd188d22a216cbaeaa51c5e11,https://cybersecuritynews.com/12-kb-windows-backdoor,12 KB Windows Backdoor Hides C2 Domain in desktop.ini Whitespace to Evade Detection,2026-08-17T06:22:22.000Z,2026-08-17T06:55:38.644Z
 sha256,d447e296f7da71a05d38077ae27295519151d56b6cd44ca272e731d702f7fe63,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
@@ -4167,7 +4144,6 @@ url,https://static.planetminecraft.com/files/resource_media/mod/no-delay-optimiz
 url,https://suporte.camaratunapolis.sc.gov.br/ti/1.exe,https://cybersecuritynews.com/breeze-comet-hackers,BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers,2026-09-02T13:23:38.000Z,2026-09-02T13:31:23.406Z
 url,https://suporte.camaratunapolis.sc.gov.br/ti/attvpn.zip,https://cybersecuritynews.com/breeze-comet-hackers,BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers,2026-09-02T13:23:38.000Z,2026-09-02T13:31:23.406Z
 url,https://sweet-iki-4263.holy.jp/gmail.php,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:42:26.435Z
-url,https://t.me/yata0000,https://cybersecuritynews.com/darksword-ios-exploit-kit,DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts,2026-08-04T13:13:51.000Z,2026-08-04T13:55:29.363Z
 url,https://t2.nmnsny.sbs,https://cybersecuritynews.com/hackers-infect-android-car-screens,Hackers Infect Android Car Screens Through Their Built-In Software Update System,2026-08-24T07:30:28.000Z,2026-08-24T08:08:40.266Z
 url,https://tisup.camaratunapolis.sc.gov.br/softether.exe,https://cybersecuritynews.com/breeze-comet-hackers,BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers,2026-09-02T13:23:38.000Z,2026-09-02T13:31:23.406Z
 url,https://vgksucdjccsojzuhckzk.supabase.co,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
