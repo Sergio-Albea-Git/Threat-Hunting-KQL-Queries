@@ -55,26 +55,28 @@ needed. Raw URL:
 https://raw.githubusercontent.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries/main/EOL_Products/eol_products.csv
 ```
 
-### 1. Applications & databases — join on vendor + name
+### 1. Applications & databases — matched to how Defender names software
+The full, ready-to-run query is **QUERY B** in [`eol_products.kql`](./eol_products.kql). It is
+built from a real `DeviceTvmSoftwareInventory` export, because Defender does **not** store a
+clean product name — it stores a lower-case, CPE-style token with qualifiers:
 
-```kql
-// Devices running software that is already end-of-life
-let eol = externaldata(category:string, product_id:string, product:string, release:string,
-    release_date:string, eol_date:string, is_eol:string, is_maintained:string,
-    latest_version:string, cpe:string, defender_vendor:string, defender_softwarename:string,
-    aliases:string)
-    [@"https://raw.githubusercontent.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries/main/EOL_Products/eol_products.csv"]
-    with (format="csv", ignoreFirstRecord=true);
-DeviceTvmSoftwareInventory
-| where isnotempty(SoftwareVendor) and isnotempty(SoftwareName)
-| join kind=inner (
-    eol
-    | where isnotempty(defender_vendor) and todatetime(eol_date) < now()
-) on $left.SoftwareVendor == $right.defender_vendor,
-     $left.SoftwareName == $right.defender_softwarename
-| project DeviceName, SoftwareVendor, SoftwareName, SoftwareVersion,
-          eol_release=release, eol_date, latest_version
-```
+| What Defender stores (`SoftwareName`) | endoflife token | Note |
+| --- | --- | --- |
+| `firefox`, `firefox_for_mac` | `firefox` | `_for_mac` suffix is stripped |
+| `firefox_esr`, `mysql_router_8.0` | `firefox`, `mysql` | matched by `token_` prefix |
+| `acrobat_reader_dc_(x64)`, `blender_(user)` | `acrobat`, `blender` | `_(x64)` / `_(user)` stripped |
+| `office_16_click-to-run_licensing_component` | `office` | Office sub-components fold to `office` |
+
+Because most products ship many releases (each with its own EOL date), matching on
+**name alone is not enough** — it would flag every version as EOL. QUERY B also maps the
+installed `SoftwareVersion` to the right endoflife release:
+
+- **Generic** — compare the release to the version's `major` (`firefox 128`, `chrome 128`,
+  `postgresql 16`) or `major.minor` (`mysql 8.0`, `mariadb 10.5`, `libreoffice 24.8`).
+- **Microsoft is special** — `SoftwareVersion` is an internal build, not the year. QUERY B maps
+  the build major to the release: SQL Server `13.x → 2016`, `15.x → 2019`, `16.x → 2022`;
+  Office `15.x → 2013`. **Office `16.x` = 2016/2019/2021/365 at once and cannot be told apart
+  from the build**, so those rows are intentionally left unmatched instead of guessed.
 
 ### 2. Exact match on CPE (most precise)
 When Defender populates `ProductCodeCpe`, match on the CPE prefix instead:

@@ -1,3 +1,17 @@
+// =====================================================================================
+// End-of-Life (EOL) hunting — endoflife.date  ->  Microsoft Defender XDR
+// Data: EOL_Products/eol_products.csv  (built from https://endoflife.date/ v1 API)
+// Two self-contained queries: (A) Operating systems, (B) Applications & databases.
+// Matching is tuned to how Defender actually populates the fields:
+//   DeviceInfo:  OSPlatform / OSVersion / OSVersionInfo
+//   DeviceTvmSoftwareInventory: SoftwareVendor / SoftwareName / SoftwareVersion
+//     - vendor & name are lower-case CPE-style tokens (microsoft, mozilla, oracle...)
+//     - name carries qualifiers: firefox_esr, firefox_for_mac, acrobat_reader_dc_for_mac,
+//       office_16_click-to-run_..., *_(x64), *_(x64_de), *_(user)
+//     - version is often an internal build, not the marketing version
+// =====================================================================================
+// ============================ QUERY A — OPERATING SYSTEMS ============================
+// Devices whose OS reaches end-of-life within the next 180 days.
 let StartDate = now();
 let EndDate = datetime_add('day', 180, StartDate);
 let eol = externaldata(
@@ -78,3 +92,69 @@ DeviceInfo
     EOL_Date = eol_date,
     DaysToEOL
 | sort by DaysToEOL asc
+// ======================= QUERY B — APPLICATIONS & DATABASES (past EOL) ================
+// DeviceTvmSoftwareInventory software whose INSTALLED VERSION is already end-of-life.
+// Name is normalized (strip _for_mac / _(x64) / _(user)) and matched to the vendor token;
+// the version is mapped to the correct endoflife release so only the EOL cycles are flagged.
+let eol = externaldata(
+    category:string,
+    product_id:string,
+    product:string,
+    release:string,
+    release_date:string,
+    eol_date:string,
+    is_eol:string,
+    is_maintained:string,
+    latest_version:string,
+    cpe:string,
+    defender_vendor:string,
+    defender_softwarename:string,
+    aliases:string
+)
+[@"https://raw.githubusercontent.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries/main/EOL_Products/eol_products.csv"]
+with (format="csv", ignoreFirstRecord=true);
+let eol_apps =
+    eol
+    | where category in ("app", "database")
+        and isnotempty(defender_vendor) and isnotempty(defender_softwarename) and isnotempty(eol_date)
+    | extend eolDate = todatetime(eol_date)
+    // normalize the release label to a numeric key: "8.0 (LTS)"->"8.0", "115 (ESR)"->"115",
+    // "2013 SP1"->"2013", "2005 'Yukon' SP4"->"2005", "24.8"->"24.8"
+    | extend rel_clean = replace_regex(tolower(release), @"'[^']*'", "")
+    | extend rel_clean = replace_regex(rel_clean, @"\(esr\)|\(lts\)|for mac|sp[0-9]+|\(w\)|\(e\)|\(ltsc\)|\(ac\)|\(sac\)", "")
+    | extend rel_key = extract(@"([0-9]+(?:\.[0-9]+)?)", 1, rel_clean)
+    | where isnotempty(rel_key);
+DeviceTvmSoftwareInventory
+| where isnotempty(SoftwareVendor) and isnotempty(SoftwareName) and isnotempty(SoftwareVersion)
+| extend v = tolower(SoftwareVendor)
+| extend nname = replace_regex(tolower(SoftwareName), @"_for_mac$|_\(x64[^)]*\)$|_\(x86[^)]*\)$|_\(user\)$", "")
+| extend vmajor = tostring(split(SoftwareVersion, ".")[0])
+| extend vminor = tostring(split(SoftwareVersion, ".")[1])
+| extend vmm = iff(isnotempty(vminor), strcat(vmajor, ".", vminor), vmajor)
+| join kind=inner eol_apps on $left.v == $right.defender_vendor
+// match the Defender name to the endoflife token (exact, or token_ prefix for sub-components)
+| where nname == defender_softwarename or nname startswith strcat(defender_softwarename, "_")
+// Microsoft products report an internal build, not the marketing year -> map build major to year.
+// Office 16.x = 2016/2019/2021/365 and cannot be told apart from the build, so it is left blank.
+| extend ms_year = case(
+    v == "microsoft" and defender_softwarename == "sql_server",
+        case(vmajor == "9", "2005", vmajor == "10", "2008", vmajor == "11", "2012",
+             vmajor == "12", "2014", vmajor == "13", "2016", vmajor == "14", "2017",
+             vmajor == "15", "2019", vmajor == "16", "2022", ""),
+    v == "microsoft" and defender_softwarename == "office",
+        case(vmajor == "12", "2007", vmajor == "14", "2010", vmajor == "15", "2013", ""),
+    "")
+| where rel_key == vmajor or rel_key == vmm or (isnotempty(ms_year) and rel_key == ms_year)
+| where eolDate < now()
+| summarize arg_min(eolDate, product, release, eol_date)
+    by DeviceName, SoftwareVendor, SoftwareName, SoftwareVersion
+| project
+    DeviceName,
+    SoftwareVendor,
+    SoftwareName,
+    SoftwareVersion,
+    Matched = product,
+    EOL_Release = release,
+    EOL_Date = eol_date,
+    DaysPastEOL = datetime_diff('day', now(), todatetime(eol_date))
+| sort by DaysPastEOL desc
