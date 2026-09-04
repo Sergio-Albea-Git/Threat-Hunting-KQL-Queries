@@ -1,0 +1,74 @@
+// =====================================================================================
+// End-of-Life (EOL) hunting — endoflife.date  ->  Microsoft Defender XDR
+// Data: EOL_Products/eol_products.csv (built from https://endoflife.date/ v1 API)
+// Categories: os, database, app.  See README.md for column meanings & caveats.
+// =====================================================================================
+
+// Reusable EOL dataset pulled straight from this repo.
+let eol = externaldata(category:string, product_id:string, product:string, release:string,
+    release_date:string, eol_date:string, is_eol:string, is_maintained:string,
+    latest_version:string, cpe:string, defender_vendor:string, defender_softwarename:string,
+    aliases:string)
+    [@"https://raw.githubusercontent.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries/main/EOL_Products/eol_products.csv"]
+    with (format="csv", ignoreFirstRecord=true);
+
+
+// -------------------------------------------------------------------------------------
+// Query 1 — Applications & databases already past end-of-life (vendor + name match)
+// -------------------------------------------------------------------------------------
+DeviceTvmSoftwareInventory
+| where isnotempty(SoftwareVendor) and isnotempty(SoftwareName)
+| join kind=inner (
+    eol
+    | where isnotempty(defender_vendor) and isnotempty(eol_date) and todatetime(eol_date) < now()
+) on $left.SoftwareVendor == $right.defender_vendor,
+     $left.SoftwareName == $right.defender_softwarename
+| project DeviceName, SoftwareVendor, SoftwareName, SoftwareVersion,
+          eol_release=release, eol_date, latest_version, category
+| sort by eol_date asc
+
+
+// -------------------------------------------------------------------------------------
+// Query 2 — Software going EOL within the next 90 days (early warning)
+// -------------------------------------------------------------------------------------
+DeviceTvmSoftwareInventory
+| where isnotempty(SoftwareVendor) and isnotempty(SoftwareName)
+| join kind=inner (
+    eol
+    | where isnotempty(defender_vendor) and isnotempty(eol_date)
+    | extend eolDate = todatetime(eol_date)
+    | where eolDate between (now() .. now() + 90d)
+) on $left.SoftwareVendor == $right.defender_vendor,
+     $left.SoftwareName == $right.defender_softwarename
+| project DeviceName, SoftwareVendor, SoftwareName, SoftwareVersion, eol_date, latest_version
+| sort by eol_date asc
+
+
+// -------------------------------------------------------------------------------------
+// Query 3 — Most precise: exact match on CPE prefix (vendor:product)
+// -------------------------------------------------------------------------------------
+DeviceTvmSoftwareInventory
+| where isnotempty(ProductCodeCpe) and ProductCodeCpe != "not available"
+| extend cpe_key = strcat(tostring(split(ProductCodeCpe, ":")[3]), ":", tostring(split(ProductCodeCpe, ":")[4]))
+| join kind=inner (
+    eol
+    | where isnotempty(defender_vendor)
+    | extend cpe_key = strcat(defender_vendor, ":", defender_softwarename)
+    | where isnotempty(eol_date) and todatetime(eol_date) < now()
+) on cpe_key
+| project DeviceName, ProductCodeCpe, product, release, eol_date, latest_version
+
+
+// -------------------------------------------------------------------------------------
+// Query 4 — Operating systems past end-of-life (join DeviceInfo on OS)
+// Note: normalize OSPlatform/OSVersion to the eol `os` rows for your fleet.
+// -------------------------------------------------------------------------------------
+DeviceInfo
+| summarize arg_max(Timestamp, OSPlatform, OSVersion) by DeviceId, DeviceName
+| extend os_name = tolower(OSPlatform)
+| join kind=inner (
+    eol
+    | where category == "os" and isnotempty(eol_date) and todatetime(eol_date) < now()
+    | extend os_name = tolower(defender_softwarename)
+) on os_name
+| project DeviceName, OSPlatform, OSVersion, eol_release=release, eol_date, latest_version
