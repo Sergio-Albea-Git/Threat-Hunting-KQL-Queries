@@ -15,7 +15,9 @@ which installed products (and OS versions) are already past end-of-life or appro
 > endoflife.date also has `framework`, `lang`, `service`, `server-app`, `device`, and
 > `standard` — those are intentionally left out until needed.
 
-Ready-to-run queries live in [`eol_products.kql`](./eol_products.kql).
+Ready-to-run queries live in [`eol_products.kql`](./eol_products.kql). Each query there is
+**self-contained** (it declares its own `let eol = externaldata(...)`), so you can copy a
+single block into Advanced Hunting and run it as-is — no shared setup between blocks.
 
 ## What's in the CSV
 
@@ -87,13 +89,37 @@ DeviceTvmSoftwareInventory
 ```
 
 ### 3. Operating systems — join against DeviceInfo
-OS lifecycle is best matched on `OSPlatform` / `OSVersion`:
+Defender represents the OS across `OSPlatform`, `OSVersion` and `OSVersionInfo`, and each
+platform encodes its "release" differently. The `os` rows are matched by building a
+normalized `os_key` on both sides (see `eol_products.kql`, **CASE 4–6**):
+
+| Defender `OSPlatform` | Release comes from | endoflife.date `os` release | Example key |
+| --- | --- | --- | --- |
+| `Windows10` / `Windows11` | `OSVersionInfo` (`22H2`, `24H2`, `1607`) — `OSVersion` is always `10.0` | `10 22H2`, `11 24H2 (W)` (consumer/GA channel) | `win\|11 24H2` |
+| `WindowsServer2019` / `2022` / `2016` | the year in `OSPlatform` | `Windows Server 2022 (LTSC)` | `winsrv\|2022` |
+| `macOS` | major of `OSVersion` (`26.6.2` → `26`) | `macOS 26 (Tahoe)`, `macOS 15 (Sequoia)` | `mac\|26` |
+| `iOS` | major of `OSVersion` (`26.6` → `26`) | `26`, `18` | `ios\|26` |
+| `Android` | major of `OSVersion` (`15.0` → `15`) | `15 'Vanilla Ice Cream'` | `android\|15` |
 
 ```kql
+// abridged — full versions (status / past-EOL / upcoming) are in eol_products.kql
 DeviceInfo
-| summarize arg_max(Timestamp, OSPlatform, OSVersion) by DeviceId, DeviceName
-// then join to the os rows of eol_products.csv on your normalized OS name/version
+| summarize arg_max(Timestamp, OSVersion, OSVersionInfo) by DeviceId, DeviceName, OSPlatform
+| extend os_key = case(
+    OSPlatform startswith "WindowsServer", strcat("winsrv|", extract(@"(\d{4})", 1, OSPlatform)),
+    OSPlatform startswith "Windows",       strcat("win|", extract(@"(\d+)$", 1, OSPlatform), " ", OSVersionInfo),
+    OSPlatform =~ "macOS",                 strcat("mac|", tostring(split(OSVersion, ".")[0])),
+    OSPlatform =~ "iOS",                   strcat("ios|", tostring(split(OSVersion, ".")[0])),
+    OSPlatform =~ "Android",               strcat("android|", tostring(split(OSVersion, ".")[0])),
+    "")
+// | join to the normalized os rows of eol_products.csv on os_key — see CASE 4
 ```
+
+> Windows client rows exist per servicing channel — consumer/GA `(W)`, Enterprise/Education
+> `(E)`, and `LTS`/`IoT`. CASE 4–6 keep the **consumer `(W)`/GA** row as the default; if your
+> fleet is Enterprise or LTSC, drop the `!contains "(E)"` / `LTS` filters to use those dates.
+> Windows Server uses the **LTSC** channel. macOS versions before 11 all report `OSVersion`
+> `10.x`, so they collapse to `mac|10` — irrelevant for a modern fleet but worth knowing.
 
 ## ⚠️ Name-matching caveat
 
