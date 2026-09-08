@@ -208,6 +208,8 @@ domain,liderongrade.duckdns.org,https://cybersecuritynews.com/fake-ccleaner-down
 domain,link-form-unj9.p-sm7rw6ru.workers.dev,https://cybersecuritynews.com/trusted-google-services,Hackers Abuse Trusted Google Services to Hide Credential-Stealing Phishing Attacks,2026-09-07T14:43:24.000Z,2026-09-07T15:38:06.357Z
 domain,ljr.1001gacor.org,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions,2026-08-25T08:20:35.000Z,2026-08-25T08:58:58.774Z
 domain,login.microsofte.live,https://cybersecuritynews.com/24-malicious-npm-packages,24 Malicious npm Packages Abuse Trusted Mirrors to Host ClickFix Phishing Pages,2026-08-26T11:19:57.000Z,2026-08-26T11:57:45.772Z
+domain,management.daengrentacar.com,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
+domain,management.michaelmarcotte.com,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 domain,mandatorynetworkmonitoring.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize-microsoft-teams,Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement,2026-09-01T13:30:02.000Z,2026-09-01T13:50:34.982Z
 domain,mapid.e-wl.com,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 domain,marriage-step-wave-heavy.trycloudflare.com,https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks,"Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks",2026-09-04T13:21:43.000Z,2026-09-04T13:32:21.733Z
@@ -370,6 +372,7 @@ domain,www.appstoore.solutions,https://cybersecuritynews.com/hackerai-malware,HA
 domain,www.caesarjaco.co.id,https://cybersecuritynews.com/hackers-hide-malware-code,Hackers Hide Malware Code Inside English Words to Infect Windows Users,2026-08-20T11:39:53.000Z,2026-08-20T12:02:13.771Z
 domain,www.caprispine.health,https://cybersecuritynews.com/hackerai-malware,HACKERAI Malware Turns GitHub Gists Into a Command-and-Control Channel,2026-08-14T10:21:16.000Z,2026-08-14T10:57:50.842Z
 domain,www.cloudfareintcdn.com,https://cybersecuritynews.com/malicious-website-themes,Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones,2026-09-01T07:58:11.000Z,2026-09-01T08:49:27.764Z
+domain,www.coder-infra.com,https://cybersecuritynews.com/hackers-hijack-coder-registry,Hackers Hijack Coder Registry to Push Malicious Terraform Modules and Steal Cloud Credentials,2026-09-08T08:07:59.000Z,2026-09-08T08:38:06.157Z
 domain,www.dlosdekr1u18msmov51.net,https://cybersecuritynews.com/malicious-website-themes,Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones,2026-09-01T07:58:11.000Z,2026-09-01T08:49:27.764Z
 domain,www.dropbox.com,https://cybersecuritynews.com/fake-minecraft-mod,Fake Minecraft Mod Deploys Myth Stealer RAT to Steal Browser Credentials and Cookies,2026-09-07T10:41:21.000Z,2026-09-07T11:00:57.098Z
 domain,www.ex0x40vmi8qyccxq.net,https://cybersecuritynews.com/malicious-website-themes,Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones,2026-09-01T07:58:11.000Z,2026-09-01T08:49:27.764Z
@@ -926,6 +929,7 @@ ip,104.64.211.22,https://cybersecuritynews.com/china-nexus-hackers,China-Nexus H
 ip,107.170.35.225,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-08-16T10:06:34.545Z
 ip,107.189.18.7,https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp,Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts,2026-08-21T11:31:54.000Z,2026-08-21T11:51:09.531Z
 ip,107.189.26.195:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,107.191.46.14,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,108.187.28.158,https://cybersecuritynews.com/malicious-apache-modules,Malicious Apache Modules Turn Trusted Government Websites Into Stealth Phishing Proxies,2026-09-03T07:47:10.000Z,2026-09-03T09:12:00.967Z
 ip,108.61.216.142:1433,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,108.61.216.142:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -945,8 +949,12 @@ ip,13.37.127.130:443,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,13.38.235.203:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,130.17.1.197,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
 ip,130.193.52.194:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,130.94.113.184,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
+ip,130.94.82.180,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
+ip,130.94.82.230,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,135.125.10.56,https://cybersecuritynews.com/hackers-exploit-ai-infrastructure,"Hackers Exploit AI Infrastructure to Steal API Keys, Gain Persistence and Mine Cryptocurrency",2026-08-27T12:55:39.000Z,2026-08-27T13:04:04.629Z
 ip,135.181.73.138,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T09:50:50.128Z
+ip,136.244.114.85,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,137.74.6.101,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T09:50:50.128Z
 ip,137.74.7.212,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T09:50:50.128Z
 ip,138.124.112.213,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
@@ -1010,6 +1018,7 @@ ip,151.236.16.40:34236,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,151.236.16.40:57144,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,151.236.22.19:3375,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,151.236.22.19:4421,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,152.39.137.60,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,152.42.174.15,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
 ip,152.42.200.25,https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks,"Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks",2026-09-04T13:21:43.000Z,2026-09-04T13:32:21.733Z
 ip,153.75.84.173,https://cybersecuritynews.com/hackers-use-fake-claude,Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware,2026-08-26T12:15:43.000Z,2026-08-26T12:57:57.838Z
@@ -1179,6 +1188,7 @@ ip,196.251.107.171,https://cybersecuritynews.com/russian-hackers-abuse-oauth-wha
 ip,196.251.84.11,https://cybersecuritynews.com/hackers-use-ai-voice-calls,Hackers Use AI Voice Calls and Fake Banking Pages to Bypass MFA and Steal Accounts,2026-08-19T14:50:20.000Z,2026-08-19T15:26:51.644Z
 ip,198.255.70.210,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,199.232.210.172,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
+ip,199.247.10.14,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,20.101.57.9,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
 ip,20.12.23.50,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
 ip,202.146.222.18,https://cybersecuritynews.com/malicious-apache-modules,Malicious Apache Modules Turn Trusted Government Websites Into Stealth Phishing Proxies,2026-09-03T07:47:10.000Z,2026-09-03T09:12:00.967Z
@@ -1192,6 +1202,9 @@ ip,207.148.109.245,https://cybersecuritynews.com/ai-agents-for-real-world-cybera
 ip,207.246.106.162,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,208.123.119.103:7453,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,208.73.200.28:9999,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,208.76.222.214,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
+ip,208.85.18.18,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
+ip,208.85.20.79,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,208.95.112.1,https://cybersecuritynews.com/hackers-hide-agent-tesla,Hackers Hide Agent Tesla JScript Behind Unicode Emojis to Evade Detection,2026-08-21T14:14:20.000Z,2026-08-21T14:51:43.981Z
 ip,209.145.55.189,https://cybersecuritynews.com/new-ai-built-malware-watches,New AI-Built Malware Watches How Security Teams Remove It and Fights Back,2026-08-31T09:25:07.000Z,2026-08-31T10:19:54.062Z
 ip,209.222.98.44,https://cybersecuritynews.com/cl0p-hackers-exploit-ptc,Cl0p Hackers Exploit PTC Windchill Flaw to Steal Passwords and Sensitive Company Data,2026-08-19T05:46:16.000Z,2026-08-19T05:52:00.773Z
@@ -1264,7 +1277,10 @@ ip,38.244.205.244,https://cybersecuritynews.com/hackers-exploit-trueconf-servers
 ip,38.46.219.162,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,38.46.219.163,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,38.46.219.166,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
+ip,38.54.124.58,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
+ip,38.54.124.88,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,38.60.244.141,https://cybersecuritynews.com/china-nexus-hackers,China-Nexus Hackers Disguise Malicious VHD as JPEG to Deploy QUICAgent Backdoor,2026-08-19T15:05:35.000Z,2026-08-19T15:26:51.644Z
+ip,38.60.250.157,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,40.69.42.241,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
 ip,43.162.217.10,https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks,"Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks",2026-09-04T13:21:43.000Z,2026-09-04T13:32:21.733Z
 ip,43.198.248.193,https://cybersecuritynews.com/malicious-apache-modules,Malicious Apache Modules Turn Trusted Government Websites Into Stealth Phishing Proxies,2026-09-03T07:47:10.000Z,2026-09-03T09:12:00.967Z
@@ -1305,6 +1321,8 @@ ip,45.158.196.184,https://cybersecuritynews.com/c2looper-updates,C2Looper Update
 ip,45.158.196.23,https://cybersecuritynews.com/c2looper-updates,C2Looper Updates Itself Through OneDrive DLL Sideloading to Evade Detection,2026-08-18T12:47:11.000Z,2026-08-18T13:29:13.960Z
 ip,45.192.12.34,https://cybersecuritynews.com/octagon-steal-sms-one-time-codes,Octagon Can Steal SMS One-Time Codes During Banking and Crypto Account Takeovers,2026-08-18T13:21:28.000Z,2026-08-18T13:29:13.960Z
 ip,45.227.253.59:3111,https://www.ransomware.live/group/cry0,Ransomware.live - cry0,,2026-08-16T10:06:34.545Z
+ip,45.32.147.239,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
+ip,45.32.64.165,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,45.41.187.117:5973,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,45.61.134.36,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-08-16T10:06:34.545Z
 ip,45.61.136.118:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1357,6 +1375,7 @@ ip,62.210.28.199:8443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,62.234.69.114:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,62.60.211.206:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,62.60.237.22,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
+ip,64.176.72.180,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,64.233.181.94,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
 ip,64.52.80.103:3544,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,64.52.80.103:6798,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1368,6 +1387,8 @@ ip,64.95.11.206:443,https://www.ransomware.live/group/bianlian,Ransomware.live -
 ip,64.95.11.206:5060,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,64.95.11.22,https://cybersecuritynews.com/interlock-turns-the-tools,Interlock Turns the Tools Incident Responders Use Into Weapons for Stealing Windows Passwords,2026-08-10T11:32:58.000Z,2026-08-10T16:49:27.570Z
 ip,65.109.70.162,https://cybersecuritynews.com/new-tuktuk-malware,Ransomware Hackers Use New TukTuk Malware to Steal Credentials and Disable Security Tools,2026-09-02T14:05:53.000Z,2026-09-02T14:57:44.580Z
+ip,65.20.102.80,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
+ip,65.20.103.58,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,65.21.153.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,65.21.80.170,https://cybersecuritynews.com/clickfix-campaigns-pavinloader,ClickFix Campaigns Deploy PavinLoader With Blockchain-Based C2 and Amatera Stealer,2026-08-25T13:12:40.000Z,2026-08-25T13:13:02.827Z
 ip,66.78.40.205,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-08-16T10:06:34.545Z
@@ -1375,6 +1396,8 @@ ip,69.197.176.26:8443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,69.46.15.169:3389,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,69.46.15.169:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,70.34.202.129:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,70.34.208.46,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
+ip,70.34.244.122,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,72.23.77.35,https://cybersecuritynews.com/akira-uses-windows-safe-mode,Akira Ransomware Uses Windows Safe Mode to Shut Down EDR Before Launching Encryptor,2026-08-13T08:17:04.000Z,2026-08-13T09:09:26.031Z
 ip,75.119.135.83,https://cybersecuritynews.com/ai-powered-anonymouskit-phaas,AI-Powered AnonyMousKIT PhaaS Steals Apple IDs and 2FA Codes to Unlock Stolen iPhones,2026-08-27T06:43:05.000Z,2026-08-27T07:22:26.625Z
 ip,77.110.104.98,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
@@ -1386,11 +1409,13 @@ ip,77.111.101.24,https://cybersecuritynews.com/btmob-fraud-as-a-service-platform
 ip,77.73.67.162:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,77.91.100.175,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 ip,78.128.113.10,https://cybersecuritynews.com/cl0p-hackers-exploit-ptc,Cl0p Hackers Exploit PTC Windchill Flaw to Steal Passwords and Sensitive Company Data,2026-08-19T05:46:16.000Z,2026-08-19T05:52:00.773Z
+ip,78.141.193.59,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,78.153.155.112,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
 ip,79.137.192.38,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
 ip,79.141.160.78,https://www.ransomware.live/group/clop,Ransomware.live - clop,,2026-08-15T15:48:40.219Z
 ip,79.141.162.184:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,8.140.226.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,80.240.27.55,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,80.71.224.30,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
 ip,80.92.204.33,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
 ip,80.92.204.47,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
@@ -1458,6 +1483,7 @@ ip,91.208.206.88,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal
 ip,91.219.238.169,https://cybersecuritynews.com/fake-web3-interview,Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT,2026-08-17T07:03:02.000Z,2026-08-17T12:42:34.854Z
 ip,91.236.230.33:6399,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,91.236.230.33:6400,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,91.245.235.208,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,91.245.255.27:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,91.92.240.175,https://cybersecuritynews.com/hackers-abuse-real-chatgpt-links,Hackers Abuse Real ChatGPT Links to Trick Windows Users Into Installing Malware,2026-09-01T12:45:18.000Z,2026-09-01T12:50:21.213Z
 ip,91.92.242.14,https://cybersecuritynews.com/malware-crypter-services,"Malware Crypter Services Sell Windows Defender, EDR and SmartScreen Bypasses to Cybercriminals",2026-08-14T11:11:43.000Z,2026-08-14T12:35:26.642Z
@@ -1484,7 +1510,9 @@ ip,94.198.40.6:20028,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,94.26.106.29,https://cybersecuritynews.com/hackers-target-ai-infrastructure,"Hackers Target AI Infrastructure With RCE, Prompt Injection and API Key Theft",2026-08-28T16:42:35.000Z,2026-08-28T17:44:16.522Z
 ip,95.163.244.138,https://cybersecuritynews.com/fake-chrome-vpn-extensions,737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies,2026-08-12T13:05:25.000Z,2026-08-12T13:05:54.775Z
 ip,95.174.68.199,https://cybersecuritynews.com/iran-linked-hackers,Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels,2026-08-26T13:47:36.000Z,2026-08-26T13:58:09.552Z
+ip,95.179.169.154,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,95.179.233.26:8090,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,95.179.233.79,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,95.214.112.26,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,95.92.242.30,https://cybersecuritynews.com/openclaw-ai-agents,Hackers Weaponize OpenClaw AI Agents to Push Malware and Steal Crypto Wallets,2026-08-20T12:06:52.000Z,2026-08-20T13:02:26.800Z
 ip,96.44.156.220:24467,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
