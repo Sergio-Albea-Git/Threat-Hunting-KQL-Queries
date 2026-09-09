@@ -37,7 +37,6 @@ domain,api.shopfoora.com,https://cybersecuritynews.com/remote-access-trojan,Hack
 domain,api.shuyinla.com,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T08:30:23.381Z
 domain,api.studiotikva.com,https://cybersecuritynews.com/cav3rn-uses-google-apps-script,CAV3RN Uses Google Apps Script as C2 Relay to Hide Malware Traffic Behind Google Infrastructure,2026-08-12T10:05:33.000Z,2026-08-12T10:50:58.074Z
 domain,api.telegram.org,https://cybersecuritynews.com/aeternum-botnet-uses-polygon,Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2,2026-08-14T07:33:42.000Z,2026-08-14T08:12:03.255Z
-domain,api.trycloudflare.com,https://cybersecuritynews.com/claude-code-sessions-spawn,Claude Code Sessions Spawn Reverse Tunnels and LaunchAgent Persistence on macOS,2026-08-10T07:41:56.000Z,2026-08-10T16:49:27.570Z
 domain,api.whatsapp.dev.tadoo.app,https://cybersecuritynews.com/new-phishing-attack,New Phishing Attack Leverage SSL/TLS Certificates to Target High-value Brands Customers Via Whatsapp,2026-08-11T05:52:31.000Z,2026-08-11T06:36:33.220Z
 domain,app-api.lensstory.cc,https://cybersecuritynews.com/hackers-hide-malware-code,Hackers Hide Malware Code Inside English Words to Infect Windows Users,2026-08-20T11:39:53.000Z,2026-08-20T12:02:13.771Z
 domain,app-microsoft-edge.com.cn,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
@@ -294,6 +293,7 @@ domain,sii.11gokil.org,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 6 
 domain,sii.sm188dnsx.top,https://cybersecuritynews.com/fake-gta-6-demo,Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions,2026-08-25T08:20:35.000Z,2026-08-25T08:58:58.774Z
 domain,smtpdm-ap-southeast-1.aliyun.com,https://cybersecuritynews.com/crypto-scammer-uses-claude-code,"Crypto Scammer Uses Claude Code to Process 100,000+ Phone Numbers for Victim Targeting",2026-08-18T12:16:17.000Z,2026-08-18T12:29:03.971Z
 domain,snake.zooparkko.com,https://cybersecuritynews.com/hackers-exploit-owncloud,Hackers Exploit ownCloud and WordPress Flaws to Steal Philippine Nuclear and Naval Data,2026-08-27T13:35:49.000Z,2026-08-27T14:07:36.792Z
+domain,socket.ayakliborsa.net,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
 domain,soft-feather-7807.0x.cloudflare-workers.workers.dev,https://cybersecuritynews.com/malicious-solidity-pro-vs-code-extension,"Malicious Solidity Pro VS Code Extension Steals Crypto Wallets, API Keys and SSH Keys via Telegram",2026-08-10T11:56:27.000Z,2026-08-10T16:49:27.570Z
 domain,software-download-usw1.s3.us-west-1.amazonaws.com,https://cybersecuritynews.com/hackers-pose-as-it-support-microsoft-teams,Hackers Pose as IT Support on Microsoft Teams to Take Remote Control of Windows PCs,2026-09-02T10:00:55.000Z,2026-09-02T10:30:51.284Z
 domain,spy.mwork801.com,https://cybersecuritynews.com/google-themed-credential-phishing,Google-themed Credential Phishing Attempt Delivered Through a Fake 'New Audio MSG' Email,2026-08-12T08:34:05.000Z,2026-08-12T08:50:38.393Z
@@ -603,7 +603,6 @@ filename,/dist/internal/calc-mapping.bin,https://cybersecuritynews.com/malicious
 filename,/dist/math-calc.bin,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T07:08:29.914Z
 filename,/dist/math-core.bin,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T07:08:29.914Z
 filename,/lib/libseconfd.so,https://cybersecuritynews.com/hackers-compromise-cisco-routers,Hackers Compromise Cisco Routers to Spy on Networks and Reach Critical Infrastructure,2026-09-01T07:14:27.000Z,2026-09-01T07:49:15.888Z
-filename,/tmp/mcp_clean_landers.py,https://cybersecuritynews.com/claude-code-sessions-spawn,Claude Code Sessions Spawn Reverse Tunnels and LaunchAgent Persistence on macOS,2026-08-10T07:41:56.000Z,2026-08-10T16:49:27.570Z
 filename,/tmp/osalogging.zip,https://cybersecuritynews.com/fake-claude-install-guide,Hackers Use Fake Claude Install Guide to Deploy MacSync Stealer and Trojanize Crypto Wallet Apps,2026-08-19T10:34:19.000Z,2026-08-19T12:05:38.490Z
 filename,/tmp/trezor-payload.zip,https://cybersecuritynews.com/crypto-scammer-uses-claude-code,"Crypto Scammer Uses Claude Code to Process 100,000+ Phone Numbers for Victim Targeting",2026-08-18T12:16:17.000Z,2026-08-18T12:29:03.971Z
 filename,/usr/lib/locate/.backup_ld.so,https://cybersecuritynews.com/hackers-compromise-cisco-routers,Hackers Compromise Cisco Routers to Spy on Networks and Reach Critical Infrastructure,2026-09-01T07:14:27.000Z,2026-09-01T07:49:15.888Z
@@ -1088,6 +1087,7 @@ ip,172.96.137.106:4567,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,172.96.137.108:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,172.96.137.32:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,172.96.142.186,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
+ip,173.212.244.25,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
 ip,176.113.115.209,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
 ip,176.113.115.97,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
 ip,176.123.1.174,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
@@ -1164,6 +1164,7 @@ ip,185.96.80.54,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal 
 ip,187.127.153.38,https://cybersecuritynews.com/armored-likho-still-toolkit-steals,Armored Likho Still Toolkit Steals Telegram Sessions and Records Victims’ Conversations,2026-08-13T12:39:53.000Z,2026-08-13T13:10:09.302Z
 ip,188.119.66.189,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-08-16T10:06:34.545Z
 ip,188.212.124.178,https://cybersecuritynews.com/armored-likho-still-toolkit-steals,Armored Likho Still Toolkit Steals Telegram Sessions and Records Victims’ Conversations,2026-08-13T12:39:53.000Z,2026-08-13T13:10:09.302Z
+ip,188.245.99.156,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
 ip,189.219.16.249,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
 ip,192.253.229.23,https://cybersecuritynews.com/malicious-apache-modules,Malicious Apache Modules Turn Trusted Government Websites Into Stealth Phishing Proxies,2026-09-03T07:47:10.000Z,2026-09-03T09:12:00.967Z
 ip,192.255.141.13,https://cybersecuritynews.com/vmware-syslog-path-traversal,"VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",2026-08-18T08:02:41.000Z,2026-08-18T08:28:13.933Z
@@ -1183,6 +1184,7 @@ ip,194.213.18.181:16963,https://www.ransomware.live/group/bianlian,Ransomware.li
 ip,194.213.18.181:20290,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,194.213.18.181:49493,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,194.36.188.25:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
+ip,194.48.248.105,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
 ip,194.68.27.93:40812,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,194.68.27.93:53312,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,194.87.239.71,https://cybersecuritynews.com/hackers-exploit-trueconf-servers,Hackers Exploit TrueConf Servers to Push Malware Through Legitimate Video Conference Downloads,2026-08-21T06:21:10.000Z,2026-08-21T06:50:16.331Z
@@ -1200,6 +1202,7 @@ ip,199.232.210.172,https://www.ransomware.live/group/lockbit3,Ransomware.live - 
 ip,199.247.10.14,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T08:38:06.157Z
 ip,20.101.57.9,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
 ip,20.12.23.50,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-08-16T10:06:34.545Z
+ip,20.198.10.42,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
 ip,202.146.222.18,https://cybersecuritynews.com/malicious-apache-modules,Malicious Apache Modules Turn Trusted Government Websites Into Stealth Phishing Proxies,2026-09-03T07:47:10.000Z,2026-09-03T09:12:00.967Z
 ip,202.95.14.237,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 ip,203.161.43.187:53,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
@@ -1228,6 +1231,7 @@ ip,213.145.86.42,https://cybersecuritynews.com/abyssos-rat-rdpwrap,Abyssos RAT I
 ip,213.176.114.6,https://www.ransomware.live/group/incransom,Ransomware.live - incransom,,2026-08-25T08:58:58.774Z
 ip,213.218.160.48,https://cybersecuritynews.com/13-minute-windrelay-malware-attack,13-Minute WindRelay Malware Attack Uses SpyNote RAT and NFC Relay Malware to Drain Victim Accounts,2026-08-12T12:00:34.000Z,2026-08-12T13:05:54.775Z
 ip,213.252.244.123,https://cybersecuritynews.com/armored-likho-still-toolkit-steals,Armored Likho Still Toolkit Steals Telegram Sessions and Records Victims’ Conversations,2026-08-13T12:39:53.000Z,2026-08-13T13:10:09.302Z
+ip,213.6.207.123,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
 ip,216.152.151.204,https://cybersecuritynews.com/cl0p-hackers-exploit-ptc,Cl0p Hackers Exploit PTC Windchill Flaw to Steal Passwords and Sensitive Company Data,2026-08-19T05:46:16.000Z,2026-08-19T05:52:00.773Z
 ip,216.181.107.134:41296,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,216.203.20.36,https://cybersecuritynews.com/interlock-turns-the-tools,Interlock Turns the Tools Incident Responders Use Into Weapons for Stealing Windows Passwords,2026-08-10T11:32:58.000Z,2026-08-10T16:49:27.570Z
@@ -1249,6 +1253,7 @@ ip,23.234.106.242,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Me
 ip,23.234.108.48,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T11:23:15.081Z
 ip,23.234.89.195,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
 ip,23.234.93.112,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
+ip,23.235.223.49,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
 ip,23.236.182.215,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,23.237.196.170,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,23.251.57.59,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
@@ -1271,6 +1276,7 @@ ip,31.57.243.154,https://cybersecuritynews.com/russian-hackers-abuse-oauth-whats
 ip,31.57.35.88,https://cybersecuritynews.com/crypto-scammer-uses-claude-code,"Crypto Scammer Uses Claude Code to Process 100,000+ Phone Numbers for Victim Targeting",2026-08-18T12:16:17.000Z,2026-08-18T12:29:03.971Z
 ip,31.58.209.241,https://cybersecuritynews.com/hackers-exploit-owncloud,Hackers Exploit ownCloud and WordPress Flaws to Steal Philippine Nuclear and Naval Data,2026-08-27T13:35:49.000Z,2026-08-27T14:07:36.792Z
 ip,31.76.7.137,https://cybersecuritynews.com/fake-web3-interview,Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT,2026-08-17T07:03:02.000Z,2026-08-17T12:42:34.854Z
+ip,34.166.99.116,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
 ip,35.212.159.20,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T08:30:23.381Z
 ip,37.1.202.248:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-08-16T10:06:34.545Z
 ip,37.19.21.180,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
@@ -1323,6 +1329,7 @@ ip,45.150.34.77,https://cybersecuritynews.com/octagon-steal-sms-one-time-codes,O
 ip,45.151.139.113,https://cybersecuritynews.com/toxnetv2-linux-botnet,ToxNetV2 Linux Botnet Uses NVIDIA AI to Generate Shell and Remote SSH Attack Actions,2026-08-25T14:30:19.000Z,2026-08-25T17:13:05.211Z
 ip,45.152.198.108,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
 ip,45.153.34.71,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
+ip,45.155.102.89,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
 ip,45.156.87.204,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
 ip,45.156.87.253,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
 ip,45.156.87.69,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-08-16T10:06:34.545Z
@@ -1349,6 +1356,7 @@ ip,46.226.162.68,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal
 ip,46.30.188.13,https://cybersecuritynews.com/hackerai-malware,HACKERAI Malware Turns GitHub Gists Into a Command-and-Control Channel,2026-08-14T10:21:16.000Z,2026-08-14T10:57:50.842Z
 ip,47.239.232.245,https://cybersecuritynews.com/silver-fox-linked-hackers,Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems,2026-09-02T09:28:52.000Z,2026-09-02T09:30:39.533Z
 ip,47.250.208.35,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
+ip,47.250.92.230,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
 ip,47.251.72.239,https://cybersecuritynews.com/ai-token-jacking,AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges,2026-08-14T09:05:35.000Z,2026-08-14T09:12:21.058Z
 ip,47.84.37.113,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
 ip,47.84.51.173,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
@@ -2950,6 +2958,7 @@ session,056645f3ef148be3d6b782581cfd89100b8287d20cb13a9ad02f34982930d36346,https
 session,056885d45a7137be429cbdb59b55c313c4a6776f9c0c23fdb19131bc2baef01436,https://www.ransomware.live/group/bluewindgroup,Ransomware.live - bluewindgroup,,2026-08-16T10:06:34.545Z
 session,057d49830799b1fb3f73d7c6111f67a82322efedd8a04ff08011a38ade05459a02,https://www.ransomware.live/group/nightspire,Ransomware.live - nightspire,,2026-08-13T08:09:15.120Z
 session,05809b2da1d5b1a302f48b5767fd1843d54f3c516f9ab0eb26b544ffa73340292e,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-16T10:06:34.545Z
+session,058d6e873410870bb920e6aebda023f94514f6959c9823a4222265a1adeed69719,https://www.ransomware.live/group/sovcali,Ransomware.live - sovcali,,2026-09-09T07:51:47.126Z
 session,05a6bcfe5d1ebeaf19971cc5217214e6d52200d32fa9d81f9cd2b19a9c82697341,https://www.ransomware.live/group/gunra,Ransomware.live - gunra,,2026-09-05T14:17:10.420Z
 session,05b78a617603489362217dfae7211b397800e212d5a34e4ae989a9671e8dd13d48,https://www.ransomware.live/group/flocker,Ransomware.live - flocker,,2026-08-16T10:06:34.545Z
 session,05babe48a5070de46a39ee4aa025988beefe059dad57babe52ba797b85643f4523,https://www.ransomware.live/group/arkana,Ransomware.live - arkana,,2026-08-16T10:06:34.545Z
@@ -3315,6 +3324,7 @@ sha256,40f6611eacbcf10f6260f91caeb4a2223313f466340f3ea9d47d6e34ee8b889a,https://
 sha256,414b9985f46714f44dd1bd63860d2a48dcfababcfe5c712a4b4f575378127a56,https://cybersecuritynews.com/akira-uses-windows-safe-mode,Akira Ransomware Uses Windows Safe Mode to Shut Down EDR Before Launching Encryptor,2026-08-13T08:17:04.000Z,2026-08-13T09:09:26.031Z
 sha256,41d922a220ac28a4af8cbed3ffff517bfc5087f11c52801a1be0353e22a71fe0,https://cybersecuritynews.com/octagon-steal-sms-one-time-codes,Octagon Can Steal SMS One-Time Codes During Banking and Crypto Account Takeovers,2026-08-18T13:21:28.000Z,2026-08-18T13:29:13.960Z
 sha256,42095fff1452418550440d5adff87a10e6d04a704fedf2b221f83b6a974a0d73,https://cybersecuritynews.com/hackers-hide-malware-code,Hackers Hide Malware Code Inside English Words to Infect Windows Users,2026-08-20T11:39:53.000Z,2026-08-20T12:02:13.771Z
+sha256,420c7850e09b7c2b9e39e2a93e204e3c56bcf08a685ff1daa986e3c348da5d2a,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
 sha256,421111a57b0a4224c052fa4108d90429d579974b5b5111ed2e58516ba09422ca,https://cybersecuritynews.com/kimwolf-v7-uses-chrome-browser,Kimwolf v7 Botnet Uses Chrome Browser Fingerprints to Hide HTTP/2 DDoS Attacks,2026-08-13T10:37:21.000Z,2026-08-13T11:09:48.702Z
 sha256,42620128470e26d473a128f354b77ca2c5fe9e5782e7addc1e3f863dbd0cd9b0,https://cybersecuritynews.com/14-fake-macos-installers,14 Fake macOS Installers Linked to DPRK Campaign Deliver Credential-Stealing RAT,2026-09-04T07:54:34.000Z,2026-09-04T08:31:25.954Z
 sha256,430f12970f8d58f12edccee9019a1aa90fa232c961449bdcc69c8d348a52cf55,https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers,Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks,2026-08-13T12:51:19.000Z,2026-08-13T13:10:09.302Z
