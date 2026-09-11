@@ -6,5 +6,32 @@
     "retention_days": "30",
     "updated": "2026-09-11"
   },
-  "entries": []
+  "entries": [
+    {
+      "id": "mfs-0001",
+      "url": "https://microsoft-advertising-authentification.sgn-1.com/signin/login.html",
+      "domain": "microsoft-advertising-authentification.sgn-1.com",
+      "brand": "Microsoft Advertising / Microsoft account",
+      "technique": "typosquat lookalike FQDN impersonating a Microsoft sign-in page (brand keywords + 'authentification' stuffed into a non-Microsoft host)",
+      "detection": "Alert on any non-microsoft.com host whose FQDN contains 'microsoft' together with 'auth'/'authentification'/'signin'; block *.sgn-1.com and flag /signin/login.html on unknown domains",
+      "source": "OpenPhish (public feed)",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0002",
+      "url": "https://emanuelabsoluciones.com/_/?error=login_required&error_description=AADSTS50058:+A+silent+sign+in+request+was+sent+but+no+user+is+signed+in.+The+cookies+used+to+represent+the+user's+session+were+not+sent+in+the+request+to+Azure+AD.+This+can+happen+if+the+user+is+using+Internet+Explorer+or+Edge",
+      "domain": "emanuelabsoluciones.com",
+      "brand": "Microsoft Entra ID / Azure AD",
+      "technique": "credential-phish on a compromised legitimate domain that replays the genuine AADSTS50058 error string to mimic a real Azure AD silent-auth redirect",
+      "detection": "Hunt proxy/email/URL logs for external (non-login.microsoftonline.com) hosts carrying 'AADSTS50058' or 'error_description=login_required' query strings; these params should only ever appear on login.microsoftonline.com",
+      "source": "OpenPhish (public feed)",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "status": "active"
+    }
+  ]
 }
