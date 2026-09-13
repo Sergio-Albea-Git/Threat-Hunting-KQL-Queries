@@ -669,6 +669,71 @@
       "first_seen": "2026-09-02",
       "last_seen": "2026-09-02",
       "status": "active"
+    },
+    {
+      "id": "mfs-0056",
+      "url": "https://passkeyhelpdesk.com/",
+      "domain": "passkeyhelpdesk.com",
+      "brand": "Microsoft Entra ID",
+      "technique": "IT-help-desk vishing + passkey-enrollment AiTM (O-UNC-066 'Pink')",
+      "detection": "Alert on Entra passkey/FIDO2 registration from unfamiliar device right after inbound support call; watch domains with 'passkey'/'helpdesk'/'sso' tokens",
+      "source": "The Hacker News",
+      "source_url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0057",
+      "url": "https://secure-passkey.com/",
+      "domain": "secure-passkey.com",
+      "brand": "Microsoft Entra ID",
+      "technique": "Passkey-themed AiTM phishing mimicking Microsoft sign-in via SMS lures",
+      "detection": "Monitor for new 'passkey' registrations and add-security-info events; block secure-passkey/setupmypasskey/add-passkey domain family",
+      "source": "The Hacker News",
+      "source_url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0058",
+      "url": "https://setupmypasskey.com/",
+      "domain": "setupmypasskey.com",
+      "brand": "Microsoft 365",
+      "technique": "Passkey-enrollment phishing directing users to counterfeit Microsoft sign-in",
+      "detection": "Correlate SMS-delivered links with sign-ins from residential-proxy ASNs; flag 'setupmypasskey'/'syncmykey' lookalikes",
+      "source": "The Hacker News",
+      "source_url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0059",
+      "url": "https://add-passkey.com/",
+      "domain": "add-passkey.com",
+      "brand": "Microsoft Entra ID",
+      "technique": "Fake passkey-setup portal harvesting Microsoft creds/session",
+      "detection": "Trigger on passkey enrollment immediately following a phishing-domain visit; blocklist 'add-passkey'/'portalsetuphub' family",
+      "source": "The Hacker News",
+      "source_url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0060",
+      "url": "https://portalsetuphub.com/",
+      "domain": "portalsetuphub.com",
+      "brand": "Microsoft 365",
+      "technique": "Counterfeit Microsoft portal-setup page in passkey/SSO vishing campaign",
+      "detection": "Hunt 'portalsetup'/'portalhub' newly-registered domains proxying to Microsoft login; review new device+passkey binds in Entra audit logs",
+      "source": "The Hacker News",
+      "source_url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "status": "active"
     }
   ]
 }
