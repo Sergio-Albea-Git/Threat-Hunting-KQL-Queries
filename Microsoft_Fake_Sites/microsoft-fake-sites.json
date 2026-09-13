@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-09-12"
+    "updated": "2026-09-13"
   },
   "entries": [
     {
@@ -239,6 +239,97 @@
       "source_url": "https://github.com/SecurityTechie/Indicators-of-Compromise-IOC-/blob/master/Phishing%20Domains",
       "first_seen": "2026-09-12",
       "last_seen": "2026-09-12",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0019",
+      "url": "https://notifications.microsoft-ssl.com",
+      "domain": "notifications.microsoft-ssl.com",
+      "brand": "Microsoft 365",
+      "technique": "typosquat credential-harvest domain (\"microsoft-ssl\" impersonation)",
+      "detection": "Alert on newly-registered domains containing 'microsoft' + 'ssl'/'secure' keywords in cert transparency logs",
+      "source": "OpenPhish (via phishunt.io)",
+      "source_url": "https://phishunt.io/source/openphish/",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0020",
+      "url": "http://login-outlook365.yzz.me",
+      "domain": "login-outlook365.yzz.me",
+      "brand": "Microsoft Outlook / Office 365",
+      "technique": "typosquat login page on free subdomain host (yzz.me)",
+      "detection": "Block/flag 'login-outlook365' and Outlook-brand strings on free dynamic-DNS/subdomain hosts",
+      "source": "OpenPhish (via phishunt.io)",
+      "source_url": "https://phishunt.io/source/openphish/",
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0021",
+      "url": "https://grupoimpaktu.ao/quotesss/onedrive-verify-obf.html",
+      "domain": "grupoimpaktu.ao",
+      "brand": "Microsoft OneDrive",
+      "technique": "compromised legit site hosting obfuscated HTML credential page",
+      "detection": "Hunt for '*-obf.html' / '*-verify*.html' under unexpected paths (e.g. /quotesss/) on non-Microsoft domains",
+      "source": "OpenPhish (via phishunt.io)",
+      "source_url": "https://phishunt.io/source/openphish/",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0022",
+      "url": "https://login.authorised-support.com/microsoft365/mfa/",
+      "domain": "login.authorised-support.com",
+      "brand": "Microsoft 365",
+      "technique": "AiTM/MFA-relay lure on 'support'-themed lookalike domain",
+      "detection": "Flag '/microsoft365/mfa/' paths on domains impersonating support/helpdesk brands",
+      "source": "OpenPhish (via phishunt.io)",
+      "source_url": "https://phishunt.io/source/openphish/",
+      "first_seen": "2026-08-30",
+      "last_seen": "2026-08-30",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0024",
+      "url": "http://bmb.adv.br/meetings/microsoft-store.html",
+      "domain": "bmb.adv.br",
+      "brand": "Microsoft",
+      "technique": "compromised Brazilian law-firm site hosting fake 'microsoft-store' page",
+      "detection": "Hunt for 'microsoft-store.html' / Microsoft-brand HTML under /meetings/ on unrelated domains",
+      "source": "OpenPhish (via phishunt.io)",
+      "source_url": "https://phishunt.io/source/openphish/",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0025",
+      "url": "https://microsoftwordob.blogspot.com",
+      "domain": "microsoftwordob.blogspot.com",
+      "brand": "Microsoft Word / Office 365",
+      "technique": "abuse of Blogspot free hosting for brand-impersonation landing page",
+      "detection": "Flag *.blogspot.com subdomains containing 'microsoft'/'word'/'office' tokens",
+      "source": "OpenPhish (via phishunt.io)",
+      "source_url": "https://phishunt.io/source/openphish/",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0026",
+      "url": "https://microsoft0117.vercel.app",
+      "domain": "microsoft0117.vercel.app",
+      "brand": "Microsoft 365",
+      "technique": "abuse of Vercel hosting for Microsoft-branded phishing app",
+      "detection": "Alert on *.vercel.app / *.workers.dev subdomains containing 'microsoft' + digits",
+      "source": "OpenPhish (via phishunt.io)",
+      "source_url": "https://phishunt.io/source/openphish/",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
       "status": "active"
     }
   ]

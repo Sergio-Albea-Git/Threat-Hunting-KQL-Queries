@@ -10,9 +10,9 @@ Azure AD / **Entra ID**, Live). It is refreshed **hourly** by an automated track
 web-searches public phishing feeds and vendor reporting, and it keeps a **rolling 30-day**
 window — entries older than that are dropped automatically.
 
-- **Entries:** 18
+- **Entries:** 25
 - **Retention:** rolling 30 days
-- **Last updated:** 2026-09-12
+- **Last updated:** 2026-09-13
 - **Maintained by:** PAI Microsoft Fake Sites Tracker (hourly) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
 
 ## Sites
@@ -37,6 +37,13 @@ window — entries older than that are dropped automatically.
 | mfs-0016 | Office 365 | Voicemail ('voicemail365') themed Office 365 phishing on Google App Engine | 2026-09-12 | SecurityTechie IOC repo |
 | mfs-0017 | Office 365 | Fake 'Office 365 portal verification' page on App Engine | 2026-09-12 | SecurityTechie IOC repo |
 | mfs-0018 | Office 365 | Free-TLD (.ga) random-string domain hosting 'Office-BG' login.php credential harvester | 2026-09-12 | SecurityTechie IOC repo |
+| mfs-0019 | Microsoft 365 | typosquat credential-harvest domain ("microsoft-ssl" impersonation) | 2026-09-04 | OpenPhish (via phishunt.io) |
+| mfs-0020 | Microsoft Outlook / Office 365 | typosquat login page on free subdomain host (yzz.me) | 2026-09-09 | OpenPhish (via phishunt.io) |
+| mfs-0021 | Microsoft OneDrive | compromised legit site hosting obfuscated HTML credential page | 2026-09-02 | OpenPhish (via phishunt.io) |
+| mfs-0022 | Microsoft 365 | AiTM/MFA-relay lure on 'support'-themed lookalike domain | 2026-08-30 | OpenPhish (via phishunt.io) |
+| mfs-0024 | Microsoft | compromised Brazilian law-firm site hosting fake 'microsoft-store' page | 2026-09-02 | OpenPhish (via phishunt.io) |
+| mfs-0025 | Microsoft Word / Office 365 | abuse of Blogspot free hosting for brand-impersonation landing page | 2026-09-01 | OpenPhish (via phishunt.io) |
+| mfs-0026 | Microsoft 365 | abuse of Vercel hosting for Microsoft-branded phishing app | 2026-08-28 | OpenPhish (via phishunt.io) |
 
 ### mfs-0001 — Microsoft Advertising / Microsoft account
 
@@ -272,11 +279,102 @@ https://loginblxxslingfbvfgh600ohjm.ga/veakermt/Office-BG/login.php
 - **Status:** active
 - **First seen:** 2026-09-12
 
+### mfs-0019 — Microsoft 365
+
+```text
+https://notifications.microsoft-ssl.com
+```
+
+- **Domain:** `notifications.microsoft-ssl.com`
+- **Technique:** typosquat credential-harvest domain ("microsoft-ssl" impersonation)
+- **Detection:** Alert on newly-registered domains containing 'microsoft' + 'ssl'/'secure' keywords in cert transparency logs
+- **Source:** OpenPhish (via phishunt.io) — https://phishunt.io/source/openphish/
+- **Status:** active
+- **First seen:** 2026-09-04
+
+### mfs-0020 — Microsoft Outlook / Office 365
+
+```text
+http://login-outlook365.yzz.me
+```
+
+- **Domain:** `login-outlook365.yzz.me`
+- **Technique:** typosquat login page on free subdomain host (yzz.me)
+- **Detection:** Block/flag 'login-outlook365' and Outlook-brand strings on free dynamic-DNS/subdomain hosts
+- **Source:** OpenPhish (via phishunt.io) — https://phishunt.io/source/openphish/
+- **Status:** active
+- **First seen:** 2026-09-09
+
+### mfs-0021 — Microsoft OneDrive
+
+```text
+https://grupoimpaktu.ao/quotesss/onedrive-verify-obf.html
+```
+
+- **Domain:** `grupoimpaktu.ao`
+- **Technique:** compromised legit site hosting obfuscated HTML credential page
+- **Detection:** Hunt for '*-obf.html' / '*-verify*.html' under unexpected paths (e.g. /quotesss/) on non-Microsoft domains
+- **Source:** OpenPhish (via phishunt.io) — https://phishunt.io/source/openphish/
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0022 — Microsoft 365
+
+```text
+https://login.authorised-support.com/microsoft365/mfa/
+```
+
+- **Domain:** `login.authorised-support.com`
+- **Technique:** AiTM/MFA-relay lure on 'support'-themed lookalike domain
+- **Detection:** Flag '/microsoft365/mfa/' paths on domains impersonating support/helpdesk brands
+- **Source:** OpenPhish (via phishunt.io) — https://phishunt.io/source/openphish/
+- **Status:** active
+- **First seen:** 2026-08-30
+
+### mfs-0024 — Microsoft
+
+```text
+http://bmb.adv.br/meetings/microsoft-store.html
+```
+
+- **Domain:** `bmb.adv.br`
+- **Technique:** compromised Brazilian law-firm site hosting fake 'microsoft-store' page
+- **Detection:** Hunt for 'microsoft-store.html' / Microsoft-brand HTML under /meetings/ on unrelated domains
+- **Source:** OpenPhish (via phishunt.io) — https://phishunt.io/source/openphish/
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0025 — Microsoft Word / Office 365
+
+```text
+https://microsoftwordob.blogspot.com
+```
+
+- **Domain:** `microsoftwordob.blogspot.com`
+- **Technique:** abuse of Blogspot free hosting for brand-impersonation landing page
+- **Detection:** Flag *.blogspot.com subdomains containing 'microsoft'/'word'/'office' tokens
+- **Source:** OpenPhish (via phishunt.io) — https://phishunt.io/source/openphish/
+- **Status:** active
+- **First seen:** 2026-09-01
+
+### mfs-0026 — Microsoft 365
+
+```text
+https://microsoft0117.vercel.app
+```
+
+- **Domain:** `microsoft0117.vercel.app`
+- **Technique:** abuse of Vercel hosting for Microsoft-branded phishing app
+- **Detection:** Alert on *.vercel.app / *.workers.dev subdomains containing 'microsoft' + digits
+- **Source:** OpenPhish (via phishunt.io) — https://phishunt.io/source/openphish/
+- **Status:** active
+- **First seen:** 2026-08-28
+
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
 ```kusto
 // Network/proxy hits to catalogued fake Microsoft sign-in hosts
-let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga"]);
+let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app"]);
 DeviceNetworkEvents
 | where RemoteUrl has_any (FakeMsHosts) or RemoteDomain in~ (FakeMsHosts)
 | project Timestamp, DeviceName, InitiatingProcessAccountUpn, RemoteUrl, RemoteIP
