@@ -734,6 +734,84 @@
       "first_seen": "2026-09-11",
       "last_seen": "2026-09-11",
       "status": "active"
+    },
+    {
+      "id": "mfs-0067",
+      "url": "https://office365mailsecurity.com",
+      "domain": "office365mailsecurity.com",
+      "brand": "Microsoft 365 / Outlook",
+      "technique": "AiTM first-stage lure injecting script onto proxied Microsoft login",
+      "detection": "Block brand-keyword combos ('office365'+'mailsecurity'); hunt pages that inject JS at end of a genuine Microsoft login DOM",
+      "source": "Datadog Security Labs",
+      "source_url": "https://securitylabs.datadoghq.com/articles/investigating-an-aitm-phishing-campaign-m365-okta/",
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0068",
+      "url": "https://odahlzr5lm.reliabilityinoperations.de",
+      "domain": "odahlzr5lm.reliabilityinoperations.de",
+      "brand": "Microsoft OneDrive",
+      "technique": "fake OneDrive document portal harvesting M365 creds (Google/Cloudflare infra abuse)",
+      "detection": "Random 10-char subdomain on unrelated .de apex serving OneDrive-branded login; check for interstitial CAPTCHA gate",
+      "source": "GBHackers",
+      "source_url": "https://gbhackers.com/global-phishing-campaign/",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0069",
+      "url": "https://cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu",
+      "domain": "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu",
+      "brand": "Microsoft 365",
+      "technique": "M365 credential harvester behind interstitial gate (.vu abuse)",
+      "detection": "Long company-name subdomains on .vu apexes; block *.rydezyhrsysteminc.vu and hunt interstitial 'verify' gates before login",
+      "source": "GBHackers",
+      "source_url": "https://gbhackers.com/global-phishing-campaign/",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0070",
+      "url": "https://crsons.net/wp-includes/js/tinymce/",
+      "domain": "crsons.net",
+      "brand": "Microsoft Teams / 365",
+      "technique": "compromised WordPress site hiding M365/Teams phishing kit in legit dirs",
+      "detection": "Alert on login pages served from /wp-includes/js/tinymce/ paths on compromised WP sites",
+      "source": "GBHackers",
+      "source_url": "https://gbhackers.com/hackers-abuse-trusted-websites-in-new-attacks/",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0071",
+      "url": "https://afghantarin.com/afghantarin/admin/waitme/",
+      "domain": "afghantarin.com",
+      "brand": "Microsoft Teams / 365",
+      "technique": "compromised-site phishing kit in nested admin path",
+      "detection": "Hunt 'waitme'/loader interstitials under /admin/ paths on compromised sites chaining to Microsoft login",
+      "source": "GBHackers",
+      "source_url": "https://gbhackers.com/hackers-abuse-trusted-websites-in-new-attacks/",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0072",
+      "url": "https://cabinetzeukeng.net/config/.bin/voicemail",
+      "domain": "cabinetzeukeng.net",
+      "brand": "Microsoft 365 / Outlook",
+      "technique": "voicemail-lure phishing kit hidden in /config/.bin/ backend dir",
+      "detection": "Flag 'voicemail' pages under dot-prefixed backend dirs (/.bin/, /config/) that post creds to non-Microsoft hosts",
+      "source": "GBHackers",
+      "source_url": "https://gbhackers.com/hackers-abuse-trusted-websites-in-new-attacks/",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "active"
     }
   ]
 }

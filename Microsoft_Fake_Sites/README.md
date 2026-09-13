@@ -10,7 +10,7 @@ Azure AD / **Entra ID**, Live). It is refreshed **hourly** by an automated track
 web-searches public phishing feeds and vendor reporting, and it keeps a **rolling 30-day**
 window — entries older than that are dropped automatically.
 
-- **Entries:** 56
+- **Entries:** 62
 - **Retention:** rolling 30 days
 - **Last updated:** 2026-09-13
 - **Maintained by:** PAI Microsoft Fake Sites Tracker (hourly) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
@@ -75,6 +75,12 @@ window — entries older than that are dropped automatically.
 | mfs-0058 | Microsoft 365 | Passkey-enrollment phishing directing users to counterfeit Microsoft sign-in | 2026-09-11 | The Hacker News |
 | mfs-0059 | Microsoft Entra ID | Fake passkey-setup portal harvesting Microsoft creds/session | 2026-09-11 | The Hacker News |
 | mfs-0060 | Microsoft 365 | Counterfeit Microsoft portal-setup page in passkey/SSO vishing campaign | 2026-09-11 | The Hacker News |
+| mfs-0067 | Microsoft 365 / Outlook | AiTM first-stage lure injecting script onto proxied Microsoft login | 2026-08-15 | Datadog Security Labs |
+| mfs-0068 | Microsoft OneDrive | fake OneDrive document portal harvesting M365 creds (Google/Cloudflare infra abuse) | 2026-09-01 | GBHackers |
+| mfs-0069 | Microsoft 365 | M365 credential harvester behind interstitial gate (.vu abuse) | 2026-09-01 | GBHackers |
+| mfs-0070 | Microsoft Teams / 365 | compromised WordPress site hiding M365/Teams phishing kit in legit dirs | 2026-09-01 | GBHackers |
+| mfs-0071 | Microsoft Teams / 365 | compromised-site phishing kit in nested admin path | 2026-09-01 | GBHackers |
+| mfs-0072 | Microsoft 365 / Outlook | voicemail-lure phishing kit hidden in /config/.bin/ backend dir | 2026-09-01 | GBHackers |
 
 ### mfs-0001 — Microsoft Advertising / Microsoft account
 
@@ -804,11 +810,89 @@ https://portalsetuphub.com/
 - **Status:** active
 - **First seen:** 2026-09-11
 
+### mfs-0067 — Microsoft 365 / Outlook
+
+```text
+https://office365mailsecurity.com
+```
+
+- **Domain:** `office365mailsecurity.com`
+- **Technique:** AiTM first-stage lure injecting script onto proxied Microsoft login
+- **Detection:** Block brand-keyword combos ('office365'+'mailsecurity'); hunt pages that inject JS at end of a genuine Microsoft login DOM
+- **Source:** Datadog Security Labs — https://securitylabs.datadoghq.com/articles/investigating-an-aitm-phishing-campaign-m365-okta/
+- **Status:** active
+- **First seen:** 2026-08-15
+
+### mfs-0068 — Microsoft OneDrive
+
+```text
+https://odahlzr5lm.reliabilityinoperations.de
+```
+
+- **Domain:** `odahlzr5lm.reliabilityinoperations.de`
+- **Technique:** fake OneDrive document portal harvesting M365 creds (Google/Cloudflare infra abuse)
+- **Detection:** Random 10-char subdomain on unrelated .de apex serving OneDrive-branded login; check for interstitial CAPTCHA gate
+- **Source:** GBHackers — https://gbhackers.com/global-phishing-campaign/
+- **Status:** active
+- **First seen:** 2026-09-01
+
+### mfs-0069 — Microsoft 365
+
+```text
+https://cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu
+```
+
+- **Domain:** `cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu`
+- **Technique:** M365 credential harvester behind interstitial gate (.vu abuse)
+- **Detection:** Long company-name subdomains on .vu apexes; block *.rydezyhrsysteminc.vu and hunt interstitial 'verify' gates before login
+- **Source:** GBHackers — https://gbhackers.com/global-phishing-campaign/
+- **Status:** active
+- **First seen:** 2026-09-01
+
+### mfs-0070 — Microsoft Teams / 365
+
+```text
+https://crsons.net/wp-includes/js/tinymce/
+```
+
+- **Domain:** `crsons.net`
+- **Technique:** compromised WordPress site hiding M365/Teams phishing kit in legit dirs
+- **Detection:** Alert on login pages served from /wp-includes/js/tinymce/ paths on compromised WP sites
+- **Source:** GBHackers — https://gbhackers.com/hackers-abuse-trusted-websites-in-new-attacks/
+- **Status:** active
+- **First seen:** 2026-09-01
+
+### mfs-0071 — Microsoft Teams / 365
+
+```text
+https://afghantarin.com/afghantarin/admin/waitme/
+```
+
+- **Domain:** `afghantarin.com`
+- **Technique:** compromised-site phishing kit in nested admin path
+- **Detection:** Hunt 'waitme'/loader interstitials under /admin/ paths on compromised sites chaining to Microsoft login
+- **Source:** GBHackers — https://gbhackers.com/hackers-abuse-trusted-websites-in-new-attacks/
+- **Status:** active
+- **First seen:** 2026-09-01
+
+### mfs-0072 — Microsoft 365 / Outlook
+
+```text
+https://cabinetzeukeng.net/config/.bin/voicemail
+```
+
+- **Domain:** `cabinetzeukeng.net`
+- **Technique:** voicemail-lure phishing kit hidden in /config/.bin/ backend dir
+- **Detection:** Flag 'voicemail' pages under dot-prefixed backend dirs (/.bin/, /config/) that post creds to non-Microsoft hosts
+- **Source:** GBHackers — https://gbhackers.com/hackers-abuse-trusted-websites-in-new-attacks/
+- **Status:** active
+- **First seen:** 2026-09-01
+
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
 ```kusto
 // Network/proxy hits to catalogued fake Microsoft sign-in hosts
-let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu", "passkeyhelpdesk.com", "secure-passkey.com", "setupmypasskey.com", "add-passkey.com", "portalsetuphub.com"]);
+let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu", "passkeyhelpdesk.com", "secure-passkey.com", "setupmypasskey.com", "add-passkey.com", "portalsetuphub.com", "office365mailsecurity.com", "odahlzr5lm.reliabilityinoperations.de", "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu", "crsons.net", "afghantarin.com", "cabinetzeukeng.net"]);
 DeviceNetworkEvents
 | where RemoteUrl has_any (FakeMsHosts) or RemoteDomain in~ (FakeMsHosts)
 | project Timestamp, DeviceName, InitiatingProcessAccountUpn, RemoteUrl, RemoteIP
