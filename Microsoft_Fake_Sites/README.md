@@ -10,7 +10,7 @@ Azure AD / **Entra ID**, Live). It is refreshed **hourly** by an automated track
 web-searches public phishing feeds and vendor reporting, and it keeps a **rolling 30-day**
 window — entries older than that are dropped automatically.
 
-- **Entries:** 25
+- **Entries:** 51
 - **Retention:** rolling 30 days
 - **Last updated:** 2026-09-13
 - **Maintained by:** PAI Microsoft Fake Sites Tracker (hourly) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
@@ -44,6 +44,32 @@ window — entries older than that are dropped automatically.
 | mfs-0024 | Microsoft | compromised Brazilian law-firm site hosting fake 'microsoft-store' page | 2026-09-02 | OpenPhish (via phishunt.io) |
 | mfs-0025 | Microsoft Word / Office 365 | abuse of Blogspot free hosting for brand-impersonation landing page | 2026-09-01 | OpenPhish (via phishunt.io) |
 | mfs-0026 | Microsoft 365 | abuse of Vercel hosting for Microsoft-branded phishing app | 2026-08-28 | OpenPhish (via phishunt.io) |
+| mfs-0027 | Microsoft Outlook | typosquat credential-harvest landing page ('proteccion-outlook2026') | 2026-09-13 | OpenPhish (via phishunt.io) |
+| mfs-0028 | Microsoft 365 | AiTM (Knight Office kit) proxying M365/SharePoint/Teams login for token theft | 2026-09-02 | Huntress |
+| mfs-0029 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for session-token theft | 2026-09-02 | Huntress |
+| mfs-0030 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0031 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0032 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0033 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0034 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0035 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0036 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0037 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0038 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0039 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0040 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0041 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0042 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0043 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0044 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0045 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0046 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0047 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0048 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0049 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0050 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0051 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
+| mfs-0052 | Microsoft 365 | AiTM (Knight Office kit) proxying M365 login for token theft | 2026-09-02 | Huntress |
 
 ### mfs-0001 — Microsoft Advertising / Microsoft account
 
@@ -370,11 +396,349 @@ https://microsoft0117.vercel.app
 - **Status:** active
 - **First seen:** 2026-08-28
 
+### mfs-0027 — Microsoft Outlook
+
+```text
+https://proteccion-outlook2026.iceiy.com/?i=1
+```
+
+- **Domain:** `proteccion-outlook2026.iceiy.com`
+- **Technique:** typosquat credential-harvest landing page ('proteccion-outlook2026')
+- **Detection:** Alert on iceiy.com free-hosting subdomains containing 'outlook'/'office' with ?i= query param
+- **Source:** OpenPhish (via phishunt.io) — https://phishunt.io/source/openphish/
+- **Status:** active
+- **First seen:** 2026-09-13
+
+### mfs-0028 — Microsoft 365
+
+```text
+https://advancedplacyncement.vu/
+```
+
+- **Domain:** `advancedplacyncement.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365/SharePoint/Teams login for token theft
+- **Detection:** Hunt .vu TLD sites using Cloudflare Turnstile sitekey 0x4AAAAAADrkE-VuOnNDfr6W or beaconing to console 104.37.188.94
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0029 — Microsoft 365
+
+```text
+https://amstardmzsmc.vu/
+```
+
+- **Domain:** `amstardmzsmc.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for session-token theft
+- **Detection:** Hunt .vu TLD sites using Turnstile sitekey 0x4AAAAAADrkE-VuOnNDfr6W or Tencent Cloud token-replay IPs (43.x/170.106.x/162.62.x/49.51.x)
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0030 — Microsoft 365
+
+```text
+https://arandasoftzfdware.vu/
+```
+
+- **Domain:** `arandasoftzfdware.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt randomized-string .vu domains with Turnstile sitekey 0x4AAAAAADrkE-VuOnNDfr6W
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0031 — Microsoft 365
+
+```text
+https://avisoretentiunionllc.vu/
+```
+
+- **Domain:** `avisoretentiunionllc.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu domains resolving near Knight Office console 104.37.188.94
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0032 — Microsoft 365
+
+```text
+https://capitalflwxinancialpartners.vu/
+```
+
+- **Domain:** `capitalflwxinancialpartners.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt business-themed .vu domains with embedded Turnstile sitekey 0x4AAAAAADrkE-VuOnNDfr6W
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0033 — Microsoft 365
+
+```text
+https://certififiycationedge.vu/
+```
+
+- **Domain:** `certififiycationedge.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu TLD with doubled/garbled brand words + Turnstile challenge
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0034 — Microsoft 365
+
+```text
+https://connectivnqzityltd.vu/
+```
+
+- **Domain:** `connectivnqzityltd.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu domains with random consonant clusters serving M365 login clones
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0035 — Microsoft 365
+
+```text
+https://crrbcearegroup.vu/
+```
+
+- **Domain:** `crrbcearegroup.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu domains with Turnstile sitekey 0x4AAAAAADrkE-VuOnNDfr6W
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0036 — Microsoft 365
+
+```text
+https://digitaltrafwwrficsystems.vu/
+```
+
+- **Domain:** `digitaltrafwwrficsystems.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu TLD phishing hosts fronted by Cloudflare Turnstile
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0037 — Microsoft 365
+
+```text
+https://exceltecbusinessbwpsolutions.vu/
+```
+
+- **Domain:** `exceltecbusinessbwpsolutions.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt long business-name .vu domains with garbled infixes
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0038 — Microsoft 365
+
+```text
+https://genamewwgdiamarketing.vu/
+```
+
+- **Domain:** `genamewwgdiamarketing.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu domains with Turnstile sitekey 0x4AAAAAADrkE-VuOnNDfr6W
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0039 — Microsoft 365
+
+```text
+https://globaieflsoftinc.vu/
+```
+
+- **Domain:** `globaieflsoftinc.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu TLD with random-string brand impersonation + M365 login clone
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0040 — Microsoft 365
+
+```text
+https://globalmixeucbdmodetechnologyinc.vu/
+```
+
+- **Domain:** `globalmixeucbdmodetechnologyinc.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt overly long .vu domains beaconing to 104.37.188.94
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0041 — Microsoft 365
+
+```text
+https://globalprojectspvtltd.vu/
+```
+
+- **Domain:** `globalprojectspvtltd.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt corporate-suffix (pvtltd/llc/inc) .vu domains serving M365 login
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0042 — Microsoft 365
+
+```text
+https://joinbusinessmanagementconsdjeulting.vu/
+```
+
+- **Domain:** `joinbusinessmanagementconsdjeulting.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu domains with garbled infix + Turnstile challenge page
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0043 — Microsoft 365
+
+```text
+https://kentmanqhfufacturingcompany.vu/
+```
+
+- **Domain:** `kentmanqhfufacturingcompany.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu domains with Turnstile sitekey 0x4AAAAAADrkE-VuOnNDfr6W
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0044 — Microsoft 365
+
+```text
+https://kleepxrnlinecorporation.vu/
+```
+
+- **Domain:** `kleepxrnlinecorporation.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt random-string .vu 'corporation' domains fronted by Turnstile
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0045 — Microsoft 365
+
+```text
+https://knsinternacshtional.vu/
+```
+
+- **Domain:** `knsinternacshtional.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu domains with garbled 'international' spelling + M365 clone
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0046 — Microsoft 365
+
+```text
+https://monttmmlrustcompany.vu/
+```
+
+- **Domain:** `monttmmlrustcompany.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu domains beaconing to Knight Office console 104.37.188.94
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0047 — Microsoft 365
+
+```text
+https://mtprormtductions.vu/
+```
+
+- **Domain:** `mtprormtductions.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt short garbled .vu domains with Turnstile sitekey 0x4AAAAAADrkE-VuOnNDfr6W
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0048 — Microsoft 365
+
+```text
+https://realestatecotblrp.vu/
+```
+
+- **Domain:** `realestatecotblrp.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu domains with random trailing consonants serving M365 login
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0049 — Microsoft 365
+
+```text
+https://siottxgroup.vu/
+```
+
+- **Domain:** `siottxgroup.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt short random-string .vu 'group' domains fronted by Turnstile
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0050 — Microsoft 365
+
+```text
+https://summitcapitaltrapojininggroup.vu/
+```
+
+- **Domain:** `summitcapitaltrapojininggroup.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt long finance-themed .vu domains with garbled infixes
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0051 — Microsoft 365
+
+```text
+https://techcompositnkoes.vu/
+```
+
+- **Domain:** `techcompositnkoes.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt .vu domains with Turnstile sitekey 0x4AAAAAADrkE-VuOnNDfr6W
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
+### mfs-0052 — Microsoft 365
+
+```text
+https://techromixsolutionlonsinc.vu/
+```
+
+- **Domain:** `techromixsolutionlonsinc.vu`
+- **Technique:** AiTM (Knight Office kit) proxying M365 login for token theft
+- **Detection:** Hunt tech/solutions-themed .vu domains with garbled spelling + M365 clone
+- **Source:** Huntress — https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack
+- **Status:** active
+- **First seen:** 2026-09-02
+
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
 ```kusto
 // Network/proxy hits to catalogued fake Microsoft sign-in hosts
-let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app"]);
+let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu"]);
 DeviceNetworkEvents
 | where RemoteUrl has_any (FakeMsHosts) or RemoteDomain in~ (FakeMsHosts)
 | project Timestamp, DeviceName, InitiatingProcessAccountUpn, RemoteUrl, RemoteIP
