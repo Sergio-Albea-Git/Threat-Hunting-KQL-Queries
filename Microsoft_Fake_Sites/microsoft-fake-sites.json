@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-09-13"
+    "updated": "2026-09-14"
   },
   "entries": [
     {
@@ -736,19 +736,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0067",
-      "url": "https://office365mailsecurity.com",
-      "domain": "office365mailsecurity.com",
-      "brand": "Microsoft 365 / Outlook",
-      "technique": "AiTM first-stage lure injecting script onto proxied Microsoft login",
-      "detection": "Block brand-keyword combos ('office365'+'mailsecurity'); hunt pages that inject JS at end of a genuine Microsoft login DOM",
-      "source": "Datadog Security Labs",
-      "source_url": "https://securitylabs.datadoghq.com/articles/investigating-an-aitm-phishing-campaign-m365-okta/",
-      "first_seen": "2026-08-15",
-      "last_seen": "2026-08-15",
-      "status": "active"
-    },
-    {
       "id": "mfs-0068",
       "url": "https://odahlzr5lm.reliabilityinoperations.de",
       "domain": "odahlzr5lm.reliabilityinoperations.de",
@@ -811,6 +798,123 @@
       "source_url": "https://gbhackers.com/hackers-abuse-trusted-websites-in-new-attacks/",
       "first_seen": "2026-09-01",
       "last_seen": "2026-09-01",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0073",
+      "url": "https://assignpasskey.com/",
+      "domain": "assignpasskey.com",
+      "brand": "Microsoft 365",
+      "technique": "AiTM passkey/SSO-themed vishing lure (help-desk impersonation, victim-specific subdomains capture creds + MFA tokens)",
+      "detection": "Hunt newly-registered domains (esp. Nicenic registrar) containing passkey/oskey/sso keywords; alert on company-name subdomains like companyname.assignpasskey.com",
+      "source": "Arctic Wolf (PREY-0058 / Cordial Spider)",
+      "source_url": "https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/",
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0074",
+      "url": "https://mfaregister.com/",
+      "domain": "mfaregister.com",
+      "brand": "Microsoft 365",
+      "technique": "AiTM passkey/MFA re-enrollment lure via IT help-desk vishing",
+      "detection": "Flag auth-themed domains combining 'mfa'+'register'; correlate with token replay from residential-proxy ASNs",
+      "source": "Arctic Wolf (PREY-0058 / Cordial Spider)",
+      "source_url": "https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/",
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0075",
+      "url": "https://nowsso.com/",
+      "domain": "nowsso.com",
+      "brand": "Microsoft 365",
+      "technique": "AiTM SSO-setup lure (Microsoft 365 / Okta-Duo credential + MFA capture)",
+      "detection": "Alert on short SSO-themed domains ('nowsso') resolving to victim-named subdomains; monitor bulk SharePoint/mailbox access post-login",
+      "source": "Arctic Wolf (PREY-0058 / Cordial Spider)",
+      "source_url": "https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/",
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0076",
+      "url": "https://oskeysetup.com/",
+      "domain": "oskeysetup.com",
+      "brand": "Microsoft 365",
+      "technique": "AiTM 'oskey/passkey setup' lure delivered via voice phishing",
+      "detection": "Hunt 'oskey*' / 'setpasskey' domain patterns; watch for MFA token replay from anomalous geo/proxy",
+      "source": "Arctic Wolf (PREY-0058 / Cordial Spider)",
+      "source_url": "https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/",
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0077",
+      "url": "https://passkey-mfa.com/",
+      "domain": "passkey-mfa.com",
+      "brand": "Microsoft 365",
+      "technique": "AiTM passkey+MFA themed credential/token harvester",
+      "detection": "Block/monitor 'passkey-mfa' and sibling passkey/oskey infra; detect impossible-travel token use",
+      "source": "Arctic Wolf (PREY-0058 / Cordial Spider)",
+      "source_url": "https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/",
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0078",
+      "url": "https://integratedsso.com/",
+      "domain": "integratedsso.com",
+      "brand": "Microsoft 365",
+      "technique": "AiTM SSO-integration lure with victim-company subdomains (companyname.integratedsso.com)",
+      "detection": "Alert on 'integratedsso' subdomains embedding tenant/company names; correlate with residential-proxy sign-ins",
+      "source": "Microsoft / Arctic Wolf (PREY-0058)",
+      "source_url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0079",
+      "url": "https://oktasession.com/",
+      "domain": "oktasession.com",
+      "brand": "Microsoft 365 / Okta",
+      "technique": "AiTM SSO-session lure impersonating Microsoft/Okta sign-in during help-desk vishing",
+      "detection": "Hunt 'oktasession'/'*session' auth domains; flag token replay lacking device compliance",
+      "source": "Microsoft (passkey-themed M365 phishing research)",
+      "source_url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0080",
+      "url": "https://keysyncos.com/",
+      "domain": "keysyncos.com",
+      "brand": "Microsoft 365",
+      "technique": "AiTM 'key sync/passkey' themed credential + MFA token capture",
+      "detection": "Block 'keysyncos'/'oskeysync' cluster; monitor newly-registered auth-keyword domains via Nicenic",
+      "source": "Microsoft (passkey-themed M365 phishing research)",
+      "source_url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0081",
+      "url": "https://oskeysync.com/",
+      "domain": "oskeysync.com",
+      "brand": "Microsoft 365",
+      "technique": "AiTM 'oskey sync' passkey-setup lure via IT impersonation",
+      "detection": "Alert on oskey*/keysync* domain family; detect SharePoint discovery + mailbox harvesting after login",
+      "source": "Microsoft (passkey-themed M365 phishing research)",
+      "source_url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
       "status": "active"
     }
   ]

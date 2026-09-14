@@ -10,9 +10,9 @@ Azure AD / **Entra ID**, Live). It is refreshed **hourly** by an automated track
 web-searches public phishing feeds and vendor reporting, and it keeps a **rolling 30-day**
 window — entries older than that are dropped automatically.
 
-- **Entries:** 62
+- **Entries:** 70
 - **Retention:** rolling 30 days
-- **Last updated:** 2026-09-13
+- **Last updated:** 2026-09-14
 - **Maintained by:** PAI Microsoft Fake Sites Tracker (hourly) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
 
 ## Sites
@@ -75,12 +75,20 @@ window — entries older than that are dropped automatically.
 | mfs-0058 | Microsoft 365 | Passkey-enrollment phishing directing users to counterfeit Microsoft sign-in | 2026-09-11 | The Hacker News |
 | mfs-0059 | Microsoft Entra ID | Fake passkey-setup portal harvesting Microsoft creds/session | 2026-09-11 | The Hacker News |
 | mfs-0060 | Microsoft 365 | Counterfeit Microsoft portal-setup page in passkey/SSO vishing campaign | 2026-09-11 | The Hacker News |
-| mfs-0067 | Microsoft 365 / Outlook | AiTM first-stage lure injecting script onto proxied Microsoft login | 2026-08-15 | Datadog Security Labs |
 | mfs-0068 | Microsoft OneDrive | fake OneDrive document portal harvesting M365 creds (Google/Cloudflare infra abuse) | 2026-09-01 | GBHackers |
 | mfs-0069 | Microsoft 365 | M365 credential harvester behind interstitial gate (.vu abuse) | 2026-09-01 | GBHackers |
 | mfs-0070 | Microsoft Teams / 365 | compromised WordPress site hiding M365/Teams phishing kit in legit dirs | 2026-09-01 | GBHackers |
 | mfs-0071 | Microsoft Teams / 365 | compromised-site phishing kit in nested admin path | 2026-09-01 | GBHackers |
 | mfs-0072 | Microsoft 365 / Outlook | voicemail-lure phishing kit hidden in /config/.bin/ backend dir | 2026-09-01 | GBHackers |
+| mfs-0073 | Microsoft 365 | AiTM passkey/SSO-themed vishing lure (help-desk impersonation, victim-specific subdomains capture creds + MFA tokens) | 2026-09-08 | Arctic Wolf (PREY-0058 / Cordial Spider) |
+| mfs-0074 | Microsoft 365 | AiTM passkey/MFA re-enrollment lure via IT help-desk vishing | 2026-09-08 | Arctic Wolf (PREY-0058 / Cordial Spider) |
+| mfs-0075 | Microsoft 365 | AiTM SSO-setup lure (Microsoft 365 / Okta-Duo credential + MFA capture) | 2026-09-08 | Arctic Wolf (PREY-0058 / Cordial Spider) |
+| mfs-0076 | Microsoft 365 | AiTM 'oskey/passkey setup' lure delivered via voice phishing | 2026-09-08 | Arctic Wolf (PREY-0058 / Cordial Spider) |
+| mfs-0077 | Microsoft 365 | AiTM passkey+MFA themed credential/token harvester | 2026-09-08 | Arctic Wolf (PREY-0058 / Cordial Spider) |
+| mfs-0078 | Microsoft 365 | AiTM SSO-integration lure with victim-company subdomains (companyname.integratedsso.com) | 2026-09-09 | Microsoft / Arctic Wolf (PREY-0058) |
+| mfs-0079 | Microsoft 365 / Okta | AiTM SSO-session lure impersonating Microsoft/Okta sign-in during help-desk vishing | 2026-09-09 | Microsoft (passkey-themed M365 phishing research) |
+| mfs-0080 | Microsoft 365 | AiTM 'key sync/passkey' themed credential + MFA token capture | 2026-09-09 | Microsoft (passkey-themed M365 phishing research) |
+| mfs-0081 | Microsoft 365 | AiTM 'oskey sync' passkey-setup lure via IT impersonation | 2026-09-09 | Microsoft (passkey-themed M365 phishing research) |
 
 ### mfs-0001 — Microsoft Advertising / Microsoft account
 
@@ -810,19 +818,6 @@ https://portalsetuphub.com/
 - **Status:** active
 - **First seen:** 2026-09-11
 
-### mfs-0067 — Microsoft 365 / Outlook
-
-```text
-https://office365mailsecurity.com
-```
-
-- **Domain:** `office365mailsecurity.com`
-- **Technique:** AiTM first-stage lure injecting script onto proxied Microsoft login
-- **Detection:** Block brand-keyword combos ('office365'+'mailsecurity'); hunt pages that inject JS at end of a genuine Microsoft login DOM
-- **Source:** Datadog Security Labs — https://securitylabs.datadoghq.com/articles/investigating-an-aitm-phishing-campaign-m365-okta/
-- **Status:** active
-- **First seen:** 2026-08-15
-
 ### mfs-0068 — Microsoft OneDrive
 
 ```text
@@ -888,11 +883,128 @@ https://cabinetzeukeng.net/config/.bin/voicemail
 - **Status:** active
 - **First seen:** 2026-09-01
 
+### mfs-0073 — Microsoft 365
+
+```text
+https://assignpasskey.com/
+```
+
+- **Domain:** `assignpasskey.com`
+- **Technique:** AiTM passkey/SSO-themed vishing lure (help-desk impersonation, victim-specific subdomains capture creds + MFA tokens)
+- **Detection:** Hunt newly-registered domains (esp. Nicenic registrar) containing passkey/oskey/sso keywords; alert on company-name subdomains like companyname.assignpasskey.com
+- **Source:** Arctic Wolf (PREY-0058 / Cordial Spider) — https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/
+- **Status:** active
+- **First seen:** 2026-09-08
+
+### mfs-0074 — Microsoft 365
+
+```text
+https://mfaregister.com/
+```
+
+- **Domain:** `mfaregister.com`
+- **Technique:** AiTM passkey/MFA re-enrollment lure via IT help-desk vishing
+- **Detection:** Flag auth-themed domains combining 'mfa'+'register'; correlate with token replay from residential-proxy ASNs
+- **Source:** Arctic Wolf (PREY-0058 / Cordial Spider) — https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/
+- **Status:** active
+- **First seen:** 2026-09-08
+
+### mfs-0075 — Microsoft 365
+
+```text
+https://nowsso.com/
+```
+
+- **Domain:** `nowsso.com`
+- **Technique:** AiTM SSO-setup lure (Microsoft 365 / Okta-Duo credential + MFA capture)
+- **Detection:** Alert on short SSO-themed domains ('nowsso') resolving to victim-named subdomains; monitor bulk SharePoint/mailbox access post-login
+- **Source:** Arctic Wolf (PREY-0058 / Cordial Spider) — https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/
+- **Status:** active
+- **First seen:** 2026-09-08
+
+### mfs-0076 — Microsoft 365
+
+```text
+https://oskeysetup.com/
+```
+
+- **Domain:** `oskeysetup.com`
+- **Technique:** AiTM 'oskey/passkey setup' lure delivered via voice phishing
+- **Detection:** Hunt 'oskey*' / 'setpasskey' domain patterns; watch for MFA token replay from anomalous geo/proxy
+- **Source:** Arctic Wolf (PREY-0058 / Cordial Spider) — https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/
+- **Status:** active
+- **First seen:** 2026-09-08
+
+### mfs-0077 — Microsoft 365
+
+```text
+https://passkey-mfa.com/
+```
+
+- **Domain:** `passkey-mfa.com`
+- **Technique:** AiTM passkey+MFA themed credential/token harvester
+- **Detection:** Block/monitor 'passkey-mfa' and sibling passkey/oskey infra; detect impossible-travel token use
+- **Source:** Arctic Wolf (PREY-0058 / Cordial Spider) — https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/
+- **Status:** active
+- **First seen:** 2026-09-08
+
+### mfs-0078 — Microsoft 365
+
+```text
+https://integratedsso.com/
+```
+
+- **Domain:** `integratedsso.com`
+- **Technique:** AiTM SSO-integration lure with victim-company subdomains (companyname.integratedsso.com)
+- **Detection:** Alert on 'integratedsso' subdomains embedding tenant/company names; correlate with residential-proxy sign-ins
+- **Source:** Microsoft / Arctic Wolf (PREY-0058) — https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/
+- **Status:** active
+- **First seen:** 2026-09-09
+
+### mfs-0079 — Microsoft 365 / Okta
+
+```text
+https://oktasession.com/
+```
+
+- **Domain:** `oktasession.com`
+- **Technique:** AiTM SSO-session lure impersonating Microsoft/Okta sign-in during help-desk vishing
+- **Detection:** Hunt 'oktasession'/'*session' auth domains; flag token replay lacking device compliance
+- **Source:** Microsoft (passkey-themed M365 phishing research) — https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/
+- **Status:** active
+- **First seen:** 2026-09-09
+
+### mfs-0080 — Microsoft 365
+
+```text
+https://keysyncos.com/
+```
+
+- **Domain:** `keysyncos.com`
+- **Technique:** AiTM 'key sync/passkey' themed credential + MFA token capture
+- **Detection:** Block 'keysyncos'/'oskeysync' cluster; monitor newly-registered auth-keyword domains via Nicenic
+- **Source:** Microsoft (passkey-themed M365 phishing research) — https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/
+- **Status:** active
+- **First seen:** 2026-09-09
+
+### mfs-0081 — Microsoft 365
+
+```text
+https://oskeysync.com/
+```
+
+- **Domain:** `oskeysync.com`
+- **Technique:** AiTM 'oskey sync' passkey-setup lure via IT impersonation
+- **Detection:** Alert on oskey*/keysync* domain family; detect SharePoint discovery + mailbox harvesting after login
+- **Source:** Microsoft (passkey-themed M365 phishing research) — https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/
+- **Status:** active
+- **First seen:** 2026-09-09
+
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
 ```kusto
 // Network/proxy hits to catalogued fake Microsoft sign-in hosts
-let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu", "passkeyhelpdesk.com", "secure-passkey.com", "setupmypasskey.com", "add-passkey.com", "portalsetuphub.com", "office365mailsecurity.com", "odahlzr5lm.reliabilityinoperations.de", "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu", "crsons.net", "afghantarin.com", "cabinetzeukeng.net"]);
+let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu", "passkeyhelpdesk.com", "secure-passkey.com", "setupmypasskey.com", "add-passkey.com", "portalsetuphub.com", "odahlzr5lm.reliabilityinoperations.de", "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu", "crsons.net", "afghantarin.com", "cabinetzeukeng.net", "assignpasskey.com", "mfaregister.com", "nowsso.com", "oskeysetup.com", "passkey-mfa.com", "integratedsso.com", "oktasession.com", "keysyncos.com", "oskeysync.com"]);
 DeviceNetworkEvents
 | where RemoteUrl has_any (FakeMsHosts) or RemoteDomain in~ (FakeMsHosts)
 | project Timestamp, DeviceName, InitiatingProcessAccountUpn, RemoteUrl, RemoteIP
