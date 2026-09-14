@@ -955,6 +955,71 @@
       "first_seen": "2026-09-09",
       "last_seen": "2026-09-09",
       "status": "active"
+    },
+    {
+      "id": "mfs-0122",
+      "url": "https://oskeyregister.com/",
+      "domain": "oskeyregister.com",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "Passkey/SSO-themed credential + session phishing (passkey-themed M365 data-theft wave)",
+      "detection": "Block *oskey* / *key-register* NRDs; alert on M365 sign-ins with new passkey registration from proxy/VPS IPs",
+      "source": "Cyber Security News",
+      "source_url": "https://cybersecuritynews.com/passkey-themed-phishing/",
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0123",
+      "url": "https://syncmykey.com/",
+      "domain": "syncmykey.com",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "Passkey/key-sync lure phishing impersonating M365 sign-in / passkey setup",
+      "detection": "Flag newly-registered *synckey*/*mykey* domains; hunt referrers ending in syncmykey.com hitting login.microsoftonline.com",
+      "source": "Cyber Security News",
+      "source_url": "https://cybersecuritynews.com/passkey-themed-phishing/",
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0124",
+      "url": "https://myconnectkey.com/",
+      "domain": "myconnectkey.com",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "Passkey/SSO connect-key themed AiTM phishing for M365 credentials/session",
+      "detection": "Block *connectkey* NRDs; correlate with anomalous Entra passkey/MFA method additions post-visit",
+      "source": "Cyber Security News",
+      "source_url": "https://cybersecuritynews.com/passkey-themed-phishing/",
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0125",
+      "url": "https://oskeyconnect.com/",
+      "domain": "oskeyconnect.com",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "Passkey-themed phishing (oskey* family) mimicking Microsoft passkey enrollment",
+      "detection": "Add oskey* domain family (oskeysync/oskeysetup/oskeyconnect/oskeyregister) to blocklist; alert on shared TLS cert/hosting reuse",
+      "source": "Cyber Security News",
+      "source_url": "https://cybersecuritynews.com/passkey-themed-phishing/",
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0126",
+      "url": "https://validationsetupac.com/",
+      "domain": "validationsetupac.com",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "Account-validation/setup themed M365 credential phishing (passkey campaign)",
+      "detection": "Flag *validationsetup* / *setupac* NRDs; hunt for these hostnames as HTTP referrers to Microsoft auth endpoints",
+      "source": "Cyber Security News",
+      "source_url": "https://cybersecuritynews.com/passkey-themed-phishing/",
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "status": "active"
     }
   ]
 }
