@@ -916,6 +916,45 @@
       "first_seen": "2026-09-09",
       "last_seen": "2026-09-09",
       "status": "active"
+    },
+    {
+      "id": "mfs-0082",
+      "url": "https://indecodesign.net/accessportal/safe.html",
+      "domain": "indecodesign.net",
+      "brand": "Microsoft 365",
+      "technique": "OAuth device-code phishing via compromised legit domain (staged gate → device auth)",
+      "detection": "Alert on entra sign-in logs showing device-code grant from unusual ASN shortly after user visits *.html pages on aged/compromised domains; hunt referers to microsoft.com/devicelogin",
+      "source": "idacyber1 device-code phishing analysis (GitHub)",
+      "source_url": "https://github.com/idacyber1/devicecode-phishing-analysis/blob/main/ANALYSIS.md",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-10",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0083",
+      "url": "https://jzqs-udkz-yhxx.hutton-aasir-dropons-com-s-account.workers.dev/",
+      "domain": "jzqs-udkz-yhxx.hutton-aasir-dropons-com-s-account.workers.dev",
+      "brand": "Microsoft 365",
+      "technique": "Cloudflare Workers token-harvester backend for device-code phishing (?email= prefill)",
+      "detection": "Block/monitor random-subdomain *.workers.dev with '?email=' query targeting O365 users; flag Workers accounts hosting device-code relays",
+      "source": "idacyber1 device-code phishing analysis (GitHub)",
+      "source_url": "https://github.com/idacyber1/devicecode-phishing-analysis/blob/main/ANALYSIS.md",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-10",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0117",
+      "url": "https://cdn.bloom.io",
+      "domain": "cdn.bloom.io",
+      "brand": "Microsoft 365",
+      "technique": "Blob-URL / browser-in-browser phishing loaded via Microsoft OAuth+Teams redirect chain",
+      "detection": "Flag Teams/OAuth redirect chains fetching external JS from cdn.bloom.io then rendering blob: login pages; alert on blob URL credential forms",
+      "source": "Barracuda / Cybersecurity News",
+      "source_url": "https://cybersecuritynews.com/hackers-use-blob-urls/",
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "status": "active"
     }
   ]
 }
