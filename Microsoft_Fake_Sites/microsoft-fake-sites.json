@@ -1020,6 +1020,58 @@
       "first_seen": "2026-09-09",
       "last_seen": "2026-09-09",
       "status": "active"
+    },
+    {
+      "id": "mfs-0132",
+      "url": "https://oursso.com/",
+      "domain": "oursso.com",
+      "brand": "Microsoft Entra ID",
+      "technique": "vishing/help-desk lure domain using <org>.oursso.com pattern for AiTM sign-in",
+      "detection": "Block *.oursso.com; alert on Entra sign-ins preceded by help-desk phone contact and rogue device registration",
+      "source": "Arctic Wolf via The Hacker News (PREY-0058)",
+      "source_url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0133",
+      "url": "https://passkeydeploy.com/",
+      "domain": "passkeydeploy.com",
+      "brand": "Microsoft Entra ID",
+      "technique": "passkey/MFA-enrollment themed vishing lure (<org>.passkeydeploy.com) driving AiTM",
+      "detection": "Block *.passkeydeploy.com; hunt unexpected Windows Hello for Business / passkey enrollments after inbound support calls",
+      "source": "Arctic Wolf via The Hacker News (PREY-0058)",
+      "source_url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0134",
+      "url": "https://registermymfa.com/",
+      "domain": "registermymfa.com",
+      "brand": "Microsoft Entra ID",
+      "technique": "MFA-registration themed help-desk lure domain for AiTM credential/token capture",
+      "detection": "Block *.registermymfa.com; alert on new MFA method registrations from unfamiliar devices/IPs post-vishing",
+      "source": "Arctic Wolf via The Hacker News (PREY-0058)",
+      "source_url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0135",
+      "url": "https://setpasskey.com/",
+      "domain": "setpasskey.com",
+      "brand": "Microsoft Entra ID",
+      "technique": "passkey-setup themed vishing lure (<org>.setpasskey.com) into AiTM sign-in flow",
+      "detection": "Block *.setpasskey.com; monitor for rogue device join + passkey credential add on Entra tenants",
+      "source": "Arctic Wolf via The Hacker News (PREY-0058)",
+      "source_url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "active"
     }
   ]
 }
