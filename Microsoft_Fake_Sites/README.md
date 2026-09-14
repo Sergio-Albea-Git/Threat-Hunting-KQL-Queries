@@ -10,7 +10,7 @@ Azure AD / **Entra ID**, Live). It is refreshed **hourly** by an automated track
 web-searches public phishing feeds and vendor reporting, and it keeps a **rolling 30-day**
 window — entries older than that are dropped automatically.
 
-- **Entries:** 108
+- **Entries:** 132
 - **Retention:** rolling 30 days
 - **Last updated:** 2026-09-14
 - **Maintained by:** PAI Microsoft Fake Sites Tracker (hourly) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
@@ -127,6 +127,30 @@ window — entries older than that are dropped automatically.
 | mfs-0159 | Microsoft Outlook | typosquat (brand+version-number) sign-in lure | 2026-09-13 | phishunt.io |
 | mfs-0160 | Microsoft Outlook | leetspeak typosquat (zero-for-o) of outlook.com | 2026-09-13 | phishunt.io |
 | mfs-0161 | Microsoft OneDrive | character-repetition typosquat ('onedrivee') | 2026-09-13 | phishunt.io |
+| mfs-0162 | Microsoft 365 | AiTM credential/session proxy (token in /i/<hex> path) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0163 | Microsoft 365 | Typosquat + AiTM (m365-microsoft.com subdomains, /i/ token path) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0164 | Microsoft | Typosquat/subdomain deception (email-microsoft.com) credential harvest | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0165 | Microsoft 365 | AiTM phishing kit (m365-microsoft.com, /i/ token path) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0166 | Microsoft 365 | AiTM phishing kit (m365-microsoft.com, /i/ token path) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0167 | Microsoft 365 | AiTM phishing kit (m365-microsoft.com, /i/ token path) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0168 | Microsoft Live | Free-hosting (iceiy) Spanish 'reactivar cuenta' account-reactivation lure | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0169 | Microsoft | Typosquat on free eu.org subdomain | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0170 | Microsoft | Free-hosting (Jimdo) fake login page | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0171 | Microsoft | Tech-support-themed typosquat (.digital TLD, clickN subdomains) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0172 | Microsoft | Tech-support-themed typosquat (.digital TLD, clickN subdomains) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0173 | Microsoft | Typosquat brand domain (.us) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0174 | Microsoft | Subdomain deception ('microsoft' label on attacker apex) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0175 | Microsoft 365 | AiTM kit on authorised-support.com (base64-like token path) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0176 | Microsoft 365 | Typosquat brand/product domain | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0177 | Office 365 | Typosquat (licensing/support themed brand domain) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0178 | Microsoft 365 | Typosquat (update-themed brand domain) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0179 | Microsoft | Typosquat (www-microsoft hyphen trick, .com.cn) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0180 | Microsoft SharePoint | Typosquat SharePoint brand domain (.fr) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0181 | Microsoft | Typosquat brand domain (.co) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0182 | Microsoft | Subdomain deception ('microsoft' label on vpn-update.org) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0183 | Outlook / Office 365 | Typosquat combining outlook+office365 brand terms | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0184 | Outlook | AiTM (outlook subdomain, /s/<id>/<uuid> tracked victim path) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0185 | Outlook | AiTM (outlook subdomain, same /s/ per-victim token path as webaccess-alert.com) | 2026-09-14 | phishunt.io (OpenPhish) |
 
 ### mfs-0001 — Microsoft Advertising / Microsoft account
 
@@ -1532,11 +1556,323 @@ https://onedrivee.online
 - **Status:** active
 - **First seen:** 2026-09-13
 
+### mfs-0162 — Microsoft 365
+
+```text
+https://office365.internal-alerts.com/i/d5b9af0d256f14c03ab8396a78d3687bf
+```
+
+- **Domain:** `office365.internal-alerts.com`
+- **Technique:** AiTM credential/session proxy (token in /i/<hex> path)
+- **Detection:** Alert on hostnames containing office365/m365 on non-Microsoft TLDs with a /i/<32-hex> URL path
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0163 — Microsoft 365
+
+```text
+http://support.m365-microsoft.com/i/ab041e84e499243eca3e98fb328201632
+```
+
+- **Domain:** `support.m365-microsoft.com`
+- **Technique:** Typosquat + AiTM (m365-microsoft.com subdomains, /i/ token path)
+- **Detection:** Block *.m365-microsoft.com; hunt DNS for 'm365-microsoft' brand-swap domains
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0164 — Microsoft
+
+```text
+https://security.email-microsoft.com/diyc_smavt1av3ltaq
+```
+
+- **Domain:** `security.email-microsoft.com`
+- **Technique:** Typosquat/subdomain deception (email-microsoft.com) credential harvest
+- **Detection:** Flag lookalike apex domains combining 'email'/'security' with 'microsoft'
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0165 — Microsoft 365
+
+```text
+https://programme-hup.m365-microsoft.com/i/d721e212eb3094bfd99c9d047a94edaeb
+```
+
+- **Domain:** `programme-hup.m365-microsoft.com`
+- **Technique:** AiTM phishing kit (m365-microsoft.com, /i/ token path)
+- **Detection:** Block *.m365-microsoft.com; monitor for /i/<hex> AiTM path pattern
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0166 — Microsoft 365
+
+```text
+http://security.m365-microsoft.com/i/d51ee024a6cb3468996ec7c9307051d1d
+```
+
+- **Domain:** `security.m365-microsoft.com`
+- **Technique:** AiTM phishing kit (m365-microsoft.com, /i/ token path)
+- **Detection:** Block *.m365-microsoft.com apex; correlate 'security' subdomain lures
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0167 — Microsoft 365
+
+```text
+http://emailnotifications.m365-microsoft.com/i/a3ce2879ab8b04bd4a96eaabe3f1dae68
+```
+
+- **Domain:** `emailnotifications.m365-microsoft.com`
+- **Technique:** AiTM phishing kit (m365-microsoft.com, /i/ token path)
+- **Detection:** Block *.m365-microsoft.com; alert on 'emailnotifications' subdomain brand abuse
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0168 — Microsoft Live
+
+```text
+https://reactivar-microsoft-live.iceiy.com
+```
+
+- **Domain:** `reactivar-microsoft-live.iceiy.com`
+- **Technique:** Free-hosting (iceiy) Spanish 'reactivar cuenta' account-reactivation lure
+- **Detection:** Block *.iceiy.com sign-in lures; watch Spanish 'reactivar/proteccion' Microsoft themes
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0169 — Microsoft
+
+```text
+https://microsoftjk.eu.org
+```
+
+- **Domain:** `microsoftjk.eu.org`
+- **Technique:** Typosquat on free eu.org subdomain
+- **Detection:** Flag 'microsoft'+random-suffix labels on eu.org and other free registrars
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0170 — Microsoft
+
+```text
+http://microsoft-login-securitylogin.jimdofree.com
+```
+
+- **Domain:** `microsoft-login-securitylogin.jimdofree.com`
+- **Technique:** Free-hosting (Jimdo) fake login page
+- **Detection:** Block *.jimdofree.com hosting 'microsoft-login' keywords
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0171 — Microsoft
+
+```text
+https://click5.microsoftsupportcenter.digital
+```
+
+- **Domain:** `click5.microsoftsupportcenter.digital`
+- **Technique:** Tech-support-themed typosquat (.digital TLD, clickN subdomains)
+- **Detection:** Block microsoftsupportcenter.digital; hunt clickN.* enumerated subdomains
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0172 — Microsoft
+
+```text
+https://click6.microsoftsupportcenter.digital
+```
+
+- **Domain:** `click6.microsoftsupportcenter.digital`
+- **Technique:** Tech-support-themed typosquat (.digital TLD, clickN subdomains)
+- **Detection:** Block microsoftsupportcenter.digital apex to cover all clickN hosts
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0173 — Microsoft
+
+```text
+https://microsoft-se.us
+```
+
+- **Domain:** `microsoft-se.us`
+- **Technique:** Typosquat brand domain (.us)
+- **Detection:** Flag newly-registered 'microsoft-*' apex domains on .us
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0174 — Microsoft
+
+```text
+http://microsoft.updata.net.cn
+```
+
+- **Domain:** `microsoft.updata.net.cn`
+- **Technique:** Subdomain deception ('microsoft' label on attacker apex)
+- **Detection:** Alert when 'microsoft' is a subdomain of an unrelated apex domain
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0175 — Microsoft 365
+
+```text
+https://microsoft.authorised-support.com/new-account/eozafbyj1bjlmgufsilkjjr9kpvsy5kc3uky=3ag==8vvfbsldlv15mz1rxx1fwz09rtfbnsflls09xslw=/6xx5kg1mkrnjeu3rsnc8diftm7r4v1de
+```
+
+- **Domain:** `microsoft.authorised-support.com`
+- **Technique:** AiTM kit on authorised-support.com (base64-like token path)
+- **Detection:** Block *.authorised-support.com; same kit as login.authorised-support.com
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0176 — Microsoft 365
+
+```text
+https://microsoft365businessbasic.com
+```
+
+- **Domain:** `microsoft365businessbasic.com`
+- **Technique:** Typosquat brand/product domain
+- **Detection:** Monitor registrations combining 'microsoft365' with SKU names (businessbasic)
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0177 — Office 365
+
+```text
+http://office365licensingsupport.com
+```
+
+- **Domain:** `office365licensingsupport.com`
+- **Technique:** Typosquat (licensing/support themed brand domain)
+- **Detection:** Flag 'office365'+support/licensing keyword apex domains
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0178 — Microsoft 365
+
+```text
+https://microsoft365updates.com
+```
+
+- **Domain:** `microsoft365updates.com`
+- **Technique:** Typosquat (update-themed brand domain)
+- **Detection:** Monitor 'microsoft365'+updates/alerts apex registrations
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0179 — Microsoft
+
+```text
+https://www-microsoft.com.cn
+```
+
+- **Domain:** `www-microsoft.com.cn`
+- **Technique:** Typosquat (www-microsoft hyphen trick, .com.cn)
+- **Detection:** Flag 'www-microsoft' hyphenated lookalikes across ccTLDs
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0180 — Microsoft SharePoint
+
+```text
+https://microsoft-sharepoint.fr
+```
+
+- **Domain:** `microsoft-sharepoint.fr`
+- **Technique:** Typosquat SharePoint brand domain (.fr)
+- **Detection:** Alert on 'microsoft-sharepoint' apex domains and SharePoint doc-share lures
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0181 — Microsoft
+
+```text
+https://microsoftuk.co
+```
+
+- **Domain:** `microsoftuk.co`
+- **Technique:** Typosquat brand domain (.co)
+- **Detection:** Flag 'microsoft'+region ('uk') apex domains on non-Microsoft TLDs
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0182 — Microsoft
+
+```text
+https://microsoft.vpn-update.org
+```
+
+- **Domain:** `microsoft.vpn-update.org`
+- **Technique:** Subdomain deception ('microsoft' label on vpn-update.org)
+- **Detection:** Alert when 'microsoft' subdomain sits on an unrelated apex
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0183 — Outlook / Office 365
+
+```text
+https://outlook-office365.com
+```
+
+- **Domain:** `outlook-office365.com`
+- **Technique:** Typosquat combining outlook+office365 brand terms
+- **Detection:** Flag apex domains concatenating 'outlook' and 'office365'
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0184 — Outlook
+
+```text
+https://outlook.webaccess-alert.com/s/63bzgfsvbwsfcdx7y9/584dd8/90eab167-7429-489f-99f6-ce86e8d0d81a
+```
+
+- **Domain:** `outlook.webaccess-alert.com`
+- **Technique:** AiTM (outlook subdomain, /s/<id>/<uuid> tracked victim path)
+- **Detection:** Block *.webaccess-alert.com; hunt /s/<slug>/<hex>/<uuid> AiTM link structure
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
+### mfs-0185 — Outlook
+
+```text
+https://outlook.verifytoken.com/s/63bzgfsvbwsfcdx7y9/584dd8/90eab167-7429-489f-99f6-ce86e8d0d81a
+```
+
+- **Domain:** `outlook.verifytoken.com`
+- **Technique:** AiTM (outlook subdomain, same /s/ per-victim token path as webaccess-alert.com)
+- **Detection:** Block *.verifytoken.com; correlate identical /s/ path IDs across sibling AiTM domains
+- **Source:** phishunt.io (OpenPhish) — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-14
+
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
 ```kusto
 // Network/proxy hits to catalogued fake Microsoft sign-in hosts
-let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu", "passkeyhelpdesk.com", "secure-passkey.com", "setupmypasskey.com", "add-passkey.com", "portalsetuphub.com", "odahlzr5lm.reliabilityinoperations.de", "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu", "crsons.net", "afghantarin.com", "cabinetzeukeng.net", "assignpasskey.com", "mfaregister.com", "nowsso.com", "oskeysetup.com", "passkey-mfa.com", "integratedsso.com", "oktasession.com", "keysyncos.com", "oskeysync.com", "indecodesign.net", "jzqs-udkz-yhxx.hutton-aasir-dropons-com-s-account.workers.dev", "cdn.bloom.io", "oskeyregister.com", "syncmykey.com", "myconnectkey.com", "oskeyconnect.com", "validationsetupac.com", "oursso.com", "passkeydeploy.com", "registermymfa.com", "setpasskey.com", "xn--mcrosoftonlne-39bk.com", "microsoftonline-recovery.com", "microsoftonlinecommonoauth.com", "0utl00k.online", "0utl00k.store", "0utl00k.site", "microsoftmultifactor.com", "microsoftauthverify.com", "office365idp.com", "office365mail.com", "microsoft365online.cloud", "https-forms-cloud-microsoft-pages-responsepage-a.link", "onedrive-share.online", "pdf-onedrivesharedfile.work", "microsoftteamsbooking.com", "microsoftteambookingz.top", "microsofteams.live", "outlook365allservers.help", "support-outlook.com", "contactsupport-microsoft.com", "helpsecure-microsoft.com", "microsoft251207.com", "676132-microsoft.com", "outlook10.net", "outlo0k.com", "onedrivee.online"]);
+let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu", "passkeyhelpdesk.com", "secure-passkey.com", "setupmypasskey.com", "add-passkey.com", "portalsetuphub.com", "odahlzr5lm.reliabilityinoperations.de", "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu", "crsons.net", "afghantarin.com", "cabinetzeukeng.net", "assignpasskey.com", "mfaregister.com", "nowsso.com", "oskeysetup.com", "passkey-mfa.com", "integratedsso.com", "oktasession.com", "keysyncos.com", "oskeysync.com", "indecodesign.net", "jzqs-udkz-yhxx.hutton-aasir-dropons-com-s-account.workers.dev", "cdn.bloom.io", "oskeyregister.com", "syncmykey.com", "myconnectkey.com", "oskeyconnect.com", "validationsetupac.com", "oursso.com", "passkeydeploy.com", "registermymfa.com", "setpasskey.com", "xn--mcrosoftonlne-39bk.com", "microsoftonline-recovery.com", "microsoftonlinecommonoauth.com", "0utl00k.online", "0utl00k.store", "0utl00k.site", "microsoftmultifactor.com", "microsoftauthverify.com", "office365idp.com", "office365mail.com", "microsoft365online.cloud", "https-forms-cloud-microsoft-pages-responsepage-a.link", "onedrive-share.online", "pdf-onedrivesharedfile.work", "microsoftteamsbooking.com", "microsoftteambookingz.top", "microsofteams.live", "outlook365allservers.help", "support-outlook.com", "contactsupport-microsoft.com", "helpsecure-microsoft.com", "microsoft251207.com", "676132-microsoft.com", "outlook10.net", "outlo0k.com", "onedrivee.online", "office365.internal-alerts.com", "support.m365-microsoft.com", "security.email-microsoft.com", "programme-hup.m365-microsoft.com", "security.m365-microsoft.com", "emailnotifications.m365-microsoft.com", "reactivar-microsoft-live.iceiy.com", "microsoftjk.eu.org", "microsoft-login-securitylogin.jimdofree.com", "click5.microsoftsupportcenter.digital", "click6.microsoftsupportcenter.digital", "microsoft-se.us", "microsoft.updata.net.cn", "microsoft.authorised-support.com", "microsoft365businessbasic.com", "office365licensingsupport.com", "microsoft365updates.com", "www-microsoft.com.cn", "microsoft-sharepoint.fr", "microsoftuk.co", "microsoft.vpn-update.org", "outlook-office365.com", "outlook.webaccess-alert.com", "outlook.verifytoken.com"]);
 DeviceNetworkEvents
 | where RemoteUrl has_any (FakeMsHosts) or RemoteDomain in~ (FakeMsHosts)
 | project Timestamp, DeviceName, InitiatingProcessAccountUpn, RemoteUrl, RemoteIP
