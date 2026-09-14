@@ -1316,6 +1316,7 @@ ip,77.91.100.175,https://cybersecuritynews.com/malicious-firefox-extensions-2,15
 ip,78.128.113.10,https://cybersecuritynews.com/cl0p-hackers-exploit-ptc,Cl0p Hackers Exploit PTC Windchill Flaw to Steal Passwords and Sensitive Company Data,2026-08-19T05:46:16.000Z,2026-08-19T05:59:57.080Z
 ip,78.141.193.59,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T14:45:25.042Z
 ip,79.137.192.38,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T18:59:13.976Z
+ip,79.141.160.78,https://www.ransomware.live/group/clop,Ransomware.live - clop,,2026-09-14T19:34:39.921Z
 ip,79.141.162.184:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,8.140.226.110:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,80.240.27.55,https://cybersecuritynews.com/bigbear-2-0-evilginx2,BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft,2026-09-08T08:33:39.000Z,2026-09-08T14:45:25.042Z
@@ -3082,6 +3083,7 @@ sha256,3bf53cddf7eb98d9cb94f9aa9f36c211a464e2c1b278f091d6026003050281de,https://
 sha256,3c0f0413ca6326bd0107d532aec4daad7feec663d072f7c992682fb702b64cce,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:08:35.932Z
 sha256,3c1dbc3f56e91cc79f0014850e773a7f12bbfef06680f08f883b2bf12873eccc,https://cybersecuritynews.com/projextor-shows-malware,Projextor Shows How Malware Can Hide Behind Trusted Electron Executables,2026-08-18T15:34:10.000Z,2026-08-18T17:58:55.793Z
 sha256,3c2182cb0bc7528829ef03f1b1745a92bcc47d917eb8870862488f21fdf1a6d6,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-09-13T23:27:40.538Z
+sha256,3c2466d8a4572c26530e6f6bcef01fc1baefb98dbff2c65efaed5599622f51f3,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-09-14T19:34:39.921Z
 sha256,3c7c91cd4dc336db8082e07ab7549556f05d80acbc778afc2dade67c02002f69,https://www.ransomware.live/group/ailock,Ransomware.live - ailock,,2026-09-08T10:03:49.304Z
 sha256,3c92bfc71004340ebc00146ced294bc94f49f6a5e212016ac05e7d10fcb3312c,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-09-08T10:03:49.304Z
 sha256,3c9b2ec423f91642d2d09031d47e50d7ebe77a8b12ec5e393405f85da11a0f6a,https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks,"Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks",2026-09-04T13:21:43.000Z,2026-09-04T14:31:49.817Z
