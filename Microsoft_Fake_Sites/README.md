@@ -10,7 +10,7 @@ Azure AD / **Entra ID**, Live). It is refreshed **hourly** by an automated track
 web-searches public phishing feeds and vendor reporting, and it keeps a **rolling 30-day**
 window — entries older than that are dropped automatically.
 
-- **Entries:** 132
+- **Entries:** 141
 - **Retention:** rolling 30 days
 - **Last updated:** 2026-09-15
 - **Maintained by:** PAI Microsoft Fake Sites Tracker (hourly) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
@@ -151,6 +151,15 @@ window — entries older than that are dropped automatically.
 | mfs-0183 | Outlook / Office 365 | Typosquat combining outlook+office365 brand terms | 2026-09-14 | phishunt.io (OpenPhish) |
 | mfs-0184 | Outlook | AiTM (outlook subdomain, /s/<id>/<uuid> tracked victim path) | 2026-09-14 | phishunt.io (OpenPhish) |
 | mfs-0185 | Outlook | AiTM (outlook subdomain, same /s/ per-victim token path as webaccess-alert.com) | 2026-09-14 | phishunt.io (OpenPhish) |
+| mfs-0186 | Office 365 | homoglyph typosquat (rn→m 'rricrosoft') with tokenized /i/<32-hex> AiTM tracking path | 2026-09-15 | phishunt.io |
+| mfs-0187 | Microsoft 365 | brand-impersonation typosquat domain (licensing/tech-support lure) | 2026-09-15 | phishunt.io |
+| mfs-0188 | OneDrive | subdomain spoof ('onedrive.*' label on unrelated base domain) with long token and #/ SPA fragment | 2026-09-15 | phishunt.io |
+| mfs-0189 | Outlook | brand-keyword typosquat on cheap TLD (.social) | 2026-09-15 | phishunt.io |
+| mfs-0190 | Outlook | lookalike domain embedding 'outlook' brand keyword | 2026-09-15 | phishunt.io |
+| mfs-0191 | Microsoft (Hotmail/Live) | typosquat of Hotmail/Live consumer brand (brand+digits) | 2026-09-15 | phishunt.io |
+| mfs-0192 | OneDrive / Office 365 | compromised legitimate site hosting obfuscated OneDrive 'verify' HTML credential page | 2026-09-15 | OpenPhish |
+| mfs-0193 | Outlook / Exchange (OWA) | lookalike domain serving a fake Outlook Web Access /owa/ login | 2026-09-15 | OpenPhish |
+| mfs-0194 | Office 365 | typosquat ('oficeer') on free app-hosting platform (replit.app) | 2026-09-15 | OpenPhish |
 
 ### mfs-0001 — Microsoft Advertising / Microsoft account
 
@@ -1868,11 +1877,128 @@ https://outlook.verifytoken.com/s/63bzgfsvbwsfcdx7y9/584dd8/90eab167-7429-489f-9
 - **Status:** active
 - **First seen:** 2026-09-14
 
+### mfs-0186 — Office 365
+
+```text
+https://office365.rricrosoft-offices.org/i/df3667320560f4a8a9918ef9f3f4c4383
+```
+
+- **Domain:** `office365.rricrosoft-offices.org`
+- **Technique:** homoglyph typosquat (rn→m 'rricrosoft') with tokenized /i/<32-hex> AiTM tracking path
+- **Detection:** Alert on registrable domains where 'microsoft' is spelled with 'rn' (rricrosoft/rnicrosoft) and any host serving a /i/[a-f0-9]{32} path
+- **Source:** phishunt.io — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0187 — Microsoft 365
+
+```text
+http://microsoft365licensingsupport.com
+```
+
+- **Domain:** `microsoft365licensingsupport.com`
+- **Technique:** brand-impersonation typosquat domain (licensing/tech-support lure)
+- **Detection:** Flag newly-registered domains concatenating 'microsoft365' with support/licensing/billing keywords; not owned by Microsoft ASN
+- **Source:** phishunt.io — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0188 — OneDrive
+
+```text
+https://onedrive.at-us.therelayservice.com/matpwp#/main?type=onedrive&locale=en&token=klb1x-bsfowhfwldwy5w5kex8sqynzrdesvfmnxmjl0tdf7uku8us441ssdv8qxwab7r07sx8d2tcaaxbilw7jrzwi1bt5g3m5qzpqncstyknfwj
+```
+
+- **Domain:** `onedrive.at-us.therelayservice.com`
+- **Technique:** subdomain spoof ('onedrive.*' label on unrelated base domain) with long token and #/ SPA fragment
+- **Detection:** Hunt for host labels 'onedrive.'/'login.' prepended to non-Microsoft registrable domains, plus URLs containing '?type=onedrive' behind a # fragment
+- **Source:** phishunt.io — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0189 — Outlook
+
+```text
+http://outlookmail.social
+```
+
+- **Domain:** `outlookmail.social`
+- **Technique:** brand-keyword typosquat on cheap TLD (.social)
+- **Detection:** Match 'outlook'+'mail' registrable domains on low-cost TLDs (.social/.online/.store)
+- **Source:** phishunt.io — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0190 — Outlook
+
+```text
+https://plugins.sugar-outlook.com
+```
+
+- **Domain:** `plugins.sugar-outlook.com`
+- **Technique:** lookalike domain embedding 'outlook' brand keyword
+- **Detection:** Alert on registrable domains containing 'outlook' not delegated to Microsoft (microsoft.com/office.com) NS
+- **Source:** phishunt.io — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0191 — Microsoft (Hotmail/Live)
+
+```text
+https://hotmail143.net
+```
+
+- **Domain:** `hotmail143.net`
+- **Technique:** typosquat of Hotmail/Live consumer brand (brand+digits)
+- **Detection:** Flag 'hotmail'/'live'/'msn' followed by digits on non-Microsoft domains
+- **Source:** phishunt.io — https://phishunt.io/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0192 — OneDrive / Office 365
+
+```text
+http://www.camisasdecolores.net/Office/onedrive-verify-obf.html
+```
+
+- **Domain:** `www.camisasdecolores.net`
+- **Technique:** compromised legitimate site hosting obfuscated OneDrive 'verify' HTML credential page
+- **Detection:** Hunt for '/Office/' paths and filenames like 'onedrive-verify*.html' on otherwise-benign compromised hosts
+- **Source:** OpenPhish — https://openphish.com/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0193 — Outlook / Exchange (OWA)
+
+```text
+http://www.owaexchange.com/owa/
+```
+
+- **Domain:** `www.owaexchange.com`
+- **Technique:** lookalike domain serving a fake Outlook Web Access /owa/ login
+- **Detection:** Match 'owa'/'exchange' lookalike registrable domains that serve a /owa/ login form
+- **Source:** OpenPhish — https://openphish.com/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0194 — Office 365
+
+```text
+https://office-365-msn--oficeer.replit.app/
+```
+
+- **Domain:** `office-365-msn--oficeer.replit.app`
+- **Technique:** typosquat ('oficeer') on free app-hosting platform (replit.app)
+- **Detection:** Alert on 'office-365'/'msn' keyworded hostnames on replit.app, vercel.app, workers.dev and similar free hosting
+- **Source:** OpenPhish — https://openphish.com/feed.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
 ```kusto
 // Network/proxy hits to catalogued fake Microsoft sign-in hosts
-let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu", "passkeyhelpdesk.com", "secure-passkey.com", "setupmypasskey.com", "add-passkey.com", "portalsetuphub.com", "odahlzr5lm.reliabilityinoperations.de", "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu", "crsons.net", "afghantarin.com", "cabinetzeukeng.net", "assignpasskey.com", "mfaregister.com", "nowsso.com", "oskeysetup.com", "passkey-mfa.com", "integratedsso.com", "oktasession.com", "keysyncos.com", "oskeysync.com", "indecodesign.net", "jzqs-udkz-yhxx.hutton-aasir-dropons-com-s-account.workers.dev", "cdn.bloom.io", "oskeyregister.com", "syncmykey.com", "myconnectkey.com", "oskeyconnect.com", "validationsetupac.com", "oursso.com", "passkeydeploy.com", "registermymfa.com", "setpasskey.com", "xn--mcrosoftonlne-39bk.com", "microsoftonline-recovery.com", "microsoftonlinecommonoauth.com", "0utl00k.online", "0utl00k.store", "0utl00k.site", "microsoftmultifactor.com", "microsoftauthverify.com", "office365idp.com", "office365mail.com", "microsoft365online.cloud", "https-forms-cloud-microsoft-pages-responsepage-a.link", "onedrive-share.online", "pdf-onedrivesharedfile.work", "microsoftteamsbooking.com", "microsoftteambookingz.top", "microsofteams.live", "outlook365allservers.help", "support-outlook.com", "contactsupport-microsoft.com", "helpsecure-microsoft.com", "microsoft251207.com", "676132-microsoft.com", "outlook10.net", "outlo0k.com", "onedrivee.online", "office365.internal-alerts.com", "support.m365-microsoft.com", "security.email-microsoft.com", "programme-hup.m365-microsoft.com", "security.m365-microsoft.com", "emailnotifications.m365-microsoft.com", "reactivar-microsoft-live.iceiy.com", "microsoftjk.eu.org", "microsoft-login-securitylogin.jimdofree.com", "click5.microsoftsupportcenter.digital", "click6.microsoftsupportcenter.digital", "microsoft-se.us", "microsoft.updata.net.cn", "microsoft.authorised-support.com", "microsoft365businessbasic.com", "office365licensingsupport.com", "microsoft365updates.com", "www-microsoft.com.cn", "microsoft-sharepoint.fr", "microsoftuk.co", "microsoft.vpn-update.org", "outlook-office365.com", "outlook.webaccess-alert.com", "outlook.verifytoken.com"]);
+let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu", "passkeyhelpdesk.com", "secure-passkey.com", "setupmypasskey.com", "add-passkey.com", "portalsetuphub.com", "odahlzr5lm.reliabilityinoperations.de", "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu", "crsons.net", "afghantarin.com", "cabinetzeukeng.net", "assignpasskey.com", "mfaregister.com", "nowsso.com", "oskeysetup.com", "passkey-mfa.com", "integratedsso.com", "oktasession.com", "keysyncos.com", "oskeysync.com", "indecodesign.net", "jzqs-udkz-yhxx.hutton-aasir-dropons-com-s-account.workers.dev", "cdn.bloom.io", "oskeyregister.com", "syncmykey.com", "myconnectkey.com", "oskeyconnect.com", "validationsetupac.com", "oursso.com", "passkeydeploy.com", "registermymfa.com", "setpasskey.com", "xn--mcrosoftonlne-39bk.com", "microsoftonline-recovery.com", "microsoftonlinecommonoauth.com", "0utl00k.online", "0utl00k.store", "0utl00k.site", "microsoftmultifactor.com", "microsoftauthverify.com", "office365idp.com", "office365mail.com", "microsoft365online.cloud", "https-forms-cloud-microsoft-pages-responsepage-a.link", "onedrive-share.online", "pdf-onedrivesharedfile.work", "microsoftteamsbooking.com", "microsoftteambookingz.top", "microsofteams.live", "outlook365allservers.help", "support-outlook.com", "contactsupport-microsoft.com", "helpsecure-microsoft.com", "microsoft251207.com", "676132-microsoft.com", "outlook10.net", "outlo0k.com", "onedrivee.online", "office365.internal-alerts.com", "support.m365-microsoft.com", "security.email-microsoft.com", "programme-hup.m365-microsoft.com", "security.m365-microsoft.com", "emailnotifications.m365-microsoft.com", "reactivar-microsoft-live.iceiy.com", "microsoftjk.eu.org", "microsoft-login-securitylogin.jimdofree.com", "click5.microsoftsupportcenter.digital", "click6.microsoftsupportcenter.digital", "microsoft-se.us", "microsoft.updata.net.cn", "microsoft.authorised-support.com", "microsoft365businessbasic.com", "office365licensingsupport.com", "microsoft365updates.com", "www-microsoft.com.cn", "microsoft-sharepoint.fr", "microsoftuk.co", "microsoft.vpn-update.org", "outlook-office365.com", "outlook.webaccess-alert.com", "outlook.verifytoken.com", "office365.rricrosoft-offices.org", "microsoft365licensingsupport.com", "onedrive.at-us.therelayservice.com", "outlookmail.social", "plugins.sugar-outlook.com", "hotmail143.net", "www.camisasdecolores.net", "www.owaexchange.com", "office-365-msn--oficeer.replit.app"]);
 DeviceNetworkEvents
 | where RemoteUrl has_any (FakeMsHosts) or RemoteDomain in~ (FakeMsHosts)
 | project Timestamp, DeviceName, InitiatingProcessAccountUpn, RemoteUrl, RemoteIP
