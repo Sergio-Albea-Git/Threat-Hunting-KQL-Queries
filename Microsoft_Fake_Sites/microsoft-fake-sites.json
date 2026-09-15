@@ -1904,6 +1904,45 @@
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
       "status": "active"
+    },
+    {
+      "id": "mfs-0200",
+      "url": "http://login-microsoftonnline.jimdofree.com",
+      "domain": "login-microsoftonnline.jimdofree.com",
+      "brand": "Microsoft 365",
+      "technique": "typosquat (microsoftonnline) on free Jimdo hosting",
+      "detection": "Alert on *.jimdofree.com / *.jimdosite.com referencing 'microsoft'/'login'; doubled-letter typos of microsoftonline",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0201",
+      "url": "https://office.evergreenfin.ltd/",
+      "domain": "office.evergreenfin.ltd",
+      "brand": "Microsoft Office 365",
+      "technique": "lookalike 'office' subdomain credential-harvest page",
+      "detection": "Flag 'office'/'onelogin' subdomains on unrelated .ltd base domains; newly-registered evergreenfin.ltd",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0202",
+      "url": "https://onelogin.evergreenfin.ltd/",
+      "domain": "onelogin.evergreenfin.ltd",
+      "brand": "Microsoft 365",
+      "technique": "SSO-themed lookalike subdomain on shared phishing infrastructure",
+      "detection": "Pivot on evergreenfin.ltd hosting/cert; correlate sibling 'office.' and 'onelogin.' subdomains serving M365 login kit",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "active"
     }
   ]
 }
