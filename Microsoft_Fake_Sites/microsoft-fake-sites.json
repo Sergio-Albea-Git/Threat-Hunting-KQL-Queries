@@ -1839,6 +1839,71 @@
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
       "status": "active"
+    },
+    {
+      "id": "mfs-0195",
+      "url": "https://login.hotmails.info/",
+      "domain": "login.hotmails.info",
+      "brand": "Microsoft (Outlook/Hotmail)",
+      "technique": "Credential-harvesting fake sign-in that proxies a real Microsoft OAuth authorize flow (client_id 4765445b-32c6-49b0-83e6-1d93765276ca) redirecting to office.com/landingv2 to look legitimate",
+      "detection": "Alert on 'hotmails.info' (and login./www. subdomains) in proxy/DNS logs; hunt for outbound Microsoft OAuth authorize requests where the host is NOT login.microsoftonline.com but redirect_uri=www.office.com",
+      "source": "OpenPhish public feed",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0196",
+      "url": "http://ctia-outlook-2026.s1.yapla.com/en/visitors",
+      "domain": "ctia-outlook-2026.s1.yapla.com",
+      "brand": "Microsoft Outlook / Office 365",
+      "technique": "Outlook-2026-themed credential phishing hosted on abused legitimate SaaS platform (Yapla)",
+      "detection": "Flag *.yapla.com paths containing 'outlook'/'2026' brand lures; monitor Yapla visitor pages referrer-mismatched to Outlook login themes",
+      "source": "phishunt.io / OpenPhish",
+      "source_url": "https://phishunt.io/feed.txt",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0197",
+      "url": "https://servermailprotection-1sfinfomembers.s3.eu-west-1.amazonaws.com/log.html#ssa@microsoft.com",
+      "domain": "servermailprotection-1sfinfomembers.s3.eu-west-1.amazonaws.com",
+      "brand": "Microsoft 365 (webmail)",
+      "technique": "AWS S3-hosted static credential-harvest page (log.html) with victim email pre-seeded in the URL fragment to auto-populate the fake Microsoft login",
+      "detection": "Hunt S3 static-website URLs named 'log.html'/'login.html' with a '#<email>' fragment; block *.s3.*.amazonaws.com pages carrying Microsoft-branded login forms",
+      "source": "TweetFeed / @muha2xmad (X)",
+      "source_url": "https://x.com/muha2xmad/status/2098129930017992837",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-10",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0198",
+      "url": "https://deploypasskey.com/",
+      "domain": "deploypasskey.com",
+      "brand": "Microsoft Entra ID / 365",
+      "technique": "Help-desk social-engineering into rogue passkey/MFA enrollment (O-UNC-066); per-victim subdomains like <company>.deploypasskey.com",
+      "detection": "Alert on newly-registered domains containing 'passkey' with an org-named subdomain; correlate with Entra ID security-info / passkey (FIDO2) registration events from unfamiliar IPs",
+      "source": "PurpleSec (O-UNC-066 passkey campaign)",
+      "source_url": "https://purplesec.org/blog/entra-passkey-hijack-o-unc-066/",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0199",
+      "url": "https://passkeyadd.com/",
+      "domain": "passkeyadd.com",
+      "brand": "Microsoft Entra ID / 365",
+      "technique": "Rogue passkey-enrollment lure (O-UNC-066); tricks victims into adding an attacker-controlled passkey to their Microsoft account",
+      "detection": "Block 'passkey'-themed lookalike domains; monitor Entra ID audit logs for 'Add passkey'/'Register security info' immediately after a suspicious sign-in",
+      "source": "PurpleSec (O-UNC-066 passkey campaign)",
+      "source_url": "https://purplesec.org/blog/entra-passkey-hijack-o-unc-066/",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "active"
     }
   ]
 }
