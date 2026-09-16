@@ -10,7 +10,7 @@ Azure AD / **Entra ID**, Live). It is refreshed **hourly** by an automated track
 web-searches public phishing feeds and vendor reporting, and it keeps a **rolling 30-day**
 window — entries older than that are dropped automatically.
 
-- **Entries:** 155
+- **Entries:** 169
 - **Retention:** rolling 30 days
 - **Last updated:** 2026-09-16
 - **Maintained by:** PAI Microsoft Fake Sites Tracker (hourly) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
@@ -174,6 +174,20 @@ window — entries older than that are dropped automatically.
 | mfs-0206 | Azure AD / Entra ID | AiTM credential-harvest landing spoofing Azure AD error | 2026-09-16 | OpenPhish |
 | mfs-0207 | Microsoft Outlook | Outlook credential phish on dynamic-DNS (duckdns) host | 2026-09-16 | OpenPhish |
 | mfs-0208 | Microsoft Outlook | Outlook credential phish on dynamic-DNS (duckdns) host | 2026-09-16 | OpenPhish |
+| mfs-0209 | Microsoft 365 | AiTM reverse-proxy phishing (Storm-2755 'Payroll Pirates'), reached via idp.* redirector 302 | 2026-08-26 | Arctic Wolf Labs |
+| mfs-0210 | Microsoft 365 | AiTM reverse-proxy phishing proxy (Payroll Pirates) | 2026-08-26 | Arctic Wolf Labs |
+| mfs-0211 | Microsoft 365 | AiTM reverse-proxy phishing proxy (Payroll Pirates) | 2026-08-26 | Arctic Wolf Labs |
+| mfs-0212 | Microsoft Office 365 | Typosquat 'office.' subdomain fronting AiTM proxy (Payroll Pirates) | 2026-08-26 | Arctic Wolf Labs |
+| mfs-0213 | Microsoft Entra ID | Open-redirect/302 redirector ('idp.' subdomain) staging AiTM to ms* proxy | 2026-08-26 | Arctic Wolf Labs |
+| mfs-0214 | Microsoft Entra ID | Open-redirect/302 redirector ('idp.' subdomain) staging AiTM | 2026-08-26 | Arctic Wolf Labs |
+| mfs-0215 | Microsoft Entra ID | Open-redirect/302 redirector ('idp.' subdomain) staging AiTM | 2026-08-26 | Arctic Wolf Labs |
+| mfs-0217 | Microsoft 365 | Browser-in-the-Browser (BitB) device-code phishing ('Evil Token') | 2026-09-01 | Coralogix |
+| mfs-0218 | Microsoft 365 | Browser-in-the-Browser device-code phishing ('Evil Token') | 2026-09-01 | Coralogix |
+| mfs-0219 | Microsoft 365 | Browser-in-the-Browser device-code phishing ('Evil Token') | 2026-09-01 | Coralogix |
+| mfs-0220 | Microsoft Office 365 | Document-lure BitB device-code phishing ('Evil Token') | 2026-09-01 | Coralogix |
+| mfs-0221 | Microsoft Teams | Teams-meeting-lure device-code phishing ('Evil Token') | 2026-09-01 | Coralogix |
+| mfs-0222 | Microsoft 365 | Compromised-host subdomain hosting 'loginmicrosoftonline' phishing (Evil Token) | 2026-09-01 | Coralogix |
+| mfs-0223 | Microsoft 365 | Compromised-host subdomain hosting German-targeted Microsoft login phishing (Evil Token) | 2026-09-01 | Coralogix |
 
 ### mfs-0001 — Microsoft Advertising / Microsoft account
 
@@ -2190,11 +2204,193 @@ http://outlook-test.duckdns.org/
 - **Status:** active
 - **First seen:** 2026-09-16
 
+### mfs-0209 — Microsoft 365
+
+```text
+https://mslogin.milocaroline.com/
+```
+
+- **Domain:** `mslogin.milocaroline.com`
+- **Technique:** AiTM reverse-proxy phishing (Storm-2755 'Payroll Pirates'), reached via idp.* redirector 302
+- **Detection:** Alert on sign-ins whose referring host matches ms(login|online|auth).* on non-Microsoft apex domains; correlate with residential-proxy source IPs
+- **Source:** Arctic Wolf Labs — https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/
+- **Status:** active
+- **First seen:** 2026-08-26
+
+### mfs-0210 — Microsoft 365
+
+```text
+https://msonline.logicalineonline.com/
+```
+
+- **Domain:** `msonline.logicalineonline.com`
+- **Technique:** AiTM reverse-proxy phishing proxy (Payroll Pirates)
+- **Detection:** Block/newly-observed-domain alert on 'msonline.'/'mslogin.'/'msauth.' subdomains on unfamiliar registrable domains
+- **Source:** Arctic Wolf Labs — https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/
+- **Status:** active
+- **First seen:** 2026-08-26
+
+### mfs-0211 — Microsoft 365
+
+```text
+https://msauth.monlinelogicaline.com/
+```
+
+- **Domain:** `msauth.monlinelogicaline.com`
+- **Technique:** AiTM reverse-proxy phishing proxy (Payroll Pirates)
+- **Detection:** Hunt Entra sign-in logs for token issuance immediately preceded by a redirect from these ms*-themed hosts
+- **Source:** Arctic Wolf Labs — https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/
+- **Status:** active
+- **First seen:** 2026-08-26
+
+### mfs-0212 — Microsoft Office 365
+
+```text
+https://office.ofrecie.com/
+```
+
+- **Domain:** `office.ofrecie.com`
+- **Technique:** Typosquat 'office.' subdomain fronting AiTM proxy (Payroll Pirates)
+- **Detection:** Flag misspelled 'office'/'ofrecie'-style lookalike apex domains in proxy/DNS logs
+- **Source:** Arctic Wolf Labs — https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/
+- **Status:** active
+- **First seen:** 2026-08-26
+
+### mfs-0213 — Microsoft Entra ID
+
+```text
+https://idp.keyreniao.com/
+```
+
+- **Domain:** `idp.keyreniao.com`
+- **Technique:** Open-redirect/302 redirector ('idp.' subdomain) staging AiTM to ms* proxy
+- **Detection:** Alert on HTTP 302 from idp.* hosts on non-corporate domains leading to Microsoft-themed login
+- **Source:** Arctic Wolf Labs — https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/
+- **Status:** active
+- **First seen:** 2026-08-26
+
+### mfs-0214 — Microsoft Entra ID
+
+```text
+https://idp.korminel.com/
+```
+
+- **Domain:** `idp.korminel.com`
+- **Technique:** Open-redirect/302 redirector ('idp.' subdomain) staging AiTM
+- **Detection:** Block newly-registered 'idp.' subdomains not tied to a known IdP tenant
+- **Source:** Arctic Wolf Labs — https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/
+- **Status:** active
+- **First seen:** 2026-08-26
+
+### mfs-0215 — Microsoft Entra ID
+
+```text
+https://idp.kualabemo.com/
+```
+
+- **Domain:** `idp.kualabemo.com`
+- **Technique:** Open-redirect/302 redirector ('idp.' subdomain) staging AiTM
+- **Detection:** Correlate idp.* referer with subsequent ms*-themed AiTM proxy hit in the same session
+- **Source:** Arctic Wolf Labs — https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/
+- **Status:** active
+- **First seen:** 2026-08-26
+
+### mfs-0217 — Microsoft 365
+
+```text
+https://microsoft365onlineoffice.com/
+```
+
+- **Domain:** `microsoft365onlineoffice.com`
+- **Technique:** Browser-in-the-Browser (BitB) device-code phishing ('Evil Token')
+- **Detection:** Newly-observed-domain block on concatenated 'microsoft365online*/office365' keyword permutations
+- **Source:** Coralogix — https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/
+- **Status:** active
+- **First seen:** 2026-09-01
+
+### mfs-0218 — Microsoft 365
+
+```text
+https://microsoftonlineoffice365.com/
+```
+
+- **Domain:** `microsoftonlineoffice365.com`
+- **Technique:** Browser-in-the-Browser device-code phishing ('Evil Token')
+- **Detection:** Alert on device-code auth flows initiated shortly after visits to microsoft/office365 keyword-stuffed domains
+- **Source:** Coralogix — https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/
+- **Status:** active
+- **First seen:** 2026-09-01
+
+### mfs-0219 — Microsoft 365
+
+```text
+https://microsoftofficeonline365.com/
+```
+
+- **Domain:** `microsoftofficeonline365.com`
+- **Technique:** Browser-in-the-Browser device-code phishing ('Evil Token')
+- **Detection:** Regex-hunt DNS for microsoft+office+online+365 token permutations on standalone apexes
+- **Source:** Coralogix — https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/
+- **Status:** active
+- **First seen:** 2026-09-01
+
+### mfs-0220 — Microsoft Office 365
+
+```text
+https://documentsecuredbyoffice365.com/
+```
+
+- **Domain:** `documentsecuredbyoffice365.com`
+- **Technique:** Document-lure BitB device-code phishing ('Evil Token')
+- **Detection:** Block 'securedby'/'documentsecured' + office365 domain patterns; inspect doc-share lures
+- **Source:** Coralogix — https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/
+- **Status:** active
+- **First seen:** 2026-09-01
+
+### mfs-0221 — Microsoft Teams
+
+```text
+https://ms-teamsmeeting.top/
+```
+
+- **Domain:** `ms-teamsmeeting.top`
+- **Technique:** Teams-meeting-lure device-code phishing ('Evil Token')
+- **Detection:** Block .top TLD 'ms-teams'/'teamsmeeting' lookalikes; flag Teams-invite lures to non-teams.microsoft.com hosts
+- **Source:** Coralogix — https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/
+- **Status:** active
+- **First seen:** 2026-09-01
+
+### mfs-0222 — Microsoft 365
+
+```text
+https://loginmicrosoftonline.democrakidsradio.org/
+```
+
+- **Domain:** `loginmicrosoftonline.democrakidsradio.org`
+- **Technique:** Compromised-host subdomain hosting 'loginmicrosoftonline' phishing (Evil Token)
+- **Detection:** Hunt 'loginmicrosoftonline' as a subdomain label on unrelated apex domains
+- **Source:** Coralogix — https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/
+- **Status:** active
+- **First seen:** 2026-09-01
+
+### mfs-0223 — Microsoft 365
+
+```text
+https://loginonlinemicrosoftde.democrakidsradio.org/
+```
+
+- **Domain:** `loginonlinemicrosoftde.democrakidsradio.org`
+- **Technique:** Compromised-host subdomain hosting German-targeted Microsoft login phishing (Evil Token)
+- **Detection:** Flag 'microsoftde'/'onlinemicrosoft' subdomain labels; same abused apex as related IOCs
+- **Source:** Coralogix — https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/
+- **Status:** active
+- **First seen:** 2026-09-01
+
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
 ```kusto
 // Network/proxy hits to catalogued fake Microsoft sign-in hosts
-let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu", "passkeyhelpdesk.com", "secure-passkey.com", "setupmypasskey.com", "add-passkey.com", "portalsetuphub.com", "odahlzr5lm.reliabilityinoperations.de", "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu", "crsons.net", "afghantarin.com", "cabinetzeukeng.net", "assignpasskey.com", "mfaregister.com", "nowsso.com", "oskeysetup.com", "passkey-mfa.com", "integratedsso.com", "oktasession.com", "keysyncos.com", "oskeysync.com", "indecodesign.net", "jzqs-udkz-yhxx.hutton-aasir-dropons-com-s-account.workers.dev", "cdn.bloom.io", "oskeyregister.com", "syncmykey.com", "myconnectkey.com", "oskeyconnect.com", "validationsetupac.com", "oursso.com", "passkeydeploy.com", "registermymfa.com", "setpasskey.com", "xn--mcrosoftonlne-39bk.com", "microsoftonline-recovery.com", "microsoftonlinecommonoauth.com", "0utl00k.online", "0utl00k.store", "0utl00k.site", "microsoftmultifactor.com", "microsoftauthverify.com", "office365idp.com", "office365mail.com", "microsoft365online.cloud", "https-forms-cloud-microsoft-pages-responsepage-a.link", "onedrive-share.online", "pdf-onedrivesharedfile.work", "microsoftteamsbooking.com", "microsoftteambookingz.top", "microsofteams.live", "outlook365allservers.help", "support-outlook.com", "contactsupport-microsoft.com", "helpsecure-microsoft.com", "microsoft251207.com", "676132-microsoft.com", "outlook10.net", "outlo0k.com", "onedrivee.online", "office365.internal-alerts.com", "support.m365-microsoft.com", "security.email-microsoft.com", "programme-hup.m365-microsoft.com", "security.m365-microsoft.com", "emailnotifications.m365-microsoft.com", "reactivar-microsoft-live.iceiy.com", "microsoftjk.eu.org", "microsoft-login-securitylogin.jimdofree.com", "click5.microsoftsupportcenter.digital", "click6.microsoftsupportcenter.digital", "microsoft-se.us", "microsoft.updata.net.cn", "microsoft.authorised-support.com", "microsoft365businessbasic.com", "office365licensingsupport.com", "microsoft365updates.com", "www-microsoft.com.cn", "microsoft-sharepoint.fr", "microsoftuk.co", "microsoft.vpn-update.org", "outlook-office365.com", "outlook.webaccess-alert.com", "outlook.verifytoken.com", "office365.rricrosoft-offices.org", "microsoft365licensingsupport.com", "onedrive.at-us.therelayservice.com", "outlookmail.social", "plugins.sugar-outlook.com", "hotmail143.net", "www.camisasdecolores.net", "www.owaexchange.com", "office-365-msn--oficeer.replit.app", "login.hotmails.info", "ctia-outlook-2026.s1.yapla.com", "servermailprotection-1sfinfomembers.s3.eu-west-1.amazonaws.com", "deploypasskey.com", "passkeyadd.com", "login-microsoftonnline.jimdofree.com", "office.evergreenfin.ltd", "onelogin.evergreenfin.ltd", "msteamsinvitees.com", "msteamsinvitees.com", "msteamsinvitees.com", "moregoonsrue.com", "www.outlook-test.duckdns.org", "outlook-test.duckdns.org"]);
+let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu", "passkeyhelpdesk.com", "secure-passkey.com", "setupmypasskey.com", "add-passkey.com", "portalsetuphub.com", "odahlzr5lm.reliabilityinoperations.de", "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu", "crsons.net", "afghantarin.com", "cabinetzeukeng.net", "assignpasskey.com", "mfaregister.com", "nowsso.com", "oskeysetup.com", "passkey-mfa.com", "integratedsso.com", "oktasession.com", "keysyncos.com", "oskeysync.com", "indecodesign.net", "jzqs-udkz-yhxx.hutton-aasir-dropons-com-s-account.workers.dev", "cdn.bloom.io", "oskeyregister.com", "syncmykey.com", "myconnectkey.com", "oskeyconnect.com", "validationsetupac.com", "oursso.com", "passkeydeploy.com", "registermymfa.com", "setpasskey.com", "xn--mcrosoftonlne-39bk.com", "microsoftonline-recovery.com", "microsoftonlinecommonoauth.com", "0utl00k.online", "0utl00k.store", "0utl00k.site", "microsoftmultifactor.com", "microsoftauthverify.com", "office365idp.com", "office365mail.com", "microsoft365online.cloud", "https-forms-cloud-microsoft-pages-responsepage-a.link", "onedrive-share.online", "pdf-onedrivesharedfile.work", "microsoftteamsbooking.com", "microsoftteambookingz.top", "microsofteams.live", "outlook365allservers.help", "support-outlook.com", "contactsupport-microsoft.com", "helpsecure-microsoft.com", "microsoft251207.com", "676132-microsoft.com", "outlook10.net", "outlo0k.com", "onedrivee.online", "office365.internal-alerts.com", "support.m365-microsoft.com", "security.email-microsoft.com", "programme-hup.m365-microsoft.com", "security.m365-microsoft.com", "emailnotifications.m365-microsoft.com", "reactivar-microsoft-live.iceiy.com", "microsoftjk.eu.org", "microsoft-login-securitylogin.jimdofree.com", "click5.microsoftsupportcenter.digital", "click6.microsoftsupportcenter.digital", "microsoft-se.us", "microsoft.updata.net.cn", "microsoft.authorised-support.com", "microsoft365businessbasic.com", "office365licensingsupport.com", "microsoft365updates.com", "www-microsoft.com.cn", "microsoft-sharepoint.fr", "microsoftuk.co", "microsoft.vpn-update.org", "outlook-office365.com", "outlook.webaccess-alert.com", "outlook.verifytoken.com", "office365.rricrosoft-offices.org", "microsoft365licensingsupport.com", "onedrive.at-us.therelayservice.com", "outlookmail.social", "plugins.sugar-outlook.com", "hotmail143.net", "www.camisasdecolores.net", "www.owaexchange.com", "office-365-msn--oficeer.replit.app", "login.hotmails.info", "ctia-outlook-2026.s1.yapla.com", "servermailprotection-1sfinfomembers.s3.eu-west-1.amazonaws.com", "deploypasskey.com", "passkeyadd.com", "login-microsoftonnline.jimdofree.com", "office.evergreenfin.ltd", "onelogin.evergreenfin.ltd", "msteamsinvitees.com", "msteamsinvitees.com", "msteamsinvitees.com", "moregoonsrue.com", "www.outlook-test.duckdns.org", "outlook-test.duckdns.org", "mslogin.milocaroline.com", "msonline.logicalineonline.com", "msauth.monlinelogicaline.com", "office.ofrecie.com", "idp.keyreniao.com", "idp.korminel.com", "idp.kualabemo.com", "microsoft365onlineoffice.com", "microsoftonlineoffice365.com", "microsoftofficeonline365.com", "documentsecuredbyoffice365.com", "ms-teamsmeeting.top", "loginmicrosoftonline.democrakidsradio.org", "loginonlinemicrosoftde.democrakidsradio.org"]);
 DeviceNetworkEvents
 | where RemoteUrl has_any (FakeMsHosts) or RemoteDomain in~ (FakeMsHosts)
 | project Timestamp, DeviceName, InitiatingProcessAccountUpn, RemoteUrl, RemoteIP
