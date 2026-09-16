@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-09-15"
+    "updated": "2026-09-16"
   },
   "entries": [
     {
@@ -1942,6 +1942,84 @@
       "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0203",
+      "url": "https://msteamsinvitees.com/invitation",
+      "domain": "msteamsinvitees.com",
+      "brand": "Microsoft Teams",
+      "technique": "typosquat brand-impersonation Teams invite lure",
+      "detection": "Alert on newly-registered domains containing 'msteams' serving /invite or /invitation paths",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0204",
+      "url": "https://msteamsinvitees.com/invite/",
+      "domain": "msteamsinvitees.com",
+      "brand": "Microsoft Teams",
+      "technique": "typosquat brand-impersonation Teams invite lure",
+      "detection": "Flag off-Microsoft domains mimicking teams.microsoft.com invite flows",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0205",
+      "url": "https://msteamsinvitees.com/see/",
+      "domain": "msteamsinvitees.com",
+      "brand": "Microsoft Teams",
+      "technique": "typosquat brand-impersonation Teams invite lure",
+      "detection": "Hunt for 'msteamsinvitees' in proxy/DNS logs; not a Microsoft-owned domain",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0206",
+      "url": "https://moregoonsrue.com/path/?error=login_required&error_description=AADSTS50058:+A+silent+sign-in+request+was+sent+but+no+user+is+signed+in.+The+cookies+used+to+represent+the+user's+session+were+not+sent+in+the+request+to+Azure+AD.+This+can+happen+if+the+user+is+using+Internet+Explorer+or+Edge",
+      "domain": "moregoonsrue.com",
+      "brand": "Azure AD / Entra ID",
+      "technique": "AiTM credential-harvest landing spoofing Azure AD error",
+      "detection": "Alert on non-microsoft hosts whose URL query contains 'AADSTS50058' + 'error=login_required'",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0207",
+      "url": "https://www.outlook-test.duckdns.org/",
+      "domain": "www.outlook-test.duckdns.org",
+      "brand": "Microsoft Outlook",
+      "technique": "Outlook credential phish on dynamic-DNS (duckdns) host",
+      "detection": "Block/alert on *.duckdns.org hosting 'outlook'/'login' content targeting O365",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0208",
+      "url": "http://outlook-test.duckdns.org/",
+      "domain": "outlook-test.duckdns.org",
+      "brand": "Microsoft Outlook",
+      "technique": "Outlook credential phish on dynamic-DNS (duckdns) host",
+      "detection": "HTTP (non-TLS) Outlook-named duckdns subdomains are high-signal phishing IOCs",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
       "status": "active"
     }
   ]
