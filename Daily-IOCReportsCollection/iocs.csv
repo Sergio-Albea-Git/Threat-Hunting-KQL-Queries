@@ -144,7 +144,6 @@ domain,dyb32.ddnsking.com,https://cybersecuritynews.com/hackers-abuse-legitimate
 domain,e.crashlytics.com,https://cybersecuritynews.com/fake-gta-6-downloads,"Hackers Use Fake GTA 6 Downloads to Deploy RATs, Infostealers and Data-Wiping Malware",2026-09-10T14:23:36.000Z,2026-09-10T14:37:38.796Z
 domain,eemusicclass.co.uk,https://cybersecuritynews.com/hackers-impersonate-ceos,"Hackers Impersonate CEOs in 1 Million Emails to Trick Employees Into $50,000 Payments",2026-09-11T13:38:23.000Z,2026-09-11T20:00:24.570Z
 domain,efiukydskwkeatexavdp.supabase.co,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:08:35.932Z
-domain,erp.ranasons.com,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 domain,evo.hoster-kg.com,https://cybersecuritynews.com/china-linked-spy-campaign,China-Linked Spy Campaign Uses Five New Malware Families Against Central Asian Governments,2026-08-21T05:11:11.000Z,2026-08-21T07:26:38.799Z
 domain,fd.gstats-api-contact.cc,https://cybersecuritynews.com/clearfake-deploys-crypto-stealer,ClearFake Deploys Crypto Stealer That Uses Vulnerable Driver to Kill EDR Security Tools,2026-09-09T14:26:47.000Z,2026-09-09T21:56:41.292Z
 domain,feedback.feedx-ray.top,https://cybersecuritynews.com/extensions-caught-stealing-crypto-wallets-and-passwords,19 Chrome and Edge Extensions Caught Stealing Crypto Wallets and Passwords,2026-08-31T12:39:35.000Z,2026-08-31T14:23:21.152Z
@@ -877,11 +876,9 @@ ip,139.99.64.113,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-S
 ip,139.99.64.99,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T10:04:06.550Z
 ip,140.248.136.175,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-30T17:45:28.677Z
 ip,142.93.234.59:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
-ip,143.110.243.154,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,143.198.179.167:1433,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,143.198.179.167:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,143.198.179.167:5060,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
-ip,143.244.47.89,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,144.172.103.42,https://www.ransomware.live/group/chaos,Ransomware.live - chaos,,2026-09-08T10:03:49.304Z
 ip,144.172.107.56,https://cybersecuritynews.com/new-ai-built-malware-watches,New AI-Built Malware Watches How Security Teams Remove It and Fights Back,2026-08-31T09:25:07.000Z,2026-08-31T14:23:21.152Z
 ip,144.172.116.150,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T12:00:16.903Z
@@ -895,7 +892,6 @@ ip,146.19.191.11,https://cybersecuritynews.com/fake-minecraft-mod,Fake Minecraft
 ip,146.19.216.120,https://cybersecuritynews.com/jfrog-artifactory-vulnerabilities-actively-exploited,JFrog Artifactory Vulnerabilities Actively Exploited in the Wild to Gain Administrative Control,2026-09-11T08:17:33.000Z,2026-09-11T11:48:11.319Z
 ip,146.19.24.84:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,146.70.143.147:18095,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
-ip,146.70.172.247,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,146.75.116.175,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-30T17:45:28.677Z
 ip,146.75.120.175,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-30T17:45:28.677Z
 ip,146.75.122.133,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-30T17:45:28.677Z
@@ -930,8 +926,6 @@ ip,154.84.62.145,https://cybersecuritynews.com/malicious-apache-modules,Maliciou
 ip,154.84.62.149,https://cybersecuritynews.com/malicious-apache-modules,Malicious Apache Modules Turn Trusted Government Websites Into Stealth Phishing Proxies,2026-09-03T07:47:10.000Z,2026-09-03T10:04:05.367Z
 ip,154.84.62.160,https://cybersecuritynews.com/malicious-apache-modules,Malicious Apache Modules Turn Trusted Government Websites Into Stealth Phishing Proxies,2026-09-03T07:47:10.000Z,2026-09-03T10:04:05.367Z
 ip,154.86.119.60,https://cybersecuritynews.com/dahua-camera-backdoor,Dahua Camera Backdoor Survives Password Changes and Factory Resets on Compromised Devices,2026-09-04T07:23:00.000Z,2026-09-04T09:54:47.013Z
-ip,155.2.215.69,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
-ip,155.2.215.71,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,157.230.180.90,https://cybersecuritynews.com/fake-microsoft-security-scan,Fake Microsoft Security Scan Tells You to Remove Antivirus—Then Scammers Ask for Remote Access,2026-08-25T14:11:49.000Z,2026-08-25T14:24:48.918Z
 ip,157.254.167.45,https://www.ransomware.live/group/d1r,Ransomware.live - d1r,,2026-08-31T14:23:21.152Z
 ip,158.160.3.224:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
@@ -958,7 +952,6 @@ ip,165.227.69.170:443,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,167.148.195.53,https://cybersecuritynews.com/gpt-powered-tools,Hackers Use Claude and GPT-Powered Tools to Help Breach Government and Financial Networks,2026-09-10T08:06:02.000Z,2026-09-10T10:00:53.818Z
 ip,167.71.69.135:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,167.88.160.15:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
-ip,167.88.166.173,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,167.88.167.37,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T12:00:16.903Z
 ip,169.239.130.36:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,169.254.169.254,https://www.ransomware.live/group/bert,Ransomware.live - bert,,2026-09-08T10:03:49.304Z
@@ -1005,7 +998,6 @@ ip,185.100.157.74,https://www.ransomware.live/group/bert,Ransomware.live - bert,
 ip,185.106.94.255,https://www.ransomware.live/group/weyhro,Ransomware.live - weyhro,,2026-09-08T10:03:49.304Z
 ip,185.125.101.181,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T18:59:13.976Z
 ip,185.132.53.56,https://cybersecuritynews.com/dahua-camera-backdoor,Dahua Camera Backdoor Survives Password Changes and Factory Resets on Compromised Devices,2026-09-04T07:23:00.000Z,2026-09-04T09:54:47.013Z
-ip,185.135.86.185,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,185.158.250.155,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T12:00:16.903Z
 ip,185.163.193.251:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,185.174.100.224,https://cybersecuritynews.com/microsoft-365-session-theft,"Hackers Let Microsoft 365 Users Complete MFA, Then Steal Logged-In Sessions",2026-08-19T16:17:56.000Z,2026-08-19T17:55:24.909Z
@@ -1015,11 +1007,6 @@ ip,185.193.48.92:4675,https://www.ransomware.live/group/bianlian,Ransomware.live
 ip,185.208.158.27,https://cybersecuritynews.com/malware-as-a-service-adobe-themed-domain,New Malware-as-a-service Leveraging Adobe-themed Domain to Attack Windows Users Using .bat File,2026-08-24T04:47:41.000Z,2026-08-24T05:22:53.030Z
 ip,185.227.83.236,https://cybersecuritynews.com/cl0p-hackers-exploit-ptc,Cl0p Hackers Exploit PTC Windchill Flaw to Steal Passwords and Sensitive Company Data,2026-08-19T05:46:16.000Z,2026-08-19T05:59:57.080Z
 ip,185.229.9.27:993,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
-ip,185.238.231.16,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
-ip,185.238.231.4,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
-ip,185.238.231.77,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
-ip,185.238.231.85,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
-ip,185.238.231.98,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,185.239.48.114:27700,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,185.241.5.217:8081,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,185.243.112.167:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
@@ -1113,10 +1100,7 @@ ip,23.227.198.237:3963,https://www.ransomware.live/group/bianlian,Ransomware.liv
 ip,23.227.198.237:50262,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,23.227.198.237:57226,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,23.227.198.237:64103,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
-ip,23.234.106.242,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,23.234.108.48,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T12:00:16.903Z
-ip,23.234.89.195,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
-ip,23.234.93.112,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,23.235.223.49,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T21:56:41.292Z
 ip,23.251.57.59,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-09-08T10:03:49.304Z
 ip,23.254.244.163:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
@@ -1137,8 +1121,6 @@ ip,34.166.99.116,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hacke
 ip,35.157.111.131,https://cybersecuritynews.com/fake-gta-6-downloads,"Hackers Use Fake GTA 6 Downloads to Deploy RATs, Infostealers and Data-Wiping Malware",2026-09-10T14:23:36.000Z,2026-09-10T14:37:38.796Z
 ip,35.212.159.20,https://cybersecuritynews.com/remote-access-trojan,Hackers Hide a Full Remote Access Trojan Inside a Real Exodus Crypto Wallet,2026-09-02T07:50:25.000Z,2026-09-02T09:52:47.530Z
 ip,37.1.202.248:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
-ip,37.19.21.180,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
-ip,37.221.66.239,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,38.132.122.213,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-09-08T10:03:49.304Z
 ip,38.132.122.214,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-09-08T10:03:49.304Z
 ip,38.134.148.20,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-09-08T10:03:49.304Z
@@ -1195,7 +1177,6 @@ ip,45.61.136.118:443,https://www.ransomware.live/group/bianlian,Ransomware.live 
 ip,45.61.136.147:3917,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,45.61.136.147:3929,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,45.61.148.166,https://cybersecuritynews.com/ransomware-hacker-uses-ai,Ransomware Hacker Uses AI to Plan Cyberattacks Against More Than 20 Organizations,2026-08-27T11:13:43.000Z,2026-08-27T12:00:16.903Z
-ip,45.61.150.94,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,45.61.176.88,https://cybersecuritynews.com/jfrog-artifactory-vulnerabilities-actively-exploited,JFrog Artifactory Vulnerabilities Actively Exploited in the Wild to Gain Administrative Control,2026-09-11T08:17:33.000Z,2026-09-11T11:48:11.319Z
 ip,45.63.9.192:5050,https://www.ransomware.live/group/crypto24,Ransomware.live - crypto24,,2026-09-08T10:03:49.304Z
 ip,45.76.144.235:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
@@ -1277,10 +1258,8 @@ ip,81.70.240.170,https://cybersecuritynews.com/ai-agents-for-real-world-cyberatt
 ip,82.117.87.138,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T18:59:13.976Z
 ip,82.117.87.192,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T18:59:13.976Z
 ip,82.147.84.232,https://www.ransomware.live/group/teamxxx,Ransomware.live - teamxxx,,2026-09-08T10:03:49.304Z
-ip,83.138.53.139,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,83.217.209.210,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-09-08T10:03:49.304Z
 ip,84.201.211.40,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-09-08T10:03:49.304Z
-ip,85.155.186.121,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,85.192.30.211,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T18:59:13.976Z
 ip,85.206.161.241,https://cybersecuritynews.com/fake-claude-install-guide,Hackers Use Fake Claude Install Guide to Deploy MacSync Stealer and Trojanize Crypto Wallet Apps,2026-08-19T10:34:19.000Z,2026-08-19T12:18:50.998Z
 ip,85.209.11.49,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-09-08T10:03:49.304Z
@@ -1343,7 +1322,6 @@ ip,94.103.91.246,https://www.ransomware.live/group/ghostsec,Ransomware.live - gh
 ip,94.126.227.11,https://cybersecuritynews.com/iran-linked-hackers,Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels,2026-08-26T13:47:36.000Z,2026-08-26T16:03:57.960Z
 ip,94.126.227.20,https://cybersecuritynews.com/iran-linked-hackers,Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels,2026-08-26T13:47:36.000Z,2026-08-26T16:03:57.960Z
 ip,94.130.135.167,https://cybersecuritynews.com/bandwidth-sharing-app,Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks,2026-08-21T09:32:45.000Z,2026-08-21T10:04:06.550Z
-ip,94.156.67.145,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 ip,94.198.40.6:20001,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,94.198.40.6:20002,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
 ip,94.198.40.6:20022,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-08T10:03:49.304Z
@@ -3688,7 +3666,6 @@ url,https://23.224.4.116,https://www.ransomware.live/group/crpxo,Ransomware.live
 url,https://23.224.4.117,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-30T17:45:28.677Z
 url,https://23.224.4.118,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-30T17:45:28.677Z
 url,https://25382ea9.trustkey-otcheckv1.pages.dev,https://cybersecuritynews.com/fake-captcha-tricks-mac-users,Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto,2026-08-24T09:49:32.000Z,2026-08-24T11:05:02.961Z
-url,https://3324.requestcatcher.com/hihi,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T17:58:55.793Z
 url,https://67sixcebeh.surf/upload.php,https://cybersecuritynews.com/fake-captcha-tricks-mac-users,Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto,2026-08-24T09:49:32.000Z,2026-08-24T11:05:02.961Z
 url,https://67sixcebeh.surf/xmr,https://cybersecuritynews.com/fake-captcha-tricks-mac-users,Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto,2026-08-24T09:49:32.000Z,2026-08-24T11:05:02.961Z
 url,https://a2.nmnsny.sbs,https://cybersecuritynews.com/hackers-infect-android-car-screens,Hackers Infect Android Car Screens Through Their Built-In Software Update System,2026-08-24T07:30:28.000Z,2026-08-24T09:27:50.322Z
