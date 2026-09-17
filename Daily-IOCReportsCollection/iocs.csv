@@ -644,7 +644,6 @@ filename,challenges-17831.zip,https://cybersecuritynews.com/fake-coding-tests,Ha
 filename,challenges-17832.zip,https://cybersecuritynews.com/fake-coding-tests,Hackers Pose as Recruiters and Send Fake Coding Tests to Infect Software Developers,2026-09-01T13:40:54.000Z,2026-09-01T13:50:34.982Z
 filename,check_paths.py,https://cybersecuritynews.com/chinese-hackers-use-ai-agents,Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks,2026-08-21T14:41:55.000Z,2026-08-21T14:51:43.981Z
 filename,chrome_elf.dll,https://cybersecuritynews.com/hackers-hide-valleyrat-backdoor,Hackers Hide ValleyRAT Backdoor Inside Adware Targeting Users in China and India,2026-08-31T14:12:41.000Z,2026-08-31T14:26:01.599Z
-filename,chrome_injector.exe,https://cybersecuritynews.com/shadow-hvnc-gives-attackers,Shadow hVNC Gives Attackers Remote Desktop Control Without Moving the Victim’s Mouse,2026-08-18T10:55:12.000Z,2026-08-18T11:28:54.661Z
 filename,claude.exe,https://cybersecuritynews.com/hackers-are-turning-claude-chatgpt,"Hackers Are Turning Claude, ChatGPT and Copilot Into Bait for Real Malware",2026-08-20T11:02:41.000Z,2026-08-20T12:02:13.771Z
 filename,claude.msixbundle,https://cybersecuritynews.com/hackers-are-turning-claude-chatgpt,"Hackers Are Turning Claude, ChatGPT and Copilot Into Bait for Real Malware",2026-08-20T11:02:41.000Z,2026-08-20T12:02:13.771Z
 filename,claudedesktop.exe,https://cybersecuritynews.com/hackers-use-fake-claude,Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware,2026-08-26T12:15:43.000Z,2026-08-26T12:57:57.838Z
@@ -714,7 +713,6 @@ filename,lnat-tv-pro.apk,https://cybersecuritynews.com/btmob-fraud-as-a-service-
 filename,log4net.dll,https://cybersecuritynews.com/new-tuktuk-malware,Ransomware Hackers Use New TukTuk Malware to Steal Credentials and Disable Security Tools,2026-09-02T14:05:53.000Z,2026-09-02T14:57:44.580Z
 filename,lsa_collect_small.exe,https://cybersecuritynews.com/papercut-command-execution-flaws-exploited,Hackers Actively Exploiting PaperCut Servers Command Execution Vulnerabilities,2026-09-07T07:05:58.000Z,2026-09-07T08:00:18.881Z
 filename,lsa_collect.exe,https://cybersecuritynews.com/papercut-command-execution-flaws-exploited,Hackers Actively Exploiting PaperCut Servers Command Execution Vulnerabilities,2026-09-07T07:05:58.000Z,2026-09-07T08:00:18.881Z
-filename,lss.exe,https://cybersecuritynews.com/shadow-hvnc-gives-attackers,Shadow hVNC Gives Attackers Remote Desktop Control Without Moving the Victim’s Mouse,2026-08-18T10:55:12.000Z,2026-08-18T11:28:54.661Z
 filename,main.js,https://cybersecuritynews.com/projextor-shows-malware,Projextor Shows How Malware Can Hide Behind Trusted Electron Executables,2026-08-18T15:34:10.000Z,2026-08-18T18:29:49.478Z
 filename,malicious.exe,https://cybersecuritynews.com/new-byotc-attack-hijacks,New BYOTC Attack Hijacks Trusted Windows Apps to Abuse Privileged Kernel Drivers,2026-09-07T13:40:00.000Z,2026-09-07T15:38:06.357Z
 filename,mbam.exe,https://cybersecuritynews.com/new-byotc-attack-hijacks,New BYOTC Attack Hijacks Trusted Windows Apps to Abuse Privileged Kernel Drivers,2026-09-07T13:40:00.000Z,2026-09-07T15:38:06.357Z
@@ -1119,7 +1117,6 @@ ip,209.99.184.50,https://cybersecuritynews.com/octagon-steal-sms-one-time-codes,
 ip,209.99.187.28,https://cybersecuritynews.com/octagon-steal-sms-one-time-codes,Octagon Can Steal SMS One-Time Codes During Banking and Crypto Account Takeovers,2026-08-18T13:21:28.000Z,2026-08-18T13:29:13.960Z
 ip,211.159.155.240,https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks,"Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks",2026-09-04T13:21:43.000Z,2026-09-04T13:32:21.733Z
 ip,212.118.56.166,https://cybersecuritynews.com/clearfake-deploys-crypto-stealer,ClearFake Deploys Crypto Stealer That Uses Vulnerable Driver to Kill EDR Security Tools,2026-09-09T14:26:47.000Z,2026-09-10T04:55:01.497Z
-ip,212.162.150.121,https://cybersecuritynews.com/shadow-hvnc-gives-attackers,Shadow hVNC Gives Attackers Remote Desktop Control Without Moving the Victim’s Mouse,2026-08-18T10:55:12.000Z,2026-08-18T11:28:54.661Z
 ip,212.224.107.203,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-09-15T12:00:02.015Z
 ip,213.176.114.6,https://www.ransomware.live/group/incransom,Ransomware.live - incransom,,2026-08-25T08:58:58.774Z
 ip,213.6.207.123,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
@@ -1561,7 +1558,6 @@ md5,1c4176f57bbfa70829f0218e6f995fda,https://www.ransomware.live/group/akira,Ran
 md5,1c4bea81c0da22badd9b7eab574c51cd,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-09-15T12:00:02.015Z
 md5,1c69c262000994ac06ec153469eab55b,https://cybersecuritynews.com/new-corerat-malware,New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems,2026-08-26T06:02:39.000Z,2026-08-26T06:56:42.231Z
 md5,1cc9ae55b1856e4e9796c73f94c2e683,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-08-31T07:19:19.595Z
-md5,1d04536714bb22a3e909525a7dd627f0,https://cybersecuritynews.com/shadow-hvnc-gives-attackers,Shadow hVNC Gives Attackers Remote Desktop Control Without Moving the Victim’s Mouse,2026-08-18T10:55:12.000Z,2026-08-18T11:28:54.661Z
 md5,1d3fba0d99d5452acbb8d326e8f4e800,https://www.ransomware.live/group/raworld,Ransomware.live - raworld,,2026-09-15T12:00:02.015Z
 md5,1d5622cc9901830f76672bff670ff565,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-09-15T12:00:02.015Z
 md5,1d895cf4391b817e54fb9ec9d8e65f7e,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-09-15T12:00:02.015Z
@@ -2114,7 +2110,6 @@ md5,834f137f9039041bccb4b414154a596c,https://www.ransomware.live/group/akira,Ran
 md5,83b6f9a64ac51c6623bd93918379dfc4,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-09-15T12:00:02.015Z
 md5,83c419015c4d8df7cb1a208546ddb6f6,https://www.ransomware.live/group/fog,Ransomware.live - fog,,2026-09-15T12:00:02.015Z
 md5,846fc21208bba21d72f5bbabe3a4148a,https://www.ransomware.live/group/trigona,Ransomware.live - trigona,,2026-09-15T12:00:02.015Z
-md5,85c5a390f17891eee01d5fd10f20a98d,https://cybersecuritynews.com/shadow-hvnc-gives-attackers,Shadow hVNC Gives Attackers Remote Desktop Control Without Moving the Victim’s Mouse,2026-08-18T10:55:12.000Z,2026-08-18T11:28:54.661Z
 md5,85cd7c6931b44a14f4899dfd0039e8b4,https://www.ransomware.live/group/hellokitty,Ransomware.live - hellokitty,,2026-09-15T12:00:02.015Z
 md5,860fae3fc7db1c1ceb12eb42ce59aee4,https://www.ransomware.live/group/krybit,Ransomware.live - krybit,,2026-08-31T07:19:19.595Z
 md5,86281388d3cdbc77b337000b0725ea81,https://www.ransomware.live/group/cactus,Ransomware.live - cactus,,2026-09-15T12:00:02.015Z
@@ -2218,7 +2213,6 @@ md5,961ed262cd7753e154e5110135b180ad,https://www.ransomware.live/group/akira,Ran
 md5,963ce01dd8f7a4d1a25504396ab2a0c1,https://www.ransomware.live/group/akira,Ransomware.live - akira,,2026-09-15T12:00:02.015Z
 md5,9642ae619b3165d23c6349002d1abe24,https://cybersecuritynews.com/hackers-infect-android-car-screens,Hackers Infect Android Car Screens Through Their Built-In Software Update System,2026-08-24T07:30:28.000Z,2026-08-24T08:08:40.266Z
 md5,964c13b68dc6b6b918b66a9a10469d2a,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-09-15T12:00:02.015Z
-md5,9675c957a5fded266939e314abff2078,https://cybersecuritynews.com/shadow-hvnc-gives-attackers,Shadow hVNC Gives Attackers Remote Desktop Control Without Moving the Victim’s Mouse,2026-08-18T10:55:12.000Z,2026-08-18T11:28:54.661Z
 md5,9678f71ea4cccbc3d511dc8d7f24b113,https://cybersecuritynews.com/fake-claude-and-chatgpt-installers,Hackers Use Fake Claude and ChatGPT Installers to Infect Mac Users With Password-Stealing Malware,2026-09-10T09:53:52.000Z,2026-09-10T10:26:02.579Z
 md5,969e45903c37717bd40a2fdeee6a4f2a,https://www.ransomware.live/group/gunra,Ransomware.live - gunra,,2026-09-05T14:17:10.420Z
 md5,96b4c1d0683dce22bd3223e1e40689c1,https://cybersecuritynews.com/hackers-hide-valleyrat-backdoor,Hackers Hide ValleyRAT Backdoor Inside Adware Targeting Users in China and India,2026-08-31T14:12:41.000Z,2026-08-31T14:26:01.599Z
@@ -3734,7 +3728,6 @@ url,http://160.187.147.119/any/sch.vmd,https://cybersecuritynews.com/kimsuky-ai-
 url,http://160.187.147.119/any/vpost.vmd,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:42:26.435Z
 url,http://162.0.239.85:3000/task/mac?token=30621301,https://cybersecuritynews.com/14-fake-macos-installers,14 Fake macOS Installers Linked to DPRK Campaign Deliver Credential-Stealing RAT,2026-09-04T07:54:34.000Z,2026-09-04T08:31:25.954Z
 url,http://162.0.239.85:3000/task/package.json,https://cybersecuritynews.com/14-fake-macos-installers,14 Fake macOS Installers Linked to DPRK Campaign Deliver Credential-Stealing RAT,2026-09-04T07:54:34.000Z,2026-09-04T08:31:25.954Z
-url,http://212.162.150.121/v1/verify,https://cybersecuritynews.com/shadow-hvnc-gives-attackers,Shadow hVNC Gives Attackers Remote Desktop Control Without Moving the Victim’s Mouse,2026-08-18T10:55:12.000Z,2026-08-18T11:28:54.661Z
 url,http://22qq-client.com/,https://cybersecuritynews.com/google-results-minecraft-client,"Top Google Results for Minecraft Client Led Gamers to Malware, McAfee Finds",2026-08-25T07:05:46.000Z,2026-08-25T07:39:24.400Z
 url,http://2bw7r32r5eshwk2h7uekj3lwzorxds2jyhyzqyilphid3r27x5hsf4yd.onion/,https://www.ransomware.live/group/gunra,Ransomware.live - gunra,,2026-09-05T14:17:10.420Z
 url,http://3.88.162.79:36789/smtp,https://cybersecuritynews.com/jfrog-artifactory-vulnerabilities-actively-exploited,JFrog Artifactory Vulnerabilities Actively Exploited in the Wild to Gain Administrative Control,2026-09-11T08:17:33.000Z,2026-09-11T09:08:40.034Z
@@ -3746,7 +3739,6 @@ url,http://a2.nmnsny.sbs,https://cybersecuritynews.com/hackers-infect-android-ca
 url,http://admin.uipoxy.com/proxy/u/login,https://cybersecuritynews.com/hackers-infect-android-car-screens,Hackers Infect Android Car Screens Through Their Built-In Software Update System,2026-08-24T07:30:28.000Z,2026-08-24T08:08:40.266Z
 url,http://alt.e-wl.com:9000/hook/alt,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 url,http://apdk7hpbbquomgoxbhutegxco6btrz2ara3x2weqnx65tt45ba3sclyd.onion/,https://www.ransomware.live/group/gunra,Ransomware.live - gunra,,2026-09-05T14:17:10.420Z
-url,http://ciscobinary.openh264.org/openh264-2.4.1-win64.dll.bz2,https://cybersecuritynews.com/shadow-hvnc-gives-attackers,Shadow hVNC Gives Attackers Remote Desktop Control Without Moving the Victim’s Mouse,2026-08-18T10:55:12.000Z,2026-08-18T11:28:54.661Z
 url,http://consol.e-wl.com:9000/hook/cosomid,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 url,http://credeb.gov.gn/r.zip,https://cybersecuritynews.com/breeze-comet-hackers,BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers,2026-09-02T13:23:38.000Z,2026-09-02T13:31:23.406Z
 url,http://firebase.e-wl.com:9000/hook/see,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
