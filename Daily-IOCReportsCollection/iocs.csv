@@ -175,7 +175,6 @@ domain,img.smartnords.site,https://cybersecuritynews.com/dprk-linked-hackers,DPR
 domain,imported-concerns-listening-typing.trycloudflare.com,https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks,"Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks",2026-09-04T13:21:43.000Z,2026-09-04T13:32:21.733Z
 domain,infrastructurefirewall.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize-microsoft-teams,Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement,2026-09-01T13:30:02.000Z,2026-09-01T13:50:34.982Z
 domain,insights-collector.gog.com,https://cybersecuritynews.com/fake-gta-6-downloads,"Hackers Use Fake GTA 6 Downloads to Deploy RATs, Infostealers and Data-Wiping Malware",2026-09-10T14:23:36.000Z,2026-09-10T14:27:01.173Z
-domain,intel.se9ly9upbhay.shop,https://cybersecuritynews.com/vmware-syslog-path-traversal,"VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",2026-08-18T08:02:41.000Z,2026-08-18T08:28:13.933Z
 domain,internalsystemsdaily.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize-microsoft-teams,Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement,2026-09-01T13:30:02.000Z,2026-09-01T13:50:34.982Z
 domain,internalusahelpdeskit.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize-microsoft-teams,Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement,2026-09-01T13:30:02.000Z,2026-09-01T13:50:34.982Z
 domain,ithelpcenter365.onmicrosoft.com,https://cybersecuritynews.com/hackers-weaponize-microsoft-teams,Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement,2026-09-01T13:30:02.000Z,2026-09-01T13:50:34.982Z
@@ -917,8 +916,6 @@ ip,146.103.127.44,https://cybersecuritynews.com/hackers-disable-endpoint-protect
 ip,146.19.191.11,https://cybersecuritynews.com/fake-minecraft-mod,Fake Minecraft Mod Deploys Myth Stealer RAT to Steal Browser Credentials and Cookies,2026-09-07T10:41:21.000Z,2026-09-07T11:00:57.098Z
 ip,146.19.216.120,https://cybersecuritynews.com/jfrog-artifactory-vulnerabilities-actively-exploited,JFrog Artifactory Vulnerabilities Actively Exploited in the Wild to Gain Administrative Control,2026-09-11T08:17:33.000Z,2026-09-11T09:08:40.034Z
 ip,146.19.24.84:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
-ip,146.56.116.119,https://cybersecuritynews.com/vmware-syslog-path-traversal,"VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",2026-08-18T08:02:41.000Z,2026-08-18T08:28:13.933Z
-ip,146.59.252.178,https://cybersecuritynews.com/vmware-syslog-path-traversal,"VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",2026-08-18T08:02:41.000Z,2026-08-18T08:28:13.933Z
 ip,146.70.143.147:18095,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
 ip,146.70.172.247,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
 ip,146.75.116.175,https://www.ransomware.live/group/crpxo,Ransomware.live - crpxo,,2026-08-31T07:19:19.595Z
@@ -1031,7 +1028,6 @@ ip,185.106.94.255,https://www.ransomware.live/group/weyhro,Ransomware.live - wey
 ip,185.125.101.181,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
 ip,185.132.53.56,https://cybersecuritynews.com/dahua-camera-backdoor,Dahua Camera Backdoor Survives Password Changes and Factory Resets on Compromised Devices,2026-09-04T07:23:00.000Z,2026-09-04T07:31:12.956Z
 ip,185.135.86.185,https://cybersecuritynews.com/medusa-ransomware,"CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",2026-08-18T17:47:28.000Z,2026-08-18T18:29:49.478Z
-ip,185.144.28.120,https://cybersecuritynews.com/vmware-syslog-path-traversal,"VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",2026-08-18T08:02:41.000Z,2026-08-18T08:28:13.933Z
 ip,185.158.250.155,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
 ip,185.163.193.251:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
 ip,185.174.100.224,https://cybersecuritynews.com/microsoft-365-session-theft,"Hackers Let Microsoft 365 Users Complete MFA, Then Steal Logged-In Sessions",2026-08-19T16:17:56.000Z,2026-08-19T18:33:58.868Z
@@ -1070,7 +1066,6 @@ ip,188.119.66.189,https://www.ransomware.live/group/qilin,Ransomware.live - qili
 ip,188.245.99.156,https://cybersecuritynews.com/hackers-turn-redis-servers,"Hackers Turn More Than 3,500 Redis Servers Into Cryptocurrency Miners",2026-09-09T07:47:48.000Z,2026-09-09T07:51:47.126Z
 ip,189.219.16.249,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-09-15T12:00:02.015Z
 ip,192.253.229.23,https://cybersecuritynews.com/malicious-apache-modules,Malicious Apache Modules Turn Trusted Government Websites Into Stealth Phishing Proxies,2026-09-03T07:47:10.000Z,2026-09-03T09:12:00.967Z
-ip,192.255.141.13,https://cybersecuritynews.com/vmware-syslog-path-traversal,"VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",2026-08-18T08:02:41.000Z,2026-08-18T08:28:13.933Z
 ip,193.124.185.129:8443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
 ip,193.233.202.17,https://cybersecuritynews.com/hackers-disable-endpoint-protection,Hackers Disable Endpoint Protection and Deploy Sliver Across Compromised Windows Domain,2026-09-08T12:10:57.000Z,2026-09-08T12:56:57.634Z
 ip,193.233.245.45,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
@@ -1247,7 +1242,6 @@ ip,5.189.149.171,https://www.ransomware.live/group/sorry,Ransomware.live - sorry
 ip,5.252.177.249,https://www.ransomware.live/group/anubis,Ransomware.live - anubis,,2026-09-15T12:00:02.015Z
 ip,5.255.106.12:3389,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
 ip,5.255.106.12:80,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
-ip,5.34.176.100,https://cybersecuritynews.com/vmware-syslog-path-traversal,"VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",2026-08-18T08:02:41.000Z,2026-08-18T08:28:13.933Z
 ip,50.54.130.245,https://www.ransomware.live/group/sorry,Ransomware.live - sorry,,2026-09-15T12:00:02.015Z
 ip,51.16.209.105:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
 ip,51.250.0.16:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
@@ -2866,7 +2860,6 @@ sha1,dbd05e2da5385928cbeb7b9695e825c588bede8e,https://www.ransomware.live/group/
 sha1,df249727c12741ca176d5f1ccba3ce188a546d28,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-09-15T12:00:02.015Z
 sha1,e00293ce0eb534874efd615ae590cf6aa3858ba4,https://www.ransomware.live/group/thegentlemen,Ransomware.live - thegentlemen,,2026-09-15T12:00:02.015Z
 sha1,e39bb97415978fa3484298735bd020662a51f3ab,https://cybersecuritynews.com/iran-linked-hackers,Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels,2026-08-26T13:47:36.000Z,2026-08-26T13:58:09.552Z
-sha1,e876ceb47ba092420a97724a957152b3808568b0,https://cybersecuritynews.com/vmware-syslog-path-traversal,"VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",2026-08-18T08:02:41.000Z,2026-08-18T08:28:13.933Z
 sha1,ec7876d6c917dad516ba69bbfafc948b834bf0ab,https://cybersecuritynews.com/popular-npm-package,Popular npm Package With 150K+ Weekly Downloads Hit by Credential-Stealing Supply-Chain Worm,2026-08-31T11:42:55.000Z,2026-08-31T12:20:16.666Z
 sha1,f0537cbb773ae12100b36731e7c39f5a9d852b14,https://cybersecuritynews.com/the-gentlemen-ransomware,The Gentlemen Ransomware Hackers Disable EDR and Backups Before Encrypting Networks in Under 24 Hours,2026-09-03T09:02:44.000Z,2026-09-03T09:12:00.967Z
 sha1,f0bc50d2d2838c5294e21cd9bce2f09bf581e508,https://cybersecuritynews.com/the-gentlemen-ransomware,The Gentlemen Ransomware Hackers Disable EDR and Backups Before Encrypting Networks in Under 24 Hours,2026-09-03T09:02:44.000Z,2026-09-03T09:12:00.967Z
@@ -3853,7 +3846,6 @@ url,https://pastebin.com/raw/hm0nxnbp,https://cybersecuritynews.com/hackers-use-
 url,https://phys.stunned-amniotic.com/hub.log,https://cybersecuritynews.com/clearfake-deploys-crypto-stealer,ClearFake Deploys Crypto Stealer That Uses Vulnerable Driver to Kill EDR Security Tools,2026-09-09T14:26:47.000Z,2026-09-10T04:55:01.497Z
 url,https://portal-web3-extension-welcome.pages.dev/home,https://cybersecuritynews.com/malicious-firefox-extensions-2,15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets,2026-08-20T08:56:19.000Z,2026-08-20T09:01:37.475Z
 url,https://procon.go.gov.br/comprovantepdf.exe,https://cybersecuritynews.com/breeze-comet-hackers,BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers,2026-09-02T13:23:38.000Z,2026-09-02T13:31:23.406Z
-url,https://profound-beijinho-504b1f.netlify.app/,https://cybersecuritynews.com/vmware-syslog-path-traversal,"VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",2026-08-18T08:02:41.000Z,2026-08-18T08:28:13.933Z
 url,https://proxyforu.com,https://cybersecuritynews.com/hackers-infect-android-car-screens,Hackers Infect Android Car Screens Through Their Built-In Software Update System,2026-08-24T07:30:28.000Z,2026-08-24T08:08:40.266Z
 url,https://publisherresolution.com,https://cybersecuritynews.com/hackers-disable-endpoint-protection,Hackers Disable Endpoint Protection and Deploy Sliver Across Compromised Windows Domain,2026-09-08T12:10:57.000Z,2026-09-08T12:56:57.634Z
 url,https://qnwallpaper.keansoft.cn/,https://cybersecuritynews.com/hackers-hide-valleyrat-backdoor,Hackers Hide ValleyRAT Backdoor Inside Adware Targeting Users in China and India,2026-08-31T14:12:41.000Z,2026-08-31T14:26:01.599Z
