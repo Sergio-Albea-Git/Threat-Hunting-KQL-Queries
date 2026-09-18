@@ -561,7 +561,7 @@ filename,_index.js,https://cybersecuritynews.com/autonomous-ai-agents,Hackers Us
 filename,.config/index.js,https://cybersecuritynews.com/popular-npm-package-2,Popular npm Package With 150K Weekly Downloads Compromised in Mini Shai-Hulud Supply-Chain Attack,2026-09-01T08:36:35.000Z,2026-09-01T08:49:27.764Z
 filename,.github/_index.js,https://cybersecuritynews.com/popular-npm-package-2,Popular npm Package With 150K Weekly Downloads Compromised in Mini Shai-Hulud Supply-Chain Attack,2026-09-01T08:36:35.000Z,2026-09-01T08:49:27.764Z
 filename,.pdf.lnk,https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension,Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data,2026-08-24T13:42:08.000Z,2026-08-24T14:42:26.435Z
-filename,/api/xls/a1p2i.js,https://cybersecuritynews.com/microsoft-365-session-theft,"Hackers Let Microsoft 365 Users Complete MFA, Then Steal Logged-In Sessions",2026-08-19T16:17:56.000Z,2026-08-19T18:33:58.868Z
+filename,/api/xls/a1p2i.js,https://cybersecuritynews.com/mirage2fa-phishing-kit-bypasses-mfa-to-hijack-microsoft-365-sessions-targeting-3500-organizations,"Mirage2FA Phishing Kit Bypasses MFA to Hijack Microsoft 365 Sessions, Targeting 3,500+ Organizations",2026-08-26T08:21:30.000Z,2026-08-26T08:57:08.603Z
 filename,/dist/calc.bin,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T07:08:29.914Z
 filename,/dist/internal/calc-cache.bin,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T07:08:29.914Z
 filename,/dist/internal/calc-mapping.bin,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T07:08:29.914Z
@@ -989,7 +989,7 @@ ip,185.125.101.181,https://cybersecuritynews.com/dark-caracal-hackers,Dark Carac
 ip,185.132.53.56,https://cybersecuritynews.com/dahua-camera-backdoor,Dahua Camera Backdoor Survives Password Changes and Factory Resets on Compromised Devices,2026-09-04T07:23:00.000Z,2026-09-04T07:31:12.956Z
 ip,185.158.250.155,https://cybersecuritynews.com/hackers-use-fake-google-drive,Russian Hackers Use Fake Google Drive and Diplomatic Lures to Steal Online Account,2026-08-27T09:17:29.000Z,2026-08-27T09:22:51.193Z
 ip,185.163.193.251:443,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
-ip,185.174.100.224,https://cybersecuritynews.com/microsoft-365-session-theft,"Hackers Let Microsoft 365 Users Complete MFA, Then Steal Logged-In Sessions",2026-08-19T16:17:56.000Z,2026-08-19T18:33:58.868Z
+ip,185.174.100.224,https://cybersecuritynews.com/mirage2fa-phishing-kit-bypasses-mfa-to-hijack-microsoft-365-sessions-targeting-3500-organizations,"Mirage2FA Phishing Kit Bypasses MFA to Hijack Microsoft 365 Sessions, Targeting 3,500+ Organizations",2026-08-26T08:21:30.000Z,2026-08-26T08:57:08.603Z
 ip,185.190.58.172,https://cybersecuritynews.com/jfrog-artifactory-vulnerabilities-actively-exploited,JFrog Artifactory Vulnerabilities Actively Exploited in the Wild to Gain Administrative Control,2026-09-11T08:17:33.000Z,2026-09-11T09:08:40.034Z
 ip,185.193.48.92:445,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
 ip,185.193.48.92:4675,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
@@ -3433,6 +3433,7 @@ telegram,https://t.me/liwaamohammad,https://www.ransomware.live/group/bqtlock,Ra
 telegram,https://t.me/Magic13377,https://www.ransomware.live/group/crazyhunter,Ransomware.live - crazyhunter,,2026-09-15T12:00:02.015Z
 telegram,https://t.me/night_spire_team,https://www.ransomware.live/group/nightspire,Ransomware.live - nightspire,,2026-09-15T12:00:02.015Z
 telegram,https://t.me/NovaGroup2023,https://www.ransomware.live/group/novagroup,Ransomware.live - novagroup,,2026-09-15T12:00:02.015Z
+telegram,https://t.me/Qqqqqqops,https://www.ransomware.live/group/d1r,Ransomware.live - d1r,,2026-09-18T16:30:21.276Z
 telegram,https://t.me/ransom_house,https://www.ransomware.live/group/ransomhouse,Ransomware.live - ransomhouse,,2026-09-15T12:00:02.015Z
 telegram,https://t.me/RHouseNews,https://www.ransomware.live/group/ransomhouse,Ransomware.live - ransomhouse,,2026-09-15T12:00:02.015Z
 telegram,https://t.me/s/andrewfedman,https://www.ransomware.live/group/shinyhunters,Ransomware.live - shinyhunters,,2026-09-15T12:00:02.015Z
@@ -3447,6 +3448,7 @@ tox,022A7EEB83B648F55DA7A6BEFD130C2156C74F3501A31D853234EC2D18E77A1E5BEC7F602011
 tox,02B37A5C56F8A4A73284B3CF5972D6F5C92258EC0B6269DF5C64E364E8AA8C0B0C51D7B87747,https://www.ransomware.live/group/netrunner,Ransomware.live - netrunner,,2026-09-15T12:00:02.015Z
 tox,038F61A270B8094E713E4815C4FA5086E4AD3A021575C6F90EE65A0C123D3E3BF6926C3B59EA,https://www.ransomware.live/group/nightspire,Ransomware.live - nightspire,,2026-09-12T20:26:23.661Z
 tox,061AA6BDE8F6DE6C92F0D6E077359BF6911FCAF80030E82B3A3DB65E63C8011343D34F956FEC,https://www.ransomware.live/group/medusa,Ransomware.live - medusa,,2026-09-15T12:00:02.015Z
+tox,063719AF013AD4EE89B497701BA5916898D70F45543C39E41154C4BCAC3A2F26F57913B31431,https://www.ransomware.live/group/d1r,Ransomware.live - d1r,,2026-09-18T16:30:21.276Z
 tox,071EA649F06BDB7123C99653B7371E3B59860EE405E66A31EE0FD385F745A000405B6846ECBC,https://www.ransomware.live/group/krybit,Ransomware.live - krybit,,2026-09-15T12:00:02.015Z
 tox,07907451C6709A86CFB6933822BF1830387948DF3369F90496ECAACB8B92C14C1C0BF7D86ED7,https://www.ransomware.live/group/endzone,Ransomware.live - endzone,,2026-09-18T07:29:02.203Z
 tox,088B7708F2C1557B6023B1102FFC5C36C023FF4883CB073F26A33B73832C9268993ED58B817E,https://www.ransomware.live/group/nitrogen,Ransomware.live - nitrogen,,2026-09-15T12:00:02.015Z
