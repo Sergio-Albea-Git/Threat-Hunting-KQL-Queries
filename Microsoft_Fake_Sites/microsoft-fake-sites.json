@@ -2918,6 +2918,32 @@
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
       "status": "active"
+    },
+    {
+      "id": "mfs-0279",
+      "url": "http://verificacion365.freepage.cc/",
+      "domain": "verificacion365.freepage.cc",
+      "brand": "Microsoft 365",
+      "technique": "Spanish-language 'Verificacion Microsoft' credential harvester on free hosting (freepage.cc)",
+      "detection": "Look for *.freepage.cc hosts containing '365' or 'verificacion', and pages titled 'Verificacion Microsoft' that aren't on Microsoft domains",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0280",
+      "url": "https://mxoff-standard-v.us-iad-10.linodeobjects.com/rsa.html",
+      "domain": "mxoff-standard-v.us-iad-10.linodeobjects.com",
+      "brand": "Microsoft 365",
+      "technique": "Fake 'Microsoft Security - Verify Your Identity' page hosted on Linode Object Storage",
+      "detection": "Alert on *.linodeobjects.com HTML pages titled 'Microsoft Security - Verify Your Identity' or with 'mxoff' in the bucket name",
+      "source": "OpenPhish",
+      "source_url": "https://urlscan.io/search/#domain:mxoff-standard-v.us-iad-10.linodeobjects.com",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "status": "active"
     }
   ]
 }
