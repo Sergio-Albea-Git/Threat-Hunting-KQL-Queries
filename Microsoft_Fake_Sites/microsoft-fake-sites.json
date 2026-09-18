@@ -3061,6 +3061,19 @@
       "first_seen": "2026-09-09",
       "last_seen": "2026-09-09",
       "status": "active"
+    },
+    {
+      "id": "mfs-0290",
+      "url": "https://login-microsoftonline.pl/",
+      "domain": "login-microsoftonline.pl",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "Typosquat of login.microsoftonline.com on a .pl ccTLD, hosting a fake account-login lure",
+      "detection": "Look for 'login-microsoftonline' on any TLD other than microsoftonline.com in DNS/proxy logs; hostname resolved to 85.128.128.104",
+      "source": "PhishDestroy",
+      "source_url": "https://phishdestroy.io/domain/login-microsoftonline.pl/",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "status": "active"
     }
   ]
 }
