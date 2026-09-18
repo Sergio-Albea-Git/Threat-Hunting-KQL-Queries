@@ -3815,6 +3815,32 @@
       "first_seen": "2026-08-31",
       "last_seen": "2026-08-31",
       "status": "active"
+    },
+    {
+      "id": "mfs-0348",
+      "url": "https://oskey.com",
+      "domain": "oskey.com",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "AiTM phishing lure domain used in IT help-desk vishing (PREY-0058); victim-specific subdomains like <org>.oskey.com",
+      "detection": "Hunt proxy/DNS logs for *.oskey.com and for Entra sign-ins from residential proxies right after a help-desk call",
+      "source": "Arctic Wolf",
+      "source_url": "https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0349",
+      "url": "https://chartered.flipbookonlinevault.com/scanna/file001//",
+      "domain": "chartered.flipbookonlinevault.com",
+      "brand": "Microsoft 365",
+      "technique": "GhostCode device-code phishing: flipbook relay with bot filtering, reached from a password-protected HTML attachment in WeTransfer, redirects to a fake account-access sign-in page",
+      "detection": "Alert on /scanna/ paths on flipbook* domains followed by a deviceCode sign-in and several Intune/DRS device registrations within minutes",
+      "source": "eSentire TRU",
+      "source_url": "https://www.esentire.com/blog/ghostcode-dissecting-a-novel-device-code-phishing-kit",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "active"
     }
   ]
 }
