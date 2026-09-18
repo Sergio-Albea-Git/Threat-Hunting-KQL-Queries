@@ -2827,6 +2827,32 @@
       "first_seen": "2026-09-01",
       "last_seen": "2026-09-01",
       "status": "active"
+    },
+    {
+      "id": "mfs-0272",
+      "url": "https://soporte.offices-support.com/i/a5a87edd5408d4d4aa07fe6a4e23d3a2f",
+      "domain": "soporte.offices-support.com",
+      "brand": "Microsoft 365 / Office",
+      "technique": "Lookalike 'offices-support' domain with a Spanish 'soporte' subdomain; uses the same /i/<hash> landing path as the m365-microsoft.com and internal-alerts.com kits",
+      "detection": "Look in proxy/DNS logs for *.offices-support.com and for /i/ followed by a 33-character hex path on non-Microsoft hosts",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0273",
+      "url": "https://soporte.offices-support.com/form/a8247b3dc61a46a6a54aa1b5713bda72/a5a87edd5408d4d4aa07fe6a4e23d3a2f",
+      "domain": "soporte.offices-support.com",
+      "brand": "Microsoft 365 / Office",
+      "technique": "Credential-capture form on a lookalike Office support domain; a second step of the same /i/<hash> kit",
+      "detection": "Alert on POSTs to /form/<32hex>/<33hex> paths and on any request to offices-support.com",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "status": "active"
     }
   ]
 }
