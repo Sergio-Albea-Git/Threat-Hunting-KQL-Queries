@@ -2853,6 +2853,71 @@
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-18",
       "status": "active"
+    },
+    {
+      "id": "mfs-0274",
+      "url": "http://ferdelmann.charles.office-share-microsoft.com/",
+      "domain": "ferdelmann.charles.office-share-microsoft.com",
+      "brand": "Microsoft 365 / Office",
+      "technique": "Lookalike combo-squat domain (office-share-microsoft) with a victim-name subdomain serving a fake Microsoft sign-in page",
+      "detection": "Alert on DNS/proxy hits for *.office-share-microsoft.com and on subdomains shaped like firstname.lastname under new Microsoft-themed domains",
+      "source": "OpenPhish",
+      "source_url": "https://openphish.com/feed.txt",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0275",
+      "url": "http://www.ozatak.com/office",
+      "domain": "www.ozatak.com",
+      "brand": "Microsoft Office 365",
+      "technique": "Office credential-phishing page hosted under an /office path on a compromised or unrelated site",
+      "detection": "Hunt proxy logs for POSTs to non-Microsoft hosts with /office paths that follow email link clicks",
+      "source": "OpenPhish",
+      "source_url": "https://openphish.com/feed.txt",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0276",
+      "url": "http://security.m365-microsoft.com/page/b61523c398fb47cd9e884313f5c33349/d51ee024a6cb3468996ec7c9307051d1d",
+      "domain": "security.m365-microsoft.com",
+      "brand": "Microsoft 365",
+      "technique": "Typosquat m365-microsoft.com phishing platform; /page/<32-hex>/<32-hex> landing variant of the /i/ link we already track",
+      "detection": "Block all of *.m365-microsoft.com and match URL regex /(i|page)/[a-f0-9]{32,33}",
+      "source": "OpenPhish",
+      "source_url": "https://openphish.com/feed.txt",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0277",
+      "url": "https://account-access-rc3uenqi.elitechiropracticandrehab.com",
+      "domain": "account-access-rc3uenqi.elitechiropracticandrehab.com",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "GhostCode device-code phishing (OAuth device authorization grant abusing the Microsoft Authentication Broker), delivered via a password-protected HTML file on WeTransfer",
+      "detection": "Hunt Entra sign-in logs for authenticationProtocol=deviceCode with client ID 29d9ed98-a469-4536-ade2-f981bc1d605e, followed by fast device registration",
+      "source": "eSentire",
+      "source_url": "https://www.esentire.com/blog/ghostcode-dissecting-a-novel-device-code-phishing-kit",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0278",
+      "url": "https://chartered.flipbookonlinevault.com",
+      "domain": "chartered.flipbookonlinevault.com",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "GhostCode relay and bot-filtering layer that redirects to the device-code phishing page via /scanna/<32-hex>/<64-hex> paths",
+      "detection": "Match proxy URLs against the regex /scanna/[a-f0-9]{32}/[a-f0-9]{64} and the path /scanna/file001/",
+      "source": "eSentire",
+      "source_url": "https://www.esentire.com/blog/ghostcode-dissecting-a-novel-device-code-phishing-kit",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "active"
     }
   ]
 }
