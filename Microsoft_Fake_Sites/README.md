@@ -10,7 +10,7 @@ Azure AD / **Entra ID**, Live). It is refreshed **hourly** by an automated track
 web-searches public phishing feeds and vendor reporting, and it keeps a **rolling 30-day**
 window — entries older than that are dropped automatically.
 
-- **Entries:** 236
+- **Entries:** 262
 - **Retention:** rolling 30 days
 - **Last updated:** 2026-09-18
 - **Maintained by:** PAI Microsoft Fake Sites Tracker (hourly) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
@@ -255,6 +255,32 @@ window — entries older than that are dropped automatically.
 | mfs-0288 | Microsoft Entra ID | SSO-setup lure domain reached by vishing; AiTM Microsoft 365 sign-in relay | 2026-09-09 | Palo Alto Networks Unit 42 |
 | mfs-0289 | Microsoft Entra ID | SSO/passkey-themed lure domain with a victim-org subdomain; AiTM passkey-enrollment hijack | 2026-09-09 | Palo Alto Networks Unit 42 |
 | mfs-0290 | Microsoft 365 / Entra ID | Typosquat of login.microsoftonline.com on a .pl ccTLD, hosting a fake account-login lure | 2026-09-16 | PhishDestroy |
+| mfs-0291 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0292 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0293 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0294 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0295 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0296 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0297 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0298 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0299 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0300 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0301 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0302 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0303 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0304 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0305 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0306 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0307 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0308 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0309 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0310 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0311 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0312 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0313 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0314 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0315 | Microsoft 365 / Entra ID | GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT | 2026-09-15 | eSentire |
+| mfs-0316 | Microsoft 365 / Entra ID | GhostCode relay / decoy PDF host that redirects to the device-code phishing kit | 2026-09-15 | eSentire |
 
 ### mfs-0001 — Microsoft Advertising / Microsoft account
 
@@ -3324,11 +3350,349 @@ https://login-microsoftonline.pl/
 - **Status:** active
 - **First seen:** 2026-09-16
 
+### mfs-0291 — Microsoft 365 / Entra ID
+
+```text
+https://account-access-thlwvhxo.cxxzf.com/
+```
+
+- **Domain:** `account-access-thlwvhxo.cxxzf.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0292 — Microsoft 365 / Entra ID
+
+```text
+https://account-access-unlcjkmj.androidpreneur.com/
+```
+
+- **Domain:** `account-access-unlcjkmj.androidpreneur.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0293 — Microsoft 365 / Entra ID
+
+```text
+https://saml-access-bgzdiwai.pelicol.com/
+```
+
+- **Domain:** `saml-access-bgzdiwai.pelicol.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0294 — Microsoft 365 / Entra ID
+
+```text
+https://saml-access-hjg5zb1m.schuelerhvac.com/
+```
+
+- **Domain:** `saml-access-hjg5zb1m.schuelerhvac.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0295 — Microsoft 365 / Entra ID
+
+```text
+https://saml-access-fgphrx1b.geefjelevenkleur.com/
+```
+
+- **Domain:** `saml-access-fgphrx1b.geefjelevenkleur.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0296 — Microsoft 365 / Entra ID
+
+```text
+https://saml-access-0yni8zkk.deltarstar.com/
+```
+
+- **Domain:** `saml-access-0yni8zkk.deltarstar.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0297 — Microsoft 365 / Entra ID
+
+```text
+https://saml-access-qhtexulk.atomzilla.com/
+```
+
+- **Domain:** `saml-access-qhtexulk.atomzilla.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0298 — Microsoft 365 / Entra ID
+
+```text
+https://saml-access-ebntirhn.followmyitems.com/
+```
+
+- **Domain:** `saml-access-ebntirhn.followmyitems.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0299 — Microsoft 365 / Entra ID
+
+```text
+https://saml-access-umjn1zxd.vnamecard.com/
+```
+
+- **Domain:** `saml-access-umjn1zxd.vnamecard.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0300 — Microsoft 365 / Entra ID
+
+```text
+https://saml-access-whwhikxl.lygdhc.com/
+```
+
+- **Domain:** `saml-access-whwhikxl.lygdhc.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0301 — Microsoft 365 / Entra ID
+
+```text
+https://saml-access-4ejlnged.cciwedding.com/
+```
+
+- **Domain:** `saml-access-4ejlnged.cciwedding.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0302 — Microsoft 365 / Entra ID
+
+```text
+https://saml-access-vdjnpebo.alltoyotatrucksuvparts.com/
+```
+
+- **Domain:** `saml-access-vdjnpebo.alltoyotatrucksuvparts.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0303 — Microsoft 365 / Entra ID
+
+```text
+https://onestep-access-aosbgdan.tv-appspot.com/
+```
+
+- **Domain:** `onestep-access-aosbgdan.tv-appspot.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0304 — Microsoft 365 / Entra ID
+
+```text
+https://signin-access-3qbuumoo.alltoyotatrucksuvparts.com/
+```
+
+- **Domain:** `signin-access-3qbuumoo.alltoyotatrucksuvparts.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0305 — Microsoft 365 / Entra ID
+
+```text
+https://session-access-hrh9axw6.androidpreneur.com/
+```
+
+- **Domain:** `session-access-hrh9axw6.androidpreneur.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0306 — Microsoft 365 / Entra ID
+
+```text
+https://signin-access-ltcpr2s7.breakingpandora.com/
+```
+
+- **Domain:** `signin-access-ltcpr2s7.breakingpandora.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0307 — Microsoft 365 / Entra ID
+
+```text
+https://secure-access-ht0ysxlq.alltoyotatrucksuvparts.com/
+```
+
+- **Domain:** `secure-access-ht0ysxlq.alltoyotatrucksuvparts.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0308 — Microsoft 365 / Entra ID
+
+```text
+https://verify-access-umjlvvrx.alltoyotatrucksuvparts.com/
+```
+
+- **Domain:** `verify-access-umjlvvrx.alltoyotatrucksuvparts.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0309 — Microsoft 365 / Entra ID
+
+```text
+https://signin-access-bpbippyw.geefjelevenkleur.com/
+```
+
+- **Domain:** `signin-access-bpbippyw.geefjelevenkleur.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0310 — Microsoft 365 / Entra ID
+
+```text
+https://mfa-access-pyvxbnjc.atomzilla.com/
+```
+
+- **Domain:** `mfa-access-pyvxbnjc.atomzilla.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0311 — Microsoft 365 / Entra ID
+
+```text
+https://signin-access-whtc5iq4.accudiodesign.com/
+```
+
+- **Domain:** `signin-access-whtc5iq4.accudiodesign.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0312 — Microsoft 365 / Entra ID
+
+```text
+https://authenticate-access-unb5gtsf.xhscyp.com/
+```
+
+- **Domain:** `authenticate-access-unb5gtsf.xhscyp.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0313 — Microsoft 365 / Entra ID
+
+```text
+https://validate-access-kgcdauwc.xhscyp.com/
+```
+
+- **Domain:** `validate-access-kgcdauwc.xhscyp.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0314 — Microsoft 365 / Entra ID
+
+```text
+https://verify-access-6dlrv01r.adogabroad.com/
+```
+
+- **Domain:** `verify-access-6dlrv01r.adogabroad.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0315 — Microsoft 365 / Entra ID
+
+```text
+https://identity-access-1w2m8s2x.arlingtonhousecleaning.com/
+```
+
+- **Domain:** `identity-access-1w2m8s2x.arlingtonhousecleaning.com`
+- **Technique:** GhostCode device-code phishing kit on compromised-site subdomain; abuses OAuth device code flow, registers Entra devices, steals PRT
+- **Detection:** Hunt DNS/proxy for subdomains matching (saml|signin|account|mfa|verify|secure|session|identity|validate|authenticate|onestep)-access-[a-z0-9]{8} plus Entra deviceCode sign-ins followed by device registration
+- **Source:** eSentire — https://github.com/eSentire/iocs/blob/main/GhostCode/GhostCode-iocs-09-09-2026.txt
+- **Status:** active
+- **First seen:** 2026-09-15
+
+### mfs-0316 — Microsoft 365 / Entra ID
+
+```text
+https://flipbookviewer.us/
+```
+
+- **Domain:** `flipbookviewer.us`
+- **Technique:** GhostCode relay / decoy PDF host that redirects to the device-code phishing kit
+- **Detection:** Flag flipbook-themed domains that redirect via /scanna/ paths or /turnstile?return_url= to *-access-* hosts
+- **Source:** eSentire — https://www.esentire.com/blog/ghostcode-dissecting-a-novel-device-code-phishing-kit
+- **Status:** active
+- **First seen:** 2026-09-15
+
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
 ```kusto
 // Network/proxy hits to catalogued fake Microsoft sign-in hosts
-let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu", "passkeyhelpdesk.com", "secure-passkey.com", "setupmypasskey.com", "add-passkey.com", "portalsetuphub.com", "odahlzr5lm.reliabilityinoperations.de", "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu", "crsons.net", "afghantarin.com", "cabinetzeukeng.net", "assignpasskey.com", "mfaregister.com", "nowsso.com", "oskeysetup.com", "passkey-mfa.com", "integratedsso.com", "oktasession.com", "keysyncos.com", "oskeysync.com", "indecodesign.net", "jzqs-udkz-yhxx.hutton-aasir-dropons-com-s-account.workers.dev", "cdn.bloom.io", "oskeyregister.com", "syncmykey.com", "myconnectkey.com", "oskeyconnect.com", "validationsetupac.com", "oursso.com", "passkeydeploy.com", "registermymfa.com", "setpasskey.com", "xn--mcrosoftonlne-39bk.com", "microsoftonline-recovery.com", "microsoftonlinecommonoauth.com", "0utl00k.online", "0utl00k.store", "0utl00k.site", "microsoftmultifactor.com", "microsoftauthverify.com", "office365idp.com", "office365mail.com", "microsoft365online.cloud", "https-forms-cloud-microsoft-pages-responsepage-a.link", "onedrive-share.online", "pdf-onedrivesharedfile.work", "microsoftteamsbooking.com", "microsoftteambookingz.top", "microsofteams.live", "outlook365allservers.help", "support-outlook.com", "contactsupport-microsoft.com", "helpsecure-microsoft.com", "microsoft251207.com", "676132-microsoft.com", "outlook10.net", "outlo0k.com", "onedrivee.online", "office365.internal-alerts.com", "support.m365-microsoft.com", "security.email-microsoft.com", "programme-hup.m365-microsoft.com", "security.m365-microsoft.com", "emailnotifications.m365-microsoft.com", "reactivar-microsoft-live.iceiy.com", "microsoftjk.eu.org", "microsoft-login-securitylogin.jimdofree.com", "click5.microsoftsupportcenter.digital", "click6.microsoftsupportcenter.digital", "microsoft-se.us", "microsoft.updata.net.cn", "microsoft.authorised-support.com", "microsoft365businessbasic.com", "office365licensingsupport.com", "microsoft365updates.com", "www-microsoft.com.cn", "microsoft-sharepoint.fr", "microsoftuk.co", "microsoft.vpn-update.org", "outlook-office365.com", "outlook.webaccess-alert.com", "outlook.verifytoken.com", "office365.rricrosoft-offices.org", "microsoft365licensingsupport.com", "onedrive.at-us.therelayservice.com", "outlookmail.social", "plugins.sugar-outlook.com", "hotmail143.net", "www.camisasdecolores.net", "www.owaexchange.com", "office-365-msn--oficeer.replit.app", "login.hotmails.info", "ctia-outlook-2026.s1.yapla.com", "servermailprotection-1sfinfomembers.s3.eu-west-1.amazonaws.com", "deploypasskey.com", "passkeyadd.com", "login-microsoftonnline.jimdofree.com", "office.evergreenfin.ltd", "onelogin.evergreenfin.ltd", "msteamsinvitees.com", "msteamsinvitees.com", "msteamsinvitees.com", "moregoonsrue.com", "www.outlook-test.duckdns.org", "outlook-test.duckdns.org", "mslogin.milocaroline.com", "msonline.logicalineonline.com", "msauth.monlinelogicaline.com", "office.ofrecie.com", "idp.keyreniao.com", "idp.korminel.com", "idp.kualabemo.com", "microsoft365onlineoffice.com", "microsoftonlineoffice365.com", "microsoftofficeonline365.com", "documentsecuredbyoffice365.com", "ms-teamsmeeting.top", "loginmicrosoftonline.democrakidsradio.org", "loginonlinemicrosoftde.democrakidsradio.org", "teams-microsoft-download.com", "onedrivedoc.cfd", "microsoftsteam.online", "microsoftapp.sbs", "microsoft365-techsupport.com", "microsoft-techsupport.com", "micros0ftsolutions.com", "info-microsoft.info", "gaming-outlook.com", "outlooksignal.com", "outlookemails.shop", "outlookdestinations.com", "microsoftteams.top", "microsoftenline.site", "microsoft-nextgenalpha-ai-private-asset-forum.com", "com-onedrive-microsoftonline.com", "melody-swgd-com.vercel.app", "logon.sharefileselfservices.cloud", "sso-services.com", "newcrowdcapital.com", "management.daengrentacar.com", "konceptenterprises.com", "ccpipharma.com", "annastudios-paros.com", "hotelmidtownsurat.com", "dataclust.com", "cifutura.com", "hoaivt.com", "dronalms.com", "virextec.com", "offtic.com", "rootreseller.com", "management.michaelmarcotte.com", "kgsscans.com", "soil-management.com", "security-server-page--chisomotf.replit.app", "security-server-page--jhalskov68.replit.app", "security-server-landing-page--vinjuntrucking.replit.app", "royalbau.hu", "summitalarm.com", "fls-a29a8cd9-0161-4493-bf5c-9f682b16d0c8.laravel.cloud", "ruralbankofdulag.com", "updateserv-owa.vercel.app", "oznormali.vercel.app", "www.teams-login.com", "outlook-email-2026.hstn.me", "intermezzoconsultoria.com.br", "app.jotform.com", "soporte.offices-support.com", "soporte.offices-support.com", "ferdelmann.charles.office-share-microsoft.com", "www.ozatak.com", "security.m365-microsoft.com", "account-access-rc3uenqi.elitechiropracticandrehab.com", "chartered.flipbookonlinevault.com", "verificacion365.freepage.cc", "mxoff-standard-v.us-iad-10.linodeobjects.com", "signinoptions.com", "mfa-settings.com", "installpasskey.com", "register-passkeys.com", "register-passkey.com", "deploypasskeys.com", "mfa-registry.com", "setupmysso.com", "sso-passkey.com", "login-microsoftonline.pl"]);
+let FakeMsHosts = dynamic(["microsoft-advertising-authentification.sgn-1.com", "emanuelabsoluciones.com", "microsoft-alpha.vercel.app", "watco.microsoft-notifcation.com", "50a201fd-dd2d-cf72-5fa6-onedrive.clear90489058903-document.workers.dev", "aquaclaude-09494-9099403-docviewer.clear90489058903-document.workers.dev", "spx.pamconj.com", "login-microsoft-0nline.ts.r.appspot.com", "login-microsoft-outlook.el.r.appspot.com", "tlook-off365-signin.el.r.appspot.com", "xmaksvwq.wze.io", "noithatviet24h.vn", "newprojectdocument.uc.r.appspot.com", "onedrivelinkedindocument.oa.r.appspot.com", "spherical-door-277805.uc.r.appspot.com", "voicemail365.nn.r.appspot.com", "office365-portal-verify.el.r.appspot.com", "loginblxxslingfbvfgh600ohjm.ga", "notifications.microsoft-ssl.com", "login-outlook365.yzz.me", "grupoimpaktu.ao", "login.authorised-support.com", "bmb.adv.br", "microsoftwordob.blogspot.com", "microsoft0117.vercel.app", "proteccion-outlook2026.iceiy.com", "advancedplacyncement.vu", "amstardmzsmc.vu", "arandasoftzfdware.vu", "avisoretentiunionllc.vu", "capitalflwxinancialpartners.vu", "certififiycationedge.vu", "connectivnqzityltd.vu", "crrbcearegroup.vu", "digitaltrafwwrficsystems.vu", "exceltecbusinessbwpsolutions.vu", "genamewwgdiamarketing.vu", "globaieflsoftinc.vu", "globalmixeucbdmodetechnologyinc.vu", "globalprojectspvtltd.vu", "joinbusinessmanagementconsdjeulting.vu", "kentmanqhfufacturingcompany.vu", "kleepxrnlinecorporation.vu", "knsinternacshtional.vu", "monttmmlrustcompany.vu", "mtprormtductions.vu", "realestatecotblrp.vu", "siottxgroup.vu", "summitcapitaltrapojininggroup.vu", "techcompositnkoes.vu", "techromixsolutionlonsinc.vu", "passkeyhelpdesk.com", "secure-passkey.com", "setupmypasskey.com", "add-passkey.com", "portalsetuphub.com", "odahlzr5lm.reliabilityinoperations.de", "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu", "crsons.net", "afghantarin.com", "cabinetzeukeng.net", "assignpasskey.com", "mfaregister.com", "nowsso.com", "oskeysetup.com", "passkey-mfa.com", "integratedsso.com", "oktasession.com", "keysyncos.com", "oskeysync.com", "indecodesign.net", "jzqs-udkz-yhxx.hutton-aasir-dropons-com-s-account.workers.dev", "cdn.bloom.io", "oskeyregister.com", "syncmykey.com", "myconnectkey.com", "oskeyconnect.com", "validationsetupac.com", "oursso.com", "passkeydeploy.com", "registermymfa.com", "setpasskey.com", "xn--mcrosoftonlne-39bk.com", "microsoftonline-recovery.com", "microsoftonlinecommonoauth.com", "0utl00k.online", "0utl00k.store", "0utl00k.site", "microsoftmultifactor.com", "microsoftauthverify.com", "office365idp.com", "office365mail.com", "microsoft365online.cloud", "https-forms-cloud-microsoft-pages-responsepage-a.link", "onedrive-share.online", "pdf-onedrivesharedfile.work", "microsoftteamsbooking.com", "microsoftteambookingz.top", "microsofteams.live", "outlook365allservers.help", "support-outlook.com", "contactsupport-microsoft.com", "helpsecure-microsoft.com", "microsoft251207.com", "676132-microsoft.com", "outlook10.net", "outlo0k.com", "onedrivee.online", "office365.internal-alerts.com", "support.m365-microsoft.com", "security.email-microsoft.com", "programme-hup.m365-microsoft.com", "security.m365-microsoft.com", "emailnotifications.m365-microsoft.com", "reactivar-microsoft-live.iceiy.com", "microsoftjk.eu.org", "microsoft-login-securitylogin.jimdofree.com", "click5.microsoftsupportcenter.digital", "click6.microsoftsupportcenter.digital", "microsoft-se.us", "microsoft.updata.net.cn", "microsoft.authorised-support.com", "microsoft365businessbasic.com", "office365licensingsupport.com", "microsoft365updates.com", "www-microsoft.com.cn", "microsoft-sharepoint.fr", "microsoftuk.co", "microsoft.vpn-update.org", "outlook-office365.com", "outlook.webaccess-alert.com", "outlook.verifytoken.com", "office365.rricrosoft-offices.org", "microsoft365licensingsupport.com", "onedrive.at-us.therelayservice.com", "outlookmail.social", "plugins.sugar-outlook.com", "hotmail143.net", "www.camisasdecolores.net", "www.owaexchange.com", "office-365-msn--oficeer.replit.app", "login.hotmails.info", "ctia-outlook-2026.s1.yapla.com", "servermailprotection-1sfinfomembers.s3.eu-west-1.amazonaws.com", "deploypasskey.com", "passkeyadd.com", "login-microsoftonnline.jimdofree.com", "office.evergreenfin.ltd", "onelogin.evergreenfin.ltd", "msteamsinvitees.com", "msteamsinvitees.com", "msteamsinvitees.com", "moregoonsrue.com", "www.outlook-test.duckdns.org", "outlook-test.duckdns.org", "mslogin.milocaroline.com", "msonline.logicalineonline.com", "msauth.monlinelogicaline.com", "office.ofrecie.com", "idp.keyreniao.com", "idp.korminel.com", "idp.kualabemo.com", "microsoft365onlineoffice.com", "microsoftonlineoffice365.com", "microsoftofficeonline365.com", "documentsecuredbyoffice365.com", "ms-teamsmeeting.top", "loginmicrosoftonline.democrakidsradio.org", "loginonlinemicrosoftde.democrakidsradio.org", "teams-microsoft-download.com", "onedrivedoc.cfd", "microsoftsteam.online", "microsoftapp.sbs", "microsoft365-techsupport.com", "microsoft-techsupport.com", "micros0ftsolutions.com", "info-microsoft.info", "gaming-outlook.com", "outlooksignal.com", "outlookemails.shop", "outlookdestinations.com", "microsoftteams.top", "microsoftenline.site", "microsoft-nextgenalpha-ai-private-asset-forum.com", "com-onedrive-microsoftonline.com", "melody-swgd-com.vercel.app", "logon.sharefileselfservices.cloud", "sso-services.com", "newcrowdcapital.com", "management.daengrentacar.com", "konceptenterprises.com", "ccpipharma.com", "annastudios-paros.com", "hotelmidtownsurat.com", "dataclust.com", "cifutura.com", "hoaivt.com", "dronalms.com", "virextec.com", "offtic.com", "rootreseller.com", "management.michaelmarcotte.com", "kgsscans.com", "soil-management.com", "security-server-page--chisomotf.replit.app", "security-server-page--jhalskov68.replit.app", "security-server-landing-page--vinjuntrucking.replit.app", "royalbau.hu", "summitalarm.com", "fls-a29a8cd9-0161-4493-bf5c-9f682b16d0c8.laravel.cloud", "ruralbankofdulag.com", "updateserv-owa.vercel.app", "oznormali.vercel.app", "www.teams-login.com", "outlook-email-2026.hstn.me", "intermezzoconsultoria.com.br", "app.jotform.com", "soporte.offices-support.com", "soporte.offices-support.com", "ferdelmann.charles.office-share-microsoft.com", "www.ozatak.com", "security.m365-microsoft.com", "account-access-rc3uenqi.elitechiropracticandrehab.com", "chartered.flipbookonlinevault.com", "verificacion365.freepage.cc", "mxoff-standard-v.us-iad-10.linodeobjects.com", "signinoptions.com", "mfa-settings.com", "installpasskey.com", "register-passkeys.com", "register-passkey.com", "deploypasskeys.com", "mfa-registry.com", "setupmysso.com", "sso-passkey.com", "login-microsoftonline.pl", "account-access-thlwvhxo.cxxzf.com", "account-access-unlcjkmj.androidpreneur.com", "saml-access-bgzdiwai.pelicol.com", "saml-access-hjg5zb1m.schuelerhvac.com", "saml-access-fgphrx1b.geefjelevenkleur.com", "saml-access-0yni8zkk.deltarstar.com", "saml-access-qhtexulk.atomzilla.com", "saml-access-ebntirhn.followmyitems.com", "saml-access-umjn1zxd.vnamecard.com", "saml-access-whwhikxl.lygdhc.com", "saml-access-4ejlnged.cciwedding.com", "saml-access-vdjnpebo.alltoyotatrucksuvparts.com", "onestep-access-aosbgdan.tv-appspot.com", "signin-access-3qbuumoo.alltoyotatrucksuvparts.com", "session-access-hrh9axw6.androidpreneur.com", "signin-access-ltcpr2s7.breakingpandora.com", "secure-access-ht0ysxlq.alltoyotatrucksuvparts.com", "verify-access-umjlvvrx.alltoyotatrucksuvparts.com", "signin-access-bpbippyw.geefjelevenkleur.com", "mfa-access-pyvxbnjc.atomzilla.com", "signin-access-whtc5iq4.accudiodesign.com", "authenticate-access-unb5gtsf.xhscyp.com", "validate-access-kgcdauwc.xhscyp.com", "verify-access-6dlrv01r.adogabroad.com", "identity-access-1w2m8s2x.arlingtonhousecleaning.com", "flipbookviewer.us"]);
 DeviceNetworkEvents
 | where RemoteUrl has_any (FakeMsHosts) or RemoteDomain in~ (FakeMsHosts)
 | project Timestamp, DeviceName, InitiatingProcessAccountUpn, RemoteUrl, RemoteIP
