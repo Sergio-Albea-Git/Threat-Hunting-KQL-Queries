@@ -3763,6 +3763,58 @@
       "first_seen": "2026-09-16",
       "last_seen": "2026-09-16",
       "status": "active"
+    },
+    {
+      "id": "mfs-0344",
+      "url": "https://msoft-common-gbz-8999.us-sea-1.linodeobjects.com/cloudzymsfto.html",
+      "domain": "msoft-common-gbz-8999.us-sea-1.linodeobjects.com",
+      "brand": "Microsoft 365",
+      "technique": "Fake Microsoft sign-in page hosted on Linode (Akamai) Object Storage bucket, like the earlier mxoff linodeobjects.com lure",
+      "detection": "Hunt proxy/DNS logs for *.linodeobjects.com requests with msoft/mxoff/office bucket names or .html paths, followed by a POST to an off-Microsoft host",
+      "source": "OpenPhish",
+      "source_url": "https://openphish.com/feed.txt",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0345",
+      "url": "https://mfaoptions.com",
+      "domain": "mfaoptions.com",
+      "brand": "Microsoft Entra ID / Microsoft 365",
+      "technique": "Vishing-led AiTM lure where a fake help desk steers the victim to <victim>.mfaoptions.com for Entra MFA/passkey enrollment (Com-affiliated, NiceNIC + Cloudflare)",
+      "detection": "Alert on sign-ins or DNS lookups to newly registered mfa/passkey/sso-themed domains that contain your org name as a subdomain",
+      "source": "Palo Alto Networks Unit 42",
+      "source_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-31-Attackers-Use-New-MFA-Themed-Domains.txt",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0346",
+      "url": "https://mfa-options.com",
+      "domain": "mfa-options.com",
+      "brand": "Microsoft Entra ID / Microsoft 365",
+      "technique": "Vishing-led AiTM MFA-enrollment lure with per-victim subdomains (Com-affiliated, NiceNIC + Cloudflare)",
+      "detection": "Block the *.mfa-options.com wildcard, then look for OfficeHome/My Signins sign-ins from residential proxies soon after a help-desk call",
+      "source": "Palo Alto Networks Unit 42",
+      "source_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-31-Attackers-Use-New-MFA-Themed-Domains.txt",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0347",
+      "url": "https://register-mfa.com",
+      "domain": "register-mfa.com",
+      "brand": "Microsoft Entra ID / Microsoft 365",
+      "technique": "Vishing-led AiTM lure imitating Entra MFA registration, with a separate subdomain for each target company",
+      "detection": "Watch CT logs and passive DNS for register-mfa.com subdomains matching your brand, and for new MFA/passkey methods registered from unmanaged devices",
+      "source": "Palo Alto Networks Unit 42",
+      "source_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-31-Attackers-Use-New-MFA-Themed-Domains.txt",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "active"
     }
   ]
 }
