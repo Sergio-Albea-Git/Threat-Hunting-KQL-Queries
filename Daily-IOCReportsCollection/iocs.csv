@@ -571,7 +571,7 @@ filename,/dist/internal/calc-mapping.bin,https://cybersecuritynews.com/malicious
 filename,/dist/math-calc.bin,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T07:08:29.914Z
 filename,/dist/math-core.bin,https://cybersecuritynews.com/malicious-npm-packages,Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks,2026-08-24T06:09:19.000Z,2026-08-24T07:08:29.914Z
 filename,/lib/libseconfd.so,https://cybersecuritynews.com/hackers-compromise-cisco-routers,Hackers Compromise Cisco Routers to Spy on Networks and Reach Critical Infrastructure,2026-09-01T07:14:27.000Z,2026-09-01T07:49:15.888Z
-filename,/tmp/osalogging.zip,https://cybersecuritynews.com/fake-claude-install-guide,Hackers Use Fake Claude Install Guide to Deploy MacSync Stealer and Trojanize Crypto Wallet Apps,2026-08-19T10:34:19.000Z,2026-08-19T12:05:38.490Z
+filename,/tmp/osalogging.zip,https://cybersecuritynews.com/fake-claude-and-chatgpt-installers,Hackers Use Fake Claude and ChatGPT Installers to Infect Mac Users With Password-Stealing Malware,2026-09-10T09:53:52.000Z,2026-09-10T10:26:02.579Z
 filename,/usr/lib/locate/.backup_ld.so,https://cybersecuritynews.com/hackers-compromise-cisco-routers,Hackers Compromise Cisco Routers to Spy on Networks and Reach Critical Infrastructure,2026-09-01T07:14:27.000Z,2026-09-01T07:49:15.888Z
 filename,/usr/lib/locate/boot.sh,https://cybersecuritynews.com/hackers-compromise-cisco-routers,Hackers Compromise Cisco Routers to Spy on Networks and Reach Critical Infrastructure,2026-09-01T07:14:27.000Z,2026-09-01T07:49:15.888Z
 filename,/usr/lib/locate/libdl.so,https://cybersecuritynews.com/hackers-compromise-cisco-routers,Hackers Compromise Cisco Routers to Spy on Networks and Reach Critical Infrastructure,2026-09-01T07:14:27.000Z,2026-09-01T07:49:15.888Z
@@ -1255,7 +1255,6 @@ ip,82.147.84.232,https://www.ransomware.live/group/teamxxx,Ransomware.live - tea
 ip,83.217.209.210,https://www.ransomware.live/group/devman,Ransomware.live - devman,,2026-09-15T12:00:02.015Z
 ip,84.201.211.40,https://www.ransomware.live/group/lockbit3,Ransomware.live - lockbit3,,2026-09-15T12:00:02.015Z
 ip,85.192.30.211,https://cybersecuritynews.com/dark-caracal-hackers,Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption,2026-08-28T07:54:17.000Z,2026-08-28T08:39:45.221Z
-ip,85.206.161.241,https://cybersecuritynews.com/fake-claude-install-guide,Hackers Use Fake Claude Install Guide to Deploy MacSync Stealer and Trojanize Crypto Wallet Apps,2026-08-19T10:34:19.000Z,2026-08-19T12:05:38.490Z
 ip,85.209.11.49,https://www.ransomware.live/group/qilin,Ransomware.live - qilin,,2026-09-15T12:00:02.015Z
 ip,85.235.151.5:8080,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
 ip,85.239.52.16:2083,https://www.ransomware.live/group/bianlian,Ransomware.live - bianlian,,2026-09-15T12:00:02.015Z
