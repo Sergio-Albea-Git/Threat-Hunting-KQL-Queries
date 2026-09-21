@@ -3841,6 +3841,19 @@
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
       "status": "active"
+    },
+    {
+      "id": "mfs-0350",
+      "url": "http://connectezvousamicrosoftoutlook.weebly.com/",
+      "domain": "connectezvousamicrosoftoutlook.weebly.com",
+      "brand": "Microsoft Outlook",
+      "technique": "Free-site-builder phishing (Weebly) with a French-language 'connect to Microsoft Outlook' credential lure",
+      "detection": "Flag *.weebly.com subdomains containing microsoft/outlook/connectez strings; alert on credential POSTs from free site-builder hosts",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "status": "active"
     }
   ]
 }
