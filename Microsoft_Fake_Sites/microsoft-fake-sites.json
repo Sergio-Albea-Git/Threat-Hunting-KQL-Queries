@@ -4816,6 +4816,97 @@
       "first_seen": "2026-09-17",
       "last_seen": "2026-09-17",
       "status": "active"
+    },
+    {
+      "id": "mfs-0425",
+      "url": "https://f005.backblazeb2.com/file/jamunaban/myoffice.html",
+      "domain": "f005.backblazeb2.com",
+      "brand": "Outlook / Microsoft 365",
+      "technique": "Credential-harvest page hosted on Backblaze B2 cloud storage (abuse of trusted cloud storage)",
+      "detection": "Flag f00*.backblazeb2.com/file/*/myoffice.html and HTML pages titled 'Outlook' served from B2 buckets",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0426",
+      "url": "https://microsoft-0r.github.io/Microsoft.net/",
+      "domain": "microsoft-0r.github.io",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "Cloned 'Sign in to your account' AAD page on GitHub Pages, loads aadcdn assets",
+      "detection": "Hunt *.github.io pages titled 'Sign in to your account' that reference aadcdn.msftauth.net or login.microsoftonline",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0427",
+      "url": "http://owa.goldensemolina.com.tr/",
+      "domain": "owa.goldensemolina.com.tr",
+      "brand": "Outlook Web App",
+      "technique": "OWA login clone on a compromised or lookalike 'owa.' subdomain",
+      "detection": "Alert on 'owa.' subdomains outside your own tenant domains serving pages titled 'Outlook'",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0428",
+      "url": "https://security-server-landing-page--james2606.replit.app/",
+      "domain": "security-server-landing-page--james2606.replit.app",
+      "brand": "Microsoft 365",
+      "technique": "Replit-hosted 'security-server-landing-page' kit cloning the Microsoft sign-in page",
+      "detection": "Block the regex security-server-(landing-)?page--*.replit.app, which is a recurring Microsoft phishing kit pattern",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0429",
+      "url": "https://cgi.s-ed1.cloud.gcore.lu/O365.html",
+      "domain": "cgi.s-ed1.cloud.gcore.lu",
+      "brand": "Microsoft 365 / Outlook",
+      "technique": "Base64 + nested unescape-obfuscated 'Microsoft | Login' page on Gcore object storage",
+      "detection": "Flag *.cloud.gcore.lu HTML pages that use atob() and document.write(unescape()); the filename O365.html is a strong signal",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0430",
+      "url": "http://s.teams-tb.com/p/fjbd-cbch/wevgmaqp",
+      "domain": "s.teams-tb.com",
+      "brand": "Microsoft Teams / Microsoft 365",
+      "technique": "Teams-lookalike domain using the same /p/fjbd-cbch/ path kit as teams-ra.com",
+      "detection": "Hunt newly registered teams-??.com domains and URLs matching /p/fjbd-cb[a-z]{2}/[a-z]{8}",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0431",
+      "url": "http://teams-lo.com/p/fjbd-cbcr/xlxwgqxa",
+      "domain": "teams-lo.com",
+      "brand": "Microsoft Teams / Microsoft 365",
+      "technique": "Teams-lookalike typosquat domain from the same /p/fjbd-* campaign",
+      "detection": "Hunt newly registered teams-??.com domains and URLs matching /p/fjbd-cb[a-z]{2}/[a-z]{8}",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
     }
   ]
 }
