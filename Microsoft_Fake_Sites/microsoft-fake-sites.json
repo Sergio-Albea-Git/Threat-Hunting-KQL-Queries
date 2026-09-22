@@ -3958,6 +3958,19 @@
       "first_seen": "2026-09-22",
       "last_seen": "2026-09-22",
       "status": "active"
+    },
+    {
+      "id": "mfs-0359",
+      "url": "http://adi-panwar.github.io/Microsoft",
+      "domain": "adi-panwar.github.io",
+      "brand": "Microsoft 365",
+      "technique": "Free-hosting phish (GitHub Pages) with a Microsoft-branded path posing as a sign-in page",
+      "detection": "Flag *.github.io URLs whose path contains Microsoft/Office/Outlook and whose page includes a password field",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
     }
   ]
 }
