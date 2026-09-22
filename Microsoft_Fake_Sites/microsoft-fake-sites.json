@@ -4075,6 +4075,32 @@
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-14",
       "status": "active"
+    },
+    {
+      "id": "mfs-0368",
+      "url": "http://security-server-page--emekemine206.replit.app/",
+      "domain": "security-server-page--emekemine206.replit.app",
+      "brand": "Microsoft account / Outlook",
+      "technique": "Fake 'Security verification - Microsoft account' credential-harvest page on a free Replit app subdomain (security-server-page-- template)",
+      "detection": "Alert on *.replit.app hosts starting with 'security-server-page--' or 'security-server-landing-page--' and page titles containing 'Microsoft account'",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0369",
+      "url": "http://security-server-landing-page--mariodrichard.replit.app/",
+      "domain": "security-server-landing-page--mariodrichard.replit.app",
+      "brand": "Microsoft account / Outlook",
+      "technique": "Same Replit 'security-server-landing-page--' Microsoft account verification template seen in earlier replit.app lures",
+      "detection": "Block or hunt *.replit.app subdomains matching 'security-server-(landing-)?page--*' in proxy and DNS logs",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
     }
   ]
 }
