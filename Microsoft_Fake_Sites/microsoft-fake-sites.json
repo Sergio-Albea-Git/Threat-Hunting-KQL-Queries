@@ -4907,6 +4907,97 @@
       "first_seen": "2026-09-22",
       "last_seen": "2026-09-22",
       "status": "active"
+    },
+    {
+      "id": "mfs-0432",
+      "url": "https://www.the365notify.com/AccountSelectionPage/c",
+      "domain": "www.the365notify.com",
+      "brand": "Microsoft 365",
+      "technique": "Lookalike '365' domain hosting a cloned Microsoft 'Sign in to your account' account-picker page",
+      "detection": "Flag newly registered domains containing '365'/'notify' that serve pages titled 'Sign in to your account' with the path /AccountSelectionPage/",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0433",
+      "url": "http://security-server-landing-page--peterajiri2000.replit.app/",
+      "domain": "security-server-landing-page--peterajiri2000.replit.app",
+      "brand": "Microsoft 365 / Outlook",
+      "technique": "Microsoft login clone on Replit free hosting, part of the recurring 'security-server-landing-page--<user>' kit",
+      "detection": "Hunt for *.replit.app hosts matching security-server-(landing-)?page--* that load aadcdn/msftauth assets",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0434",
+      "url": "https://scsproyectos.cl/bx/bell.html",
+      "domain": "scsproyectos.cl",
+      "brand": "Microsoft Account",
+      "technique": "Compromised .cl website hosting a static HTML 'Security verification - Microsoft account' credential page",
+      "detection": "Alert on HTML pages outside Microsoft domains titled 'Security verification - Microsoft account'",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0435",
+      "url": "http://pizzlelinchy.s3.us-east-1.amazonaws.com/DoSignDocu-Project.html",
+      "domain": "pizzlelinchy.s3.us-east-1.amazonaws.com",
+      "brand": "Microsoft Account (DocuSign lure)",
+      "technique": "Phishing page on an AWS S3 bucket using a DocuSign-themed file name to lead to Microsoft account verification",
+      "detection": "Block s3.amazonaws.com objects with DocuSign/DoSign names that contain Microsoft sign-in branding",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0436",
+      "url": "https://hotmail365new.s3.ap-northeast-1.amazonaws.com/MicroUpdateaccount-security.html",
+      "domain": "hotmail365new.s3.ap-northeast-1.amazonaws.com",
+      "brand": "Hotmail / Microsoft 365",
+      "technique": "Hotmail account-security update lure hosted on an AWS S3 bucket",
+      "detection": "Flag S3 bucket names containing hotmail/365/office and HTML objects named *account-security*",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0437",
+      "url": "https://f005.backblazeb2.com/file/kingshit66/myoffice.html",
+      "domain": "f005.backblazeb2.com",
+      "brand": "Microsoft Office 365",
+      "technique": "Office 365 login page on Backblaze B2 storage, the same 'myoffice.html' kit as the jamunaban bucket",
+      "detection": "Hunt for f00*.backblazeb2.com/file/*/myoffice.html across all bucket names",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0438",
+      "url": "https://accounts-ba666e1a.jkhjkjk.workers.dev/ba666e1a43c4497a",
+      "domain": "accounts-ba666e1a.jkhjkjk.workers.dev",
+      "brand": "Microsoft Excel / Office 365",
+      "technique": "Fake 'Excel - Shared Document' credential page on Cloudflare Workers",
+      "detection": "Flag workers.dev hosts starting with 'accounts-' that serve pages titled 'Excel - Shared Document'",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
     }
   ]
 }
