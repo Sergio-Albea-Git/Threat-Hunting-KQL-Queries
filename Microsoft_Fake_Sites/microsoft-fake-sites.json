@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-09-21"
+    "updated": "2026-09-22"
   },
   "entries": [
     {
@@ -3853,6 +3853,110 @@
       "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
       "first_seen": "2026-09-21",
       "last_seen": "2026-09-21",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0351",
+      "url": "https://auth.properties/E.rU-TDP5DOv4?/microsoftonline/mailbox/upgrade&userid=75468973984785978212312307887543",
+      "domain": "auth.properties",
+      "brand": "Microsoft 365 / Outlook",
+      "technique": "AiTM short-token lure (same /E.<token> path pattern as the authentication.ms kit) disguised as a 'microsoftonline mailbox upgrade'",
+      "detection": "Hunt for URL paths matching ^/E\\.[A-Za-z0-9_-]{8,}\\? that contain 'microsoftonline' on domains that are not Microsoft's",
+      "source": "OpenPhish",
+      "source_url": "https://openphish.com/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0352",
+      "url": "https://multi-factor.link/E.St5UcG6gsr285ASjcg?/ContextID=O365",
+      "domain": "multi-factor.link",
+      "brand": "Microsoft 365",
+      "technique": "AiTM MFA lure: a fake 'multi-factor' domain using the /E.<token> kit pattern with ContextID=O365",
+      "detection": "Block the multi-factor.link apex and alert on 'ContextID=O365' in query strings for non-Microsoft hosts",
+      "source": "OpenPhish",
+      "source_url": "https://openphish.com/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0353",
+      "url": "https://multi-factor.link/E.pjjzfMPMCJolyCvBXg?/ContextID=O365",
+      "domain": "multi-factor.link",
+      "brand": "Microsoft 365",
+      "technique": "AiTM MFA lure: a second token on the same multi-factor.link kit infrastructure",
+      "detection": "Look in proxy logs for any request to multi-factor.link with an /E.<token> path",
+      "source": "OpenPhish",
+      "source_url": "https://openphish.com/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0354",
+      "url": "https://authentication.ms/E.YmqG6CR_vI9i?/domain=iberdrola.es?teams=Collaborative-Teams?profile=info",
+      "domain": "authentication.ms",
+      "brand": "Microsoft Teams / Microsoft 365",
+      "technique": "AiTM lookalike .ms domain with a Teams collaboration lure aimed at a specific tenant (iberdrola.es)",
+      "detection": "Alert on authentication.ms (a lookalike, not a Microsoft domain) and on 'teams=Collaborative-Teams' in the URL",
+      "source": "OpenPhish",
+      "source_url": "https://openphish.com/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0355",
+      "url": "https://m365-online.ch/?rid=rR2FqXp",
+      "domain": "m365-online.ch",
+      "brand": "Microsoft 365",
+      "technique": "Typosquat domain that tracks each victim with a ?rid= campaign ID (GoPhish-style)",
+      "detection": "Flag newly registered domains containing 'm365' plus a ?rid= parameter in email links",
+      "source": "OpenPhish",
+      "source_url": "https://openphish.com/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0356",
+      "url": "https://moripartnerch-365-mso-drive-auth9287364.cloud-storage-id0384723.workers.dev/",
+      "domain": "moripartnerch-365-mso-drive-auth9287364.cloud-storage-id0384723.workers.dev",
+      "brand": "Microsoft OneDrive / Microsoft 365",
+      "technique": "Credential page hosted on Cloudflare Workers, with a subdomain that mimics '365 mso drive auth'",
+      "detection": "Hunt for *.workers.dev hostnames containing '365' together with 'drive' or 'auth'",
+      "source": "OpenPhish",
+      "source_url": "https://openphish.com/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0357",
+      "url": "https://xn--knto-55d.evergreenfin.ltd/",
+      "domain": "xn--knto-55d.evergreenfin.ltd",
+      "brand": "Microsoft 365",
+      "technique": "Punycode homoglyph 'konto' subdomain on known Microsoft phishing infrastructure (evergreenfin.ltd)",
+      "detection": "Block all of *.evergreenfin.ltd and alert on xn-- labels in sign-in links",
+      "source": "OpenPhish",
+      "source_url": "https://openphish.com/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0358",
+      "url": "https://s.teams-ra.com/p/fjbd-cbch/jtzuihmh/",
+      "domain": "s.teams-ra.com",
+      "brand": "Microsoft Teams",
+      "technique": "Teams-lookalike domain serving a tokenized /p/<id>/<id>/ redirect to a credential page",
+      "detection": "Flag non-Microsoft domains containing 'teams-' that use short /p/xxxx-xxxx/ paths",
+      "source": "OpenPhish",
+      "source_url": "https://openphish.com/feed.txt",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
       "status": "active"
     }
   ]
