@@ -12,7 +12,7 @@ window — entries older than that are dropped automatically.
 
 - **Entries:** 384
 - **Retention:** rolling 30 days
-- **Last updated:** 2026-09-23
+- **Last updated:** 2026-09-24
 - **Maintained by:** PAI Microsoft Fake Sites Tracker (hourly) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
 
 ## Sites
