@@ -8,7 +8,7 @@ check, browser or document "error") into pasting and running an attacker-supplie
 Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user's own permissions.
 
 - **Entries:** 42
-- **Last updated:** 2026-09-22
+- **Last updated:** 2026-09-24
 - **Maintained by:** PAI ClickFix Tracker (daily) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
 
 ## Commands
