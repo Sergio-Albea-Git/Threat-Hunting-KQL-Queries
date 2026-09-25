@@ -4907,6 +4907,97 @@
       "first_seen": "2026-09-22",
       "last_seen": "2026-09-22",
       "status": "active"
+    },
+    {
+      "id": "mfs-0439",
+      "url": "https://wildlands.acltci.com/login?method=signin&mode=secure&client_id=4765445b-32c6-49b0-83e6-1d93765276ca&privacy=on&sso_reload=true&redirect_urI=https%3A%2F%2Flogin.microsoftonline.com%2F",
+      "domain": "wildlands.acltci.com",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "Credential harvester on a compromised legitimate host, faking an OAuth authorize request with a capital-I 'redirect_urI' parameter pointing at login.microsoftonline.com",
+      "detection": "Proxy/URL hunt for query strings containing 'redirect_urI' (capital i) or 'sso_reload=true' on non-Microsoft hostnames — the real parameter is 'redirect_uri' and only appears on login.microsoftonline.com",
+      "source": "OpenPhish + PhishTank (via phishunt.io)",
+      "source_url": "https://phishunt.io/source/phishtank/",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0440",
+      "url": "http://validar-micuenta-outlook.yzz.me",
+      "domain": "validar-micuenta-outlook.yzz.me",
+      "brand": "Microsoft Outlook / Live",
+      "technique": "Spanish-language 'validar mi cuenta' Outlook account-verification typosquat hosted on the free yzz.me subdomain service over plain HTTP",
+      "detection": "Alert on DNS/HTTP to *.yzz.me and on newly seen hostnames combining Spanish verbs (validar, verificar, reactivar, acceso) with outlook/hotmail/microsoft",
+      "source": "OpenPhish (via phishunt.io)",
+      "source_url": "https://phishunt.io/source/openphish/",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0441",
+      "url": "https://authentication.ms/E.bNNF6nWCtxqGCg?/confirm/verify",
+      "domain": "authentication.ms",
+      "brand": "Microsoft 365",
+      "technique": "Brandjacked .ms domain masquerading as a Microsoft authentication endpoint; per-victim 'E.<token>' path serves an MFA/confirm-identity credential prompt",
+      "detection": "Block the apex domain authentication.ms and hunt for URI paths matching the regex /E\\.[A-Za-z0-9_-]{12,}/ across authentication.ms, multi-factor.link, auth.properties and signin.broker",
+      "source": "OpenPhish public feed",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0442",
+      "url": "https://publicofficeoutlooknotificationscry-dpkjhfszqaa2.edgeone.dev/",
+      "domain": "publicofficeoutlooknotificationscry-dpkjhfszqaa2.edgeone.dev",
+      "brand": "Microsoft Outlook / Office 365",
+      "technique": "Outlook 'notification' credential page on Tencent EdgeOne Pages free hosting, using a long keyword-stuffed label plus random suffix to defeat string blocklists",
+      "detection": "Treat *.edgeone.dev as an unsanctioned hosting provider (same class as *.pages.dev / *.workers.dev); flag labels >40 chars that concatenate office/outlook/notification keywords before a random 12-char suffix",
+      "source": "OpenPhish public feed",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0443",
+      "url": "https://security-server-page--sheryln1990.replit.app/",
+      "domain": "security-server-page--sheryln1990.replit.app",
+      "brand": "Microsoft 365",
+      "technique": "Replit-hosted 'security server' fake sign-in kit; the --<operator> suffix is the attacker's Replit account name, so each actor mass-produces near-identical pages",
+      "detection": "Regex the proxy logs for ^https?://(security-server|server-security)[a-z-]*--[a-z0-9-]+\\.replit\\.app — the kit name is stable while the operator handle rotates",
+      "source": "OpenPhish public feed",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0444",
+      "url": "https://security-server--tabbielynn.replit.app/",
+      "domain": "security-server--tabbielynn.replit.app",
+      "brand": "Microsoft 365",
+      "technique": "Same Replit 'security-server' Microsoft sign-in kit under a different operator handle",
+      "detection": "Block *.replit.app wholesale if unused, or alert on any Replit app whose HTML references login.microsoftonline.com assets or aadcdn.msftauth.net",
+      "source": "OpenPhish public feed",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0445",
+      "url": "https://security-server-page--servarog.replit.app/",
+      "domain": "security-server-page--servarog.replit.app",
+      "brand": "Microsoft 365",
+      "technique": "Replit 'security-server-page' variant of the same Microsoft credential-harvest kit",
+      "detection": "Pivot on favicon/HTML hash of one confirmed security-server--* page in urlscan.io to enumerate the rest of the cluster before they are reported",
+      "source": "OpenPhish public feed",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "status": "active"
     }
   ]
 }
