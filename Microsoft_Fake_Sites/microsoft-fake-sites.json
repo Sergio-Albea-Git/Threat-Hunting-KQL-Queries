@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-09-24"
+    "updated": "2026-09-25"
   },
   "entries": [
     {
@@ -2020,97 +2020,6 @@
       "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
       "first_seen": "2026-09-16",
       "last_seen": "2026-09-16",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0209",
-      "url": "https://mslogin.milocaroline.com/",
-      "domain": "mslogin.milocaroline.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM reverse-proxy phishing (Storm-2755 'Payroll Pirates'), reached via idp.* redirector 302",
-      "detection": "Alert on sign-ins whose referring host matches ms(login|online|auth).* on non-Microsoft apex domains; correlate with residential-proxy source IPs",
-      "source": "Arctic Wolf Labs",
-      "source_url": "https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/",
-      "first_seen": "2026-08-26",
-      "last_seen": "2026-08-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0210",
-      "url": "https://msonline.logicalineonline.com/",
-      "domain": "msonline.logicalineonline.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM reverse-proxy phishing proxy (Payroll Pirates)",
-      "detection": "Block/newly-observed-domain alert on 'msonline.'/'mslogin.'/'msauth.' subdomains on unfamiliar registrable domains",
-      "source": "Arctic Wolf Labs",
-      "source_url": "https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/",
-      "first_seen": "2026-08-26",
-      "last_seen": "2026-08-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0211",
-      "url": "https://msauth.monlinelogicaline.com/",
-      "domain": "msauth.monlinelogicaline.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM reverse-proxy phishing proxy (Payroll Pirates)",
-      "detection": "Hunt Entra sign-in logs for token issuance immediately preceded by a redirect from these ms*-themed hosts",
-      "source": "Arctic Wolf Labs",
-      "source_url": "https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/",
-      "first_seen": "2026-08-26",
-      "last_seen": "2026-08-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0212",
-      "url": "https://office.ofrecie.com/",
-      "domain": "office.ofrecie.com",
-      "brand": "Microsoft Office 365",
-      "technique": "Typosquat 'office.' subdomain fronting AiTM proxy (Payroll Pirates)",
-      "detection": "Flag misspelled 'office'/'ofrecie'-style lookalike apex domains in proxy/DNS logs",
-      "source": "Arctic Wolf Labs",
-      "source_url": "https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/",
-      "first_seen": "2026-08-26",
-      "last_seen": "2026-08-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0213",
-      "url": "https://idp.keyreniao.com/",
-      "domain": "idp.keyreniao.com",
-      "brand": "Microsoft Entra ID",
-      "technique": "Open-redirect/302 redirector ('idp.' subdomain) staging AiTM to ms* proxy",
-      "detection": "Alert on HTTP 302 from idp.* hosts on non-corporate domains leading to Microsoft-themed login",
-      "source": "Arctic Wolf Labs",
-      "source_url": "https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/",
-      "first_seen": "2026-08-26",
-      "last_seen": "2026-08-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0214",
-      "url": "https://idp.korminel.com/",
-      "domain": "idp.korminel.com",
-      "brand": "Microsoft Entra ID",
-      "technique": "Open-redirect/302 redirector ('idp.' subdomain) staging AiTM",
-      "detection": "Block newly-registered 'idp.' subdomains not tied to a known IdP tenant",
-      "source": "Arctic Wolf Labs",
-      "source_url": "https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/",
-      "first_seen": "2026-08-26",
-      "last_seen": "2026-08-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0215",
-      "url": "https://idp.kualabemo.com/",
-      "domain": "idp.kualabemo.com",
-      "brand": "Microsoft Entra ID",
-      "technique": "Open-redirect/302 redirector ('idp.' subdomain) staging AiTM",
-      "detection": "Correlate idp.* referer with subsequent ms*-themed AiTM proxy hit in the same session",
-      "source": "Arctic Wolf Labs",
-      "source_url": "https://arcticwolf.com/resources/blog/payroll-pirates-strange-new-tides-in-business-email-compromise/",
-      "first_seen": "2026-08-26",
-      "last_seen": "2026-08-26",
       "status": "active"
     },
     {
