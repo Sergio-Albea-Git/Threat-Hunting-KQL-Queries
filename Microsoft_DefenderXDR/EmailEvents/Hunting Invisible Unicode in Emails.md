@@ -8,7 +8,7 @@
 
 ---
 
-**𝗛𝘂𝗻𝘁𝗶𝗻𝗴 𝗜𝗻𝘃𝗶𝘀𝗶𝗯𝗹𝗲 𝗨𝗻𝗶𝗰𝗼𝗱𝗲 𝗶𝗻 𝗘𝗺𝗮𝗶𝗹𝘀**
+**Hunting Invisible Unicode in Emails**
 
 **Description**: For years, when hunting phishing emails, I have mainly focused on what the user sees inside of it. But I think AI agents are going to change this.
 An email may soon have two audiences: Human + AI Agent. And they may not always see exactly the same thing.
