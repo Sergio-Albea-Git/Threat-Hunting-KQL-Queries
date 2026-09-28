@@ -4777,6 +4777,97 @@
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
       "status": "active"
+    },
+    {
+      "id": "mfs-0446",
+      "url": "https://microsoft0117.vercel.app",
+      "domain": "microsoft0117.vercel.app",
+      "brand": "Microsoft 365",
+      "technique": "Free-hosting abuse — credential-harvest page on attacker-created Vercel subdomain; page title is literally \"Microsoft\"",
+      "detection": "Alert on outbound HTTPS to *.vercel.app subdomains containing 'microsoft'/'office'/'outlook' tokens; these are never Microsoft-owned",
+      "source": "OpenPhish / phishunt.io",
+      "source_url": "https://phishunt.io/feed.txt",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0447",
+      "url": "http://creyt.cl/centennialcws/onedrive-verify-obf.html",
+      "domain": "creyt.cl",
+      "brand": "Microsoft OneDrive",
+      "technique": "Compromised legitimate site hosting the reused 'onedrive-verify-obf' obfuscated HTML credential kit",
+      "detection": "Hunt proxy/web logs for any URI path ending in 'onedrive-verify-obf.html' — a fixed kit filename reused across many hacked hosts",
+      "source": "OpenPhish / phishunt.io",
+      "source_url": "https://phishunt.io/feed.txt",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0448",
+      "url": "https://clovdmicrsotfmailaamkagmxn2uxywe.klassik-erh.de",
+      "domain": "clovdmicrsotfmailaamkagmxn2uxywe.klassik-erh.de",
+      "brand": "Microsoft 365 / Outlook Web",
+      "technique": "Subdomain squatting on a compromised German domain; label is misspelled 'clovd-micrsotf-mail' plus random hex padding",
+      "detection": "Flag DNS for long (>30 char) single-label subdomains mixing a misspelled 'microsoft'/'micrsotf' string with random alphanumerics under unrelated TLDs",
+      "source": "OpenPhish / phishunt.io",
+      "source_url": "https://phishunt.io/source/openphish/",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0449",
+      "url": "https://microsoft-online.gr",
+      "domain": "microsoft-online.gr",
+      "brand": "Microsoft 365 (login.microsoftonline.com)",
+      "technique": "Typosquat of 'microsoftonline' with an inserted hyphen on a .gr ccTLD",
+      "detection": "Regex newly-registered-domain feeds for /micro-?soft-?online/ on any TLD outside microsoft.com's registered set",
+      "source": "OpenPhish / phishunt.io",
+      "source_url": "https://phishunt.io/feed.txt",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0450",
+      "url": "https://microsoftoffice-o365.com",
+      "domain": "microsoftoffice-o365.com",
+      "brand": "Microsoft Office 365",
+      "technique": "Brand-concatenation typosquat ('microsoftoffice' + 'o365') used as a sign-in lure domain",
+      "detection": "Alert on domains combining two Microsoft brand tokens (microsoft/office/o365/m365) joined by a hyphen — Microsoft does not register these patterns",
+      "source": "OpenPhish / phishunt.io",
+      "source_url": "https://phishunt.io/feed.txt",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0451",
+      "url": "http://www.miccrossofteam.top/",
+      "domain": "www.miccrossofteam.top",
+      "brand": "Microsoft Teams",
+      "technique": "Homoglyph/typosquat ('miccrossofteam' = Microsoft Teams) on a cheap .top TLD, served over plain HTTP",
+      "detection": "Fuzzy-match (Levenshtein <=3) registered domains against 'microsoftteams'; prioritize .top/.xyz/.cfd TLDs and HTTP-only listeners",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0452",
+      "url": "http://www.connexioncompteoutlook.weebly.com/",
+      "domain": "www.connexioncompteoutlook.weebly.com",
+      "brand": "Microsoft Outlook / Live",
+      "technique": "Weebly free-site abuse with a French-language lure ('connexion compte Outlook' = Outlook account sign-in)",
+      "detection": "Block/alert on *.weebly.com and *.weeblysite.com hostnames whose label contains outlook/hotmail/microsoft/office — a persistently abused free-hosting pattern",
+      "source": "OpenPhish",
+      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "status": "active"
     }
   ]
 }
