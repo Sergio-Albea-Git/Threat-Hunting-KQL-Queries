@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-09-28"
+    "updated": "2026-09-29"
   },
   "entries": [
     {
@@ -278,19 +278,6 @@
       "source_url": "https://phishunt.io/source/openphish/",
       "first_seen": "2026-09-02",
       "last_seen": "2026-09-02",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0022",
-      "url": "https://login.authorised-support.com/microsoft365/mfa/",
-      "domain": "login.authorised-support.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM/MFA-relay lure on 'support'-themed lookalike domain",
-      "detection": "Flag '/microsoft365/mfa/' paths on domains impersonating support/helpdesk brands",
-      "source": "OpenPhish (via phishunt.io)",
-      "source_url": "https://phishunt.io/source/openphish/",
-      "first_seen": "2026-08-30",
-      "last_seen": "2026-08-30",
       "status": "active"
     },
     {
