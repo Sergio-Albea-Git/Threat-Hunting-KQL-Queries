@@ -18,7 +18,7 @@ Of course, a foreign TLD is not malicious by itself — it is just another piece
 
 ```
 let CountryList = externaldata(Country:string, Code:string)[
-    "https://raw.githubusercontent.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries/d37d54bc90f833d5016c7105f6d7a42802b8d6fa/Security-Lists/country_list.csv%"]
+    "https://raw.githubusercontent.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries/d37d54bc90f833d5016c7105f6d7a42802b8d6fa/Security-Lists/country_list.csv"]
 with(format="csv", ignoreFirstRecord=true);
 CallActivityEvents
 | where isnotempty(OriginatorUpn)
