@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-09-29"
+    "updated": "2026-09-30"
   },
   "entries": [
     {
@@ -2621,45 +2621,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0265",
-      "url": "https://ruralbankofdulag.com/shakebody/shakebody/",
-      "domain": "ruralbankofdulag.com",
-      "brand": "Microsoft Outlook",
-      "technique": "Compromised bank website hosting an Outlook sign-in clone under a repeated nonsense directory",
-      "detection": "Flag URLs where the same directory name repeats consecutively (/x/x/) on a low-reputation host — common auto-generated kit deployment layout",
-      "source": "PhishStats",
-      "source_url": "https://api.phishstats.info/api/phishing?_where=(url,like,~ruralbankofdulag~)",
-      "first_seen": "2026-08-31",
-      "last_seen": "2026-08-31",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0266",
-      "url": "https://updateserv-owa.vercel.app/",
-      "domain": "updateserv-owa.vercel.app",
-      "brand": "Microsoft Outlook Web App (OWA)",
-      "technique": "Vercel-hosted OWA sign-in clone; subdomain uses 'owa' + 'updateserv' urgency lure",
-      "detection": "Block/alert on *.vercel.app subdomains containing owa, outlook, o365, m365, or msonline tokens; pivot on Entra sign-ins from unmanaged devices shortly after",
-      "source": "PhishStats",
-      "source_url": "https://api.phishstats.info/api/phishing?_where=(url,like,~updateserv-owa~)",
-      "first_seen": "2026-08-31",
-      "last_seen": "2026-08-31",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0267",
-      "url": "https://oznormali.vercel.app/",
-      "domain": "oznormali.vercel.app",
-      "brand": "Microsoft Outlook",
-      "technique": "Vercel-hosted Outlook credential page on a neutral-looking subdomain (no brand keyword, defeats keyword blocklists)",
-      "detection": "Rather than keyword-matching, alert on any first-seen *.vercel.app domain that renders a page titled 'Outlook' or 'Sign in to your account' in URL-detonation/sandbox output",
-      "source": "PhishStats",
-      "source_url": "https://api.phishstats.info/api/phishing?_where=(url,like,~oznormali~)",
-      "first_seen": "2026-08-31",
-      "last_seen": "2026-08-31",
-      "status": "active"
-    },
-    {
       "id": "mfs-0268",
       "url": "http://www.teams-login.com/page/Wjl0doBMGUb/",
       "domain": "www.teams-login.com",
@@ -3450,45 +3411,6 @@
       "source_url": "https://openphish.com/feed.txt",
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-18",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0345",
-      "url": "https://mfaoptions.com",
-      "domain": "mfaoptions.com",
-      "brand": "Microsoft Entra ID / Microsoft 365",
-      "technique": "Vishing-led AiTM lure where a fake help desk steers the victim to <victim>.mfaoptions.com for Entra MFA/passkey enrollment (Com-affiliated, NiceNIC + Cloudflare)",
-      "detection": "Alert on sign-ins or DNS lookups to newly registered mfa/passkey/sso-themed domains that contain your org name as a subdomain",
-      "source": "Palo Alto Networks Unit 42",
-      "source_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-31-Attackers-Use-New-MFA-Themed-Domains.txt",
-      "first_seen": "2026-08-31",
-      "last_seen": "2026-08-31",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0346",
-      "url": "https://mfa-options.com",
-      "domain": "mfa-options.com",
-      "brand": "Microsoft Entra ID / Microsoft 365",
-      "technique": "Vishing-led AiTM MFA-enrollment lure with per-victim subdomains (Com-affiliated, NiceNIC + Cloudflare)",
-      "detection": "Block the *.mfa-options.com wildcard, then look for OfficeHome/My Signins sign-ins from residential proxies soon after a help-desk call",
-      "source": "Palo Alto Networks Unit 42",
-      "source_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-31-Attackers-Use-New-MFA-Themed-Domains.txt",
-      "first_seen": "2026-08-31",
-      "last_seen": "2026-08-31",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0347",
-      "url": "https://register-mfa.com",
-      "domain": "register-mfa.com",
-      "brand": "Microsoft Entra ID / Microsoft 365",
-      "technique": "Vishing-led AiTM lure imitating Entra MFA registration, with a separate subdomain for each target company",
-      "detection": "Watch CT logs and passive DNS for register-mfa.com subdomains matching your brand, and for new MFA/passkey methods registered from unmanaged devices",
-      "source": "Palo Alto Networks Unit 42",
-      "source_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-31-Attackers-Use-New-MFA-Themed-Domains.txt",
-      "first_seen": "2026-08-31",
-      "last_seen": "2026-08-31",
       "status": "active"
     },
     {
