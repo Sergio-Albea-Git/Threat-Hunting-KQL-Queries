@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-09-30"
+    "updated": "2026-10-01"
   },
   "entries": [
     {
@@ -291,19 +291,6 @@
       "source_url": "https://phishunt.io/source/openphish/",
       "first_seen": "2026-09-02",
       "last_seen": "2026-09-02",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0025",
-      "url": "https://microsoftwordob.blogspot.com",
-      "domain": "microsoftwordob.blogspot.com",
-      "brand": "Microsoft Word / Office 365",
-      "technique": "abuse of Blogspot free hosting for brand-impersonation landing page",
-      "detection": "Flag *.blogspot.com subdomains containing 'microsoft'/'word'/'office' tokens",
-      "source": "OpenPhish (via phishunt.io)",
-      "source_url": "https://phishunt.io/source/openphish/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
       "status": "active"
     },
     {
@@ -707,71 +694,6 @@
       "source_url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
       "first_seen": "2026-09-11",
       "last_seen": "2026-09-11",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0068",
-      "url": "https://odahlzr5lm.reliabilityinoperations.de",
-      "domain": "odahlzr5lm.reliabilityinoperations.de",
-      "brand": "Microsoft OneDrive",
-      "technique": "fake OneDrive document portal harvesting M365 creds (Google/Cloudflare infra abuse)",
-      "detection": "Random 10-char subdomain on unrelated .de apex serving OneDrive-branded login; check for interstitial CAPTCHA gate",
-      "source": "GBHackers",
-      "source_url": "https://gbhackers.com/global-phishing-campaign/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0069",
-      "url": "https://cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu",
-      "domain": "cloudbemismanufacturingcompanygroup.rydezyhrsysteminc.vu",
-      "brand": "Microsoft 365",
-      "technique": "M365 credential harvester behind interstitial gate (.vu abuse)",
-      "detection": "Long company-name subdomains on .vu apexes; block *.rydezyhrsysteminc.vu and hunt interstitial 'verify' gates before login",
-      "source": "GBHackers",
-      "source_url": "https://gbhackers.com/global-phishing-campaign/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0070",
-      "url": "https://crsons.net/wp-includes/js/tinymce/",
-      "domain": "crsons.net",
-      "brand": "Microsoft Teams / 365",
-      "technique": "compromised WordPress site hiding M365/Teams phishing kit in legit dirs",
-      "detection": "Alert on login pages served from /wp-includes/js/tinymce/ paths on compromised WP sites",
-      "source": "GBHackers",
-      "source_url": "https://gbhackers.com/hackers-abuse-trusted-websites-in-new-attacks/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0071",
-      "url": "https://afghantarin.com/afghantarin/admin/waitme/",
-      "domain": "afghantarin.com",
-      "brand": "Microsoft Teams / 365",
-      "technique": "compromised-site phishing kit in nested admin path",
-      "detection": "Hunt 'waitme'/loader interstitials under /admin/ paths on compromised sites chaining to Microsoft login",
-      "source": "GBHackers",
-      "source_url": "https://gbhackers.com/hackers-abuse-trusted-websites-in-new-attacks/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0072",
-      "url": "https://cabinetzeukeng.net/config/.bin/voicemail",
-      "domain": "cabinetzeukeng.net",
-      "brand": "Microsoft 365 / Outlook",
-      "technique": "voicemail-lure phishing kit hidden in /config/.bin/ backend dir",
-      "detection": "Flag 'voicemail' pages under dot-prefixed backend dirs (/.bin/, /config/) that post creds to non-Microsoft hosts",
-      "source": "GBHackers",
-      "source_url": "https://gbhackers.com/hackers-abuse-trusted-websites-in-new-attacks/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
       "status": "active"
     },
     {
@@ -1997,97 +1919,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0217",
-      "url": "https://microsoft365onlineoffice.com/",
-      "domain": "microsoft365onlineoffice.com",
-      "brand": "Microsoft 365",
-      "technique": "Browser-in-the-Browser (BitB) device-code phishing ('Evil Token')",
-      "detection": "Newly-observed-domain block on concatenated 'microsoft365online*/office365' keyword permutations",
-      "source": "Coralogix",
-      "source_url": "https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0218",
-      "url": "https://microsoftonlineoffice365.com/",
-      "domain": "microsoftonlineoffice365.com",
-      "brand": "Microsoft 365",
-      "technique": "Browser-in-the-Browser device-code phishing ('Evil Token')",
-      "detection": "Alert on device-code auth flows initiated shortly after visits to microsoft/office365 keyword-stuffed domains",
-      "source": "Coralogix",
-      "source_url": "https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0219",
-      "url": "https://microsoftofficeonline365.com/",
-      "domain": "microsoftofficeonline365.com",
-      "brand": "Microsoft 365",
-      "technique": "Browser-in-the-Browser device-code phishing ('Evil Token')",
-      "detection": "Regex-hunt DNS for microsoft+office+online+365 token permutations on standalone apexes",
-      "source": "Coralogix",
-      "source_url": "https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0220",
-      "url": "https://documentsecuredbyoffice365.com/",
-      "domain": "documentsecuredbyoffice365.com",
-      "brand": "Microsoft Office 365",
-      "technique": "Document-lure BitB device-code phishing ('Evil Token')",
-      "detection": "Block 'securedby'/'documentsecured' + office365 domain patterns; inspect doc-share lures",
-      "source": "Coralogix",
-      "source_url": "https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0221",
-      "url": "https://ms-teamsmeeting.top/",
-      "domain": "ms-teamsmeeting.top",
-      "brand": "Microsoft Teams",
-      "technique": "Teams-meeting-lure device-code phishing ('Evil Token')",
-      "detection": "Block .top TLD 'ms-teams'/'teamsmeeting' lookalikes; flag Teams-invite lures to non-teams.microsoft.com hosts",
-      "source": "Coralogix",
-      "source_url": "https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0222",
-      "url": "https://loginmicrosoftonline.democrakidsradio.org/",
-      "domain": "loginmicrosoftonline.democrakidsradio.org",
-      "brand": "Microsoft 365",
-      "technique": "Compromised-host subdomain hosting 'loginmicrosoftonline' phishing (Evil Token)",
-      "detection": "Hunt 'loginmicrosoftonline' as a subdomain label on unrelated apex domains",
-      "source": "Coralogix",
-      "source_url": "https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0223",
-      "url": "https://loginonlinemicrosoftde.democrakidsradio.org/",
-      "domain": "loginonlinemicrosoftde.democrakidsradio.org",
-      "brand": "Microsoft 365",
-      "technique": "Compromised-host subdomain hosting German-targeted Microsoft login phishing (Evil Token)",
-      "detection": "Flag 'microsoftde'/'onlinemicrosoft' subdomain labels; same abused apex as related IOCs",
-      "source": "Coralogix",
-      "source_url": "https://coralogix.com/blog/evil-token-ai-enabled-device-code-phishing-campaign/",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
       "id": "mfs-0224",
       "url": "https://teams-microsoft-download.com",
       "domain": "teams-microsoft-download.com",
@@ -2595,32 +2426,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0263",
-      "url": "https://summitalarm.com/.6th/.7th/",
-      "domain": "summitalarm.com",
-      "brand": "Microsoft Office 365",
-      "technique": "Compromised WordPress-style host with kit staged under dot-prefixed hidden directories; page title is literally 'Microsoft Office 365'",
-      "detection": "Proxy rule on URL paths containing '/.'-prefixed directory segments (e.g. /.6th/, /.7th/) — hidden dirs are a standard phishing-kit staging habit; still live at time of check",
-      "source": "PhishStats",
-      "source_url": "https://api.phishstats.info/api/phishing?_where=(url,like,~summitalarm~)",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0264",
-      "url": "https://fls-a29a8cd9-0161-4493-bf5c-9f682b16d0c8.laravel.cloud/hotmail%20inbox%20main.html",
-      "domain": "fls-a29a8cd9-0161-4493-bf5c-9f682b16d0c8.laravel.cloud",
-      "brand": "Microsoft Outlook / Hotmail",
-      "technique": "Static HTML credential page uploaded to abused Laravel Cloud file storage; filename 'hotmail inbox main.html'",
-      "detection": "Alert on *.laravel.cloud requests ending in .html with URL-encoded spaces (%20) — a hallmark of hand-uploaded kit pages on legitimate PaaS storage",
-      "source": "PhishStats",
-      "source_url": "https://api.phishstats.info/api/phishing?_where=(url,like,~laravel.cloud~)",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "status": "active"
-    },
-    {
       "id": "mfs-0268",
       "url": "http://www.teams-login.com/page/Wjl0doBMGUb/",
       "domain": "www.teams-login.com",
@@ -2657,19 +2462,6 @@
       "source_url": "https://phishunt.io/feed.txt",
       "first_seen": "2026-09-17",
       "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0271",
-      "url": "https://app.jotform.com/252278224208152",
-      "domain": "app.jotform.com",
-      "brand": "Microsoft 365",
-      "technique": "Abuse of legitimate Jotform SaaS to host a 'MICROSOFT HOME' credential-collection form — inherits Jotform's TLS/domain reputation to bypass URL filtering",
-      "detection": "Alert on app.jotform.com / form.jotform.com submissions from corporate mail links; DLP-match corporate email addresses POSTed to jotform.com endpoints",
-      "source": "PhishStats",
-      "source_url": "https://api.phishstats.info/api/phishing?_where=(url,like,~252278224208152~)",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
       "status": "active"
     },
     {
