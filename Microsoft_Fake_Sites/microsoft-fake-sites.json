@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-10-03"
+    "updated": "2026-10-04"
   },
   "entries": [
     {
@@ -239,19 +239,6 @@
       "source_url": "https://github.com/SecurityTechie/Indicators-of-Compromise-IOC-/blob/master/Phishing%20Domains",
       "first_seen": "2026-09-12",
       "last_seen": "2026-09-12",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0019",
-      "url": "https://notifications.microsoft-ssl.com",
-      "domain": "notifications.microsoft-ssl.com",
-      "brand": "Microsoft 365",
-      "technique": "typosquat credential-harvest domain (\"microsoft-ssl\" impersonation)",
-      "detection": "Alert on newly-registered domains containing 'microsoft' + 'ssl'/'secure' keywords in cert transparency logs",
-      "source": "OpenPhish (via phishunt.io)",
-      "source_url": "https://phishunt.io/source/openphish/",
-      "first_seen": "2026-09-04",
-      "last_seen": "2026-09-04",
       "status": "active"
     },
     {
