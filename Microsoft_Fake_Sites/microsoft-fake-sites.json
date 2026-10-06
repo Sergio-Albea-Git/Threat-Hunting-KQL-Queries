@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-10-05"
+    "updated": "2026-10-06"
   },
   "entries": [
     {
@@ -31,19 +31,6 @@
       "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
       "first_seen": "2026-09-11",
       "last_seen": "2026-09-11",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0003",
-      "url": "http://microsoft-alpha.vercel.app",
-      "domain": "microsoft-alpha.vercel.app",
-      "brand": "Microsoft 365",
-      "technique": "typosquat credential-harvester abusing free Vercel hosting (brand name in *.vercel.app subdomain)",
-      "detection": "Alert on Microsoft/Entra sign-in pages served from *.vercel.app; hunt proxy/DNS logs for vercel.app hostnames containing 'microsoft'",
-      "source": "TweetFeed.live (X researcher @skocherhan)",
-      "source_url": "https://x.com/skocherhan/status/2096614707666755746",
-      "first_seen": "2026-09-06",
-      "last_seen": "2026-09-06",
       "status": "active"
     },
     {
