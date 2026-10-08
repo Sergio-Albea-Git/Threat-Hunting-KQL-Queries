@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-10-06"
+    "updated": "2026-10-08"
   },
   "entries": [
     {
@@ -31,19 +31,6 @@
       "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
       "first_seen": "2026-09-11",
       "last_seen": "2026-09-11",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0004",
-      "url": "http://watco.microsoft-notifcation.com/wa4d1737192/78b65c00e4993df97452c88c/index.php?id=60f29657ebf9c47f483976bd43ae",
-      "domain": "watco.microsoft-notifcation.com",
-      "brand": "Microsoft 365",
-      "technique": "typosquat domain ('notifcation' missing an 'i') hosting PHP credential-harvest kit with per-victim token path",
-      "detection": "Block parent domain microsoft-notifcation.com; hunt for GET/POST to /index.php?id=<long-hex> under microsoft-lookalike hosts and newly-registered 'microsoft-*notif*' domains",
-      "source": "TweetFeed.live (@phishunt_io)",
-      "source_url": "https://x.com/phishunt_io/status/2096931771958862091",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
       "status": "active"
     },
     {
@@ -320,71 +307,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0073",
-      "url": "https://assignpasskey.com/",
-      "domain": "assignpasskey.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM passkey/SSO-themed vishing lure (help-desk impersonation, victim-specific subdomains capture creds + MFA tokens)",
-      "detection": "Hunt newly-registered domains (esp. Nicenic registrar) containing passkey/oskey/sso keywords; alert on company-name subdomains like companyname.assignpasskey.com",
-      "source": "Arctic Wolf (PREY-0058 / Cordial Spider)",
-      "source_url": "https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/",
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0074",
-      "url": "https://mfaregister.com/",
-      "domain": "mfaregister.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM passkey/MFA re-enrollment lure via IT help-desk vishing",
-      "detection": "Flag auth-themed domains combining 'mfa'+'register'; correlate with token replay from residential-proxy ASNs",
-      "source": "Arctic Wolf (PREY-0058 / Cordial Spider)",
-      "source_url": "https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/",
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0075",
-      "url": "https://nowsso.com/",
-      "domain": "nowsso.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM SSO-setup lure (Microsoft 365 / Okta-Duo credential + MFA capture)",
-      "detection": "Alert on short SSO-themed domains ('nowsso') resolving to victim-named subdomains; monitor bulk SharePoint/mailbox access post-login",
-      "source": "Arctic Wolf (PREY-0058 / Cordial Spider)",
-      "source_url": "https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/",
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0076",
-      "url": "https://oskeysetup.com/",
-      "domain": "oskeysetup.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM 'oskey/passkey setup' lure delivered via voice phishing",
-      "detection": "Hunt 'oskey*' / 'setpasskey' domain patterns; watch for MFA token replay from anomalous geo/proxy",
-      "source": "Arctic Wolf (PREY-0058 / Cordial Spider)",
-      "source_url": "https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/",
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0077",
-      "url": "https://passkey-mfa.com/",
-      "domain": "passkey-mfa.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM passkey+MFA themed credential/token harvester",
-      "detection": "Block/monitor 'passkey-mfa' and sibling passkey/oskey infra; detect impossible-travel token use",
-      "source": "Arctic Wolf (PREY-0058 / Cordial Spider)",
-      "source_url": "https://arcticwolf.com/resources/blog/security-bulletin-active-cloud-data-theft-and-extortion-campaign-targeting-microsoft-365-and-saas-platforms/",
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
-      "status": "active"
-    },
-    {
       "id": "mfs-0078",
       "url": "https://integratedsso.com/",
       "domain": "integratedsso.com",
@@ -541,58 +463,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0132",
-      "url": "https://oursso.com/",
-      "domain": "oursso.com",
-      "brand": "Microsoft Entra ID",
-      "technique": "vishing/help-desk lure domain using <org>.oursso.com pattern for AiTM sign-in",
-      "detection": "Block *.oursso.com; alert on Entra sign-ins preceded by help-desk phone contact and rogue device registration",
-      "source": "Arctic Wolf via The Hacker News (PREY-0058)",
-      "source_url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0133",
-      "url": "https://passkeydeploy.com/",
-      "domain": "passkeydeploy.com",
-      "brand": "Microsoft Entra ID",
-      "technique": "passkey/MFA-enrollment themed vishing lure (<org>.passkeydeploy.com) driving AiTM",
-      "detection": "Block *.passkeydeploy.com; hunt unexpected Windows Hello for Business / passkey enrollments after inbound support calls",
-      "source": "Arctic Wolf via The Hacker News (PREY-0058)",
-      "source_url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0134",
-      "url": "https://registermymfa.com/",
-      "domain": "registermymfa.com",
-      "brand": "Microsoft Entra ID",
-      "technique": "MFA-registration themed help-desk lure domain for AiTM credential/token capture",
-      "detection": "Block *.registermymfa.com; alert on new MFA method registrations from unfamiliar devices/IPs post-vishing",
-      "source": "Arctic Wolf via The Hacker News (PREY-0058)",
-      "source_url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0135",
-      "url": "https://setpasskey.com/",
-      "domain": "setpasskey.com",
-      "brand": "Microsoft Entra ID",
-      "technique": "passkey-setup themed vishing lure (<org>.setpasskey.com) into AiTM sign-in flow",
-      "detection": "Block *.setpasskey.com; monitor for rogue device join + passkey credential add on Entra tenants",
-      "source": "Arctic Wolf via The Hacker News (PREY-0058)",
-      "source_url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
-      "status": "active"
-    },
-    {
       "id": "mfs-0136",
       "url": "https://xn--mcrosoftonlne-39bk.com",
       "domain": "xn--mcrosoftonlne-39bk.com",
@@ -616,19 +486,6 @@
       "source_url": "https://phishunt.io/newregistration/microsoft/",
       "first_seen": "2026-09-12",
       "last_seen": "2026-09-12",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0138",
-      "url": "https://microsoftonlinecommonoauth.com",
-      "domain": "microsoftonlinecommonoauth.com",
-      "brand": "Microsoft 365 / Azure AD OAuth",
-      "technique": "typosquat impersonating login.microsoftonline.com/common/oauth2 endpoint",
-      "detection": "Match domains concatenating 'microsoftonline'+'oauth'; compare against legit *.microsoftonline.com only",
-      "source": "phishunt.io",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
       "status": "active"
     },
     {
@@ -684,32 +541,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0143",
-      "url": "https://microsoftauthverify.com",
-      "domain": "microsoftauthverify.com",
-      "brand": "Microsoft 365 authentication",
-      "technique": "typosquat auth-verification credential lure",
-      "detection": "Flag brand+('auth'|'verify'|'verification') newly-registered combos",
-      "source": "phishunt.io",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0144",
-      "url": "https://office365idp.com",
-      "domain": "office365idp.com",
-      "brand": "Microsoft 365 / Office 365 (IdP / federation)",
-      "technique": "typosquat impersonating an Office365 identity-provider / ADFS sign-in",
-      "detection": "Hunt office365+('idp'|'sso'|'adfs'|'federation') domains not on microsoft.com",
-      "source": "phishunt.io",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
-      "status": "active"
-    },
-    {
       "id": "mfs-0145",
       "url": "https://office365mail.com",
       "domain": "office365mail.com",
@@ -762,19 +593,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0149",
-      "url": "https://pdf-onedrivesharedfile.work",
-      "domain": "pdf-onedrivesharedfile.work",
-      "brand": "Microsoft OneDrive",
-      "technique": "typosquat OneDrive 'shared PDF' document-lure on .work TLD",
-      "detection": "Flag onedrive+sharedfile/pdf combos and .work TLD file-share lures",
-      "source": "phishunt.io",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
-      "status": "active"
-    },
-    {
       "id": "mfs-0150",
       "url": "https://microsoftteamsbooking.com",
       "domain": "microsoftteamsbooking.com",
@@ -785,32 +603,6 @@
       "source_url": "https://phishunt.io/newregistration/microsoft/",
       "first_seen": "2026-09-09",
       "last_seen": "2026-09-09",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0151",
-      "url": "https://microsoftteambookingz.top",
-      "domain": "microsoftteambookingz.top",
-      "brand": "Microsoft Teams",
-      "technique": "typosquat Teams booking lure on .top TLD",
-      "detection": "Same Teams-booking pattern across cheap TLDs (.top/.live)",
-      "source": "phishunt.io",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0152",
-      "url": "https://microsofteams.live",
-      "domain": "microsofteams.live",
-      "brand": "Microsoft Teams",
-      "technique": "typosquat (dropped 't', 'microsofteams') on .live TLD",
-      "detection": "Alert on 'microsofteams'/'microsoft-teams' outside teams.microsoft.com",
-      "source": "phishunt.io",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
       "status": "active"
     },
     {
@@ -863,19 +655,6 @@
       "source_url": "https://phishunt.io/newregistration/microsoft/",
       "first_seen": "2026-09-11",
       "last_seen": "2026-09-11",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0157",
-      "url": "https://microsoft251207.com",
-      "domain": "microsoft251207.com",
-      "brand": "Microsoft",
-      "technique": "algorithmic/numeric-suffix throwaway typosquat (kit-generated)",
-      "detection": "Flag 'microsoft'+6-8 digit numeric-suffix newly-registered domains (e.g. microsoft251207, 676132-microsoft)",
-      "source": "phishunt.io",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
       "status": "active"
     },
     {
@@ -2023,19 +1802,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0261",
-      "url": "https://security-server-landing-page--vinjuntrucking.replit.app/",
-      "domain": "security-server-landing-page--vinjuntrucking.replit.app",
-      "brand": "Microsoft 365 / Entra ID",
-      "technique": "Replit-hosted fake Entra sign-in page named after the impersonated victim org (vinjuntrucking)",
-      "detection": "Flag newly seen *.replit.app subdomains that embed a customer/partner company name — the kit brands the subdomain per target",
-      "source": "PhishStats",
-      "source_url": "https://api.phishstats.info/api/phishing?_where=(url,like,~vinjuntrucking~)",
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
-      "status": "active"
-    },
-    {
       "id": "mfs-0262",
       "url": "https://royalbau.hu/msn/",
       "domain": "royalbau.hu",
@@ -2709,97 +2475,6 @@
       "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-18",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0320",
-      "url": "https://arrmmy.com",
-      "domain": "arrmmy.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM reverse proxy (BigBear 2.0 / Evilginx2); listed as historical infrastructure",
-      "detection": "Look for Entra sign-ins from Vultr IPs right after users visited this domain; check for session-cookie replay",
-      "source": "CloudSEK",
-      "source_url": "https://www.cloudsek.com/blog/tracking-bigbear-2-0-evilginx2-phishing-campaign",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0321",
-      "url": "https://captelind.com",
-      "domain": "captelind.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM reverse proxy (BigBear 2.0 / Evilginx2); listed as historical infrastructure",
-      "detection": "Look for subdomains of this domain serving Microsoft login content (Evilginx phishlet) through Vultr-hosted nodes",
-      "source": "CloudSEK",
-      "source_url": "https://www.cloudsek.com/blog/tracking-bigbear-2-0-evilginx2-phishing-campaign",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0322",
-      "url": "https://planisteradmin.com",
-      "domain": "planisteradmin.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM reverse proxy (BigBear 2.0 / Evilginx2); listed as historical infrastructure",
-      "detection": "Look for DNS lookups of this domain followed by non-interactive token use from a new ASN",
-      "source": "CloudSEK",
-      "source_url": "https://www.cloudsek.com/blog/tracking-bigbear-2-0-evilginx2-phishing-campaign",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0323",
-      "url": "https://hnospascualfadon.com",
-      "domain": "hnospascualfadon.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM reverse proxy (BigBear 2.0 / Evilginx2); listed as historical infrastructure",
-      "detection": "Search email and proxy logs for this domain; revoke sessions for any user who clicked",
-      "source": "CloudSEK",
-      "source_url": "https://www.cloudsek.com/blog/tracking-bigbear-2-0-evilginx2-phishing-campaign",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0324",
-      "url": "https://haliotisbar.com",
-      "domain": "haliotisbar.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM reverse proxy (BigBear 2.0 / Evilginx2); listed as historical infrastructure",
-      "detection": "Look for requests to this domain carrying Microsoft login paths such as /common/oauth2 or /login.srf",
-      "source": "CloudSEK",
-      "source_url": "https://www.cloudsek.com/blog/tracking-bigbear-2-0-evilginx2-phishing-campaign",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0325",
-      "url": "https://knowncontractor.com",
-      "domain": "knowncontractor.com",
-      "brand": "Microsoft 365",
-      "technique": "AiTM reverse proxy (BigBear 2.0 / Evilginx2); listed as historical infrastructure",
-      "detection": "Look for subdomains such as management.* or /meetings paths that mimic Microsoft login",
-      "source": "CloudSEK",
-      "source_url": "https://www.cloudsek.com/blog/tracking-bigbear-2-0-evilginx2-phishing-campaign",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0326",
-      "url": "https://valtteri.net",
-      "domain": "valtteri.net",
-      "brand": "Microsoft 365",
-      "technique": "AiTM reverse proxy (BigBear 2.0 / Evilginx2); listed as historical infrastructure",
-      "detection": "Check whether this domain's IPs are in Vultr ranges and hunt for session-cookie replay after visits",
-      "source": "CloudSEK",
-      "source_url": "https://www.cloudsek.com/blog/tracking-bigbear-2-0-evilginx2-phishing-campaign",
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
       "status": "active"
     },
     {
