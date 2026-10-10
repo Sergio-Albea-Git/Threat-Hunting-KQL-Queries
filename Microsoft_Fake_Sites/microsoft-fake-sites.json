@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-10-09"
+    "updated": "2026-10-10"
   },
   "entries": [
     {
@@ -291,32 +291,6 @@
       "source_url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
       "first_seen": "2026-09-11",
       "last_seen": "2026-09-11",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0082",
-      "url": "https://indecodesign.net/accessportal/safe.html",
-      "domain": "indecodesign.net",
-      "brand": "Microsoft 365",
-      "technique": "OAuth device-code phishing via compromised legit domain (staged gate → device auth)",
-      "detection": "Alert on entra sign-in logs showing device-code grant from unusual ASN shortly after user visits *.html pages on aged/compromised domains; hunt referers to microsoft.com/devicelogin",
-      "source": "idacyber1 device-code phishing analysis (GitHub)",
-      "source_url": "https://github.com/idacyber1/devicecode-phishing-analysis/blob/main/ANALYSIS.md",
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0083",
-      "url": "https://jzqs-udkz-yhxx.hutton-aasir-dropons-com-s-account.workers.dev/",
-      "domain": "jzqs-udkz-yhxx.hutton-aasir-dropons-com-s-account.workers.dev",
-      "brand": "Microsoft 365",
-      "technique": "Cloudflare Workers token-harvester backend for device-code phishing (?email= prefill)",
-      "detection": "Block/monitor random-subdomain *.workers.dev with '?email=' query targeting O365 users; flag Workers accounts hosting device-code relays",
-      "source": "idacyber1 device-code phishing analysis (GitHub)",
-      "source_url": "https://github.com/idacyber1/devicecode-phishing-analysis/blob/main/ANALYSIS.md",
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
       "status": "active"
     },
     {
@@ -957,19 +931,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0197",
-      "url": "https://servermailprotection-1sfinfomembers.s3.eu-west-1.amazonaws.com/log.html#ssa@microsoft.com",
-      "domain": "servermailprotection-1sfinfomembers.s3.eu-west-1.amazonaws.com",
-      "brand": "Microsoft 365 (webmail)",
-      "technique": "AWS S3-hosted static credential-harvest page (log.html) with victim email pre-seeded in the URL fragment to auto-populate the fake Microsoft login",
-      "detection": "Hunt S3 static-website URLs named 'log.html'/'login.html' with a '#<email>' fragment; block *.s3.*.amazonaws.com pages carrying Microsoft-branded login forms",
-      "source": "TweetFeed / @muha2xmad (X)",
-      "source_url": "https://x.com/muha2xmad/status/2098129930017992837",
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
-      "status": "active"
-    },
-    {
       "id": "mfs-0198",
       "url": "https://deploypasskey.com/",
       "domain": "deploypasskey.com",
@@ -1321,58 +1282,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0240",
-      "url": "https://melody-swgd-com.vercel.app",
-      "domain": "melody-swgd-com.vercel.app",
-      "brand": "Microsoft OneDrive",
-      "technique": "Vercel-hosted OneDrive 'View Documents' credential-harvest lure",
-      "detection": "Treat 'Open in OneDrive/PDF' buttons resolving to *.vercel.app as malicious; block NRD-backed vercel subdomains",
-      "source": "Kaseya (Datto/vertical threat blog)",
-      "source_url": "https://www.kaseya.com/blog/phishing-campaigns-abusing-vercels-free-hosting-platform/",
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0241",
-      "url": "https://logon.sharefileselfservices.cloud",
-      "domain": "logon.sharefileselfservices.cloud",
-      "brand": "Microsoft 365",
-      "technique": "AiTM M365 MFA-bypass landing page (device-code / OAuth abuse)",
-      "detection": "Hunt sign-ins preceded by visits to sharefileselfservices[.]cloud; correlate MFA-method registration from unmanaged devices",
-      "source": "KnowBe4",
-      "source_url": "https://blog.knowbe4.com/uncovering-the-sophisticated-phishing-campaign-bypassing-m365-mfa",
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0242",
-      "url": "https://sso-services.com",
-      "domain": "sso-services.com",
-      "brand": "Microsoft 365",
-      "technique": "fake SSO portal feeding AiTM M365 credential/session theft",
-      "detection": "Block sso-services[.]com; alert on 'SSO' generic domains proxying login.microsoftonline.com",
-      "source": "KnowBe4",
-      "source_url": "https://blog.knowbe4.com/uncovering-the-sophisticated-phishing-campaign-bypassing-m365-mfa",
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0243",
-      "url": "https://newcrowdcapital.com",
-      "domain": "newcrowdcapital.com",
-      "brand": "Microsoft 365",
-      "technique": "compromised/lookalike site staging M365 phishing redirect (payment/voicemail lures)",
-      "detection": "Block newcrowdcapital[.]com; hunt mail with payment/voicemail/doc-share subjects linking to it",
-      "source": "KnowBe4",
-      "source_url": "https://blog.knowbe4.com/uncovering-the-sophisticated-phishing-campaign-bypassing-m365-mfa",
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
-      "status": "active"
-    },
-    {
       "id": "mfs-0244",
       "url": "https://management.daengrentacar.com/meetings",
       "domain": "management.daengrentacar.com",
@@ -1591,19 +1500,6 @@
       "source_url": "https://api.phishstats.info/api/phishing?_where=(url,like,~jhalskov68~)",
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-14",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0262",
-      "url": "https://royalbau.hu/msn/",
-      "domain": "royalbau.hu",
-      "brand": "Microsoft Outlook / Live",
-      "technique": "Compromised legitimate .hu website serving a Spanish-language Microsoft mail/calendar sign-in clone from a /msn/ path",
-      "detection": "Hunt for HTTP GETs to '/msn/' or '/msn' paths on unrelated third-party sites; treat a Microsoft-titled page on a non-Microsoft TLD as high signal",
-      "source": "PhishStats",
-      "source_url": "https://api.phishstats.info/api/phishing?_where=(url,like,~royalbau~)",
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
       "status": "active"
     },
     {
