@@ -4,61 +4,9 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-10-12"
+    "updated": "2026-10-13"
   },
   "entries": [
-    {
-      "id": "mfs-0027",
-      "url": "https://proteccion-outlook2026.iceiy.com/?i=1",
-      "domain": "proteccion-outlook2026.iceiy.com",
-      "brand": "Microsoft Outlook",
-      "technique": "typosquat credential-harvest landing page ('proteccion-outlook2026')",
-      "detection": "Alert on iceiy.com free-hosting subdomains containing 'outlook'/'office' with ?i= query param",
-      "source": "OpenPhish (via phishunt.io)",
-      "source_url": "https://phishunt.io/source/openphish/",
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0159",
-      "url": "https://outlook10.net",
-      "domain": "outlook10.net",
-      "brand": "Microsoft Outlook",
-      "technique": "typosquat (brand+version-number) sign-in lure",
-      "detection": "Flag outlook/hotmail + trailing digits (outlook10, hotmail10, hotmail1)",
-      "source": "phishunt.io",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0160",
-      "url": "https://outlo0k.com",
-      "domain": "outlo0k.com",
-      "brand": "Microsoft Outlook",
-      "technique": "leetspeak typosquat (zero-for-o) of outlook.com",
-      "detection": "Levenshtein-1 permutations of 'outlook' with digit swaps",
-      "source": "phishunt.io",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0161",
-      "url": "https://onedrivee.online",
-      "domain": "onedrivee.online",
-      "brand": "Microsoft OneDrive",
-      "technique": "character-repetition typosquat ('onedrivee')",
-      "detection": "Detect doubled-letter permutations of onedrive/microsoft/outlook",
-      "source": "phishunt.io",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "status": "active"
-    },
     {
       "id": "mfs-0162",
       "url": "https://office365.internal-alerts.com/i/d5b9af0d256f14c03ab8396a78d3687bf",
