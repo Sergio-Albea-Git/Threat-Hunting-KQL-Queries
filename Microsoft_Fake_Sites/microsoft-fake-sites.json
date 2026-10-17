@@ -4,48 +4,9 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-10-16"
+    "updated": "2026-10-17"
   },
   "entries": [
-    {
-      "id": "mfs-0268",
-      "url": "http://www.teams-login.com/page/Wjl0doBMGUb/",
-      "domain": "www.teams-login.com",
-      "brand": "Microsoft Teams",
-      "technique": "Dedicated typosquat domain (teams-login[.]com) serving per-victim tokenized landing pages under /page/<random>/",
-      "detection": "Block the teams-login[.]com apex; hunt mail logs for links with a /page/<11-char base62>/ path — the token is the per-recipient tracking ID",
-      "source": "OpenPhish",
-      "source_url": "https://openphish.com/feed.txt",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0269",
-      "url": "https://outlook-email-2026.hstn.me/?i=1",
-      "domain": "outlook-email-2026.hstn.me",
-      "brand": "Microsoft Outlook",
-      "technique": "Free-hosting (hstn.me / Hostinger free tier) Outlook lure with ?i=1 stage parameter, same kit family as the already-tracked iceiy.com/hstn.me Spanish-language Outlook lures",
-      "detection": "Blocklist the free-hosting apexes hstn.me, iceiy.com, rf.gd, epizy.com outright for corporate users — near-zero legitimate business traffic, heavy M365 phishing reuse",
-      "source": "Phishunt.io",
-      "source_url": "https://phishunt.io/feed.txt",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0270",
-      "url": "https://intermezzoconsultoria.com.br/docs042/onedrive-verify-obf.html",
-      "domain": "intermezzoconsultoria.com.br",
-      "brand": "Microsoft OneDrive / Microsoft 365",
-      "technique": "Compromised Brazilian consultancy site serving the obfuscated 'onedrive-verify-obf.html' kit — same file name as the already-tracked grupoimpaktu.ao and camisasdecolores.net instances",
-      "detection": "High-fidelity hunt: any URL whose filename contains 'onedrive-verify-obf' on a non-Microsoft host; the kit is redeployed verbatim across compromised sites",
-      "source": "Phishunt.io",
-      "source_url": "https://phishunt.io/feed.txt",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
     {
       "id": "mfs-0272",
       "url": "https://soporte.offices-support.com/i/a5a87edd5408d4d4aa07fe6a4e23d3a2f",
@@ -372,19 +333,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0364",
-      "url": "https://teamliftss.com/zz/index.html",
-      "domain": "teamliftss.com",
-      "brand": "Microsoft 365",
-      "technique": "Microsoft sign-in clone ('To access document, you'll need to verify your account') on a lookalike or compromised domain",
-      "detection": "Look for the page text 'That Microsoft account doesn't exist' served from non-Microsoft domains under short paths like /zz/",
-      "source": "PhishStats",
-      "source_url": "https://api.phishstats.info/api/phishing?_where=(id,eq,11909593)",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
       "id": "mfs-0368",
       "url": "http://security-server-page--emekemine206.replit.app/",
       "domain": "security-server-page--emekemine206.replit.app",
@@ -450,71 +398,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0373",
-      "url": "https://security-server-page--heainjus1.replit.app/",
-      "domain": "security-server-page--heainjus1.replit.app",
-      "brand": "Microsoft 365",
-      "technique": "Replit-hosted cloned Entra ID sign-in page (same kit series as known replit.app entries)",
-      "detection": "Any *.replit.app page titled 'Sign in to your account'",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0ace3-e9a7-7607-8cdd-602435aec83c/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0374",
-      "url": "http://security-server-website--resultbox63.replit.app/",
-      "domain": "security-server-website--resultbox63.replit.app",
-      "brand": "Microsoft account",
-      "technique": "Replit-hosted fake Microsoft security verification page",
-      "detection": "Match 'security-server-website--' prefix on replit.app",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0af77-6805-714c-afaf-c8df329e4222/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0375",
-      "url": "https://security-server--eplkaasi.replit.app/",
-      "domain": "security-server--eplkaasi.replit.app",
-      "brand": "Microsoft 365",
-      "technique": "Replit-hosted Microsoft sign-in clone",
-      "detection": "Match 'security-server--' prefix on replit.app",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0ace2-9531-738a-9847-0fe56cdc8191/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0376",
-      "url": "https://security-server-landing-page--chriswazza79.replit.app/",
-      "domain": "security-server-landing-page--chriswazza79.replit.app",
-      "brand": "Microsoft 365",
-      "technique": "Replit-hosted Microsoft sign-in clone",
-      "detection": "Match 'security-server-landing-page--' on replit.app",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0ace2-9921-7209-b64e-61c5626ec4ee/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0377",
-      "url": "https://security-server-landing-page--mauricemslatter.replit.app/?naps",
-      "domain": "security-server-landing-page--mauricemslatter.replit.app",
-      "brand": "Microsoft 365",
-      "technique": "Replit-hosted sign-in clone reached through the '?naps' lure parameter",
-      "detection": "Watch for the '?naps' query string on free-hosting domains",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0ace1-54bf-72aa-bc7b-bbf8e7a2d607/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
       "id": "mfs-0381",
       "url": "https://server-security-landing-page--docu-sign.replit.app/",
       "domain": "server-security-landing-page--docu-sign.replit.app",
@@ -528,45 +411,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0382",
-      "url": "https://docusignfile-review-security-page--newstoolin.replit.app/?naps",
-      "domain": "docusignfile-review-security-page--newstoolin.replit.app",
-      "brand": "Microsoft account",
-      "technique": "DocuSign document lure that harvests Microsoft credentials on Replit",
-      "detection": "Match 'docusignfile-review' on replit.app",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0ace0-e33d-7668-b8ae-187c97f804e0/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0383",
-      "url": "https://secure-html-editor--bradleyevans200.replit.app/",
-      "domain": "secure-html-editor--bradleyevans200.replit.app",
-      "brand": "Microsoft account",
-      "technique": "Replit-hosted 'Sign in to your Microsoft account' clone",
-      "detection": "*.replit.app pages titled 'Sign in to your Microsoft account'",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0ace3-7b14-7108-92ea-535eea8e781a/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0384",
-      "url": "https://mail-us-exg07-exgh0st-0wa.replit.app/",
-      "domain": "mail-us-exg07-exgh0st-0wa.replit.app",
-      "brand": "Outlook Web App",
-      "technique": "Fake Exchange/OWA page on Replit, reached through the tracking redirect user.mxredwood.com",
-      "detection": "Replit subdomains containing 'owa', '0wa' or 'exg'; also watch mxredwood.com redirects",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0ace3-6052-71ba-9cd2-1c158efc87bb/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
       "id": "mfs-0385",
       "url": "https://ed-art-page.replit.app/about.html",
       "domain": "ed-art-page.replit.app",
@@ -577,19 +421,6 @@
       "source_url": "https://urlscan.io/result/01a0b49c-b434-7746-8f37-486559a2b437/",
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-18",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0386",
-      "url": "http://my-html-app-production-wsufv2.laravel.cloud/new.html",
-      "domain": "my-html-app-production-wsufv2.laravel.cloud",
-      "brand": "Microsoft account",
-      "technique": "Laravel Cloud free-hosting abuse serving a fake Microsoft security verification page",
-      "detection": "*.laravel.cloud static HTML pages with Microsoft titles",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0af74-ba93-70bc-8ab0-f3dc7d57e2d6/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
       "status": "active"
     },
     {
@@ -684,19 +515,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0396",
-      "url": "https://zyexx.com/v6bac5ea345aa94405bb69c9d9bxa2a8955f.html",
-      "domain": "zyexx.com",
-      "brand": "Microsoft 365",
-      "technique": "Same random-hex HTML path kit as channelhub.online",
-      "detection": "Paths matching /[a-z0-9]{36}\\.html with Microsoft titles",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0ace1-6378-7469-b9fd-fc25188d2e82/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
       "id": "mfs-0397",
       "url": "http://timeforgoldens.com/exchange-portal/index.html",
       "domain": "timeforgoldens.com",
@@ -762,19 +580,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0402",
-      "url": "https://www.smmrgv.vercel.app/",
-      "domain": "www.smmrgv.vercel.app",
-      "brand": "Microsoft OneDrive",
-      "technique": "Vercel-hosted 'My Files - OneDrive' credential lure",
-      "detection": "*.vercel.app pages with OneDrive titles",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0ace2-0497-7250-a111-104ee0db7ded/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
       "id": "mfs-0403",
       "url": "https://adobfilem.github.io/",
       "domain": "adobfilem.github.io",
@@ -798,32 +603,6 @@
       "source_url": "https://urlscan.io/result/01a0b20b-3062-7618-923f-6df25093884d/",
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-18",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0405",
-      "url": "https://intermezzoconsultoria.com.br/luislopez/primasmaintenanceopendocaccess.html",
-      "domain": "intermezzoconsultoria.com.br",
-      "brand": "Microsoft OneDrive",
-      "technique": "Compromised site hosting a per-victim OneDrive 'Access your file' lure (same host as a known entry)",
-      "detection": "Block all .html paths under intermezzoconsultoria.com.br",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0ace2-1cce-769e-8df3-df769df93482/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0407",
-      "url": "https://itsecuredesk.co.uk/?r=e7c0421b-a157-46d9-b193-06a6f48b28e0&rg=eu",
-      "domain": "itsecuredesk.co.uk",
-      "brand": "Microsoft Entra ID",
-      "technique": "Fake IT-helpdesk domain serving a 'Microsoft SSO Sign In' page with per-victim GUID tokens",
-      "detection": "Helpdesk-themed domains with ?r=<GUID>&rg= parameters",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0ace2-0c6a-7437-8945-e2f34a4c13ac/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
       "status": "active"
     },
     {
@@ -879,19 +658,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0413",
-      "url": "http://infcuenta26.freepage.cc/",
-      "domain": "infcuenta26.freepage.cc",
-      "brand": "Microsoft account (ES)",
-      "technique": "Spanish-language Microsoft verification phish on freepage.cc",
-      "detection": "freepage.cc subdomains with 'cuenta' or '365'",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0af73-f0b9-73ee-ac44-f684527d1923/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
       "id": "mfs-0414",
       "url": "https://goo.su/mFWfpK",
       "domain": "goo.su",
@@ -902,32 +668,6 @@
       "source_url": "https://urlscan.io/result/01a0b72f-c03f-75ab-9587-20722a6c4d5d/",
       "first_seen": "2026-09-19",
       "last_seen": "2026-09-19",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0415",
-      "url": "http://loginemailservices.yzz.me/",
-      "domain": "loginemailservices.yzz.me",
-      "brand": "Microsoft account (ES)",
-      "technique": "'Iniciar sesión en tu cuenta Microsoft' clone on yzz.me free hosting",
-      "detection": "yzz.me / hstn.me / alc.onl hosts with Spanish Microsoft titles",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0af74-a6ab-7022-9baa-1a6ef2eb4eef/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0416",
-      "url": "https://yunk-frerink.alc.onl/",
-      "domain": "yunk-frerink.alc.onl",
-      "brand": "Microsoft account (ES)",
-      "technique": "Spanish Microsoft sign-in clone on alc.onl",
-      "detection": "alc.onl subdomains titled 'Iniciar sesión en tu cuenta Microsoft'",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0af76-f72b-74ee-9a5e-e83562cae8f0/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
       "status": "active"
     },
     {
@@ -1019,19 +759,6 @@
       "source_url": "https://urlscan.io/result/01a0b7fd-2049-711b-8bf8-030bfc2b8e2c/",
       "first_seen": "2026-09-19",
       "last_seen": "2026-09-19",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0424",
-      "url": "https://awesomejobfonts.top/",
-      "domain": "awesomejobfonts.top",
-      "brand": "Microsoft 365",
-      "technique": "0-day .top domain hosting a Microsoft sign-in clone",
-      "detection": "New .top domains with Microsoft login page titles",
-      "source": "urlscan.io",
-      "source_url": "https://urlscan.io/result/01a0ad04-840c-7137-a6a7-743f5545ac83/",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-17",
       "status": "active"
     },
     {
