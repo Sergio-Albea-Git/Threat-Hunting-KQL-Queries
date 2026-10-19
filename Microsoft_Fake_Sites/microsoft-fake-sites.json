@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   "entries": [
     {
@@ -242,19 +242,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0372",
-      "url": "http://security-server-page--delta2rolspan.replit.app/",
-      "domain": "security-server-page--delta2rolspan.replit.app",
-      "brand": "Microsoft account",
-      "technique": "Replit-hosted fake 'Security verification - Microsoft account' page",
-      "detection": "Replit subdomains titled 'Security verification - Microsoft account'",
-      "source": "OpenPhish / PhishTank (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0ba9c-e058-769e-81c3-781445bc983e/",
-      "first_seen": "2026-09-19",
-      "last_seen": "2026-09-19",
-      "status": "active"
-    },
-    {
       "id": "mfs-0381",
       "url": "https://server-security-landing-page--docu-sign.replit.app/",
       "domain": "server-security-landing-page--docu-sign.replit.app",
@@ -278,32 +265,6 @@
       "source_url": "https://urlscan.io/result/01a0bc55-eafa-75bd-8886-466a0be50864/",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0389",
-      "url": "https://usc1.contabostorage.com/e2dce81f193044d09b18133ea4583e24:azzzzz/obum.html",
-      "domain": "usc1.contabostorage.com",
-      "brand": "Microsoft 365",
-      "technique": "Contabo object-storage bucket hosting a Microsoft sign-in clone",
-      "detection": "Object-storage HTML pages titled 'Sign in to your account'",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0b9c2-c0fc-7131-a75b-060cda7718d2/",
-      "first_seen": "2026-09-19",
-      "last_seen": "2026-09-19",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0391",
-      "url": "https://paymob.shop/hotmailsss/hotnew.html",
-      "domain": "paymob.shop",
-      "brand": "Hotmail / Microsoft account",
-      "technique": "Microsoft verification clone on a 15-day-old domain",
-      "detection": "Paths containing 'hotmail' on newly registered .shop domains",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0b9c1-c134-705b-9f70-ef8b6f6f20e5/",
-      "first_seen": "2026-09-19",
-      "last_seen": "2026-09-19",
       "status": "active"
     },
     {
@@ -385,19 +346,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0400",
-      "url": "https://mail-drive-oj1g.p-2f66mze8.workers.dev/l/GfcQaj4x9c4/",
-      "domain": "mail-drive-oj1g.p-2f66mze8.workers.dev",
-      "brand": "Microsoft OneDrive",
-      "technique": "Cloudflare Workers lure: 'Microsoft User shared a document with you'",
-      "detection": "workers.dev pages titled 'shared a document with you'",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0b9c0-a55b-76db-ba48-9ef1feab5171/",
-      "first_seen": "2026-09-19",
-      "last_seen": "2026-09-19",
-      "status": "active"
-    },
-    {
       "id": "mfs-0401",
       "url": "http://divine-sea-8f82.jernzen26.workers.dev/4e83d1d11eed7769/d3d25a953d0222c296edeb",
       "domain": "divine-sea-8f82.jernzen26.workers.dev",
@@ -408,32 +356,6 @@
       "source_url": "https://urlscan.io/result/01a0c40e-679a-7618-98bc-55fd3318d4a0/",
       "first_seen": "2026-09-21",
       "last_seen": "2026-09-21",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0411",
-      "url": "https://it.one-axa.com/i/d9f45458d22584b169f6a906dd3fb284e",
-      "domain": "it.one-axa.com",
-      "brand": "Microsoft 365 (AXA lure)",
-      "technique": "Brand-lookalike domain using the /i/<hash> kit also seen on m365-microsoft.com and offices-support.com",
-      "detection": "Paths matching /i/d[0-9a-f]{32}",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0b72e-0eff-72d6-b2c2-b98d89b570d1/",
-      "first_seen": "2026-09-19",
-      "last_seen": "2026-09-19",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0414",
-      "url": "https://goo.su/mFWfpK",
-      "domain": "goo.su",
-      "brand": "Microsoft account (ES)",
-      "technique": "goo.su shortener redirecting to renovacion365.zya.me ('Verificacion Microsoft')",
-      "detection": "Block the renovacion365.zya.me host and goo.su links that lead to it",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0b72f-c03f-75ab-9587-20722a6c4d5d/",
-      "first_seen": "2026-09-19",
-      "last_seen": "2026-09-19",
       "status": "active"
     },
     {
@@ -512,19 +434,6 @@
       "source_url": "https://urlscan.io/result/01a0c2eb-9ec6-74aa-9b20-116ee7cc23a7/",
       "first_seen": "2026-09-21",
       "last_seen": "2026-09-21",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0423",
-      "url": "https://docsviewer.online/",
-      "domain": "docsviewer.online",
-      "brand": "Microsoft 365",
-      "technique": "Document-viewer themed 0-day domain serving a Microsoft sign-in clone",
-      "detection": "'docs'/'viewer' new domains titled 'Sign in to your account'",
-      "source": "urlscan.io",
-      "source_url": "https://urlscan.io/result/01a0b7fd-2049-711b-8bf8-030bfc2b8e2c/",
-      "first_seen": "2026-09-19",
-      "last_seen": "2026-09-19",
       "status": "active"
     },
     {
