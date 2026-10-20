@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-10-19"
+    "updated": "2026-10-20"
   },
   "entries": [
     {
@@ -151,45 +151,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0361",
-      "url": "https://bnimail-owa.vercel.app/",
-      "domain": "bnimail-owa.vercel.app",
-      "brand": "Outlook Web App",
-      "technique": "Clone of an OWA/Exchange login page ('BNI Outlook') on Vercel free hosting, targeting one organisation's webmail",
-      "detection": "Hunt *.vercel.app hostnames containing 'owa' or 'mail' that serve OWA 'Domain\\User ID' login forms",
-      "source": "PhishStats",
-      "source_url": "https://api.phishstats.info/api/phishing?_where=(id,eq,11910573)",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0362",
-      "url": "https://security-server-landing-page--lme85959.replit.app/",
-      "domain": "security-server-landing-page--lme85959.replit.app",
-      "brand": "Microsoft 365",
-      "technique": "Microsoft 'Enter password / sign in timed-out' clone on Replit; same template as the existing security-server-page campaign",
-      "detection": "Block *.replit.app hostnames matching 'security-server-(landing-)?page--*'",
-      "source": "PhishStats",
-      "source_url": "https://api.phishstats.info/api/phishing?_where=(id,eq,11910585)",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0363",
-      "url": "https://security-server-landing-page--spencer-hunt1.replit.app/",
-      "domain": "security-server-landing-page--spencer-hunt1.replit.app",
-      "brand": "Microsoft 365",
-      "technique": "Microsoft 'Enter password / sign in timed-out' clone on Replit; same template as the existing security-server-page campaign",
-      "detection": "Block *.replit.app hostnames matching 'security-server-(landing-)?page--*'",
-      "source": "PhishStats",
-      "source_url": "https://api.phishstats.info/api/phishing?_where=(id,eq,11910577)",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "status": "active"
-    },
-    {
       "id": "mfs-0368",
       "url": "http://security-server-page--emekemine206.replit.app/",
       "domain": "security-server-page--emekemine206.replit.app",
@@ -216,97 +177,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0370",
-      "url": "https://roechling.site/login.html",
-      "domain": "roechling.site",
-      "brand": "Microsoft 365",
-      "technique": "Brand typosquat (Röchling) on a 4-day-old Cloudflare-fronted domain hosting a cloned Entra ID sign-in page",
-      "detection": "Flag new .site domains whose page title is 'Sign in to your account' and that are hosted outside Microsoft's IP ranges",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0bee7-b367-7676-84f0-b5c3324aa5ad/",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0371",
-      "url": "https://security-server-landing-page--microsoftdou.replit.app/",
-      "domain": "security-server-landing-page--microsoftdou.replit.app",
-      "brand": "Microsoft 365",
-      "technique": "Free-hosting abuse (Replit) using the 'security-server-landing-page--<user>' AiTM lure series",
-      "detection": "Block the regex ^security-server(-landing|-static|-website)?(-page)?--.*\\.replit\\.app$",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0bee7-ab8d-74ae-9bd3-cda609673ca6/",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0381",
-      "url": "https://server-security-landing-page--docu-sign.replit.app/",
-      "domain": "server-security-landing-page--docu-sign.replit.app",
-      "brand": "Microsoft account",
-      "technique": "DocuSign-themed lure leading to a fake Microsoft security verification page on Replit",
-      "detection": "Replit subdomains that combine 'docu-sign' or 'docusign' with a Microsoft page title",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0bee7-02ec-7218-a239-99ee4bb72b75/",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0388",
-      "url": "https://usc1.contabostorage.com/3afb0c8c107a4058aec51787070d029f:newnew/hotmail.html",
-      "domain": "usc1.contabostorage.com",
-      "brand": "Hotmail / Microsoft account",
-      "technique": "Contabo object-storage bucket hosting a Hotmail credential page",
-      "detection": "contabostorage.com URLs whose path ends in hotmail/obum/.html",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0bc55-eafa-75bd-8886-466a0be50864/",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0392",
-      "url": "https://lobologisticgroup.com.mx/ds/kmgroup.html",
-      "domain": "lobologisticgroup.com.mx",
-      "brand": "Microsoft account",
-      "technique": "Compromised site hosting a fake Microsoft security verification page (also served on the kkms. subdomain)",
-      "detection": "Legitimate SMB domains suddenly serving 'Security verification - Microsoft account'",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0bc56-0b0b-7109-b49d-997696a30b3b/",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0393",
-      "url": "https://www.kkms.lobologisticgroup.com.mx/",
-      "domain": "www.kkms.lobologisticgroup.com.mx",
-      "brand": "Microsoft account",
-      "technique": "Subdomain on a compromised site serving a Microsoft verification phish",
-      "detection": "New subdomains on compromised .com.mx hosts",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0bee7-a519-738f-9f1e-873a2bec5d55/",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0395",
-      "url": "https://channelhub.online/a2240a74cg969843d86a17f4ea4de1a498a1.html",
-      "domain": "channelhub.online",
-      "brand": "Microsoft 365",
-      "technique": "Sign-in clone behind a random-hex HTML path per victim; the page 404s after first use",
-      "detection": "Hex-named single-use .html paths titled 'Sign in to your account'",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0bc56-121a-70e8-975c-cde7c8ab9ef0/",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "status": "active"
-    },
-    {
       "id": "mfs-0397",
       "url": "http://timeforgoldens.com/exchange-portal/index.html",
       "domain": "timeforgoldens.com",
@@ -317,32 +187,6 @@
       "source_url": "https://urlscan.io/result/01a0c40d-b716-769d-bce4-5a2742863d36/",
       "first_seen": "2026-09-21",
       "last_seen": "2026-09-21",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0398",
-      "url": "http://login.bugcutter.com/rak/email/KYC-1/Compliance/hot",
-      "domain": "login.bugcutter.com",
-      "brand": "Microsoft / Hotmail",
-      "technique": "KYC-compliance email lure leading to a 'Microsoft | Login' page (mirrored on the hotspot. subdomain)",
-      "detection": "URL paths containing /KYC-1/Compliance/",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0bee8-19d5-71da-a8ff-7bda5a7fcd99/",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0399",
-      "url": "https://acces-opalecenter.countmup.site/",
-      "domain": "acces-opalecenter.countmup.site",
-      "brand": "Outlook",
-      "technique": "Outlook login clone on a lookalike subdomain of a .site domain",
-      "detection": "Subdomains starting 'acces-' on young .site domains",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0bee7-4273-75b9-9c24-990f2d690d4e/",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
       "status": "active"
     },
     {
