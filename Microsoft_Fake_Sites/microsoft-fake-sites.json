@@ -4,22 +4,9 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-10-20"
+    "updated": "2026-10-21"
   },
   "entries": [
-    {
-      "id": "mfs-0350",
-      "url": "http://connectezvousamicrosoftoutlook.weebly.com/",
-      "domain": "connectezvousamicrosoftoutlook.weebly.com",
-      "brand": "Microsoft Outlook",
-      "technique": "Free-site-builder phishing (Weebly) with a French-language 'connect to Microsoft Outlook' credential lure",
-      "detection": "Flag *.weebly.com subdomains containing microsoft/outlook/connectez strings; alert on credential POSTs from free site-builder hosts",
-      "source": "OpenPhish",
-      "source_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
-      "status": "active"
-    },
     {
       "id": "mfs-0351",
       "url": "https://auth.properties/E.rU-TDP5DOv4?/microsoftonline/mailbox/upgrade&userid=75468973984785978212312307887543",
@@ -177,32 +164,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0397",
-      "url": "http://timeforgoldens.com/exchange-portal/index.html",
-      "domain": "timeforgoldens.com",
-      "brand": "Outlook / Exchange",
-      "technique": "Compromised site hosting a fake Exchange/Outlook portal",
-      "detection": "'/exchange-portal/' paths on non-Microsoft hosts",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0c40d-b716-769d-bce4-5a2742863d36/",
-      "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0401",
-      "url": "http://divine-sea-8f82.jernzen26.workers.dev/4e83d1d11eed7769/d3d25a953d0222c296edeb",
-      "domain": "divine-sea-8f82.jernzen26.workers.dev",
-      "brand": "Microsoft OneDrive",
-      "technique": "Chain of Cloudflare Workers redirects ending on a fake OneDrive page",
-      "detection": "Watch for redirects between two *.workers.dev hosts that end on a OneDrive-titled page",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0c40e-679a-7618-98bc-55fd3318d4a0/",
-      "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
-      "status": "active"
-    },
-    {
       "id": "mfs-0417",
       "url": "https://signin.broker/E.SFfn0JUJ9O3uu4oG1Q",
       "domain": "signin.broker",
@@ -213,19 +174,6 @@
       "source_url": "https://urlscan.io/result/01a0c6a2-248b-7554-a6c1-a66ff189ec24/",
       "first_seen": "2026-09-22",
       "last_seen": "2026-09-22",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0418",
-      "url": "http://gsd.eon-account.com/E.Oq1q8gPNJYc",
-      "domain": "gsd.eon-account.com",
-      "brand": "Microsoft account (E.ON lure)",
-      "technique": "/E.<token> kit on an E.ON-lookalike domain; possibly phishing-simulation infrastructure",
-      "detection": "Match /E.<token> on brand-lookalike *-account.com domains",
-      "source": "OpenPhish (via urlscan.io)",
-      "source_url": "https://urlscan.io/result/01a0c40f-e5e2-73c9-b674-394a4cec65d0/",
-      "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
       "status": "active"
     },
     {
@@ -252,32 +200,6 @@
       "source_url": "https://urlscan.io/result/01a0c878-1075-74bb-b877-77d2aeed2fe7/",
       "first_seen": "2026-09-22",
       "last_seen": "2026-09-22",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0421",
-      "url": "https://vendnue.com/auth",
-      "domain": "vendnue.com",
-      "brand": "Microsoft 365",
-      "technique": "0-day-old domain serving a cloned Entra ID 'Sign in to your account' page at /auth",
-      "detection": "Domains under 7 days old with Microsoft login titles that are not in Microsoft ASNs",
-      "source": "urlscan.io",
-      "source_url": "https://urlscan.io/result/01a0c5e5-6f65-74ef-9486-404ece190d13/",
-      "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0422",
-      "url": "https://koukgruop.com/",
-      "domain": "koukgruop.com",
-      "brand": "Microsoft 365",
-      "technique": "0-day-old typo domain ('gruop') hosting a Microsoft sign-in clone",
-      "detection": "CT-log hunting for 'gruop' misspellings plus Microsoft login titles",
-      "source": "urlscan.io",
-      "source_url": "https://urlscan.io/result/01a0c2eb-9ec6-74aa-9b20-116ee7cc23a7/",
-      "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
       "status": "active"
     },
     {
