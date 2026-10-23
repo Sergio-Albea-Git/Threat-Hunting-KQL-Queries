@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-10-22"
+    "updated": "2026-10-23"
   },
   "entries": [
     {
@@ -580,45 +580,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0484",
-      "url": "https://mylogin-microsoftonline.com",
-      "domain": "mylogin-microsoftonline.com",
-      "brand": "Microsoft 365 / Entra ID",
-      "technique": "Near-exact typosquat of login.microsoftonline.com with 'my' prefix",
-      "detection": "Deny any registrable domain containing 'microsoftonline' — Microsoft owns only microsoftonline.com itself",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0485",
-      "url": "https://ms365-onedrive.com",
-      "domain": "ms365-onedrive.com",
-      "brand": "Microsoft 365 / OneDrive",
-      "technique": "Abbreviation squat (ms365) hosting OneDrive document-share credential page",
-      "detection": "Add 'ms365','m365','o365' abbreviations to brand-token lists — most detection rules only match the full 'microsoft' string",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0486",
-      "url": "https://accounts-login-micr0s0ft-mailsetup.com",
-      "domain": "accounts-login-micr0s0ft-mailsetup.com",
-      "brand": "Microsoft 365 / Outlook",
-      "technique": "Homoglyph (micr0s0ft) mail-setup lure, long multi-token domain to defeat substring rules",
-      "detection": "Apply leetspeak normalization (0→o, 1→l, 5→s) before brand matching; this domain is invisible to a plain 'microsoft' grep",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
-      "status": "active"
-    },
-    {
       "id": "mfs-0488",
       "url": "http://outlook.evergreenfin.ltd",
       "domain": "outlook.evergreenfin.ltd",
@@ -850,97 +811,6 @@
       "source_url": "https://phishunt.io/newregistration/microsoft/",
       "first_seen": "2026-09-24",
       "last_seen": "2026-09-24",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0506",
-      "url": "https://microsoftonedrivesync.top",
-      "domain": "microsoftonedrivesync.top",
-      "brand": "Microsoft OneDrive",
-      "technique": "'OneDrive sync error, re-authenticate' lure on a newly registered .top domain",
-      "detection": "Alert on 'onedrive'+sync|verify|error|share token combinations in URL host or path",
-      "source": "phishunt.io newly registered Microsoft domains",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0507",
-      "url": "https://fra-microsoft.com",
-      "domain": "fra-microsoft.com",
-      "brand": "Microsoft 365",
-      "technique": "Region-prefixed brand squat ('fra-' = Frankfurt) — part of a three-TLD cluster registered the same day",
-      "detection": "Pivot on registrant/NS for fra-microsoft.com/.info/.store; hunt other <region>-microsoft.* patterns",
-      "source": "phishunt.io newly registered Microsoft domains",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0508",
-      "url": "https://fra-microsoft.info",
-      "domain": "fra-microsoft.info",
-      "brand": "Microsoft 365",
-      "technique": "Region-prefixed brand squat, same-day cluster with fra-microsoft.com and fra-microsoft.store",
-      "detection": "Block the whole fra-microsoft.* cluster; watch for new TLD siblings on the same nameservers",
-      "source": "phishunt.io newly registered Microsoft domains",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0509",
-      "url": "https://fra-microsoft.store",
-      "domain": "fra-microsoft.store",
-      "brand": "Microsoft 365",
-      "technique": "Region-prefixed brand squat, same-day cluster with fra-microsoft.com and fra-microsoft.info",
-      "detection": "Same-day multi-TLD registration of an identical brand label is itself a strong phishing indicator — alert on it",
-      "source": "phishunt.io newly registered Microsoft domains",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0510",
-      "url": "https://axisurbanmobilityllc-outlook-company.com",
-      "domain": "axisurbanmobilityllc-outlook-company.com",
-      "brand": "Microsoft Outlook / OWA",
-      "technique": "Victim-specific BEC lure — target company name concatenated with 'outlook-company' for a tailored webmail sign-in",
-      "detection": "CT-log watch on '<yourcompanyname>-outlook' and '<yourcompanyname>-microsoft' permutations",
-      "source": "phishunt.io newly registered Microsoft domains",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0511",
-      "url": "https://outlook.beer",
-      "domain": "outlook.beer",
-      "brand": "Microsoft Outlook",
-      "technique": "Exact-brand squat on a novelty TLD",
-      "detection": "Maintain a deny-by-default rule for brand-exact SLDs on nTLDs (.beer, .baby, .surf, .day, .sbs)",
-      "source": "phishunt.io newly registered Microsoft domains",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0512",
-      "url": "https://outlook.baby",
-      "domain": "outlook.baby",
-      "brand": "Microsoft Outlook",
-      "technique": "Exact-brand squat on a novelty TLD, sibling registration to outlook.beer",
-      "detection": "Pivot on the registrar/NS shared by outlook.beer and outlook.baby to surface the rest of the batch",
-      "source": "phishunt.io newly registered Microsoft domains",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
       "status": "active"
     },
     {
