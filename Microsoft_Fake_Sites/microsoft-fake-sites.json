@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-10-23"
+    "updated": "2026-10-24"
   },
   "entries": [
     {
@@ -18,19 +18,6 @@
       "source_url": "https://phishunt.io/source/phishtank/",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0440",
-      "url": "http://validar-micuenta-outlook.yzz.me",
-      "domain": "validar-micuenta-outlook.yzz.me",
-      "brand": "Microsoft Outlook / Live",
-      "technique": "Spanish-language 'validar mi cuenta' Outlook account-verification typosquat hosted on the free yzz.me subdomain service over plain HTTP",
-      "detection": "Alert on DNS/HTTP to *.yzz.me and on newly seen hostnames combining Spanish verbs (validar, verificar, reactivar, acceso) with outlook/hotmail/microsoft",
-      "source": "OpenPhish (via phishunt.io)",
-      "source_url": "https://phishunt.io/source/openphish/",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24",
       "status": "active"
     },
     {
@@ -239,19 +226,6 @@
       "source_url": "https://phishunt.io/newregistration/microsoft/",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0457",
-      "url": "https://microsofteams-setup.com",
-      "domain": "microsofteams-setup.com",
-      "brand": "Microsoft Teams",
-      "technique": "Fake 'Teams setup/installer' page pivoting to M365 credential prompt",
-      "detection": "Block domains combining a Microsoft product name with setup/download/update tokens; real Teams installers come from statics.teams.cdn.office.net",
-      "source": "OpenPhish (via phishunt.io)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24",
       "status": "active"
     },
     {
@@ -528,58 +502,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0480",
-      "url": "https://accountrecovery-outlook.com",
-      "domain": "accountrecovery-outlook.com",
-      "brand": "Outlook / Microsoft Account",
-      "technique": "Account-recovery lure harvesting credentials plus recovery email/phone for MFA reset",
-      "detection": "Alert on 'recovery'/'reset' + Microsoft brand domains; real recovery is account.live.com/acsr",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0481",
-      "url": "https://m365-login-microsoft.com",
-      "domain": "m365-login-microsoft.com",
-      "brand": "Microsoft 365 / Entra ID",
-      "technique": "Direct login-page typosquat (m365 + login + microsoft tokens)",
-      "detection": "Highest-priority pattern: any domain containing both 'login' and 'microsoft' that is not login.microsoftonline.com or login.microsoft.com",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0482",
-      "url": "https://microsoft-security.online",
-      "domain": "microsoft-security.online",
-      "brand": "Microsoft 365 / Entra ID",
-      "technique": "Security-alert lure domain for MFA/passkey re-enrollment social engineering",
-      "detection": "Same lure family as the Storm-3121 passkey cluster — watch for target company name inserted as a subdomain (contoso.microsoft-security.online)",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0483",
-      "url": "https://onedrive-mysharepoint.com",
-      "domain": "onedrive-mysharepoint.com",
-      "brand": "OneDrive / SharePoint",
-      "technique": "Combined OneDrive+SharePoint squat mimicking the real *-my.sharepoint.com personal-site hostname",
-      "detection": "Match 'mysharepoint' as a single label — the genuine form is tenant-my.sharepoint.com with 'my' as its own label",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24",
-      "status": "active"
-    },
-    {
       "id": "mfs-0488",
       "url": "http://outlook.evergreenfin.ltd",
       "domain": "outlook.evergreenfin.ltd",
@@ -759,58 +681,6 @@
       "source_url": "https://phishunt.io/newregistration/microsoft/",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0502",
-      "url": "https://microsoftidonline.com",
-      "domain": "microsoftidonline.com",
-      "brand": "Microsoft Entra ID / microsoftonline.com",
-      "technique": "Insertion typosquat of microsoftonline.com posing as the Microsoft identity sign-in host",
-      "detection": "Any host matching microsoft.*online that is not *.microsoftonline.com should be blocked outright",
-      "source": "phishunt.io newly registered Microsoft domains",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0503",
-      "url": "https://microsoftprovider.com",
-      "domain": "microsoftprovider.com",
-      "brand": "Microsoft 365",
-      "technique": "Brand squat presented as a Microsoft service/support provider portal with a sign-in step",
-      "detection": "CT-log monitor for new certs with CN containing 'microsoft' outside Microsoft's ASNs",
-      "source": "phishunt.io newly registered Microsoft domains",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0504",
-      "url": "https://microsoftfileoffline.top",
-      "domain": "microsoftfileoffline.top",
-      "brand": "Microsoft 365 / OneDrive",
-      "technique": "Fake 'offline file' share notification leading to a Microsoft credential prompt",
-      "detection": "Combine 'microsoft'+file|doc|share tokens with .top/.sbs/.cfd TLDs for a high-signal block rule",
-      "source": "phishunt.io newly registered Microsoft domains",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0505",
-      "url": "https://outlook.day",
-      "domain": "outlook.day",
-      "brand": "Microsoft Outlook",
-      "technique": "Exact-brand squat on a novelty TLD, used for Outlook webmail sign-in lures",
-      "detection": "Block exact label 'outlook'/'hotmail'/'onedrive' as an SLD under any TLD Microsoft does not own",
-      "source": "phishunt.io newly registered Microsoft domains",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24",
       "status": "active"
     },
     {
