@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   },
   "entries": [
     {
@@ -226,123 +226,6 @@
       "source_url": "https://phishunt.io/newregistration/microsoft/",
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0467",
-      "url": "https://teams-microsofts-meet.com",
-      "domain": "teams-microsofts-meet.com",
-      "brand": "Microsoft Teams",
-      "technique": "Pluralized-brand typosquat ('microsofts') fake Teams meeting join page",
-      "detection": "Detect plural/possessive brand mutations: microsofts, microsoftt, micosoft in proxy SNI",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0468",
-      "url": "https://teams-microsoft-downloads.com",
-      "domain": "teams-microsoft-downloads.com",
-      "brand": "Microsoft Teams",
-      "technique": "Fake Teams download page (variant of the known teams-microsoft-download.com)",
-      "detection": "Already-known sibling teams-microsoft-download.com — block the singular/plural pair together",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0469",
-      "url": "https://outlook.surf",
-      "domain": "outlook.surf",
-      "brand": "Outlook",
-      "technique": "Bare-brand squat on a low-reputation TLD used for webmail credential pages",
-      "detection": "Deny-list bare Microsoft product names on non-Microsoft TLDs (.surf, .sbs, .cfd, .shop, .day, .baby)",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0470",
-      "url": "https://onedriveshare.net",
-      "domain": "onedriveshare.net",
-      "brand": "OneDrive / SharePoint",
-      "technique": "Fake 'shared document' OneDrive lure fronting an M365 sign-in prompt",
-      "detection": "OneDrive sharing only occurs on *.sharepoint.com / 1drv.ms / onedrive.live.com — alert on any other host serving a OneDrive-branded document viewer",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0471",
-      "url": "https://onedrivecloud.net",
-      "domain": "onedrivecloud.net",
-      "brand": "OneDrive",
-      "technique": "OneDrive brand-plus-suffix squat registered in the same batch as onedriveshare.net",
-      "detection": "Same registrar/nameserver pivot as onedriveshare.net — block the pair and monitor the hosting ASN",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0472",
-      "url": "https://microsoft-windows-support.com",
-      "domain": "microsoft-windows-support.com",
-      "brand": "Microsoft / Windows",
-      "technique": "Tech-support-themed lure escalating to Microsoft account sign-in",
-      "detection": "Pair with existing microsoft-techsupport.com blocks; flag any 'support'+'microsoft' domain not under support.microsoft.com",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0473",
-      "url": "https://microsoft-onedrive.org",
-      "domain": "microsoft-onedrive.org",
-      "brand": "OneDrive / Microsoft 365",
-      "technique": "Hyphenated brand-pair typosquat hosting a OneDrive document-access sign-in",
-      "detection": "Regex ^microsoft-(onedrive|sharepoint|teams|office)\\. across all TLDs — none are Microsoft-owned",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0474",
-      "url": "https://inbox-microsoft.com",
-      "domain": "inbox-microsoft.com",
-      "brand": "Outlook / Microsoft 365",
-      "technique": "Mailbox-notification lure domain for OWA credential capture",
-      "detection": "Match ^(inbox|mail|webmail)-microsoft\\. in SNI/DNS; no legitimate Microsoft mail host uses that form",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0475",
-      "url": "https://0nedrive.space",
-      "domain": "0nedrive.space",
-      "brand": "OneDrive",
-      "technique": "Homoglyph typosquat (zero-for-O) OneDrive file-share phishing page",
-      "detection": "Normalize 0→o and 1→l on observed domains before comparing to a Microsoft brand list; catches 0utl00k/0nedrive families",
-      "source": "phishunt.io (CT logs)",
-      "source_url": "https://phishunt.io/newregistration/microsoft/",
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26",
       "status": "active"
     },
     {
