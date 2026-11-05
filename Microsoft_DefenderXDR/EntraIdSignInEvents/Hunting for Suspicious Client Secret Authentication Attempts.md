@@ -10,7 +10,7 @@
 
 **Hunting for Suspicious Client Secret Authentication Attempt𝘀**
 
-**Description:**  TThis week, I'm sharing a new article inspired by a recent investigation published by Todyl about attackers abusing stolen application credentials to authenticate as legitimate applications in Microsoft Entra ID.
+**Description:**  This week, I'm sharing a new article inspired by a recent investigation published by Todyl about attackers abusing stolen application credentials to authenticate as legitimate applications in Microsoft Entra ID.
 The interesting part? Attackers don't necessarily need to compromise a user account. A stolen client secret could be enough to access sensitive cloud resources, depending on the application's permissions.
 As usual, rather than focusing on IP-based IOCs that attackers can easily rotate, I prefer looking for Indicators of Attack (IOAs). For this hunt, I'm focusing on two Entra ID authentication errors:
 
