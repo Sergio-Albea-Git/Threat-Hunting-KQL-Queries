@@ -2632,6 +2632,84 @@
       "first_seen": "2026-10-27",
       "last_seen": "2026-10-27",
       "status": "active"
+    },
+    {
+      "id": "mfs-0723",
+      "url": "https://outlook40394343.web.app/",
+      "domain": "outlook40394343.web.app",
+      "brand": "Microsoft Outlook",
+      "technique": "Credential-harvesting fake Outlook sign-in hosted on Firebase/Google web.app free hosting (page title 'Sample Background')",
+      "detection": "Alert on HTTP/DNS to *.web.app hosts whose subdomain contains 'outlook'/'office'/'onedrive' plus a long digit string; these are near-never legitimate business destinations",
+      "source": "PhishDestroy",
+      "source_url": "https://phishdestroy.io/domain/outlook40394343.web.app/",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0724",
+      "url": "https://outlook40394343.firebaseapp.com/",
+      "domain": "outlook40394343.firebaseapp.com",
+      "brand": "Microsoft Outlook",
+      "technique": "Same kit as the .web.app twin — Firebase-hosted fake Outlook login; firebaseapp.com is the paired default domain for the same Firebase project",
+      "detection": "When one *.web.app phish is found, always block the identical *.firebaseapp.com label (and vice versa) — Firebase serves both from one project",
+      "source": "PhishDestroy",
+      "source_url": "https://phishdestroy.io/domain/outlook40394343.firebaseapp.com/",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0725",
+      "url": "https://sharepoint.onedrive.dczhxkw84930320.passkey.auth02.outlook.drive.plastkon.cc",
+      "domain": "sharepoint.onedrive.dczhxkw84930320.passkey.auth02.outlook.drive.plastkon.cc",
+      "brand": "Microsoft SharePoint / OneDrive",
+      "technique": "Deep subdomain-chain impersonation ('ShareP0int' page) on an attacker-registered .cc domain, with fake passkey/auth labels to push the real domain off the visible URL bar",
+      "detection": "Hunt DNS/proxy logs for FQDNs with 4+ labels mixing sharepoint/onedrive/outlook/passkey/auth where the registrable domain is not microsoft.com; alert on label count > 5 with Microsoft keywords",
+      "source": "PhishDestroy",
+      "source_url": "https://phishdestroy.io/domain/sharepoint.onedrive.dczhxkw84930320.passkey.auth02.outlook.drive.plastkon.cc/",
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0726",
+      "url": "https://verificarcuenta-micros0ft2026way.zya.me/?i=1",
+      "domain": "verificarcuenta-micros0ft2026way.zya.me",
+      "brand": "Microsoft Account / Live",
+      "technique": "Spanish-language 'verify your account' typosquat (micros0ft with a zero) on free zya.me dynamic-DNS hosting",
+      "detection": "Regex Microsoft homoglyph/leetspeak variants (micr0soft, micros0ft, rnicrosoft) against proxy and email URL logs; add free hosts zya.me / yzz.me / iceiy.com / hstn.me to a high-risk TLD-host watchlist",
+      "source": "phishunt.io (hourly Microsoft phishing tracker)",
+      "source_url": "https://phishunt.io/suspicious/microsoft/",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0727",
+      "url": "https://goldcreekconcrete.com",
+      "domain": "goldcreekconcrete.com",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "SkyW4lker ('x365 Sentinel') device-code phishing landing on a Microsoft-themed subdomain chain — victim is shown a real Entra device code to enter at login.microsoft.com/device, yielding a valid session with no password or MFA bypass",
+      "detection": "Hunt web proxy for /assets/php/endpoints/session_public.php?action=start and repeated ?action=poll; correlate Entra ID device-code sign-ins against users who received password-protected invoice/contract attachments minutes earlier",
+      "source": "Cyber Security News / ANY.RUN research",
+      "source_url": "https://cybersecuritynews.com/skyw4lker-phishing-campaign-expands-threatening-us-enterprises-with-microsoft-365-account-takeovers/",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0728",
+      "url": "https://goldcreekconcrete.org",
+      "domain": "goldcreekconcrete.org",
+      "brand": "Microsoft 365 / Entra ID",
+      "technique": "SkyW4lker device-code phishing — .org sibling of the same actor-controlled domain pair, serving the same landing tokens (//it[A-Za-z0-9]{32}us)",
+      "detection": "Block both TLD variants together; alert on URL paths matching //it[A-Za-z0-9]{32}us or //zt[A-Za-z0-9]{32}op and on Conditional Access policies not yet restricting device-code flow",
+      "source": "Cyber Security News / ANY.RUN research",
+      "source_url": "https://cybersecuritynews.com/skyw4lker-phishing-campaign-expands-threatening-us-enterprises-with-microsoft-365-account-takeovers/",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active"
     }
   ]
 }
