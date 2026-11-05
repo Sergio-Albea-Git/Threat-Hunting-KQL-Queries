@@ -8,13 +8,14 @@
 
 ---
 
-**𝗛𝘂𝗻𝘁𝗶𝗻𝗴 𝗳𝗼𝗿 𝗦𝘂𝘀𝗽𝗶𝗰𝗶𝗼𝘂𝘀 𝗖𝗹𝗶𝗲𝗻𝘁 𝗦𝗲𝗰𝗿𝗲𝘁 𝗔𝘂𝘁𝗵𝗲𝗻𝘁𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗔𝘁𝘁𝗲𝗺𝗽𝘁𝘀**
+**Hunting for Suspicious Client Secret Authentication Attempt𝘀**
 
 **Description:**  TThis week, I'm sharing a new article inspired by a recent investigation published by Todyl about attackers abusing stolen application credentials to authenticate as legitimate applications in Microsoft Entra ID.
 The interesting part? Attackers don't necessarily need to compromise a user account. A stolen client secret could be enough to access sensitive cloud resources, depending on the application's permissions.
 As usual, rather than focusing on IP-based IOCs that attackers can easily rotate, I prefer looking for Indicators of Attack (IOAs). For this hunt, I'm focusing on two Entra ID authentication errors:
-🔹 AADSTS7000215 – Invalid client secret
-🔹 AADSTS7000222 – Expired client secret
+
+- AADSTS7000215 – Invalid client secret
+- AADSTS7000222 – Expired client secret
 
 ```
 let UserSignIns = EntraIdSignInEvents
