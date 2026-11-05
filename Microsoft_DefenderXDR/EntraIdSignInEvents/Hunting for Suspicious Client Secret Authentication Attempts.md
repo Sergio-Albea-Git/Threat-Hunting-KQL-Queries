@@ -26,3 +26,4 @@ let SpnSignIns = EntraIdSpnSignInEvents | where Timestamp > ago(7d) | where Erro
 union UserSignIns, SpnSignIns
 | extend ErrorDescription = case(ErrorCode == 7000215, "Invalid client secret", ErrorCode == 7000222, "Expired client secret", "Other")
 ```
+Additional Information: https://www.todyl.com/blog/stolen-app-credentials-real-access-an-actor-is-signing-into-entra-id-and-azure-devops-as-your-workloads
