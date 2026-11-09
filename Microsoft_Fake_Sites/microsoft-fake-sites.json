@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-11-08"
+    "updated": "2026-11-09"
   },
   "entries": [
     {
@@ -1708,19 +1708,6 @@
       "source_url": "http://www.phishtank.com/phish_detail.php?phish_id=9547604",
       "first_seen": "2026-10-21",
       "last_seen": "2026-10-21",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0651",
-      "url": "https://hotmail.com-desenrolabrasil964886444@81.190.202.64.host.secureserver.net/desenrola/?email=sinhorinho@outlook.com",
-      "domain": "81.190.202.64.host.secureserver.net",
-      "brand": "Microsoft Hotmail/Outlook",
-      "technique": "Userinfo-spoofing URL (hotmail.com-... before the @) on a GoDaddy shared-host IP hostname, with victim email pre-filled",
-      "detection": "Alert on any URL containing '@' in the authority where the userinfo portion contains a brand string; also hunt *.host.secureserver.net links in mail",
-      "source": "PhishTank",
-      "source_url": "http://www.phishtank.com/phish_detail.php?phish_id=9541853",
-      "first_seen": "2026-10-10",
-      "last_seen": "2026-10-10",
       "status": "active"
     },
     {
