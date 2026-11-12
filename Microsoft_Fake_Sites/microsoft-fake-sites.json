@@ -5037,6 +5037,45 @@
       "first_seen": "2026-11-11",
       "last_seen": "2026-11-11",
       "status": "active"
+    },
+    {
+      "id": "mfs-0928",
+      "url": "https://gpimmlgration.com",
+      "domain": "gpimmlgration.com",
+      "brand": "Microsoft 365 / Teams",
+      "technique": "Device-code phishing — typosquatted domain + Google share-link redirect chain hides a Teams meeting-booking lure that relays a real Microsoft device code",
+      "detection": "Hunt Entra sign-in logs for authenticationMethod 'Cmsi:Cmsi' from unmanaged devices, plus python-requests/node user agents on token requests",
+      "source": "Huntress",
+      "source_url": "https://www.huntress.com/blog/crafty-microsoft-teams-booking-flow-disguises-device-code-phishing",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0933",
+      "url": "https://microsoftonline-sharepoint.online",
+      "domain": "microsoftonline-sharepoint.online",
+      "brand": "Microsoft SharePoint / Microsoft 365",
+      "technique": "Typosquat apex combining microsoftonline + sharepoint on the .online TLD, fronting a fake SharePoint document-share sign-in",
+      "detection": "Regex proxy logs for hostnames containing 'microsoftonline-' where the registrable domain is not microsoftonline.com",
+      "source": "phishunt.io feed",
+      "source_url": "https://phishunt.io/feed.txt",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0953",
+      "url": "https://holytrip.com",
+      "domain": "holytrip.com",
+      "brand": "Microsoft 365 / SharePoint",
+      "technique": "Compromised sender domain delivering SharePoint-themed PDF lures into the PhantomDOM Browser-in-the-Middle session-hijack chain",
+      "detection": "Correlate inbound mail from holytrip.com with subsequent hits to entry.richmondmarketingsystems.org and IPs 31.57.184.0/24",
+      "source": "ZeroBEC",
+      "source_url": "https://zerobec.com/blog/phantomdom-browser-in-the-middle-microsoft-365",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "status": "active"
     }
   ]
 }
