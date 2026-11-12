@@ -5011,6 +5011,32 @@
       "first_seen": "2026-11-10",
       "last_seen": "2026-11-10",
       "status": "active"
+    },
+    {
+      "id": "mfs-0926",
+      "url": "https://hotmail-two.vercel.app",
+      "domain": "hotmail-two.vercel.app",
+      "brand": "Microsoft Outlook/Hotmail",
+      "technique": "Credential-harvest clone of Hotmail/Outlook sign-in hosted on free Vercel subdomain",
+      "detection": "Alert on outbound HTTPS to *.vercel.app subdomains containing hotmail/outlook/office strings in proxy logs",
+      "source": "OpenPhish via phishunt.io",
+      "source_url": "https://phishunt.io/suspicious/microsoft/",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0927",
+      "url": "https://csmgroup.blu-foods.com/login?method=signin&mode=secure",
+      "domain": "csmgroup.blu-foods.com",
+      "brand": "Microsoft 365",
+      "technique": "Compromised legitimate site hosting fake M365 /login page with signin/secure query params",
+      "detection": "Hunt proxy logs for URI path /login with params method=signin&mode=secure on non-Microsoft hosts",
+      "source": "OpenPhish via phishunt.io",
+      "source_url": "https://phishunt.io/source/openphish/",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "status": "active"
     }
   ]
 }
