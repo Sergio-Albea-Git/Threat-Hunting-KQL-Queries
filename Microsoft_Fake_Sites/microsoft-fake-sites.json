@@ -4647,6 +4647,84 @@
       "first_seen": "2026-11-05",
       "last_seen": "2026-11-05",
       "status": "active"
+    },
+    {
+      "id": "mfs-0954",
+      "url": "https://outlook-live365.github.io/paneldecontrol-365/",
+      "domain": "outlook-live365.github.io",
+      "brand": "Microsoft Outlook / Office 365",
+      "technique": "Credential-harvest page hosted on GitHub Pages ('paneldecontrol-365' Spanish-language Outlook panel lure)",
+      "detection": "Alert on *.github.io hosts whose org/repo name contains outlook/office/365/live; GitHub Pages is never a legitimate Microsoft auth origin",
+      "source": "OpenPhish / Google Safe Browsing (via phishunt)",
+      "source_url": "https://phishunt.io/suspicious/microsoft/",
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0955",
+      "url": "https://hawkinsinc.microsoft-alerts.org",
+      "domain": "hawkinsinc.microsoft-alerts.org",
+      "brand": "Microsoft 365",
+      "technique": "Targeted subdomain-per-victim phishing (victim org name prefixed to attacker-owned 'microsoft-alerts' domain)",
+      "detection": "Hunt for DNS/proxy requests where your own company name appears as a label on a non-Microsoft registrable domain containing 'microsoft'",
+      "source": "Google Safe Browsing (via phishunt)",
+      "source_url": "https://phishunt.io/suspicious/microsoft/",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0956",
+      "url": "https://reallifeaccounting.com/themelist0.html",
+      "domain": "reallifeaccounting.com",
+      "brand": "Microsoft 365 / Exchange Online",
+      "technique": "Final credential-harvest landing for the Nov 12 M365 outage 'held messages will be deleted in 24h' lure (incident EX1550543)",
+      "detection": "Proxy-hunt for /themelist0.html and for any HTTP referer chain from SendGrid click-tracking to a non-Microsoft host serving an M365 sign-in form",
+      "source": "Microsoft Threat Intelligence / Guardz",
+      "source_url": "https://guardz.com/blog/microsoft-365-phishing-wave/",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0957",
+      "url": "https://mivorantul.com",
+      "domain": "mivorantul.com",
+      "brand": "Microsoft 365",
+      "technique": "Intermediate redirect host in the M365-outage credential phishing chain (Cloudflare-fronted 104.21.61.38 / 172.67.205.201)",
+      "detection": "Block/alert on newly-registered Cloudflare-fronted domains appearing mid-chain between SendGrid click tracking and an M365 logon form",
+      "source": "Guardz",
+      "source_url": "https://guardz.com/blog/microsoft-365-phishing-wave/",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0958",
+      "url": "https://url7489.newbooker.com/ls/click",
+      "domain": "url7489.newbooker.com",
+      "brand": "Microsoft 365 / Exchange Online",
+      "technique": "Branded SendGrid click-tracking open-redirect fronting the outage-themed M365 phishing landing page",
+      "detection": "Flag mail containing /ls/click?upn= or /wf/open?upn= on branded SendGrid CNAMEs from senders claiming to be 'Service Health' or 'Mail-Restore-Auth'; SendGrid account ID 118254266",
+      "source": "Mimecast",
+      "source_url": "https://www.mimecast.com/blog/attackers-exploit-the-microsoft-365-outage-with-fake-held-messages-lures/",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "status": "active"
+    },
+    {
+      "id": "mfs-0959",
+      "url": "https://u118254266.ct.sendgrid.net/ls/click",
+      "domain": "u118254266.ct.sendgrid.net",
+      "brand": "Microsoft 365 / Exchange Online",
+      "technique": "Default SendGrid click-tracking redirect used in the same 'Outage - <6 chars>' / 'Restore messages' campaign",
+      "detection": "Detonate (don't just parse) SendGrid ct.sendgrid.net links — the destination is encrypted in the upn parameter; pivot on account ID 118254266",
+      "source": "Mimecast",
+      "source_url": "https://www.mimecast.com/blog/attackers-exploit-the-microsoft-365-outage-with-fake-held-messages-lures/",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "status": "active"
     }
   ]
 }
