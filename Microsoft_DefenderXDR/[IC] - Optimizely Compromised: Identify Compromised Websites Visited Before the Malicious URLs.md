@@ -12,6 +12,7 @@
 
 During the Optimizely compromise investigation, the article below highlights several affected organizations, including BBC, CNN, Zoom, GitLab, IKEA, and Ledger.
 We can correlate visits to these legitimate websites with subsequent connections to malicious domains to identify potential infection paths.
+
 Investigation Source: https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/
 
 ```
