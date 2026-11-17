@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-11-16"
+    "updated": "2026-11-17"
   },
   "entries": [
     {
@@ -34,45 +34,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0564",
-      "url": "http://login.oauth-live.com/",
-      "domain": "login.oauth-live.com",
-      "brand": "Microsoft Live / Microsoft Account",
-      "technique": "Typosquat/brand-combo domain (oauth-live.com) serving a 'login.' host that fronts the Microsoft Account sign-in clone",
-      "detection": "Block the apex oauth-live.com and alert on newly-observed domains matching regex (oauth|login|sso).*-?(live|msonline|microsoft) registered <30 days",
-      "source": "OpenPhish",
-      "source_url": "https://github.com/openphish/public_feed/blob/main/feed.txt",
-      "first_seen": "2026-10-18",
-      "last_seen": "2026-10-18",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0565",
-      "url": "https://teams-cloud.live/",
-      "domain": "teams-cloud.live",
-      "brand": "Microsoft Teams / Microsoft 365",
-      "technique": "Newly-registered (5-day-old) domain replicating the Teams sign-in screen and post-login Teams UI to harvest M365 credentials",
-      "detection": "Flag first-seen traffic to domains containing 'teams' on the .live/.cloud TLDs; correlate with brand-new WHOIS creation dates (<14 days) in your NRD feed",
-      "source": "CyberSecurityNews (researcher Steven Lim)",
-      "source_url": "https://cybersecuritynews.com/teams-domain-login-page/",
-      "first_seen": "2026-10-18",
-      "last_seen": "2026-10-18",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0566",
-      "url": "https://amgen.teams-cloud.live/",
-      "domain": "amgen.teams-cloud.live",
-      "brand": "Microsoft Teams / Microsoft 365",
-      "technique": "Victim-targeted subdomain of the teams-cloud.live Teams clone — org name prefixed as a subdomain for tailored lures (healthcare/pharma targeting)",
-      "detection": "Search DNS/SNI logs for your own company name appearing as the left-most label of an external domain (e.g. '<yourorg>.*'); that pattern is a reliable tailored-phish signal",
-      "source": "CyberSecurityNews (researcher Steven Lim)",
-      "source_url": "https://cybersecuritynews.com/teams-domain-login-page/",
-      "first_seen": "2026-10-18",
-      "last_seen": "2026-10-18",
-      "status": "active"
-    },
-    {
       "id": "mfs-0567",
       "url": "https://abcgil.com/EN/owa/",
       "domain": "abcgil.com",
@@ -83,45 +44,6 @@
       "source_url": "https://github.com/openphish/public_feed/blob/main/feed.txt",
       "first_seen": "2026-10-19",
       "last_seen": "2026-10-19",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0568",
-      "url": "http://dayoadeyemo.com/wp-content/uploads/e1tyxmv/dwlqv1x/ubmqvdy/new/outlook.html",
-      "domain": "dayoadeyemo.com",
-      "brand": "Microsoft Outlook / Microsoft 365",
-      "technique": "Compromised WordPress site — static outlook.html credential-harvest page dropped under /wp-content/uploads/ with randomized nested directories",
-      "detection": "Hunt web-proxy logs for '/wp-content/uploads/' paths ending in .html with Microsoft-brand filenames (outlook.html, myoffice.html, office365.html); uploads dirs should serve media, never HTML login forms",
-      "source": "OpenPhish / Phishunt",
-      "source_url": "https://github.com/openphish/public_feed/blob/main/feed.txt",
-      "first_seen": "2026-10-18",
-      "last_seen": "2026-10-18",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0569",
-      "url": "https://f005.backblazeb2.com/file/sinere/myoffice.html",
-      "domain": "f005.backblazeb2.com",
-      "brand": "Microsoft Office 365",
-      "technique": "HTML credential-harvest page hosted in a public Backblaze B2 bucket (trusted-cloud hosting abuse); same 'myoffice.html' kit family as prior B2 buckets",
-      "detection": "Block/alert on *.backblazeb2.com '/file/*/*.html' object fetches from user endpoints — B2 buckets serving HTML to browsers is near-universally phishing in enterprise traffic",
-      "source": "OpenPhish",
-      "source_url": "https://github.com/openphish/public_feed/blob/main/feed.txt",
-      "first_seen": "2026-10-18",
-      "last_seen": "2026-10-18",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0570",
-      "url": "https://spazioaperto-shared-document.live-document-mcs365980.workers.dev/",
-      "domain": "spazioaperto-shared-document.live-document-mcs365980.workers.dev",
-      "brand": "Microsoft 365 / SharePoint-OneDrive",
-      "technique": "Cloudflare Workers-hosted 'shared document' lure chaining to an M365 sign-in prompt; hostname embeds victim-org and 'mcs365' strings",
-      "detection": "Alert on *.workers.dev hostnames containing document/share/drive/365/mcs tokens; most orgs can safely treat user-facing workers.dev as block-by-default with an allowlist",
-      "source": "OpenPhish",
-      "source_url": "https://github.com/openphish/public_feed/blob/main/feed.txt",
-      "first_seen": "2026-10-18",
-      "last_seen": "2026-10-18",
       "status": "active"
     },
     {
