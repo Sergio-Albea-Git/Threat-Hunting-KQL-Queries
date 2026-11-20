@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "entries": [
     {
@@ -437,19 +437,6 @@
       "status": "active"
     },
     {
-      "id": "mfs-0620",
-      "url": "https://beacon-surge-sync.workers.dev",
-      "domain": "beacon-surge-sync.workers.dev",
-      "brand": "Microsoft 365 / Entra ID",
-      "technique": "Cloudflare Workers relay for the 'Wazza' OAuth device-code phishing kit — victim enters the attacker's code at microsoft.com/devicelogin, tokens are exfiltrated through this worker",
-      "detection": "You cannot block *.workers.dev wholesale, so match at hostname level in proxy logs; pair with Entra sign-in log hunting for authenticationProtocol = deviceCode from unexpected IPs/user agents",
-      "source": "Security Arsenal / AlienVault OTX pulse analysis (Wazza device code phishing kit)",
-      "source_url": "https://securityarsenal.com/blog/wazza-device-code-phishing-kit-gcp-llmjacking-campaign-otx-pulse-analysis-microsoft-365-and-cloud-credential-theft-detection-pack",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "status": "active"
-    },
-    {
       "id": "mfs-0621",
       "url": "https://miicro67soft.vercel.app/",
       "domain": "miicro67soft.vercel.app",
@@ -798,45 +785,6 @@
       "source_url": "http://www.phishtank.com/phish_detail.php?phish_id=9549165",
       "first_seen": "2026-10-23",
       "last_seen": "2026-10-23",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0648",
-      "url": "https://achermanrmalerch.click",
-      "domain": "achermanrmalerch.click",
-      "brand": "Microsoft 365",
-      "technique": "Disposable .click domain with a random-looking label serving a Microsoft sign-in clone",
-      "detection": "Block .click/.cfd/.sbs/.lat TLDs outright or gate them behind newly-registered-domain blocking (<30 days)",
-      "source": "PhishTank",
-      "source_url": "http://www.phishtank.com/phish_detail.php?phish_id=9547984",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0649",
-      "url": "https://fairsealines.com/scope/%7B%7BrandomVIII%7D%7D",
-      "domain": "fairsealines.com",
-      "brand": "Microsoft 365",
-      "technique": "Compromised legitimate site hosting a phish kit whose unrendered {{randomVIII}} template token leaked into the live URL",
-      "detection": "Grep web/mail logs for literal template placeholders — %7B%7B, {{, <%=, ${ — inside URLs; a dead giveaway for phish-kit misconfiguration",
-      "source": "PhishTank",
-      "source_url": "http://www.phishtank.com/phish_detail.php?phish_id=9547853",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0650",
-      "url": "https://leanl-rosy.vercel.app/",
-      "domain": "leanl-rosy.vercel.app",
-      "brand": "Microsoft 365",
-      "technique": "Vercel auto-generated '<word>-<colour>' project subdomain hosting a Microsoft credential page",
-      "detection": "Vercel's default adjective/colour naming ('-rosy', '-silk', '-coral', '-ashy', '-phi') on *.vercel.app is a reliable heuristic for this actor cluster",
-      "source": "PhishTank",
-      "source_url": "http://www.phishtank.com/phish_detail.php?phish_id=9547604",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
       "status": "active"
     },
     {
