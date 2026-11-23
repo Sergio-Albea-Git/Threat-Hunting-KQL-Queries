@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-11-22"
+    "updated": "2026-11-23"
   },
   "entries": [
     {
@@ -31,32 +31,6 @@
       "source_url": "https://phishunt.io/source/openphish/",
       "first_seen": "2026-10-25",
       "last_seen": "2026-10-25",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0595",
-      "url": "https://outlook-phi-one.vercel.app",
-      "domain": "outlook-phi-one.vercel.app",
-      "brand": "Microsoft Outlook",
-      "technique": "Fake Outlook sign-in page on Vercel free tier; Vercel auto-generated three-word subdomain pattern",
-      "detection": "Flag newly observed *.vercel.app domains whose first label starts with outlook-/microsoft-; correlate with first-seen <7 days in passive DNS",
-      "source": "OpenPhish (via phishunt.io)",
-      "source_url": "https://phishunt.io/source/openphish/",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0596",
-      "url": "https://grn-microsoft-outlook.vercel.app",
-      "domain": "grn-microsoft-outlook.vercel.app",
-      "brand": "Microsoft Outlook",
-      "technique": "Brand-stacked typosquat (multiple Microsoft brand tokens in one label) on Vercel",
-      "detection": "Score hostnames by count of Microsoft brand tokens (microsoft+outlook+office) in a single DNS label — two or more on a non-microsoft.com apex is near-certain phishing",
-      "source": "OpenPhish (via phishunt.io)",
-      "source_url": "https://phishunt.io/source/openphish/",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
       "status": "active"
     },
     {
@@ -499,19 +473,6 @@
       "source_url": "http://www.phishtank.com/phish_detail.php?phish_id=9551418",
       "first_seen": "2026-10-28",
       "last_seen": "2026-10-28",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0644",
-      "url": "https://doc-portail-groupegouletsports.vercel.app/",
-      "domain": "doc-portail-groupegouletsports.vercel.app",
-      "brand": "Microsoft 365",
-      "technique": "French-language 'document portal' lure impersonating a company's Microsoft 365 document share, hosted on Vercel",
-      "detection": "Alert on Vercel/Netlify subdomains containing a customer or partner company name plus 'portail'/'portal'/'doc'",
-      "source": "PhishTank",
-      "source_url": "http://www.phishtank.com/phish_detail.php?phish_id=9549571",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
       "status": "active"
     },
     {
