@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-11-24"
+    "updated": "2026-11-25"
   },
   "entries": [
     {
@@ -603,19 +603,6 @@
       "source_url": "https://phishdestroy.io/domain/micronosoft.com/",
       "first_seen": "2026-11-01",
       "last_seen": "2026-11-01",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0664",
-      "url": "https://emergingoutlookreport.com/",
-      "domain": "emergingoutlookreport.com",
-      "brand": "Microsoft Outlook",
-      "technique": "Impersonation-class Outlook phishing on Cloudflare CDN (London); NameCheap registration 2026-06-23, TLS valid to 2027-01-17",
-      "detection": "Alert on 'outlook'-containing apex domains aged <6 months behind Cloudflare; 16/92 VT, 3 OTX community references",
-      "source": "PhishDestroy / AlienVault OTX",
-      "source_url": "https://phishdestroy.io/domain/emergingoutlookreport.com/",
-      "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26",
       "status": "active"
     },
     {
