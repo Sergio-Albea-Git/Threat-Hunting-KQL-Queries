@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-11-25"
+    "updated": "2026-11-26"
   },
   "entries": [
     {
@@ -1240,97 +1240,6 @@
       "source_url": "https://phishunt.io/newregistration/microsoft/",
       "first_seen": "2026-10-29",
       "last_seen": "2026-10-29",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0716",
-      "url": "https://off365acess.jumpingcrab.com",
-      "domain": "off365acess.jumpingcrab.com",
-      "brand": "Microsoft 365",
-      "technique": "SkyW4lker phishing kit node abusing OAuth 2.0 device-code flow (T1528) on free dynamic-DNS host",
-      "detection": "Monitor Entra ID sign-in logs for unexpected device-code auth; alert on *.jumpingcrab.com, *.mooo.com, *.chickenkiller.com egress",
-      "source": "ANY.RUN",
-      "source_url": "https://any.run/cybersecurity-blog/skyw4lker-phishing-kit-analysis/",
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-10-27",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0717",
-      "url": "https://torvion.life",
-      "domain": "torvion.life",
-      "brand": "Microsoft 365",
-      "technique": "SkyW4lker kit hosting domain; landing path matches //it[A-Za-z0-9]{32}us",
-      "detection": "Hunt proxy URIs matching /assets/php/endpoints/session_public.php?action=start|poll",
-      "source": "ANY.RUN",
-      "source_url": "https://any.run/cybersecurity-blog/skyw4lker-phishing-kit-analysis/",
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-10-27",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0718",
-      "url": "https://priorispace.biz",
-      "domain": "priorispace.biz",
-      "brand": "Microsoft 365",
-      "technique": "SkyW4lker kit hosting domain with CAPTCHA/sandbox evasion before the M365 logon clone",
-      "detection": "Alert on requests to /assets/private_captcha/public/widget.js?v=4 and /assets/js/client_geo.js",
-      "source": "ANY.RUN",
-      "source_url": "https://any.run/cybersecurity-blog/skyw4lker-phishing-kit-analysis/",
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-10-27",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0719",
-      "url": "https://5200m.com",
-      "domain": "5200m.com",
-      "brand": "Microsoft 365",
-      "technique": "SkyW4lker kit hosting domain reached via Google Sites / Smartsheet redirect chains",
-      "detection": "Flag Google Sites and Smartsheet links that hop to unrelated low-reputation apexes",
-      "source": "ANY.RUN",
-      "source_url": "https://any.run/cybersecurity-blog/skyw4lker-phishing-kit-analysis/",
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-10-27",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0720",
-      "url": "https://ghethim.com",
-      "domain": "ghethim.com",
-      "brand": "Microsoft 365",
-      "technique": "SkyW4lker kit hosting domain; obfuscator.io-packed JS credential capture",
-      "detection": "Hunt /assets/js/endpoint.js and /assets/js/url_helper.js URI pairs on non-Microsoft hosts",
-      "source": "ANY.RUN",
-      "source_url": "https://any.run/cybersecurity-blog/skyw4lker-phishing-kit-analysis/",
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-10-27",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0721",
-      "url": "https://flow505.mooo.com",
-      "domain": "flow505.mooo.com",
-      "brand": "Microsoft 365",
-      "technique": "SkyW4lker kit node on FreeDNS dynamic-DNS subdomain",
-      "detection": "Block free dynamic-DNS parents (mooo.com, chickenkiller.com, jumpingcrab.com) at the resolver",
-      "source": "ANY.RUN",
-      "source_url": "https://any.run/cybersecurity-blog/skyw4lker-phishing-kit-analysis/",
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-10-27",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0722",
-      "url": "https://bigbrain.chickenkiller.com",
-      "domain": "bigbrain.chickenkiller.com",
-      "brand": "Microsoft 365",
-      "technique": "SkyW4lker kit node delivered via password-protected PDF/XLS/DOCX attachments",
-      "detection": "Quarantine password-protected attachments with subjects 'New Submission From' / 'Approved Statement'",
-      "source": "ANY.RUN",
-      "source_url": "https://any.run/cybersecurity-blog/skyw4lker-phishing-kit-analysis/",
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-10-27",
       "status": "active"
     },
     {
