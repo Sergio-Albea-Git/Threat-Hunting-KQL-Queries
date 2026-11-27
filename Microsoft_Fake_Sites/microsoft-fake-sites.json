@@ -4,7 +4,7 @@
     "purpose": "Defensive blocklist of LIVE URLs impersonating Microsoft sign-in pages (Microsoft 365, Outlook, Azure AD / Entra ID, Live) for blocking, detection engineering and threat hunting.",
     "warning": "URLs are REAL and UNDEFANGED. Do not visit or submit credentials — consume them in blocklists and hunting queries only. Refreshed hourly; rolling retention window.",
     "retention_days": "30",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
   },
   "entries": [
     {
@@ -395,58 +395,6 @@
       "source_url": "https://phishunt.io/suspicious/microsoft/",
       "first_seen": "2026-10-30",
       "last_seen": "2026-10-30",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0640",
-      "url": "https://sdc.bcn.mybluehost.me/",
-      "domain": "sdc.bcn.mybluehost.me",
-      "brand": "Microsoft 365",
-      "technique": "Compromised Bluehost staging/temp hostname (*.mybluehost.me) repurposed to host a Microsoft credential-harvest page",
-      "detection": "Alert on *.mybluehost.me and other hoster staging domains (*.temp.domains, *.wpengine.com) appearing in email links",
-      "source": "PhishTank",
-      "source_url": "http://www.phishtank.com/phish_detail.php?phish_id=9551744",
-      "first_seen": "2026-10-28",
-      "last_seen": "2026-10-28",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0641",
-      "url": "http://sdc.bcn.mybluehost.me/",
-      "domain": "sdc.bcn.mybluehost.me",
-      "brand": "Microsoft 365",
-      "technique": "Plain-HTTP variant of the same compromised Bluehost staging host serving the Microsoft sign-in clone",
-      "detection": "Any cleartext HTTP page collecting credentials is phishing by definition — block HTTP POSTs with password fields at the proxy",
-      "source": "PhishTank",
-      "source_url": "http://www.phishtank.com/phish_detail.php?phish_id=9551745",
-      "first_seen": "2026-10-28",
-      "last_seen": "2026-10-28",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0642",
-      "url": "https://global-fuchsia-9par6vcz-dp5x4caf1rmk.edgeone.dev/",
-      "domain": "global-fuchsia-9par6vcz-dp5x4caf1rmk.edgeone.dev",
-      "brand": "Microsoft 365",
-      "technique": "Tencent EdgeOne Pages (*.edgeone.dev) free edge hosting with a randomised subdomain fronting a fake Microsoft login",
-      "detection": "Add *.edgeone.dev to your newly-abused-hosting watchlist; alert on high-entropy multi-segment labels on edge/CDN dev domains",
-      "source": "PhishTank",
-      "source_url": "http://www.phishtank.com/phish_detail.php?phish_id=9551571",
-      "first_seen": "2026-10-28",
-      "last_seen": "2026-10-28",
-      "status": "active"
-    },
-    {
-      "id": "mfs-0643",
-      "url": "https://microfis-password-recovery.wasmer.app/",
-      "domain": "microfis-password-recovery.wasmer.app",
-      "brand": "Microsoft 365",
-      "technique": "Wasmer Edge hosting a 'Microfis' (Microsoft typosquat) password-recovery / password-reset credential lure",
-      "detection": "Hunt *.wasmer.app plus hostnames containing 'password-recovery', 'password-reset', 'mfa-reset' not on your IdP domain",
-      "source": "PhishTank",
-      "source_url": "http://www.phishtank.com/phish_detail.php?phish_id=9551418",
-      "first_seen": "2026-10-28",
-      "last_seen": "2026-10-28",
       "status": "active"
     },
     {
